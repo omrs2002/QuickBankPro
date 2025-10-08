@@ -1,0 +1,1348 @@
+{
+    "title": "Net Core Developer & Team Lead Interview 2025",
+    "description": "An interview tailored for a Senior .NET Core Developer and Team Lead role, based on your CV.",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is the primary difference between a `class` and a `struct` in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "Classes are reference types, structs are value types.",
+                "Structs support inheritance, classes do not.",
+                "Classes are sealed by default, structs are not.",
+                "Structs are stored on the heap, classes on the stack."
+            ],
+            "correctAnswer": "Classes are reference types, structs are value types.",
+            "explanation": "In C#, classes are reference types, meaning variables of a class type store references to their data (objects) on the heap. Structs are value types, meaning their variables directly contain their data and are typically stored on the stack, which can offer performance benefits for small, short-lived data structures."
+        },
+        {
+            "id": "002",
+            "text": "The `async` keyword by itself makes a method run asynchronously.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The `async` keyword is a modifier that allows the use of the `await` keyword within a method. It's the `await` keyword that actually pauses the method's execution until the awaited task completes, releasing the thread to do other work. Without `await`, an `async` method will run synchronously."
+        },
+        {
+            "id": "003",
+            "text": "In ASP.NET Core, what is the role of the Kestrel web server?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "It's a cross-platform web server used to host ASP.NET Core applications.",
+                "It's a reverse proxy server for IIS.",
+                "It's a tool for compiling Razor Pages.",
+                "It's the primary dependency injection container."
+            ],
+            "correctAnswer": "It's a cross-platform web server used to host ASP.NET Core applications.",
+            "explanation": "Kestrel is the default, in-process, cross-platform web server for ASP.NET Core. It's designed for high performance and is often used behind a reverse proxy server like IIS, Nginx, or Apache in production environments for added security and features."
+        },
+        {
+            "id": "004",
+            "text": "Which of the following is NOT a valid service lifetime for Dependency Injection in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "Singleton",
+                "Scoped",
+                "Transient",
+                "Static"
+            ],
+            "correctAnswer": "Static",
+            "explanation": "ASP.NET Core's built-in DI container supports three main lifetimes: Singleton (one instance for the lifetime of the application), Scoped (one instance per client request), and Transient (a new instance is created every time it's requested). 'Static' is not a DI lifetime."
+        },
+        {
+            "id": "005",
+            "text": "What is the primary purpose of an API Gateway in a microservices architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To act as a single entry point for all client requests.",
+                "To store application configuration for all services.",
+                "To manage database connections for microservices.",
+                "To directly handle inter-service communication."
+            ],
+            "correctAnswer": "To act as a single entry point for all client requests.",
+            "explanation": "An API Gateway serves as a reverse proxy to accept all application programming interface (API) calls, aggregate the various services required to fulfill them, and return the appropriate result. It simplifies the client by providing a single endpoint and can also handle concerns like authentication, SSL termination, and rate limiting."
+        },
+        {
+            "id": "006",
+            "text": "The 'S' in SOLID principles stands for Single Responsibility Principle.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Single Responsibility Principle (SRP) states that a class should have only one reason to change, meaning it should have only one job or responsibility. This promotes higher cohesion and lower coupling in your code."
+        },
+        {
+            "id": "007",
+            "text": "In Scrum, who is responsible for managing the Product Backlog?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "The Product Owner",
+                "The Scrum Master",
+                "The Development Team",
+                "The Project Manager"
+            ],
+            "correctAnswer": "The Product Owner",
+            "explanation": "The Product Owner is solely responsible for managing the Product Backlog. This includes creating and clearly communicating Product Backlog items, ordering the items to best achieve goals, and ensuring the backlog is visible, transparent, and understood by all."
+        },
+        {
+            "id": "008",
+            "text": "What is the purpose of `yield return` in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To provide a value to the enumerator of an iterator, enabling deferred execution.",
+                "To stop the execution of a method permanently.",
+                "To return multiple values from a method at the same time.",
+                "To create a new thread for a long-running task."
+            ],
+            "correctAnswer": "To provide a value to the enumerator of an iterator, enabling deferred execution.",
+            "explanation": "The `yield return` statement is used in an iterator block to return one element of a collection at a time, without loading the entire collection into memory. This is known as deferred execution and is highly efficient for processing large data sets."
+        },
+        {
+            "id": "009",
+            "text": "In Entity Framework Core, `Add-Migration` command updates the database schema directly.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The `Add-Migration` command scaffolds a new migration file based on changes made to your model since the last migration. It does not apply any changes to the database. The `Update-Database` command is used to apply the new migration and update the database schema."
+        },
+        {
+            "id": "010",
+            "text": "Your CV mentions Docker. What is the primary difference between a Docker image and a Docker container?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "An image is a read-only template; a container is a runnable instance of an image.",
+                "An image is a running process; a container is a file on disk.",
+                "Images are used for development; containers are used for production.",
+                "Images contain the OS; containers contain only the application code."
+            ],
+            "correctAnswer": "An image is a read-only template; a container is a runnable instance of an image.",
+            "explanation": "A Docker image is an immutable (unchangeable) file that contains the source code, libraries, dependencies, tools, and other files needed for an application to run. A container is a virtualized runtime environment, a live, running instance created from an image."
+        },
+        {
+            "id": "011",
+            "text": "What is the purpose of the `IConfiguration` interface in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To access configuration values from various sources like appsettings.json.",
+                "To configure the HTTP request pipeline.",
+                "To register services for dependency injection.",
+                "To manage user sessions and state."
+            ],
+            "correctAnswer": "To access configuration values from various sources like appsettings.json.",
+            "explanation": "`IConfiguration` provides a unified way to read key-value based configuration data from multiple sources, such as JSON files (appsettings.json), environment variables, command-line arguments, and Azure Key Vault."
+        },
+        {
+            "id": "012",
+            "text": "Which HTTP verb is idempotent?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "PUT",
+                "POST",
+                "PATCH",
+                "All of the above"
+            ],
+            "correctAnswer": "PUT",
+            "explanation": "An operation is idempotent if the result of performing it once is exactly the same as the result of performing it repeatedly. A `PUT` request to update a resource to a specific state is idempotent; making the same request multiple times will not change the outcome. `POST` is not idempotent as it typically creates a new resource each time."
+        },
+        {
+            "id": "013",
+            "text": "As a team lead, you notice two senior developers have a strong disagreement on a technical approach for a new feature. How would you handle this situation?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Facilitate a discussion, have them present pros and cons, and guide the team to a consensus.",
+                "Make an immediate decision yourself to avoid wasting time.",
+                "Tell them to figure it out themselves and report back with a single solution.",
+                "Escalate the issue to your manager."
+            ],
+            "correctAnswer": "Facilitate a discussion, have them present pros and cons, and guide the team to a consensus.",
+            "explanation": "A good team lead acts as a facilitator. The goal is to leverage the expertise of the team, ensure all viewpoints are heard, and make an informed decision that aligns with the project's goals. This approach fosters collaboration and shared ownership."
+        },
+        {
+            "id": "014",
+            "text": "What is the Global Assembly Cache (GAC) in the context of the full .NET Framework?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "A machine-wide code cache that stores assemblies to be shared by several applications.",
+                "A cache for frequently accessed web pages.",
+                "A security feature to encrypt assemblies.",
+                "It does not exist in .NET."
+            ],
+            "correctAnswer": "A machine-wide code cache that stores assemblies to be shared by several applications.",
+            "explanation": "The GAC was a central repository in the .NET Framework for storing assemblies shared across multiple applications on a single machine. It's important to note that .NET Core and modern .NET do not use the GAC, favoring application-local dependencies to avoid versioning conflicts ('DLL Hell')."
+        },
+        {
+            "id": "015",
+            "text": "What is the primary role of a CI/CD pipeline, as mentioned in your experience with Azure DevOps?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "To automate the build, testing, and deployment of applications.",
+                "To manage project backlogs and user stories.",
+                "To monitor application performance in production.",
+                "To provision cloud infrastructure."
+            ],
+            "correctAnswer": "To automate the build, testing, and deployment of applications.",
+            "explanation": "CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. The pipeline automates the steps to get new code from a developer's machine to production, including compiling the code (Build), running automated tests (Test), and deploying the application to various environments."
+        },
+        {
+            "id": "016",
+            "text": "In Domain-Driven Design (DDD), an Aggregate Root is the single point of entry for any modifications to the objects within the aggregate.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Aggregate Root is the only member of the aggregate that outside objects are allowed to hold a reference to. It is responsible for enforcing all invariants and business rules within the aggregate, ensuring the consistency of the objects it contains."
+        },
+        {
+            "id": "017",
+            "text": "Your CV mentions Redis. For what purpose is Redis most commonly used in a .NET Core application?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "As a distributed cache for improving performance.",
+                "As a primary relational database.",
+                "As a full-text search engine.",
+                "As a file storage system."
+            ],
+            "correctAnswer": "As a distributed cache for improving performance.",
+            "explanation": "Redis is an in-memory data structure store, used as a database, cache, and message broker. Its most common use case in web applications is as a high-performance distributed cache to store frequently accessed data, reducing the load on the primary database and speeding up response times."
+        },
+        {
+            "id": "018",
+            "text": "What does the `ConfigureAwait(false)` method call do?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "It prevents the continuation of an async method from running on the original synchronization context.",
+                "It cancels the asynchronous operation.",
+                "It forces the async method to run synchronously.",
+                "It configures the method to run with low priority."
+            ],
+            "correctAnswer": "It prevents the continuation of an async method from running on the original synchronization context.",
+            "explanation": "Using `ConfigureAwait(false)` on an awaited task tells the runtime that it doesn't need to resume the method on the original context (e.g., the UI thread in a client app or the request context in ASP.NET). This can improve performance and help prevent deadlocks, and is a best practice for library code."
+        },
+        {
+            "id": "019",
+            "text": "What is the purpose of middleware in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To handle requests and responses by assembling them into a pipeline.",
+                "To query the database using Entity Framework Core.",
+                "To manage front-end JavaScript packages.",
+                "To define the application's URL structure."
+            ],
+            "correctAnswer": "To handle requests and responses by assembling them into a pipeline.",
+            "explanation": "Middleware are software components that are assembled into an application pipeline to handle requests and responses. Each component chooses whether to pass the request to the next component in the pipeline, and can perform work before and after the next component is invoked. Examples include Authentication, Routing, and Static File middleware."
+        },
+        {
+            "id": "020",
+            "text": "Eventual Consistency is a consistency model used in distributed systems where updates to the data will eventually be propagated to all nodes, but not necessarily immediately.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Eventual consistency is a key concept in microservices and distributed systems. It prioritizes availability and performance over immediate consistency. It guarantees that if no new updates are made to a given data item, eventually all accesses to that item will return the last updated value."
+        },
+        {
+            "id": "021",
+            "text": "What is LINQ (Language Integrated Query) in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "A uniform query syntax to retrieve data from different sources (objects, SQL, XML).",
+                "A library for creating user interfaces.",
+                "A protocol for network communication.",
+                "A tool for compiling C# code."
+            ],
+            "correctAnswer": "A uniform query syntax to retrieve data from different sources (objects, SQL, XML).",
+            "explanation": "LINQ provides a powerful, SQL-like syntax directly within the C# language for querying collections of objects, SQL databases, ADO.NET Datasets, XML documents, and other data sources in a type-safe manner."
+        },
+        {
+            "id": "022",
+            "text": "Which of these is a key benefit of using the ABP Framework, mentioned in your skills?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "It provides a pre-built architecture with common modules like authentication and logging.",
+                "It is a front-end framework for building single-page applications.",
+                "It is a database management tool.",
+                "It is a cloud hosting provider."
+            ],
+            "correctAnswer": "It provides a pre-built architecture with common modules like authentication and logging.",
+            "explanation": "The ABP Framework is an open-source web application framework that provides a complete architecture and infrastructure to build modern applications. It is based on Domain-Driven Design and automatically provides cross-cutting concerns like dependency injection, validation, exception handling, logging, and authorization, accelerating development."
+        },
+        {
+            "id": "023",
+            "text": "In a code review, what is one of the most important aspects you would look for as a team lead?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Code readability, adherence to team standards, and correctness.",
+                "The number of lines of code written.",
+                "Whether the developer used the latest language features.",
+                "The personal coding style of the developer."
+            ],
+            "correctAnswer": "Code readability, adherence to team standards, and correctness.",
+            "explanation": "A team lead's primary focus during a code review should be on ensuring the code is maintainable, correct, and follows established team conventions. Readability is crucial for long-term maintenance. While performance and new features are important, they are secondary to producing clean, functional, and consistent code."
+        },
+        {
+            "id": "024",
+            "text": "The purpose of a `Dockerfile` is to define the steps to assemble a Docker image.",
+            "type": "true-false",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. `docker build` executes these instructions to create the final Docker image."
+        },
+        {
+            "id": "025",
+            "text": "What is the difference between `IQueryable<T>` and `IEnumerable<T>`?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "`IQueryable<T>` constructs a query to be executed by a data source; `IEnumerable<T>` operates on in-memory collections.",
+                "`IEnumerable<T>` is faster for database queries.",
+                "`IQueryable<T>` does not support deferred execution.",
+                "There is no functional difference."
+            ],
+            "correctAnswer": "`IQueryable<T>` constructs a query to be executed by a data source; `IEnumerable<T>` operates on in-memory collections.",
+            "explanation": "When you use `IQueryable<T>` with a provider like Entity Framework, the entire LINQ query (including filters, ordering, etc.) is translated into a native query language (like SQL) and executed on the database server. With `IEnumerable<T>`, the base query is executed, all data is loaded into memory, and then subsequent operations like filtering happen on the client side."
+        },
+        {
+            "id": "026",
+            "text": "In ASP.NET Core, routing middleware is responsible for mapping incoming requests to action methods on controllers.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The routing middleware examines the incoming request's URL and other properties to determine which endpoint should handle the request. It then dispatches the request to that endpoint, which is typically a controller's action method or a Minimal API handler."
+        },
+        {
+            "id": "027",
+            "text": "What is a 'Saga' pattern in a microservices architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "A pattern to manage transactions that span across multiple services using a sequence of local transactions.",
+                "A pattern for encrypting communication between services.",
+                "A pattern for deploying microservices to the cloud.",
+                "A pattern for versioning APIs."
+            ],
+            "correctAnswer": "A pattern to manage transactions that span across multiple services using a sequence of local transactions.",
+            "explanation": "Since distributed transactions (2PC) are often avoided in microservices, the Saga pattern is used to maintain data consistency. A saga is a sequence of local transactions where each transaction updates data in a single service. If a step fails, the saga executes compensating transactions to undo the preceding transactions."
+        },
+        {
+            "id": "028",
+            "text": "Which of the following is NOT a part of the daily Scrum meeting?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "What did I do yesterday that helped the Development Team meet the Sprint Goal?",
+                "What will I do today to help the Development Team meet the Sprint Goal?",
+                "Do I see any impediment that prevents me or the Development Team from meeting the Sprint Goal?",
+                "Detailed problem-solving of a complex bug."
+            ],
+            "correctAnswer": "Detailed problem-solving of a complex bug.",
+            "explanation": "The Daily Scrum is a 15-minute time-boxed event for the Development Team to synchronize activities and create a plan for the next 24 hours. It is not a detailed problem-solving meeting. If issues are raised, they are typically addressed by relevant team members immediately after the Daily Scrum."
+        },
+        {
+            "id": "029",
+            "text": "A database index improves the speed of data insertion operations.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A database index dramatically improves the speed of data retrieval operations (SELECT queries). However, it can slightly slow down data modification operations like INSERT, UPDATE, and DELETE because the index also needs to be updated."
+        },
+        {
+            "id": "030",
+            "text": "What is the 'Open' part of the Open-Closed Principle (OCP)?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Software entities should be open for extension.",
+                "Software entities should be open for modification.",
+                "Software source code should be open-source.",
+                "Software APIs should be open to the public."
+            ],
+            "correctAnswer": "Software entities should be open for extension.",
+            "explanation": "The Open-Closed Principle states that software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification. This means you should be able to add new functionality without changing existing code, typically by using interfaces, abstract classes, and inheritance."
+        },
+        {
+            "id": "031",
+            "text": "What is the purpose of the `[ApiController]` attribute in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To enable API-specific behaviors like automatic model validation and HTTP 400 responses.",
+                "To mark a class as a legacy Web Forms controller.",
+                "To enable Razor view rendering for a controller.",
+                "To configure the controller to only accept XML requests."
+            ],
+            "correctAnswer": "To enable API-specific behaviors like automatic model validation and HTTP 400 responses.",
+            "explanation": "Applying the `[ApiController]` attribute to a controller class enables several opinionated, API-specific conventions, including automatic model state validation (which returns a 400 Bad Request if invalid) and attribute routing requirements."
+        },
+        {
+            "id": "032",
+            "text": "In C#, a `delegate` is a type that represents references to methods with a particular parameter list and return type.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A delegate is essentially a type-safe function pointer. It allows methods to be passed as parameters, stored in variables, and invoked, which is fundamental for implementing events and callback methods."
+        },
+        {
+            "id": "033",
+            "text": "Your CV mentions mentoring junior developers. What is the first thing you would focus on when a new junior developer joins your team?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Setting up their development environment and explaining team coding standards.",
+                "Assigning them a complex critical bug to test their skills.",
+                "Asking them to lead the next design session.",
+                "Having them work in isolation for the first sprint."
+            ],
+            "correctAnswer": "Setting up their development environment and explaining team coding standards.",
+            "explanation": "Effective onboarding is critical. The first priority is to get the new developer productive and integrated. This involves ensuring their tools work correctly, they understand the team's workflow (source control, CI/CD), and are aware of the established coding conventions to ensure consistency."
+        },
+        {
+            "id": "034",
+            "text": "Service Discovery in a microservices architecture helps services find each other on the network dynamically.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In a microservices environment, service instances have dynamic network locations. A Service Discovery mechanism (like a Service Registry) maintains a list of services and their endpoints, allowing services to find and communicate with each other without hardcoding IP addresses and ports."
+        },
+        {
+            "id": "035",
+            "text": "In Entity Framework Core, what is the purpose of the `DbContext`?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "It represents a session with the database and is used to query and save instances of entities.",
+                "It is a tool for visually designing a database schema.",
+                "It is the command-line interface for managing migrations.",
+                "It directly executes raw SQL queries without object mapping."
+            ],
+            "correctAnswer": "It represents a session with the database and is used to query and save instances of entities.",
+            "explanation": "The `DbContext` is the primary class that your application interacts with for all database operations. It contains `DbSet<TEntity>` properties for each entity in your model, and it is responsible for change tracking and persisting data to the database."
+        },
+        {
+            "id": "036",
+            "text": "How does Docker improve the CI/CD process?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "It creates consistent, portable environments for building, testing, and deploying.",
+                "It writes the unit tests for the application automatically.",
+                "It speeds up the local developer's machine.",
+                "It manages the project's source code."
+            ],
+            "correctAnswer": "It creates consistent, portable environments for building, testing, and deploying.",
+            "explanation": "Docker solves the 'it works on my machine' problem. By containerizing the application and its dependencies, you ensure that the environment is identical across development, testing, and production, which makes the CI/CD pipeline more reliable and predictable."
+        },
+        {
+            "id": "037",
+            "text": "What is the `using` statement in C# used for?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To ensure that `IDisposable` objects are correctly disposed of.",
+                "To import namespaces into a code file.",
+                "To declare a type alias.",
+                "All of the above."
+            ],
+            "correctAnswer": "All of the above.",
+            "explanation": "The `using` keyword has multiple purposes. As a directive (`using System;`), it imports a namespace. As a statement (`using (var conn = new SqlConnection()) { ... }`), it provides a convenient syntax that ensures the correct use of IDisposable objects, automatically calling `Dispose()` when the object goes out of scope. As a static directive (`using static System.Math;`), it allows access to static members without qualifying the access with the type name."
+        },
+        {
+            "id": "038",
+            "text": "In ASP.NET Core, Minimal APIs provide a streamlined way to build HTTP APIs with less boilerplate code compared to traditional controllers.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Introduced in .NET 6, Minimal APIs allow developers to create fully functioning HTTP APIs with just a few lines of code in `Program.cs`, reducing the ceremony of creating separate controller classes, methods, and attribute routing for simple endpoints."
+        },
+        {
+            "id": "039",
+            "text": "What is the 'Dependency Inversion' principle in SOLID?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "High-level modules should not depend on low-level modules; both should depend on abstractions.",
+                "Dependencies should be physically inverted in the project file.",
+                "Low-level modules should depend on high-level modules.",
+                "Abstractions should depend on details."
+            ],
+            "correctAnswer": "High-level modules should not depend on low-level modules; both should depend on abstractions.",
+            "explanation": "This principle aims to decouple software modules. It states that you should depend upon abstractions (interfaces, abstract classes), not concretions (concrete classes). This allows you to easily swap out implementations (e.g., a SQL repository for an in-memory one) without changing the high-level module that uses it."
+        },
+        {
+            "id": "040",
+            "text": "As a team lead who is also a senior developer, how do you balance your time between coding tasks and leadership responsibilities?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Prioritize unblocking team members and facilitating progress over personal coding tasks.",
+                "Focus solely on coding and let the team manage itself.",
+                "Delegate all leadership tasks to the Scrum Master.",
+                "Alternate sprints between coding and leading."
+            ],
+            "correctAnswer": "Prioritize unblocking team members and facilitating progress over personal coding tasks.",
+            "explanation": "A primary role of a team lead is to be a 'force multiplier'. Your biggest impact comes from enabling your team to be more productive. This means prioritizing code reviews, answering questions, removing impediments, and facilitating design discussions over completing your own tickets. Effective time management, like blocking out specific time for focus work, is also key."
+        },
+        {
+            "id": "041",
+            "text": "Common Table Expression (CTE) in SQL is a temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "CTEs, defined using the `WITH` clause, are useful for simplifying complex queries, avoiding repetition of subqueries, and enabling recursive queries, such as for traversing hierarchical data."
+        },
+        {
+            "id": "042",
+            "text": "What is a 'Circuit Breaker' pattern used for in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To handle failures when calling a remote service and prevent cascading failures.",
+                "To break the build in a CI/CD pipeline if tests fail.",
+                "To terminate user sessions after a period of inactivity.",
+                "To restrict access to a service based on IP address."
+            ],
+            "correctAnswer": "To handle failures when calling a remote service and prevent cascading failures.",
+            "explanation": "The Circuit Breaker pattern wraps a protected function call in an object that monitors for failures. When failures reach a certain threshold, the circuit breaker trips, and all further calls return an error immediately, without making the protected call. This prevents a service from repeatedly trying to call a failing or slow downstream service, thus conserving resources and preventing system-wide failures."
+        },
+        {
+            "id": "043",
+            "text": "Which .NET tool is used for managing dependencies and building .NET projects from the command line?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "The .NET CLI (`dotnet`)",
+                "NuGet Package Manager Console",
+                "MSBuild",
+                "Visual Studio"
+            ],
+            "correctAnswer": "The .NET CLI (`dotnet`)",
+            "explanation": "The .NET Command-Line Interface (CLI) is a cross-platform toolchain for developing, building, running, and publishing .NET applications. Commands like `dotnet build`, `dotnet run`, `dotnet add package`, and `dotnet publish` are fundamental to the modern .NET workflow."
+        },
+        {
+            "id": "044",
+            "text": "What is the difference between `==` and `.Equals()` for reference types in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "By default, both check for reference equality, but `.Equals()` can be overridden to check for value equality.",
+                " `==` checks for value equality, while `.Equals()` checks for reference equality.",
+                "`.Equals()` is an older method and should not be used.",
+                "There is no difference; they are interchangeable."
+            ],
+            "correctAnswer": "By default, both check for reference equality, but `.Equals()` can be overridden to check for value equality.",
+            "explanation": "For reference types, the default behavior of both the `==` operator and the virtual `.Equals()` method is to compare references (do two variables point to the exact same object in memory?). However, it's a common practice to override the `.Equals()` method to implement value equality (do two objects have the same data?), as seen in types like `string`."
+        },
+        {
+            "id": "045",
+            "text": "What is the Sprint Retrospective?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "A meeting where the Scrum Team inspects itself and creates a plan for improvements.",
+                "A meeting to demonstrate the work done during the sprint to stakeholders.",
+                "A meeting to plan the work for the next sprint.",
+                "A meeting to review the product backlog."
+            ],
+            "correctAnswer": "A meeting where the Scrum Team inspects itself and creates a plan for improvements.",
+            "explanation": "The Sprint Retrospective is an opportunity for the Scrum Team to reflect on the past sprint regarding people, relationships, process, and tools. The goal is to identify what went well and what could be improved, and to create a plan for implementing improvements in the next Sprint."
+        },
+        {
+            "id": "046",
+            "text": "What is a 'Repository Pattern'?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "A design pattern that mediates between the domain and data mapping layers using a collection-like interface.",
+                "A place where source code is stored, like Git.",
+                "A pattern for creating objects without specifying the exact class of object that will be created.",
+                "A pattern for caching frequently accessed data."
+            ],
+            "correctAnswer": "A design pattern that mediates between the domain and data mapping layers using a collection-like interface.",
+            "explanation": "The Repository Pattern decouples your business logic from the data access logic. Your services interact with a repository interface (e.g., `IUserRepository`) that exposes methods like `GetUserById` or `AddUser`. The concrete implementation of this repository then handles the specifics of how to fetch or save that data, whether it's using EF Core, Dapper, or another data access technology."
+        },
+        {
+            "id": "047",
+            "text": "In a `try-catch-finally` block, the `finally` block will always be executed, regardless of whether an exception was thrown or caught.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The `finally` block is used to execute a given set of statements, whether an exception is thrown or not. It's typically used for cleanup operations, such as closing file streams or database connections, to ensure that resources are released properly. (Note: There are rare exceptions like `Environment.FailFast` that can prevent it from running)."
+        },
+        {
+            "id": "048",
+            "text": "What is the purpose of the `launchSettings.json` file in an ASP.NET Core project?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To configure how the application is launched for local development, including profiles and environment variables.",
+                "To define the application's dependencies.",
+                "To store production connection strings and secrets.",
+                "To configure the CI/CD pipeline."
+            ],
+            "correctAnswer": "To configure how the application is launched for local development, including profiles and environment variables.",
+            "explanation": "`launchSettings.json` contains profiles that describe how to start the application when debugging locally from Visual Studio or using `dotnet run`. It specifies things like the launch URL, application arguments, and which environment variables to set, such as `ASPNETCORE_ENVIRONMENT`."
+        },
+        {
+            "id": "049",
+            "text": "What does ORM stand for?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "Object-Relational Mapping",
+                "Object-Resource Management",
+                "Oracle-Relation Model",
+                "Object-Request Module"
+            ],
+            "correctAnswer": "Object-Relational Mapping",
+            "explanation": "ORM is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. An ORM, like Entity Framework Core, handles the 'translation' between the objects in your application code and the relational tables in the database."
+        },
+        {
+            "id": "050",
+            "text": "What is the main difference between Authentication and Authorization?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Authentication is verifying who you are; Authorization is verifying what you are allowed to do.",
+                "Authorization is verifying who you are; Authentication is verifying what you are allowed to do.",
+                "They are the same concept.",
+                "Authentication is for users; Authorization is for services."
+            ],
+            "correctAnswer": "Authentication is verifying who you are; Authorization is verifying what you are allowed to do.",
+            "explanation": "Authentication (AuthN) is the process of confirming a user's identity, usually with a username and password or a token. Authorization (AuthZ) is the process of determining if an authenticated user has permission to access a specific resource or perform an action."
+        },
+        {
+            "id": "051",
+            "text": "A generic type in C# is defined using angle brackets, like `List<T>`.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Generics allow you to define type-safe data structures without committing to an actual data type. This allows a class or method to operate on various types while maintaining compile-time type safety. `T` is a type parameter that gets replaced with a real type when the generic type is used."
+        },
+        {
+            "id": "052",
+            "text": "What is the purpose of 'Health Checks' in a microservices architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To report the health of a service to a monitoring system or container orchestrator.",
+                "To check for security vulnerabilities in the code.",
+                "To validate the user input for an API endpoint.",
+                "To check the health of the development team."
+            ],
+            "correctAnswer": "To report the health of a service to a monitoring system or container orchestrator.",
+            "explanation": "Health check endpoints (e.g., `/health`) provide a way for external systems like Kubernetes or a load balancer to determine if a service instance is running correctly and ready to handle traffic. This allows for automated recovery, like restarting an unhealthy container."
+        },
+        {
+            "id": "053",
+            "text": "How do you handle secrets like connection strings in a production ASP.NET Core application deployed to Azure?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "Use a service like Azure Key Vault.",
+                "Store them directly in `appsettings.Production.json` and check it into source control.",
+                "Hardcode them in the source code.",
+                "Email them to the operations team."
+            ],
+            "correctAnswer": "Use a service like Azure Key Vault.",
+            "explanation": "Secrets should never be stored in source control. The best practice is to use a secure secret management service. Azure Key Vault provides a centralized, secure store for application secrets. The application can then be configured to read from Key Vault at runtime, using managed identities for secure access."
+        },
+        {
+            "id": "054",
+            "text": "What is the 'Definition of Done' in Scrum?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "A shared understanding of what it means for work to be complete and potentially shippable.",
+                "A document signed by the stakeholders at the end of the sprint.",
+                "When the sprint backlog is empty.",
+                "When the code is committed to the main branch."
+            ],
+            "correctAnswer": "A shared understanding of what it means for work to be complete and potentially shippable.",
+            "explanation": "The Definition of Done (DoD) is a formal description of the state of the Increment when it meets the quality measures required for the product. It is a checklist of activities (e.g., code reviewed, unit tests passed, documentation updated) that ensures everyone on the team knows exactly what is expected for a story to be considered complete."
+        },
+        {
+            "id": "055",
+            "text": "Entity Framework Core uses a concept called 'Change Tracking' to keep track of modifications to entities.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "When you query for entities, the `DbContext` creates a 'snapshot' of them. When you call `SaveChanges()`, it compares the current state of the entities with the original snapshot to determine which entities have been added, modified, or deleted, and then generates the appropriate SQL commands."
+        },
+        {
+            "id": "056",
+            "text": "What is the difference between an abstract class and an interface in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "A class can inherit from only one abstract class but can implement multiple interfaces.",
+                "Interfaces can contain implementation details for methods, abstract classes cannot.",
+                "Abstract classes cannot have constructors.",
+                "A class can inherit from multiple abstract classes."
+            ],
+            "correctAnswer": "A class can inherit from only one abstract class but can implement multiple interfaces.",
+            "explanation": "This is a key difference. Abstract classes can provide some base implementation and state, representing an 'is-a' relationship. Interfaces define a contract of what a class 'can do' and cannot contain state (fields). A class can only have one parent class (single inheritance) but can implement any number of interfaces."
+        },
+        {
+            "id": "057",
+            "text": "What is the purpose of a 'Filter' in ASP.NET Core MVC?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To run code before or after certain stages in the request processing pipeline.",
+                "To filter database query results.",
+                "To filter out unwanted HTTP headers.",
+                "To provide CSS and JavaScript file bundling."
+            ],
+            "correctAnswer": "To run code before or after certain stages in the request processing pipeline.",
+            "explanation": "Filters allow you to execute custom logic at specific points in the MVC pipeline, such as before or after an action method executes, or when an exception occurs. They are a powerful way to handle cross-cutting concerns like authorization, logging, and exception handling."
+        },
+        {
+            "id": "058",
+            "text": "The 'Saga' and 'Circuit Breaker' patterns are examples of resilience patterns in microservices.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Resilience patterns are strategies for building applications that can withstand and recover from failures. The Circuit Breaker pattern prevents cascading failures, while the Saga pattern provides a way to manage data consistency in the face of failures, both contributing to a more robust, resilient system."
+        },
+        {
+            "id": "059",
+            "text": "How would you approach modernizing a legacy ASP.NET Web Forms application, like the one mentioned in your experience?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Adopt the Strangler Fig pattern to incrementally replace parts of the application with new .NET Core microservices.",
+                "Perform a 'big bang' rewrite of the entire application at once.",
+                "Keep adding new features to the existing Web Forms application indefinitely.",
+                "Migrate the database to a NoSQL solution first."
+            ],
+            "correctAnswer": "Adopt the Strangler Fig pattern to incrementally replace parts of the application with new .NET Core microservices.",
+            "explanation": "The Strangler Fig pattern is a common and lower-risk approach to modernization. You gradually create new services around the edges of the old system, and over time, the new system 'strangles' or replaces the old one. A 'big bang' rewrite is often very risky, expensive, and can fail to deliver value for a long time."
+        },
+        {
+            "id": "060",
+            "text": "What is the purpose of the 'Sprint Goal' in Scrum?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "To provide a cohesive objective for the Sprint, encouraging the team to work together.",
+                "To list every single task that must be completed.",
+                "To set performance metrics for individual developers.",
+                "To define the release date for the product."
+            ],
+            "correctAnswer": "To provide a cohesive objective for the Sprint, encouraging the team to work together.",
+            "explanation": "The Sprint Goal is a high-level objective that the Development Team works to achieve during the Sprint. It provides guidance on why it is building the Increment and gives the team flexibility regarding the functionality implemented. It promotes collaboration and focus."
+        },
+        {
+            "id": "061",
+            "text": "What is boxing and unboxing in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "Boxing is converting a value type to a reference type; unboxing is the reverse.",
+                "Boxing is encrypting data; unboxing is decrypting it.",
+                "Boxing is creating a private class; unboxing is making it public.",
+                "Boxing is compiling code; unboxing is decompiling it."
+            ],
+            "correctAnswer": "Boxing is converting a value type to a reference type; unboxing is the reverse.",
+            "explanation": "Boxing is the process of converting a value type (like `int` or `struct`) to the `object` type or any interface type implemented by this value type. This involves creating a new object on the heap and copying the value into it. Unboxing extracts the value type from the object. These operations can have a performance cost."
+        },
+        {
+            "id": "062",
+            "text": "What is the purpose of the `[BindProperty]` attribute in Razor Pages?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To opt-in a property on the PageModel class for model binding from the request.",
+                "To bind a property to a configuration file.",
+                "To prevent a property from being serialized to JSON.",
+                "To specify the database table a property maps to."
+            ],
+            "correctAnswer": "To opt-in a property on the PageModel class for model binding from the request.",
+            "explanation": "By default, Razor Pages only binds properties from POST requests. Adding `[BindProperty(SupportsGet = true)]` allows the property to be bound from GET requests as well. This attribute simplifies handling form data and query string parameters by automatically mapping them to properties on your `PageModel`."
+        },
+        {
+            "id": "063",
+            "text": "A SQL transaction ensures that a group of operations are executed in an all-or-nothing fashion.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Transactions are used to enforce data integrity by grouping a series of SQL statements into a single logical unit of work. If any statement in the transaction fails, the entire transaction is rolled back, and the database is left in the state it was in before the transaction started. This is known as Atomicity, a property of ACID."
+        },
+        {
+            "id": "064",
+            "text": "In your projects like the Saudi Business Center, you likely dealt with asynchronous communication. What is a key benefit of using a message broker (like RabbitMQ or Azure Service Bus) for inter-service communication?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "It decouples services and improves resilience by allowing them to operate even if other services are temporarily unavailable.",
+                "It guarantees the fastest possible communication between services.",
+                "It simplifies debugging by making all calls synchronous.",
+                "It eliminates the need for a network."
+            ],
+            "correctAnswer": "It decouples services and improves resilience by allowing them to operate even if other services are temporarily unavailable.",
+            "explanation": "With a message broker, a producer service sends a message to a queue without knowing which service will consume it, or even if the consumer is currently running. The consumer can process the message when it's ready. This temporal decoupling makes the overall system more resilient to transient failures."
+        },
+        {
+            "id": "065",
+            "text": "What is the 'Liskov Substitution Principle' (LSP)?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.",
+                "Classes should depend on abstractions, not concretions.",
+                "A class should have only one reason to change.",
+                "Clients should not be forced to depend on interfaces they do not use."
+            ],
+            "correctAnswer": "Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.",
+            "explanation": "LSP is a core concept of object-oriented programming. It means that a subclass should extend its parent class without changing its behavior in a way that would break the client code. For example, if a `Square` class inherits from a `Rectangle` class and changes the behavior of `SetWidth` to also set the height, it might violate LSP."
+        },
+        {
+            "id": "066",
+            "text": "The `static` keyword in C# means that a member belongs to the type itself, rather than to a specific object instance.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "You access a static member (method, property, or field) using the class name, not an instance variable. There is only one copy of a static member, regardless of how many instances of the class are created. This is useful for utility methods or data that is shared across all instances."
+        },
+        {
+            "id": "067",
+            "text": "What is a 'YAML' file commonly used for in a DevOps context?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "Defining configuration for CI/CD pipelines and infrastructure.",
+                "Writing application source code.",
+                "Storing relational data.",
+                "Designing user interfaces."
+            ],
+            "correctAnswer": "Defining configuration for CI/CD pipelines and infrastructure.",
+            "explanation": "YAML (YAML Ain't Markup Language) is a human-readable data serialization standard. It is widely used for configuration files. In DevOps, tools like Azure DevOps (Pipelines as Code), Kubernetes, and Docker Compose use YAML to define build processes, deployments, and system configurations."
+        },
+        {
+            "id": "068",
+            "text": "What is the primary role of the Scrum Master?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "To ensure the Scrum team adheres to Scrum theory, practices, and rules, and to remove impediments.",
+                "To manage the project budget and timeline.",
+                "To assign tasks to the development team members.",
+                "To define the product features and prioritize the backlog."
+            ],
+            "correctAnswer": "To ensure the Scrum team adheres to Scrum theory, practices, and rules, and to remove impediments.",
+            "explanation": "The Scrum Master is a servant-leader for the Scrum Team. They help the team understand and enact Scrum, facilitate Scrum events as needed, and work to remove any obstacles that are blocking the team's progress. They do not manage the team but rather coach them in self-organization."
+        },
+        {
+            "id": "069",
+            "text": "HTTP is a stateless protocol.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Stateless means that the server does not store any state about the client between requests. Each request from a client to a server must contain all the information necessary for the server to understand and process the request. State is typically managed on the client side using cookies, tokens, or other mechanisms."
+        },
+        {
+            "id": "070",
+            "text": "What is the purpose of the `CancellationToken` in an `async` method?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To signal that an operation should be cancelled.",
+                "To limit the amount of time an operation can run.",
+                "To store the result of an asynchronous operation.",
+                "To provide a unique identifier for a task."
+            ],
+            "correctAnswer": "To signal that an operation should be cancelled.",
+            "explanation": "A `CancellationToken` is used to propagate notification that an operation should be canceled. The caller creates a `CancellationTokenSource` and passes its `Token` to the async method. The async method can then periodically check the token's `IsCancellationRequested` property and gracefully stop its work if cancellation has been requested."
+        },
+        {
+            "id": "071",
+            "text": "What does CQRS stand for?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Command Query Responsibility Segregation",
+                "Complex Query Relational System",
+                "Central Queue Routing Service",
+                "Client Query Request Specification"
+            ],
+            "correctAnswer": "Command Query Responsibility Segregation",
+            "explanation": "CQRS is an architectural pattern that separates the models used for reading data (Queries) from the models used for updating data (Commands). This allows for independent scaling and optimization of read and write operations, which can be very beneficial in complex, high-traffic systems."
+        },
+        {
+            "id": "072",
+            "text": "In ASP.NET Core, `app.UseRouting()` and `app.UseEndpoints()` are used to configure the middleware pipeline for routing requests.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "`app.UseRouting()` adds the route matching middleware to the pipeline. `app.UseEndpoints()` adds the endpoint execution middleware, where the matched endpoint (e.g., a controller action) is executed. Other middleware that needs to know about the matched route (like `app.UseAuthentication` and `app.UseAuthorization`) should be placed between these two calls."
+        },
+        {
+            "id": "073",
+            "text": "What is the primary key in a relational database table?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "A constraint that uniquely identifies each record in a table.",
+                "A key used to encrypt the data in the table.",
+                "The first column defined in the table.",
+                "A key that links to a primary key in another table."
+            ],
+            "correctAnswer": "A constraint that uniquely identifies each record in a table.",
+            "explanation": "A primary key must contain unique values and cannot contain NULL values. It is a fundamental concept for ensuring data integrity and for creating relationships between tables (via foreign keys)."
+        },
+        {
+            "id": "074",
+            "text": "A key part of your team lead role is mentoring. How do you promote knowledge sharing within your team?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Encourage pair programming, hold regular tech talks, and maintain clear documentation.",
+                "Only allow senior developers to work on complex tasks.",
+                "Discourage developers from asking questions.",
+                "Keep all important information to yourself to maintain authority."
+            ],
+            "correctAnswer": "Encourage pair programming, hold regular tech talks, and maintain clear documentation.",
+            "explanation": "A healthy team culture promotes continuous learning and knowledge sharing. Techniques like pair programming (where two developers work together at one workstation), internal tech talks or 'lunch and learns', and maintaining accessible, up-to-date documentation are excellent ways to spread knowledge and reduce knowledge silos."
+        },
+        {
+            "id": "075",
+            "text": "What is garbage collection in .NET?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "An automatic memory management process that reclaims memory occupied by objects that are no longer in use.",
+                "A process for deleting old files from the hard drive.",
+                "A tool for cleaning up unused NuGet packages.",
+                "A manual process where developers must explicitly deallocate memory."
+            ],
+            "correctAnswer": "An automatic memory management process that reclaims memory occupied by objects that are no longer in use.",
+            "explanation": "The .NET garbage collector (GC) is a core feature that simplifies memory management for developers. It periodically checks for objects in the managed heap that are no longer reachable by the application and frees the memory they were using, preventing memory leaks."
+        },
+        {
+            "id": "076",
+            "text": "In RESTful API design, a `GET` request should not have a request body.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "According to the HTTP specification, a `GET` request is used to retrieve data. Any parameters needed for the retrieval should be passed in the URL (as query parameters). A `GET` request with a body has undefined semantics and may be rejected by servers, proxies, and caches. Data should be sent in the body of `POST`, `PUT`, or `PATCH` requests."
+        },
+        {
+            "id": "077",
+            "text": "What is an 'Action Filter' in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "A type of filter that is executed immediately before and after an action method is called.",
+                "A filter that only allows certain HTTP actions like GET or POST.",
+                "A filter that sanitizes the action's input parameters.",
+                "A filter that is applied globally to all actions."
+            ],
+            "correctAnswer": "A type of filter that is executed immediately before and after an action method is called.",
+            "explanation": "Action filters are a specific type of filter that wrap the execution of an action method. They are useful for tasks that are specific to an action, such as caching the result of an action or manipulating the arguments passed to an action."
+        },
+        {
+            "id": "078",
+            "text": "A 'pull request' (or merge request) is a mechanism in Git-based source control for a developer to notify team members that they have completed a feature and want it reviewed and merged into another branch.",
+            "type": "true-false",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Pull requests are a core component of collaborative development workflows. They create a formal place for code reviews, discussions, and running automated checks (via CI pipelines) before integrating the new code into a shared branch like `main` or `develop`."
+        },
+        {
+            "id": "079",
+            "text": "In C#, what is the purpose of the `IDisposable` interface?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To provide a mechanism for releasing unmanaged resources.",
+                "To make an object serializable.",
+                "To enable an object to be used in a `foreach` loop.",
+                "To allow an object to be garbage collected."
+            ],
+            "correctAnswer": "To provide a mechanism for releasing unmanaged resources.",
+            "explanation": "The garbage collector is responsible for managed memory, but not for unmanaged resources like file handles, database connections, or network sockets. The `IDisposable` interface defines a single method, `Dispose()`, which should be implemented to explicitly release these unmanaged resources. The `using` statement is the preferred way to ensure `Dispose()` is called."
+        },
+        {
+            "id": "080",
+            "text": "How can you prevent 'SQL Injection' attacks?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "By using parameterized queries or an ORM like Entity Framework Core.",
+                "By concatenating user input directly into SQL strings.",
+                "By validating user input on the client-side only.",
+                "By encrypting the entire database."
+            ],
+            "correctAnswer": "By using parameterized queries or an ORM like Entity Framework Core.",
+            "explanation": "SQL Injection occurs when malicious user input is concatenated into a dynamic SQL query, potentially allowing an attacker to execute arbitrary commands on the database. Parameterized queries and ORMs ensure that user input is treated strictly as data, not as executable code, which is the most effective way to prevent this type of attack."
+        },
+        {
+            "id": "081",
+            "text": "The 'Velocity' of a Scrum team is a measure of the amount of work a team can tackle during a single Sprint.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Velocity is calculated at the end of the Sprint by totaling the points of all fully completed Product Backlog Items. It is a historical average and is used for forecasting and planning future Sprints, not as a performance metric to compare teams."
+        },
+        {
+            "id": "082",
+            "text": "What is the 'Singleton' design pattern?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "A pattern that ensures a class has only one instance and provides a global point of access to it.",
+                "A pattern for creating a single database connection.",
+                "A pattern that allows only a single user to log into the system at a time.",
+                "A pattern for writing single-line methods."
+            ],
+            "correctAnswer": "A pattern that ensures a class has only one instance and provides a global point of access to it.",
+            "explanation": "The Singleton pattern is used when exactly one object is needed to coordinate actions across the system. For example, a logging service or a configuration manager might be implemented as a Singleton. It's worth noting that while it has its uses, it can also be considered an anti-pattern if overused as it can introduce global state."
+        },
+        {
+            "id": "083",
+            "text": "What is a 'record' type in modern C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "A reference type that provides built-in functionality for encapsulating data, primarily used for immutable objects.",
+                "A special type of struct for recording audio.",
+                "A value type used for database records.",
+                "An alias for the `class` keyword."
+            ],
+            "correctAnswer": "A reference type that provides built-in functionality for encapsulating data, primarily used for immutable objects.",
+            "explanation": "Introduced in C# 9, records are designed to be simple data carriers. The compiler automatically generates methods like `.Equals()`, `.GetHashCode()`, and `.ToString()` based on the record's properties, making them excellent for creating immutable data transfer objects (DTOs) with value-based equality."
+        },
+        {
+            "id": "084",
+            "text": "What is 'Tag Helper' in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "Server-side code that participates in creating and rendering HTML elements in Razor files.",
+                "A way to add HTML tags to C# code.",
+                "A tool for managing CSS classes.",
+                "A JavaScript library for DOM manipulation."
+            ],
+            "correctAnswer": "Server-side code that participates in creating and rendering HTML elements in Razor files.",
+            "explanation": "Tag Helpers enable server-side code to create and modify HTML elements in Razor views. For example, an `<input>` element with the `asp-for` tag helper can automatically generate the correct `id`, `name`, and `value` attributes based on a model property, providing a more HTML-friendly development experience compared to older HTML Helpers."
+        },
+        {
+            "id": "085",
+            "text": "Consumer-Driven Contract Testing is a technique to ensure that a service provider (API) and its consumers (clients) have a shared understanding of the API's contract.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In this pattern, the consumer of an API writes a 'contract' that specifies the interactions they expect. This contract is then used as a test suite for the provider. It helps catch breaking changes early and allows teams to evolve their services independently and with confidence."
+        },
+        {
+            "id": "086",
+            "text": "What is the difference between a `Clustered` and a `Non-Clustered` index in SQL Server?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "A clustered index determines the physical order of data in a table; a non-clustered index has a separate structure that points back to the data rows.",
+                "Clustered indexes are for numeric data; non-clustered are for text.",
+                "A table can have multiple clustered indexes but only one non-clustered index.",
+                "Non-clustered indexes are faster for all operations."
+            ],
+            "correctAnswer": "A clustered index determines the physical order of data in a table; a non-clustered index has a separate structure that points back to the data rows.",
+            "explanation": "Because a clustered index dictates the physical storage order, a table can only have one. It's like the main organization of a phone book, sorted by last name. A non-clustered index is like the index at the back of a book; it's a separate list with pointers to the actual data, and a table can have many of them."
+        },
+        {
+            "id": "087",
+            "text": "How do you resolve a merge conflict in Git?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "Manually edit the conflicted files to choose the desired changes, then commit the resolved file.",
+                "Delete the branch and start over.",
+                "Run `git merge --force`.",
+                "Ask a senior developer to fix it."
+            ],
+            "correctAnswer": "Manually edit the conflicted files to choose the desired changes, then commit the resolved file.",
+            "explanation": "A merge conflict occurs when Git is unable to automatically resolve differences in code between two commits. The developer must intervene. Git marks the conflicted areas in the file, and the developer needs to edit the file to remove the conflict markers and incorporate the correct code from both branches before completing the merge by staging and committing the changes."
+        },
+        {
+            "id": "088",
+            "text": "What is a 'Unit Test'?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "A test that verifies the behavior of a small, isolated piece of code, like a single method or class.",
+                "A test that verifies the interaction between several parts of the system.",
+                "A manual test performed by a QA engineer.",
+                "A test that measures the performance of the entire application."
+            ],
+            "correctAnswer": "A test that verifies the behavior of a small, isolated piece of code, like a single method or class.",
+            "explanation": "Unit tests are the foundation of a good testing strategy. They are fast, focused, and test a 'unit' of code in isolation from its dependencies (which are often replaced with mocks or stubs). This allows developers to verify the correctness of their logic quickly and reliably."
+        },
+        {
+            "id": "089",
+            "text": "In C#, a `const` field's value is evaluated at compile time, while a `readonly` field's value is evaluated at runtime.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A `const` is a compile-time constant, and its value is baked directly into the IL code where it's used. It must be initialized at declaration. A `readonly` field can be initialized either at declaration or in the constructor, and its value is set at runtime. This means `readonly` fields can have different values for different instances of a class."
+        },
+        {
+            "id": "090",
+            "text": "As a team lead, a stakeholder asks for a major feature change in the middle of a Sprint. How do you respond?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Explain the impact on the Sprint Goal and work with the Product Owner to add the request to the Product Backlog for future prioritization.",
+                "Immediately stop all current work and start on the new feature.",
+                "Tell the stakeholder that changes are never allowed during a Sprint.",
+                "Promise the stakeholder it will be done without consulting the team."
+            ],
+            "correctAnswer": "Explain the impact on the Sprint Goal and work with the Product Owner to add the request to the Product Backlog for future prioritization.",
+            "explanation": "The Sprint Backlog is intended to be stable during the Sprint to allow the team to focus on achieving the Sprint Goal. The correct process is to shield the team from interruptions and direct the stakeholder to the Product Owner, who is responsible for managing the Product Backlog and prioritizing new work for upcoming Sprints."
+        },
+        {
+            "id": "091",
+            "text": "What is the purpose of the `await` keyword?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To asynchronously wait for a `Task` to complete without blocking the calling thread.",
+                "To start a new background thread.",
+                "To make a method execute faster.",
+                "To mark a method for garbage collection."
+            ],
+            "correctAnswer": "To asynchronously wait for a `Task` to complete without blocking the calling thread.",
+            "explanation": "When the `await` operator is applied to a task, it suspends execution of the current method until the awaited task completes. While suspended, control is returned to the caller of the method, allowing the thread (e.g., the UI thread or a thread pool thread) to perform other work."
+        },
+        {
+            "id": "092",
+            "text": "What is the 'Interface Segregation Principle' (ISP)?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Clients should not be forced to depend on interfaces they do not use.",
+                "All methods for a class should be defined in a single, large interface.",
+                "Interfaces should be kept separate from classes.",
+                "Classes should be open for extension but closed for modification."
+            ],
+            "correctAnswer": "Clients should not be forced to depend on interfaces they do not use.",
+            "explanation": "ISP suggests that it's better to have many small, client-specific interfaces than one large, general-purpose interface. This prevents a class from having to implement methods that it doesn't need, leading to a more decoupled and easier-to-maintain system."
+        },
+        {
+            "id": "093",
+            "text": "When deploying a microservices application using Docker, Docker Compose is a tool used to define and run multi-container Docker applications.",
+            "type": "true-false",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "With Docker Compose, you use a YAML file to configure your application's services (containers), networks, and volumes. Then, with a single command (`docker-compose up`), you can create and start all the services from your configuration. It is ideal for local development and testing environments."
+        },
+        {
+            "id": "094",
+            "text": "What is the 'Lazy Loading' feature in Entity Framework Core?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "A feature where related entities are automatically loaded from the database the first time a navigation property is accessed.",
+                "A feature that makes all database queries load very slowly.",
+                "A feature to explicitly load related entities using the `Include` method.",
+                "A feature that prevents any related entities from being loaded."
+            ],
+            "correctAnswer": "A feature where related entities are automatically loaded from the database the first time a navigation property is accessed.",
+            "explanation": "Lazy loading is a form of deferred loading. For example, if you load a `Blog` entity, its `Posts` collection will not be loaded. The first time you access the `blog.Posts` property, EF Core will issue a separate query to the database to load the posts. This can be convenient but can also lead to performance issues (the N+1 problem) if not used carefully."
+        },
+        {
+            "id": "095",
+            "text": "What is the role of React, as mentioned in your frontend skills?",
+            "type": "multiple-choice",
+            "category": "Frontend",
+            "answers": [
+                "A JavaScript library for building user interfaces, often used for creating Single-Page Applications (SPAs).",
+                "A backend framework for handling HTTP requests.",
+                "A database for storing user data.",
+                "A CSS pre-processor."
+            ],
+            "correctAnswer": "A JavaScript library for building user interfaces, often used for creating Single-Page Applications (SPAs).",
+            "explanation": "React allows developers to create reusable UI components and manage the state of their application efficiently. When used with a .NET Core backend, React typically runs in the browser, fetching data from the .NET Web API to render dynamic user interfaces."
+        },
+        {
+            "id": "096",
+            "text": "A 'distributed trace' in a microservices architecture allows you to track a single request as it flows through multiple services.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Distributed tracing is essential for debugging and monitoring microservices. When a request enters the system, it is assigned a unique trace ID. This ID is propagated to all the downstream services that are called as part of handling that request, allowing you to visualize the entire call graph and pinpoint performance bottlenecks or errors."
+        },
+        {
+            "id": "097",
+            "text": "What does it mean for a C# method to be an 'extension method'?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "It is a static method in a static class that can be invoked as if it were an instance method on an existing type.",
+                "It is a method that extends the functionality of a base class through inheritance.",
+                "It is a method that can only be called from outside its own assembly.",
+                "It is a method that is automatically generated by the compiler."
+            ],
+            "correctAnswer": "It is a static method in a static class that can be invoked as if it were an instance method on an existing type.",
+            "explanation": "Extension methods allow you to 'add' new methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. The first parameter of the extension method specifies the type that the method operates on, and is preceded by the `this` modifier."
+        },
+        {
+            "id": "098",
+            "text": "What is 'Velocity-Driven Sprint Planning'?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Using the team's historical average velocity to help forecast how much work can be taken into the upcoming Sprint.",
+                "Planning the sprint based on how fast the developers can type.",
+                "A commitment to increase velocity in every sprint.",
+                "A planning method where only the Scrum Master decides the work."
+            ],
+            "correctAnswer": "Using the team's historical average velocity to help forecast how much work can be taken into the upcoming Sprint.",
+            "explanation": "During Sprint Planning, the team can use their average velocity as a guideline to help them select a realistic number of Product Backlog Items for the Sprint Backlog. It is a forecast, not a commitment, and helps the team avoid overcommitting."
+        },
+        {
+            "id": "099",
+            "text": "REST is a protocol.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "REST (Representational State Transfer) is not a protocol, but an architectural style or set of constraints for designing networked applications. It relies on standard protocols, most commonly HTTP. The constraints include client-server architecture, statelessness, cacheability, and a uniform interface."
+        },
+        {
+            "id": "100",
+            "text": "In a CI/CD pipeline in Azure DevOps, a 'Release Pipeline' is typically used to manage the deployment and promotion of a build artifact across different environments (e.g., Dev, Staging, Production).",
+            "type": "true-false",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "While the Build Pipeline (CI) is responsible for producing a deployable artifact (like a ZIP file or Docker image), the Release Pipeline (CD) takes that artifact and orchestrates its deployment to one or more stages. It can include steps for approvals, configuration transformations, and running automated tests against the deployed environment."
+        }
+    ]
+}

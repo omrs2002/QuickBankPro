@@ -1,0 +1,1581 @@
+{
+  "title": "World Capitals",
+  "description": "A quiz to test your knowledge of world capitals.",
+  "questions": [
+    {
+      "id": "asia_01",
+      "text": "What is the capital of Afghanistan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Kabul", "Kandahar", "Herat", "Islamabad"],
+      "correctAnswer": "Kabul",
+      "explanation": "Kabul is the capital and largest city of Afghanistan, an economic and cultural center located in a narrow valley between the Hindu Kush mountains."
+    },
+    {
+      "id": "asia_02",
+      "text": "What is the capital of Bahrain?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Muharraq", "Manama", "Riffa", "Doha"],
+      "correctAnswer": "Manama",
+      "explanation": "Manama is the capital of the Kingdom of Bahrain, an important financial center known for the Manama Souq and Bab Al Bahrain."
+    },
+    {
+      "id": "asia_03",
+      "text": "What is the capital of Bangladesh?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Chittagong", "Dhaka", "Kolkata", "Kathmandu"],
+      "correctAnswer": "Dhaka",
+      "explanation": "Dhaka is the capital of Bangladesh and is known as the 'City of Mosques.' It is one of the most densely populated cities in the world."
+    },
+    {
+      "id": "asia_04",
+      "text": "What is the capital of Bhutan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Paro", "Thimphu", "Punakha", "Kathmandu"],
+      "correctAnswer": "Thimphu",
+      "explanation": "Thimphu is the capital of Bhutan and is unique for being the only capital city in the world without traffic lights."
+    },
+    {
+      "id": "asia_05",
+      "text": "What is the capital of Brunei?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Kuala Belait", "Bandar Seri Begawan", "Seria", "Kuala Lumpur"],
+      "correctAnswer": "Bandar Seri Begawan",
+      "explanation": "Bandar Seri Begawan is the capital of the Sultanate of Brunei. It is famous for the Sultan Omar Ali Saifuddien Mosque with its golden dome."
+    },
+    {
+      "id": "asia_06",
+      "text": "What is the capital of Cambodia?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Siem Reap", "Phnom Penh", "Battambang", "Bangkok"],
+      "correctAnswer": "Phnom Penh",
+      "explanation": "Phnom Penh is the capital of Cambodia and is located at the confluence of the Mekong, Tonlé Sap, and Bassac rivers."
+    },
+    {
+      "id": "asia_07",
+      "text": "What is the capital of China?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Shanghai", "Beijing", "Hong Kong", "Taipei"],
+      "correctAnswer": "Beijing",
+      "explanation": "Beijing is the capital of China, with a rich history stretching back thousands of years and home to famous landmarks like the Forbidden City."
+    },
+    {
+      "id": "asia_08",
+      "text": "What is the capital of East Timor?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Baucau", "Dili", "Maliana", "Jakarta"],
+      "correctAnswer": "Dili",
+      "explanation": "Dili is the capital and largest city of East Timor, serving as the country's main port and commercial center."
+    },
+    {
+      "id": "asia_09",
+      "text": "What is the capital of India?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Mumbai", "Kolkata", "New Delhi", "Bangalore"],
+      "correctAnswer": "New Delhi",
+      "explanation": "New Delhi is the political capital of India, located within the greater Delhi metropolitan area."
+    },
+    {
+      "id": "asia_10",
+      "text": "What is the capital of Indonesia?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Surabaya", "Bandung", "Jakarta", "Kuala Lumpur"],
+      "correctAnswer": "Jakarta",
+      "explanation": "Jakarta, located on the island of Java, is the capital and largest city of Indonesia, and a vital hub for economy and culture."
+    },
+    {
+      "id": "asia_11",
+      "text": "What is the capital of Iran?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Isfahan", "Shiraz", "Tehran", "Mashhad"],
+      "correctAnswer": "Tehran",
+      "explanation": "Tehran is the capital and largest city of Iran, located at the foot of the Alborz mountain range."
+    },
+    {
+      "id": "asia_12",
+      "text": "What is the capital of Iraq?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Basra", "Mosul", "Baghdad", "Erbil"],
+      "correctAnswer": "Baghdad",
+      "explanation": "Baghdad is the capital of Iraq and one of the oldest cities in the Islamic world, once a center of learning and culture."
+    },
+    {
+      "id": "asia_13",
+      "text": "What is the capital of Japan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Kyoto", "Osaka", "Tokyo", "Seoul"],
+      "correctAnswer": "Tokyo",
+      "explanation": "Tokyo is the capital of Japan and is the world's largest metropolitan area by population."
+    },
+    {
+      "id": "asia_14",
+      "text": "What is the capital of Jordan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Zarqa", "Irbid", "Amman", "Damascus"],
+      "correctAnswer": "Amman",
+      "explanation": "Amman is the capital of the Hashemite Kingdom of Jordan, a city that combines ancient historical sites with modern development."
+    },
+    {
+      "id": "asia_15",
+      "text": "What is the capital of Kazakhstan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Almaty", "Astana", "Shymkent", "Bishkek"],
+      "correctAnswer": "Astana",
+      "explanation": "Astana (formerly Nur-Sultan) has been the capital of Kazakhstan since 1997 and is known for its modern and futuristic architecture."
+    },
+    {
+      "id": "asia_16",
+      "text": "What is the capital of Kuwait?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Ahmadi", "Hawalli", "Kuwait City", "Manama"],
+      "correctAnswer": "Kuwait City",
+      "explanation": "Kuwait City is the political and economic capital of the State of Kuwait, famous for the Kuwait Towers which symbolize its modern renaissance."
+    },
+    {
+      "id": "asia_17",
+      "text": "What is the capital of Kyrgyzstan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Osh", "Bishkek", "Jalal-Abad", "Tashkent"],
+      "correctAnswer": "Bishkek",
+      "explanation": "Bishkek is the capital and largest city of Kyrgyzstan, known for its wide avenues and Soviet-style architecture."
+    },
+    {
+      "id": "asia_18",
+      "text": "What is the capital of Laos?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Luang Prabang", "Vientiane", "Pakse", "Hanoi"],
+      "correctAnswer": "Vientiane",
+      "explanation": "Vientiane is the capital of Laos, situated on the banks of the Mekong River. It is famous for the gold-covered stupa, Pha That Luang."
+    },
+    {
+      "id": "asia_19",
+      "text": "What is the capital of Lebanon?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Tripoli", "Sidon", "Beirut", "Damascus"],
+      "correctAnswer": "Beirut",
+      "explanation": "Beirut is the capital and the commercial and cultural center of Lebanon. It was nicknamed the 'Paris of the East' for its cultural vibrancy."
+    },
+    {
+      "id": "asia_20",
+      "text": "What is the capital of Malaysia?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["George Town", "Johor Bahru", "Kuala Lumpur", "Singapore"],
+      "correctAnswer": "Kuala Lumpur",
+      "explanation": "Kuala Lumpur is the official capital of Malaysia, famous for its Petronas Twin Towers."
+    },
+    {
+      "id": "asia_21",
+      "text": "What is the capital of the Maldives?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Addu Atoll", "Malé", "Fuvahmulah", "Colombo"],
+      "correctAnswer": "Malé",
+      "explanation": "Malé is the capital of the Maldives and one of the most densely populated cities in the world."
+    },
+    {
+      "id": "asia_22",
+      "text": "What is the capital of Mongolia?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Erdenet", "Ulaanbaatar", "Darkhan", "Beijing"],
+      "correctAnswer": "Ulaanbaatar",
+      "explanation": "Ulaanbaatar is the capital and largest city of Mongolia. Located in the valley of the Tuul River, it is the coldest national capital in the world."
+    },
+    {
+      "id": "asia_23",
+      "text": "What is the capital of Myanmar?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Yangon", "Naypyidaw", "Mandalay", "Bangkok"],
+      "correctAnswer": "Naypyidaw",
+      "explanation": "Naypyidaw has been the capital of Myanmar since 2005; it is a planned city built to be the country's new administrative center."
+    },
+    {
+      "id": "asia_24",
+      "text": "What is the capital of Nepal?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Pokhara", "Kathmandu", "Lalitpur", "Thimphu"],
+      "correctAnswer": "Kathmandu",
+      "explanation": "Kathmandu is the capital of Nepal, located in a valley surrounded by the Himalayan mountains. It is famous for its historic temples."
+    },
+    {
+      "id": "asia_25",
+      "text": "What is the capital of North Korea?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Nampo", "Pyongyang", "Kaesong", "Seoul"],
+      "correctAnswer": "Pyongyang",
+      "explanation": "Pyongyang is the capital and largest city of North Korea. It is known for its huge monuments and socialist-style architecture."
+    },
+    {
+      "id": "asia_26",
+      "text": "What is the capital of Oman?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Salalah", "Sohar", "Muscat", "Abu Dhabi"],
+      "correctAnswer": "Muscat",
+      "explanation": "Muscat is the capital of the Sultanate of Oman, a coastal city that blends modernity with heritage."
+    },
+    {
+      "id": "asia_27",
+      "text": "What is the capital of Pakistan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Karachi", "Lahore", "Islamabad", "New Delhi"],
+      "correctAnswer": "Islamabad",
+      "explanation": "Islamabad is the federal capital of Pakistan, a planned city built in the 1960s known for its green spaces."
+    },
+    {
+      "id": "asia_28",
+      "text": "What is the capital of Palestine?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Ramallah", "Gaza", "Jerusalem", "Amman"],
+      "correctAnswer": "Jerusalem",
+      "explanation": "Jerusalem is the declared capital of the State of Palestine, and is a holy city for the three Abrahamic religions."
+    },
+    {
+      "id": "asia_29",
+      "text": "What is the capital of the Philippines?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Cebu", "Davao", "Manila", "Jakarta"],
+      "correctAnswer": "Manila",
+      "explanation": "Manila is the capital of the Philippines, a densely populated coastal city known for its history blending Spanish and American influences."
+    },
+    {
+      "id": "asia_30",
+      "text": "What is the capital of Qatar?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Al Rayyan", "Al Wakrah", "Doha", "Manama"],
+      "correctAnswer": "Doha",
+      "explanation": "Doha is the capital of Qatar and its main economic center, and it hosted the 2022 FIFA World Cup."
+    },
+    {
+      "id": "asia_31",
+      "text": "What is the capital of Saudi Arabia?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Riyadh", "Jeddah", "Mecca", "Muscat"],
+      "correctAnswer": "Riyadh",
+      "explanation": "Riyadh is the capital and largest city of Saudi Arabia, and it is a major financial and administrative hub in the Middle East."
+    },
+    {
+      "id": "asia_32",
+      "text": "What is the capital of Singapore?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Jurong", "Singapore", "Woodlands", "Kuala Lumpur"],
+      "correctAnswer": "Singapore",
+      "explanation": "Singapore is a city-state, so the capital is Singapore itself. It is famous for its cleanliness, order, and stunning gardens."
+    },
+    {
+      "id": "asia_33",
+      "text": "What is the capital of South Korea?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Busan", "Seoul", "Incheon", "Tokyo"],
+      "correctAnswer": "Seoul",
+      "explanation": "Seoul is the capital and the financial and cultural center of South Korea, a modern city that preserves its historic palaces."
+    },
+    {
+      "id": "asia_34",
+      "text": "What is the capital of Sri Lanka?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Kandy", "Colombo", "Sri Jayawardenepura Kotte", "Malé"],
+      "correctAnswer": "Sri Jayawardenepura Kotte",
+      "explanation": "Sri Jayawardenepura Kotte is the legislative capital of Sri Lanka, while the nearby city of Colombo is the commercial and executive capital."
+    },
+    {
+      "id": "asia_35",
+      "text": "What is the capital of Syria?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Aleppo", "Homs", "Damascus", "Beirut"],
+      "correctAnswer": "Damascus",
+      "explanation": "Damascus is the capital of Syria and is considered one of the oldest continuously inhabited cities in the world."
+    },
+    {
+      "id": "asia_36",
+      "text": "What is the capital of Taiwan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Kaohsiung", "Taipei", "Taichung", "Beijing"],
+      "correctAnswer": "Taipei",
+      "explanation": "Taipei is the capital of Taiwan, famous for the Taipei 101 tower, which was once the tallest building in the world."
+    },
+    {
+      "id": "asia_37",
+      "text": "What is the capital of Tajikistan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Khujand", "Dushanbe", "Kulob", "Tashkent"],
+      "correctAnswer": "Dushanbe",
+      "explanation": "Dushanbe is the capital of Tajikistan. The word 'Dushanbe' means 'Monday' in the Persian language."
+    },
+    {
+      "id": "asia_38",
+      "text": "What is the capital of Thailand?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Chiang Mai", "Phuket", "Bangkok", "Hanoi"],
+      "correctAnswer": "Bangkok",
+      "explanation": "Bangkok is the capital of Thailand, known for its ornate temples, royal palaces, and vibrant street life."
+    },
+    {
+      "id": "asia_39",
+      "text": "What is the capital of Turkey?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+      "correctAnswer": "Ankara",
+      "explanation": "Although Istanbul is the largest city, Ankara has been the official capital of Turkey since 1923."
+    },
+    {
+      "id": "asia_40",
+      "text": "What is the capital of Turkmenistan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Mary", "Ashgabat", "Türkmenabat", "Tashkent"],
+      "correctAnswer": "Ashgabat",
+      "explanation": "Ashgabat is the capital of Turkmenistan, known for its white marble buildings and holding a Guinness World Record for the highest density of marble buildings."
+    },
+    {
+      "id": "asia_41",
+      "text": "What is the capital of the United Arab Emirates?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Dubai", "Sharjah", "Abu Dhabi", "Riyadh"],
+      "correctAnswer": "Abu Dhabi",
+      "explanation": "Abu Dhabi is the capital of the UAE, known as an important economic center and home to the Sheikh Zayed Grand Mosque."
+    },
+    {
+      "id": "asia_42",
+      "text": "What is the capital of Uzbekistan?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Samarkand", "Tashkent", "Bukhara", "Bishkek"],
+      "correctAnswer": "Tashkent",
+      "explanation": "Tashkent is the capital and largest city of Uzbekistan, and an important economic and cultural hub in Central Asia."
+    },
+    {
+      "id": "asia_43",
+      "text": "What is the capital of Vietnam?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Ho Chi Minh City", "Da Nang", "Hanoi", "Bangkok"],
+      "correctAnswer": "Hanoi",
+      "explanation": "Hanoi is the capital of Vietnam, known for its centuries-old architecture with Southeast Asian, Chinese, and French influences."
+    },
+    {
+      "id": "asia_44",
+      "text": "What is the capital of Yemen?",
+      "type": "multiple-choice",
+      "category": "Asia",
+      "answers": ["Aden", "Sana'a", "Taiz", "Muscat"],
+      "correctAnswer": "Sana'a",
+      "explanation": "Sana'a is the constitutional capital of Yemen, famous for its unique Old City, a UNESCO World Heritage site."
+    },
+    {
+      "id": "euro_01",
+      "text": "What is the capital of Albania?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Tirana", "Durrës", "Vlorë", "Skopje"],
+      "correctAnswer": "Tirana",
+      "explanation": "Tirana is the capital of Albania and its economic and cultural center. It is known for its colorful buildings from the Ottoman, Italian, and Soviet eras."
+    },
+    {
+      "id": "euro_02",
+      "text": "What is the capital of Andorra?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Escaldes-Engordany", "Andorra la Vella", "La Massana", "Vaduz"],
+      "correctAnswer": "Andorra la Vella",
+      "explanation": "Andorra la Vella is the capital of Andorra, and it is the highest capital city in Europe, located in the Pyrenees mountains."
+    },
+    {
+      "id": "euro_03",
+      "text": "What is the capital of Austria?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Salzburg", "Innsbruck", "Vienna", "Prague"],
+      "correctAnswer": "Vienna",
+      "explanation": "Vienna is the capital of Austria and its cultural center. It is famous for its rich musical history and magnificent imperial palaces."
+    },
+    {
+      "id": "euro_04",
+      "text": "What is the capital of Belarus?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Grodno", "Minsk", "Gomel", "Kyiv"],
+      "correctAnswer": "Minsk",
+      "explanation": "Minsk is the capital of Belarus. It was heavily destroyed in World War II and rebuilt, featuring prominent Soviet-style architecture."
+    },
+    {
+      "id": "euro_05",
+      "text": "What is the capital of Belgium?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Antwerp", "Bruges", "Brussels", "Amsterdam"],
+      "correctAnswer": "Brussels",
+      "explanation": "Brussels is the capital of Belgium and is also considered the de facto capital of the European Union due to it hosting the EU's main institutions."
+    },
+    {
+      "id": "euro_06",
+      "text": "What is the capital of Bosnia and Herzegovina?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Mostar", "Sarajevo", "Banja Luka", "Zagreb"],
+      "correctAnswer": "Sarajevo",
+      "explanation": "Sarajevo is the capital of Bosnia and Herzegovina. It is known as a meeting point of Eastern and Western cultures and was the site of the event that sparked World War I."
+    },
+    {
+      "id": "euro_07",
+      "text": "What is the capital of Bulgaria?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Plovdiv", "Sofia", "Varna", "Bucharest"],
+      "correctAnswer": "Sofia",
+      "explanation": "Sofia is the capital of Bulgaria and one of the oldest cities in Europe, containing many Roman and Ottoman monuments."
+    },
+    {
+      "id": "euro_08",
+      "text": "What is the capital of Croatia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Split", "Dubrovnik", "Zagreb", "Ljubljana"],
+      "correctAnswer": "Zagreb",
+      "explanation": "Zagreb is the capital of Croatia. It is distinguished by its historic Austro-Hungarian Upper Town and its modern Lower Town."
+    },
+    {
+      "id": "euro_09",
+      "text": "What is the capital of Cyprus?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Limassol", "Larnaca", "Nicosia", "Athens"],
+      "correctAnswer": "Nicosia",
+      "explanation": "Nicosia is the capital of Cyprus and is the world's only divided capital, with a UN ceasefire line separating its two parts."
+    },
+    {
+      "id": "euro_10",
+      "text": "What is the capital of the Czech Republic?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Brno", "Ostrava", "Prague", "Vienna"],
+      "correctAnswer": "Prague",
+      "explanation": "Prague is the capital of the Czech Republic, nicknamed the 'City of a Hundred Spires.' It is famous for its Old Town Square, astronomical clock, and the historic Charles Bridge."
+    },
+    {
+      "id": "euro_11",
+      "text": "What is the capital of Denmark?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Aarhus", "Odense", "Copenhagen", "Stockholm"],
+      "correctAnswer": "Copenhagen",
+      "explanation": "Copenhagen is the capital of Denmark, known for its Little Mermaid statue and Tivoli Gardens, one of the oldest amusement parks in the world."
+    },
+    {
+      "id": "euro_12",
+      "text": "What is the capital of Estonia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Tartu", "Tallinn", "Narva", "Riga"],
+      "correctAnswer": "Tallinn",
+      "explanation": "Tallinn is the capital of Estonia. It is renowned for its walled, medieval Old Town, a UNESCO World Heritage site."
+    },
+    {
+      "id": "euro_13",
+      "text": "What is the capital of Finland?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Tampere", "Turku", "Helsinki", "Tallinn"],
+      "correctAnswer": "Helsinki",
+      "explanation": "Helsinki is the capital of Finland, located on the shore of the Baltic Sea. It's known for its modern architecture and its distinctive white cathedral."
+    },
+    {
+      "id": "euro_14",
+      "text": "What is the capital of France?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Lyon", "Marseille", "Paris", "London"],
+      "correctAnswer": "Paris",
+      "explanation": "Paris, the capital of France, is known as the 'City of Light.' It is world-renowned for its landmarks like the Eiffel Tower and the Louvre Museum."
+    },
+    {
+      "id": "euro_15",
+      "text": "What is the capital of Germany?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Munich", "Hamburg", "Frankfurt", "Berlin"],
+      "correctAnswer": "Berlin",
+      "explanation": "Berlin is the capital of unified Germany. It is famous for its modern history, especially the remnants of the Berlin Wall and the iconic Brandenburg Gate."
+    },
+    {
+      "id": "euro_16",
+      "text": "What is the capital of Greece?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Thessaloniki", "Athens", "Patras", "Rome"],
+      "correctAnswer": "Athens",
+      "explanation": "Athens is the capital of Greece and the cradle of Western civilization. It's famous for the historic Parthenon temple atop the Acropolis hill."
+    },
+    {
+      "id": "euro_17",
+      "text": "What is the capital of Hungary?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Debrecen", "Szeged", "Budapest", "Bucharest"],
+      "correctAnswer": "Budapest",
+      "explanation": "Budapest is the capital of Hungary, divided by the Danube River. It is famous for its thermal baths and the majestic Parliament Building."
+    },
+    {
+      "id": "euro_18",
+      "text": "What is the capital of Iceland?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Akureyri", "Reykjavík", "Kópavogur", "Oslo"],
+      "correctAnswer": "Reykjavík",
+      "explanation": "Reykjavík is the capital of Iceland and is the world's northernmost capital. It's known for its stunning natural scenery and proximity to hot springs."
+    },
+    {
+      "id": "euro_19",
+      "text": "What is the capital of Ireland?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Cork", "Galway", "Dublin", "Belfast"],
+      "correctAnswer": "Dublin",
+      "explanation": "Dublin is the capital of the Republic of Ireland. It has a rich literary history, having been home to great writers like James Joyce."
+    },
+    {
+      "id": "euro_20",
+      "text": "What is the capital of Italy?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Milan", "Rome", "Naples", "Venice"],
+      "correctAnswer": "Rome",
+      "explanation": "Rome is the capital of Italy and is known as the 'Eternal City.' It was the center of the Roman Empire and features ancient ruins like the Colosseum."
+    },
+    {
+      "id": "euro_21",
+      "text": "What is the capital of Latvia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Daugavpils", "Riga", "Jūrmala", "Tallinn"],
+      "correctAnswer": "Riga",
+      "explanation": "Riga is the capital of Latvia and the largest city in the Baltic states. Its historic center is known for having the world's largest collection of Art Nouveau buildings."
+    },
+    {
+      "id": "euro_22",
+      "text": "What is the capital of Liechtenstein?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Schaan", "Vaduz", "Triesen", "Bern"],
+      "correctAnswer": "Vaduz",
+      "explanation": "Vaduz is the capital of the small principality of Liechtenstein. It is famous for Vaduz Castle, which sits on a hill overlooking the city."
+    },
+    {
+      "id": "euro_23",
+      "text": "What is the capital of Lithuania?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Kaunas", "Vilnius", "Klaipėda", "Riga"],
+      "correctAnswer": "Vilnius",
+      "explanation": "Vilnius is the capital of Lithuania and is known for its Old Town, one of the largest surviving medieval old towns in Europe."
+    },
+    {
+      "id": "euro_24",
+      "text": "What is the capital of Luxembourg?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Esch-sur-Alzette", "Luxembourg", "Dudelange", "Brussels"],
+      "correctAnswer": "Luxembourg",
+      "explanation": "Luxembourg City is the capital of the Grand Duchy of Luxembourg. It is famous for its ancient fortifications and picturesque neighborhoods on different levels."
+    },
+    {
+      "id": "euro_25",
+      "text": "What is the capital of Malta?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Sliema", "Valletta", "Birkirkara", "Rome"],
+      "correctAnswer": "Valletta",
+      "explanation": "Valletta is the capital of Malta, a fortified city that is entirely a UNESCO World Heritage site and one of the most concentrated historic areas in the world."
+    },
+    {
+      "id": "euro_26",
+      "text": "What is the capital of Moldova?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Tiraspol", "Chișinău", "Bălți", "Bucharest"],
+      "correctAnswer": "Chișinău",
+      "explanation": "Chișinău is the capital and largest city of Moldova. It is known for its numerous parks and lakes."
+    },
+    {
+      "id": "euro_27",
+      "text": "What is the capital of Monaco?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Monte Carlo", "Monaco", "La Condamine", "Nice"],
+      "correctAnswer": "Monaco",
+      "explanation": "Monaco is a city-state, so its capital is Monaco itself. It is famous for its luxurious lifestyle, the Monte Carlo Casino, and the Formula 1 Grand Prix."
+    },
+    {
+      "id": "euro_28",
+      "text": "What is the capital of Montenegro?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Cetinje", "Podgorica", "Nikšić", "Tirana"],
+      "correctAnswer": "Podgorica",
+      "explanation": "Podgorica is the official capital of Montenegro, while Cetinje is considered the Old Royal Capital."
+    },
+    {
+      "id": "euro_29",
+      "text": "What is the capital of the Netherlands?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Rotterdam", "The Hague", "Amsterdam", "Brussels"],
+      "correctAnswer": "Amsterdam",
+      "explanation": "Amsterdam is the official capital of the Netherlands, famous for its extensive canal system and distinctive gabled houses."
+    },
+    {
+      "id": "euro_30",
+      "text": "What is the capital of North Macedonia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Bitola", "Skopje", "Ohrid", "Sofia"],
+      "correctAnswer": "Skopje",
+      "explanation": "Skopje is the capital of North Macedonia. It is known for the 'Skopje 2014' project, which added many neoclassical-style statues and buildings to the city."
+    },
+    {
+      "id": "euro_31",
+      "text": "What is the capital of Norway?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Bergen", "Trondheim", "Oslo", "Copenhagen"],
+      "correctAnswer": "Oslo",
+      "explanation": "Oslo is the capital of Norway, surrounded by forests and green spaces. It is famous for its maritime museums displaying historic Viking ships."
+    },
+    {
+      "id": "euro_32",
+      "text": "What is the capital of Poland?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Kraków", "Warsaw", "Gdańsk", "Berlin"],
+      "correctAnswer": "Warsaw",
+      "explanation": "Warsaw is the capital of Poland. It was heavily destroyed during World War II and its Old Town was meticulously rebuilt."
+    },
+    {
+      "id": "euro_33",
+      "text": "What is the capital of Portugal?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Porto", "Lisbon", "Algarve", "Madrid"],
+      "correctAnswer": "Lisbon",
+      "explanation": "Lisbon is the capital of Portugal, a coastal city built on seven hills, known for its historic yellow trams."
+    },
+    {
+      "id": "euro_34",
+      "text": "What is the capital of Romania?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Cluj-Napoca", "Bucharest", "Timișoara", "Budapest"],
+      "correctAnswer": "Bucharest",
+      "explanation": "Bucharest is the capital of Romania, nicknamed 'Little Paris' for its elegant architecture."
+    },
+    {
+      "id": "euro_35",
+      "text": "What is the capital of Russia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Saint Petersburg", "Moscow", "Kyiv", "Kazan"],
+      "correctAnswer": "Moscow",
+      "explanation": "Moscow is the capital of Russia and its political and economic heart. It is famous for the Kremlin and Red Square."
+    },
+    {
+      "id": "euro_36",
+      "text": "What is the capital of San Marino?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Serravalle", "San Marino", "Borgo Maggiore", "Rome"],
+      "correctAnswer": "San Marino",
+      "explanation": "The City of San Marino is the capital of the Republic of San Marino, a small country completely surrounded by Italy."
+    },
+    {
+      "id": "euro_37",
+      "text": "What is the capital of Serbia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Novi Sad", "Belgrade", "Niš", "Sarajevo"],
+      "correctAnswer": "Belgrade",
+      "explanation": "Belgrade is the capital of Serbia, located at the confluence of the Danube and Sava rivers. It is known for the historic Belgrade Fortress."
+    },
+    {
+      "id": "euro_38",
+      "text": "What is the capital of Slovakia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Košice", "Bratislava", "Žilina", "Vienna"],
+      "correctAnswer": "Bratislava",
+      "explanation": "Bratislava is the capital of Slovakia and is the only capital in the world that borders two countries (Austria and Hungary)."
+    },
+    {
+      "id": "euro_39",
+      "text": "What is the capital of Slovenia?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Maribor", "Ljubljana", "Koper", "Zagreb"],
+      "correctAnswer": "Ljubljana",
+      "explanation": "Ljubljana is the capital of Slovenia, known for its pedestrian-friendly center and the famous Dragon Bridge."
+    },
+    {
+      "id": "euro_40",
+      "text": "What is the capital of Spain?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Barcelona", "Seville", "Madrid", "Lisbon"],
+      "correctAnswer": "Madrid",
+      "explanation": "Madrid is the capital of Spain, located in the heart of the country. It is famous as a center for the arts, housing the Prado Museum."
+    },
+    {
+      "id": "euro_41",
+      "text": "What is the capital of Sweden?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Gothenburg", "Malmö", "Stockholm", "Oslo"],
+      "correctAnswer": "Stockholm",
+      "explanation": "Stockholm, the capital of Sweden, is built on 14 islands connected by more than 50 bridges."
+    },
+    {
+      "id": "euro_42",
+      "text": "What is the capital of Switzerland?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Zürich", "Geneva", "Bern", "Basel"],
+      "correctAnswer": "Bern",
+      "explanation": "Bern is the federal capital of Switzerland. It is famous for its medieval Old Town, which is a UNESCO World Heritage site."
+    },
+    {
+      "id": "euro_43",
+      "text": "What is the capital of Ukraine?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Lviv", "Kyiv", "Kharkiv", "Minsk"],
+      "correctAnswer": "Kyiv",
+      "explanation": "Kyiv is the capital of Ukraine and one of the oldest cities in Eastern Europe. It is known for the Kyiv Pechersk Lavra monastery and its golden domes."
+    },
+    {
+      "id": "euro_44",
+      "text": "What is the capital of the United Kingdom?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Manchester", "London", "Birmingham", "Dublin"],
+      "correctAnswer": "London",
+      "explanation": "London is the capital of the United Kingdom and England. It is a leading global city and home to famous landmarks like Big Ben and Buckingham Palace."
+    },
+    {
+      "id": "euro_45",
+      "text": "What is the capital of Vatican City?",
+      "type": "multiple-choice",
+      "category": "Europe",
+      "answers": ["Rome", "Vatican City", "Castel Gandolfo", "Florence"],
+      "correctAnswer": "Vatican City",
+      "explanation": "Vatican City is the smallest country in the world and a city-state, so its capital is Vatican City itself. It is located entirely within the city of Rome."
+    },
+    {
+      "id": "africa_01",
+      "text": "What is the capital of Algeria?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Oran", "Constantine", "Algiers", "Tunis"],
+      "correctAnswer": "Algiers",
+      "explanation": "Algiers is the capital and largest city of Algeria. It is famous for its historic Casbah, a UNESCO World Heritage site."
+    },
+    {
+      "id": "africa_02",
+      "text": "What is the capital of Angola?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Huambo", "Lubango", "Luanda", "Kinshasa"],
+      "correctAnswer": "Luanda",
+      "explanation": "Luanda is the capital of Angola and one of the oldest colonial cities in Africa. It is a major port and important industrial center."
+    },
+    {
+      "id": "africa_03",
+      "text": "What is the capital of Benin?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Cotonou", "Porto-Novo", "Abomey", "Lomé"],
+      "correctAnswer": "Porto-Novo",
+      "explanation": "Porto-Novo is the official capital of Benin, while the nearby city of Cotonou is the economic capital and seat of government."
+    },
+    {
+      "id": "africa_04",
+      "text": "What is the capital of Botswana?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Francistown", "Gaborone", "Maun", "Harare"],
+      "correctAnswer": "Gaborone",
+      "explanation": "Gaborone is the capital of Botswana, one of the fastest-growing cities in the world and the country's administrative and economic center."
+    },
+    {
+      "id": "africa_05",
+      "text": "What is the capital of Burkina Faso?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bobo-Dioulasso", "Ouagadougou", "Koudougou", "Bamako"],
+      "correctAnswer": "Ouagadougou",
+      "explanation": "Ouagadougou is the capital of Burkina Faso and is famous for hosting the Panafrican Film and Television Festival (FESPACO)."
+    },
+    {
+      "id": "africa_06",
+      "text": "What is the capital of Burundi?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bujumbura", "Gitega", "Muramvya", "Kigali"],
+      "correctAnswer": "Gitega",
+      "explanation": "Gitega became the political capital of Burundi in 2019, while Bujumbura remains the economic capital."
+    },
+    {
+      "id": "africa_07",
+      "text": "What is the capital of Cabo Verde?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Mindelo", "Praia", "Santa Maria", "Dakar"],
+      "correctAnswer": "Praia",
+      "explanation": "Praia is the capital and largest city of Cabo Verde, located on the island of Santiago."
+    },
+    {
+      "id": "africa_08",
+      "text": "What is the capital of Cameroon?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Douala", "Yaoundé", "Garoua", "Abuja"],
+      "correctAnswer": "Yaoundé",
+      "explanation": "Yaoundé is the political capital of Cameroon, notable for its location on a series of hills."
+    },
+    {
+      "id": "africa_09",
+      "text": "What is the capital of the Central African Republic?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bimbo", "Bangui", "Berbérati", "Yaoundé"],
+      "correctAnswer": "Bangui",
+      "explanation": "Bangui is the capital of the Central African Republic, located on the banks of the Ubangi River."
+    },
+    {
+      "id": "africa_10",
+      "text": "What is the capital of Chad?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Moundou", "N'Djamena", "Sarh", "Niamey"],
+      "correctAnswer": "N'Djamena",
+      "explanation": "N'Djamena is the capital and largest city of Chad, and an important river port on the Chari River."
+    },
+    {
+      "id": "africa_11",
+      "text": "What is the capital of Comoros?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Mutsamudu", "Moroni", "Domoni", "Port Louis"],
+      "correctAnswer": "Moroni",
+      "explanation": "Moroni is the capital of Comoros, located on the west coast of Grande Comore island."
+    },
+    {
+      "id": "africa_12",
+      "text": "What is the capital of the Democratic Republic of the Congo?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Lubumbashi", "Kinshasa", "Mbuji-Mayi", "Brazzaville"],
+      "correctAnswer": "Kinshasa",
+      "explanation": "Kinshasa is the capital of the Democratic Republic of the Congo and is considered the largest French-speaking city in the world."
+    },
+    {
+      "id": "africa_13",
+      "text": "What is the capital of the Republic of the Congo?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Pointe-Noire", "Brazzaville", "Dolisie", "Kinshasa"],
+      "correctAnswer": "Brazzaville",
+      "explanation": "Brazzaville is the capital of the Republic of the Congo, located on the opposite bank of the Congo River from Kinshasa."
+    },
+    {
+      "id": "africa_14",
+      "text": "What is the capital of Ivory Coast?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Abidjan", "Yamoussoukro", "Bouaké", "Accra"],
+      "correctAnswer": "Yamoussoukro",
+      "explanation": "Yamoussoukro is the political capital of Ivory Coast, while Abidjan remains the economic capital and largest city."
+    },
+    {
+      "id": "africa_15",
+      "text": "What is the capital of Djibouti?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Ali Sabieh", "Djibouti", "Tadjoura", "Addis Ababa"],
+      "correctAnswer": "Djibouti",
+      "explanation": "Djibouti City is the capital of the Republic of Djibouti, possessing a strategic location on the Bab-el-Mandeb strait."
+    },
+    {
+      "id": "africa_16",
+      "text": "What is the capital of Egypt?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Alexandria", "Giza", "Cairo", "Khartoum"],
+      "correctAnswer": "Cairo",
+      "explanation": "Cairo is the capital of Egypt and the largest city in the Arab world, famous for its ancient history."
+    },
+    {
+      "id": "africa_17",
+      "text": "What is the capital of Equatorial Guinea?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bata", "Malabo", "Ebebiyín", "Libreville"],
+      "correctAnswer": "Malabo",
+      "explanation": "Malabo is the capital of Equatorial Guinea, located on the island of Bioko."
+    },
+    {
+      "id": "africa_18",
+      "text": "What is the capital of Eritrea?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Keren", "Asmara", "Massawa", "Addis Ababa"],
+      "correctAnswer": "Asmara",
+      "explanation": "Asmara is the capital of Eritrea, famous for its Italian modernist architecture."
+    },
+    {
+      "id": "africa_19",
+      "text": "What is the capital of Eswatini?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Manzini", "Mbabane", "Lobamba", "Pretoria"],
+      "correctAnswer": "Mbabane",
+      "explanation": "Mbabane is the administrative capital of Eswatini (formerly Swaziland), while Lobamba is the legislative and royal capital."
+    },
+    {
+      "id": "africa_20",
+      "text": "What is the capital of Ethiopia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Harar", "Gondar", "Addis Ababa", "Asmara"],
+      "correctAnswer": "Addis Ababa",
+      "explanation": "Addis Ababa is the capital of Ethiopia and is considered the 'political capital of Africa' for hosting the headquarters of the African Union."
+    },
+    {
+      "id": "africa_21",
+      "text": "What is the capital of Gabon?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Port-Gentil", "Libreville", "Franceville", "Yaoundé"],
+      "correctAnswer": "Libreville",
+      "explanation": "Libreville is the capital and largest city of Gabon, a coastal city situated on the Komo River estuary."
+    },
+    {
+      "id": "africa_22",
+      "text": "What is the capital of The Gambia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Serekunda", "Banjul", "Brikama", "Dakar"],
+      "correctAnswer": "Banjul",
+      "explanation": "Banjul is the capital of The Gambia, located on an island at the mouth of the Gambia River."
+    },
+    {
+      "id": "africa_23",
+      "text": "What is the capital of Ghana?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Kumasi", "Accra", "Tamale", "Lomé"],
+      "correctAnswer": "Accra",
+      "explanation": "Accra is the capital of Ghana and its administrative and economic center, known for its vibrant markets and beaches."
+    },
+    {
+      "id": "africa_24",
+      "text": "What is the capital of Guinea?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Nzérékoré", "Conakry", "Kindia", "Freetown"],
+      "correctAnswer": "Conakry",
+      "explanation": "Conakry is the capital of Guinea, a coastal city and a major port on the Atlantic Ocean."
+    },
+    {
+      "id": "africa_25",
+      "text": "What is the capital of Guinea-Bissau?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bafatá", "Bissau", "Gabú", "Conakry"],
+      "correctAnswer": "Bissau",
+      "explanation": "Bissau is the capital and largest city of Guinea-Bissau, serving as the country's main port and administrative center."
+    },
+    {
+      "id": "africa_26",
+      "text": "What is the capital of Kenya?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Mombasa", "Nairobi", "Kisumu", "Addis Ababa"],
+      "correctAnswer": "Nairobi",
+      "explanation": "Nairobi is the capital of Kenya and is famous for being the only city in the world with a national safari park."
+    },
+    {
+      "id": "africa_27",
+      "text": "What is the capital of Lesotho?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Teyateyaneng", "Maseru", "Mafeteng", "Bloemfontein"],
+      "correctAnswer": "Maseru",
+      "explanation": "Maseru is the capital of Lesotho, a mountainous kingdom completely surrounded by South Africa."
+    },
+    {
+      "id": "africa_28",
+      "text": "What is the capital of Liberia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Ganta", "Monrovia", "Buchanan", "Freetown"],
+      "correctAnswer": "Monrovia",
+      "explanation": "Monrovia is the capital of Liberia and was named in honor of U.S. President James Monroe."
+    },
+    {
+      "id": "africa_29",
+      "text": "What is the capital of Libya?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Benghazi", "Misrata", "Tripoli", "Tunis"],
+      "correctAnswer": "Tripoli",
+      "explanation": "Tripoli is the capital and largest city of Libya, known for its walled old city and the Red Castle (As-saraya al-hamra)."
+    },
+    {
+      "id": "africa_30",
+      "text": "What is the capital of Madagascar?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Antsirabe", "Toamasina", "Antananarivo", "Port Louis"],
+      "correctAnswer": "Antananarivo",
+      "explanation": "Antananarivo, or 'Tana,' is the capital of Madagascar, located in the central highlands of the island."
+    },
+    {
+      "id": "africa_31",
+      "text": "What is the capital of Malawi?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Blantyre", "Lilongwe", "Mzuzu", "Lusaka"],
+      "correctAnswer": "Lilongwe",
+      "explanation": "Lilongwe is the capital of Malawi, known for its craft markets and the Lilongwe Wildlife Centre."
+    },
+    {
+      "id": "africa_32",
+      "text": "What is the capital of Mali?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Timbuktu", "Bamako", "Sikasso", "Ouagadougou"],
+      "correctAnswer": "Bamako",
+      "explanation": "Bamako is the capital of Mali, located on the banks of the Niger River, and is an important commercial and cultural hub in West Africa."
+    },
+    {
+      "id": "africa_33",
+      "text": "What is the capital of Mauritania?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Nouadhibou", "Nouakchott", "Kiffa", "Dakar"],
+      "correctAnswer": "Nouakchott",
+      "explanation": "Nouakchott is the capital of Mauritania, a coastal city that rapidly developed from a small village to become the country's center."
+    },
+    {
+      "id": "africa_34",
+      "text": "What is the capital of Mauritius?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Curepipe", "Port Louis", "Vacoas-Phoenix", "Antananarivo"],
+      "correctAnswer": "Port Louis",
+      "explanation": "Port Louis is the capital of Mauritius, an island in the Indian Ocean known for its diverse cultural mix."
+    },
+    {
+      "id": "africa_35",
+      "text": "What is the capital of Morocco?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Casablanca", "Marrakech", "Fez", "Rabat"],
+      "correctAnswer": "Rabat",
+      "explanation": "Rabat is the political capital of Morocco, known for its historical landmarks like the Kasbah of the Udayas and the Hassan Tower."
+    },
+    {
+      "id": "africa_36",
+      "text": "What is the capital of Mozambique?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Beira", "Maputo", "Nampula", "Lilongwe"],
+      "correctAnswer": "Maputo",
+      "explanation": "Maputo is the capital of Mozambique, a coastal city known for its Portuguese colonial architecture and wide avenues."
+    },
+    {
+      "id": "africa_37",
+      "text": "What is the capital of Namibia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Walvis Bay", "Windhoek", "Swakopmund", "Gaborone"],
+      "correctAnswer": "Windhoek",
+      "explanation": "Windhoek is the capital of Namibia, characterized by its German architectural influences from the colonial era."
+    },
+    {
+      "id": "africa_38",
+      "text": "What is the capital of Niger?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Zinder", "Niamey", "Maradi", "N'Djamena"],
+      "correctAnswer": "Niamey",
+      "explanation": "Niamey is the capital of Niger, located on the banks of the Niger River, and serves as the country's administrative and economic center."
+    },
+    {
+      "id": "africa_39",
+      "text": "What is the capital of Nigeria?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Lagos", "Abuja", "Kano", "Ibadan"],
+      "correctAnswer": "Abuja",
+      "explanation": "Abuja has been the capital of Nigeria since 1991; it is a planned city built in the 1980s."
+    },
+    {
+      "id": "africa_40",
+      "text": "What is the capital of Rwanda?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Butare", "Kigali", "Gisenyi", "Bujumbura"],
+      "correctAnswer": "Kigali",
+      "explanation": "Kigali is the capital of Rwanda, known for its cleanliness and order, and is considered one of the safest cities in Africa."
+    },
+    {
+      "id": "africa_41",
+      "text": "What is the capital of Sao Tome and Principe?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Santo António", "São Tomé", "Trindade", "Libreville"],
+      "correctAnswer": "São Tomé",
+      "explanation": "São Tomé is the capital of the state of São Tomé and Príncipe, a small island nation located in the Gulf of Guinea."
+    },
+    {
+      "id": "africa_42",
+      "text": "What is the capital of Senegal?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Thiès", "Saint-Louis", "Dakar", "Bamako"],
+      "correctAnswer": "Dakar",
+      "explanation": "Dakar is the capital of Senegal, located at the westernmost point of Africa and famous for being the finishing point of the Dakar Rally."
+    },
+    {
+      "id": "africa_43",
+      "text": "What is the capital of Seychelles?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Anse Royale", "Victoria", "Beau Vallon", "Port Louis"],
+      "correctAnswer": "Victoria",
+      "explanation": "Victoria is the capital of Seychelles, one of the smallest capitals in the world, located on the island of Mahé."
+    },
+    {
+      "id": "africa_44",
+      "text": "What is the capital of Sierra Leone?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bo", "Freetown", "Kenema", "Conakry"],
+      "correctAnswer": "Freetown",
+      "explanation": "Freetown is the capital of Sierra Leone, a major port on the Atlantic Ocean known for its beautiful beaches."
+    },
+    {
+      "id": "africa_45",
+      "text": "What is the capital of Somalia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Hargeisa", "Mogadishu", "Kismayo", "Djibouti"],
+      "correctAnswer": "Mogadishu",
+      "explanation": "Mogadishu is the capital of Somalia, a historic coastal city that was an important commercial center for centuries."
+    },
+    {
+      "id": "africa_46",
+      "text": "What is the capital of South Africa?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Johannesburg", "Cape Town", "Pretoria", "Durban"],
+      "correctAnswer": "Pretoria",
+      "explanation": "South Africa has three capitals: Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judicial)."
+    },
+    {
+      "id": "africa_47",
+      "text": "What is the capital of South Sudan?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Wau", "Juba", "Malakal", "Khartoum"],
+      "correctAnswer": "Juba",
+      "explanation": "Juba is the capital of the Republic of South Sudan, the world's newest country, located on the banks of the White Nile."
+    },
+    {
+      "id": "africa_48",
+      "text": "What is the capital of Sudan?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Omdurman", "Port Sudan", "Khartoum", "Cairo"],
+      "correctAnswer": "Khartoum",
+      "explanation": "Khartoum is the capital of Sudan, located at the confluence of the two Niles, the White Nile and the Blue Nile."
+    },
+    {
+      "id": "africa_49",
+      "text": "What is the capital of Tanzania?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Dar es Salaam", "Arusha", "Dodoma", "Nairobi"],
+      "correctAnswer": "Dodoma",
+      "explanation": "Dodoma is the official capital of Tanzania, although Dar es Salaam remains the country's main economic center."
+    },
+    {
+      "id": "africa_50",
+      "text": "What is the capital of Togo?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Kara", "Lomé", "Sokodé", "Accra"],
+      "correctAnswer": "Lomé",
+      "explanation": "Lomé is the capital of Togo, a coastal city known for its large markets and palm-lined beaches."
+    },
+    {
+      "id": "africa_51",
+      "text": "What is the capital of Tunisia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Sfax", "Sousse", "Tunis", "Tripoli"],
+      "correctAnswer": "Tunis",
+      "explanation": "The city of Tunis is the capital of Tunisia, located near the site of the ancient Phoenician city of Carthage and known for its old medina."
+    },
+    {
+      "id": "africa_52",
+      "text": "What is the capital of Uganda?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Entebbe", "Kampala", "Jinja", "Kigali"],
+      "correctAnswer": "Kampala",
+      "explanation": "Kampala is the capital and largest city of Uganda. It was said to have originally been built on seven hills."
+    },
+    {
+      "id": "africa_53",
+      "text": "What is the capital of Zambia?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Ndola", "Lusaka", "Kitwe", "Harare"],
+      "correctAnswer": "Lusaka",
+      "explanation": "Lusaka is the capital of Zambia and one of the fastest-growing cities in southern Africa."
+    },
+    {
+      "id": "africa_54",
+      "text": "What is the capital of Zimbabwe?",
+      "type": "multiple-choice",
+      "category": "Africa",
+      "answers": ["Bulawayo", "Harare", "Mutare", "Lusaka"],
+      "correctAnswer": "Harare",
+      "explanation": "Harare is the capital of Zimbabwe, known for its wide avenues lined with jacaranda trees."
+    },
+    {
+      "id": "na_01",
+      "text": "What is the capital of the United States?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["New York", "Los Angeles", "Washington, D.C.", "Chicago"],
+      "correctAnswer": "Washington, D.C.",
+      "explanation": "Washington, D.C. is the political capital of the United States. It houses the headquarters of the federal government, such as the White House and the Capitol Building."
+    },
+    {
+      "id": "na_02",
+      "text": "What is the capital of Canada?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Toronto", "Montreal", "Ottawa", "Vancouver"],
+      "correctAnswer": "Ottawa",
+      "explanation": "Ottawa is the capital of Canada. It is famous for the Parliament Building and the Rideau Canal, which freezes in winter to become the world's longest skating rink."
+    },
+    {
+      "id": "na_03",
+      "text": "What is the capital of Mexico?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Guadalajara", "Mexico City", "Cancún", "Tijuana"],
+      "correctAnswer": "Mexico City",
+      "explanation": "Mexico City is the capital of Mexico and one of the largest cities in the world. It was built on the ruins of the ancient Aztec capital, Tenochtitlan."
+    },
+    {
+      "id": "na_04",
+      "text": "What is the capital of Cuba?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Santiago de Cuba", "Havana", "Kingston", "Miami"],
+      "correctAnswer": "Havana",
+      "explanation": "Havana is the capital of Cuba. It is known for its UNESCO-listed Old Town, colorful classic cars, and vibrant music."
+    },
+    {
+      "id": "na_05",
+      "text": "What is the capital of Panama?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Colón", "Panama City", "San José", "Bogotá"],
+      "correctAnswer": "Panama City",
+      "explanation": "Panama City is the capital of Panama, a modern cosmopolitan city located at the Pacific entrance of the Panama Canal."
+    },
+    {
+      "id": "na_06",
+      "text": "What is the capital of Jamaica?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Montego Bay", "Kingston", "Port Antonio", "Havana"],
+      "correctAnswer": "Kingston",
+      "explanation": "Kingston is the capital and largest city of Jamaica. It is famous for being the birthplace of reggae music and has a museum dedicated to music legend Bob Marley."
+    },
+    {
+      "id": "na_07",
+      "text": "What is the capital of Costa Rica?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Liberia", "San José", "Panama City", "Managua"],
+      "correctAnswer": "San José",
+      "explanation": "San José is the capital of Costa Rica, located in the country's Central Valley. It is known as one of the safest and most modern cities in Central America."
+    },
+    {
+      "id": "na_08",
+      "text": "What is the capital of Guatemala?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Antigua", "Guatemala City", "Quetzaltenango", "San Salvador"],
+      "correctAnswer": "Guatemala City",
+      "explanation": "Guatemala City is the capital of Guatemala and the most populous city in Central America."
+    },
+    {
+      "id": "na_09",
+      "text": "What is the capital of the Dominican Republic?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["Santiago", "Santo Domingo", "Punta Cana", "Port-au-Prince"],
+      "correctAnswer": "Santo Domingo",
+      "explanation": "Santo Domingo is the capital of the Dominican Republic. It is considered the oldest continuously inhabited European settlement in the Americas."
+    },
+    {
+      "id": "na_10",
+      "text": "What is the capital of El Salvador?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["San Miguel", "San Salvador", "Santa Ana", "Tegucigalpa"],
+      "correctAnswer": "San Salvador",
+      "explanation": "San Salvador is the capital and the financial and political center of El Salvador. It is located in an earthquake-prone area and is known for its surrounding volcanoes."
+    },
+    {
+      "id": "na_11",
+      "text": "What is the capital of Honduras?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["San Pedro Sula", "La Ceiba", "Tegucigalpa", "Managua"],
+      "correctAnswer": "Tegucigalpa",
+      "explanation": "Tegucigalpa is the capital of Honduras. It is located in a mountainous region and is characterized by its winding streets and high altitudes."
+    },
+    {
+      "id": "na_12",
+      "text": "What is the capital of Nicaragua?",
+      "type": "multiple-choice",
+      "category": "North America",
+      "answers": ["León", "Granada", "Managua", "San José"],
+      "correctAnswer": "Managua",
+      "explanation": "Managua is the capital of Nicaragua, located on the southern shore of Lake Managua. It suffered two devastating earthquakes in the 20th century."
+    },
+    {
+      "id": "sa_01",
+      "text": "What is the capital of Brazil?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+      "correctAnswer": "Brasília",
+      "explanation": "Brasília is the federal capital of Brazil. It was planned and built in the 1950s to be the new capital and is known for its modern architecture."
+    },
+    {
+      "id": "sa_02",
+      "text": "What is the capital of Argentina?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Córdoba", "Rosario", "Buenos Aires", "Mendoza"],
+      "correctAnswer": "Buenos Aires",
+      "explanation": "Buenos Aires is the capital and largest city of Argentina. It is famous for being the birthplace of tango and has a European feel to its architecture."
+    },
+    {
+      "id": "sa_03",
+      "text": "What is the capital of Colombia?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Medellín", "Cali", "Bogotá", "Caracas"],
+      "correctAnswer": "Bogotá",
+      "explanation": "Bogotá is the capital of Colombia, located at a high altitude of 2,640 meters above sea level, making it one of the highest capitals in the world."
+    },
+    {
+      "id": "sa_04",
+      "text": "What is the capital of Peru?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Cusco", "Arequipa", "Lima", "Quito"],
+      "correctAnswer": "Lima",
+      "explanation": "Lima is the capital of Peru. It was founded by Spanish conquistador Francisco Pizarro and is known for its historic center displaying colonial architecture."
+    },
+    {
+      "id": "sa_05",
+      "text": "What is the capital of Chile?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Valparaíso", "Concepción", "Santiago", "Buenos Aires"],
+      "correctAnswer": "Santiago",
+      "explanation": "Santiago is the capital of Chile, located in a valley surrounded by the Andes mountains. It is the country's financial and cultural center."
+    },
+    {
+      "id": "sa_06",
+      "text": "What is the capital of Venezuela?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Maracaibo", "Valencia", "Caracas", "Bogotá"],
+      "correctAnswer": "Caracas",
+      "explanation": "Caracas is the capital of Venezuela, located in a mountain valley near the Caribbean Sea."
+    },
+    {
+      "id": "sa_07",
+      "text": "What is the capital of Ecuador?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Guayaquil", "Cuenca", "Quito", "Lima"],
+      "correctAnswer": "Quito",
+      "explanation": "Quito, the capital of Ecuador, is famous for being located directly on the equator. Its historic center is one of the best-preserved in Latin America."
+    },
+    {
+      "id": "sa_08",
+      "text": "What is the capital of Bolivia?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Santa Cruz", "Sucre", "La Paz", "Asunción"],
+      "correctAnswer": "La Paz",
+      "explanation": "La Paz is the seat of government of Bolivia and the highest administrative capital in the world. The official (constitutional) capital is Sucre."
+    },
+    {
+      "id": "sa_09",
+      "text": "What is the capital of Paraguay?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Ciudad del Este", "San Lorenzo", "Asunción", "Montevideo"],
+      "correctAnswer": "Asunción",
+      "explanation": "Asunción is the capital of Paraguay, located on the banks of the Paraguay River, and is one of the oldest cities founded by Europeans on the continent."
+    },
+    {
+      "id": "sa_10",
+      "text": "What is the capital of Uruguay?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Punta del Este", "Salto", "Montevideo", "Buenos Aires"],
+      "correctAnswer": "Montevideo",
+      "explanation": "Montevideo is the capital of Uruguay, located on the country's southern coast. It is known for its beaches and its old town with colonial buildings."
+    },
+    {
+      "id": "sa_11",
+      "text": "What is the capital of Guyana?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Linden", "New Amsterdam", "Georgetown", "Paramaribo"],
+      "correctAnswer": "Georgetown",
+      "explanation": "Georgetown is the capital of Guyana. It is known for its tree-lined streets and British colonial wooden buildings."
+    },
+    {
+      "id": "sa_12",
+      "text": "What is the capital of Suriname?",
+      "type": "multiple-choice",
+      "category": "South America",
+      "answers": ["Lelydorp", "Nieuw Nickerie", "Paramaribo", "Georgetown"],
+      "correctAnswer": "Paramaribo",
+      "explanation": "Paramaribo is the capital of Suriname. Its historic inner city features a unique fusion of Dutch architecture and local traditions and is a UNESCO World Heritage site."
+    },
+    {
+      "id": "oceania_01",
+      "text": "What is the capital of Australia?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correctAnswer": "Canberra",
+      "explanation": "Canberra is the political capital of Australia. Unlike other major cities, it is an inland city specifically designed and planned to be the capital."
+    },
+    {
+      "id": "oceania_02",
+      "text": "What is the capital of New Zealand?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Auckland", "Christchurch", "Wellington", "Queenstown"],
+      "correctAnswer": "Wellington",
+      "explanation": "Wellington is the capital of New Zealand. It is known as the southernmost capital in the world and is famous for its arts and culture scene."
+    },
+    {
+      "id": "oceania_03",
+      "text": "What is the capital of Fiji?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Nadi", "Lautoka", "Suva", "Apia"],
+      "correctAnswer": "Suva",
+      "explanation": "Suva is the capital and largest city of Fiji. It is the country's political and economic center and a major port in the South Pacific."
+    },
+    {
+      "id": "oceania_04",
+      "text": "What is the capital of Papua New Guinea?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Lae", "Port Moresby", "Mount Hagen", "Honiara"],
+      "correctAnswer": "Port Moresby",
+      "explanation": "Port Moresby is the capital of Papua New Guinea, located on the coast of the Gulf of Papua. It is the largest city in the South Pacific region."
+    },
+    {
+      "id": "oceania_05",
+      "text": "What is the capital of Samoa?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Salelologa", "Apia", "Pago Pago", "Nuku'alofa"],
+      "correctAnswer": "Apia",
+      "explanation": "Apia is the capital and the only city in Samoa. It is located on the north coast of Upolu island."
+    },
+    {
+      "id": "oceania_06",
+      "text": "What is the capital of the Solomon Islands?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Gizo", "Auki", "Honiara", "Port Vila"],
+      "correctAnswer": "Honiara",
+      "explanation": "Honiara is the capital of the Solomon Islands, located on the northwestern coast of Guadalcanal island."
+    },
+    {
+      "id": "oceania_07",
+      "text": "What is the capital of Tonga?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Neiafu", "Haveluloto", "Nuku'alofa", "Suva"],
+      "correctAnswer": "Nuku'alofa",
+      "explanation": "Nuku'alofa is the capital of the Kingdom of Tonga. It is located on the coast of the island of Tongatapu."
+    },
+    {
+      "id": "oceania_08",
+      "text": "What is the capital of Vanuatu?",
+      "type": "multiple-choice",
+      "category": "Oceania",
+      "answers": ["Luganville", "Port Vila", "Isangel", "Honiara"],
+      "correctAnswer": "Port Vila",
+      "explanation": "Port Vila is the capital and largest city of Vanuatu, and it is the economic and commercial center of the archipelago."
+    }
+  ]
+}
