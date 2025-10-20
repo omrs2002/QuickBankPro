@@ -1,0 +1,1806 @@
+{
+    "title": "مسابقة رياضيات",
+    "description": "مسابقة رياضيات للصفوف الابتدائية - 200 سؤال اختيار من متعدد",
+    "questions": [
+        {
+            "id": "add_01",
+            "text": "145 + 322 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["467", "457", "477", "460"],
+            "correctAnswer": "467",
+            "explanation": "جمع الآحاد (5+2=7)، العشرات (4+2=6)، والمئات (1+3=4) يعطي الناتج 467."
+        },
+        {
+            "id": "add_02",
+            "text": "88 + 99 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["177", "187", "197", "180"],
+            "correctAnswer": "187",
+            "explanation": "يمكنك تقريبها إلى 90 + 100 = 190، ثم طرح 3، لتكون الإجابة 187."
+        },
+        {
+            "id": "add_03",
+            "text": "250 + 750 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["900", "950", "1000", "1050"],
+            "correctAnswer": "1000",
+            "explanation": "ربع الألف زائد ثلاثة أرباع الألف يساوي ألف كاملة."
+        },
+        {
+            "id": "add_04",
+            "text": "315 + 485 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["700", "750", "800", "850"],
+            "correctAnswer": "800",
+            "explanation": "جمع الآحاد (5+5=10)، العشرات (1+8=9) مع الواحد المحمول تصبح 10، والمئات (3+4=7) مع الواحد المحمول تصبح 800."
+        },
+        {
+            "id": "add_05",
+            "text": "95 + 105 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["190", "200", "210", "220"],
+            "correctAnswer": "200",
+            "explanation": "أخذ 5 من 105 وإضافتها إلى 95 تجعل العملية 100 + 100 = 200."
+        },
+        {
+            "id": "add_06",
+            "text": "430 + 170 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["500", "550", "600", "650"],
+            "correctAnswer": "600",
+            "explanation": "جمع العشرات (30+70=100) والمئات (400+100=500) مع المئة الإضافية يصبح المجموع 600."
+        },
+        {
+            "id": "add_07",
+            "text": "62 + 75 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["137", "127", "147", "135"],
+            "correctAnswer": "137",
+            "explanation": "جمع الآحاد (2+5=7) والعشرات (6+7=13) ينتج 137."
+        },
+        {
+            "id": "add_08",
+            "text": "111 + 888 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["990", "999", "1000", "989"],
+            "correctAnswer": "999",
+            "explanation": "جمع كل منزلة على حدة (1+8=9) يعطي 999."
+        },
+        {
+            "id": "add_09",
+            "text": "515 + 285 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["700", "750", "800", "850"],
+            "correctAnswer": "800",
+            "explanation": "جمع الآحاد (5+5=10)، العشرات (1+8=9) مع الواحد المحمول تصبح 10، والمئات (5+2=7) مع الواحد المحمول تصبح 800."
+        },
+        {
+            "id": "add_10",
+            "text": "34 + 66 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["90", "100", "110", "99"],
+            "correctAnswer": "100",
+            "explanation": "جمع الآحاد (4+6=10) والعشرات (3+6=9) مع الواحد المحمول يصبح 100."
+        },
+        {
+            "id": "add_11",
+            "text": "199 + 1 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["198", "200", "201", "210"],
+            "correctAnswer": "200",
+            "explanation": "الرقم الذي يلي 199 هو 200."
+        },
+        {
+            "id": "add_12",
+            "text": "402 + 198 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["500", "550", "600", "650"],
+            "correctAnswer": "600",
+            "explanation": "يمكنك تحويلها إلى 400 + 200 لتسهيل العملية."
+        },
+        {
+            "id": "add_13",
+            "text": "85 + 65 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["140", "150", "160", "145"],
+            "correctAnswer": "150",
+            "explanation": "جمع الآحاد (5+5=10) والعشرات (8+6=14) مع الواحد المحمول يصبح 150."
+        },
+        {
+            "id": "add_14",
+            "text": "77 + 33 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["100", "110", "120", "107"],
+            "correctAnswer": "110",
+            "explanation": "جمع الآحاد (7+3=10) والعشرات (7+3=10) مع الواحد المحمول يصبح 110."
+        },
+        {
+            "id": "add_15",
+            "text": "235 + 165 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["300", "350", "400", "450"],
+            "correctAnswer": "400",
+            "explanation": "جمع الآحاد (5+5=10)، العشرات (3+6=9) مع الواحد المحمول تصبح 10، والمئات (2+1=3) مع الواحد المحمول تصبح 400."
+        },
+        {
+            "id": "add_16",
+            "text": "55 + 55 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["100", "105", "110", "115"],
+            "correctAnswer": "110",
+            "explanation": "ضعف العدد 55 هو 110."
+        },
+        {
+            "id": "add_17",
+            "text": "180 + 120 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["280", "290", "300", "310"],
+            "correctAnswer": "300",
+            "explanation": "جمع العشرات (80+20=100) والمئات (100+100=200) مع المئة الإضافية يصبح المجموع 300."
+        },
+        {
+            "id": "add_18",
+            "text": "303 + 404 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["700", "707", "770", "777"],
+            "correctAnswer": "707",
+            "explanation": "جمع الآحاد (3+4=7) والمئات (3+4=7) يعطي 707."
+        },
+        {
+            "id": "add_19",
+            "text": "82 + 91 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["173", "163", "183", "170"],
+            "correctAnswer": "173",
+            "explanation": "جمع الآحاد (2+1=3) والعشرات (8+9=17) يعطي 173."
+        },
+        {
+            "id": "add_20",
+            "text": "410 + 290 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["600", "650", "700", "750"],
+            "correctAnswer": "700",
+            "explanation": "جمع العشرات (10+90=100) والمئات (400+200=600) مع المئة الإضافية يصبح 700."
+        },
+        {
+            "id": "add_21",
+            "text": "37 + 84 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["111", "121", "131", "110"],
+            "correctAnswer": "121",
+            "explanation": "جمع الآحاد (7+4=11) والعشرات (3+8=11) مع الواحد المحمول يصبح 121."
+        },
+        {
+            "id": "add_22",
+            "text": "152 + 148 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["290", "300", "310", "298"],
+            "correctAnswer": "300",
+            "explanation": "جمع الآحاد (2+8=10)، العشرات (5+4=9) مع الواحد المحمول تصبح 10، والمئات (1+1=2) مع الواحد المحمول تصبح 300."
+        },
+        {
+            "id": "add_23",
+            "text": "90 + 80 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["160", "170", "180", "150"],
+            "correctAnswer": "170",
+            "explanation": "جمع 9 و 8 يساوي 17، ثم نضيف الصفر."
+        },
+        {
+            "id": "add_24",
+            "text": "66 + 77 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["133", "143", "153", "140"],
+            "correctAnswer": "143",
+            "explanation": "جمع الآحاد (6+7=13) والعشرات (6+7=13) مع الواحد المحمول يصبح 143."
+        },
+        {
+            "id": "add_25",
+            "text": "333 + 667 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["990", "999", "1000", "1010"],
+            "correctAnswer": "1000",
+            "explanation": "جمع 333 و 667 ينتج 1000."
+        },
+        {
+            "id": "add_26",
+            "text": "48 + 52 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["90", "95", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "جمع الآحاد (8+2=10) والعشرات (4+5=9) مع الواحد المحمول يصبح 100."
+        },
+        {
+            "id": "add_27",
+            "text": "125 + 175 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["290", "300", "310", "325"],
+            "correctAnswer": "300",
+            "explanation": "جمع الآحاد (5+5=10)، العشرات (2+7=9) مع الواحد المحمول تصبح 10، والمئات (1+1=2) مع الواحد المحمول تصبح 300."
+        },
+        {
+            "id": "add_28",
+            "text": "205 + 305 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["500", "505", "510", "515"],
+            "correctAnswer": "510",
+            "explanation": "جمع الآحاد (5+5=10) والمئات (2+3=5) مع الواحد المحمول من العشرات ينتج 510."
+        },
+        {
+            "id": "add_29",
+            "text": "72 + 28 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["90", "95", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "جمع الآحاد (2+8=10) والعشرات (7+2=9) مع الواحد المحمول يصبح 100."
+        },
+        {
+            "id": "add_30",
+            "text": "118 + 282 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["390", "400", "410", "399"],
+            "correctAnswer": "400",
+            "explanation": "جمع 118 و 282 ينتج 400."
+        },
+        {
+            "id": "add_31",
+            "text": "45 + 45 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["80", "85", "90", "95"],
+            "correctAnswer": "90",
+            "explanation": "ضعف العدد 45 هو 90."
+        },
+        {
+            "id": "add_32",
+            "text": "160 + 160 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["300", "320", "340", "360"],
+            "correctAnswer": "320",
+            "explanation": "ضعف العدد 160 هو 320."
+        },
+        {
+            "id": "add_33",
+            "text": "24 + 99 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["113", "123", "133", "120"],
+            "correctAnswer": "123",
+            "explanation": "يمكنك جمع 24 + 100 = 124 ثم طرح 1."
+        },
+        {
+            "id": "add_34",
+            "text": "301 + 499 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["700", "750", "800", "850"],
+            "correctAnswer": "800",
+            "explanation": "يمكنك تحويلها إلى 300 + 500 لتسهيل العملية."
+        },
+        {
+            "id": "add_35",
+            "text": "58 + 42 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["90", "95", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "جمع الآحاد (8+2=10) والعشرات (5+4=9) مع الواحد المحمول يصبح 100."
+        },
+        {
+            "id": "add_36",
+            "text": "135 + 265 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["390", "400", "410", "395"],
+            "correctAnswer": "400",
+            "explanation": "جمع 135 و 265 ينتج 400."
+        },
+        {
+            "id": "add_37",
+            "text": "210 + 390 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["500", "550", "600", "650"],
+            "correctAnswer": "600",
+            "explanation": "جمع العشرات (10+90=100) والمئات (200+300=500) مع المئة الإضافية يصبح 600."
+        },
+        {
+            "id": "add_38",
+            "text": "88 + 22 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["100", "110", "120", "108"],
+            "correctAnswer": "110",
+            "explanation": "جمع الآحاد (8+2=10) والعشرات (8+2=10) مع الواحد المحمول يصبح 110."
+        },
+        {
+            "id": "add_39",
+            "text": "140 + 260 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["380", "390", "400", "410"],
+            "correctAnswer": "400",
+            "explanation": "جمع العشرات (40+60=100) والمئات (100+200=300) مع المئة الإضافية يصبح 400."
+        },
+        {
+            "id": "add_40",
+            "text": "71 + 39 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["100", "110", "120", "109"],
+            "correctAnswer": "110",
+            "explanation": "جمع الآحاد (1+9=10) والعشرات (7+3=10) مع الواحد المحمول يصبح 110."
+        },
+        {
+            "id": "add_41",
+            "text": "44 + 56 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["90", "95", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "جمع الآحاد (4+6=10) والعشرات (4+5=9) مع الواحد المحمول يصبح 100."
+        },
+        {
+            "id": "add_42",
+            "text": "177 + 123 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["290", "300", "310", "299"],
+            "correctAnswer": "300",
+            "explanation": "جمع 177 و 123 ينتج 300."
+        },
+        {
+            "id": "add_43",
+            "text": "225 + 275 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["400", "450", "500", "550"],
+            "correctAnswer": "500",
+            "explanation": "جمع 225 و 275 ينتج 500."
+        },
+        {
+            "id": "add_44",
+            "text": "83 + 17 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["90", "95", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "جمع الآحاد (3+7=10) والعشرات (8+1=9) مع الواحد المحمول يصبح 100."
+        },
+        {
+            "id": "add_45",
+            "text": "101 + 202 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["300", "303", "330", "333"],
+            "correctAnswer": "303",
+            "explanation": "الجمع المباشر لكل منزلة يعطي 303."
+        },
+        {
+            "id": "add_46",
+            "text": "456 + 123 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["579", "569", "589", "570"],
+            "correctAnswer": "579",
+            "explanation": "الجمع المباشر لكل منزلة يعطي 579."
+        },
+        {
+            "id": "add_47",
+            "text": "60 + 140 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["180", "190", "200", "210"],
+            "correctAnswer": "200",
+            "explanation": "الجمع المباشر ينتج 200."
+        },
+        {
+            "id": "add_48",
+            "text": "380 + 220 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["500", "550", "600", "650"],
+            "correctAnswer": "600",
+            "explanation": "جمع العشرات (80+20=100) والمئات (300+200=500) مع المئة الإضافية يصبح 600."
+        },
+        {
+            "id": "add_49",
+            "text": "75 + 125 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["190", "200", "210", "225"],
+            "correctAnswer": "200",
+            "explanation": "الجمع المباشر ينتج 200."
+        },
+        {
+            "id": "add_50",
+            "text": "499 + 501 = ",
+            "type": "multiple-choice",
+            "category": "جمع",
+            "answers": ["990", "999", "1000", "1010"],
+            "correctAnswer": "1000",
+            "explanation": "يمكنك تحويلها إلى 500 + 500 لتسهيل العملية."
+        },
+        {
+            "id": "sub_01",
+            "text": "200 - 55 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["145", "155", "135", "150"],
+            "correctAnswer": "145",
+            "explanation": "الطرح مع الاستلاف يعطي 145."
+        },
+        {
+            "id": "sub_02",
+            "text": "180 - 90 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["80", "90", "100", "70"],
+            "correctAnswer": "90",
+            "explanation": "نصف العدد 180 هو 90."
+        },
+        {
+            "id": "sub_03",
+            "text": "350 - 175 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["175", "165", "185", "150"],
+            "correctAnswer": "175",
+            "explanation": "نصف العدد 350 هو 175."
+        },
+        {
+            "id": "sub_04",
+            "text": "101 - 12 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["89", "99", "91", "88"],
+            "correctAnswer": "89",
+            "explanation": "الطرح مع الاستلاف يعطي 89."
+        },
+        {
+            "id": "sub_05",
+            "text": "500 - 1 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["490", "499", "400", "49"],
+            "correctAnswer": "499",
+            "explanation": "الرقم الذي يسبق 500 هو 499."
+        },
+        {
+            "id": "sub_06",
+            "text": "999 - 111 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["880", "888", "800", "889"],
+            "correctAnswer": "888",
+            "explanation": "طرح كل منزلة على حدة (9-1=8) يعطي 888."
+        },
+        {
+            "id": "sub_07",
+            "text": "123 - 45 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["78", "88", "68", "75"],
+            "correctAnswer": "78",
+            "explanation": "الطرح مع الاستلاف يعطي 78."
+        },
+        {
+            "id": "sub_08",
+            "text": "400 - 150 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["200", "250", "300", "350"],
+            "correctAnswer": "250",
+            "explanation": "400 ناقص 100 يساوي 300، ثم نطرح 50 أخرى لتصبح 250."
+        },
+        {
+            "id": "sub_09",
+            "text": "61 - 22 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["39", "49", "41", "38"],
+            "correctAnswer": "39",
+            "explanation": "الطرح مع الاستلاف يعطي 39."
+        },
+        {
+            "id": "sub_10",
+            "text": "80 - 35 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["40", "45", "50", "55"],
+            "correctAnswer": "45",
+            "explanation": "80 ناقص 30 يساوي 50، ثم نطرح 5 أخرى لتصبح 45."
+        },
+        {
+            "id": "sub_11",
+            "text": "110 - 55 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["50", "55", "60", "65"],
+            "correctAnswer": "55",
+            "explanation": "نصف العدد 110 هو 55."
+        },
+        {
+            "id": "sub_12",
+            "text": "300 - 101 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["199", "200", "201", "190"],
+            "correctAnswer": "199",
+            "explanation": "يمكنك طرح 100 أولاً (200) ثم طرح 1."
+        },
+        {
+            "id": "sub_13",
+            "text": "150 - 75 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["70", "75", "80", "85"],
+            "correctAnswer": "75",
+            "explanation": "نصف العدد 150 هو 75."
+        },
+        {
+            "id": "sub_14",
+            "text": "75 - 18 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["57", "67", "63", "55"],
+            "correctAnswer": "57",
+            "explanation": "الطرح مع الاستلاف يعطي 57."
+        },
+        {
+            "id": "sub_15",
+            "text": "92 - 46 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["40", "42", "46", "48"],
+            "correctAnswer": "46",
+            "explanation": "نصف العدد 92 هو 46."
+        },
+        {
+            "id": "sub_16",
+            "text": "202 - 98 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["104", "114", "102", "112"],
+            "correctAnswer": "104",
+            "explanation": "يمكنك طرح 100 أولاً (102) ثم إضافة 2."
+        },
+        {
+            "id": "sub_17",
+            "text": "81 - 27 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["54", "64", "50", "60"],
+            "correctAnswer": "54",
+            "explanation": "الطرح مع الاستلاف يعطي 54."
+        },
+        {
+            "id": "sub_18",
+            "text": "130 - 65 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["60", "65", "70", "75"],
+            "correctAnswer": "65",
+            "explanation": "نصف العدد 130 هو 65."
+        },
+        {
+            "id": "sub_19",
+            "text": "250 - 125 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["100", "125", "150", "135"],
+            "correctAnswer": "125",
+            "explanation": "نصف العدد 250 هو 125."
+        },
+        {
+            "id": "sub_20",
+            "text": "1000 - 500 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["400", "450", "500", "550"],
+            "correctAnswer": "500",
+            "explanation": "نصف العدد 1000 هو 500."
+        },
+        {
+            "id": "sub_21",
+            "text": "91 - 19 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["72", "82", "70", "80"],
+            "correctAnswer": "72",
+            "explanation": "الطرح مع الاستلاف يعطي 72."
+        },
+        {
+            "id": "sub_22",
+            "text": "112 - 56 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["50", "52", "56", "58"],
+            "correctAnswer": "56",
+            "explanation": "نصف العدد 112 هو 56."
+        },
+        {
+            "id": "sub_23",
+            "text": "300 - 151 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["149", "150", "151", "140"],
+            "correctAnswer": "149",
+            "explanation": "الطرح مع الاستلاف يعطي 149."
+        },
+        {
+            "id": "sub_24",
+            "text": "88 - 39 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["49", "59", "45", "55"],
+            "correctAnswer": "49",
+            "explanation": "الطرح مع الاستلاف يعطي 49."
+        },
+        {
+            "id": "sub_25",
+            "text": "700 - 350 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["300", "325", "350", "375"],
+            "correctAnswer": "350",
+            "explanation": "نصف العدد 700 هو 350."
+        },
+        {
+            "id": "sub_26",
+            "text": "108 - 54 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["50", "52", "54", "56"],
+            "correctAnswer": "54",
+            "explanation": "نصف العدد 108 هو 54."
+        },
+        {
+            "id": "sub_27",
+            "text": "50 - 21 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["29", "39", "31", "28"],
+            "correctAnswer": "29",
+            "explanation": "الطرح مع الاستلاف يعطي 29."
+        },
+        {
+            "id": "sub_28",
+            "text": "120 - 61 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["59", "69", "60", "50"],
+            "correctAnswer": "59",
+            "explanation": "الطرح مع الاستلاف يعطي 59."
+        },
+        {
+            "id": "sub_29",
+            "text": "114 - 57 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["55", "56", "57", "58"],
+            "correctAnswer": "57",
+            "explanation": "نصف العدد 114 هو 57."
+        },
+        {
+            "id": "sub_30",
+            "text": "900 - 450 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["400", "425", "450", "475"],
+            "correctAnswer": "450",
+            "explanation": "نصف العدد 900 هو 450."
+        },
+        {
+            "id": "sub_31",
+            "text": "100 - 33 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["66", "67", "77", "70"],
+            "correctAnswer": "67",
+            "explanation": "الطرح مع الاستلاف يعطي 67."
+        },
+        {
+            "id": "sub_32",
+            "text": "85 - 43 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["40", "41", "42", "43"],
+            "correctAnswer": "42",
+            "explanation": "الطرح المباشر يعطي 42."
+        },
+        {
+            "id": "sub_33",
+            "text": "124 - 62 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["60", "61", "62", "63"],
+            "correctAnswer": "62",
+            "explanation": "نصف العدد 124 هو 62."
+        },
+        {
+            "id": "sub_34",
+            "text": "100 - 9 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["90", "91", "92", "89"],
+            "correctAnswer": "91",
+            "explanation": "الطرح المباشر يعطي 91."
+        },
+        {
+            "id": "sub_35",
+            "text": "200 - 15 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["180", "185", "190", "195"],
+            "correctAnswer": "185",
+            "explanation": "الطرح مع الاستلاف يعطي 185."
+        },
+        {
+            "id": "sub_36",
+            "text": "116 - 58 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["56", "57", "58", "59"],
+            "correctAnswer": "58",
+            "explanation": "نصف العدد 116 هو 58."
+        },
+        {
+            "id": "sub_37",
+            "text": "300 - 25 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["270", "275", "280", "285"],
+            "correctAnswer": "275",
+            "explanation": "الطرح مع الاستلاف يعطي 275."
+        },
+        {
+            "id": "sub_38",
+            "text": "82 - 41 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["40", "41", "42", "43"],
+            "correctAnswer": "41",
+            "explanation": "نصف العدد 82 هو 41."
+        },
+        {
+            "id": "sub_39",
+            "text": "100 - 81 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["19", "29", "21", "18"],
+            "correctAnswer": "19",
+            "explanation": "الطرح مع الاستلاف يعطي 19."
+        },
+        {
+            "id": "sub_40",
+            "text": "122 - 61 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["60", "61", "62", "63"],
+            "correctAnswer": "61",
+            "explanation": "نصف العدد 122 هو 61."
+        },
+        {
+            "id": "sub_41",
+            "text": "70 - 11 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["59", "69", "60", "58"],
+            "correctAnswer": "59",
+            "explanation": "الطرح مع الاستلاف يعطي 59."
+        },
+        {
+            "id": "sub_42",
+            "text": "98 - 49 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["45", "47", "49", "51"],
+            "correctAnswer": "49",
+            "explanation": "نصف العدد 98 هو 49."
+        },
+        {
+            "id": "sub_43",
+            "text": "200 - 125 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["70", "75", "80", "85"],
+            "correctAnswer": "75",
+            "explanation": "الطرح مع الاستلاف يعطي 75."
+        },
+        {
+            "id": "sub_44",
+            "text": "100 - 51 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["49", "50", "51", "48"],
+            "correctAnswer": "49",
+            "explanation": "الطرح مع الاستلاف يعطي 49."
+        },
+        {
+            "id": "sub_45",
+            "text": "132 - 66 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["60", "62", "66", "68"],
+            "correctAnswer": "66",
+            "explanation": "نصف العدد 132 هو 66."
+        },
+        {
+            "id": "sub_46",
+            "text": "100 - 2 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["97", "98", "99", "96"],
+            "correctAnswer": "98",
+            "explanation": "الرقم 98 يأتي قبل 99."
+        },
+        {
+            "id": "sub_47",
+            "text": "45 - 23 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["20", "21", "22", "23"],
+            "correctAnswer": "22",
+            "explanation": "الطرح المباشر يعطي 22."
+        },
+        {
+            "id": "sub_48",
+            "text": "118 - 59 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["58", "59", "60", "61"],
+            "correctAnswer": "59",
+            "explanation": "نصف العدد 118 هو 59."
+        },
+        {
+            "id": "sub_49",
+            "text": "100 - 78 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["22", "32", "28", "38"],
+            "correctAnswer": "22",
+            "explanation": "الطرح مع الاستلاف يعطي 22."
+        },
+        {
+            "id": "sub_50",
+            "text": "1000 - 10 = ",
+            "type": "multiple-choice",
+            "category": "طرح",
+            "answers": ["990", "999", "900", "99"],
+            "correctAnswer": "990",
+            "explanation": "الطرح المباشر يعطي 990."
+        },
+        {
+            "id": "mul_01",
+            "text": "11 * 12 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["121", "122", "132", "142"],
+            "correctAnswer": "132",
+            "explanation": "من جدول الضرب، 11 في 12 يساوي 132."
+        },
+        {
+            "id": "mul_02",
+            "text": "9 * 7 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["56", "63", "72", "54"],
+            "correctAnswer": "63",
+            "explanation": "من جدول الضرب، 9 في 7 يساوي 63."
+        },
+        {
+            "id": "mul_03",
+            "text": "8 * 8 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["60", "64", "72", "80"],
+            "correctAnswer": "64",
+            "explanation": "من جدول الضرب، 8 في 8 يساوي 64."
+        },
+        {
+            "id": "mul_04",
+            "text": "10 * 15 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["105", "115", "150", "160"],
+            "correctAnswer": "150",
+            "explanation": "عند الضرب في 10، نضيف صفرًا إلى الرقم."
+        },
+        {
+            "id": "mul_05",
+            "text": "6 * 9 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["48", "54", "60", "63"],
+            "correctAnswer": "54",
+            "explanation": "من جدول الضرب، 6 في 9 يساوي 54."
+        },
+        {
+            "id": "mul_06",
+            "text": "7 * 7 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["42", "48", "49", "56"],
+            "correctAnswer": "49",
+            "explanation": "من جدول الضرب، 7 في 7 يساوي 49."
+        },
+        {
+            "id": "mul_07",
+            "text": "12 * 10 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["110", "120", "130", "121"],
+            "correctAnswer": "120",
+            "explanation": "عند الضرب في 10، نضيف صفرًا إلى الرقم."
+        },
+        {
+            "id": "mul_08",
+            "text": "5 * 12 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["50", "55", "60", "65"],
+            "correctAnswer": "60",
+            "explanation": "من جدول الضرب، 5 في 12 يساوي 60."
+        },
+        {
+            "id": "mul_09",
+            "text": "20 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["80", "90", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "2 في 5 يساوي 10، ثم نضيف صفرًا."
+        },
+        {
+            "id": "mul_10",
+            "text": "9 * 6 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["45", "54", "63", "48"],
+            "correctAnswer": "54",
+            "explanation": "من جدول الضرب، 9 في 6 يساوي 54."
+        },
+        {
+            "id": "mul_11",
+            "text": "3 * 15 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["35", "40", "45", "50"],
+            "correctAnswer": "45",
+            "explanation": "جمع 15 ثلاث مرات يعطي 45."
+        },
+        {
+            "id": "mul_12",
+            "text": "8 * 7 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["56", "64", "49", "63"],
+            "correctAnswer": "56",
+            "explanation": "من جدول الضرب، 8 في 7 يساوي 56."
+        },
+        {
+            "id": "mul_13",
+            "text": "11 * 11 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["111", "121", "131", "120"],
+            "correctAnswer": "121",
+            "explanation": "11 في 11 يساوي 121."
+        },
+        {
+            "id": "mul_14",
+            "text": "4 * 25 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["80", "90", "100", "110"],
+            "correctAnswer": "100",
+            "explanation": "جمع 25 أربع مرات يعطي 100."
+        },
+        {
+            "id": "mul_15",
+            "text": "9 * 9 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["80", "81", "90", "72"],
+            "correctAnswer": "81",
+            "explanation": "من جدول الضرب، 9 في 9 يساوي 81."
+        },
+        {
+            "id": "mul_16",
+            "text": "6 * 8 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["42", "48", "54", "56"],
+            "correctAnswer": "48",
+            "explanation": "من جدول الضرب، 6 في 8 يساوي 48."
+        },
+        {
+            "id": "mul_17",
+            "text": "12 * 4 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["40", "44", "48", "52"],
+            "correctAnswer": "48",
+            "explanation": "من جدول الضرب، 12 في 4 يساوي 48."
+        },
+        {
+            "id": "mul_18",
+            "text": "7 * 6 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["42", "49", "36", "48"],
+            "correctAnswer": "42",
+            "explanation": "من جدول الضرب، 7 في 6 يساوي 42."
+        },
+        {
+            "id": "mul_19",
+            "text": "30 * 4 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["100", "110", "120", "130"],
+            "correctAnswer": "120",
+            "explanation": "3 في 4 يساوي 12، ثم نضيف صفرًا."
+        },
+        {
+            "id": "mul_20",
+            "text": "8 * 9 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["64", "72", "81", "63"],
+            "correctAnswer": "72",
+            "explanation": "من جدول الضرب، 8 في 9 يساوي 72."
+        },
+        {
+            "id": "mul_21",
+            "text": "5 * 11 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["50", "55", "60", "65"],
+            "correctAnswer": "55",
+            "explanation": "من جدول الضرب، 5 في 11 يساوي 55."
+        },
+        {
+            "id": "mul_22",
+            "text": "10 * 11 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["100", "101", "110", "111"],
+            "correctAnswer": "110",
+            "explanation": "عند الضرب في 10، نضيف صفرًا إلى الرقم."
+        },
+        {
+            "id": "mul_23",
+            "text": "6 * 6 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["30", "36", "42", "35"],
+            "correctAnswer": "36",
+            "explanation": "من جدول الضرب، 6 في 6 يساوي 36."
+        },
+        {
+            "id": "mul_24",
+            "text": "7 * 12 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["74", "84", "94", "77"],
+            "correctAnswer": "84",
+            "explanation": "من جدول الضرب، 7 في 12 يساوي 84."
+        },
+        {
+            "id": "mul_25",
+            "text": "40 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["150", "200", "250", "300"],
+            "correctAnswer": "200",
+            "explanation": "4 في 5 يساوي 20، ثم نضيف صفرًا."
+        },
+        {
+            "id": "mul_26",
+            "text": "8 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["35", "40", "45", "50"],
+            "correctAnswer": "40",
+            "explanation": "من جدول الضرب، 8 في 5 يساوي 40."
+        },
+        {
+            "id": "mul_27",
+            "text": "9 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["40", "45", "50", "55"],
+            "correctAnswer": "45",
+            "explanation": "من جدول الضرب، 9 في 5 يساوي 45."
+        },
+        {
+            "id": "mul_28",
+            "text": "3 * 25 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["65", "70", "75", "80"],
+            "correctAnswer": "75",
+            "explanation": "جمع 25 ثلاث مرات يعطي 75."
+        },
+        {
+            "id": "mul_29",
+            "text": "11 * 9 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["90", "99", "100", "109"],
+            "correctAnswer": "99",
+            "explanation": "من جدول الضرب، 11 في 9 يساوي 99."
+        },
+        {
+            "id": "mul_30",
+            "text": "12 * 8 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["86", "96", "106", "92"],
+            "correctAnswer": "96",
+            "explanation": "من جدول الضرب، 12 في 8 يساوي 96."
+        },
+        {
+            "id": "mul_31",
+            "text": "7 * 9 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["56", "63", "72", "54"],
+            "correctAnswer": "63",
+            "explanation": "من جدول الضرب، 7 في 9 يساوي 63."
+        },
+        {
+            "id": "mul_32",
+            "text": "6 * 7 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["42", "48", "49", "36"],
+            "correctAnswer": "42",
+            "explanation": "من جدول الضرب، 6 في 7 يساوي 42."
+        },
+        {
+            "id": "mul_33",
+            "text": "50 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["200", "225", "250", "275"],
+            "correctAnswer": "250",
+            "explanation": "5 في 5 يساوي 25، ثم نضيف صفرًا."
+        },
+        {
+            "id": "mul_34",
+            "text": "12 * 6 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["62", "72", "82", "66"],
+            "correctAnswer": "72",
+            "explanation": "من جدول الضرب، 12 في 6 يساوي 72."
+        },
+        {
+            "id": "mul_35",
+            "text": "10 * 10 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["10", "100", "1000", "20"],
+            "correctAnswer": "100",
+            "explanation": "10 في 10 يساوي 100."
+        },
+        {
+            "id": "mul_36",
+            "text": "8 * 4 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["28", "32", "36", "40"],
+            "correctAnswer": "32",
+            "explanation": "من جدول الضرب، 8 في 4 يساوي 32."
+        },
+        {
+            "id": "mul_37",
+            "text": "9 * 4 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["32", "36", "40", "45"],
+            "correctAnswer": "36",
+            "explanation": "من جدول الضرب، 9 في 4 يساوي 36."
+        },
+        {
+            "id": "mul_38",
+            "text": "7 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["30", "35", "40", "42"],
+            "correctAnswer": "35",
+            "explanation": "من جدول الضرب، 7 في 5 يساوي 35."
+        },
+        {
+            "id": "mul_39",
+            "text": "11 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["50", "55", "60", "66"],
+            "correctAnswer": "55",
+            "explanation": "من جدول الضرب، 11 في 5 يساوي 55."
+        },
+        {
+            "id": "mul_40",
+            "text": "12 * 3 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["30", "33", "36", "39"],
+            "correctAnswer": "36",
+            "explanation": "من جدول الضرب، 12 في 3 يساوي 36."
+        },
+        {
+            "id": "mul_41",
+            "text": "6 * 5 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["25", "30", "35", "36"],
+            "correctAnswer": "30",
+            "explanation": "من جدول الضرب، 6 في 5 يساوي 30."
+        },
+        {
+            "id": "mul_42",
+            "text": "8 * 10 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["70", "80", "90", "18"],
+            "correctAnswer": "80",
+            "explanation": "عند الضرب في 10، نضيف صفرًا إلى الرقم."
+        },
+        {
+            "id": "mul_43",
+            "text": "9 * 12 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["98", "108", "118", "100"],
+            "correctAnswer": "108",
+            "explanation": "من جدول الضرب، 9 في 12 يساوي 108."
+        },
+        {
+            "id": "mul_44",
+            "text": "4 * 15 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["50", "55", "60", "65"],
+            "correctAnswer": "60",
+            "explanation": "جمع 15 أربع مرات يعطي 60."
+        },
+        {
+            "id": "mul_45",
+            "text": "7 * 11 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["70", "77", "87", "71"],
+            "correctAnswer": "77",
+            "explanation": "من جدول الضرب، 7 في 11 يساوي 77."
+        },
+        {
+            "id": "mul_46",
+            "text": "8 * 11 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["80", "81", "88", "89"],
+            "correctAnswer": "88",
+            "explanation": "من جدول الضرب، 8 في 11 يساوي 88."
+        },
+        {
+            "id": "mul_47",
+            "text": "2 * 50 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["90", "100", "110", "120"],
+            "correctAnswer": "100",
+            "explanation": "ضعف العدد 50 هو 100."
+        },
+        {
+            "id": "mul_48",
+            "text": "6 * 12 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["62", "72", "82", "68"],
+            "correctAnswer": "72",
+            "explanation": "من جدول الضرب، 6 في 12 يساوي 72."
+        },
+        {
+            "id": "mul_49",
+            "text": "7 * 10 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["60", "70", "80", "17"],
+            "correctAnswer": "70",
+            "explanation": "عند الضرب في 10، نضيف صفرًا إلى الرقم."
+        },
+        {
+            "id": "mul_50",
+            "text": "9 * 10 = ",
+            "type": "multiple-choice",
+            "category": "ضرب",
+            "answers": ["80", "90", "100", "19"],
+            "correctAnswer": "90",
+            "explanation": "عند الضرب في 10، نضيف صفرًا إلى الرقم."
+        },
+        {
+            "id": "div_01",
+            "text": "144 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["10", "11", "12", "13"],
+            "correctAnswer": "12",
+            "explanation": "لأن 12 في 12 يساوي 144."
+        },
+        {
+            "id": "div_02",
+            "text": "100 / 10 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["1", "10", "100", "11"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 10 يساوي 100."
+        },
+        {
+            "id": "div_03",
+            "text": "81 / 9 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "9",
+            "explanation": "لأن 9 في 9 يساوي 81."
+        },
+        {
+            "id": "div_04",
+            "text": "64 / 8 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 8 يساوي 64."
+        },
+        {
+            "id": "div_05",
+            "text": "56 / 7 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 7 يساوي 56."
+        },
+        {
+            "id": "div_06",
+            "text": "49 / 7 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 7 يساوي 49."
+        },
+        {
+            "id": "div_07",
+            "text": "42 / 6 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 6 يساوي 42."
+        },
+        {
+            "id": "div_08",
+            "text": "36 / 6 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 6 يساوي 36."
+        },
+        {
+            "id": "div_09",
+            "text": "30 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["4", "5", "6", "7"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 5 يساوي 30."
+        },
+        {
+            "id": "div_10",
+            "text": "25 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["4", "5", "6", "7"],
+            "correctAnswer": "5",
+            "explanation": "لأن 5 في 5 يساوي 25."
+        },
+        {
+            "id": "div_11",
+            "text": "72 / 9 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 9 يساوي 72."
+        },
+        {
+            "id": "div_12",
+            "text": "120 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["10", "11", "12", "13"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 12 يساوي 120."
+        },
+        {
+            "id": "div_13",
+            "text": "110 / 11 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["9", "10", "11", "12"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 11 يساوي 110."
+        },
+        {
+            "id": "div_14",
+            "text": "50 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "10", "15", "20"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 5 يساوي 50."
+        },
+        {
+            "id": "div_15",
+            "text": "54 / 6 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "9",
+            "explanation": "لأن 9 في 6 يساوي 54."
+        },
+        {
+            "id": "div_16",
+            "text": "48 / 8 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 8 يساوي 48."
+        },
+        {
+            "id": "div_17",
+            "text": "60 / 10 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 10 يساوي 60."
+        },
+        {
+            "id": "div_18",
+            "text": "63 / 7 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "9",
+            "explanation": "لأن 9 في 7 يساوي 63."
+        },
+        {
+            "id": "div_19",
+            "text": "35 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 5 يساوي 35."
+        },
+        {
+            "id": "div_20",
+            "text": "108 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["8", "9", "10", "11"],
+            "correctAnswer": "9",
+            "explanation": "لأن 9 في 12 يساوي 108."
+        },
+        {
+            "id": "div_21",
+            "text": "90 / 9 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["9", "10", "11", "12"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 9 يساوي 90."
+        },
+        {
+            "id": "div_22",
+            "text": "80 / 8 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["8", "9", "10", "11"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 8 يساوي 80."
+        },
+        {
+            "id": "div_23",
+            "text": "70 / 7 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 7 يساوي 70."
+        },
+        {
+            "id": "div_24",
+            "text": "45 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "9",
+            "explanation": "لأن 9 في 5 يساوي 45."
+        },
+        {
+            "id": "div_25",
+            "text": "32 / 4 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 4 يساوي 32."
+        },
+        {
+            "id": "div_26",
+            "text": "28 / 4 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 4 يساوي 28."
+        },
+        {
+            "id": "div_27",
+            "text": "24 / 4 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 4 يساوي 24."
+        },
+        {
+            "id": "div_28",
+            "text": "21 / 3 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 3 يساوي 21."
+        },
+        {
+            "id": "div_29",
+            "text": "18 / 3 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 3 يساوي 18."
+        },
+        {
+            "id": "div_30",
+            "text": "16 / 2 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 2 يساوي 16."
+        },
+        {
+            "id": "div_31",
+            "text": "96 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 12 يساوي 96."
+        },
+        {
+            "id": "div_32",
+            "text": "84 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 12 يساوي 84."
+        },
+        {
+            "id": "div_33",
+            "text": "72 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 12 يساوي 72."
+        },
+        {
+            "id": "div_34",
+            "text": "60 / 12 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["4", "5", "6", "7"],
+            "correctAnswer": "5",
+            "explanation": "لأن 5 في 12 يساوي 60."
+        },
+        {
+            "id": "div_35",
+            "text": "99 / 11 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["8", "9", "10", "11"],
+            "correctAnswer": "9",
+            "explanation": "لأن 9 في 11 يساوي 99."
+        },
+        {
+            "id": "div_36",
+            "text": "88 / 11 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["7", "8", "9", "10"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 11 يساوي 88."
+        },
+        {
+            "id": "div_37",
+            "text": "77 / 11 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "7",
+            "explanation": "لأن 7 في 11 يساوي 77."
+        },
+        {
+            "id": "div_38",
+            "text": "66 / 11 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["5", "6", "7", "8"],
+            "correctAnswer": "6",
+            "explanation": "لأن 6 في 11 يساوي 66."
+        },
+        {
+            "id": "div_39",
+            "text": "55 / 11 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["4", "5", "6", "7"],
+            "correctAnswer": "5",
+            "explanation": "لأن 5 في 11 يساوي 55."
+        },
+        {
+            "id": "div_40",
+            "text": "40 / 4 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["8", "9", "10", "11"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 4 يساوي 40."
+        },
+        {
+            "id": "div_41",
+            "text": "30 / 3 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["8", "9", "10", "11"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 3 يساوي 30."
+        },
+        {
+            "id": "div_42",
+            "text": "20 / 2 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["8", "9", "10", "11"],
+            "correctAnswer": "10",
+            "explanation": "لأن 10 في 2 يساوي 20."
+        },
+        {
+            "id": "div_43",
+            "text": "100 / 2 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["40", "45", "50", "55"],
+            "correctAnswer": "50",
+            "explanation": "لأن 50 في 2 يساوي 100."
+        },
+        {
+            "id": "div_44",
+            "text": "100 / 4 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["20", "25", "30", "35"],
+            "correctAnswer": "25",
+            "explanation": "لأن 25 في 4 يساوي 100."
+        },
+        {
+            "id": "div_45",
+            "text": "100 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["15", "20", "25", "30"],
+            "correctAnswer": "20",
+            "explanation": "لأن 20 في 5 يساوي 100."
+        },
+        {
+            "id": "div_46",
+            "text": "40 / 8 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["4", "5", "6", "7"],
+            "correctAnswer": "5",
+            "explanation": "لأن 5 في 8 يساوي 40."
+        },
+        {
+            "id": "div_47",
+            "text": "36 / 9 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["3", "4", "5", "6"],
+            "correctAnswer": "4",
+            "explanation": "لأن 4 في 9 يساوي 36."
+        },
+        {
+            "id": "div_48",
+            "text": "27 / 9 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["2", "3", "4", "5"],
+            "correctAnswer": "3",
+            "explanation": "لأن 3 في 9 يساوي 27."
+        },
+        {
+            "id": "div_49",
+            "text": "40 / 5 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["6", "7", "8", "9"],
+            "correctAnswer": "8",
+            "explanation": "لأن 8 في 5 يساوي 40."
+        },
+        {
+            "id": "div_50",
+            "text": "150 / 10 = ",
+            "type": "multiple-choice",
+            "category": "قسمة",
+            "answers": ["10", "15", "20", "25"],
+            "correctAnswer": "15",
+            "explanation": "لأن 15 في 10 يساوي 150."
+        }
+    ]
+}
