@@ -1,0 +1,707 @@
+{
+    "title": "اختبار مفردات الأعمال الإنجليزية",
+    "titleEn": "English Business Vocabulary Test",
+    "description": "اختبر معرفتك بأهم 50 كلمة إنجليزية تستخدم في بيئة العمل.",
+    "questions": [
+        {
+            "id": "biz-en-ar-001",
+            "text": "ما هو المعنى العربي لكلمة 'Agenda'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "جدول أعمال",
+                "قائمة طعام",
+                "خريطة",
+                "تقويم سنوي"
+            ],
+            "correctAnswer": "جدول أعمال",
+            "explanation": "Example: Please review the **agenda** before our meeting tomorrow."
+        },
+        {
+            "id": "biz-en-ar-002",
+            "text": "ما هو المعنى العربي لكلمة 'Meeting'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "حفلة",
+                "اجتماع",
+                "رحلة",
+                "موعد غرامي"
+            ],
+            "correctAnswer": "اجتماع",
+            "explanation": "Example: The team **meeting** is scheduled for 10 AM in the conference room."
+        },
+        {
+            "id": "biz-en-ar-003",
+            "text": "ما هو المعنى العربي لكلمة 'Deadline'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "خط البداية",
+                "وقت الاستراحة",
+                "موعد نهائي",
+                "يوم عطلة"
+            ],
+            "correctAnswer": "موعد نهائي",
+            "explanation": "Example: We need to finish this report before the **deadline** on Friday."
+        },
+        {
+            "id": "biz-en-ar-004",
+            "text": "ما هو المعنى العربي لكلمة 'Report'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "قصة",
+                "قصيدة",
+                "أغنية",
+                "تقرير"
+            ],
+            "correctAnswer": "تقرير",
+            "explanation": "Example: The manager asked for the quarterly sales **report**."
+        },
+        {
+            "id": "biz-en-ar-005",
+            "text": "ما هو المعنى العربي لكلمة 'Presentation'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "عرض تقديمي",
+                "معرض فني",
+                "مسرحية",
+                "حفل موسيقي"
+            ],
+            "correctAnswer": "عرض تقديمي",
+            "explanation": "Example: She gave an excellent **presentation** on the new marketing strategy."
+        },
+        {
+            "id": "biz-en-ar-006",
+            "text": "ما هو المعنى العربي لكلمة 'Email'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "رسالة ورقية",
+                "بريد إلكتروني",
+                "مكالمة هاتفية",
+                "فاكس"
+            ],
+            "correctAnswer": "بريد إلكتروني",
+            "explanation": "Example: Please send me the details via **email**."
+        },
+        {
+            "id": "biz-en-ar-007",
+            "text": "ما هو المعنى العربي لكلمة 'Project'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "مهمة يومية",
+                "مشروع",
+                "هواية",
+                "روتين"
+            ],
+            "correctAnswer": "مشروع",
+            "explanation": "Example: Our team is working on a new software **project**."
+        },
+        {
+            "id": "biz-en-ar-008",
+            "text": "ما هو المعنى العربي لكلمة 'Task'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "هدف بعيد",
+                "حلم",
+                "مهمة",
+                "مشكلة"
+            ],
+            "correctAnswer": "مهمة",
+            "explanation": "Example: My first **task** today is to check my emails."
+        },
+        {
+            "id": "biz-en-ar-009",
+            "text": "ما هو المعنى العربي لكلمة 'Goal'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "عقبة",
+                "هدف",
+                "بداية",
+                "نتيجة"
+            ],
+            "correctAnswer": "هدف",
+            "explanation": "Example: Our main **goal** this quarter is to increase sales by 10%."
+        },
+        {
+            "id": "biz-en-ar-010",
+            "text": "ما هو المعنى العربي لكلمة 'Objective'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "رأي شخصي",
+                "هدف (محدد وقابل للقياس)",
+                "شعور",
+                "افتراض"
+            ],
+            "correctAnswer": "هدف (محدد وقابل للقياس)",
+            "explanation": "Example: The training session has clear learning **objectives**."
+        },
+        {
+            "id": "biz-en-ar-011",
+            "text": "ما هو المعنى العربي لكلمة 'Strategy'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "تكتيك يومي",
+                "استراتيجية",
+                "صدفة",
+                "عادة"
+            ],
+            "correctAnswer": "استراتيجية",
+            "explanation": "Example: The company developed a new market entry **strategy**."
+        },
+        {
+            "id": "biz-en-ar-012",
+            "text": "ما هو المعنى العربي لكلمة 'Budget'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "فاتورة",
+                "دين",
+                "ميزانية",
+                "راتب"
+            ],
+            "correctAnswer": "ميزانية",
+            "explanation": "Example: We need to stay within the project **budget**."
+        },
+        {
+            "id": "biz-en-ar-013",
+            "text": "ما هو المعنى العربي لكلمة 'Invoice'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "فاتورة",
+                "إيصال",
+                "عقد",
+                "قائمة أسعار"
+            ],
+            "correctAnswer": "فاتورة",
+            "explanation": "Example: Please send the **invoice** for the services provided."
+        },
+        {
+            "id": "biz-en-ar-014",
+            "text": "ما هو المعنى العربي لكلمة 'Client'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "موظف",
+                "منافس",
+                "عميل (خاصة للخدمات)",
+                "مورد"
+            ],
+            "correctAnswer": "عميل (خاصة للخدمات)",
+            "explanation": "Example: Our law firm has several high-profile **clients**."
+        },
+        {
+            "id": "biz-en-ar-015",
+            "text": "ما هو المعنى العربي لكلمة 'Customer'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "بائع",
+                "مدير",
+                "زبون / عميل (عام)",
+                "شريك"
+            ],
+            "correctAnswer": "زبون / عميل (عام)",
+            "explanation": "Example: Good **customer** service is essential for business success."
+        },
+        {
+            "id": "biz-en-ar-016",
+            "text": "ما هو المعنى العربي لكلمة 'Colleague'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "رئيس",
+                "مرؤوس",
+                "زميل عمل",
+                "صديق"
+            ],
+            "correctAnswer": "زميل عمل",
+            "explanation": "Example: I discussed the issue with my **colleague** in the marketing department."
+        },
+        {
+            "id": "biz-en-ar-017",
+            "text": "ما هو المعنى العربي لكلمة 'Manager'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "موظف جديد",
+                "متدرب",
+                "مدير",
+                "عامل"
+            ],
+            "correctAnswer": "مدير",
+            "explanation": "Example: You should report your progress to your **manager**."
+        },
+        {
+            "id": "biz-en-ar-018",
+            "text": "ما هو المعنى العربي لكلمة 'Team'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "فرد",
+                "قسم",
+                "فريق",
+                "شركة"
+            ],
+            "correctAnswer": "فريق",
+            "explanation": "Example: Our **team** works well together."
+        },
+        {
+            "id": "biz-en-ar-019",
+            "text": "ما هو المعنى العربي لكلمة 'Feedback'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "أمر",
+                "سؤال",
+                "ملاحظات / تغذية راجعة",
+                "شكوى"
+            ],
+            "correctAnswer": "ملاحظات / تغذية راجعة",
+            "explanation": "Example: Constructive **feedback** helps employees improve."
+        },
+        {
+            "id": "biz-en-ar-020",
+            "text": "ما هو المعنى العربي لكلمة 'Update'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "تاريخ قديم",
+                "تحديث / مستجدات",
+                "مشكلة",
+                "خطة"
+            ],
+            "correctAnswer": "تحديث / مستجدات",
+            "explanation": "Example: Can you give me an **update** on the project status?"
+        },
+        {
+            "id": "biz-en-ar-021",
+            "text": "ما هو المعنى العربي لكلمة 'Follow-up'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "إلغاء",
+                "تأجيل",
+                "متابعة",
+                "تجاهل"
+            ],
+            "correctAnswer": "متابعة",
+            "explanation": "Example: I will **follow-up** with the client next week."
+        },
+        {
+            "id": "biz-en-ar-022",
+            "text": "ما هو المعنى العربي لكلمة 'Proposal'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "فاتورة نهائية",
+                "عقد موقع",
+                "مقترح / عرض",
+                "تقرير سنوي"
+            ],
+            "correctAnswer": "مقترح / عرض",
+            "explanation": "Example: We submitted our **proposal** for the new contract."
+        },
+        {
+            "id": "biz-en-ar-023",
+            "text": "ما هو المعنى العربي لكلمة 'Contract'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "محادثة",
+                "اجتماع",
+                "عقد",
+                "بريد إلكتروني"
+            ],
+            "correctAnswer": "عقد",
+            "explanation": "Example: Both parties need to sign the **contract**."
+        },
+        {
+            "id": "biz-en-ar-024",
+            "text": "ما هو المعنى العربي لكلمة 'Agreement'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "خلاف",
+                "مناقشة",
+                "اتفاق / اتفاقية",
+                "جدال"
+            ],
+            "correctAnswer": "اتفاق / اتفاقية",
+            "explanation": "Example: We reached an **agreement** on the terms."
+        },
+        {
+            "id": "biz-en-ar-025",
+            "text": "ما هو المعنى العربي لكلمة 'Negotiation'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "أمر مباشر",
+                "رفض",
+                "تفاوض",
+                "إعلان"
+            ],
+            "correctAnswer": "تفاوض",
+            "explanation": "Example: The **negotiation** between the two companies was successful."
+        },
+        {
+            "id": "biz-en-ar-026",
+            "text": "ما هو المعنى العربي لكلمة 'Marketing'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "محاسبة",
+                "تسويق",
+                "إنتاج",
+                "مبيعات"
+            ],
+            "correctAnswer": "تسويق",
+            "explanation": "Example: Our **marketing** campaign increased brand awareness."
+        },
+        {
+            "id": "biz-en-ar-027",
+            "text": "ما هو المعنى العربي لكلمة 'Sales'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "مشتريات",
+                "مخزون",
+                "مبيعات",
+                "إعلانات"
+            ],
+            "correctAnswer": "مبيعات",
+            "explanation": "Example: The **sales** team exceeded their targets last month."
+        },
+        {
+            "id": "biz-en-ar-028",
+            "text": "ما هو المعنى العربي لكلمة 'Finance'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "موارد بشرية",
+                "عمليات",
+                "تمويل / مالية",
+                "قانوني"
+            ],
+            "correctAnswer": "تمويل / مالية",
+            "explanation": "Example: The **finance** department handles the company's budget."
+        },
+        {
+            "id": "biz-en-ar-029",
+            "text": "ما هو المعنى العربي لكلمة 'Human Resources (HR)'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "خدمة العملاء",
+                "الموارد البشرية",
+                "العلاقات العامة",
+                "تكنولوجيا المعلومات"
+            ],
+            "correctAnswer": "الموارد البشرية",
+            "explanation": "Example: Contact **Human Resources (HR)** if you have questions about your benefits."
+        },
+        {
+            "id": "biz-en-ar-030",
+            "text": "ما هو المعنى العربي لكلمة 'Department'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "مبنى كامل",
+                "فريق صغير",
+                "قسم / إدارة",
+                "مشروع مؤقت"
+            ],
+            "correctAnswer": "قسم / إدارة",
+            "explanation": "Example: Which **department** do you work in?"
+        },
+        {
+            "id": "biz-en-ar-031",
+            "text": "ما هو المعنى العربي لكلمة 'Company'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "متجر صغير",
+                "مكتب شخصي",
+                "شركة",
+                "مصنع"
+            ],
+            "correctAnswer": "شركة",
+            "explanation": "Example: He works for a large technology **company**."
+        },
+        {
+            "id": "biz-en-ar-032",
+            "text": "ما هو المعنى العربي لكلمة 'Corporation'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "مؤسسة فردية",
+                "شركة مساهمة / مؤسسة كبيرة",
+                "منظمة غير ربحية",
+                "شراكة صغيرة"
+            ],
+            "correctAnswer": "شركة مساهمة / مؤسسة كبيرة",
+            "explanation": "Example: The multinational **corporation** has offices worldwide."
+        },
+        {
+            "id": "biz-en-ar-033",
+            "text": "ما هو المعنى العربي لكلمة 'Business'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "عطلة",
+                "هواية",
+                "عمل / تجارة",
+                "دراسة"
+            ],
+            "correctAnswer": "عمل / تجارة",
+            "explanation": "Example: Starting a new **business** requires careful planning."
+        },
+        {
+            "id": "biz-en-ar-034",
+            "text": "ما هو المعنى العربي لكلمة 'Profit'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "خسارة",
+                "تكلفة",
+                "ربح",
+                "إيراد"
+            ],
+            "correctAnswer": "ربح",
+            "explanation": "Example: The company's goal is to maximize **profit**."
+        },
+        {
+            "id": "biz-en-ar-035",
+            "text": "ما هو المعنى العربي لكلمة 'Loss'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "ربح",
+                "استثمار",
+                "خسارة",
+                "دخل"
+            ],
+            "correctAnswer": "خسارة",
+            "explanation": "Example: Unexpected expenses resulted in a financial **loss**."
+        },
+        {
+            "id": "biz-en-ar-036",
+            "text": "ما هو المعنى العربي لكلمة 'Revenue'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "مصروفات",
+                "ديون",
+                "إيرادات / دخل",
+                "أرباح صافية"
+            ],
+            "correctAnswer": "إيرادات / دخل",
+            "explanation": "Example: The company's annual **revenue** increased significantly."
+        },
+        {
+            "id": "biz-en-ar-037",
+            "text": "ما هو المعنى العربي لكلمة 'Expense'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "دخل",
+                "استثمار",
+                "نفقة / مصروف",
+                "ربح"
+            ],
+            "correctAnswer": "نفقة / مصروف",
+            "explanation": "Example: Travel costs are a major **expense** for the sales team."
+        },
+        {
+            "id": "biz-en-ar-038",
+            "text": "ما هو المعنى العربي لكلمة 'Investment'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "استهلاك",
+                "ادخار",
+                "استثمار",
+                "دين"
+            ],
+            "correctAnswer": "استثمار",
+            "explanation": "Example: Buying new equipment was a necessary **investment**."
+        },
+        {
+            "id": "biz-en-ar-039",
+            "text": "ما هو المعنى العربي لكلمة 'Data'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "آراء",
+                "معلومات",
+                "بيانات",
+                "قصص"
+            ],
+            "correctAnswer": "بيانات",
+            "explanation": "Example: We need to collect more **data** before making a decision."
+        },
+        {
+            "id": "biz-en-ar-040",
+            "text": "ما هو المعنى العربي لكلمة 'Analysis'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "تخمين",
+                "وصف",
+                "تحليل",
+                "عرض"
+            ],
+            "correctAnswer": "تحليل",
+            "explanation": "Example: The market **analysis** showed potential growth areas."
+        },
+        {
+            "id": "biz-en-ar-041",
+            "text": "ما هو المعنى العربي لكلمة 'Performance'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "حضور",
+                "مظهر",
+                "أداء",
+                "شخصية"
+            ],
+            "correctAnswer": "أداء",
+            "explanation": "Example: Employee **performance** is evaluated annually."
+        },
+        {
+            "id": "biz-en-ar-042",
+            "text": "ما هو المعنى العربي لكلمة 'Productivity'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "شعبية",
+                "ربحية",
+                "إنتاجية",
+                "إبداع"
+            ],
+            "correctAnswer": "إنتاجية",
+            "explanation": "Example: We implemented new software to increase team **productivity**."
+        },
+        {
+            "id": "biz-en-ar-043",
+            "text": "ما هو المعنى العربي لكلمة 'Efficiency'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "تعقيد",
+                "بطء",
+                "كفاءة",
+                "فوضى"
+            ],
+            "correctAnswer": "كفاءة",
+            "explanation": "Example: Automating the process improved operational **efficiency**."
+        },
+        {
+            "id": "biz-en-ar-044",
+            "text": "ما هو المعنى العربي لكلمة 'Communication'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "صمت",
+                "جدال",
+                "تواصل / اتصال",
+                "انعزال"
+            ],
+            "correctAnswer": "تواصل / اتصال",
+            "explanation": "Example: Clear **communication** is vital for teamwork."
+        },
+        {
+            "id": "biz-en-ar-045",
+            "text": "ما هو المعنى العربي لكلمة 'Leadership'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "تبعية",
+                "قيادة",
+                "إدارة",
+                "موظف"
+            ],
+            "correctAnswer": "قيادة",
+            "explanation": "Example: Good **leadership** inspires the team to achieve its goals."
+        },
+        {
+            "id": "biz-en-ar-046",
+            "text": "ما هو المعنى العربي لكلمة 'Management'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "موظفون",
+                "إدارة",
+                "عملاء",
+                "مبيعات"
+            ],
+            "correctAnswer": "إدارة",
+            "explanation": "Example: The **management** decided to invest in new technology."
+        },
+        {
+            "id": "biz-en-ar-047",
+            "text": "ما هو المعنى العربي لكلمة 'Responsibility'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "حق",
+                "خيار",
+                "مسؤولية",
+                "فرصة"
+            ],
+            "correctAnswer": "مسؤولية",
+            "explanation": "Example: Each team member has a specific **responsibility**."
+        },
+        {
+            "id": "biz-en-ar-048",
+            "text": "ما هو المعنى العربي لكلمة 'Network'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "عزلة",
+                "شبكة (علاقات أو تقنية)",
+                "مشكلة",
+                "حل"
+            ],
+            "correctAnswer": "شبكة (علاقات أو تقنية)",
+            "explanation": "Example: Building a professional **network** is important for career growth. / The office computer **network** is down."
+        },
+        {
+            "id": "biz-en-ar-049",
+            "text": "ما هو المعنى العربي لكلمة 'Schedule'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "تقرير",
+                "جدول زمني / برنامج",
+                "فاتورة",
+                "عقد"
+            ],
+            "correctAnswer": "جدول زمني / برنامج",
+            "explanation": "Example: Check your **schedule** for the meeting time."
+        },
+        {
+            "id": "biz-en-ar-050",
+            "text": "ما هو المعنى العربي لكلمة 'Appointment'؟",
+            "type": "multiple-choice",
+            "category": "Business English (مفردات الأعمال)",
+            "answers": [
+                "اجتماع مفاجئ",
+                "عطلة",
+                "موعد محدد",
+                "مشروع"
+            ],
+            "correctAnswer": "موعد محدد",
+            "explanation": "Example: I have a doctor's **appointment** this afternoon."
+        }
+    ]
+}

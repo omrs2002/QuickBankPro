@@ -1,0 +1,3507 @@
+{
+    "title": "اختبار كلمات اللغة الانجليزية - سهل",
+    "titleEn": "English Vocabulary Easy",
+    "description": "مسابقة لاختبار معرفتك بالكلمات الإنجليزية.",
+    "questions": [
+        {
+            "id": "en-ar-0000",
+            "text": "ما هو المعنى العربي لكلمة 'the'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ال",
+                "أنا",
+                "هو",
+                "هم"
+            ],
+            "correctAnswer": "ال",
+            "explanation": "The word 'the' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0001",
+            "text": "ما هو المعنى العربي لكلمة 'of'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "و",
+                "في",
+                "من",
+                "على"
+            ],
+            "correctAnswer": "من",
+            "explanation": "The word 'of' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0002",
+            "text": "ما هو المعنى العربي لكلمة 'and'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "على",
+                "ال",
+                "و",
+                "إلى"
+            ],
+            "correctAnswer": "و",
+            "explanation": "The word 'and' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0003",
+            "text": "ما هو المعنى العربي لكلمة 'to'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو",
+                "أنا",
+                "هم",
+                "إلى"
+            ],
+            "correctAnswer": "إلى",
+            "explanation": "The word 'to' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0004",
+            "text": "ما هو المعنى العربي لكلمة 'a'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ال",
+                "و",
+                "(أداة تنكير)",
+                "في"
+            ],
+            "correctAnswer": "(أداة تنكير)",
+            "explanation": "The word 'a' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0005",
+            "text": "ما هو المعنى العربي لكلمة 'in'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ال",
+                "في",
+                "من",
+                "هو"
+            ],
+            "correctAnswer": "في",
+            "explanation": "The word 'in' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0006",
+            "text": "ما هو المعنى العربي لكلمة 'is'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو",
+                "(للمفرد الغائب)",
+                "هم",
+                "أنا"
+            ],
+            "correctAnswer": "(للمفرد الغائب)",
+            "explanation": "The word 'is' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0007",
+            "text": "ما هو المعنى العربي لكلمة 'it'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو/هي (لغير العاقل)",
+                "هم",
+                "أنا",
+                "أنت"
+            ],
+            "correctAnswer": "هو/هي (لغير العاقل)",
+            "explanation": "The word 'it' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0008",
+            "text": "ما هو المعنى العربي لكلمة 'you'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو",
+                "هي",
+                "أنت/أنتم",
+                "هم"
+            ],
+            "correctAnswer": "أنت/أنتم",
+            "explanation": "The word 'you' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0009",
+            "text": "ما هو المعنى العربي لكلمة 'that'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هذا",
+                "ذلك/أن",
+                "هم",
+                "نحن"
+            ],
+            "correctAnswer": "ذلك/أن",
+            "explanation": "The word 'that' is a very common word in English."
+        },
+        {
+            "id": "en-ar-0010",
+            "text": "ما هو المعنى العربي لكلمة 'he'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أنت",
+                "هي",
+                "هم",
+                "هو"
+            ],
+            "correctAnswer": "هو",
+            "explanation": "'he' is an important word to know."
+        },
+        {
+            "id": "en-ar-0011",
+            "text": "ما هو المعنى العربي لكلمة 'was'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان",
+                "يكون",
+                "سيكون",
+                "كن"
+            ],
+            "correctAnswer": "كان",
+            "explanation": "'was' is an important word to know."
+        },
+        {
+            "id": "en-ar-0012",
+            "text": "ما هو المعنى العربي لكلمة 'for'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "لـ / من أجل",
+                "من",
+                "على",
+                "في"
+            ],
+            "correctAnswer": "لـ / من أجل",
+            "explanation": "'for' is an important word to know."
+        },
+        {
+            "id": "en-ar-0013",
+            "text": "ما هو المعنى العربي لكلمة 'on'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "تحت",
+                "على",
+                "في",
+                "بجانب"
+            ],
+            "correctAnswer": "على",
+            "explanation": "'on' is an important word to know."
+        },
+        {
+            "id": "en-ar-0014",
+            "text": "ما هو المعنى العربي لكلمة 'are'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "(للجمع/المخاطب)",
+                "كان",
+                "يكون (للمفرد)",
+                "سيكون"
+            ],
+            "correctAnswer": "(للجمع/المخاطب)",
+            "explanation": "'are' is an important word to know."
+        },
+        {
+            "id": "en-ar-0015",
+            "text": "ما هو المعنى العربي لكلمة 'with'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مع",
+                "من",
+                "بدون",
+                "عن"
+            ],
+            "correctAnswer": "مع",
+            "explanation": "'with' is an important word to know."
+        },
+        {
+            "id": "en-ar-0016",
+            "text": "ما هو المعنى العربي لكلمة 'as'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مثل / كـ",
+                "لكن",
+                "أو",
+                "لأن"
+            ],
+            "correctAnswer": "مثل / كـ",
+            "explanation": "'as' is an important word to know."
+        },
+        {
+            "id": "en-ar-0017",
+            "text": "ما هو المعنى العربي لكلمة 'I'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو",
+                "هي",
+                "أنا",
+                "أنت"
+            ],
+            "correctAnswer": "أنا",
+            "explanation": "'I' is an important word to know."
+        },
+        {
+            "id": "en-ar-0018",
+            "text": "ما هو المعنى العربي لكلمة 'his'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "لها",
+                "له",
+                "لهم",
+                "لنا"
+            ],
+            "correctAnswer": "له",
+            "explanation": "'his' is an important word to know."
+        },
+        {
+            "id": "en-ar-0019",
+            "text": "ما هو المعنى العربي لكلمة 'they'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نحن",
+                "أنتم",
+                "هم",
+                "هو"
+            ],
+            "correctAnswer": "هم",
+            "explanation": "'they' is an important word to know."
+        },
+        {
+            "id": "en-ar-0020",
+            "text": "ما هو المعنى العربي لكلمة 'be'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان",
+                "يكون",
+                "فعل",
+                "يملك"
+            ],
+            "correctAnswer": "يكون",
+            "explanation": "'be' is an important word to know."
+        },
+        {
+            "id": "en-ar-0021",
+            "text": "ما هو المعنى العربي لكلمة 'at'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "في / عند",
+                "من",
+                "على",
+                "تحت"
+            ],
+            "correctAnswer": "في / عند",
+            "explanation": "'at' is an important word to know."
+        },
+        {
+            "id": "en-ar-0022",
+            "text": "ما هو المعنى العربي لكلمة 'one'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "اثنان",
+                "واحد",
+                "ثلاثة",
+                "عشرة"
+            ],
+            "correctAnswer": "واحد",
+            "explanation": "'one' is an important word to know."
+        },
+        {
+            "id": "en-ar-0023",
+            "text": "ما هو المعنى العربي لكلمة 'have'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يملك / عنده",
+                "يذهب",
+                "يأكل",
+                "يرى"
+            ],
+            "correctAnswer": "يملك / عنده",
+            "explanation": "'have' is an important word to know."
+        },
+        {
+            "id": "en-ar-0024",
+            "text": "ما هو المعنى العربي لكلمة 'this'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ذلك",
+                "هؤلاء",
+                "هذا",
+                "هناك"
+            ],
+            "correctAnswer": "هذا",
+            "explanation": "'this' is an important word to know."
+        },
+        {
+            "id": "en-ar-0025",
+            "text": "ما هو المعنى العربي لكلمة 'from'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "إلى",
+                "مع",
+                "من",
+                "على"
+            ],
+            "correctAnswer": "من",
+            "explanation": "'from' is an important word to know."
+        },
+        {
+            "id": "en-ar-0026",
+            "text": "ما هو المعنى العربي لكلمة 'or'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "و",
+                "أو",
+                "لكن",
+                "إذا"
+            ],
+            "correctAnswer": "أو",
+            "explanation": "'or' is an important word to know."
+        },
+        {
+            "id": "en-ar-0027",
+            "text": "ما هو المعنى العربي لكلمة 'had'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يملك (الماضي)",
+                "يملك (الحاضر)",
+                "سوف يملك",
+                "يجب"
+            ],
+            "correctAnswer": "يملك (الماضي)",
+            "explanation": "'had' is an important word to know."
+        },
+        {
+            "id": "en-ar-0028",
+            "text": "ما هو المعنى العربي لكلمة 'by'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بواسطة / بـ",
+                "مع",
+                "عن",
+                "تحت"
+            ],
+            "correctAnswer": "بواسطة / بـ",
+            "explanation": "'by' is an important word to know."
+        },
+        {
+            "id": "en-ar-0029",
+            "text": "ما هو المعنى العربي لكلمة 'hot'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بارد",
+                "ساخن",
+                "معتدل",
+                "رطب"
+            ],
+            "correctAnswer": "ساخن",
+            "explanation": "'hot' is an important word to know."
+        },
+        {
+            "id": "en-ar-0030",
+            "text": "ما هو المعنى العربي لكلمة 'word'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "رقم",
+                "حرف",
+                "جملة",
+                "كلمة"
+            ],
+            "correctAnswer": "كلمة",
+            "explanation": "'word' is an important word to know."
+        },
+        {
+            "id": "en-ar-0031",
+            "text": "ما هو المعنى العربي لكلمة 'but'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "و",
+                "أو",
+                "لكن",
+                "إذا"
+            ],
+            "correctAnswer": "لكن",
+            "explanation": "'but' is an important word to know."
+        },
+        {
+            "id": "en-ar-0032",
+            "text": "ما هو المعنى العربي لكلمة 'what'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أين",
+                "متى",
+                "لماذا",
+                "ماذا"
+            ],
+            "correctAnswer": "ماذا",
+            "explanation": "'what' is an important word to know."
+        },
+        {
+            "id": "en-ar-0033",
+            "text": "ما هو المعنى العربي لكلمة 'some'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كل",
+                "لا شيء",
+                "بعض",
+                "كثير"
+            ],
+            "correctAnswer": "بعض",
+            "explanation": "'some' is an important word to know."
+        },
+        {
+            "id": "en-ar-0034",
+            "text": "ما هو المعنى العربي لكلمة 'we'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هم",
+                "أنتم",
+                "نحن",
+                "هو"
+            ],
+            "correctAnswer": "نحن",
+            "explanation": "'we' is an important word to know."
+        },
+        {
+            "id": "en-ar-0035",
+            "text": "ما هو المعنى العربي لكلمة 'can'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يستطيع",
+                "يجب",
+                "سوف",
+                "يريد"
+            ],
+            "correctAnswer": "يستطيع",
+            "explanation": "'can' is an important word to know."
+        },
+        {
+            "id": "en-ar-0036",
+            "text": "ما هو المعنى العربي لكلمة 'out'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "داخل",
+                "خارج",
+                "فوق",
+                "تحت"
+            ],
+            "correctAnswer": "خارج",
+            "explanation": "'out' is an important word to know."
+        },
+        {
+            "id": "en-ar-0037",
+            "text": "ما هو المعنى العربي لكلمة 'other'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نفس",
+                "آخر / آخرون",
+                "كل",
+                "بعض"
+            ],
+            "correctAnswer": "آخر / آخرون",
+            "explanation": "'other' is an important word to know."
+        },
+        {
+            "id": "en-ar-0038",
+            "text": "ما هو المعنى العربي لكلمة 'were'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان (للمفرد)",
+                "كانوا (للجمع)",
+                "يكون",
+                "سيكونون"
+            ],
+            "correctAnswer": "كانوا (للجمع)",
+            "explanation": "'were' is an important word to know."
+        },
+        {
+            "id": "en-ar-0039",
+            "text": "ما هو المعنى العربي لكلمة 'all'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بعض",
+                "قليل",
+                "كل",
+                "لا شيء"
+            ],
+            "correctAnswer": "كل",
+            "explanation": "'all' is an important word to know."
+        },
+        {
+            "id": "en-ar-0040",
+            "text": "ما هو المعنى العربي لكلمة 'there'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هنا",
+                "هناك",
+                "الآن",
+                "بعد ذلك"
+            ],
+            "correctAnswer": "هناك",
+            "explanation": "'there' is an important word to know."
+        },
+        {
+            "id": "en-ar-0041",
+            "text": "ما هو المعنى العربي لكلمة 'when'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أين",
+                "متى / عندما",
+                "كيف",
+                "لماذا"
+            ],
+            "correctAnswer": "متى / عندما",
+            "explanation": "'when' is an important word to know."
+        },
+        {
+            "id": "en-ar-0042",
+            "text": "ما هو المعنى العربي لكلمة 'up'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "تحت",
+                "أسفل",
+                "أعلى / فوق",
+                "خلف"
+            ],
+            "correctAnswer": "أعلى / فوق",
+            "explanation": "'up' is an important word to know."
+        },
+        {
+            "id": "en-ar-0043",
+            "text": "ما هو المعنى العربي لكلمة 'use'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يستخدم",
+                "يشتري",
+                "يبيع",
+                "يأخذ"
+            ],
+            "correctAnswer": "يستخدم",
+            "explanation": "'use' is an important word to know."
+        },
+        {
+            "id": "en-ar-0044",
+            "text": "ما هو المعنى العربي لكلمة 'your'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "لي",
+                "له",
+                "لها",
+                "لك / لكم"
+            ],
+            "correctAnswer": "لك / لكم",
+            "explanation": "'your' is an important word to know."
+        },
+        {
+            "id": "en-ar-0045",
+            "text": "ما هو المعنى العربي لكلمة 'how'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ماذا",
+                "متى",
+                "كيف",
+                "أين"
+            ],
+            "correctAnswer": "كيف",
+            "explanation": "'how' is an important word to know."
+        },
+        {
+            "id": "en-ar-0046",
+            "text": "ما هو المعنى العربي لكلمة 'said'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قال",
+                "يقول",
+                "سأل",
+                "أجاب"
+            ],
+            "correctAnswer": "قال",
+            "explanation": "'said' is an important word to know."
+        },
+        {
+            "id": "en-ar-0047",
+            "text": "ما هو المعنى العربي لكلمة 'an'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ال (تعريف)",
+                "(أداة تنكير)",
+                "و",
+                "في"
+            ],
+            "correctAnswer": "(أداة تنكير)",
+            "explanation": "'an' is an important word to know."
+        },
+        {
+            "id": "en-ar-0048",
+            "text": "ما هو المعنى العربي لكلمة 'each'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كل",
+                "بعض",
+                "لا شيء",
+                "الكل"
+            ],
+            "correctAnswer": "كل",
+            "explanation": "'each' is an important word to know."
+        },
+        {
+            "id": "en-ar-0049",
+            "text": "ما هو المعنى العربي لكلمة 'she'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو",
+                "هي",
+                "هم",
+                "أنت"
+            ],
+            "correctAnswer": "هي",
+            "explanation": "'she' is an important word to know."
+        },
+		{
+            "id": "en-ar-0050",
+            "text": "ما هو المعنى العربي لكلمة 'so'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "لكن",
+                "لذلك / جداً",
+                "أو",
+                "من"
+            ],
+            "correctAnswer": "لذلك / جداً",
+            "explanation": "'so' is an important word to know."
+        },
+        {
+            "id": "en-ar-0051",
+            "text": "ما هو المعنى العربي لكلمة 'was'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان",
+                "يكون",
+                "سيكون",
+                "هم"
+            ],
+            "correctAnswer": "كان",
+            "explanation": "'was' is an important word to know."
+        },
+        {
+            "id": "en-ar-0052",
+            "text": "ما هو المعنى العربي لكلمة 'we'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هو",
+                "هم",
+                "أنت",
+                "نحن"
+            ],
+            "correctAnswer": "نحن",
+            "explanation": "'we' is an important word to know."
+        },
+        {
+            "id": "en-ar-0053",
+            "text": "ما هو المعنى العربي لكلمة 'these'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هذا",
+                "ذلك",
+                "هؤلاء",
+                "هناك"
+            ],
+            "correctAnswer": "هؤلاء",
+            "explanation": "'these' is an important word to know."
+        },
+        {
+            "id": "en-ar-0054",
+            "text": "ما هو المعنى العربي لكلمة 'may'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجب",
+                "يستطيع",
+                "يريد",
+                "ربما / قد"
+            ],
+            "correctAnswer": "ربما / قد",
+            "explanation": "'may' is an important word to know."
+        },
+        {
+            "id": "en-ar-0055",
+            "text": "ما هو المعنى العربي لكلمة 'like'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يحب / مثل",
+                "يكره",
+                "يذهب",
+                "يأكل"
+            ],
+            "correctAnswer": "يحب / مثل",
+            "explanation": "'like' is an important word to know."
+        },
+        {
+            "id": "en-ar-0056",
+            "text": "ما هو المعنى العربي لكلمة 'use'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يبيع",
+                "يشتري",
+                "يستخدم",
+                "يرمي"
+            ],
+            "correctAnswer": "يستخدم",
+            "explanation": "'use' is an important word to know."
+        },
+        {
+            "id": "en-ar-0057",
+            "text": "ما هو المعنى العربي لكلمة 'into'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "خارج",
+                "إلى / داخل",
+                "فوق",
+                "تحت"
+            ],
+            "correctAnswer": "إلى / داخل",
+            "explanation": "'into' is an important word to know."
+        },
+        {
+            "id": "en-ar-0058",
+            "text": "ما هو المعنى العربي لكلمة 'than'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ثم",
+                "من (للمقارنة)",
+                "هناك",
+                "الآن"
+            ],
+            "correctAnswer": "من (للمقارنة)",
+            "explanation": "'than' is an important word to know."
+        },
+        {
+            "id": "en-ar-0059",
+            "text": "ما هو المعنى العربي لكلمة 'up'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أسفل",
+                "أعلى / فوق",
+                "يمين",
+                "يسار"
+            ],
+            "correctAnswer": "أعلى / فوق",
+            "explanation": "'up' is an important word to know."
+        },
+        {
+            "id": "en-ar-0060",
+            "text": "ما هو المعنى العربي لكلمة 'out'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "داخل",
+                "خارج",
+                "بجانب",
+                "تحت"
+            ],
+            "correctAnswer": "خارج",
+            "explanation": "'out' is an important word to know."
+        },
+        {
+            "id": "en-ar-0061",
+            "text": "ما هو المعنى العربي لكلمة 'who'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ماذا",
+                "أين",
+                "متى",
+                "من (للعاقل)"
+            ],
+            "correctAnswer": "من (للعاقل)",
+            "explanation": "'who' is an important word to know."
+        },
+        {
+            "id": "en-ar-0062",
+            "text": "ما هو المعنى العربي لكلمة 'them'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نحن",
+                "هم (مفعول به)",
+                "هو",
+                "هي"
+            ],
+            "correctAnswer": "هم (مفعول به)",
+            "explanation": "'them' is an important word to know."
+        },
+        {
+            "id": "en-ar-0063",
+            "text": "ما هو المعنى العربي لكلمة 'make'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يأخذ",
+                "يصنع / يجعل",
+                "يذهب",
+                "يرى"
+            ],
+            "correctAnswer": "يصنع / يجعل",
+            "explanation": "'make' is an important word to know."
+        },
+        {
+            "id": "en-ar-0064",
+            "text": "ما هو المعنى العربي لكلمة 'because'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "لأن / بسبب",
+                "لكن",
+                "أو",
+                "إذا"
+            ],
+            "correctAnswer": "لأن / بسبب",
+            "explanation": "How would you use 'because' in a sentence?"
+        },
+        {
+            "id": "en-ar-0065",
+            "text": "ما هو المعنى العربي لكلمة 'such'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ذلك",
+                "هذا",
+                "مثل هذا / جداً",
+                "بعض"
+            ],
+            "correctAnswer": "مثل هذا / جداً",
+            "explanation": "'such' is an important word to know."
+        },
+        {
+            "id": "en-ar-0066",
+            "text": "ما هو المعنى العربي لكلمة 'through'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فوق",
+                "تحت",
+                "من خلال",
+                "حول"
+            ],
+            "correctAnswer": "من خلال",
+            "explanation": "How would you use 'through' in a sentence?"
+        },
+        {
+            "id": "en-ar-0067",
+            "text": "ما هو المعنى العربي لكلمة 'get'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يحصل على / يصبح",
+                "يعطي",
+                "يخسر",
+                "يبقى"
+            ],
+            "correctAnswer": "يحصل على / يصبح",
+            "explanation": "'get' is an important word to know."
+        },
+        {
+            "id": "en-ar-0068",
+            "text": "ما هو المعنى العربي لكلمة 'work'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يلعب",
+                "ينام",
+                "يأكل",
+                "عمل / يعمل"
+            ],
+            "correctAnswer": "عمل / يعمل",
+            "explanation": "'work' is an important word to know."
+        },
+        {
+            "id": "en-ar-0069",
+            "text": "ما هو المعنى العربي لكلمة 'even'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "حتى / أيضاً",
+                "أبداً",
+                "دائماً",
+                "فقط"
+            ],
+            "correctAnswer": "حتى / أيضاً",
+            "explanation": "'even' is an important word to know."
+        },
+        {
+            "id": "en-ar-0070",
+            "text": "ما هو المعنى العربي لكلمة 'different'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مشابه",
+                "مختلف",
+                "نفسه",
+                "صعب"
+            ],
+            "correctAnswer": "مختلف",
+            "explanation": "How would you use 'different' in a sentence?"
+        },
+        {
+            "id": "en-ar-0071",
+            "text": "ما هو المعنى العربي لكلمة 'its'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "له/لها (لغير العاقل)",
+                "لهم",
+                "لنا",
+                "لي"
+            ],
+            "correctAnswer": "له/لها (لغير العاقل)",
+            "explanation": "'its' is an important word to know."
+        },
+        {
+            "id": "en-ar-0072",
+            "text": "ما هو المعنى العربي لكلمة 'no'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نعم",
+                "لا",
+                "ربما",
+                "دائماً"
+            ],
+            "correctAnswer": "لا",
+            "explanation": "'no' is an important word to know."
+        },
+        {
+            "id": "en-ar-0073",
+            "text": "ما هو المعنى العربي لكلمة 'our'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "لهم",
+                "له",
+                "لنا",
+                "لك"
+            ],
+            "correctAnswer": "لنا",
+            "explanation": "'our' is an important word to know."
+        },
+        {
+            "id": "en-ar-0074",
+            "text": "ما هو المعنى العربي لكلمة 'new'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قديم",
+                "جديد",
+                "كبير",
+                "صغير"
+            ],
+            "correctAnswer": "جديد",
+            "explanation": "'new' is an important word to know."
+        },
+        {
+            "id": "en-ar-0075",
+            "text": "ما هو المعنى العربي لكلمة 'film'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كتاب",
+                "أغنية",
+                "فيلم",
+                "صورة"
+            ],
+            "correctAnswer": "فيلم",
+            "explanation": "'film' is an important word to know."
+        },
+        {
+            "id": "en-ar-0076",
+            "text": "ما هو المعنى العربي لكلمة 'just'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فقط / للتو",
+                "دائماً",
+                "أبداً",
+                "لاحقاً"
+            ],
+            "correctAnswer": "فقط / للتو",
+            "explanation": "'just' is an important word to know."
+        },
+        {
+            "id": "en-ar-0077",
+            "text": "ما هو المعنى العربي لكلمة 'only'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كل",
+                "بعض",
+                "فقط",
+                "كثير"
+            ],
+            "correctAnswer": "فقط",
+            "explanation": "'only' is an important word to know."
+        },
+        {
+            "id": "en-ar-0078",
+            "text": "ما هو المعنى العربي لكلمة 'see'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يسمع",
+                "يشم",
+                "يتذوق",
+                "يرى"
+            ],
+            "correctAnswer": "يرى",
+            "explanation": "'see' is an important word to know."
+        },
+        {
+            "id": "en-ar-0079",
+            "text": "ما هو المعنى العربي لكلمة 'used'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "جديد",
+                "مستعمل / استخدم",
+                "مكسور",
+                "سريع"
+            ],
+            "correctAnswer": "مستعمل / استخدم",
+            "explanation": "'used' is an important word to know."
+        },
+        {
+            "id": "en-ar-0080",
+            "text": "ما هو المعنى العربي لكلمة 'good'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سيء",
+                "جيد",
+                "حزين",
+                "سعيد"
+            ],
+            "correctAnswer": "جيد",
+            "explanation": "'good' is an important word to know."
+        },
+        {
+            "id": "en-ar-0081",
+            "text": "ما هو المعنى العربي لكلمة 'water'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نار",
+                "هواء",
+                "أرض",
+                "ماء"
+            ],
+            "correctAnswer": "ماء",
+            "explanation": "'water' is an important word to know."
+        },
+        {
+            "id": "en-ar-0082",
+            "text": "ما هو المعنى العربي لكلمة 'been'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان (تصريف ثالث)",
+                "يذهب",
+                "يفعل",
+                "يملك"
+            ],
+            "correctAnswer": "كان (تصريف ثالث)",
+            "explanation": "'been' is an important word to know."
+        },
+        {
+            "id": "en-ar-0083",
+            "text": "ما هو المعنى العربي لكلمة 'need'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يريد",
+                "يحتاج",
+                "يحب",
+                "يكره"
+            ],
+            "correctAnswer": "يحتاج",
+            "explanation": "'need' is an important word to know."
+        },
+        {
+            "id": "en-ar-0084",
+            "text": "ما هو المعنى العربي لكلمة 'should'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجب / ينبغي",
+                "يستطيع",
+                "سوف",
+                "ربما"
+            ],
+            "correctAnswer": "يجب / ينبغي",
+            "explanation": "How would you use 'should' in a sentence?"
+        },
+        {
+            "id": "en-ar-0085",
+            "text": "ما هو المعنى العربي لكلمة 'very'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قليلاً",
+                "جداً",
+                "دائماً",
+                "أبداً"
+            ],
+            "correctAnswer": "جداً",
+            "explanation": "'very' is an important word to know."
+        },
+        {
+            "id": "en-ar-0086",
+            "text": "ما هو المعنى العربي لكلمة 'any'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كل",
+                "بعض",
+                "أي",
+                "لا شيء"
+            ],
+            "correctAnswer": "أي",
+            "explanation": "'any' is an important word to know."
+        },
+        {
+            "id": "en-ar-0087",
+            "text": "ما هو المعنى العربي لكلمة 'history'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "علوم",
+                "رياضيات",
+                "تاريخ",
+                "جغرافيا"
+            ],
+            "correctAnswer": "تاريخ",
+            "explanation": "How would you use 'history' in a sentence?"
+        },
+        {
+            "id": "en-ar-0088",
+            "text": "ما هو المعنى العربي لكلمة 'often'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نادراً",
+                "أحياناً",
+                "غالباً",
+                "دائماً"
+            ],
+            "correctAnswer": "غالباً",
+            "explanation": "'often' is an important word to know."
+        },
+        {
+            "id": "en-ar-0089",
+            "text": "ما هو المعنى العربي لكلمة 'way'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "طريق / طريقة",
+                "يوم",
+                "أسبوع",
+                "بيت"
+            ],
+            "correctAnswer": "طريق / طريقة",
+            "explanation": "'way' is an important word to know."
+        },
+        {
+            "id": "en-ar-0090",
+            "text": "ما هو المعنى العربي لكلمة 'well'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سيء",
+                "مريض",
+                "جيداً / بئر",
+                "سريع"
+            ],
+            "correctAnswer": "جيداً / بئر",
+            "explanation": "'well' is an important word to know."
+        },
+        {
+            "id": "en-ar-0091",
+            "text": "ما هو المعنى العربي لكلمة 'art'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "علم",
+                "فن",
+                "رياضة",
+                "موسيقى"
+            ],
+            "correctAnswer": "فن",
+            "explanation": "'art' is an important word to know."
+        },
+        {
+            "id": "en-ar-0092",
+            "text": "ما هو المعنى العربي لكلمة 'know'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يعرف",
+                "ينسى",
+                "يتعلم",
+                "يقرأ"
+            ],
+            "correctAnswer": "يعرف",
+            "explanation": "'know' is an important word to know."
+        },
+        {
+            "id": "en-ar-0093",
+            "text": "ما هو المعنى العربي لكلمة 'were'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان (للمفرد)",
+                "كانوا (للجمع)",
+                "يكون",
+                "سيكون"
+            ],
+            "correctAnswer": "كانوا (للجمع)",
+            "explanation": "'were' is an important word to know."
+        },
+        {
+            "id": "en-ar-0094",
+            "text": "ما هو المعنى العربي لكلمة 'then'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "الآن",
+                "ثم / بعد ذلك",
+                "قبل",
+                "هنا"
+            ],
+            "correctAnswer": "ثم / بعد ذلك",
+            "explanation": "'then' is an important word to know."
+        },
+        {
+            "id": "en-ar-0095",
+            "text": "ما هو المعنى العربي لكلمة 'my'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "له",
+                "لها",
+                "لي (للملكية)",
+                "لكم"
+            ],
+            "correctAnswer": "لي (للملكية)",
+            "explanation": "'my' is an important word to know."
+        },
+        {
+            "id": "en-ar-0096",
+            "text": "ما هو المعنى العربي لكلمة 'first'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أول",
+                "ثاني",
+                "أخير",
+                "تالي"
+            ],
+            "correctAnswer": "أول",
+            "explanation": "'first' is an important word to know."
+        },
+        {
+            "id": "en-ar-0097",
+            "text": "ما هو المعنى العربي لكلمة 'would'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "(للتعبير عن طلب/احتمال)",
+                "يجب",
+                "يستطيع",
+                "سوف"
+            ],
+            "correctAnswer": "(للتعبير عن طلب/احتمال)",
+            "explanation": "'would' is an important word to know."
+        },
+        {
+            "id": "en-ar-0098",
+            "text": "ما هو المعنى العربي لكلمة 'money'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "وقت",
+                "طعام",
+                "مال / نقود",
+                "بيت"
+            ],
+            "correctAnswer": "مال / نقود",
+            "explanation": "'money' is an important word to know."
+        },
+        {
+            "id": "en-ar-0099",
+            "text": "ما هو المعنى العربي لكلمة 'each'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بعض",
+                "كل (على حدة)",
+                "الكل",
+                "قليل"
+            ],
+            "correctAnswer": "كل (على حدة)",
+            "explanation": "'each' is an important word to know."
+        },
+		{
+            "id": "en-ar-0100",
+            "text": "ما هو المعنى العربي لكلمة 'music'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فن",
+                "رياضة",
+                "موسيقى",
+                "علم"
+            ],
+            "correctAnswer": "موسيقى",
+            "explanation": "'music' is an important word to know."
+        },
+        {
+            "id": "en-ar-0101",
+            "text": "ما هو المعنى العربي لكلمة 'those'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هذا",
+                "هؤلاء",
+                "ذلك",
+                "أولئك"
+            ],
+            "correctAnswer": "أولئك",
+            "explanation": "'those' is an important word to know."
+        },
+        {
+            "id": "en-ar-0102",
+            "text": "ما هو المعنى العربي لكلمة 'both'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "واحد",
+                "كلاهما / الاثنان",
+                "بعض",
+                "كل"
+            ],
+            "correctAnswer": "كلاهما / الاثنان",
+            "explanation": "'both' is an important word to know."
+        },
+        {
+            "id": "en-ar-0103",
+            "text": "ما هو المعنى العربي لكلمة 'mark'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمحو",
+                "يكتب",
+                "علامة / يؤشر",
+                "يقرأ"
+            ],
+            "correctAnswer": "علامة / يؤشر",
+            "explanation": "'mark' is an important word to know."
+        },
+        {
+            "id": "en-ar-0104",
+            "text": "ما هو المعنى العربي لكلمة 'often'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نادراً",
+                "غالباً",
+                "دائماً",
+                "أحياناً"
+            ],
+            "correctAnswer": "غالباً",
+            "explanation": "'often' is an important word to know."
+        },
+        {
+            "id": "en-ar-0105",
+            "text": "ما هو المعنى العربي لكلمة 'book'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مجلة",
+                "جريدة",
+                "كتاب",
+                "ورقة"
+            ],
+            "correctAnswer": "كتاب",
+            "explanation": "'book' is an important word to know."
+        },
+        {
+            "id": "en-ar-0106",
+            "text": "ما هو المعنى العربي لكلمة 'letter'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "رقم",
+                "كلمة",
+                "حرف / رسالة",
+                "جملة"
+            ],
+            "correctAnswer": "حرف / رسالة",
+            "explanation": "How would you use 'letter' in a sentence?"
+        },
+        {
+            "id": "en-ar-0107",
+            "text": "ما هو المعنى العربي لكلمة 'until'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بعد",
+                "قبل",
+                "حتى",
+                "أثناء"
+            ],
+            "correctAnswer": "حتى",
+            "explanation": "'until' is an important word to know."
+        },
+        {
+            "id": "en-ar-0108",
+            "text": "ما هو المعنى العربي لكلمة 'without'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مع",
+                "بدون",
+                "فوق",
+                "تحت"
+            ],
+            "correctAnswer": "بدون",
+            "explanation": "How would you use 'without' in a sentence?"
+        },
+        {
+            "id": "en-ar-0109",
+            "text": "ما هو المعنى العربي لكلمة 'list'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قائمة",
+                "صورة",
+                "خريطة",
+                "قصة"
+            ],
+            "correctAnswer": "قائمة",
+            "explanation": "'list' is an important word to know."
+        },
+        {
+            "id": "en-ar-0110",
+            "text": "ما هو المعنى العربي لكلمة 'family'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أصدقاء",
+                "جيران",
+                "عائلة",
+                "زملاء"
+            ],
+            "correctAnswer": "عائلة",
+            "explanation": "How would you use 'family' in a sentence?"
+        },
+        {
+            "id": "en-ar-0111",
+            "text": "ما هو المعنى العربي لكلمة 'can'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجب",
+                "سوف",
+                "يريد",
+                "يستطيع"
+            ],
+            "correctAnswer": "يستطيع",
+            "explanation": "'can' is an important word to know."
+        },
+        {
+            "id": "en-ar-0112",
+            "text": "ما هو المعنى العربي لكلمة 'up'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أسفل",
+                "يمين",
+                "أعلى / فوق",
+                "يسار"
+            ],
+            "correctAnswer": "أعلى / فوق",
+            "explanation": "'up' is an important word to know."
+        },
+        {
+            "id": "en-ar-0113",
+            "text": "ما هو المعنى العربي لكلمة 'other'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نفس",
+                "آخر / آخرون",
+                "كل",
+                "بعض"
+            ],
+            "correctAnswer": "آخر / آخرون",
+            "explanation": "'other' is an important word to know."
+        },
+        {
+            "id": "en-ar-0114",
+            "text": "ما هو المعنى العربي لكلمة 'were'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كان (للمفرد)",
+                "يكون",
+                "كانوا (للجمع)",
+                "سيكون"
+            ],
+            "correctAnswer": "كانوا (للجمع)",
+            "explanation": "'were' is an important word to know."
+        },
+        {
+            "id": "en-ar-0115",
+            "text": "ما هو المعنى العربي لكلمة 'which'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ماذا",
+                "من",
+                "أين",
+                "أي / الذي/التي (لغير العاقل)"
+            ],
+            "correctAnswer": "أي / الذي/التي (لغير العاقل)",
+            "explanation": "'which' is an important word to know."
+        },
+        {
+            "id": "en-ar-0116",
+            "text": "ما هو المعنى العربي لكلمة 'do'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يفعل / يقوم بـ",
+                "يذهب",
+                "يأكل",
+                "ينام"
+            ],
+            "correctAnswer": "يفعل / يقوم بـ",
+            "explanation": "'do' is an important word to know."
+        },
+        {
+            "id": "en-ar-0117",
+            "text": "ما هو المعنى العربي لكلمة 'their'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "له",
+                "لها",
+                "لنا",
+                "لهم"
+            ],
+            "correctAnswer": "لهم",
+            "explanation": "'their' is an important word to know."
+        },
+        {
+            "id": "en-ar-0118",
+            "text": "ما هو المعنى العربي لكلمة 'time'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مكان",
+                "وقت",
+                "يوم",
+                "سنة"
+            ],
+            "correctAnswer": "وقت",
+            "explanation": "'time' is an important word to know."
+        },
+        {
+            "id": "en-ar-0119",
+            "text": "ما هو المعنى العربي لكلمة 'if'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "و",
+                "أو",
+                "إذا / لو",
+                "لكن"
+            ],
+            "correctAnswer": "إذا / لو",
+            "explanation": "'if' is an important word to know."
+        },
+        {
+            "id": "en-ar-0120",
+            "text": "ما هو المعنى العربي لكلمة 'will'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سوف (للمستقبل)",
+                "كان",
+                "يجب",
+                "يستطيع"
+            ],
+            "correctAnswer": "سوف (للمستقبل)",
+            "explanation": "'will' is an important word to know."
+        },
+        {
+            "id": "en-ar-0121",
+            "text": "ما هو المعنى العربي لكلمة 'how'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ماذا",
+                "متى",
+                "كيف",
+                "أين"
+            ],
+            "correctAnswer": "كيف",
+            "explanation": "'how' is an important word to know."
+        },
+        {
+            "id": "en-ar-0122",
+            "text": "ما هو المعنى العربي لكلمة 'said'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قال",
+                "سأل",
+                "أجاب",
+                "صرخ"
+            ],
+            "correctAnswer": "قال",
+            "explanation": "'said' is an important word to know."
+        },
+        {
+            "id": "en-ar-0123",
+            "text": "ما هو المعنى العربي لكلمة 'an'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ال (تعريف)",
+                "و",
+                "(أداة تنكير)",
+                "في"
+            ],
+            "correctAnswer": "(أداة تنكير)",
+            "explanation": "'an' is an important word to know."
+        },
+        {
+            "id": "en-ar-0124",
+            "text": "ما هو المعنى العربي لكلمة 'each'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كل (على حدة)",
+                "بعض",
+                "لا شيء",
+                "كثير"
+            ],
+            "correctAnswer": "كل (على حدة)",
+            "explanation": "'each' is an important word to know."
+        },
+        {
+            "id": "en-ar-0125",
+            "text": "ما هو المعنى العربي لكلمة 'tell'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يسأل",
+                "يجيب",
+                "يخبر",
+                "يستمع"
+            ],
+            "correctAnswer": "يخبر",
+            "explanation": "'tell' is an important word to know."
+        },
+        {
+            "id": "en-ar-0126",
+            "text": "ما هو المعنى العربي لكلمة 'does'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يفعل (للمفرد الغائب)",
+                "يفعلون",
+                "فعل",
+                "سيفعل"
+            ],
+            "correctAnswer": "يفعل (للمفرد الغائب)",
+            "explanation": "'does' is an important word to know."
+        },
+        {
+            "id": "en-ar-0127",
+            "text": "ما هو المعنى العربي لكلمة 'set'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مجموعة / يضع",
+                "يأخذ",
+                "يقف",
+                "يجلس"
+            ],
+            "correctAnswer": "مجموعة / يضع",
+            "explanation": "'set' is an important word to know."
+        },
+        {
+            "id": "en-ar-0128",
+            "text": "ما هو المعنى العربي لكلمة 'three'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "واحد",
+                "اثنان",
+                "ثلاثة",
+                "أربعة"
+            ],
+            "correctAnswer": "ثلاثة",
+            "explanation": "'three' is an important word to know."
+        },
+        {
+            "id": "en-ar-0129",
+            "text": "ما هو المعنى العربي لكلمة 'want'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يحتاج",
+                "يريد",
+                "يحب",
+                "يملك"
+            ],
+            "correctAnswer": "يريد",
+            "explanation": "'want' is an important word to know."
+        },
+        {
+            "id": "en-ar-0130",
+            "text": "ما هو المعنى العربي لكلمة 'air'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ماء",
+                "نار",
+                "أرض",
+                "هواء"
+            ],
+            "correctAnswer": "هواء",
+            "explanation": "'air' is an important word to know."
+        },
+        {
+            "id": "en-ar-0131",
+            "text": "ما هو المعنى العربي لكلمة 'well'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سيء",
+                "مريض",
+                "جيداً / بئر",
+                "سريع"
+            ],
+            "correctAnswer": "جيداً / بئر",
+            "explanation": "'well' is an important word to know."
+        },
+        {
+            "id": "en-ar-0132",
+            "text": "ما هو المعنى العربي لكلمة 'also'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فقط",
+                "أيضاً",
+                "لكن",
+                "أبداً"
+            ],
+            "correctAnswer": "أيضاً",
+            "explanation": "'also' is an important word to know."
+        },
+        {
+            "id": "en-ar-0133",
+            "text": "ما هو المعنى العربي لكلمة 'play'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يعمل",
+                "يدرس",
+                "يلعب / يعزف",
+                "ينام"
+            ],
+            "correctAnswer": "يلعب / يعزف",
+            "explanation": "'play' is an important word to know."
+        },
+        {
+            "id": "en-ar-0134",
+            "text": "ما هو المعنى العربي لكلمة 'small'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كبير",
+                "طويل",
+                "صغير",
+                "قصير"
+            ],
+            "correctAnswer": "صغير",
+            "explanation": "'small' is an important word to know."
+        },
+        {
+            "id": "en-ar-0135",
+            "text": "ما هو المعنى العربي لكلمة 'end'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بداية",
+                "وسط",
+                "نهاية",
+                "جانب"
+            ],
+            "correctAnswer": "نهاية",
+            "explanation": "'end' is an important word to know."
+        },
+        {
+            "id": "en-ar-0136",
+            "text": "ما هو المعنى العربي لكلمة 'put'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يأخذ",
+                "يضع",
+                "يرفع",
+                "يرمي"
+            ],
+            "correctAnswer": "يضع",
+            "explanation": "'put' is an important word to know."
+        },
+        {
+            "id": "en-ar-0137",
+            "text": "ما هو المعنى العربي لكلمة 'home'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مدرسة",
+                "مستشفى",
+                "بيت / وطن",
+                "حديقة"
+            ],
+            "correctAnswer": "بيت / وطن",
+            "explanation": "'home' is an important word to know."
+        },
+        {
+            "id": "en-ar-0138",
+            "text": "ما هو المعنى العربي لكلمة 'read'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يكتب",
+                "يقرأ",
+                "يستمع",
+                "يتحدث"
+            ],
+            "correctAnswer": "يقرأ",
+            "explanation": "'read' is an important word to know."
+        },
+        {
+            "id": "en-ar-0139",
+            "text": "ما هو المعنى العربي لكلمة 'hand'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قدم",
+                "يد",
+                "رأس",
+                "ذراع"
+            ],
+            "correctAnswer": "يد",
+            "explanation": "'hand' is an important word to know."
+        },
+        {
+            "id": "en-ar-0140",
+            "text": "ما هو المعنى العربي لكلمة 'port'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مطار",
+                "ميناء",
+                "محطة قطار",
+                "طريق"
+            ],
+            "correctAnswer": "ميناء",
+            "explanation": "'port' is an important word to know."
+        },
+        {
+            "id": "en-ar-0141",
+            "text": "ما هو المعنى العربي لكلمة 'large'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "صغير",
+                "كبير / واسع",
+                "ضيق",
+                "قصير"
+            ],
+            "correctAnswer": "كبير / واسع",
+            "explanation": "'large' is an important word to know."
+        },
+        {
+            "id": "en-ar-0142",
+            "text": "ما هو المعنى العربي لكلمة 'spell'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يقرأ",
+                "يكتب",
+                "يتهجى",
+                "يتحدث"
+            ],
+            "correctAnswer": "يتهجى",
+            "explanation": "'spell' is an important word to know."
+        },
+        {
+            "id": "en-ar-0143",
+            "text": "ما هو المعنى العربي لكلمة 'add'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يطرح",
+                "يضرب",
+                "يقسم",
+                "يضيف / يجمع"
+            ],
+            "correctAnswer": "يضيف / يجمع",
+            "explanation": "'add' is an important word to know."
+        },
+        {
+            "id": "en-ar-0144",
+            "text": "ما هو المعنى العربي لكلمة 'even'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "حتى / أيضاً",
+                "فقط",
+                "أبداً",
+                "دائماً"
+            ],
+            "correctAnswer": "حتى / أيضاً",
+            "explanation": "'even' is an important word to know."
+        },
+        {
+            "id": "en-ar-0145",
+            "text": "ما هو المعنى العربي لكلمة 'land'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بحر",
+                "سماء",
+                "أرض / يابسة",
+                "هواء"
+            ],
+            "correctAnswer": "أرض / يابسة",
+            "explanation": "'land' is an important word to know."
+        },
+        {
+            "id": "en-ar-0146",
+            "text": "ما هو المعنى العربي لكلمة 'here'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هناك",
+                "هنا",
+                "الآن",
+                "بعد ذلك"
+            ],
+            "correctAnswer": "هنا",
+            "explanation": "'here' is an important word to know."
+        },
+        {
+            "id": "en-ar-0147",
+            "text": "ما هو المعنى العربي لكلمة 'must'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يستطيع",
+                "يجب / لابد",
+                "ربما",
+                "سوف"
+            ],
+            "correctAnswer": "يجب / لابد",
+            "explanation": "'must' is an important word to know."
+        },
+        {
+            "id": "en-ar-0148",
+            "text": "ما هو المعنى العربي لكلمة 'big'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "صغير",
+                "كبير",
+                "قصير",
+                "نحيف"
+            ],
+            "correctAnswer": "كبير",
+            "explanation": "'big' is an important word to know."
+        },
+        {
+            "id": "en-ar-0149",
+            "text": "ما هو المعنى العربي لكلمة 'high'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "منخفض",
+                "عالٍ / مرتفع",
+                "قريب",
+                "بعيد"
+            ],
+            "correctAnswer": "عالٍ / مرتفع",
+            "explanation": "'high' is an important word to know."
+        },
+		{
+            "id": "en-ar-0150",
+            "text": "ما هو المعنى العربي لكلمة 'such'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بعض",
+                "مثل هذا / جداً",
+                "ذلك",
+                "هذا"
+            ],
+            "correctAnswer": "مثل هذا / جداً",
+            "explanation": "Example: It was such a beautiful day."
+        },
+        {
+            "id": "en-ar-0151",
+            "text": "ما هو المعنى العربي لكلمة 'follow'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يقود",
+                "يتبع",
+                "يتوقف",
+                "يبدأ"
+            ],
+            "correctAnswer": "يتبع",
+            "explanation": "Example: Please follow the instructions."
+        },
+        {
+            "id": "en-ar-0152",
+            "text": "ما هو المعنى العربي لكلمة 'act'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فعل / يمثل",
+                "يفكر",
+                "يشاهد",
+                "ينتظر"
+            ],
+            "correctAnswer": "فعل / يمثل",
+            "explanation": "Example: You need to act quickly."
+        },
+        {
+            "id": "en-ar-0153",
+            "text": "ما هو المعنى العربي لكلمة 'why'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "متى",
+                "أين",
+                "كيف",
+                "لماذا"
+            ],
+            "correctAnswer": "لماذا",
+            "explanation": "Example: Why are you late?"
+        },
+        {
+            "id": "en-ar-0154",
+            "text": "ما هو المعنى العربي لكلمة 'ask'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجيب",
+                "يسأل",
+                "يخبر",
+                "يستمع"
+            ],
+            "correctAnswer": "يسأل",
+            "explanation": "Example: Can I ask you a question?"
+        },
+        {
+            "id": "en-ar-0155",
+            "text": "ما هو المعنى العربي لكلمة 'men'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نساء",
+                "أطفال",
+                "رجال",
+                "أولاد"
+            ],
+            "correctAnswer": "رجال",
+            "explanation": "Example: Three men walked into the room."
+        },
+        {
+            "id": "en-ar-0156",
+            "text": "ما هو المعنى العربي لكلمة 'change'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يبقى",
+                "تغيير / يغير",
+                "يصلح",
+                "يكسر"
+            ],
+            "correctAnswer": "تغيير / يغير",
+            "explanation": "Example: We need to change the plan."
+        },
+        {
+            "id": "en-ar-0157",
+            "text": "ما هو المعنى العربي لكلمة 'went'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "جاء",
+                "ذهب (الماضي)",
+                "يذهب",
+                "سوف يذهب"
+            ],
+            "correctAnswer": "ذهب (الماضي)",
+            "explanation": "Example: He went to the store yesterday."
+        },
+        {
+            "id": "en-ar-0158",
+            "text": "ما هو المعنى العربي لكلمة 'light'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ظلام",
+                "ضوء / خفيف",
+                "ثقيل",
+                "صوت"
+            ],
+            "correctAnswer": "ضوء / خفيف",
+            "explanation": "Example: Please turn on the light."
+        },
+        {
+            "id": "en-ar-0159",
+            "text": "ما هو المعنى العربي لكلمة 'kind'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قاسٍ",
+                "نوع / لطيف",
+                "سريع",
+                "بطيء"
+            ],
+            "correctAnswer": "نوع / لطيف",
+            "explanation": "Example: Be kind to animals."
+        },
+        {
+            "id": "en-ar-0160",
+            "text": "ما هو المعنى العربي لكلمة 'off'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "على",
+                "إيقاف / بعيداً عن",
+                "تحت",
+                "فوق"
+            ],
+            "correctAnswer": "إيقاف / بعيداً عن",
+            "explanation": "Example: Turn off the TV."
+        },
+        {
+            "id": "en-ar-0161",
+            "text": "ما هو المعنى العربي لكلمة 'need'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يريد",
+                "يحب",
+                "يحتاج",
+                "يملك"
+            ],
+            "correctAnswer": "يحتاج",
+            "explanation": "Example: I need some help."
+        },
+        {
+            "id": "en-ar-0162",
+            "text": "ما هو المعنى العربي لكلمة 'house'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مدرسة",
+                "بيت / منزل",
+                "مكتب",
+                "حديقة"
+            ],
+            "correctAnswer": "بيت / منزل",
+            "explanation": "Example: This is my house."
+        },
+        {
+            "id": "en-ar-0163",
+            "text": "ما هو المعنى العربي لكلمة 'picture'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كتاب",
+                "صورة",
+                "أغنية",
+                "فيلم"
+            ],
+            "correctAnswer": "صورة",
+            "explanation": "Example: She took a picture of the sunset."
+        },
+        {
+            "id": "en-ar-0164",
+            "text": "ما هو المعنى العربي لكلمة 'try'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يفشل",
+                "ينجح",
+                "يحاول",
+                "يتوقف"
+            ],
+            "correctAnswer": "يحاول",
+            "explanation": "Example: You should try your best."
+        },
+        {
+            "id": "en-ar-0165",
+            "text": "ما هو المعنى العربي لكلمة 'us'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هم",
+                "أنتم",
+                "نحن (مفعول به)",
+                "هو"
+            ],
+            "correctAnswer": "نحن (مفعول به)",
+            "explanation": "Example: Can you help us?"
+        },
+        {
+            "id": "en-ar-0166",
+            "text": "ما هو المعنى العربي لكلمة 'again'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أبداً",
+                "مرة أخرى / مجدداً",
+                "الآن",
+                "لاحقاً"
+            ],
+            "correctAnswer": "مرة أخرى / مجدداً",
+            "explanation": "Example: Let's try again."
+        },
+        {
+            "id": "en-ar-0167",
+            "text": "ما هو المعنى العربي لكلمة 'animal'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نبات",
+                "جماد",
+                "حيوان",
+                "إنسان"
+            ],
+            "correctAnswer": "حيوان",
+            "explanation": "Example: A dog is a common animal."
+        },
+        {
+            "id": "en-ar-0168",
+            "text": "ما هو المعنى العربي لكلمة 'point'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "خط",
+                "دائرة",
+                "نقطة / يشير",
+                "مربع"
+            ],
+            "correctAnswer": "نقطة / يشير",
+            "explanation": "Example: What is the main point of your argument?"
+        },
+        {
+            "id": "en-ar-0169",
+            "text": "ما هو المعنى العربي لكلمة 'mother'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أب",
+                "أم",
+                "أخ",
+                "أخت"
+            ],
+            "correctAnswer": "أم",
+            "explanation": "Example: My mother is kind."
+        },
+        {
+            "id": "en-ar-0170",
+            "text": "ما هو المعنى العربي لكلمة 'world'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مدينة",
+                "دولة",
+                "قارة",
+                "عالم"
+            ],
+            "correctAnswer": "عالم",
+            "explanation": "Example: The world is a big place."
+        },
+        {
+            "id": "en-ar-0171",
+            "text": "ما هو المعنى العربي لكلمة 'near'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بعيد",
+                "قريب",
+                "فوق",
+                "تحت"
+            ],
+            "correctAnswer": "قريب",
+            "explanation": "Example: The school is near my house."
+        },
+        {
+            "id": "en-ar-0172",
+            "text": "ما هو المعنى العربي لكلمة 'build'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يهدم",
+                "يبني",
+                "يصلح",
+                "يزرع"
+            ],
+            "correctAnswer": "يبني",
+            "explanation": "Example: They want to build a new bridge."
+        },
+        {
+            "id": "en-ar-0173",
+            "text": "ما هو المعنى العربي لكلمة 'self'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "آخر",
+                "نفس / ذات",
+                "هم",
+                "هو"
+            ],
+            "correctAnswer": "نفس / ذات",
+            "explanation": "Example: Believe in your self."
+        },
+        {
+            "id": "en-ar-0174",
+            "text": "ما هو المعنى العربي لكلمة 'earth'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سماء",
+                "قمر",
+                "شمس",
+                "أرض"
+            ],
+            "correctAnswer": "أرض",
+            "explanation": "Example: We live on planet Earth."
+        },
+        {
+            "id": "en-ar-0175",
+            "text": "ما هو المعنى العربي لكلمة 'father'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أم",
+                "أب",
+                "جد",
+                "عم"
+            ],
+            "correctAnswer": "أب",
+            "explanation": "Example: My father works hard."
+        },
+        {
+            "id": "en-ar-0176",
+            "text": "ما هو المعنى العربي لكلمة 'head'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قدم",
+                "يد",
+                "رأس",
+                "بطن"
+            ],
+            "correctAnswer": "رأس",
+            "explanation": "Example: He hit his head on the door."
+        },
+        {
+            "id": "en-ar-0177",
+            "text": "ما هو المعنى العربي لكلمة 'stand'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجلس",
+                "يقف",
+                "يمشي",
+                "يجري"
+            ],
+            "correctAnswer": "يقف",
+            "explanation": "Example: Please stand up."
+        },
+        {
+            "id": "en-ar-0178",
+            "text": "ما هو المعنى العربي لكلمة 'own'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يستعير",
+                "يملك / خاص به",
+                "يبيع",
+                "يعطي"
+            ],
+            "correctAnswer": "يملك / خاص به",
+            "explanation": "Example: This is my own car."
+        },
+        {
+            "id": "en-ar-0179",
+            "text": "ما هو المعنى العربي لكلمة 'page'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "غلاف",
+                "صفحة",
+                "فصل",
+                "سطر"
+            ],
+            "correctAnswer": "صفحة",
+            "explanation": "Example: Turn to page 10."
+        },
+        {
+            "id": "en-ar-0180",
+            "text": "ما هو المعنى العربي لكلمة 'should'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجب / ينبغي",
+                "يستطيع",
+                "سوف",
+                "ربما"
+            ],
+            "correctAnswer": "يجب / ينبغي",
+            "explanation": "Example: You should study for the test."
+        },
+        {
+            "id": "en-ar-0181",
+            "text": "ما هو المعنى العربي لكلمة 'country'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مدينة",
+                "قرية",
+                "دولة / بلد",
+                "قارة"
+            ],
+            "correctAnswer": "دولة / بلد",
+            "explanation": "Example: Egypt is a beautiful country."
+        },
+        {
+            "id": "en-ar-0182",
+            "text": "ما هو المعنى العربي لكلمة 'found'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فقد",
+                "وجد (الماضي)",
+                "بحث",
+                "اشترى"
+            ],
+            "correctAnswer": "وجد (الماضي)",
+            "explanation": "Example: I found my keys."
+        },
+        {
+            "id": "en-ar-0183",
+            "text": "ما هو المعنى العربي لكلمة 'answer'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سؤال",
+                "جواب / يجيب",
+                "مشكلة",
+                "قصة"
+            ],
+            "correctAnswer": "جواب / يجيب",
+            "explanation": "Example: Please answer the question."
+        },
+        {
+            "id": "en-ar-0184",
+            "text": "ما هو المعنى العربي لكلمة 'school'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بيت",
+                "مدرسة",
+                "مستشفى",
+                "حديقة"
+            ],
+            "correctAnswer": "مدرسة",
+            "explanation": "Example: Children go to school to learn."
+        },
+        {
+            "id": "en-ar-0185",
+            "text": "ما هو المعنى العربي لكلمة 'grow'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يصغر",
+                "ينمو / يزرع",
+                "يتقلص",
+                "يختفي"
+            ],
+            "correctAnswer": "ينمو / يزرع",
+            "explanation": "Example: Plants need water to grow."
+        },
+        {
+            "id": "en-ar-0186",
+            "text": "ما هو المعنى العربي لكلمة 'study'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يلعب",
+                "ينام",
+                "يدرس / دراسة",
+                "يأكل"
+            ],
+            "correctAnswer": "يدرس / دراسة",
+            "explanation": "Example: He needs to study for his exam."
+        },
+        {
+            "id": "en-ar-0187",
+            "text": "ما هو المعنى العربي لكلمة 'still'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أبداً",
+                "لا يزال / ما زال",
+                "دائماً",
+                "نادراً"
+            ],
+            "correctAnswer": "لا يزال / ما زال",
+            "explanation": "Example: Are you still waiting?"
+        },
+        {
+            "id": "en-ar-0188",
+            "text": "ما هو المعنى العربي لكلمة 'learn'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يعلم",
+                "ينسى",
+                "يتعلم",
+                "يقرأ"
+            ],
+            "correctAnswer": "يتعلم",
+            "explanation": "Example: It's important to learn new things."
+        },
+        {
+            "id": "en-ar-0189",
+            "text": "ما هو المعنى العربي لكلمة 'plant'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "حيوان",
+                "نبات / يزرع",
+                "حجر",
+                "ماء"
+            ],
+            "correctAnswer": "نبات / يزرع",
+            "explanation": "Example: This plant needs sunlight."
+        },
+        {
+            "id": "en-ar-0190",
+            "text": "ما هو المعنى العربي لكلمة 'cover'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يكشف",
+                "غطاء / يغطي",
+                "يفتح",
+                "يأخذ"
+            ],
+            "correctAnswer": "غطاء / يغطي",
+            "explanation": "Example: Please cover the food."
+        },
+        {
+            "id": "en-ar-0191",
+            "text": "ما هو المعنى العربي لكلمة 'food'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "شراب",
+                "طعام",
+                "ملابس",
+                "بيت"
+            ],
+            "correctAnswer": "طعام",
+            "explanation": "Example: We need to buy some food."
+        },
+        {
+            "id": "en-ar-0192",
+            "text": "ما هو المعنى العربي لكلمة 'sun'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قمر",
+                "نجم",
+                "شمس",
+                "أرض"
+            ],
+            "correctAnswer": "شمس",
+            "explanation": "Example: The sun is shining brightly."
+        },
+        {
+            "id": "en-ar-0193",
+            "text": "ما هو المعنى العربي لكلمة 'four'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ثلاثة",
+                "أربعة",
+                "خمسة",
+                "ستة"
+            ],
+            "correctAnswer": "أربعة",
+            "explanation": "Example: There are four seasons in a year."
+        },
+        {
+            "id": "en-ar-0194",
+            "text": "ما هو المعنى العربي لكلمة 'between'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فوق",
+                "تحت",
+                "بين",
+                "بجانب"
+            ],
+            "correctAnswer": "بين",
+            "explanation": "Example: The shop is between the bank and the library."
+        },
+        {
+            "id": "en-ar-0195",
+            "text": "ما هو المعنى العربي لكلمة 'state'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مدينة",
+                "دولة / ولاية / حالة",
+                "قرية",
+                "قارة"
+            ],
+            "correctAnswer": "دولة / ولاية / حالة",
+            "explanation": "Example: California is a state in the USA."
+        },
+        {
+            "id": "en-ar-0196",
+            "text": "ما هو المعنى العربي لكلمة 'keep'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يأخذ",
+                "يحافظ / يستمر",
+                "يعطي",
+                "يرمي"
+            ],
+            "correctAnswer": "يحافظ / يستمر",
+            "explanation": "Example: Please keep the door closed."
+        },
+        {
+            "id": "en-ar-0197",
+            "text": "ما هو المعنى العربي لكلمة 'eye'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أذن",
+                "أنف",
+                "فم",
+                "عين"
+            ],
+            "correctAnswer": "عين",
+            "explanation": "Example: She has blue eyes."
+        },
+        {
+            "id": "en-ar-0198",
+            "text": "ما هو المعنى العربي لكلمة 'never'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "دائماً",
+                "أحياناً",
+                "أبداً",
+                "غالباً"
+            ],
+            "correctAnswer": "أبداً",
+            "explanation": "Example: I have never been to Japan."
+        },
+        {
+            "id": "en-ar-0199",
+            "text": "ما هو المعنى العربي لكلمة 'last'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أول",
+                "تالي",
+                "أخير / الماضي",
+                "وسط"
+            ],
+            "correctAnswer": "أخير / الماضي",
+            "explanation": "Example: This is the last piece of cake."
+        },
+		{
+            "id": "en-ar-0200",
+            "text": "ما هو المعنى العربي لكلمة 'let'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمنع",
+                "يسمح / يدع",
+                "يأخذ",
+                "يعطي"
+            ],
+            "correctAnswer": "يسمح / يدع",
+            "explanation": "Example: Let me help you."
+        },
+        {
+            "id": "en-ar-0201",
+            "text": "ما هو المعنى العربي لكلمة 'thought'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فعل",
+                "كلمة",
+                "فكرة / اعتقد (الماضي)",
+                "شعور"
+            ],
+            "correctAnswer": "فكرة / اعتقد (الماضي)",
+            "explanation": "Example: I thought you were coming."
+        },
+        {
+            "id": "en-ar-0202",
+            "text": "ما هو المعنى العربي لكلمة 'city'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قرية",
+                "مدينة",
+                "دولة",
+                "شارع"
+            ],
+            "correctAnswer": "مدينة",
+            "explanation": "Example: Cairo is a big city."
+        },
+        {
+            "id": "en-ar-0203",
+            "text": "ما هو المعنى العربي لكلمة 'tree'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "زهرة",
+                "شجرة",
+                "عشب",
+                "نهر"
+            ],
+            "correctAnswer": "شجرة",
+            "explanation": "Example: The birds are singing in the tree."
+        },
+        {
+            "id": "en-ar-0204",
+            "text": "ما هو المعنى العربي لكلمة 'cross'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمشي بجانب",
+                "يعبر / صليب",
+                "يقف",
+                "يدور"
+            ],
+            "correctAnswer": "يعبر / صليب",
+            "explanation": "Example: Be careful when you cross the street."
+        },
+        {
+            "id": "en-ar-0205",
+            "text": "ما هو المعنى العربي لكلمة 'farm'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مصنع",
+                "مزرعة",
+                "مكتب",
+                "مدرسة"
+            ],
+            "correctAnswer": "مزرعة",
+            "explanation": "Example: They grow vegetables on their farm."
+        },
+        {
+            "id": "en-ar-0206",
+            "text": "ما هو المعنى العربي لكلمة 'hard'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سهل",
+                "ناعم",
+                "صعب / صلب",
+                "خفيف"
+            ],
+            "correctAnswer": "صعب / صلب",
+            "explanation": "Example: This math problem is hard."
+        },
+        {
+            "id": "en-ar-0207",
+            "text": "ما هو المعنى العربي لكلمة 'start'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ينتهي",
+                "يبدأ",
+                "يتوقف",
+                "يستمر"
+            ],
+            "correctAnswer": "يبدأ",
+            "explanation": "Example: The race will start soon."
+        },
+        {
+            "id": "en-ar-0208",
+            "text": "ما هو المعنى العربي لكلمة 'might'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجب",
+                "يستطيع",
+                "ربما / قد (احتمال ضعيف)",
+                "سوف"
+            ],
+            "correctAnswer": "ربما / قد (احتمال ضعيف)",
+            "explanation": "Example: It might rain later."
+        },
+        {
+            "id": "en-ar-0209",
+            "text": "ما هو المعنى العربي لكلمة 'story'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أغنية",
+                "قصة",
+                "فيلم",
+                "صورة"
+            ],
+            "correctAnswer": "قصة",
+            "explanation": "Example: He told us an interesting story."
+        },
+        {
+            "id": "en-ar-0210",
+            "text": "ما هو المعنى العربي لكلمة 'saw'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يرى",
+                "رأى (الماضي)",
+                "سيرى",
+                "ينظر"
+            ],
+            "correctAnswer": "رأى (الماضي)",
+            "explanation": "Example: I saw a bird in the garden."
+        },
+        {
+            "id": "en-ar-0211",
+            "text": "ما هو المعنى العربي لكلمة 'far'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قريب",
+                "بعيد",
+                "فوق",
+                "تحت"
+            ],
+            "correctAnswer": "بعيد",
+            "explanation": "Example: The airport is far from here."
+        },
+        {
+            "id": "en-ar-0212",
+            "text": "ما هو المعنى العربي لكلمة 'sea'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "نهر",
+                "بحيرة",
+                "بحر",
+                "محيط"
+            ],
+            "correctAnswer": "بحر",
+            "explanation": "Example: We went swimming in the sea."
+        },
+        {
+            "id": "en-ar-0213",
+            "text": "ما هو المعنى العربي لكلمة 'draw'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمحو",
+                "يكتب",
+                "يرسم / يسحب",
+                "يلون"
+            ],
+            "correctAnswer": "يرسم / يسحب",
+            "explanation": "Example: Can you draw a house?"
+        },
+        {
+            "id": "en-ar-0214",
+            "text": "ما هو المعنى العربي لكلمة 'left'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمين",
+                "يسار / غادر (الماضي)",
+                "أمام",
+                "خلف"
+            ],
+            "correctAnswer": "يسار / غادر (الماضي)",
+            "explanation": "Example: Turn left at the corner. / He left early."
+        },
+        {
+            "id": "en-ar-0215",
+            "text": "ما هو المعنى العربي لكلمة 'late'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مبكر",
+                "متأخر",
+                "سريع",
+                "بطيء"
+            ],
+            "correctAnswer": "متأخر",
+            "explanation": "Example: Don't be late for the meeting."
+        },
+        {
+            "id": "en-ar-0216",
+            "text": "ما هو المعنى العربي لكلمة 'run'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمشي",
+                "يقفز",
+                "يجري / يشغل",
+                "ينام"
+            ],
+            "correctAnswer": "يجري / يشغل",
+            "explanation": "Example: He likes to run every morning."
+        },
+        {
+            "id": "en-ar-0217",
+            "text": "ما هو المعنى العربي لكلمة 'don't'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يفعل",
+                "لا تفعل (اختصار do not)",
+                "فعل",
+                "لم يفعل"
+            ],
+            "correctAnswer": "لا تفعل (اختصار do not)",
+            "explanation": "Example: Don't worry about it."
+        },
+        {
+            "id": "en-ar-0218",
+            "text": "ما هو المعنى العربي لكلمة 'while'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قبل",
+                "بعد",
+                "بينما / أثناء",
+                "حتى"
+            ],
+            "correctAnswer": "بينما / أثناء",
+            "explanation": "Example: Read a book while you wait."
+        },
+        {
+            "id": "en-ar-0219",
+            "text": "ما هو المعنى العربي لكلمة 'press'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يسحب",
+                "يضغط / صحافة",
+                "يرفع",
+                "يفتح"
+            ],
+            "correctAnswer": "يضغط / صحافة",
+            "explanation": "Example: Press the button to start."
+        },
+        {
+            "id": "en-ar-0220",
+            "text": "ما هو المعنى العربي لكلمة 'close'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يفتح",
+                "يغلق / قريب",
+                "بعيد",
+                "يدخل"
+            ],
+            "correctAnswer": "يغلق / قريب",
+            "explanation": "Example: Please close the door. / The shop is close to my house."
+        },
+        {
+            "id": "en-ar-0221",
+            "text": "ما هو المعنى العربي لكلمة 'night'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "صباح",
+                "نهار",
+                "ليل",
+                "مساء"
+            ],
+            "correctAnswer": "ليل",
+            "explanation": "Example: Stars shine bright at night."
+        },
+        {
+            "id": "en-ar-0222",
+            "text": "ما هو المعنى العربي لكلمة 'real'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مزيف",
+                "خيالي",
+                "حقيقي",
+                "صعب"
+            ],
+            "correctAnswer": "حقيقي",
+            "explanation": "Example: Is this story real?"
+        },
+        {
+            "id": "en-ar-0223",
+            "text": "ما هو المعنى العربي لكلمة 'life'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "موت",
+                "حياة",
+                "عمل",
+                "نوم"
+            ],
+            "correctAnswer": "حياة",
+            "explanation": "Example: Life is precious."
+        },
+        {
+            "id": "en-ar-0224",
+            "text": "ما هو المعنى العربي لكلمة 'few'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كثير",
+                "بعض",
+                "قليل",
+                "لا شيء"
+            ],
+            "correctAnswer": "قليل",
+            "explanation": "Example: Only a few people came."
+        },
+        {
+            "id": "en-ar-0225",
+            "text": "ما هو المعنى العربي لكلمة 'north'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "جنوب",
+                "شرق",
+                "غرب",
+                "شمال"
+            ],
+            "correctAnswer": "شمال",
+            "explanation": "Example: Canada is north of the USA."
+        },
+        {
+            "id": "en-ar-0226",
+            "text": "ما هو المعنى العربي لكلمة 'open'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يغلق",
+                "يفتح / مفتوح",
+                "يكسر",
+                "يصلح"
+            ],
+            "correctAnswer": "يفتح / مفتوح",
+            "explanation": "Example: The shop is open now."
+        },
+        {
+            "id": "en-ar-0227",
+            "text": "ما هو المعنى العربي لكلمة 'seem'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يكون",
+                "يصبح",
+                "يبدو",
+                "يشعر"
+            ],
+            "correctAnswer": "يبدو",
+            "explanation": "Example: You seem tired today."
+        },
+        {
+            "id": "en-ar-0228",
+            "text": "ما هو المعنى العربي لكلمة 'together'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بمفرده",
+                "معاً / سوياً",
+                "بعيداً",
+                "قريباً"
+            ],
+            "correctAnswer": "معاً / سوياً",
+            "explanation": "Example: Let's work together on this project."
+        },
+        {
+            "id": "en-ar-0229",
+            "text": "ما هو المعنى العربي لكلمة 'next'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "سابق",
+                "أخير",
+                "تالي / بجانب",
+                "أول"
+            ],
+            "correctAnswer": "تالي / بجانب",
+            "explanation": "Example: Who is next in line?"
+        },
+        {
+            "id": "en-ar-0230",
+            "text": "ما هو المعنى العربي لكلمة 'white'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أسود",
+                "أحمر",
+                "أبيض",
+                "أزرق"
+            ],
+            "correctAnswer": "أبيض",
+            "explanation": "Example: Snow is white."
+        },
+        {
+            "id": "en-ar-0231",
+            "text": "ما هو المعنى العربي لكلمة 'children'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "رجال",
+                "نساء",
+                "أطفال",
+                "كبار السن"
+            ],
+            "correctAnswer": "أطفال",
+            "explanation": "How would you use 'children' in a sentence?"
+        },
+        {
+            "id": "en-ar-0232",
+            "text": "ما هو المعنى العربي لكلمة 'begin'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "ينهي",
+                "يتوقف",
+                "يبدأ",
+                "يستمر"
+            ],
+            "correctAnswer": "يبدأ",
+            "explanation": "Example: Let's begin the lesson."
+        },
+        {
+            "id": "en-ar-0233",
+            "text": "ما هو المعنى العربي لكلمة 'got'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فقد",
+                "حصل على (الماضي)",
+                "أعطى",
+                "بقي"
+            ],
+            "correctAnswer": "حصل على (الماضي)",
+            "explanation": "Example: She got a new car."
+        },
+        {
+            "id": "en-ar-0234",
+            "text": "ما هو المعنى العربي لكلمة 'walk'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يجري",
+                "يقفز",
+                "يمشي",
+                "يزحف"
+            ],
+            "correctAnswer": "يمشي",
+            "explanation": "Example: I like to walk in the park."
+        },
+        {
+            "id": "en-ar-0235",
+            "text": "ما هو المعنى العربي لكلمة 'example'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قاعدة",
+                "سؤال",
+                "مثال",
+                "جواب"
+            ],
+            "correctAnswer": "مثال",
+            "explanation": "Example: Can you give me an example?"
+        },
+        {
+            "id": "en-ar-0236",
+            "text": "ما هو المعنى العربي لكلمة 'ease'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "صعوبة",
+                "راحة / سهولة",
+                "توتر",
+                "ألم"
+            ],
+            "correctAnswer": "راحة / سهولة",
+            "explanation": "Example: He completed the task with ease."
+        },
+        {
+            "id": "en-ar-0237",
+            "text": "ما هو المعنى العربي لكلمة 'paper'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "قلم",
+                "كتاب",
+                "ورق / جريدة",
+                "ممحاة"
+            ],
+            "correctAnswer": "ورق / جريدة",
+            "explanation": "Example: Write your name on the paper."
+        },
+        {
+            "id": "en-ar-0238",
+            "text": "ما هو المعنى العربي لكلمة 'group'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فرد",
+                "زوج",
+                "مجموعة",
+                "لا شيء"
+            ],
+            "correctAnswer": "مجموعة",
+            "explanation": "Example: A group of students entered the class."
+        },
+        {
+            "id": "en-ar-0239",
+            "text": "ما هو المعنى العربي لكلمة 'always'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "أبداً",
+                "نادراً",
+                "أحياناً",
+                "دائماً"
+            ],
+            "correctAnswer": "دائماً",
+            "explanation": "Example: She always arrives on time."
+        },
+        {
+            "id": "en-ar-0240",
+            "text": "ما هو المعنى العربي لكلمة 'music'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "فن",
+                "موسيقى",
+                "رياضة",
+                "علم"
+            ],
+            "correctAnswer": "موسيقى",
+            "explanation": "Example: I enjoy listening to music."
+        },
+        {
+            "id": "en-ar-0241",
+            "text": "ما هو المعنى العربي لكلمة 'those'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "هذا",
+                "هؤلاء",
+                "أولئك",
+                "ذلك"
+            ],
+            "correctAnswer": "أولئك",
+            "explanation": "Example: Look at those beautiful flowers."
+        },
+        {
+            "id": "en-ar-0242",
+            "text": "ما هو المعنى العربي لكلمة 'both'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "واحد",
+                "بعض",
+                "كلاهما / الاثنان",
+                "كل"
+            ],
+            "correctAnswer": "كلاهما / الاثنان",
+            "explanation": "Example: Both answers are correct."
+        },
+        {
+            "id": "en-ar-0243",
+            "text": "ما هو المعنى العربي لكلمة 'mark'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "يمحو",
+                "علامة / يؤشر",
+                "يكتب",
+                "يقرأ"
+            ],
+            "correctAnswer": "علامة / يؤشر",
+            "explanation": "Example: Put a mark next to your name."
+        },
+        {
+            "id": "en-ar-0244",
+            "text": "ما هو المعنى العربي لكلمة 'often'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "غالباً",
+                "نادراً",
+                "أبداً",
+                "دائماً"
+            ],
+            "correctAnswer": "غالباً",
+            "explanation": "Example: I often go for a walk in the evening."
+        },
+        {
+            "id": "en-ar-0245",
+            "text": "ما هو المعنى العربي لكلمة 'book'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "مجلة",
+                "كتاب",
+                "ورقة",
+                "قلم"
+            ],
+            "correctAnswer": "كتاب",
+            "explanation": "Example: I am reading a good book."
+        },
+        {
+            "id": "en-ar-0246",
+            "text": "ما هو المعنى العربي لكلمة 'letter'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "رقم",
+                "حرف / رسالة",
+                "كلمة",
+                "صورة"
+            ],
+            "correctAnswer": "حرف / رسالة",
+            "explanation": "Example: 'A' is the first letter of the alphabet. / I received a letter today."
+        },
+        {
+            "id": "en-ar-0247",
+            "text": "ما هو المعنى العربي لكلمة 'until'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بعد",
+                "حتى",
+                "قبل",
+                "أثناء"
+            ],
+            "correctAnswer": "حتى",
+            "explanation": "Example: Wait until I arrive."
+        },
+        {
+            "id": "en-ar-0248",
+            "text": "ما هو المعنى العربي لكلمة 'mile'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "كيلومتر",
+                "ميل",
+                "متر",
+                "قدم"
+            ],
+            "correctAnswer": "ميل",
+            "explanation": "Example: The town is one mile away."
+        },
+        {
+            "id": "en-ar-0249",
+            "text": "ما هو المعنى العربي لكلمة 'river'؟",
+            "type": "multiple-choice",
+            "category": "مفردات (Vocabulary)",
+            "answers": [
+                "بحر",
+                "محيط",
+                "بحيرة",
+                "نهر"
+            ],
+            "correctAnswer": "نهر",
+            "explanation": "Example: The Nile is a long river."
+        }
+    ]
+}

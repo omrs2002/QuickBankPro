@@ -1,0 +1,42 @@
+{
+    "title": "اختبار XXX",
+    "titleEn": "Exam XXX",
+    "description": "A practice test with multiple-choice questions covering key knowledge areas for the XXX exam.",
+    "questions": [
+        {
+            "id": "az900-en-001",
+            "text": "Which term describes the provisioning of computing resources (like servers, storage, networking) over the internet?",
+            "type": "multiple-choice",
+            "category": "Cloud Concepts",
+            "answers": [
+                "On-premises computing",
+                "Cloud computing",
+                "Virtual Private Network (VPN)",
+                "Big Data analytics"
+            ],
+            "correctAnswer": "Cloud computing",
+            "explanation": "Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing."
+        },
+        {
+            "id": "az900-cs-100",
+            "text": "Arure is using for xxxxx? ",
+            "type": "true-false",
+            "category": "Cloud Concepts",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "why the answer is true"
+        },
+        {
+            "id": "en-pro-q39",
+            "text": "The European Age of Discovery was largely launched from Portugal and ___.",
+            "type": "fill-in-the-blank",
+            "category": "History",
+            "answers": [],
+            "correctAnswer": "Spain",
+            "explanation": "Portugal and Spain were the leading nations in exploring the New World during the 15th and 16th centuries."
+        }
+    ]
+}

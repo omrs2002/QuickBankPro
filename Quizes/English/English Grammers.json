@@ -1,0 +1,1375 @@
+{
+    "title": "اختبار قواعد اللغة الإنجليزية",
+    "titleEn": "English Grammar Test",
+    "description": "A grammar test covering past, present, and future tenses for 10-year-old students.",
+    "questions": [
+        {
+            "id": "grammar-en-001",
+            "text": "Which sentence is in the present tense?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I played soccer yesterday.",
+                "I play soccer every day.",
+                "I will play soccer tomorrow.",
+                "I was playing soccer."
+            ],
+            "correctAnswer": "I play soccer every day.",
+            "explanation": "'I play soccer every day' is in the simple present tense, showing a regular action."
+        },
+        {
+            "id": "grammar-en-002",
+            "text": "Which sentence is in the past tense?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "She goes to school.",
+                "She will go to school.",
+                "She went to school.",
+                "She is going to school."
+            ],
+            "correctAnswer": "She went to school.",
+            "explanation": "'She went to school' is in the simple past tense. 'Went' is the past form of 'go'."
+        },
+        {
+            "id": "grammar-en-003",
+            "text": "Which sentence is in the future tense?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I eat breakfast.",
+                "I ate breakfast.",
+                "I will eat breakfast.",
+                "I am eating breakfast."
+            ],
+            "correctAnswer": "I will eat breakfast.",
+            "explanation": "'I will eat breakfast' uses 'will' to show future action."
+        },
+        {
+            "id": "grammar-en-004",
+            "text": "Choose the correct present tense verb: She _______ to music every evening.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "listened",
+                "listens",
+                "will listen",
+                "listening"
+            ],
+            "correctAnswer": "listens",
+            "explanation": "With 'she' (third person singular), we add 's' to the verb in simple present tense."
+        },
+        {
+            "id": "grammar-en-005",
+            "text": "Choose the correct past tense verb: Yesterday, I _______ my homework.",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "finish",
+                "finishes",
+                "finished",
+                "will finish"
+            ],
+            "correctAnswer": "finished",
+            "explanation": "'Finished' is the correct past tense form of 'finish'."
+        },
+        {
+            "id": "grammar-en-006",
+            "text": "We add 'will' before the verb to make future tense.",
+            "type": "true-false",
+            "category": "Future Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'will + base verb' is used to form simple future tense."
+        },
+        {
+            "id": "grammar-en-007",
+            "text": "Which sentence shows a daily routine?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I visited my grandma last week.",
+                "I will visit my grandma next week.",
+                "I visit my grandma every Sunday.",
+                "I was visiting my grandma."
+            ],
+            "correctAnswer": "I visit my grandma every Sunday.",
+            "explanation": "Simple present tense is used for habits and routines."
+        },
+        {
+            "id": "grammar-en-008",
+            "text": "What is the past tense of 'run'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "runned",
+                "ran",
+                "runned",
+                "running"
+            ],
+            "correctAnswer": "ran",
+            "explanation": "'Ran' is the irregular past tense form of 'run'."
+        },
+        {
+            "id": "grammar-en-009",
+            "text": "Which sentence is correct for future plans?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I am going to visit the zoo tomorrow.",
+                "I am visiting the zoo yesterday.",
+                "I visit the zoo now.",
+                "I visited the zoo."
+            ],
+            "correctAnswer": "I am going to visit the zoo tomorrow.",
+            "explanation": "'Going to' is used for future plans and intentions."
+        },
+        {
+            "id": "grammar-en-010",
+            "text": "Choose the correct verb: They _______ football right now.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "play",
+                "plays",
+                "are playing",
+                "played"
+            ],
+            "correctAnswer": "are playing",
+            "explanation": "'Are playing' is present continuous tense for actions happening now."
+        },
+        {
+            "id": "grammar-en-011",
+            "text": "What is the past tense of 'eat'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "eated",
+                "ated",
+                "eat",
+                "ate"
+            ],
+            "correctAnswer": "ate",
+            "explanation": "'Ate' is the irregular past tense form of 'eat'."
+        },
+        {
+            "id": "grammar-en-012",
+            "text": "Which sentence talks about tomorrow?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I did my homework.",
+                "I do my homework.",
+                "I will do my homework.",
+                "I am doing my homework."
+            ],
+            "correctAnswer": "I will do my homework.",
+            "explanation": "'Will do' indicates future action for tomorrow."
+        },
+        {
+            "id": "grammar-en-013",
+            "text": "We always add 's' to verbs when using 'he', 'she', or 'it' in present tense.",
+            "type": "true-false",
+            "category": "Present Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, for third person singular (he, she, it), we add 's' to the verb in simple present tense."
+        },
+        {
+            "id": "grammar-en-014",
+            "text": "Which sentence is in the past continuous tense?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "I play piano.",
+                "I played piano.",
+                "I was playing piano.",
+                "I will play piano."
+            ],
+            "correctAnswer": "I was playing piano.",
+            "explanation": "'Was playing' is past continuous tense for actions in progress in the past."
+        },
+        {
+            "id": "grammar-en-015",
+            "text": "What is the future tense of 'go'?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "goed",
+                "went",
+                "will go",
+                "going"
+            ],
+            "correctAnswer": "will go",
+            "explanation": "'Will go' is the future tense form."
+        },
+        {
+            "id": "grammar-en-016",
+            "text": "Choose the correct present tense: My brother _______ TV every night.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "watch",
+                "watches",
+                "watched",
+                "watching"
+            ],
+            "correctAnswer": "watches",
+            "explanation": "With 'my brother' (third person singular), we use 'watches'."
+        },
+        {
+            "id": "grammar-en-017",
+            "text": "What is the past tense of 'write'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "writed",
+                "wrote",
+                "written",
+                "write"
+            ],
+            "correctAnswer": "wrote",
+            "explanation": "'Wrote' is the irregular past tense form of 'write'."
+        },
+        {
+            "id": "grammar-en-018",
+            "text": "Which sentence shows a future prediction?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "It rains a lot.",
+                "It rained yesterday.",
+                "It will rain tomorrow.",
+                "It is raining now."
+            ],
+            "correctAnswer": "It will rain tomorrow.",
+            "explanation": "'Will' is often used for predictions about the future."
+        },
+        {
+            "id": "grammar-en-019",
+            "text": "All regular past tense verbs end with 'ed'.",
+            "type": "true-false",
+            "category": "Past Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, regular verbs form their past tense by adding 'ed'."
+        },
+        {
+            "id": "grammar-en-020",
+            "text": "Which sentence is in present continuous tense?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I read books.",
+                "I am reading a book.",
+                "I read a book yesterday.",
+                "I will read a book."
+            ],
+            "correctAnswer": "I am reading a book.",
+            "explanation": "'Am reading' is present continuous for actions happening now."
+        },
+        {
+            "id": "grammar-en-021",
+            "text": "What is the past tense of 'sing'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "singed",
+                "sang",
+                "sung",
+                "sing"
+            ],
+            "correctAnswer": "sang",
+            "explanation": "'Sang' is the irregular past tense form of 'sing'."
+        },
+        {
+            "id": "grammar-en-022",
+            "text": "Which sentence uses 'going to' for future?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I am going to the store.",
+                "I am going to buy some milk.",
+                "I went to the store.",
+                "I go to the store."
+            ],
+            "correctAnswer": "I am going to buy some milk.",
+            "explanation": "'Going to + verb' is used for future plans and intentions."
+        },
+        {
+            "id": "grammar-en-023",
+            "text": "Choose the correct verb: The sun _______ in the east.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "rose",
+                "rises",
+                "will rise",
+                "is rising"
+            ],
+            "correctAnswer": "rises",
+            "explanation": "Simple present is used for general truths and facts."
+        },
+        {
+            "id": "grammar-en-024",
+            "text": "What is the past tense of 'take'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "taked",
+                "took",
+                "taken",
+                "take"
+            ],
+            "correctAnswer": "took",
+            "explanation": "'Took' is the irregular past tense form of 'take'."
+        },
+        {
+            "id": "grammar-en-025",
+            "text": "We can use 'will' to make promises about the future.",
+            "type": "true-false",
+            "category": "Future Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'will' is often used for promises, offers, and decisions made at the moment."
+        },
+        {
+            "id": "grammar-en-026",
+            "text": "Which sentence describes a current action?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "She danced beautifully.",
+                "She dances beautifully.",
+                "She is dancing now.",
+                "She will dance tomorrow."
+            ],
+            "correctAnswer": "She is dancing now.",
+            "explanation": "Present continuous ('is dancing') describes actions happening at the moment."
+        },
+        {
+            "id": "grammar-en-027",
+            "text": "What is the past tense of 'drink'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "drinked",
+                "drank",
+                "drunk",
+                "drink"
+            ],
+            "correctAnswer": "drank",
+            "explanation": "'Drank' is the irregular past tense form of 'drink'."
+        },
+        {
+            "id": "grammar-en-028",
+            "text": "Which sentence is about next week?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I am studying English.",
+                "I studied English.",
+                "I study English.",
+                "I will study English next week."
+            ],
+            "correctAnswer": "I will study English next week.",
+            "explanation": "'Will study' with 'next week' clearly indicates future time."
+        },
+        {
+            "id": "grammar-en-029",
+            "text": "Choose the correct present tense: Birds _______ in the sky.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "fly",
+                "flies",
+                "flew",
+                "flying"
+            ],
+            "correctAnswer": "fly",
+            "explanation": "With plural subject 'birds', we use the base form 'fly'."
+        },
+        {
+            "id": "grammar-en-030",
+            "text": "What is the past tense of 'think'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "thinked",
+                "thought",
+                "thunk",
+                "think"
+            ],
+            "correctAnswer": "thought",
+            "explanation": "'Thought' is the irregular past tense form of 'think'."
+        },
+        {
+            "id": "grammar-en-031",
+            "text": "Present continuous tense always uses 'am', 'is', or 'are' + verb + 'ing'.",
+            "type": "true-false",
+            "category": "Present Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, present continuous is formed with am/is/are + verb-ing."
+        },
+        {
+            "id": "grammar-en-032",
+            "text": "Which sentence describes a completed action?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "I am finishing my work.",
+                "I finish my work at 5 PM.",
+                "I finished my work an hour ago.",
+                "I will finish my work soon."
+            ],
+            "correctAnswer": "I finished my work an hour ago.",
+            "explanation": "Simple past tense describes completed actions in the past."
+        },
+        {
+            "id": "grammar-en-033",
+            "text": "What is the future form of 'be'?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "be",
+                "been",
+                "will be",
+                "being"
+            ],
+            "correctAnswer": "will be",
+            "explanation": "'Will be' is the future tense of the verb 'be'."
+        },
+        {
+            "id": "grammar-en-034",
+            "text": "Choose the correct verb: Water _______ at 100 degrees Celsius.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "boiled",
+                "boils",
+                "will boil",
+                "is boiling"
+            ],
+            "correctAnswer": "boils",
+            "explanation": "Simple present is used for scientific facts."
+        },
+        {
+            "id": "grammar-en-035",
+            "text": "What is the past tense of 'bring'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "bringed",
+                "brought",
+                "brang",
+                "bring"
+            ],
+            "correctAnswer": "brought",
+            "explanation": "'Brought' is the irregular past tense form of 'bring'."
+        },
+        {
+            "id": "grammar-en-036",
+            "text": "Which sentence uses future tense correctly?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I am go to the park tomorrow.",
+                "I will goes to the park tomorrow.",
+                "I will go to the park tomorrow.",
+                "I going to the park tomorrow."
+            ],
+            "correctAnswer": "I will go to the park tomorrow.",
+            "explanation": "'Will' is followed by the base form of the verb 'go'."
+        },
+        {
+            "id": "grammar-en-037",
+            "text": "The word 'yesterday' is usually used with past tense.",
+            "type": "true-false",
+            "category": "Past Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'yesterday' indicates past time and is used with past tense verbs."
+        },
+        {
+            "id": "grammar-en-038",
+            "text": "Which sentence is in simple present tense?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "They are playing outside.",
+                "They play outside every day.",
+                "They played outside yesterday.",
+                "They will play outside tomorrow."
+            ],
+            "correctAnswer": "They play outside every day.",
+            "explanation": "Simple present describes habits and regular activities."
+        },
+        {
+            "id": "grammar-en-039",
+            "text": "What is the past tense of 'catch'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "catch",
+                "caught",
+                "catched",
+                "catching"
+            ],
+            "correctAnswer": "caught",
+            "explanation": "'Caught' is the irregular past tense form of 'catch'."
+        },
+        {
+            "id": "grammar-en-040",
+            "text": "Which time word is used with future tense?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "yesterday",
+                "now",
+                "tomorrow",
+                "last week"
+            ],
+            "correctAnswer": "tomorrow",
+            "explanation": "'Tomorrow' indicates future time and is used with future tense."
+        },
+        {
+            "id": "grammar-en-041",
+            "text": "Choose the correct present tense: My friends _______ to school by bus.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "go",
+                "goes",
+                "went",
+                "going"
+            ],
+            "correctAnswer": "go",
+            "explanation": "With plural subject 'my friends', we use the base form 'go'."
+        },
+        {
+            "id": "grammar-en-042",
+            "text": "What is the past tense of 'teach'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "teached",
+                "taught",
+                "teach",
+                "teaching"
+            ],
+            "correctAnswer": "taught",
+            "explanation": "'Taught' is the irregular past tense form of 'teach'."
+        },
+        {
+            "id": "grammar-en-043",
+            "text": "We use 'will not' or 'won't' for negative future sentences.",
+            "type": "true-false",
+            "category": "Future Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'will not' or the contraction 'won't' is used for negative future statements."
+        },
+        {
+            "id": "grammar-en-044",
+            "text": "Which sentence shows a fact?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "It was cold yesterday.",
+                "It is cold today.",
+                "It will be cold tomorrow.",
+                "It is getting cold."
+            ],
+            "correctAnswer": "It is cold today.",
+            "explanation": "Simple present can state current facts or situations."
+        },
+        {
+            "id": "grammar-en-045",
+            "text": "What is the past tense of 'buy'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "buyed",
+                "bought",
+                "buy",
+                "buying"
+            ],
+            "correctAnswer": "bought",
+            "explanation": "'Bought' is the irregular past tense form of 'buy'."
+        },
+        {
+            "id": "grammar-en-046",
+            "text": "Which sentence is about a future arrangement?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I am meeting my friend at 3 PM.",
+                "I meet my friend every day.",
+                "I met my friend yesterday.",
+                "I was meeting my friend."
+            ],
+            "correctAnswer": "I am meeting my friend at 3 PM.",
+            "explanation": "Present continuous can be used for fixed future arrangements."
+        },
+        {
+            "id": "grammar-en-047",
+            "text": "Choose the correct verb: The baby _______ right now.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "sleep",
+                "sleeps",
+                "is sleeping",
+                "slept"
+            ],
+            "correctAnswer": "is sleeping",
+            "explanation": "'Is sleeping' is present continuous for actions happening now."
+        },
+        {
+            "id": "grammar-en-048",
+            "text": "What is the past tense of 'find'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "finded",
+                "found",
+                "find",
+                "finding"
+            ],
+            "correctAnswer": "found",
+            "explanation": "'Found' is the irregular past tense form of 'find'."
+        },
+        {
+            "id": "grammar-en-049",
+            "text": "The words 'always', 'usually', and 'often' are often used with present tense.",
+            "type": "true-false",
+            "category": "Present Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "These frequency adverbs are commonly used with simple present tense for habits."
+        },
+        {
+            "id": "grammar-en-050",
+            "text": "Which sentence describes a past habit?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "I walk to school.",
+                "I walked to school when I was young.",
+                "I will walk to school.",
+                "I am walking to school."
+            ],
+            "correctAnswer": "I walked to school when I was young.",
+            "explanation": "Simple past can describe past habits or routines."
+        },
+        {
+            "id": "grammar-en-051",
+            "text": "What is the future tense of 'have'?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "has",
+                "had",
+                "will have",
+                "having"
+            ],
+            "correctAnswer": "will have",
+            "explanation": "'Will have' is the future tense form."
+        },
+        {
+            "id": "grammar-en-052",
+            "text": "Choose the correct present tense: Cats _______ milk.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "like",
+                "likes",
+                "liked",
+                "liking"
+            ],
+            "correctAnswer": "like",
+            "explanation": "With plural subject 'cats', we use the base form 'like'."
+        },
+        {
+            "id": "grammar-en-053",
+            "text": "What is the past tense of 'swim'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "swimmed",
+                "swam",
+                "swum",
+                "swim"
+            ],
+            "correctAnswer": "swam",
+            "explanation": "'Swam' is the irregular past tense form of 'swim'."
+        },
+        {
+            "id": "grammar-en-054",
+            "text": "Which sentence uses 'will' for a spontaneous decision?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I will always love you.",
+                "I will help you with that.",
+                "The sun will rise at 6 AM.",
+                "It will rain in December."
+            ],
+            "correctAnswer": "I will help you with that.",
+            "explanation": "'Will' is often used for decisions made at the moment of speaking."
+        },
+        {
+            "id": "grammar-en-055",
+            "text": "Regular verbs like 'walk' become 'walked' in past tense.",
+            "type": "true-false",
+            "category": "Past Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, regular verbs form past tense by adding '-ed'."
+        },
+        {
+            "id": "grammar-en-056",
+            "text": "Which sentence is in present tense?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "The students studied for the test.",
+                "The students are studying for the test.",
+                "The students will study for the test.",
+                "The students were studying for the test."
+            ],
+            "correctAnswer": "The students are studying for the test.",
+            "explanation": "'Are studying' is present continuous tense."
+        },
+        {
+            "id": "grammar-en-057",
+            "text": "What is the past tense of 'draw'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "drawed",
+                "drew",
+                "drawn",
+                "draw"
+            ],
+            "correctAnswer": "drew",
+            "explanation": "'Drew' is the irregular past tense form of 'draw'."
+        },
+        {
+            "id": "grammar-en-058",
+            "text": "Which time expression is used with future tense?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "last night",
+                "next year",
+                "yesterday",
+                "now"
+            ],
+            "correctAnswer": "next year",
+            "explanation": "'Next year' indicates future time."
+        },
+        {
+            "id": "grammar-en-059",
+            "text": "Choose the correct verb: My sister _______ her teeth twice a day.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "brush",
+                "brushes",
+                "brushed",
+                "brushing"
+            ],
+            "correctAnswer": "brushes",
+            "explanation": "With 'my sister' (third person singular), we use 'brushes'."
+        },
+        {
+            "id": "grammar-en-060",
+            "text": "What is the past tense of 'speak'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "speaked",
+                "spoke",
+                "spoken",
+                "speak"
+            ],
+            "correctAnswer": "spoke",
+            "explanation": "'Spoke' is the irregular past tense form of 'speak'."
+        },
+        {
+            "id": "grammar-en-061",
+            "text": "We can use present continuous tense to talk about future plans.",
+            "type": "true-false",
+            "category": "Future Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, present continuous can be used for definite future arrangements."
+        },
+        {
+            "id": "grammar-en-062",
+            "text": "Which sentence describes a general truth?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "It was hot yesterday.",
+                "It is hot in summer.",
+                "It will be hot tomorrow.",
+                "It is getting hot."
+            ],
+            "correctAnswer": "It is hot in summer.",
+            "explanation": "Simple present states general truths and facts."
+        },
+        {
+            "id": "grammar-en-063",
+            "text": "What is the past tense of 'build'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "builded",
+                "built",
+                "build",
+                "building"
+            ],
+            "correctAnswer": "built",
+            "explanation": "'Built' is the irregular past tense form of 'build'."
+        },
+        {
+            "id": "grammar-en-064",
+            "text": "Which sentence uses future tense with 'going to'?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I am going to the store.",
+                "I am going to buy groceries.",
+                "I went to the store.",
+                "I go to the store."
+            ],
+            "correctAnswer": "I am going to buy groceries.",
+            "explanation": "'Going to + verb' expresses future intention or plan."
+        },
+        {
+            "id": "grammar-en-065",
+            "text": "Choose the correct present tense: The Earth _______ around the Sun.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "revolved",
+                "revolves",
+                "will revolve",
+                "is revolving"
+            ],
+            "correctAnswer": "revolves",
+            "explanation": "Simple present is used for scientific facts."
+        },
+        {
+            "id": "grammar-en-066",
+            "text": "What is the past tense of 'choose'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "choosed",
+                "chose",
+                "chosen",
+                "choose"
+            ],
+            "correctAnswer": "chose",
+            "explanation": "'Chose' is the irregular past tense form of 'choose'."
+        },
+        {
+            "id": "grammar-en-067",
+            "text": "All verbs in English follow the same pattern for past tense.",
+            "type": "true-false",
+            "category": "Past Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "No, there are regular verbs (add -ed) and irregular verbs (change form)."
+        },
+        {
+            "id": "grammar-en-068",
+            "text": "Which sentence is in simple present tense?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I am reading a book.",
+                "I read books for fun.",
+                "I read a book yesterday.",
+                "I will read a book later."
+            ],
+            "correctAnswer": "I read books for fun.",
+            "explanation": "Simple present describes general preferences and habits."
+        },
+        {
+            "id": "grammar-en-069",
+            "text": "What is the past tense of 'drive'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "drived",
+                "drove",
+                "driven",
+                "drive"
+            ],
+            "correctAnswer": "drove",
+            "explanation": "'Drove' is the irregular past tense form of 'drive'."
+        },
+        {
+            "id": "grammar-en-070",
+            "text": "Which sentence shows a future prediction based on evidence?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I will be 10 years old next month.",
+                "Look at those dark clouds! It's going to rain.",
+                "I will call you tomorrow.",
+                "The train will arrive at 5 PM."
+            ],
+            "correctAnswer": "Look at those dark clouds! It's going to rain.",
+            "explanation": "'Going to' is used for predictions based on present evidence."
+        },
+        {
+            "id": "grammar-en-071",
+            "text": "Choose the correct verb: My parents _______ in this house for 20 years.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "live",
+                "lives",
+                "lived",
+                "living"
+            ],
+            "correctAnswer": "live",
+            "explanation": "With plural subject 'my parents', we use the base form 'live'."
+        },
+        {
+            "id": "grammar-en-072",
+            "text": "What is the past tense of 'fly'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "flied",
+                "flew",
+                "flown",
+                "fly"
+            ],
+            "correctAnswer": "flew",
+            "explanation": "'Flew' is the irregular past tense form of 'fly'."
+        },
+        {
+            "id": "grammar-en-073",
+            "text": "We use 'will' for scheduled events like train timetables.",
+            "type": "true-false",
+            "category": "Future Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'will' can be used for scheduled events in the future."
+        },
+        {
+            "id": "grammar-en-074",
+            "text": "Which sentence describes a temporary situation?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I live in London.",
+                "I am living in London for the summer.",
+                "I lived in London last year.",
+                "I will live in London next year."
+            ],
+            "correctAnswer": "I am living in London for the summer.",
+            "explanation": "Present continuous describes temporary situations."
+        },
+        {
+            "id": "grammar-en-075",
+            "text": "What is the past tense of 'grow'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "growed",
+                "grew",
+                "grown",
+                "grow"
+            ],
+            "correctAnswer": "grew",
+            "explanation": "'Grew' is the irregular past tense form of 'grow'."
+        },
+        {
+            "id": "grammar-en-076",
+            "text": "Which sentence uses future tense for an offer?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I will always remember you.",
+                "I will carry that bag for you.",
+                "It will snow in winter.",
+                "The shop will open at 9 AM."
+            ],
+            "correctAnswer": "I will carry that bag for you.",
+            "explanation": "'Will' is used for offers and volunteering to do something."
+        },
+        {
+            "id": "grammar-en-077",
+            "text": "Choose the correct present tense: Fish _______ in water.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "live",
+                "lives",
+                "lived",
+                "living"
+            ],
+            "correctAnswer": "live",
+            "explanation": "With plural subject 'fish', we use the base form 'live'."
+        },
+        {
+            "id": "grammar-en-078",
+            "text": "What is the past tense of 'know'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "knowed",
+                "knew",
+                "known",
+                "know"
+            ],
+            "correctAnswer": "knew",
+            "explanation": "'Knew' is the irregular past tense form of 'know'."
+        },
+        {
+            "id": "grammar-en-079",
+            "text": "The word 'now' is usually used with present continuous tense.",
+            "type": "true-false",
+            "category": "Present Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'now' indicates the present moment and is used with present continuous."
+        },
+        {
+            "id": "grammar-en-080",
+            "text": "Which sentence describes a past event with a specific time?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "I play tennis.",
+                "I played tennis last Saturday.",
+                "I will play tennis tomorrow.",
+                "I am playing tennis."
+            ],
+            "correctAnswer": "I played tennis last Saturday.",
+            "explanation": "Simple past is used for completed actions with specific past time references."
+        },
+        {
+            "id": "grammar-en-081",
+            "text": "What is the future tense of 'see'?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "see",
+                "saw",
+                "will see",
+                "seeing"
+            ],
+            "correctAnswer": "will see",
+            "explanation": "'Will see' is the future tense form."
+        },
+        {
+            "id": "grammar-en-082",
+            "text": "Choose the correct verb: The moon _______ around the Earth.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "go",
+                "goes",
+                "went",
+                "going"
+            ],
+            "correctAnswer": "goes",
+            "explanation": "With singular subject 'the moon', we use 'goes'."
+        },
+        {
+            "id": "grammar-en-083",
+            "text": "What is the past tense of 'wear'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "weared",
+                "wore",
+                "worn",
+                "wear"
+            ],
+            "correctAnswer": "wore",
+            "explanation": "'Wore' is the irregular past tense form of 'wear'."
+        },
+        {
+            "id": "grammar-en-084",
+            "text": "Which sentence uses 'will' for a promise?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I will probably be late.",
+                "I will help you with your homework.",
+                "It will be sunny tomorrow.",
+                "The movie will start soon."
+            ],
+            "correctAnswer": "I will help you with your homework.",
+            "explanation": "'Will' is used for promises and commitments."
+        },
+        {
+            "id": "grammar-en-085",
+            "text": "Present simple tense is used for actions happening right now.",
+            "type": "true-false",
+            "category": "Present Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Present simple is for habits and general truths. Present continuous is for actions happening now."
+        },
+        {
+            "id": "grammar-en-086",
+            "text": "Which sentence describes a routine?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I am eating lunch.",
+                "I eat lunch at 12 PM every day.",
+                "I ate lunch an hour ago.",
+                "I will eat lunch later."
+            ],
+            "correctAnswer": "I eat lunch at 12 PM every day.",
+            "explanation": "Simple present describes daily routines and habits."
+        },
+        {
+            "id": "grammar-en-087",
+            "text": "What is the past tense of 'break'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "breaked",
+                "broke",
+                "broken",
+                "break"
+            ],
+            "correctAnswer": "broke",
+            "explanation": "'Broke' is the irregular past tense form of 'break'."
+        },
+        {
+            "id": "grammar-en-088",
+            "text": "Which time word indicates future time?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "yesterday",
+                "now",
+                "soon",
+                "last week"
+            ],
+            "correctAnswer": "soon",
+            "explanation": "'Soon' indicates near future time."
+        },
+        {
+            "id": "grammar-en-089",
+            "text": "Choose the correct verb: Many people _______ English around the world.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "speak",
+                "speaks",
+                "spoke",
+                "speaking"
+            ],
+            "correctAnswer": "speak",
+            "explanation": "With plural subject 'many people', we use the base form 'speak'."
+        },
+        {
+            "id": "grammar-en-090",
+            "text": "What is the past tense of 'forget'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "forgetted",
+                "forgot",
+                "forgotten",
+                "forget"
+            ],
+            "correctAnswer": "forgot",
+            "explanation": "'Forgot' is the irregular past tense form of 'forget'."
+        },
+        {
+            "id": "grammar-en-091",
+            "text": "We use 'will' to talk about weather forecasts.",
+            "type": "true-false",
+            "category": "Future Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, 'will' is commonly used for weather predictions."
+        },
+        {
+            "id": "grammar-en-092",
+            "text": "Which sentence shows a permanent situation?",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "I am staying at a hotel.",
+                "I stay with my family.",
+                "I stayed with my cousin.",
+                "I will stay for a week."
+            ],
+            "correctAnswer": "I stay with my family.",
+            "explanation": "Simple present describes permanent situations."
+        },
+        {
+            "id": "grammar-en-093",
+            "text": "What is the past tense of 'give'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "gived",
+                "gave",
+                "given",
+                "give"
+            ],
+            "correctAnswer": "gave",
+            "explanation": "'Gave' is the irregular past tense form of 'give'."
+        },
+        {
+            "id": "grammar-en-094",
+            "text": "Which sentence uses future tense for a scheduled event?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "I will think about it.",
+                "The concert will start at 8 PM.",
+                "I will probably go to the party.",
+                "It will be fun."
+            ],
+            "correctAnswer": "The concert will start at 8 PM.",
+            "explanation": "'Will' is used for scheduled events with fixed times."
+        },
+        {
+            "id": "grammar-en-095",
+            "text": "Choose the correct verb: Children _______ to play.",
+            "type": "multiple-choice",
+            "category": "Present Tense",
+            "answers": [
+                "love",
+                "loves",
+                "loved",
+                "loving"
+            ],
+            "correctAnswer": "love",
+            "explanation": "With plural subject 'children', we use the base form 'love'."
+        },
+        {
+            "id": "grammar-en-096",
+            "text": "What is the past tense of 'hide'?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "hided",
+                "hid",
+                "hidden",
+                "hide"
+            ],
+            "correctAnswer": "hid",
+            "explanation": "'Hid' is the irregular past tense form of 'hide'."
+        },
+        {
+            "id": "grammar-en-097",
+            "text": "The word 'usually' is often used with past tense.",
+            "type": "true-false",
+            "category": "Present Tense",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "'Usually' is an adverb of frequency used with present tense for habits."
+        },
+        {
+            "id": "grammar-en-098",
+            "text": "Which sentence describes a past state?",
+            "type": "multiple-choice",
+            "category": "Past Tense",
+            "answers": [
+                "I am happy.",
+                "I will be happy.",
+                "I was happy yesterday.",
+                "I am being happy."
+            ],
+            "correctAnswer": "I was happy yesterday.",
+            "explanation": "'Was' is the past tense of 'be' for describing past states."
+        },
+        {
+            "id": "grammar-en-099",
+            "text": "What is the future tense of 'come'?",
+            "type": "multiple-choice",
+            "category": "Future Tense",
+            "answers": [
+                "come",
+                "came",
+                "will come",
+                "coming"
+            ],
+            "correctAnswer": "will come",
+            "explanation": "'Will come' is the future tense form."
+        },
+        {
+            "id": "grammar-en-100",
+            "text": "Which sentence correctly uses all three tenses?",
+            "type": "multiple-choice",
+            "category": "Mixed Tenses",
+            "answers": [
+                "I play soccer yesterday and will play tomorrow.",
+                "I played soccer yesterday, play today, and will play tomorrow.",
+                "I played soccer yesterday and play tomorrow.",
+                "I play soccer yesterday and today."
+            ],
+            "correctAnswer": "I played soccer yesterday, play today, and will play tomorrow.",
+            "explanation": "This sentence correctly uses past ('played'), present ('play'), and future ('will play') tenses."
+        }
+    ]
+}

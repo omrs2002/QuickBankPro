@@ -1,0 +1,112 @@
+{
+    "title": "اختبار معلومات الأطفال",
+    "titleEn": "Kids simple exam",
+    "description": "مجموعة من 100 سؤال ممتع للأطفال الصغار!",
+    "questions": [
+        {
+            "id": "45",
+            "text": "انطلقت رحلات عصر الاستكشاف الأوروبي بشكل كبير من البرتغال و___.",
+            "type": "fill-in-the-blank",
+            "category": "تاريخ",
+            "answers": [],
+            "correctAnswer": "إسبانيا",
+            "explanation": "كانت البرتغال وإسبانيا الدولتين الرائدتين في استكشاف العالم الجديد خلال القرنين الخامس عشر والسادس عشر."
+        },
+        {
+            "id": "ar-q30",
+            "text": "ما هو الشكل الذي له 3 أضلاع؟",
+            "type": "multiple-choice",
+            "category": "ألوان وأشكال",
+            "answers": [
+                "الدائرة",
+                "المربع",
+                "المثلث",
+                "المستطيل"
+            ],
+            "correctAnswer": "المثلث"
+        },
+        {
+            "id": "ar-q99",
+            "text": "ما هو أضخم حيوان في العالم؟",
+            "type": "multiple-choice",
+            "category": "حيوانات",
+            "answers": [
+                "الفيل",
+                "الزرافة",
+                "الحوت الأزرق",
+                "القرش"
+            ],
+            "correctAnswer": "الحوت الأزرق"
+        },
+        {
+            "id": "ar-q63",
+            "text": "نستخدم الملعقة للشرب.",
+            "type": "true-false",
+            "category": "معلومات عامة",
+            "answers": [
+                "صح",
+                "خطأ"
+            ],
+            "correctAnswer": "خطأ"
+        },
+        {
+            "id": "ar-q72",
+            "text": "ما هو صوت القطة؟",
+            "type": "multiple-choice",
+            "category": "حيوانات",
+            "answers": [
+                "مواء",
+                "نباح",
+                "صهيل",
+                "زئير"
+            ],
+            "correctAnswer": "مواء"
+        },
+        {
+            "id": "ar-q24",
+            "text": "التفاح يمكن أن يكون أحمر أو أخضر.",
+            "type": "true-false",
+            "category": "فواكه وخضروات",
+            "answers": [
+                "صح",
+                "خطأ"
+            ],
+            "correctAnswer": "صح"
+        },
+        {
+            "id": "ar-q54",
+            "text": "القمر يظهر في النهار.",
+            "type": "true-false",
+            "category": "معلومات عامة",
+            "answers": [
+                "صح",
+                "خطأ"
+            ],
+            "correctAnswer": "خطأ"
+        },
+        {
+            "id": "ar-q37",
+            "text": "نحن نعيش على كوكب المريخ.",
+            "type": "true-false",
+            "category": "معلومات عامة",
+            "answers": [
+                "صح",
+                "خطأ"
+            ],
+            "correctAnswer": "خطأ"
+        },
+        {
+            "id": "ar-q87",
+            "text": "كم عدد زوايا المربع؟",
+            "type": "multiple-choice",
+            "category": "ألوان وأشكال",
+            "answers": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctAnswer": "4"
+        }
+    ]
+}
