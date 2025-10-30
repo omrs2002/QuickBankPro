@@ -1,0 +1,613 @@
+{
+    "title": "اختبار الذكاء 2025",
+    "titleEn": "IQ Test 2025 - English",
+    "IsFree": true,
+    "CategoryId": 1,
+    "description": "A comprehensive 50-question IQ test covering logical reasoning, mathematical ability, verbal skills, and spatial recognition.",
+    "questions": [
+        {
+            "id": "001",
+            "text": "Which number should come next in this pattern: 2, 6, 18, 54, ?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "108",
+                "162",
+                "216",
+                "270"
+            ],
+            "correctAnswer": "162",
+            "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162"
+        },
+        {
+            "id": "002",
+            "text": "All squares are rectangles.",
+            "type": "true-false",
+            "category": "Logical Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A square is a special type of rectangle where all sides are equal, but it still meets the definition of a rectangle (four-sided polygon with all right angles)."
+        },
+        {
+            "id": "003",
+            "text": "If all Zips are Zaps and some Zaps are Zops, then some Zips are definitely Zops.",
+            "type": "true-false",
+            "category": "Logical Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is not necessarily true. While all Zips are Zaps, and some Zaps are Zops, the Zops might only come from the portion of Zaps that are not Zips."
+        },
+        {
+            "id": "004",
+            "text": "Complete the analogy: Ocean is to Water as Desert is to ______",
+            "type": "fill-in-the-blank",
+            "category": "Verbal Reasoning",
+            "answers": [],
+            "correctAnswer": "Sand",
+            "explanation": "An ocean is characterized by water, just as a desert is characterized by sand."
+        },
+        {
+            "id": "005",
+            "text": "What is the missing number in this sequence: 1, 1, 2, 3, 5, 8, 13, ?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "18",
+                "21",
+                "24",
+                "26"
+            ],
+            "correctAnswer": "21",
+            "explanation": "This is the Fibonacci sequence where each number is the sum of the two preceding ones: 8+13=21"
+        },
+        {
+            "id": "006",
+            "text": "Which word does NOT belong with the others?",
+            "type": "multiple-choice",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "Circle",
+                "Square",
+                "Triangle",
+                "Rectangle"
+            ],
+            "correctAnswer": "Circle",
+            "explanation": "Circle is the only shape without straight sides or angles."
+        },
+        {
+            "id": "007",
+            "text": "If a doctor gives you 3 pills and tells you to take one every half hour, how long will the pills last?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "1 hour",
+                "1.5 hours",
+                "2 hours",
+                "2.5 hours"
+            ],
+            "correctAnswer": "1 hour",
+            "explanation": "You take the first pill immediately, the second after 30 minutes, and the third after 60 minutes. So all pills are taken within 1 hour."
+        },
+        {
+            "id": "008",
+            "text": "The opposite of 'benevolent' is 'malevolent'.",
+            "type": "true-false",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Benevolent means well-meaning and kindly, while malevolent means having or showing a wish to do evil to others."
+        },
+        {
+            "id": "009",
+            "text": "Which shape completes the pattern? [Square, Circle, Square, Circle, Square, ?]",
+            "type": "multiple-choice",
+            "category": "Spatial Reasoning",
+            "answers": [
+                "Circle",
+                "Square",
+                "Triangle",
+                "Rectangle"
+            ],
+            "correctAnswer": "Circle",
+            "explanation": "The pattern alternates between square and circle: Square, Circle, Square, Circle, Square, Circle"
+        },
+        {
+            "id": "010",
+            "text": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "5 cents",
+            "explanation": "If the ball costs 5 cents, then the bat costs $1.05, totaling $1.10, and the bat costs $1.00 more than the ball."
+        },
+        {
+            "id": "011",
+            "text": "If you rearrange the letters 'CIFAIPC', you would get the name of a:",
+            "type": "multiple-choice",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "City",
+                "Animal",
+                "Ocean",
+                "River"
+            ],
+            "correctAnswer": "City",
+            "explanation": "Rearranging 'CIFAIPC' gives 'PACIFIC', as in Pacific Ocean."
+        },
+        {
+            "id": "012",
+            "text": "All prime numbers are odd numbers.",
+            "type": "true-false",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "2 is a prime number and it is even. It's the only even prime number."
+        },
+        {
+            "id": "013",
+            "text": "What is 25% of 200?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "50",
+            "explanation": "25% means one-quarter. One-quarter of 200 is 50."
+        },
+        {
+            "id": "014",
+            "text": "Which number is the odd one out?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "16",
+                "25",
+                "36",
+                "48"
+            ],
+            "correctAnswer": "48",
+            "explanation": "16, 25, and 36 are perfect squares (4², 5², 6²), while 48 is not."
+        },
+        {
+            "id": "015",
+            "text": "Complete the analogy: Writer is to Book as Composer is to ______",
+            "type": "fill-in-the-blank",
+            "category": "Verbal Reasoning",
+            "answers": [],
+            "correctAnswer": "Symphony",
+            "explanation": "A writer creates a book, just as a composer creates a symphony (or music)."
+        },
+        {
+            "id": "016",
+            "text": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies.",
+            "type": "true-false",
+            "category": "Logical Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This is a classic syllogism. If A=B and B=C, then A must equal C."
+        },
+        {
+            "id": "017",
+            "text": "Which pattern comes next? →, ↑, ←, ↓, ?",
+            "type": "multiple-choice",
+            "category": "Spatial Reasoning",
+            "answers": [
+                "→",
+                "↑",
+                "←",
+                "↓"
+            ],
+            "correctAnswer": "→",
+            "explanation": "The arrows are rotating clockwise: right, up, left, down, then back to right."
+        },
+        {
+            "id": "018",
+            "text": "What is the next letter in this sequence: A, C, E, G, ?",
+            "type": "fill-in-the-blank",
+            "category": "Pattern Recognition",
+            "answers": [],
+            "correctAnswer": "I",
+            "explanation": "The sequence is every other letter of the alphabet: A, C, E, G, I"
+        },
+        {
+            "id": "019",
+            "text": "A cube has how many edges?",
+            "type": "multiple-choice",
+            "category": "Spatial Reasoning",
+            "answers": [
+                "8",
+                "12",
+                "6",
+                "10"
+            ],
+            "correctAnswer": "12",
+            "explanation": "A cube has 12 edges where two faces meet."
+        },
+        {
+            "id": "020",
+            "text": "The words 'listen' and 'silent' have the same letters.",
+            "type": "true-false",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "They are anagrams - both words use the exact same letters: L, I, S, T, E, N"
+        },
+        {
+            "id": "021",
+            "text": "If 3 people can paint 3 fences in 3 hours, how many people are needed to paint 9 fences in 9 hours?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "3",
+                "6",
+                "9",
+                "12"
+            ],
+            "correctAnswer": "3",
+            "explanation": "If 3 people paint 3 fences in 3 hours, then 1 person paints 1 fence in 3 hours. To paint 9 fences in 9 hours, you still need 3 people (each can paint 3 fences in 9 hours)."
+        },
+        {
+            "id": "022",
+            "text": "What is the missing number: 8, 27, 64, 125, ?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "216",
+            "explanation": "These are cubes: 2³=8, 3³=27, 4³=64, 5³=125, 6³=216"
+        },
+        {
+            "id": "023",
+            "text": "Which word is synonymous with 'verbose'?",
+            "type": "multiple-choice",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "Wordy",
+                "Brief",
+                "Quiet",
+                "Simple"
+            ],
+            "correctAnswer": "Wordy",
+            "explanation": "Verbose means using more words than needed, which is synonymous with wordy."
+        },
+        {
+            "id": "024",
+            "text": "All mammals can fly.",
+            "type": "true-false",
+            "category": "General Knowledge",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While bats (which are mammals) can fly, most mammals like dogs, cats, and humans cannot fly."
+        },
+        {
+            "id": "025",
+            "text": "If you're facing North and turn 90 degrees to your right, then 180 degrees to your left, which direction are you facing?",
+            "type": "multiple-choice",
+            "category": "Spatial Reasoning",
+            "answers": [
+                "East",
+                "West",
+                "South",
+                "North"
+            ],
+            "correctAnswer": "West",
+            "explanation": "Start facing North. Turn 90° right = East. Then turn 180° left = West."
+        },
+        {
+            "id": "026",
+            "text": "What is 7 × 8?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "56",
+            "explanation": "7 multiplied by 8 equals 56."
+        },
+        {
+            "id": "027",
+            "text": "Which shape has more sides: a hexagon or an octagon?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "Hexagon",
+                "Octagon",
+                "They have the same",
+                "Cannot determine"
+            ],
+            "correctAnswer": "Octagon",
+            "explanation": "A hexagon has 6 sides, an octagon has 8 sides."
+        },
+        {
+            "id": "028",
+            "text": "The capital of Australia is Sydney.",
+            "type": "true-false",
+            "category": "General Knowledge",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The capital of Australia is Canberra, not Sydney."
+        },
+        {
+            "id": "029",
+            "text": "Complete the sequence: Z, X, V, T, ?",
+            "type": "fill-in-the-blank",
+            "category": "Pattern Recognition",
+            "answers": [],
+            "correctAnswer": "R",
+            "explanation": "The sequence is going backwards through the alphabet, skipping one letter each time: Z, X, V, T, R"
+        },
+        {
+            "id": "030",
+            "text": "If all Thrugs are Mogs and no Mogs are Zugs, then no Thrugs are Zugs.",
+            "type": "true-false",
+            "category": "Logical Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "If all Thrugs are Mogs, and no Mogs are Zugs, then Thrugs (being a subset of Mogs) cannot be Zugs either."
+        },
+        {
+            "id": "031",
+            "text": "What is the square root of 144?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "12",
+                "14",
+                "16",
+                "18"
+            ],
+            "correctAnswer": "12",
+            "explanation": "12 × 12 = 144, so the square root of 144 is 12."
+        },
+        {
+            "id": "032",
+            "text": "Which of these is not a type of triangle?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "Scalene",
+                "Isosceles",
+                "Equilateral",
+                "Rectangular"
+            ],
+            "correctAnswer": "Rectangular",
+            "explanation": "There is no 'rectangular' triangle type. The correct term for a triangle with a 90° angle is 'right triangle'."
+        },
+        {
+            "id": "033",
+            "text": "The Great Wall of China is visible from space with the naked eye.",
+            "type": "true-false",
+            "category": "General Knowledge",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is a common myth. The Great Wall is not readily visible to the naked eye from space."
+        },
+        {
+            "id": "034",
+            "text": "What is the next number: 1, 4, 9, 16, 25, ?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "36",
+            "explanation": "These are perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36"
+        },
+        {
+            "id": "035",
+            "text": "Which word means the opposite of 'ancient'?",
+            "type": "multiple-choice",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "Modern",
+                "Old",
+                "Historic",
+                "Classic"
+            ],
+            "correctAnswer": "Modern",
+            "explanation": "Ancient means very old, while modern means current or recent."
+        },
+        {
+            "id": "036",
+            "text": "A farmer has 15 sheep and all but 8 die. How many are left?",
+            "type": "multiple-choice",
+            "category": "Logical Reasoning",
+            "answers": [
+                "7",
+                "8",
+                "15",
+                "0"
+            ],
+            "correctAnswer": "8",
+            "explanation": "'All but 8 die' means 8 sheep survive."
+        },
+        {
+            "id": "037",
+            "text": "How many months have 28 days?",
+            "type": "fill-in-the-blank",
+            "category": "Logical Reasoning",
+            "answers": [],
+            "correctAnswer": "12",
+            "explanation": "All months have at least 28 days. February has exactly 28 days (29 in leap years), but all other months have more than 28 days."
+        },
+        {
+            "id": "038",
+            "text": "Which mirror image is correct for the word 'AMBULANCE' as seen in an ambulance rearview mirror?",
+            "type": "multiple-choice",
+            "category": "Spatial Reasoning",
+            "answers": [
+                "ECNALUBMA",
+                "AMBULANCE",
+                "AMBLUANCE",
+                "AMBULANCEE"
+            ],
+            "correctAnswer": "ECNALUBMA",
+            "explanation": "Ambulances have the word written backwards so it appears correctly in rearview mirrors: ECNALUBMA"
+        },
+        {
+            "id": "039",
+            "text": "Water boils at 100 degrees Fahrenheit.",
+            "type": "true-false",
+            "category": "General Knowledge",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit)."
+        },
+        {
+            "id": "040",
+            "text": "What is 15% of 80?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "12",
+            "explanation": "10% of 80 is 8, 5% is 4, so 15% is 8+4=12"
+        },
+        {
+            "id": "041",
+            "text": "Which pattern comes next in this series: △, □, ○, △, □, ○, ?",
+            "type": "multiple-choice",
+            "category": "Pattern Recognition",
+            "answers": [
+                "△",
+                "□",
+                "○",
+                "☆"
+            ],
+            "correctAnswer": "△",
+            "explanation": "The pattern repeats every 3 shapes: triangle, square, circle, then repeats."
+        },
+        {
+            "id": "042",
+            "text": "A dozen eggs cost $0.60. How much does one egg cost?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "$0.05",
+                "$0.10",
+                "$0.15",
+                "$0.20"
+            ],
+            "correctAnswer": "$0.05",
+            "explanation": "A dozen is 12 eggs. $0.60 ÷ 12 = $0.05 per egg."
+        },
+        {
+            "id": "043",
+            "text": "The Earth is the largest planet in our solar system.",
+            "type": "true-false",
+            "category": "General Knowledge",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Jupiter is the largest planet in our solar system."
+        },
+        {
+            "id": "044",
+            "text": "Complete the analogy: Finger is to Hand as Toe is to ______",
+            "type": "fill-in-the-blank",
+            "category": "Verbal Reasoning",
+            "answers": [],
+            "correctAnswer": "Foot",
+            "explanation": "A finger is part of a hand, just as a toe is part of a foot."
+        },
+        {
+            "id": "045",
+            "text": "If you have 4 apples and you take away 3, how many do you have?",
+            "type": "multiple-choice",
+            "category": "Logical Reasoning",
+            "answers": [
+                "1",
+                "3",
+                "4",
+                "7"
+            ],
+            "correctAnswer": "3",
+            "explanation": "The question says 'you take away 3', meaning you now have those 3 apples."
+        },
+        {
+            "id": "046",
+            "text": "What is the next number: 1, 3, 6, 10, 15, ?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "21",
+            "explanation": "This is the triangular number sequence where each number is the sum of previous number + position: 1+2=3, 3+3=6, 6+4=10, 10+5=15, 15+6=21"
+        },
+        {
+            "id": "047",
+            "text": "Which word is an antonym for 'generous'?",
+            "type": "multiple-choice",
+            "category": "Verbal Reasoning",
+            "answers": [
+                "Stingy",
+                "Kind",
+                "Giving",
+                "Friendly"
+            ],
+            "correctAnswer": "Stingy",
+            "explanation": "Generous means willing to give and share, while stingy means unwilling to give or spend."
+        },
+        {
+            "id": "048",
+            "text": "A cube has 6 faces of equal size.",
+            "type": "true-false",
+            "category": "Spatial Reasoning",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A cube has 6 square faces, all of equal size."
+        },
+        {
+            "id": "049",
+            "text": "If a train travels 60 miles in 1 hour, how far will it travel in 90 minutes?",
+            "type": "fill-in-the-blank",
+            "category": "Mathematical Reasoning",
+            "answers": [],
+            "correctAnswer": "90 miles",
+            "explanation": "60 miles per hour means 1 mile per minute. 90 minutes = 90 miles."
+        },
+        {
+            "id": "050",
+            "text": "Which number is one less than a thousand?",
+            "type": "multiple-choice",
+            "category": "Mathematical Reasoning",
+            "answers": [
+                "999",
+                "1001",
+                "99",
+                "1000"
+            ],
+            "correctAnswer": "999",
+            "explanation": "One less than 1000 is 999."
+        }
+    ]
+}

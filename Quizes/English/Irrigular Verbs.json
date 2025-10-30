@@ -1,0 +1,1293 @@
+{
+    "title": "اختبار الأفعال الشاذة",
+    "titleEn": "Irregular Verbs Exam",
+    "description": "A comprehensive test covering irregular verbs in English with multiple question types.",
+    "questions": [
+        {
+            "id": "irregular-001",
+            "text": "What is the past simple form of 'begin'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "begun",
+                "began",
+                "beginned",
+                "begin"
+            ],
+            "correctAnswer": "began",
+            "explanation": "The past simple of 'begin' is 'began', and the past participle is 'begun'."
+        },
+        {
+            "id": "irregular-002",
+            "text": "The past participle of 'go' is 'went'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'go' is 'went', but the past participle is 'gone'."
+        },
+        {
+            "id": "irregular-003",
+            "text": "Yesterday, I __________ (eat) a delicious pizza for lunch.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "ate",
+            "explanation": "The past simple of 'eat' is 'ate'."
+        },
+        {
+            "id": "irregular-004",
+            "text": "What is the past participle of 'see'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "saw",
+                "seed",
+                "seen",
+                "see"
+            ],
+            "correctAnswer": "seen",
+            "explanation": "The past simple of 'see' is 'saw', and the past participle is 'seen'."
+        },
+        {
+            "id": "irregular-005",
+            "text": "The past simple of 'bring' is 'brang'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'bring' is 'brought'."
+        },
+        {
+            "id": "irregular-006",
+            "text": "I have never __________ (drive) a truck before.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "driven",
+            "explanation": "The past participle of 'drive' is 'driven'."
+        },
+        {
+            "id": "irregular-007",
+            "text": "What is the past simple form of 'swim'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "swam",
+                "swum",
+                "swimmed",
+                "swim"
+            ],
+            "correctAnswer": "swam",
+            "explanation": "The past simple of 'swim' is 'swam', and the past participle is 'swum'."
+        },
+        {
+            "id": "irregular-008",
+            "text": "The past participle of 'write' is 'wrote'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'write' is 'wrote', but the past participle is 'written'."
+        },
+        {
+            "id": "irregular-009",
+            "text": "She has __________ (sing) that song many times.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "sung",
+            "explanation": "The past participle of 'sing' is 'sung'."
+        },
+        {
+            "id": "irregular-010",
+            "text": "What is the past participle of 'take'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "took",
+                "taken",
+                "taked",
+                "take"
+            ],
+            "correctAnswer": "taken",
+            "explanation": "The past simple of 'take' is 'took', and the past participle is 'taken'."
+        },
+        {
+            "id": "irregular-011",
+            "text": "The past simple of 'think' is 'thinked'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'think' is 'thought'."
+        },
+        {
+            "id": "irregular-012",
+            "text": "Last summer, we __________ (swim) in the ocean every day.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "swam",
+            "explanation": "The past simple of 'swim' is 'swam'."
+        },
+        {
+            "id": "irregular-013",
+            "text": "What is the past simple form of 'break'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "broken",
+                "broke",
+                "breaked",
+                "break"
+            ],
+            "correctAnswer": "broke",
+            "explanation": "The past simple of 'break' is 'broke', and the past participle is 'broken'."
+        },
+        {
+            "id": "irregular-014",
+            "text": "The past participle of 'do' is 'did'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'do' is 'did', but the past participle is 'done'."
+        },
+        {
+            "id": "irregular-015",
+            "text": "I have __________ (forget) my keys at home.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "forgotten",
+            "explanation": "The past participle of 'forget' is 'forgotten'."
+        },
+        {
+            "id": "irregular-016",
+            "text": "What is the past participle of 'choose'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "chose",
+                "chosen",
+                "choosed",
+                "choose"
+            ],
+            "correctAnswer": "chosen",
+            "explanation": "The past simple of 'choose' is 'chose', and the past participle is 'chosen'."
+        },
+        {
+            "id": "irregular-017",
+            "text": "The past simple of 'catch' is 'catched'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'catch' is 'caught'."
+        },
+        {
+            "id": "irregular-018",
+            "text": "He __________ (throw) the ball to his friend.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "threw",
+            "explanation": "The past simple of 'throw' is 'threw'."
+        },
+        {
+            "id": "irregular-019",
+            "text": "What is the past simple form of 'drink'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "drunk",
+                "drank",
+                "drinked",
+                "drink"
+            ],
+            "correctAnswer": "drank",
+            "explanation": "The past simple of 'drink' is 'drank', and the past participle is 'drunk'."
+        },
+        {
+            "id": "irregular-020",
+            "text": "The past participle of 'run' is 'ran'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'run' is 'ran', but the past participle is 'run'."
+        },
+        {
+            "id": "irregular-021",
+            "text": "They have __________ (build) a new house.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "built",
+            "explanation": "The past participle of 'build' is 'built'."
+        },
+        {
+            "id": "irregular-022",
+            "text": "What is the past participle of 'speak'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "spoke",
+                "spoken",
+                "speaked",
+                "speak"
+            ],
+            "correctAnswer": "spoken",
+            "explanation": "The past simple of 'speak' is 'spoke', and the past participle is 'spoken'."
+        },
+        {
+            "id": "irregular-023",
+            "text": "The past simple of 'teach' is 'teached'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'teach' is 'taught'."
+        },
+        {
+            "id": "irregular-024",
+            "text": "We __________ (wear) our uniforms to school yesterday.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "wore",
+            "explanation": "The past simple of 'wear' is 'wore'."
+        },
+        {
+            "id": "irregular-025",
+            "text": "What is the past simple form of 'know'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "known",
+                "knew",
+                "knowed",
+                "know"
+            ],
+            "correctAnswer": "knew",
+            "explanation": "The past simple of 'know' is 'knew', and the past participle is 'known'."
+        },
+        {
+            "id": "irregular-026",
+            "text": "The past participle of 'buy' is 'bought'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Both the past simple and past participle of 'buy' are 'bought'."
+        },
+        {
+            "id": "irregular-027",
+            "text": "She has __________ (write) three letters today.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "written",
+            "explanation": "The past participle of 'write' is 'written'."
+        },
+        {
+            "id": "irregular-028",
+            "text": "What is the past participle of 'give'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "gave",
+                "given",
+                "gived",
+                "give"
+            ],
+            "correctAnswer": "given",
+            "explanation": "The past simple of 'give' is 'gave', and the past participle is 'given'."
+        },
+        {
+            "id": "irregular-029",
+            "text": "The past simple of 'find' is 'founded'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'find' is 'found'."
+        },
+        {
+            "id": "irregular-030",
+            "text": "He __________ (fall) off his bike last week.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "fell",
+            "explanation": "The past simple of 'fall' is 'fell'."
+        },
+        {
+            "id": "irregular-031",
+            "text": "What is the past simple form of 'freeze'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "frozen",
+                "froze",
+                "freezed",
+                "freeze"
+            ],
+            "correctAnswer": "froze",
+            "explanation": "The past simple of 'freeze' is 'froze', and the past participle is 'frozen'."
+        },
+        {
+            "id": "irregular-032",
+            "text": "The past participle of 'make' is 'maked'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'make' is 'made'."
+        },
+        {
+            "id": "irregular-033",
+            "text": "I have __________ (read) that book many times.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "read",
+            "explanation": "The past participle of 'read' is 'read' (same spelling, different pronunciation)."
+        },
+        {
+            "id": "irregular-034",
+            "text": "What is the past participle of 'ring'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "rang",
+                "rung",
+                "ringed",
+                "ring"
+            ],
+            "correctAnswer": "rung",
+            "explanation": "The past simple of 'ring' is 'rang', and the past participle is 'rung'."
+        },
+        {
+            "id": "irregular-035",
+            "text": "The past simple of 'sell' is 'selled'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'sell' is 'sold'."
+        },
+        {
+            "id": "irregular-036",
+            "text": "They __________ (build) that bridge five years ago.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "built",
+            "explanation": "The past simple of 'build' is 'built'."
+        },
+        {
+            "id": "irregular-037",
+            "text": "What is the past simple form of 'hide'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "hidden",
+                "hid",
+                "hided",
+                "hide"
+            ],
+            "correctAnswer": "hid",
+            "explanation": "The past simple of 'hide' is 'hid', and the past participle is 'hidden'."
+        },
+        {
+            "id": "irregular-038",
+            "text": "The past participle of 'cut' is 'cutted'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'cut' is 'cut' (it doesn't change)."
+        },
+        {
+            "id": "irregular-039",
+            "text": "She has __________ (choose) the blue dress for the party.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "chosen",
+            "explanation": "The past participle of 'choose' is 'chosen'."
+        },
+        {
+            "id": "irregular-040",
+            "text": "What is the past participle of 'blow'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "blew",
+                "blown",
+                "blowed",
+                "blow"
+            ],
+            "correctAnswer": "blown",
+            "explanation": "The past simple of 'blow' is 'blew', and the past participle is 'blown'."
+        },
+        {
+            "id": "irregular-041",
+            "text": "The past simple of 'put' is 'putted'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'put' is 'put' (it doesn't change)."
+        },
+        {
+            "id": "irregular-042",
+            "text": "We __________ (sing) happy birthday to our friend.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "sang",
+            "explanation": "The past simple of 'sing' is 'sang'."
+        },
+        {
+            "id": "irregular-043",
+            "text": "What is the past simple form of 'draw'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "drawn",
+                "drew",
+                "drawed",
+                "draw"
+            ],
+            "correctAnswer": "drew",
+            "explanation": "The past simple of 'draw' is 'drew', and the past participle is 'drawn'."
+        },
+        {
+            "id": "irregular-044",
+            "text": "The past participle of 'sleep' is 'sleeped'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'sleep' is 'slept'."
+        },
+        {
+            "id": "irregular-045",
+            "text": "He has __________ (break) his favorite toy.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "broken",
+            "explanation": "The past participle of 'break' is 'broken'."
+        },
+        {
+            "id": "irregular-046",
+            "text": "What is the past participle of 'drive'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "drove",
+                "driven",
+                "drived",
+                "drive"
+            ],
+            "correctAnswer": "driven",
+            "explanation": "The past simple of 'drive' is 'drove', and the past participle is 'driven'."
+        },
+        {
+            "id": "irregular-047",
+            "text": "The past simple of 'win' is 'winned'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'win' is 'won'."
+        },
+        {
+            "id": "irregular-048",
+            "text": "They __________ (fight) against the enemy soldiers.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "fought",
+            "explanation": "The past simple of 'fight' is 'fought'."
+        },
+        {
+            "id": "irregular-049",
+            "text": "What is the past simple form of 'fly'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "flown",
+                "flew",
+                "flyed",
+                "fly"
+            ],
+            "correctAnswer": "flew",
+            "explanation": "The past simple of 'fly' is 'flew', and the past participle is 'flown'."
+        },
+        {
+            "id": "irregular-050",
+            "text": "The past participle of 'have' is 'haved'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'have' is 'had'."
+        },
+        {
+            "id": "irregular-051",
+            "text": "I have __________ (speak) to the manager about the problem.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "spoken",
+            "explanation": "The past participle of 'speak' is 'spoken'."
+        },
+        {
+            "id": "irregular-052",
+            "text": "What is the past participle of 'eat'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "ate",
+                "eaten",
+                "eated",
+                "eat"
+            ],
+            "correctAnswer": "eaten",
+            "explanation": "The past simple of 'eat' is 'ate', and the past participle is 'eaten'."
+        },
+        {
+            "id": "irregular-053",
+            "text": "The past simple of 'stand' is 'standed'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'stand' is 'stood'."
+        },
+        {
+            "id": "irregular-054",
+            "text": "She __________ (tear) the paper into small pieces.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "tore",
+            "explanation": "The past simple of 'tear' is 'tore'."
+        },
+        {
+            "id": "irregular-055",
+            "text": "What is the past simple form of 'wake'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "woken",
+                "woke",
+                "waked",
+                "wake"
+            ],
+            "correctAnswer": "woke",
+            "explanation": "The past simple of 'wake' is 'woke', and the past participle is 'woken'."
+        },
+        {
+            "id": "irregular-056",
+            "text": "The past participle of 'set' is 'setted'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'set' is 'set' (it doesn't change)."
+        },
+        {
+            "id": "irregular-057",
+            "text": "He has __________ (forgive) his friend for being late.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "forgiven",
+            "explanation": "The past participle of 'forgive' is 'forgiven'."
+        },
+        {
+            "id": "irregular-058",
+            "text": "What is the past participle of 'fall'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "fell",
+                "fallen",
+                "falled",
+                "fall"
+            ],
+            "correctAnswer": "fallen",
+            "explanation": "The past simple of 'fall' is 'fell', and the past participle is 'fallen'."
+        },
+        {
+            "id": "irregular-059",
+            "text": "The past simple of 'lend' is 'lended'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'lend' is 'lent'."
+        },
+        {
+            "id": "irregular-060",
+            "text": "We __________ (shake) hands after the game.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "shook",
+            "explanation": "The past simple of 'shake' is 'shook'."
+        },
+        {
+            "id": "irregular-061",
+            "text": "What is the past simple form of 'ride'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "ridden",
+                "rode",
+                "rided",
+                "ride"
+            ],
+            "correctAnswer": "rode",
+            "explanation": "The past simple of 'ride' is 'rode', and the past participle is 'ridden'."
+        },
+        {
+            "id": "irregular-062",
+            "text": "The past participle of 'pay' is 'payed'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'pay' is 'paid'."
+        },
+        {
+            "id": "irregular-063",
+            "text": "I have __________ (grow) tomatoes in my garden.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "grown",
+            "explanation": "The past participle of 'grow' is 'grown'."
+        },
+        {
+            "id": "irregular-064",
+            "text": "What is the past participle of 'beat'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "beat",
+                "beaten",
+                "beated",
+                "beat"
+            ],
+            "correctAnswer": "beaten",
+            "explanation": "The past simple of 'beat' is 'beat', and the past participle is 'beaten'."
+        },
+        {
+            "id": "irregular-065",
+            "text": "The past simple of 'mean' is 'meaned'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'mean' is 'meant'."
+        },
+        {
+            "id": "irregular-066",
+            "text": "She __________ (weep) when she heard the sad news.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "wept",
+            "explanation": "The past simple of 'weep' is 'wept'."
+        },
+        {
+            "id": "irregular-067",
+            "text": "What is the past simple form of 'sink'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "sunk",
+                "sank",
+                "sinked",
+                "sink"
+            ],
+            "correctAnswer": "sank",
+            "explanation": "The past simple of 'sink' is 'sank', and the past participle is 'sunk'."
+        },
+        {
+            "id": "irregular-068",
+            "text": "The past participle of 'shut' is 'shutted'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'shut' is 'shut' (it doesn't change)."
+        },
+        {
+            "id": "irregular-069",
+            "text": "They have __________ (steal) my bicycle from the park.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "stolen",
+            "explanation": "The past participle of 'steal' is 'stolen'."
+        },
+        {
+            "id": "irregular-070",
+            "text": "What is the past participle of 'forbid'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "forbade",
+                "forbidden",
+                "forbidded",
+                "forbid"
+            ],
+            "correctAnswer": "forbidden",
+            "explanation": "The past simple of 'forbid' is 'forbade', and the past participle is 'forbidden'."
+        },
+        {
+            "id": "irregular-071",
+            "text": "The past simple of 'spend' is 'spended'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'spend' is 'spent'."
+        },
+        {
+            "id": "irregular-072",
+            "text": "He __________ (bind) the pages together with string.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "bound",
+            "explanation": "The past simple of 'bind' is 'bound'."
+        },
+        {
+            "id": "irregular-073",
+            "text": "What is the past simple form of 'arise'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "arisen",
+                "arose",
+                "arised",
+                "arise"
+            ],
+            "correctAnswer": "arose",
+            "explanation": "The past simple of 'arise' is 'arose', and the past participle is 'arisen'."
+        },
+        {
+            "id": "irregular-074",
+            "text": "The past participle of 'dig' is 'digged'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'dig' is 'dug'."
+        },
+        {
+            "id": "irregular-075",
+            "text": "I have __________ (awake) early every day this week.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "awoken",
+            "explanation": "The past participle of 'awake' is 'awoken'."
+        },
+        {
+            "id": "irregular-076",
+            "text": "What is the past participle of 'bear'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "bore",
+                "borne",
+                "beared",
+                "bear"
+            ],
+            "correctAnswer": "borne",
+            "explanation": "The past simple of 'bear' is 'bore', and the past participle is 'borne'."
+        },
+        {
+            "id": "irregular-077",
+            "text": "The past simple of 'bleed' is 'bleeded'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'bleed' is 'bled'."
+        },
+        {
+            "id": "irregular-078",
+            "text": "She __________ (feed) the birds in the park.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "fed",
+            "explanation": "The past simple of 'feed' is 'fed'."
+        },
+        {
+            "id": "irregular-079",
+            "text": "What is the past simple form of 'flee'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "fled",
+                "flee",
+                "fleed",
+                "flee"
+            ],
+            "correctAnswer": "fled",
+            "explanation": "The past simple of 'flee' is 'fled', and the past participle is also 'fled'."
+        },
+        {
+            "id": "irregular-080",
+            "text": "The past participle of 'hold' is 'holded'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'hold' is 'held'."
+        },
+        {
+            "id": "irregular-081",
+            "text": "He has __________ (lead) the team to victory.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "led",
+            "explanation": "The past participle of 'lead' is 'led'."
+        },
+        {
+            "id": "irregular-082",
+            "text": "What is the past participle of 'spring'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "sprang",
+                "sprung",
+                "springed",
+                "spring"
+            ],
+            "correctAnswer": "sprung",
+            "explanation": "The past simple of 'spring' is 'sprang', and the past participle is 'sprung'."
+        },
+        {
+            "id": "irregular-083",
+            "text": "The past simple of 'strive' is 'strived'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'strive' is 'strove'."
+        },
+        {
+            "id": "irregular-084",
+            "text": "They __________ (sweep) the floor after the party.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "swept",
+            "explanation": "The past simple of 'sweep' is 'swept'."
+        },
+        {
+            "id": "irregular-085",
+            "text": "What is the past simple form of 'swear'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "sworn",
+                "swore",
+                "swear",
+                "swared"
+            ],
+            "correctAnswer": "swore",
+            "explanation": "The past simple of 'swear' is 'swore', and the past participle is 'sworn'."
+        },
+        {
+            "id": "irregular-086",
+            "text": "The past participle of 'tread' is 'treaded'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'tread' is 'trodden'."
+        },
+        {
+            "id": "irregular-087",
+            "text": "I have __________ (weave) a beautiful blanket.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "woven",
+            "explanation": "The past participle of 'weave' is 'woven'."
+        },
+        {
+            "id": "irregular-088",
+            "text": "What is the past participle of 'wind'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "wound",
+                "winded",
+                "wound",
+                "wind"
+            ],
+            "correctAnswer": "wound",
+            "explanation": "The past simple of 'wind' is 'wound', and the past participle is also 'wound'."
+        },
+        {
+            "id": "irregular-089",
+            "text": "The past simple of 'wring' is 'wringed'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'wring' is 'wrung'."
+        },
+        {
+            "id": "irregular-090",
+            "text": "She __________ (upset) her friend with her words.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "upset",
+            "explanation": "The past simple of 'upset' is 'upset' (it doesn't change)."
+        },
+        {
+            "id": "irregular-091",
+            "text": "What is the past simple form of 'understand'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "understood",
+                "understanded",
+                "understand",
+                "understood"
+            ],
+            "correctAnswer": "understood",
+            "explanation": "The past simple of 'understand' is 'understood', and the past participle is also 'understood'."
+        },
+        {
+            "id": "irregular-092",
+            "text": "The past participle of 'bet' is 'betted'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'bet' is 'bet' (it doesn't change)."
+        },
+        {
+            "id": "irregular-093",
+            "text": "He has __________ (quit) his job to travel the world.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "quit",
+            "explanation": "The past participle of 'quit' is 'quit' (it doesn't change)."
+        },
+        {
+            "id": "irregular-094",
+            "text": "What is the past participle of 'shed'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "shed",
+                "shedded",
+                "shed",
+                "shed"
+            ],
+            "correctAnswer": "shed",
+            "explanation": "The past participle of 'shed' is 'shed' (it doesn't change)."
+        },
+        {
+            "id": "irregular-095",
+            "text": "The past simple of 'speed' is 'speeded'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'speed' is 'sped'."
+        },
+        {
+            "id": "irregular-096",
+            "text": "They __________ (stick) the poster on the wall.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "stuck",
+            "explanation": "The past simple of 'stick' is 'stuck'."
+        },
+        {
+            "id": "irregular-097",
+            "text": "What is the past simple form of 'strike'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "struck",
+                "striked",
+                "strike",
+                "struck"
+            ],
+            "correctAnswer": "struck",
+            "explanation": "The past simple of 'strike' is 'struck', and the past participle is also 'struck'."
+        },
+        {
+            "id": "irregular-098",
+            "text": "The past participle of 'swing' is 'swinged'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'swing' is 'swung'."
+        },
+        {
+            "id": "irregular-099",
+            "text": "I have __________ (show) my project to the teacher.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "shown",
+            "explanation": "The past participle of 'show' is 'shown'."
+        },
+        {
+            "id": "irregular-100",
+            "text": "What is the past participle of 'bite'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "bit",
+                "bitten",
+                "bited",
+                "bite"
+            ],
+            "correctAnswer": "bitten",
+            "explanation": "The past simple of 'bite' is 'bit', and the past participle is 'bitten'."
+        },
+        {
+            "id": "irregular-101",
+            "text": "The past simple of 'let' is 'letted'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'let' is 'let' (it doesn't change)."
+        },
+        {
+            "id": "irregular-102",
+            "text": "He __________ (hit) the ball with the bat.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "hit",
+            "explanation": "The past simple of 'hit' is 'hit' (it doesn't change)."
+        },
+        {
+            "id": "irregular-103",
+            "text": "What is the past simple form of 'rise'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "risen",
+                "rose",
+                "rised",
+                "rise"
+            ],
+            "correctAnswer": "rose",
+            "explanation": "The past simple of 'rise' is 'rose', and the past participle is 'risen'."
+        },
+        {
+            "id": "irregular-104",
+            "text": "The past participle of 'seek' is 'seeked'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past participle of 'seek' is 'sought'."
+        },
+        {
+            "id": "irregular-105",
+            "text": "She has __________ (send) the package to her friend.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "sent",
+            "explanation": "The past participle of 'send' is 'sent'."
+        },
+        {
+            "id": "irregular-106",
+            "text": "What is the past participle of 'shake'?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "shook",
+                "shaken",
+                "shaked",
+                "shake"
+            ],
+            "correctAnswer": "shaken",
+            "explanation": "The past simple of 'shake' is 'shook', and the past participle is 'shaken'."
+        },
+        {
+            "id": "irregular-107",
+            "text": "The past simple of 'keep' is 'keeped'.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The past simple of 'keep' is 'kept'."
+        },
+        {
+            "id": "irregular-108",
+            "text": "We __________ (meet) our friends at the cinema.",
+            "type": "fill-in-the-blank",
+            "category": "Irregular Verbs",
+            "answers": [],
+            "correctAnswer": "met",
+            "explanation": "The past simple of 'meet' is 'met'."
+        },
+        {
+            "id": "irregular-109",
+            "text": "What is the past simple form of 'lie' (to recline)?",
+            "type": "multiple-choice",
+            "category": "Irregular Verbs",
+            "answers": [
+                "lay",
+                "lied",
+                "lain",
+                "lie"
+            ],
+            "correctAnswer": "lay",
+            "explanation": "The past simple of 'lie' (to recline) is 'lay', and the past participle is 'lain'."
+        },
+        {
+            "id": "irregular-110",
+            "text": "The past participle of 'get' is 'gotten' in American English.",
+            "type": "true-false",
+            "category": "Irregular Verbs",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In American English, the past participle of 'get' is usually 'gotten', while in British English it's 'got'."
+        }
+    ]
+}

@@ -1,0 +1,1309 @@
+{
+"title": "معمارية وتصميم البرامج",
+	"categoryId": 1,
+     "isFree": false,
+    "titleEn": "Microservices & Design Patterns Quiz",
+    "description": "A comprehensive 100-question quiz covering Microservices Architecture and Software Design Patterns",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is the primary characteristic of Microservices Architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Building applications as a suite of small, independent services",
+                "Using micro-sized databases for each service",
+                "Developing only small-scale applications",
+                "Writing minimal code for each function"
+            ],
+            "correctAnswer": "Building applications as a suite of small, independent services",
+            "explanation": "Microservices architecture structures an application as a collection of loosely coupled, independently deployable services that communicate through APIs."
+        },
+        {
+            "id": "002",
+            "text": "The Singleton pattern ensures a class has only one instance and provides a global point of access to it.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Singleton pattern restricts instantiation of a class to one single instance and provides global access to that instance."
+        },
+        {
+            "id": "003",
+            "text": "Which pattern is used to handle service discovery in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Service Registry Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Service Registry Pattern",
+            "explanation": "The Service Registry pattern (often implemented with tools like Eureka, Consul) helps microservices find and communicate with each other dynamically."
+        },
+        {
+            "id": "004",
+            "text": "The Circuit Breaker pattern prevents cascading failures in microservices.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Circuit Breaker stops making requests to a failing service, allowing it to recover and preventing the failure from spreading to other services."
+        },
+        {
+            "id": "005",
+            "text": "What is the main purpose of the API Gateway pattern?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To provide a single entry point for all client requests",
+                "To replace all microservices with one monolithic gateway",
+                "To eliminate the need for service discovery",
+                "To handle database transactions across services"
+            ],
+            "correctAnswer": "To provide a single entry point for all client requests",
+            "explanation": "API Gateway acts as a reverse proxy that routes requests to appropriate microservices and handles cross-cutting concerns like authentication, logging, and rate limiting."
+        },
+        {
+            "id": "006",
+            "text": "The Factory Method pattern uses a single factory class to create all types of objects.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Factory Method defines an interface for creating objects but lets subclasses decide which class to instantiate, promoting loose coupling."
+        },
+        {
+            "id": "007",
+            "text": "Which database pattern is commonly used in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Database per Service",
+                "Shared Database",
+                "Single Database for all services",
+                "No Database Pattern"
+            ],
+            "correctAnswer": "Database per Service",
+            "explanation": "Each microservice has its own private database to ensure loose coupling and data encapsulation."
+        },
+        {
+            "id": "008",
+            "text": "Event Sourcing stores only the current state of an application.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Event Sourcing stores all changes to application state as a sequence of events, allowing reconstruction of current state by replaying events."
+        },
+        {
+            "id": "009",
+            "text": "What does CQRS stand for?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Command Query Responsibility Segregation",
+                "Central Query Response System",
+                "Command Queue Request Service",
+                "Centralized Query Routing Service"
+            ],
+            "correctAnswer": "Command Query Responsibility Segregation",
+            "explanation": "CQRS separates read and write operations into different models, optimizing for performance, scalability, and security."
+        },
+        {
+            "id": "010",
+            "text": "The Observer pattern establishes one-to-many dependency between objects.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "When one object changes state, all its dependents are notified and updated automatically."
+        },
+        {
+            "id": "011",
+            "text": "Which pattern is used to maintain data consistency across microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Saga Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Adapter Pattern"
+            ],
+            "correctAnswer": "Saga Pattern",
+            "explanation": "Saga pattern manages distributed transactions by breaking them into a series of local transactions with compensating actions for rollbacks."
+        },
+        {
+            "id": "012",
+            "text": "The Decorator pattern is used to add functionality to objects without subclassing.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Decorator pattern attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing."
+        },
+        {
+            "id": "013",
+            "text": "What is the purpose of the Bulkhead pattern?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To isolate failures in one part of the system from affecting others",
+                "To create physical partitions in databases",
+                "To handle bulk data processing",
+                "To separate read and write operations"
+            ],
+            "correctAnswer": "To isolate failures in one part of the system from affecting others",
+            "explanation": "Bulkhead pattern isolates elements to prevent cascading failures, similar to watertight compartments in ships."
+        },
+        {
+            "id": "014",
+            "text": "The Strategy pattern defines a family of algorithms and makes them interchangeable.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Strategy pattern lets the algorithm vary independently from clients that use it."
+        },
+        {
+            "id": "015",
+            "text": "Which communication style is typically used between microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "HTTP/REST or messaging",
+                "Shared memory",
+                "Direct database access",
+                "File system operations"
+            ],
+            "correctAnswer": "HTTP/REST or messaging",
+            "explanation": "Microservices typically communicate through well-defined APIs using HTTP/REST or asynchronous messaging."
+        },
+        {
+            "id": "016",
+            "text": "The Adapter pattern converts the interface of a class into another interface clients expect.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Adapter pattern allows classes with incompatible interfaces to work together by wrapping their own interface around existing class."
+        },
+        {
+            "id": "017",
+            "text": "What is the main benefit of containerization in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Consistent environment and isolation",
+                "Faster compilation times",
+                "Automatic code generation",
+                "Eliminating the need for APIs"
+            ],
+            "correctAnswer": "Consistent environment and isolation",
+            "explanation": "Containers provide consistent runtime environments and isolate services from each other and the underlying infrastructure."
+        },
+        {
+            "id": "018",
+            "text": "The Template Method pattern defines the skeleton of an algorithm in a method.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+        },
+        {
+            "id": "019",
+            "text": "Which pattern is used for handling cross-cutting concerns in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Sidecar Pattern",
+                "Singleton Pattern",
+                "Builder Pattern",
+                "Prototype Pattern"
+            ],
+            "correctAnswer": "Sidecar Pattern",
+            "explanation": "Sidecar pattern deplays helper components alongside main service to handle cross-cutting concerns like logging, monitoring, or configuration."
+        },
+        {
+            "id": "020",
+            "text": "The Facade pattern provides a simplified interface to a complex subsystem.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Facade pattern offers a simplified, higher-level interface to a set of interfaces in a subsystem, making it easier to use."
+        },
+        {
+            "id": "021",
+            "text": "What is eventual consistency in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Data becomes consistent across services over time",
+                "Immediate consistency for all operations",
+                "Consistency is never achieved",
+                "Only primary services maintain consistency"
+            ],
+            "correctAnswer": "Data becomes consistent across services over time",
+            "explanation": "Eventual consistency guarantees that if no new updates are made, eventually all accesses will return the last updated value."
+        },
+        {
+            "id": "022",
+            "text": "The Composite pattern allows clients to treat individual objects and compositions uniformly.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Composite pattern composes objects into tree structures to represent part-whole hierarchies, letting clients treat individual and composite objects uniformly."
+        },
+        {
+            "id": "023",
+            "text": "Which pattern helps in versioning microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "API Versioning Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "API Versioning Pattern",
+            "explanation": "API Versioning strategies (URL path, query parameters, headers) help manage breaking changes in microservices APIs."
+        },
+        {
+            "id": "024",
+            "text": "The Proxy pattern provides a surrogate or placeholder for another object.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Proxy pattern provides a surrogate or placeholder for another object to control access to it."
+        },
+        {
+            "id": "025",
+            "text": "What is the purpose of health checks in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To monitor service availability and readiness",
+                "To check server hardware health",
+                "To validate code quality",
+                "To test database connections only"
+            ],
+            "correctAnswer": "To monitor service availability and readiness",
+            "explanation": "Health checks help orchestration tools determine if a service instance is healthy and ready to receive traffic."
+        },
+        {
+            "id": "026",
+            "text": "The Builder pattern separates object construction from its representation.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations."
+        },
+        {
+            "id": "027",
+            "text": "Which pattern is used for handling service-to-service authentication?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Access Token Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Decorator Pattern"
+            ],
+            "correctAnswer": "Access Token Pattern",
+            "explanation": "Access tokens (like JWT) are commonly used for service-to-service authentication in microservices architectures."
+        },
+        {
+            "id": "028",
+            "text": "The Chain of Responsibility pattern passes requests along a chain of handlers.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Chain of Responsibility avoids coupling sender and receiver by giving multiple objects opportunity to handle the request."
+        },
+        {
+            "id": "029",
+            "text": "What is blue-green deployment in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Maintaining two identical environments and switching between them",
+                "Deploying only blue-colored services",
+                "Using blue and green servers for different purposes",
+                "A deployment strategy for database only"
+            ],
+            "correctAnswer": "Maintaining two identical environments and switching between them",
+            "explanation": "Blue-green deployment maintains two identical production environments, routing traffic to one while the other is updated, enabling zero-downtime deployments."
+        },
+        {
+            "id": "030",
+            "text": "The Memento pattern captures and externalizes an object's internal state.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Memento pattern captures and externalizes an object's internal state without violating encapsulation, so the object can be restored to this state later."
+        },
+        {
+            "id": "031",
+            "text": "Which pattern helps in aggregating data from multiple microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Aggregator Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Aggregator Pattern",
+            "explanation": "Aggregator pattern collects data from multiple microservices and returns an aggregated response to the client."
+        },
+        {
+            "id": "032",
+            "text": "The State pattern allows an object to alter its behavior when its internal state changes.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "State pattern allows an object to change its behavior when its internal state changes, appearing to change its class."
+        },
+        {
+            "id": "033",
+            "text": "What is the role of a service mesh in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To handle service-to-service communication, security, and observability",
+                "To replace all microservices with a single mesh",
+                "To eliminate the need for APIs",
+                "To manage database transactions only"
+            ],
+            "correctAnswer": "To handle service-to-service communication, security, and observability",
+            "explanation": "Service mesh provides dedicated infrastructure layer for handling service communication, security, monitoring, and resilience patterns."
+        },
+        {
+            "id": "034",
+            "text": "The Visitor pattern represents an operation to be performed on elements of an object structure.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Visitor pattern lets you define a new operation without changing the classes of the elements on which it operates."
+        },
+        {
+            "id": "035",
+            "text": "Which database transaction pattern is used in microservices for read scalability?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "CQRS Pattern",
+                "Shared Transaction Pattern",
+                "Global Lock Pattern",
+                "Single Writer Pattern"
+            ],
+            "correctAnswer": "CQRS Pattern",
+            "explanation": "CQRS separates read and write models, allowing independent scaling of read operations."
+        },
+        {
+            "id": "036",
+            "text": "The Command pattern encapsulates a request as an object.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Command pattern turns a request into a stand-alone object containing all information about the request."
+        },
+        {
+            "id": "037",
+            "text": "What is the purpose of the Backends for Frontends (BFF) pattern?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To create separate gateways for different client types",
+                "To move business logic to frontend applications",
+                "To eliminate backend services",
+                "To create backups for frontend services"
+            ],
+            "correctAnswer": "To create separate gateways for different client types",
+            "explanation": "BFF creates separate API gateways tailored to specific client applications (web, mobile, etc.), optimizing API design for each client type."
+        },
+        {
+            "id": "038",
+            "text": "The Interpreter pattern defines a grammatical representation for a language and an interpreter to interpret it.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Interpreter pattern defines a grammatical representation for a language and provides an interpreter to deal with this grammar."
+        },
+        {
+            "id": "039",
+            "text": "Which pattern is used for handling partial failures in microservices communication?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Circuit Breaker Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Adapter Pattern"
+            ],
+            "correctAnswer": "Circuit Breaker Pattern",
+            "explanation": "Circuit Breaker detects failures and prevents an application from repeatedly trying to execute an operation that's likely to fail."
+        },
+        {
+            "id": "040",
+            "text": "The Flyweight pattern uses sharing to support large numbers of fine-grained objects efficiently.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Flyweight pattern uses sharing to support large numbers of fine-grained objects efficiently by sharing common parts of state between multiple objects."
+        },
+        {
+            "id": "041",
+            "text": "What is the main advantage of using asynchronous messaging in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Improved resilience and loose coupling",
+                "Faster request processing",
+                "Eliminates the need for APIs",
+                "Simpler error handling"
+            ],
+            "correctAnswer": "Improved resilience and loose coupling",
+            "explanation": "Asynchronous messaging improves resilience (services can continue working even if others are down) and promotes loose coupling between services."
+        },
+        {
+            "id": "042",
+            "text": "The Bridge pattern decouples an abstraction from its implementation.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Bridge pattern decouples an abstraction from its implementation so that the two can vary independently."
+        },
+        {
+            "id": "043",
+            "text": "Which pattern is used for distributed tracing in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Distributed Tracing Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Distributed Tracing Pattern",
+            "explanation": "Distributed tracing follows requests across service boundaries, helping debug and monitor distributed systems."
+        },
+        {
+            "id": "044",
+            "text": "The Prototype pattern creates new objects by copying an existing object.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Prototype pattern creates new objects by copying an existing object, known as the prototype."
+        },
+        {
+            "id": "045",
+            "text": "What is the purpose of configuration management in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To externalize and manage configuration centrally",
+                "To hardcode all configuration in services",
+                "To eliminate configuration entirely",
+                "To manage only database configurations"
+            ],
+            "correctAnswer": "To externalize and manage configuration centrally",
+            "explanation": "Externalized configuration management allows dynamic configuration updates without redeploying services and maintains consistency across environments."
+        },
+        {
+            "id": "046",
+            "text": "The Mediator pattern defines an object that encapsulates how a set of objects interact.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Mediator pattern promotes loose coupling by keeping objects from referring to each other explicitly, letting you vary their interaction independently."
+        },
+        {
+            "id": "047",
+            "text": "Which pattern helps in scaling microservices independently?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Independent Deployment Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Independent Deployment Pattern",
+            "explanation": "Microservices can be scaled independently based on their specific resource requirements and load patterns."
+        },
+        {
+            "id": "048",
+            "text": "The Iterator pattern provides a way to access elements of an aggregate object sequentially.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Iterator pattern provides a way to access elements of an aggregate object sequentially without exposing its underlying representation."
+        },
+        {
+            "id": "049",
+            "text": "What is the role of container orchestration in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To automate deployment, scaling, and management of containerized applications",
+                "To compile source code into containers",
+                "To eliminate the need for monitoring",
+                "To manage only database containers"
+            ],
+            "correctAnswer": "To automate deployment, scaling, and management of containerized applications",
+            "explanation": "Container orchestration platforms like Kubernetes automate deployment, scaling, and operations of application containers across clusters of hosts."
+        },
+        {
+            "id": "050",
+            "text": "The Abstract Factory pattern provides an interface for creating families of related objects.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes."
+        },
+        {
+            "id": "051",
+            "text": "Which pattern is used for handling service registration and discovery?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Service Registry Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Service Registry Pattern",
+            "explanation": "Service instances register with a service registry and clients use the registry to discover available service instances."
+        },
+        {
+            "id": "052",
+            "text": "The Repository pattern mediates between the domain and data mapping layers.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Repository pattern acts as an in-memory domain object collection, abstracting data storage and retrieval details from domain logic."
+        },
+        {
+            "id": "053",
+            "text": "What is the main benefit of using domain-driven design in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Aligning service boundaries with business domains",
+                "Faster database operations",
+                "Eliminating the need for APIs",
+                "Simpler deployment processes"
+            ],
+            "correctAnswer": "Aligning service boundaries with business domains",
+            "explanation": "DDD helps define clear service boundaries based on business capabilities, leading to more maintainable and scalable microservices."
+        },
+        {
+            "id": "054",
+            "text": "The Unit of Work pattern maintains a list of objects affected by a business transaction.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Unit of Work pattern coordinates writing out changes and resolving concurrency problems for a business transaction."
+        },
+        {
+            "id": "055",
+            "text": "Which pattern is used for implementing retry logic in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Retry Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Adapter Pattern"
+            ],
+            "correctAnswer": "Retry Pattern",
+            "explanation": "Retry pattern transparently retries failed operations, often with exponential backoff, to handle transient failures."
+        },
+        {
+            "id": "056",
+            "text": "The Specification pattern encapsulates business rules that determine if an object satisfies certain criteria.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Specification pattern encapsulates business rules that return true or false for a given object, useful for validation and querying."
+        },
+        {
+            "id": "057",
+            "text": "What is the purpose of health endpoints in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To report service health status to monitoring systems",
+                "To serve main application functionality",
+                "To replace logging systems",
+                "To handle user authentication"
+            ],
+            "correctAnswer": "To report service health status to monitoring systems",
+            "explanation": "Health endpoints provide machine-readable status information about service health, used by orchestration tools and monitoring systems."
+        },
+        {
+            "id": "058",
+            "text": "The Null Object pattern provides a default object instead of returning null.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Null Object pattern provides a default object that does nothing, eliminating null checks in client code."
+        },
+        {
+            "id": "059",
+            "text": "Which pattern helps in managing distributed transactions across microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Saga Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Saga Pattern",
+            "explanation": "Saga pattern coordinates multiple local transactions across different services using compensating transactions for rollbacks."
+        },
+        {
+            "id": "060",
+            "text": "The Dependency Injection pattern promotes loose coupling through inversion of control.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Dependency Injection provides dependencies to a class from outside rather than having the class create them itself, promoting testability and loose coupling."
+        },
+        {
+            "id": "061",
+            "text": "What is the main advantage of using event-driven architecture in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Loose coupling and scalability",
+                "Faster database operations",
+                "Eliminates the need for APIs",
+                "Simpler deployment processes"
+            ],
+            "correctAnswer": "Loose coupling and scalability",
+            "explanation": "Event-driven architecture allows services to communicate asynchronously through events, promoting loose coupling and independent scalability."
+        },
+        {
+            "id": "062",
+            "text": "The Service Locator pattern is an alternative to Dependency Injection for obtaining services.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Service Locator pattern provides a central registry from which dependencies can be obtained, though it's generally considered less favorable than DI due to tighter coupling."
+        },
+        {
+            "id": "063",
+            "text": "Which pattern is used for handling service configuration externalization?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "External Configuration Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "External Configuration Pattern",
+            "explanation": "External Configuration pattern stores configuration outside the application, typically in environment variables, config servers, or cloud services."
+        },
+        {
+            "id": "064",
+            "text": "The Lazy Loading pattern defers object creation until the object is actually needed.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Lazy Loading delays initialization of an object until the point at which it is needed, improving performance by avoiding unnecessary object creation."
+        },
+        {
+            "id": "065",
+            "text": "What is the purpose of canary releases in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To gradually roll out changes to a small subset of users",
+                "To deploy only database changes",
+                "To eliminate the need for testing",
+                "To deploy services only at night"
+            ],
+            "correctAnswer": "To gradually roll out changes to a small subset of users",
+            "explanation": "Canary releases route a small percentage of traffic to the new version, allowing validation before full rollout."
+        },
+        {
+            "id": "066",
+            "text": "The Object Pool pattern reuses objects that are expensive to create.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Object Pool pattern maintains a cache of reusable objects, avoiding expensive acquisition and release of resources."
+        },
+        {
+            "id": "067",
+            "text": "Which pattern is used for implementing service mesh functionality?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Sidecar Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Sidecar Pattern",
+            "explanation": "Sidecar pattern deploys helper components alongside main service containers to handle cross-cutting concerns, forming the basis of service mesh implementations."
+        },
+        {
+            "id": "068",
+            "text": "The Fluent Interface pattern creates a DSL-like API for method chaining.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Fluent Interface pattern creates an API that allows method chaining, making code more readable and expressive."
+        },
+        {
+            "id": "069",
+            "text": "What is the main benefit of using contract testing in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To ensure services can communicate correctly without integration tests",
+                "To eliminate the need for unit tests",
+                "To test database performance only",
+                "To replace API documentation"
+            ],
+            "correctAnswer": "To ensure services can communicate correctly without integration tests",
+            "explanation": "Contract testing verifies that services adhere to shared contracts, enabling independent deployment without full integration testing."
+        },
+        {
+            "id": "070",
+            "text": "The Value Object pattern represents immutable objects without identity.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Value Objects are immutable objects defined by their attributes rather than identity, and are replaceable if their attributes are the same."
+        },
+        {
+            "id": "071",
+            "text": "Which pattern is used for handling service degradation gracefully?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Fallback Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Adapter Pattern"
+            ],
+            "correctAnswer": "Fallback Pattern",
+            "explanation": "Fallback pattern provides alternative behavior when a service is unavailable, allowing the system to continue functioning with reduced capabilities."
+        },
+        {
+            "id": "072",
+            "text": "The Identity Map pattern ensures each object is loaded only once per transaction.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Identity Map pattern keeps track of all objects that have been read from the database in a single business transaction to avoid duplicates."
+        },
+        {
+            "id": "073",
+            "text": "What is the purpose of distributed logging in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To correlate logs across multiple services for debugging",
+                "To eliminate the need for monitoring",
+                "To store logs only in databases",
+                "To reduce log file sizes"
+            ],
+            "correctAnswer": "To correlate logs across multiple services for debugging",
+            "explanation": "Distributed logging uses correlation IDs to track requests across service boundaries, making debugging and monitoring easier in distributed systems."
+        },
+        {
+            "id": "074",
+            "text": "The Data Mapper pattern separates in-memory objects from database details.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Data Mapper pattern moves data between objects and a database while keeping them independent of each other."
+        },
+        {
+            "id": "075",
+            "text": "Which pattern is used for implementing service rate limiting?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Rate Limiting Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Rate Limiting Pattern",
+            "explanation": "Rate limiting controls the number of requests a client can make to a service within a specific time window, preventing abuse and ensuring fair usage."
+        },
+        {
+            "id": "076",
+            "text": "The Model-View-Controller pattern separates application concerns into three components.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "MVC separates application into Model (data), View (presentation), and Controller (input handling) components."
+        },
+        {
+            "id": "077",
+            "text": "What is the main advantage of using containerization for microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Consistent environments and isolation",
+                "Faster compilation times",
+                "Automatic code generation",
+                "Eliminating the need for APIs"
+            ],
+            "correctAnswer": "Consistent environments and isolation",
+            "explanation": "Containers provide consistent runtime environments, isolate services from each other, and simplify deployment across different environments."
+        },
+        {
+            "id": "078",
+            "text": "The Front Controller pattern provides a centralized entry point for handling requests.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Front Controller pattern provides a single handler for all requests, enabling centralized request processing and common behavior like security and logging."
+        },
+        {
+            "id": "079",
+            "text": "Which pattern is used for handling service authentication and authorization?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "API Gateway Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "API Gateway Pattern",
+            "explanation": "API Gateway often handles cross-cutting concerns like authentication and authorization for all incoming requests."
+        },
+        {
+            "id": "080",
+            "text": "The Unit of Work pattern coordinates writing out changes for a business transaction.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Unit of Work maintains a list of objects affected by a business transaction and coordinates writing out changes and resolving concurrency problems."
+        },
+        {
+            "id": "081",
+            "text": "What is the purpose of service mesh in microservices architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To handle service-to-service communication, security, and observability",
+                "To replace all microservices with a single mesh",
+                "To eliminate the need for APIs",
+                "To manage database transactions only"
+            ],
+            "correctAnswer": "To handle service-to-service communication, security, and observability",
+            "explanation": "Service mesh provides dedicated infrastructure layer for handling service communication, making microservices more observable, secure, and resilient."
+        },
+        {
+            "id": "082",
+            "text": "The Page Object pattern encapsulates UI elements and actions in test automation.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Page Object pattern creates an object-oriented class that represents a web page, encapsulating page elements and interactions for test automation."
+        },
+        {
+            "id": "083",
+            "text": "Which pattern is used for implementing service resilience?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Circuit Breaker Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Adapter Pattern"
+            ],
+            "correctAnswer": "Circuit Breaker Pattern",
+            "explanation": "Circuit Breaker prevents cascading failures by stopping requests to failing services and allowing them time to recover."
+        },
+        {
+            "id": "084",
+            "text": "The Registry pattern provides a well-known object for finding common objects and services.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Registry pattern provides a global object that other objects can use to find common objects and services."
+        },
+        {
+            "id": "085",
+            "text": "What is the main benefit of using event sourcing in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Complete audit trail and temporal queries",
+                "Faster database operations",
+                "Eliminates the need for APIs",
+                "Simpler deployment processes"
+            ],
+            "correctAnswer": "Complete audit trail and temporal queries",
+            "explanation": "Event sourcing stores all state changes as events, providing complete audit trail and enabling time-travel queries."
+        },
+        {
+            "id": "086",
+            "text": "The Service Layer pattern defines an application's boundary and its available operations.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Service Layer pattern defines an application's boundary with a layer of services that establishes available operations and coordinates the application's response in each operation."
+        },
+        {
+            "id": "087",
+            "text": "Which pattern is used for handling service versioning?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "API Versioning Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "API Versioning Pattern",
+            "explanation": "API versioning strategies help manage breaking changes by allowing multiple API versions to coexist during transitions."
+        },
+        {
+            "id": "088",
+            "text": "The Template View pattern renders information into HTML by embedding markers in a page template.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Template View pattern renders information into HTML by embedding markers in an HTML page, commonly used in server-side rendering."
+        },
+        {
+            "id": "089",
+            "text": "What is the purpose of distributed caching in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To improve performance and reduce database load",
+                "To eliminate the need for databases",
+                "To store only configuration data",
+                "To replace message queues"
+            ],
+            "correctAnswer": "To improve performance and reduce database load",
+            "explanation": "Distributed caching stores frequently accessed data in memory across multiple nodes, reducing database load and improving response times."
+        },
+        {
+            "id": "090",
+            "text": "The Transform View pattern renders information by transforming domain data into HTML.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Transform View pattern processes domain data element by element and transforms it into HTML, often using XSLT or similar transformation languages."
+        },
+        {
+            "id": "091",
+            "text": "Which pattern is used for implementing service monitoring and observability?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Observability Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Observability Pattern",
+            "explanation": "Observability patterns include distributed tracing, metrics collection, and structured logging to understand system behavior and debug issues."
+        },
+        {
+            "id": "092",
+            "text": "The Two Step View pattern transforms model data into HTML in two stages.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Two Step View pattern breaks transformation into two stages: first to a logical screen structure, then to the actual HTML, enabling consistent site-wide layout."
+        },
+        {
+            "id": "093",
+            "text": "What is the main advantage of using domain events in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Loose coupling and eventual consistency",
+                "Faster database operations",
+                "Eliminates the need for APIs",
+                "Simpler deployment processes"
+            ],
+            "correctAnswer": "Loose coupling and eventual consistency",
+            "explanation": "Domain events allow services to communicate asynchronously, promoting loose coupling and enabling eventual consistency across service boundaries."
+        },
+        {
+            "id": "094",
+            "text": "The Special Case pattern provides special behavior for particular cases without using conditional logic.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Special Case pattern creates a subclass to handle a particular case, eliminating conditional logic in the main class."
+        },
+        {
+            "id": "095",
+            "text": "Which pattern is used for handling service security?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "API Gateway Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "API Gateway Pattern",
+            "explanation": "API Gateway often centralizes security concerns like authentication, authorization, and SSL termination."
+        },
+        {
+            "id": "096",
+            "text": "The Money pattern represents monetary values and their calculations.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Money pattern represents monetary values as objects, encapsulating currency and rounding rules to avoid floating-point precision issues."
+        },
+        {
+            "id": "097",
+            "text": "What is the purpose of service discovery in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To dynamically find service instances in a distributed system",
+                "To eliminate the need for load balancers",
+                "To discover new services automatically",
+                "To replace DNS services"
+            ],
+            "correctAnswer": "To dynamically find service instances in a distributed system",
+            "explanation": "Service discovery allows services to find each other dynamically without hard-coded endpoints, essential in environments where service instances come and go."
+        },
+        {
+            "id": "098",
+            "text": "The Plugin pattern allows extending an application with plugins loaded at runtime.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Plugin pattern allows extending an application's functionality by loading plugins at runtime without modifying the core application."
+        },
+        {
+            "id": "099",
+            "text": "Which pattern is used for implementing service load balancing?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Client-side Load Balancing Pattern",
+                "Singleton Pattern",
+                "Factory Pattern",
+                "Observer Pattern"
+            ],
+            "correctAnswer": "Client-side Load Balancing Pattern",
+            "explanation": "Client-side load balancing distributes requests among service instances without needing a dedicated load balancer, often using service discovery."
+        },
+        {
+            "id": "100",
+            "text": "The Gateway pattern encapsulates access to an external system or resource.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Gateway pattern encapsulates access to an external system or resource, providing a more convenient API and insulating the rest of the system from external changes."
+        }
+    ]
+}

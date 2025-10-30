@@ -3,7 +3,7 @@
     "titleEn": "Exam XXX",
     "description": "A practice test with multiple-choice questions covering key knowledge areas for the XXX exam.",
 	 "categoryId": 1,
-     "isFree": false,
+     "isFree": true
     "questions": [
         {
             "id": "az900-en-001",

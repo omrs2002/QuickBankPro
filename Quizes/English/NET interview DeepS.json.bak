@@ -1,0 +1,1333 @@
+
+{
+    "title": "مقابلة دوت نت 2025",
+    "titleEn": ".NET Core Developer & Team Lead Interview 2025",
+    "description": "An interview tailored for a Senior .NET Core Developer and Team Lead role, based on your CV.",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is the primary difference between a `class` and a `struct` in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "Classes are reference types, structs are value types.",
+                "Structs support inheritance, classes do not.",
+                "Classes are sealed by default, structs are not.",
+                "Structs are stored on the heap, classes on the stack."
+            ],
+            "correctAnswer": "Classes are reference types, structs are value types.",
+            "explanation": "In C#, classes are reference types, meaning variables of a class type store references to their data (objects) on the heap. Structs are value types, meaning their variables directly contain their data and are typically stored on the stack, which can offer performance benefits for small, short-lived data structures."
+        },
+        {
+            "id": "002",
+            "text": "The `async` keyword by itself makes a method run asynchronously.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The `async` keyword is a modifier that allows the use of the `await` keyword within a method. It's the `await` keyword that actually pauses the method's execution until the awaited task completes, releasing the thread to do other work. Without `await`, an `async` method will run synchronously."
+        },
+        {
+            "id": "003",
+            "text": "What is the purpose of the `volatile` keyword in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "It ensures a variable is never optimized by the compiler and is always read from main memory.",
+                "It makes a variable thread-safe for all operations.",
+                "It speeds up access to a variable by caching it in the CPU register.",
+                "It prevents a variable from being garbage collected."
+            ],
+            "correctAnswer": "It ensures a variable is never optimized by the compiler and is always read from main memory.",
+            "explanation": "The `volatile` keyword indicates that a field might be modified by multiple threads. It prevents the compiler from performing optimizations that assume single-threaded access, ensuring the most up-to-date value is always present in the field."
+        },
+        {
+            "id": "004",
+            "text": "Boxing in C# is the process of explicitly converting a value type to a reference type.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Boxing is the implicit conversion of a value type to the type `object` or to any interface type implemented by the value type. It involves wrapping the value inside a System.Object and storing it on the heap. Unboxing is the explicit reverse operation."
+        },
+        {
+            "id": "005",
+            "text": "Which of the following is NOT a valid collection in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "Dictionary<TKey, TValue>",
+                "HashSet<T>",
+                "LinkedList<T>",
+                "ArrayQueue<T>"
+            ],
+            "correctAnswer": "ArrayQueue<T>",
+            "explanation": "`ArrayQueue<T>` is not a standard collection in the .NET framework. `Queue<T>` is the correct class for a first-in, first-out (FIFO) collection."
+        },
+        {
+            "id": "006",
+            "text": "What is the main benefit of using 'StringBuilder' over string concatenation in a loop?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "StringBuilder is more memory-efficient as it mutates a single buffer, unlike strings which are immutable.",
+                "StringBuilder is always faster, regardless of the number of concatenations.",
+                "StringBuilder makes the code more readable.",
+                "StringBuilder is a thread-safe class."
+            ],
+            "correctAnswer": "StringBuilder is more memory-efficient as it mutates a single buffer, unlike strings which are immutable.",
+            "explanation": "Strings are immutable. Each concatenation creates a new string object, leading to significant memory allocation and garbage collection overhead in loops. `StringBuilder` uses a resizable buffer, minimizing memory allocations."
+        },
+        {
+            "id": "007",
+            "text": "In C#, the 'using' statement is only used for importing namespaces.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The 'using' statement has two purposes: 1) As a directive to import namespaces. 2) As a statement to define a scope at the end of which an object (that implements `IDisposable`) will be disposed, ensuring resources are released."
+        },
+        {
+            "id": "008",
+            "text": "What is the primary purpose of the 'yield' keyword in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To create stateful iterators without explicitly implementing IEnumerator.",
+                "To improve the performance of arithmetic operations.",
+                "To yield control to another thread.",
+                "To define a return type for asynchronous methods."
+            ],
+            "correctAnswer": "To create stateful iterators without explicitly implementing IEnumerator.",
+            "explanation": "The `yield` keyword is used in an iterator block to provide a value to the enumerator object or to signal the end of iteration. It simplifies the implementation of the `IEnumerable` and `IEnumerator` pattern by having the compiler generate the state machine."
+        },
+        {
+            "id": "009",
+            "text": "Extension methods in C# must be defined in a static class.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Extension methods are defined as static methods within a static class. The first parameter of the method specifies the type that the method operates on, preceded by the `this` modifier."
+        },
+        {
+            "id": "010",
+            "text": "Which C# feature allows you to handle an exception and then re-throw it without losing the original stack trace?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "Using 'throw;' without specifying the exception object.",
+                "Using 'throw ex;' where 'ex' is the caught exception.",
+                "Using the 'Exception.Rethrow()' method.",
+                "It is not possible to re-throw an exception without losing the stack trace."
+            ],
+            "correctAnswer": "Using 'throw;' without specifying the exception object.",
+            "explanation": "Using `throw;` inside a catch block re-throws the current exception and preserves its original stack trace. Using `throw ex;` resets the stack trace to the point of the re-throw, which is generally undesirable for debugging."
+        },
+        {
+            "id": "011",
+            "text": "In ASP.NET Core, what is the role of the Kestrel web server?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "It's a cross-platform web server used to host ASP.NET Core applications.",
+                "It's a reverse proxy server for IIS.",
+                "It's a tool for compiling Razor Pages.",
+                "It's the primary dependency injection container."
+            ],
+            "correctAnswer": "It's a cross-platform web server used to host ASP.NET Core applications.",
+            "explanation": "Kestrel is the default, in-process, cross-platform web server for ASP.NET Core. It's designed for high performance and is often used behind a reverse proxy server like IIS, Nginx, or Apache in production environments for added security and features."
+        },
+        {
+            "id": "012",
+            "text": "The 'Program.cs' and 'Startup.cs' files are both required in all ASP.NET Core projects.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Since .NET 6, the default project template uses the Minimal API approach, consolidating the `Program.cs` and `Startup.cs` logic into a single `Program.cs` file. The `Startup.cs` class is no longer mandatory."
+        },
+        {
+            "id": "013",
+            "text": "What is the main purpose of Middleware in an ASP.NET Core application?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To form a pipeline that handles requests and responses.",
+                "To define the data models for the application.",
+                "To configure the database connection.",
+                "To generate HTML views for the client."
+            ],
+            "correctAnswer": "To form a pipeline that handles requests and responses.",
+            "explanation": "Middleware are software components that are assembled into an application pipeline to handle requests and responses. Each component can perform operations before and after the next component in the pipeline, and can choose whether to pass the request to the next component."
+        },
+        {
+            "id": "014",
+            "text": "Which attribute is used to map an action method to a specific HTTP verb like POST or GET?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "[HttpPost], [HttpGet]",
+                "[ActionVerb], [ActionMethod]",
+                "[Route], [Endpoint]",
+                "[Mvc], [ApiController]"
+            ],
+            "correctAnswer": "[HttpPost], [HttpGet]",
+            "explanation": "Attributes like `[HttpGet]`, `[HttpPost]`, `[HttpPut]`, `[HttpDelete]`, etc., are used to designate which HTTP verbs an action method will respond to. The `[Route]` attribute is used for specifying the URL pattern."
+        },
+        {
+            "id": "015",
+            "text": "Dependency Injection (DI) is an optional feature in ASP.NET Core.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Dependency Injection (DI) is a first-class citizen and is built into the core of ASP.NET Core. The framework includes a simple, built-in IoC (Inversion of Control) container for managing service lifetimes (Transient, Scoped, Singleton)."
+        },
+        {
+            "id": "016",
+            "text": "What is the primary role of the ABP (ASP.NET Boilerplate) Framework?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To provide a full-stack development platform based on best practices and modularity.",
+                "To act as an alternative to Entity Framework Core.",
+                "To replace the need for dependency injection.",
+                "To compile C# code into JavaScript."
+            ],
+            "correctAnswer": "To provide a full-stack development platform based on best practices and modularity.",
+            "explanation": "ABP Framework is an open-source web application framework that provides an infrastructure to build modern web applications by following software development best practices and conventions, such as DDD, modularity, and multi-tenancy."
+        },
+        {
+            "id": "017",
+            "text": "In Entity Framework Core, what is the difference between 'DbSet.Add' and 'DbSet.Update'?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "'Add' marks an entire graph as 'Added', while 'Update' marks it as 'Modified'.",
+                "'Add' is for new entities, 'Update' is for existing entities, but both can be used interchangeably.",
+                "'Update' is faster because it doesn't generate a SQL INSERT statement.",
+                "There is no 'DbSet.Update' method."
+            ],
+            "correctAnswer": "'Add' marks an entire graph as 'Added', while 'Update' marks it as 'Modified'.",
+            "explanation": "`DbSet.Add` is used to track a new entity (and its navigational properties) as `Added`, leading to an INSERT. `DbSet.Update` is used for existing entities, marking them as `Modified`, leading to an UPDATE. It will also mark any navigational entities that don't have a key as `Added`."
+        },
+        {
+            "id": "018",
+            "text": "Razor Pages is a replacement for the MVC pattern in ASP.NET Core.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Razor Pages is an alternative, page-based programming model to MVC. It is built on top of ASP.NET Core MVC and is designed for simpler scenarios where the logic for a page is self-contained. MVC is still fully supported and is better for building complex APIs and applications with separation of concerns."
+        },
+        {
+            "id": "019",
+            "text": "What is the purpose of the 'IHttpClientFactory' in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To manage and configure HttpClient instances, preventing socket exhaustion.",
+                "To automatically serialize/deserialize JSON for all HTTP calls.",
+                "To replace the need for RESTful APIs.",
+                "To act as a proxy server for outgoing requests."
+            ],
+            "correctAnswer": "To manage and configure HttpClient instances, preventing socket exhaustion.",
+            "explanation": "`IHttpClientFactory` is a factory for creating `HttpClient` instances. It addresses common issues like socket exhaustion (by managing the underlying `HttpMessageHandler` lifetimes) and allows for centralized configuration of HTTP requests (like base address, headers)."
+        },
+        {
+            "id": "020",
+            "text": "The '[ApiController]' attribute automatically enables attribute routing requirement and model validation errors that return a 400 Bad Request.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The `[ApiController]` attribute applies several conventions, including making attribute routing a requirement, automatically returning HTTP 400 responses if model validation fails, and inferring parameter binding sources."
+        },
+        {
+            "id": "021",
+            "text": "What is a primary characteristic of a Microservices architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Services are loosely coupled and independently deployable.",
+                "All services must share the same database schema.",
+                "The entire application is built as a single, monolithic unit.",
+                "Communication between services is only allowed through a shared database."
+            ],
+            "correctAnswer": "Services are loosely coupled and independently deployable.",
+            "explanation": "The core idea of microservices is to structure an application as a collection of loosely coupled, fine-grained services that communicate over a network. This enables independent development, deployment, and scaling of each service."
+        },
+        {
+            "id": "022",
+            "text": "API Gateway is a mandatory component in every Microservices architecture.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While an API Gateway is a very common and useful pattern for providing a unified entry point, handling cross-cutting concerns (like auth, logging), and simplifying client calls, it is not strictly mandatory. Some architectures might use a simple service mesh or direct communication."
+        },
+        {
+            "id": "023",
+            "text": "In the context of your SDAIA project, what would be a good use case for the Redis cache?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Caching frequently accessed Commercial Record (CR) data to reduce database load and latency.",
+                "Storing the primary relational data for the CR lifecycle.",
+                "Replacing SQL Server as the main database.",
+                "Serving static HTML content for the Investor Portal."
+            ],
+            "correctAnswer": "Caching frequently accessed Commercial Record (CR) data to reduce database load and latency.",
+            "explanation": "Redis, being an in-memory data store, is excellent for caching. In a high-traffic platform like the Saudi Business Center, caching CR data that is frequently read can dramatically improve response times and reduce the load on the primary SQL Server database."
+        },
+        {
+            "id": "024",
+            "text": "What is the Circuit Breaker pattern used for in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To prevent a network or service failure from cascading to other services.",
+                "To manage electrical power consumption of servers.",
+                "To break down a monolithic application into smaller services.",
+                "To encrypt communication between services."
+            ],
+            "correctAnswer": "To prevent a network or service failure from cascading to other services.",
+            "explanation": "The Circuit Breaker pattern is a resilience pattern. It detects failures and prevents an application from repeatedly trying to execute an operation that's likely to fail, allowing the system to recover. This stops a single point of failure from bringing down the entire system."
+        },
+        {
+            "id": "025",
+            "text": "Synchronous communication (like HTTP/REST) is always preferable over asynchronous communication (like messaging) in microservices.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Each has its place. Synchronous communication is simple and works well for request/response. Asynchronous messaging (e.g., with a message broker) is better for decoupling services, improving resilience, and handling background tasks or event-driven workflows, as seen in your Unified Callback Service."
+        },
+        {
+            "id": "026",
+            "text": "What is the primary goal of Domain-Driven Design (DDD)?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "To align software complexity with business domain complexity using a ubiquitous language.",
+                "To design the user interface based on user stories.",
+                "To maximize the performance of database queries.",
+                "To ensure all code is written in a single programming language."
+            ],
+            "correctAnswer": "To align software complexity with business domain complexity using a ubiquitous language.",
+            "explanation": "DDD is an approach to software development that focuses on modeling the software to match the business domain. It uses a ubiquitous language shared by developers and domain experts, and structures the software around domain concepts like Entities, Value Objects, and Aggregates."
+        },
+        {
+            "id": "027",
+            "text": "The 'S' in the SOLID principles stands for 'Single Responsibility Principle' (SRP).",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "SOLID is an acronym for five principles of object-oriented design: S - Single Responsibility Principle, O - Open/Closed Principle, L - Liskov Substitution Principle, I - Interface Segregation Principle, D - Dependency Inversion Principle."
+        },
+        {
+            "id": "028",
+            "text": "What is the main purpose of the Unit of Work pattern, as implemented in EF Core's 'DbContext'?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "To maintain a list of objects affected by a business transaction and coordinate writing changes.",
+                "To define the unit tests for a business transaction.",
+                "To break down a large task into smaller units of work.",
+                "To measure the performance of individual methods."
+            ],
+            "correctAnswer": "To maintain a list of objects affected by a business transaction and coordinate writing changes.",
+            "explanation": "The Unit of Work pattern tracks all changes made during a business transaction. In EF Core, the `DbContext` represents a Unit of Work. It keeps track of loaded entities and, when `SaveChanges` is called, persists all changes as a single atomic transaction."
+        },
+        {
+            "id": "029",
+            "text": "The Repository pattern is used to abstract the data layer, making the application more testable.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Repository pattern mediates between the domain and data mapping layers, acting like an in-memory domain object collection. It abstracts the data store, allowing the business logic to be tested without hitting a real database (e.g., by using a mock repository)."
+        },
+        {
+            "id": "030",
+            "text": "What is the primary benefit of the CQRS (Command Query Responsibility Segregation) pattern?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "It separates read and write operations for models, allowing optimization of each side.",
+                "It combines all operations into a single, unified model for simplicity.",
+                "It forces the use of a single database for all operations.",
+                "It is a pattern for querying relational databases only."
+            ],
+            "correctAnswer": "It separates read and write operations for models, allowing optimization of each side.",
+            "explanation": "CQRS separates the model for reading data (Queries) from the model for updating data (Commands). This allows you to scale, optimize, and secure the read and write sides independently. For example, the read side could use a denormalized cache (like Redis), while the write side uses a normalized relational database."
+        },
+        {
+            "id": "031",
+            "text": "In Scrum, who is responsible for managing the Product Backlog?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "The Product Owner",
+                "The Scrum Master",
+                "The Development Team",
+                "The Project Manager"
+            ],
+            "correctAnswer": "The Product Owner",
+            "explanation": "The Product Owner is solely responsible for managing the Product Backlog. This includes creating and clearly communicating Product Backlog items, ordering the items to best achieve goals, and ensuring the backlog is visible, transparent, and understood by all."
+        },
+        {
+            "id": "032",
+            "text": "A Scrum Team should have a maximum of 9 members.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "According to the Scrum Guide, the Development Team should be small enough to remain nimble and large enough to complete significant work. Typically, it has 3-9 members, not including the Scrum Master and Product Owner."
+        },
+        {
+            "id": "033",
+            "text": "As a Team Lead, what is the most effective way to handle a situation where a junior developer's code frequently causes bugs in production?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Institute mandatory code reviews and pair programming sessions to provide immediate feedback and mentorship.",
+                "Take over their tasks to ensure the code is correct.",
+                "Report them to management immediately.",
+                "Ignore the issue; they will learn from their mistakes over time."
+            ],
+            "correctAnswer": "Institute mandatory code reviews and pair programming sessions to provide immediate feedback and mentorship.",
+            "explanation": "A Team Lead's role is to mentor and enable the team. Proactive measures like code reviews and pair programming create a learning environment, improve code quality, and help junior developers internalize best practices, as mentioned in your CV under 'Mentored junior developers'."
+        },
+        {
+            "id": "034",
+            "text": "The main purpose of a Sprint Retrospective is to plan the work for the next sprint.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The purpose of the Sprint Retrospective is to inspect how the last Sprint went and to create a plan for improvements to be enacted during the next Sprint. Planning the work itself is done in the Sprint Planning meeting."
+        },
+        {
+            "id": "035",
+            "text": "According to your CV, you improved team productivity by 50% at AI-Alamiah. What leadership action likely contributed most to this?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Training and mentoring 5+ junior team members.",
+                "Writing all the critical code yourself.",
+                "Eliminating all meetings.",
+                "Doubling the length of the sprints."
+            ],
+            "correctAnswer": "Training and mentoring 5+ junior team members.",
+            "explanation": "Investing in the growth of team members through training and mentorship is a classic and effective leadership strategy for long-term productivity gains. It upskills the entire team, reduces bottlenecks, and fosters a collaborative culture."
+        },
+        {
+            "id": "036",
+            "text": "What is the primary purpose of an INDEX in a relational database?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "To speed up data retrieval (SELECT queries) at the cost of slower writes (INSERT/UPDATE/DELETE).",
+                "To enforce referential integrity between tables.",
+                "To store backup copies of the data.",
+                "To define the structure of the table."
+            ],
+            "correctAnswer": "To speed up data retrieval (SELECT queries) at the cost of slower writes (INSERT/UPDATE/DELETE).",
+            "explanation": "An index is a database object that improves the speed of data retrieval operations on a table. It works like a book's index, allowing the database to find data without scanning the entire table. However, indexes must be updated on writes, which can slow those operations down."
+        },
+        {
+            "id": "037",
+            "text": "A LEFT JOIN returns all records from the right table and the matched records from the left table.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A LEFT JOIN returns all records from the left table, and the matched records from the right table. The result is NULL from the right side if there is no match. A RIGHT JOIN does the opposite."
+        },
+        {
+            "id": "038",
+            "text": "What is the main advantage of using an ORM like Entity Framework Core?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "It allows developers to work with database data using .NET objects, reducing boilerplate data access code.",
+                "It always generates the most performant SQL queries possible.",
+                "It eliminates the need to understand SQL or database design.",
+                "It automatically secures the database against all SQL injection attacks."
+            ],
+            "correctAnswer": "It allows developers to work with database data using .NET objects, reducing boilerplate data access code.",
+            "explanation": "The primary benefit of an ORM (Object-Relational Mapper) is productivity. It enables developers to interact with the database using their programming language (C#) and objects, rather than writing raw SQL for common operations. However, understanding SQL is still crucial for complex queries and performance tuning."
+        },
+        {
+            "id": "039",
+            "text": "The ACID properties of a database transaction are: Atomicity, Consistency, Isolation, and Durability.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "ACID is a set of properties that guarantee database transactions are processed reliably: Atomicity (all or nothing), Consistency (data remains valid), Isolation (transactions don't interfere), and Durability (committed transactions are permanent)."
+        },
+        {
+            "id": "040",
+            "text": "In a microservices architecture, what is the 'Database per Service' pattern designed to achieve?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "Loose coupling by ensuring each service's data is private and only accessible via its API.",
+                "Reducing the cost of database licenses by using one license for all services.",
+                "Making it easier to write complex JOIN queries across multiple services.",
+                "Ensuring all services use the same type of database (e.g., all SQL Server)."
+            ],
+            "correctAnswer": "Loose coupling by ensuring each service's data is private and only accessible via its API.",
+            "explanation": "The Database per Service pattern is a fundamental rule in microservices for achieving loose coupling. Each service owns its data, and other services cannot access it directly (e.g., via a shared database). They must communicate through the service's well-defined API. This prevents tight data coupling."
+        },
+        {
+            "id": "041",
+            "text": "What is the primary purpose of a CI/CD pipeline in Azure DevOps?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "To automate the process of building, testing, and deploying software.",
+                "To manage the product backlog and user stories.",
+                "To host the production database.",
+                "To write and debug application code."
+            ],
+            "correctAnswer": "To automate the process of building, testing, and deploying software.",
+            "explanation": "CI (Continuous Integration) automates the building and testing of code whenever a developer commits changes. CD (Continuous Delivery/Deployment) automates the release of that validated code to various environments (like staging, production). This leads to faster, more reliable releases."
+        },
+        {
+            "id": "042",
+            "text": "Docker containers are inherently more secure than virtual machines (VMs).",
+            "type": "true-false",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is a nuanced topic. Containers share the host OS kernel, which can be a security concern if isolated improperly. VMs have a hypervisor and separate OS kernels, providing stronger isolation. However, containers can be secured effectively with best practices. The statement 'inherently more secure' is false."
+        },
+        {
+            "id": "043",
+            "text": "What is the main benefit of using Infrastructure as Code (IaC)?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "To manage and provision infrastructure through machine-readable definition files, ensuring consistency and repeatability.",
+                "To write the backend logic for web applications in C#.",
+                "To generate code from database schemas.",
+                "To replace the need for version control systems like Git."
+            ],
+            "correctAnswer": "To manage and provision infrastructure through machine-readable definition files, ensuring consistency and repeatability.",
+            "explanation": "IaC (e.g., using ARM templates, Terraform) allows you to define your infrastructure (servers, databases, networks) in code. This enables versioning, automated deployment, and ensures that environments are identical, eliminating 'works on my machine' problems."
+        },
+        {
+            "id": "044",
+            "text": "Azure App Service is a fully managed platform for hosting web applications, APIs, and mobile backends.",
+            "type": "true-false",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Azure App Service is a Platform-as-a-Service (PaaS) offering. It handles infrastructure management (patching, scaling, availability) for you, allowing developers to focus solely on their application code. It's a common choice for hosting .NET Core web applications."
+        },
+        {
+            "id": "045",
+            "text": "In the context of your 'Unified Callback Service', what DevOps concept would help manage and scale the background processing of callbacks?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "Using a background job processing library like Hangfire or a queue-based service like Azure Service Bus.",
+                "Deploying the service on a single, powerful virtual machine.",
+                "Writing all callback processing logic in a stored procedure.",
+                "Disabling the retry mechanism to reduce complexity."
+            ],
+            "correctAnswer": "Using a background job processing library like Hangfire or a queue-based service like Azure Service Bus.",
+            "explanation": "Background processing is crucial for handling asynchronous tasks like callbacks. Libraries like Hangfire (mentioned in your skills) or cloud services like Azure Service Bus provide reliable, scalable, and manageable ways to execute these tasks, including built-in retry mechanisms, monitoring, and scaling."
+        },
+        {
+            "id": "046",
+            "text": "What is the difference between 'Task.Run' and 'Task.Factory.StartNew' in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "Task.Run is a simpler overload of Task.Factory.StartNew with safer default configurations.",
+                "Task.Factory.StartNew is obsolete and should never be used.",
+                "Task.Run can only be used for CPU-bound work, not I/O.",
+                "There is no difference; they are interchangeable."
+            ],
+            "correctAnswer": "Task.Run is a simpler overload of Task.Factory.StartNew with safer default configurations.",
+            "explanation": "Task.Run is essentially a shorthand for Task.Factory.StartNew with default parameters that are suitable for most common scenarios. It uses TaskScheduler.Default and avoids some of the pitfalls of Task.Factory.StartNew, such as unintentionally using TaskCreationOptions.AttachedToParent."
+        },
+        {
+            "id": "047",
+            "text": "The 'readonly' keyword can only be applied to fields in a class.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While commonly used for class fields, the 'readonly' keyword can also be used with structs. Additionally, C# 8.0 introduced 'readonly' members in structs and 'readonly' structs themselves. There's also the 'readonly' modifier for properties and methods in structs."
+        },
+        {
+            "id": "048",
+            "text": "What is the purpose of the 'nameof' operator in C#?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To obtain the simple (unqualified) string name of a variable, type, or member.",
+                "To get the namespace of a type.",
+                "To convert a string to a variable name.",
+                "To check if a variable has been named."
+            ],
+            "correctAnswer": "To obtain the simple (unqualified) string name of a variable, type, or member.",
+            "explanation": "The nameof operator produces the name of the variable, type, or member as a string constant. This is useful in scenarios like argument validation, logging, or raising PropertyChanged events, as it avoids magic strings and makes refactoring easier."
+        },
+        {
+            "id": "049",
+            "text": "In C#, all exceptions must inherit from the 'System.Exception' class.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, in C#, all exceptions are derived from System.Exception. This includes system exceptions (like NullReferenceException) and custom application exceptions you create."
+        },
+        {
+            "id": "050",
+            "text": "What is the primary use of the 'CancellationToken' struct in asynchronous programming?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To enable cooperative cancellation of asynchronous operations.",
+                "To generate secure tokens for authentication.",
+                "To cancel database transactions.",
+                "To stop the garbage collector temporarily."
+            ],
+            "correctAnswer": "To enable cooperative cancellation of asynchronous operations.",
+            "explanation": "CancellationToken is used to notify an asynchronous operation that it should be cancelled. This enables cooperative cancellation where the operation can clean up resources and terminate gracefully when requested, rather than being forcibly aborted."
+        },
+        {
+            "id": "051",
+            "text": "What is the purpose of the 'ConfigureAwait' method in asynchronous C# code?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To configure whether to capture and marshal back to the original context.",
+                "To configure the timeout for the async operation.",
+                "To configure which thread pool to use for the operation.",
+                "To configure exception handling for the task."
+            ],
+            "correctAnswer": "To configure whether to capture and marshal back to the original context.",
+            "explanation": "ConfigureAwait(false) is used to avoid forcing the callback to be invoked on the original context (like the UI thread in desktop apps). This can help prevent deadlocks and improve performance, especially in library code. In ASP.NET Core, there's typically no SynchronizationContext, so it's less critical but still considered good practice."
+        },
+        {
+            "id": "052",
+            "text": "In ASP.NET Core, the 'IHostedService' interface is used for implementing long-running background tasks.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The IHostedService interface is used to define background tasks that run when the application starts and stop when the application shuts down. It's commonly used for tasks like processing message queues, caching data, or performing periodic cleanup operations."
+        },
+        {
+            "id": "053",
+            "text": "What is the main advantage of using Health Checks in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To provide a way for external systems to monitor the application's readiness and liveness.",
+                "To check the health of the development team.",
+                "To validate the syntax of C# code.",
+                "To monitor the health of the client's browser."
+            ],
+            "correctAnswer": "To provide a way for external systems to monitor the application's readiness and liveness.",
+            "explanation": "Health Checks provide endpoints that container orchestrators (like Kubernetes), load balancers, and monitoring tools can call to determine if an application instance is healthy and should receive traffic. This is crucial for zero-downtime deployments and reliable systems."
+        },
+        {
+            "id": "054",
+            "text": "The 'AddScoped' service lifetime in ASP.NET Core means one instance per HTTP request.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Services registered with AddScoped are created once per HTTP request. The same instance is used throughout the processing of that request, making it suitable for services like Entity Framework's DbContext that should be shared within a single operation but not across different requests."
+        },
+        {
+            "id": "055",
+            "text": "What is the primary purpose of the 'Options Pattern' in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To provide a strongly-typed way to access related configuration settings.",
+                "To configure optional parameters for action methods.",
+                "To make certain features of the application optional.",
+                "To provide multiple options for dependency injection."
+            ],
+            "correctAnswer": "To provide a strongly-typed way to access related configuration settings.",
+            "explanation": "The Options Pattern uses classes to represent groups of related settings. This provides strong typing, validation, and the ability to inject just the needed configuration into your services, rather than the entire IConfiguration object."
+        },
+        {
+            "id": "056",
+            "text": "What is eventual consistency in the context of microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "A consistency model where data updates propagate asynchronously and systems become consistent over time.",
+                "A guarantee that all services will always have exactly the same data at the same time.",
+                "A pattern for ensuring immediate consistency across all database transactions.",
+                "A method for making services eventually shut down gracefully."
+            ],
+            "correctAnswer": "A consistency model where data updates propagate asynchronously and systems become consistent over time.",
+            "explanation": "Eventual consistency is a consistency model used in distributed systems where updates to data are propagated asynchronously. The system guarantees that if no new updates are made, eventually all accesses will return the last updated value. This is common in microservices to achieve availability and partition tolerance."
+        },
+        {
+            "id": "057",
+            "text": "The Saga pattern is used for managing distributed transactions across multiple microservices.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Saga pattern is a way to manage data consistency across microservices in distributed transaction scenarios. Instead of using two-phase commit, a Saga breaks the transaction into a series of local transactions, each updating data within a single service and publishing events to trigger the next step."
+        },
+        {
+            "id": "058",
+            "text": "In your Unified Callback Service, what architectural pattern best describes the retry mechanism you implemented?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "The Retry Pattern, which handles transient failures by transparently retrying failed operations.",
+                "The Circuit Breaker Pattern, which prevents repeated attempts to execute an operation likely to fail.",
+                "The Bulkhead Pattern, which isolates elements to prevent cascading failures.",
+                "The Ambassador Pattern, which offloads common client connectivity tasks."
+            ],
+            "correctAnswer": "The Retry Pattern, which handles transient failures by transparently retrying failed operations.",
+            "explanation": "Your callback service's retry mechanism is an implementation of the Retry Pattern. This pattern enables an application to handle transient failures by retrying failed operations, potentially with exponential backoff, increasing the reliability of the system when dealing with temporary network issues or service unavailability."
+        },
+        {
+            "id": "059",
+            "text": "Service discovery is unnecessary in microservices architecture if you use hard-coded endpoints.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Hard-coding endpoints is an anti-pattern in microservices. Service discovery is essential because services need to dynamically find each other in environments where instances scale up/down, move between hosts, or change ports. This is crucial for resilience and scalability."
+        },
+        {
+            "id": "060",
+            "text": "What is the primary purpose of the Bulkhead pattern in microservices?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To isolate failures by partitioning service instances so a failure in one partition doesn't affect others.",
+                "To handle large volumes of data by batching requests.",
+                "To create physical partitions in databases for better performance.",
+                "To separate read and write operations in a service."
+            ],
+            "correctAnswer": "To isolate failures by partitioning service instances so a failure in one partition doesn't affect others.",
+            "explanation": "The Bulkhead pattern isolates elements of an application into pools so that if one fails, the others continue to function. It's named after the watertight compartments in ships. In microservices, this could mean using separate connection pools, thread pools, or even separate service instances for different clients or operations."
+        },
+        {
+            "id": "061",
+            "text": "What does the 'D' in SOLID principles stand for?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Dependency Inversion Principle",
+                "Data Integrity Principle",
+                "Domain Driven Design",
+                "Default Implementation Principle"
+            ],
+            "correctAnswer": "Dependency Inversion Principle",
+            "explanation": "The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Additionally, abstractions should not depend on details; details should depend on abstractions. This enables loose coupling and better testability."
+        },
+        {
+            "id": "062",
+            "text": "The Repository pattern completely eliminates the need for database-specific knowledge in the domain layer.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While the Repository pattern abstracts data access and reduces database-specific code in the domain layer, it doesn't completely eliminate the need for database knowledge. Developers still need to understand performance implications, write efficient queries (especially for complex scenarios), and design appropriate database schemas."
+        },
+        {
+            "id": "063",
+            "text": "What is the main goal of the Specification pattern in Domain-Driven Design?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "To encapsulate business rules that determine if an object meets certain criteria.",
+                "To specify the technical requirements for a project.",
+                "To define the specification document for client approval.",
+                "To specify which design patterns should be used in a project."
+            ],
+            "correctAnswer": "To encapsulate business rules that determine if an object meets certain criteria.",
+            "explanation": "The Specification pattern encapsulates a business rule that returns true or false for a given object. It's particularly useful for validation, selection (querying), and for building complex business rules from simpler ones using boolean logic."
+        },
+        {
+            "id": "064",
+            "text": "In Domain-Driven Design, an Aggregate is a cluster of associated objects that are treated as a single unit for data changes.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "An Aggregate is a pattern in DDD that defines a cluster of related objects (Entities and Value Objects) that are treated as a single unit. The Aggregate Root is the only object that outside objects can hold references to, ensuring consistency and enforcing invariants within the aggregate boundary."
+        },
+        {
+            "id": "065",
+            "text": "What is the primary benefit of using the Mediator pattern as implemented in libraries like MediatR?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "To reduce coupling between components by having them communicate through a mediator.",
+                "To mediate disputes between development team members.",
+                "To provide a middle layer between the UI and database.",
+                "To optimize media file processing in web applications."
+            ],
+            "correctAnswer": "To reduce coupling between components by having them communicate through a mediator.",
+            "explanation": "The Mediator pattern promotes loose coupling by preventing objects from referring to each other explicitly. Instead, they communicate through a mediator object. In CQRS implementations with MediatR, this helps separate commands, queries, and their handlers, making the system more maintainable and testable."
+        },
+        {
+            "id": "066",
+            "text": "During a Sprint, can the Development Team change the Sprint Goal?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "No, the Sprint Goal is fixed and cannot be changed during the Sprint.",
+                "Yes, the team can change it anytime they face difficulties.",
+                "Only the Product Owner can change the Sprint Goal.",
+                "The Sprint Goal can be changed with approval from all stakeholders."
+            ],
+            "correctAnswer": "No, the Sprint Goal is fixed and cannot be changed during the Sprint.",
+            "explanation": "The Sprint Goal is an objective set during Sprint Planning that provides guidance to the Development Team. It gives the team flexibility regarding implementing the functionality. The Sprint Goal cannot be changed during the Sprint, as this would undermine the focus and commitment of the team."
+        },
+        {
+            "id": "067",
+            "text": "As a PSM I certified professional, you know that the Scrum Master is responsible for ensuring the team meets its commitments.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The Scrum Master is a servant-leader who helps the team follow Scrum practices and remove impediments. However, the Development Team is responsible for the work and meeting its commitments. The Scrum Master coaches the team but doesn't manage their work or ensure commitments are met."
+        },
+        {
+            "id": "068",
+            "text": "What is the most effective approach for a Team Lead to handle conflicting technical opinions between senior developers?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Facilitate a constructive discussion focused on technical merits and team consensus.",
+                "Always side with the more experienced developer.",
+                "Impose your own technical decision to resolve the conflict quickly.",
+                "Ask management to make the technical decision."
+            ],
+            "correctAnswer": "Facilitate a constructive discussion focused on technical merits and team consensus.",
+            "explanation": "A good Team Lead acts as a facilitator, encouraging healthy technical debates focused on facts, data, and the team's goals. The goal is to reach consensus through respectful discussion, not to impose authority. This builds team ownership and often leads to better technical decisions."
+        },
+        {
+            "id": "069",
+            "text": "According to ITIL, the primary purpose of Incident Management is to restore normal service operation as quickly as possible.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Incident Management focuses on restoring normal service operation after an interruption, minimizing the impact on business operations. This differs from Problem Management, which focuses on finding and eliminating the root cause of incidents."
+        },
+        {
+            "id": "070",
+            "text": "What metrics would be most valuable for a Team Lead to track for continuous improvement?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Cycle time, lead time, and team velocity trends.",
+                "Individual developer lines of code written.",
+                "Number of hours worked overtime.",
+                "Number of meetings attended by each team member."
+            ],
+            "correctAnswer": "Cycle time, lead time, and team velocity trends.",
+            "explanation": "Effective metrics for agile teams focus on outcomes and process efficiency, not individual productivity. Cycle time (how long work takes), lead time (time from request to delivery), and velocity trends help identify bottlenecks and measure improvement in the team's delivery capability."
+        },
+        {
+            "id": "071",
+            "text": "What is the purpose of a composite key in a database?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "To uniquely identify a record using a combination of two or more columns.",
+                "To combine multiple keys into a single physical key.",
+                "To encrypt database contents for security.",
+                "To create a backup of the primary key."
+            ],
+            "correctAnswer": "To uniquely identify a record using a combination of two or more columns.",
+            "explanation": "A composite key is a primary key that consists of two or more columns. This is used when a single column cannot guarantee uniqueness, but the combination of multiple columns can. Common in junction tables for many-to-many relationships."
+        },
+        {
+            "id": "072",
+            "text": "A non-clustered index physically rearranges the data in the table.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A non-clustered index does not rearrange the physical data. It creates a separate structure that contains the indexed columns and a pointer to the actual data. A table can have multiple non-clustered indexes, unlike the clustered index which determines the physical order of data and of which there can be only one per table."
+        },
+        {
+            "id": "073",
+            "text": "What is the main advantage of using stored procedures?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "Reduced network traffic and improved performance through execution plan reuse.",
+                "They automatically handle all database security concerns.",
+                "They eliminate the need for database indexes.",
+                "They make the application completely database-agnostic."
+            ],
+            "correctAnswer": "Reduced network traffic and improved performance through execution plan reuse.",
+            "explanation": "Stored procedures can reduce network traffic by executing multiple SQL statements in a single call. They also benefit from cached execution plans, which can improve performance. However, they can create tight coupling between application and database and may not be the best choice in all scenarios."
+        },
+        {
+            "id": "074",
+            "text": "The NOLOCK hint in SQL Server guarantees data consistency for read operations.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "NOLOCK (READUNCOMMITTED) allows dirty reads - reading uncommitted data that might be rolled back. It can lead to reading phantom rows or missing rows. It improves performance by not acquiring shared locks but sacrifices data consistency and should be used cautiously."
+        },
+        {
+            "id": "075",
+            "text": "In Entity Framework Core, what is the difference between eager loading and explicit loading?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "Eager loading loads related data immediately, explicit loading loads it on demand later.",
+                "Eager loading is faster, explicit loading is more memory efficient.",
+                "Eager loading uses JOINs, explicit loading uses separate queries.",
+                "There is no practical difference between them."
+            ],
+            "correctAnswer": "Eager loading loads related data immediately, explicit loading loads it on demand later.",
+            "explanation": "Eager loading (Include) loads the main entity and its related entities in a single query. Explicit loading allows you to load related data separately, on demand, after the main entity has been loaded. Lazy loading is a third option that loads related data automatically when accessed."
+        },
+        {
+            "id": "076",
+            "text": "What is the difference between 'throw ex' and 'throw' in a catch block?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "'throw' preserves the original stack trace; 'throw ex' resets it.",
+                "'throw ex' is more efficient than 'throw'.",
+                "'throw' can only be used with custom exceptions.",
+                "There is no difference between them."
+            ],
+            "correctAnswer": "'throw' preserves the original stack trace; 'throw ex' resets it.",
+            "explanation": "Using 'throw' without specifying the exception object re-throws the current exception while preserving the original stack trace. Using 'throw ex' resets the stack trace to the current location, making debugging more difficult as you lose information about where the exception originally occurred."
+        },
+        {
+            "id": "077",
+            "text": "The 'var' keyword in C# makes a variable weakly typed.",
+            "type": "true-false",
+            "category": "C# Fundamentals",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "'var' is used for implicit type declaration, but the variable is still strongly typed. The compiler determines the type at compile-time based on the assigned value. This is different from dynamic typing in languages like JavaScript."
+        },
+        {
+            "id": "078",
+            "text": "What is the main purpose of the 'required' keyword introduced in C# 11?",
+            "type": "multiple-choice",
+            "category": "C# Fundamentals",
+            "answers": [
+                "To enforce that properties or fields must be initialized during object construction.",
+                "To mark methods that must be overridden in derived classes.",
+                "To indicate that a namespace is required for compilation.",
+                "To specify required parameters for methods."
+            ],
+            "correctAnswer": "To enforce that properties or fields must be initialized during object construction.",
+            "explanation": "The 'required' modifier indicates that the property or field must be initialized by all object initializers. This provides compile-time safety for ensuring certain properties are set when creating objects, which is especially useful for DTOs and configuration objects."
+        },
+        {
+            "id": "079",
+            "text": "What is the primary purpose of the 'Global Using' feature in C# 10?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To declare using directives that apply to all files in a project.",
+                "To import all available namespaces automatically.",
+                "To share using directives across multiple projects.",
+                "To create global variables accessible throughout the application."
+            ],
+            "correctAnswer": "To declare using directives that apply to all files in a project.",
+            "explanation": "Global using directives (declared with 'global using') allow you to include namespaces that are available throughout your entire project without needing to add 'using' statements in every file. This reduces clutter and is commonly used for frequently used namespaces like System, System.Collections.Generic, etc."
+        },
+        {
+            "id": "080",
+            "text": "In ASP.NET Core, the '[Authorize]' attribute can be applied at the controller level, action level, or globally.",
+            "type": "true-false",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The [Authorize] attribute is flexible and can be applied at multiple levels: globally (via startup configuration), at the controller level (affecting all actions), or at the action level (affecting only specific actions). More specific attributes override more general ones."
+        },
+        {
+            "id": "081",
+            "text": "What is the main advantage of using Minimal APIs in ASP.NET Core?",
+            "type": "multiple-choice",
+            "category": ".NET Core & ASP.NET Core",
+            "answers": [
+                "To create HTTP APIs with minimal ceremony and boilerplate code.",
+                "To minimize the memory footprint of the application.",
+                "To create the smallest possible executable file.",
+                "To use minimal dependencies in the project."
+            ],
+            "correctAnswer": "To create HTTP APIs with minimal ceremony and boilerplate code.",
+            "explanation": "Minimal APIs simplify the process of creating HTTP APIs by reducing the amount of boilerplate code required. They provide a more streamlined, top-level approach for simple APIs while still supporting the full power of ASP.NET Core for more complex scenarios."
+        },
+        {
+            "id": "082",
+            "text": "In a microservices architecture, what is the purpose of the 'Backends for Frontends' (BFF) pattern?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To create separate API gateways tailored to specific client applications.",
+                "To move all business logic to the frontend applications.",
+                "To use backend services as frontend templates.",
+                "To create backups for frontend services."
+            ],
+            "explanation": "The Backends for Frontends pattern creates separate API gateways for different types of clients (web, mobile, etc.). Each BFF is tailored to the specific needs of its client, aggregating data from multiple microservices and providing an optimized API for that client type.",
+            "correctAnswer": "To create separate API gateways tailored to specific client applications."
+        },
+        {
+            "id": "083",
+            "text": "Event Sourcing is a pattern where state changes are stored as a sequence of events rather than current state.",
+            "type": "true-false",
+            "category": "Microservices Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In Event Sourcing, instead of storing the current state of an entity, the system stores a sequence of state-changing events. The current state can be reconstructed by replaying the events. This provides a complete audit trail and enables powerful features like temporal queries and event replay."
+        },
+        {
+            "id": "084",
+            "text": "What is the primary role of a Service Mesh in microservices architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "To handle service-to-service communication, observability, and security concerns.",
+                "To mesh multiple services into a single monolithic application.",
+                "To create a visual mesh network diagram of services.",
+                "To manage the database connections for all services."
+            ],
+            "correctAnswer": "To handle service-to-service communication, observability, and security concerns.",
+            "explanation": "A Service Mesh (like Istio or Linkerd) is a dedicated infrastructure layer that handles cross-cutting concerns for microservices: service discovery, load balancing, failure recovery, metrics, monitoring, and more complex operations like A/B testing and canary releases."
+        },
+        {
+            "id": "085",
+            "text": "In your National Violations Platform project, which microservices pattern would help handle the integration with multiple government agencies?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "The API Gateway pattern to provide a unified entry point and handle agency-specific integrations.",
+                "The Shared Database pattern to store all violation data in one place.",
+                "The Monolithic pattern to ensure all agency logic is in one service.",
+                "The Event Sourcing pattern to track all user interactions."
+            ],
+            "correctAnswer": "The API Gateway pattern to provide a unified entry point and handle agency-specific integrations.",
+            "explanation": "An API Gateway would be ideal for the National Violations Platform as it can provide a single unified API to citizens while handling the complexity of integrating with multiple government agencies (traffic, municipal, commercial) behind the scenes, potentially using different protocols and data formats."
+        },
+        {
+            "id": "086",
+            "text": "What is the main principle behind the 'Open/Closed Principle' in SOLID?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "Software entities should be open for extension but closed for modification.",
+                "All classes should be open for anyone to use.",
+                "Code should be open source and closed for proprietary use.",
+                "Systems should be open during development and closed after deployment."
+            ],
+            "correctAnswer": "Software entities should be open for extension but closed for modification.",
+            "explanation": "The Open/Closed Principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means you should be able to add new functionality without changing existing code, typically achieved through abstraction and polymorphism."
+        },
+        {
+            "id": "087",
+            "text": "The Factory pattern is used to create families of related objects without specifying their concrete classes.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This description actually matches the Abstract Factory pattern. The regular Factory Method pattern defines an interface for creating an object but lets subclasses decide which class to instantiate. The Abstract Factory pattern provides an interface for creating families of related or dependent objects."
+        },
+        {
+            "id": "088",
+            "text": "What is the primary benefit of using the Strategy pattern?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "To define a family of algorithms, encapsulate each one, and make them interchangeable.",
+                "To strategize about which design patterns to use in a project.",
+                "To create strategic business plans for software development.",
+                "To optimize algorithms for better performance."
+            ],
+            "correctAnswer": "To define a family of algorithms, encapsulate each one, and make them interchangeable.",
+            "explanation": "The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. This is useful when you have multiple ways to perform an operation and want to select the appropriate one at runtime."
+        },
+        {
+            "id": "089",
+            "text": "In Domain-Driven Design, a Value Object is defined by its attributes rather than an identity.",
+            "type": "true-false",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Value Objects are immutable objects that are defined by their attributes rather than a unique identity. Two Value Objects with the same attributes are considered equal. Examples include Money, Date Range, and Address. They are typically used as properties within Entities."
+        },
+        {
+            "id": "090",
+            "text": "What is the main purpose of the Decorator pattern?",
+            "type": "multiple-choice",
+            "category": "Software Design & Architecture",
+            "answers": [
+                "To attach additional responsibilities to an object dynamically.",
+                "To decorate the user interface with visual elements.",
+                "To add comments and documentation to code.",
+                "To create decorative borders around objects."
+            ],
+            "correctAnswer": "To attach additional responsibilities to an object dynamically.",
+            "explanation": "The Decorator pattern allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class. This provides a flexible alternative to subclassing for extending functionality."
+        },
+        {
+            "id": "091",
+            "text": "In Scrum, what is the time-box for a Daily Scrum meeting?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "15 minutes",
+                "30 minutes",
+                "1 hour",
+                "As long as needed"
+            ],
+            "correctAnswer": "15 minutes",
+            "explanation": "The Daily Scrum is time-boxed to 15 minutes, regardless of the team's size or the complexity of the project. This ensures the meeting remains focused and efficient, covering progress toward the Sprint Goal and identifying impediments."
+        },
+        {
+            "id": "092",
+            "text": "A Product Owner can cancel a Sprint at any time.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "According to Scrum, the Product Owner has the authority to cancel a Sprint, but this is rare and should only be done when the Sprint Goal becomes obsolete. If a Sprint is cancelled, completed Product Backlog items are reviewed and the remaining items are re-estimated and put back on the Product Backlog."
+        },
+        {
+            "id": "093",
+            "text": "As a Team Lead, how would you approach a situation where team velocity has been decreasing over several sprints?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Facilitate a retrospective to identify root causes and create an improvement plan.",
+                "Pressure the team to work faster to meet previous velocity.",
+                "Ignore the trend as velocity naturally fluctuates.",
+                "Artificially inflate velocity estimates to compensate."
+            ],
+            "correctAnswer": "Facilitate a retrospective to identify root causes and create an improvement plan.",
+            "explanation": "A good Team Lead uses decreasing velocity as an opportunity for improvement rather than a reason for blame. Facilitating an honest retrospective to identify impediments (technical debt, unclear requirements, external distractions) and creating a concrete action plan addresses the root causes."
+        },
+        {
+            "id": "094",
+            "text": "According to ITIL, a Problem is the underlying cause of one or more Incidents.",
+            "type": "true-false",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In ITIL terminology, an Incident is an unplanned interruption to a service, while a Problem is the underlying cause of one or more Incidents. Problem Management focuses on identifying and eliminating root causes, while Incident Management focuses on restoring service quickly."
+        },
+        {
+            "id": "095",
+            "text": "What leadership style is most effective for a Team Lead in a mature, self-organizing agile team?",
+            "type": "multiple-choice",
+            "category": "Agile & Team Leadership",
+            "answers": [
+                "Servant leadership, focusing on removing impediments and enabling the team.",
+                "Command-and-control, making all technical decisions.",
+                "Laissez-faire, completely hands-off approach.",
+                "Micro-management, closely monitoring every task."
+            ],
+            "correctAnswer": "Servant leadership, focusing on removing impediments and enabling the team.",
+            "explanation": "Servant leadership is the most effective style for agile teams. The Team Lead serves the team by removing impediments, facilitating decisions, protecting the team from distractions, and creating an environment where the team can do its best work. This aligns with the Scrum Master role."
+        },
+        {
+            "id": "096",
+            "text": "What is the primary purpose of database connection pooling?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "To reuse existing database connections instead of creating new ones for each request.",
+                "To pool multiple databases into a single logical database.",
+                "To create a pool of database administrators.",
+                "To pool database queries for batch execution."
+            ],
+            "correctAnswer": "To reuse existing database connections instead of creating new ones for each request.",
+            "explanation": "Database connection pooling maintains a cache of database connections that can be reused when future requests to the database are required. This significantly improves performance since creating new database connections is expensive in terms of time and resources."
+        },
+        {
+            "id": "097",
+            "text": "A database transaction must always be read-only or read-write, but not both.",
+            "type": "true-false",
+            "category": "Databases",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A database transaction can include both read and write operations. The ACID properties ensure that even mixed read-write transactions maintain consistency and isolation from other concurrent transactions."
+        },
+        {
+            "id": "098",
+            "text": "What is the main advantage of using Database Migrations?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "To version control database schema changes and apply them consistently across environments.",
+                "To migrate data from one database vendor to another.",
+                "To automatically migrate data to the cloud.",
+                "To create database backups before making changes."
+            ],
+            "correctAnswer": "To version control database schema changes and apply them consistently across environments.",
+            "explanation": "Database migrations are scripts that define incremental changes to the database schema. They allow you to version control your database schema, apply changes consistently across development, testing, and production environments, and roll back changes if needed."
+        },
+        {
+            "id": "099",
+            "text": "In Redis, what data structure would be most appropriate for implementing a leaderboard?",
+            "type": "multiple-choice",
+            "category": "Databases",
+            "answers": [
+                "Sorted Set (ZSET), which maintains elements sorted by score.",
+                "List, which maintains insertion order.",
+                "Hash, which stores field-value pairs.",
+                "String, which stores simple key-value pairs."
+            ],
+            "correctAnswer": "Sorted Set (ZSET), which maintains elements sorted by score.",
+            "explanation": "Redis Sorted Sets are perfect for leaderboards because they automatically maintain elements sorted by their scores. You can easily get ranges of elements (top N users), update scores atomically, and get rankings efficiently - all common operations needed for a leaderboard system."
+        },
+        {
+            "id": "100",
+            "text": "What is the primary purpose of Docker Compose in development environments?",
+            "type": "multiple-choice",
+            "category": "Cloud & DevOps",
+            "answers": [
+                "To define and run multi-container Docker applications with a single command.",
+                "To compose Docker images from multiple source files.",
+                "To compile source code inside Docker containers.",
+                "To compose documentation for Docker configurations."
+            ],
+            "correctAnswer": "To define and run multi-container Docker applications with a single command.",
+            "explanation": "Docker Compose allows you to define a multi-container application in a YAML file and then start all the services with a single command (docker-compose up). This is extremely useful in development environments where you need to run multiple services together (app, database, cache, etc.)."
+        }
+
+    ]
+}
