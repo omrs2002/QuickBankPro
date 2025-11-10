@@ -1,0 +1,1275 @@
+{
+	"categoryId" : 1,
+    "IsFree" : true,
+    "title": " - محدث - تحدي المعرفة العامة الشامل (النسخة الإنجليزية)",
+    "titleEn": "Comprehensive General Knowledge Challenge (English Version) - Updated",
+    "description": "300 diverse questions to test your general knowledge in multiple fields.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "en-pro-q1",
+            "text": "In which year did the Ottoman Caliphate officially end?",
+            "type": "multiple-choice",
+            "category": "History",
+            "answers": ["1918", "1922", "1924", "1920"],
+            "correctAnswer": "1924",
+            "explanation": "The Ottoman Caliphate was officially abolished on March 3, 1924, by **Mustafa Kemal Atatürk**."
+        },
+        {
+            "id": "en-pro-q2",
+            "text": "Who was the Muslim leader who conquered Andalusia?",
+            "type": "multiple-choice",
+            "category": "History",
+            "answers": ["Musa ibn Nusayr", "Uqba ibn Nafi", "Tariq ibn Ziyad", "Abd al-Rahman I"],
+            "correctAnswer": "Tariq ibn Ziyad",
+            "explanation": "Tariq ibn Ziyad led the Islamic army across the Strait of Gibraltar in 711 AD."
+        },
+        {
+            "id": "en-pro-q3",
+            "text": "What is the oldest known civilization in Mesopotamia?",
+            "type": "multiple-choice",
+            "category": "History",
+            "answers": ["Babylonian", "Assyrian", "Sumerian", "Akkadian"],
+            "correctAnswer": "Sumerian",
+            "explanation": "The Sumerian civilization flourished around 4500-1900 BC and is known for innovations like cuneiform writing."
+        },
+        {
+            "id": "en-pro-q4",
+            "text": "Who was the first Roman Emperor?",
+            "type": "multiple-choice",
+            "category": "History",
+            "answers": ["Julius Caesar", "Nero", "Augustus Caesar", "Caligula"],
+            "correctAnswer": "Augustus Caesar",
+            "explanation": "Augustus Caesar (Octavian) is considered the first emperor of Rome, ruling from 27 BC to 14 AD."
+        },
+        {
+            "id": "en-pro-q5",
+            "text": "In which year did the French Revolution begin?",
+            "type": "multiple-choice",
+            "category": "History",
+            "answers": ["1776", "1789", "1804", "1815"],
+            "correctAnswer": "1789",
+            "explanation": "The French Revolution began with the storming of the Bastille on July 14, 1789."
+        },
+        {
+            "id": "en-pro-q41",
+            "text": "What is the longest river in the world?",
+            "type": "multiple-choice",
+            "category": "Geography",
+            "answers": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+            "correctAnswer": "Nile River",
+            "explanation": "The Nile River is traditionally considered the longest river in the world, although there is some debate as to whether the Amazon is longer."
+        },
+        {
+            "id": "en-pro-q42",
+            "text": "What is the highest mountain peak in the world?",
+            "type": "multiple-choice",
+            "category": "Geography",
+            "answers": ["Mount Kilimanjaro", "Mount Everest", "K2", "Mont Blanc"],
+            "correctAnswer": "Mount Everest",
+            "explanation": "Mount Everest is located in the Himalayas and its peak is about 8,848 meters above sea level."
+        },
+        {
+            "id": "en-pro-q43",
+            "text": "What is the capital of Australia?",
+            "type": "multiple-choice",
+            "category": "Geography",
+            "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+            "correctAnswer": "Canberra",
+            "explanation": "Although Sydney is the most famous city, Canberra is the official capital of Australia."
+        },
+        {
+            "id": "en-pro-q44",
+            "text": "What is the largest hot desert in the world?",
+            "type": "multiple-choice",
+            "category": "Geography",
+            "answers": ["Arabian Desert", "Gobi Desert", "Sahara Desert", "Kalahari Desert"],
+            "correctAnswer": "Sahara Desert",
+            "explanation": "The Sahara Desert covers most of North Africa. The largest desert overall is the Antarctic Polar Desert."
+        },
+        {
+            "id": "en-pro-q45",
+            "text": "Which ocean is the largest and deepest in the world?",
+            "type": "multiple-choice",
+            "category": "Geography",
+            "answers": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+            "correctAnswer": "Pacific Ocean",
+            "explanation": "The Pacific Ocean covers about one-third of the Earth's surface and contains the deepest point, the Mariana Trench."
+        },
+        {
+            "id": "en-pro-q81",
+            "text": "What is the most abundant chemical element in Earth's atmosphere?",
+            "type": "multiple-choice",
+            "category": "Science",
+            "answers": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
+            "correctAnswer": "Nitrogen",
+            "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, while Oxygen makes up about 21%."
+        },
+        {
+            "id": "en-pro-q82",
+            "text": "Which scientist is credited with the theory of relativity?",
+            "type": "multiple-choice",
+            "category": "Science",
+            "answers": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Nikola Tesla"],
+            "correctAnswer": "Albert Einstein",
+            "explanation": "Einstein published his theory of special relativity in 1905 and general relativity in 1915, revolutionizing physics."
+        },
+        {
+            "id": "en-pro-q83",
+            "text": "What is the process by which plants convert sunlight into energy?",
+            "type": "multiple-choice",
+            "category": "Science",
+            "answers": ["Respiration", "Transpiration", "Photosynthesis", "Fermentation"],
+            "correctAnswer": "Photosynthesis",
+            "explanation": "Plants use photosynthesis to convert carbon dioxide and water into glucose (energy) and oxygen."
+        },
+        {
+            "id": "en-pro-q84",
+            "text": "What is the chemical symbol for gold?",
+            "type": "multiple-choice",
+            "category": "Science",
+            "answers": ["Ag", "Go", "Au", "Gd"],
+            "correctAnswer": "Au",
+            "explanation": "The symbol 'Au' comes from the Latin word for gold, 'aurum'."
+        },
+        {
+            "id": "en-pro-q85",
+            "text": "What is the 'powerhouse' of the cell?",
+            "type": "multiple-choice",
+            "category": "Science",
+            "answers": ["Nucleus", "Ribosome", "Mitochondrion", "Golgi apparatus"],
+            "correctAnswer": "Mitochondrion",
+            "explanation": "Mitochondria are the organelles responsible for generating most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+        },
+        {
+            "id": "en-pro-q161",
+            "text": "What does 'CPU' stand for in the world of computers?",
+            "type": "multiple-choice",
+            "category": "Technology",
+            "answers": ["Central Processing Unit", "Control Power Unit", "Visual Display Unit", "Main Control Panel"],
+            "correctAnswer": "Central Processing Unit",
+            "explanation": "The CPU is the 'brain' of the computer."
+        },
+        {
+            "id": "en-pro-q162",
+            "text": "Who is the founder of Microsoft?",
+            "type": "multiple-choice",
+            "category": "Technology",
+            "answers": ["Steve Jobs", "Bill Gates", "Larry Page", "Jeff Bezos"],
+            "correctAnswer": "Bill Gates",
+            "explanation": "Bill Gates and Paul Allen founded Microsoft in 1975."
+        },
+        {
+            "id": "en-pro-q163",
+            "text": "What does 'WWW' stand for?",
+            "type": "multiple-choice",
+            "category": "Technology",
+            "answers": ["World Wide Web", "World Web Wide", "Web World Wide", "Wide World Web"],
+            "correctAnswer": "World Wide Web",
+            "explanation": "The World Wide Web is a system of interconnected hypertext documents that runs over the Internet."
+        },
+        {
+            "id": "en-pro-q164",
+            "text": "Which of these is NOT a programming language?",
+            "type": "multiple-choice",
+            "category": "Technology",
+            "answers": ["Python", "Java", "HTML", "C++"],
+            "correctAnswer": "HTML",
+            "explanation": "HTML is a markup language used to structure the content of web pages, not a full-fledged programming language."
+        },
+        {
+            "id": "en-pro-q165",
+            "text": "Which company initially developed the 'Android' operating system?",
+            "type": "multiple-choice",
+            "category": "Technology",
+            "answers": ["Samsung", "Google", "Android Inc.", "Nokia"],
+            "correctAnswer": "Android Inc.",
+            "explanation": "Android Inc. developed the operating system, which was then acquired by Google in 2005."
+        },
+        {
+            "id": "en-pro-q201",
+            "text": "Which country has won the most FIFA World Cups?",
+            "type": "multiple-choice",
+            "category": "Sports",
+            "answers": ["Germany", "Italy", "Argentina", "Brazil"],
+            "correctAnswer": "Brazil",
+            "explanation": "Brazil has won the World Cup a record 5 times."
+        },
+        {
+            "id": "en-pro-q202",
+            "text": "How many players are on a standard basketball team on the court?",
+            "type": "multiple-choice",
+            "category": "Sports",
+            "answers": ["5 players", "6 players", "7 players", "11 players"],
+            "correctAnswer": "5 players",
+            "explanation": "Each basketball team consists of 5 players on the court at the same time."
+        },
+        {
+            "id": "en-pro-q203",
+            "text": "Who is the world's fastest sprinter and holds the record for the 100-meter dash?",
+            "type": "multiple-choice",
+            "category": "Sports",
+            "answers": ["Carl Lewis", "Tyson Gay", "Usain Bolt", "Justin Gatlin"],
+            "correctAnswer": "Usain Bolt",
+            "explanation": "Jamaican sprinter Usain Bolt holds the world record for the 100-meter dash with a time of 9.58 seconds."
+        },
+        {
+            "id": "en-pro-q204",
+            "text": "What is the duration of one half in a soccer match?",
+            "type": "multiple-choice",
+            "category": "Sports",
+            "answers": ["40 minutes", "45 minutes", "50 minutes", "60 minutes"],
+            "correctAnswer": "45 minutes",
+            "explanation": "A soccer match consists of two halves, each 45 minutes long."
+        },
+        {
+            "id": "en-pro-q205",
+            "text": "In which sport is the term 'Knockout' used?",
+            "type": "multiple-choice",
+            "category": "Sports",
+            "answers": ["Tennis", "Baseball", "Boxing", "Golf"],
+            "correctAnswer": "Boxing",
+            "explanation": "A knockout (KO) is one of the ways to end a bout in combat sports like boxing."
+        },
+          {
+    "id": "en-pro-q205",
+    "text": "In which sport is the term 'Knockout' used?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Tennis",
+      "Baseball",
+      "Boxing",
+      "Golf"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Knockout (KO) is one of the ways to end a match in combat sports like boxing."
+  },
+  {
+    "id": "en-pro-q206",
+    "text": "What is the official distance of a marathon race?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "20.5 kilometers",
+      "30.1 kilometers",
+      "42.195 kilometers",
+      "50 kilometers"
+    ],
+    "correctAnswer": "42.195 kilometers",
+    "explanation": "The official marathon distance was set at 42.195 km (26.2 miles) during the 1908 Olympics."
+  },
+  {
+    "id": "en-pro-q207",
+    "text": "Which basketball player is known by the nickname 'The King'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Michael Jordan",
+      "Kobe Bryant",
+      "LeBron James",
+      "Shaquille O'Neal"
+    ],
+    "correctAnswer": "LeBron James",
+    "explanation": "LeBron James is the famous basketball player who carries the nickname 'King James'."
+  },
+  {
+    "id": "en-pro-q208",
+    "text": "In which sport is the 'Black Belt' awarded as the highest rank?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Fencing",
+      "Taekwondo and Karate",
+      "Weightlifting",
+      "Gymnastics"
+    ],
+    "correctAnswer": "Taekwondo and Karate",
+    "explanation": "In many Japanese and Korean martial arts, the black belt represents an advanced level of expertise."
+  },
+  {
+    "id": "en-pro-q209",
+    "text": "Which country hosted the 2022 FIFA World Cup?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Brazil",
+      "Russia",
+      "Qatar",
+      "France"
+    ],
+    "correctAnswer": "Qatar",
+    "explanation": "Qatar was the first Middle Eastern country to host the FIFA World Cup tournament."
+  },
+  {
+    "id": "en-pro-q210",
+    "text": "How many points does a touchdown award in American football?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "3 points",
+      "6 points",
+      "7 points",
+      "2 points"
+    ],
+    "correctAnswer": "6 points",
+    "explanation": "A touchdown awards 6 points, with an opportunity for an extra point (kick) or two points (conversion attempt)."
+  },
+  {
+    "id": "en-pro-q211",
+    "text": "Which tennis player holds the record for the most 'Grand Slam' titles in men's tennis?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Pete Sampras",
+      "Novak Djokovic"
+    ],
+    "correctAnswer": "Novak Djokovic",
+    "explanation": "As of 2024, Novak Djokovic has surpassed his rivals to become the most decorated player in men's tennis Grand Slam history."
+  },
+  {
+    "id": "en-pro-q212",
+    "text": "Which sport does 'Lionel Messi' play?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Basketball",
+      "Tennis",
+      "Soccer",
+      "Cricket"
+    ],
+    "correctAnswer": "Soccer",
+    "explanation": "Lionel Messi is an Argentine soccer player and is considered one of the greatest players in the history of the game."
+  },
+  {
+    "id": "en-pro-q213",
+    "text": "Where were the first modern Olympic Games held?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Athens"
+    ],
+    "correctAnswer": "Athens",
+    "explanation": "The first modern Olympic Games were held in Athens, Greece, in 1896."
+  },
+  {
+    "id": "en-pro-q214",
+    "text": "What is the most watched sporting event in the world?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "FIFA World Cup Final",
+      "Super Bowl (American Football)",
+      "Summer Olympics Opening Ceremony",
+      "Formula 1 Racing"
+    ],
+    "correctAnswer": "FIFA World Cup Final",
+    "explanation": "The FIFA World Cup Final regularly attracts the largest number of viewers worldwide, surpassing other events."
+  },
+  {
+    "id": "en-pro-q215",
+    "text": "In tennis, what does 'Love' mean?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Winning point",
+      "Tie",
+      "Zero",
+      "End of set"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "In the tennis scoring system, 'Love' means zero. (15-Love means 15-0)."
+  },
+  {
+    "id": "en-pro-q216",
+    "text": "Which boxer was famous for the phrase 'Float like a butterfly, sting like a bee'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Mike Tyson",
+      "Muhammad Ali",
+      "Joe Frazier",
+      "George Foreman"
+    ],
+    "correctAnswer": "Muhammad Ali",
+    "explanation": "This famous phrase described Muhammad Ali's unique boxing style."
+  },
+  {
+    "id": "en-pro-q217",
+    "text": "How many holes are in a standard golf course?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ],
+    "correctAnswer": "18",
+    "explanation": "A standard round of golf consists of playing 18 holes."
+  },
+  {
+    "id": "en-pro-q218",
+    "text": "Which sport is known as 'the king of sports'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Soccer",
+      "Basketball",
+      "Tennis",
+      "Boxing"
+    ],
+    "correctAnswer": "Soccer",
+    "explanation": "Soccer (Association football) is known by this title for being the most popular and widespread sport in the world."
+  },
+  {
+    "id": "en-pro-q219",
+    "text": "Which country won the first FIFA World Cup in 1930?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Brazil",
+      "Italy",
+      "Uruguay",
+      "Germany"
+    ],
+    "correctAnswer": "Uruguay",
+    "explanation": "Uruguay hosted and won the first World Cup after defeating Argentina in the final."
+  },
+  {
+    "id": "en-pro-q220",
+    "text": "What are the five colors of the Olympic rings?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Blue, yellow, black, green, red",
+      "Blue, orange, black, green, red",
+      "Blue, yellow, purple, green, red",
+      "White, yellow, black, green, red"
+    ],
+    "correctAnswer": "Blue, yellow, black, green, red",
+    "explanation": "The five rings represent the five continents, and the colors (including white for the background) were chosen because every national flag in the world contains at least one of them."
+  },
+  {
+    "id": "en-pro-q221",
+    "text": "Who is 'Michael Jordan'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Legendary soccer player",
+      "Legendary basketball player",
+      "Olympic swimmer",
+      "World boxing champion"
+    ],
+    "correctAnswer": "Legendary basketball player",
+    "explanation": "Michael Jordan is widely considered the greatest basketball player in history, leading the Chicago Bulls to 6 NBA championships."
+  },
+  {
+    "id": "en-pro-q222",
+    "text": "What is the name of the major tennis tournament held in London, England?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "US Open",
+      "French Open (Roland Garros)",
+      "Australian Open",
+      "Wimbledon"
+    ],
+    "correctAnswer": "Wimbledon",
+    "explanation": "Wimbledon is the oldest tennis tournament in the world and is famous for being the only one played on grass courts."
+  },
+  {
+    "id": "en-pro-q223",
+    "text": "In which city is 'Real Madrid' football club located?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Barcelona",
+      "Madrid",
+      "Seville",
+      "Valencia"
+    ],
+    "correctAnswer": "Madrid",
+    "explanation": "Real Madrid is a professional football club based in Madrid, Spain."
+  },
+  {
+    "id": "en-pro-q224",
+    "text": "Which sport is 'Serena Williams' famous for?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Athletics",
+      "Gymnastics",
+      "Swimming",
+      "Tennis"
+    ],
+    "correctAnswer": "Tennis",
+    "explanation": "Serena Williams is one of the greatest tennis players in history, having won numerous Grand Slam titles."
+  },
+  {
+    "id": "en-pro-q225",
+    "text": "How many sets in a men's tennis match at Grand Slam tournaments?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Best of 2 sets",
+      "Best of 3 sets",
+      "Best of 5 sets",
+      "Best of 7 sets"
+    ],
+    "correctAnswer": "Best of 5 sets",
+    "explanation": "A player must win 3 out of 5 sets to win the match in men's Grand Slam tournaments."
+  },
+  {
+    "id": "en-pro-q226",
+    "text": "What is the highest governing body of football in the world?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "UEFA",
+      "FIFA",
+      "IOC (International Olympic Committee)",
+      "NBA"
+    ],
+    "correctAnswer": "FIFA",
+    "explanation": "The International Federation of Association Football (FIFA) is the global governing body of football, responsible for organizing the World Cup."
+  },
+  {
+    "id": "en-pro-q227",
+    "text": "Which sport involves 'swimming', 'cycling', and 'running'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "Modern Pentathlon",
+      "Triathlon",
+      "Marathon",
+      "Decathlon"
+    ],
+    "correctAnswer": "Triathlon",
+    "explanation": "A triathlon is a race consisting of three consecutive stages of swimming, cycling, and running."
+  },
+  {
+    "id": "en-pro-q228",
+    "text": "What is the 'Super Bowl'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "World Baseball Championship",
+      "NFL Championship Final (American Football)",
+      "Famous car race",
+      "Heavyweight boxing championship"
+    ],
+    "correctAnswer": "NFL Championship Final (American Football)",
+    "explanation": "The Super Bowl is the final game of the National Football League (NFL) and is the most-watched sporting event in the United States."
+  },
+  {
+    "id": "en-pro-q229",
+    "text": "How many gold medals did swimmer 'Michael Phelps' win in the Olympics?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "12",
+      "18",
+      "23",
+      "28"
+    ],
+    "correctAnswer": "23",
+    "explanation": "Michael Phelps is the most decorated Olympian in history with a total of 28 medals, including 23 gold medals."
+  },
+  {
+    "id": "en-pro-q230",
+    "text": "What is the nationality of Formula 1 driver 'Lewis Hamilton'?",
+    "type": "multiple-choice",
+    "category": "Sports",
+    "answers": [
+      "German",
+      "British",
+      "French",
+      "Brazilian"
+    ],
+    "correctAnswer": "British",
+    "explanation": "Lewis Hamilton is a British racing driver and is considered one of the most successful drivers in Formula 1 history."
+  },
+  {
+    "id": "en-pro-q231",
+    "text": "Cricket is played with two teams of 11 players each.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "Cricket is a bat-and-ball sport played between two teams of 11 players."
+  },
+  {
+    "id": "en-pro-q232",
+    "text": "Mohamed Salah is an Egyptian football player who plays for Liverpool.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "Mohamed Salah is one of the most prominent players in the world, playing as a forward for Liverpool and the Egyptian national team."
+  },
+  {
+    "id": "en-pro-q233",
+    "text": "The Summer Olympics are held every 5 years.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False",
+    "explanation": "The Summer and Winter Olympics are held every 4 years."
+  },
+  {
+    "id": "en-pro-q234",
+    "text": "In soccer, a red card means the player is ejected from the match.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "The red card is used to penalize serious offenses, and the player who receives it must leave the field immediately."
+  },
+  {
+    "id": "en-pro-q235",
+    "text": "The sport of 'Rugby' originated in the United States.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False",
+    "explanation": "Rugby originated in England at Rugby School in the early 19th century."
+  },
+  {
+    "id": "en-pro-q236",
+    "text": "Baseball player 'Babe Ruth' was famous for playing for the New York Yankees.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "Babe Ruth is considered one of the greatest baseball legends and played a major role in the success of the New York Yankees."
+  },
+  {
+    "id": "en-pro-q237",
+    "text": "A soccer goalkeeper cannot touch the ball with their hands outside the penalty area.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "The goalkeeper is only allowed to use their hands within their own penalty area."
+  },
+  {
+    "id": "en-pro-q238",
+    "text": "The 'Indy 500' is a motorcycle race.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False",
+    "explanation": "The Indianapolis 500 (Indy 500) is a famous car race held in the United States."
+  },
+  {
+    "id": "en-pro-q239",
+    "text": "'Pelé' is known as a Brazilian football legend.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "Pelé is the only player to have won the World Cup three times (1958, 1962, 1970) and is widely considered one of the greatest players of all time."
+  },
+  {
+    "id": "en-pro-q240",
+    "text": "The 'Masters Tournament' is known as one of the four major tournaments in tennis.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False",
+    "explanation": "The Masters Tournament is one of the four major championships (Majors) in golf, not tennis."
+  },
+  {
+    "id": "en-pro-q241",
+    "text": "Player 'Kareem Abdul-Jabbar' is the all-time leading scorer in the NBA.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False",
+    "explanation": "Kareem Abdul-Jabbar was the all-time leading scorer for decades, but 'LeBron James' surpassed him in 2023 to become the new all-time leading scorer in the NBA."
+  },
+  {
+    "id": "en-pro-q242",
+    "text": "FC Barcelona football club was founded in Spain.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "FC Barcelona was founded in 1899 and is located in Barcelona, Catalonia, Spain."
+  },
+  {
+    "id": "en-pro-q243",
+    "text": "The objective in bowling is to knock down 12 pins.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False",
+    "explanation": "The objective is to knock down 10 pins using the ball."
+  },
+  {
+    "id": "en-pro-q244",
+    "text": "An ice hockey match lasts 60 minutes of actual playing time.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "The game is divided into three periods, each lasting 20 minutes of actual playing time."
+  },
+  {
+    "id": "en-pro-q245",
+    "text": "Spain has won the FIFA World Cup only once.",
+    "type": "true-false",
+    "category": "Sports",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True",
+    "explanation": "Spain achieved its only World Cup victory in the 2010 tournament held in South Africa."
+  },
+  {
+    "id": "en-pro-q246",
+    "text": "The 'Tour de France' is the most famous ___ race in the world.",
+    "type": "fill-in-the-blank",
+    "category": "Sports",
+    "answers": [],
+    "correctAnswer": "cycling",
+    "explanation": "The Tour de France is one of the three 'Grand Tours' of cycling and is held annually in France."
+  },
+  {
+    "id": "en-pro-q247",
+    "text": "In chess, the only piece that can jump over other pieces is the ___.",
+    "type": "fill-in-the-blank",
+    "category": "Sports",
+    "answers": [],
+    "correctAnswer": "knight",
+    "explanation": "The knight moves in an L-shape and is the only piece that is not obstructed by other pieces in its path."
+  },
+  {
+    "id": "en-pro-q248",
+    "text": "The American professional basketball league is known as ___.",
+    "type": "fill-in-the-blank",
+    "category": "Sports",
+    "answers": [],
+    "correctAnswer": "NBA",
+    "explanation": "NBA stands for National Basketball Association and is the strongest and most famous basketball league in the world."
+  },
+  {
+    "id": "en-pro-q249",
+    "text": "The player who scores goals in soccer is called a ___.",
+    "type": "fill-in-the-blank",
+    "category": "Sports",
+    "answers": [],
+    "correctAnswer": "striker",
+    "explanation": "The striker is the player whose position is closest to the opponent's goal and whose primary task is to score goals."
+  },
+  {
+    "id": "en-pro-q250",
+    "text": "The winner in first place at the Olympics is awarded a ___ medal.",
+    "type": "fill-in-the-blank",
+    "category": "Sports",
+    "answers": [],
+    "correctAnswer": "gold",
+    "explanation": "The top three positions win medals: gold (first), silver (second), and bronze (third)."
+  },
+  
+    {
+      "id": "en-pro-q251",
+      "text": "What has an eye, but cannot see? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A needle",
+      "explanation": "A needle has an 'eye' (the hole for the thread) but cannot see."
+    },
+    {
+      "id": "en-pro-q252",
+      "text": "What gets wetter as it dries? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A towel",
+      "explanation": "A towel absorbs water (gets wetter) while it is drying you."
+    },
+    {
+      "id": "en-pro-q253",
+      "text": "What is full of holes but still holds water? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A sponge",
+      "explanation": "A sponge is porous and full of holes, which is how it absorbs and holds water."
+    },
+    {
+      "id": "en-pro-q254",
+      "text": "What has many keys but can't open a single lock? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A piano",
+      "explanation": "A piano has keys that you play, but they don't open doors."
+    },
+    {
+      "id": "en-pro-q255",
+      "text": "What has a neck without a head, and a body without legs? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A bottle",
+      "explanation": "A bottle has a 'neck' but no head, and a 'body' but no legs."
+    },
+    {
+      "id": "en-pro-q256",
+      "text": "What must be broken before you can use it? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "An egg",
+      "explanation": "You have to break the shell of an egg to cook or eat it."
+    },
+    {
+      "id": "en-pro-q257",
+      "text": "What is always in front of you but can't be seen? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "The future",
+      "explanation": "The future is always ahead of us, but we cannot see what it holds."
+    },
+    {
+      "id": "en-pro-q258",
+      "text": "What has a thumb and four fingers, but is not a hand? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A glove",
+      "explanation": "A glove is shaped to fit a hand, but it is not a hand itself."
+    },
+    {
+      "id": "en-pro-q259",
+      "text": "What goes up but never comes down? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Your age",
+      "explanation": "Your age constantly increases (goes up) and never decreases."
+    },
+    {
+      "id": "en-pro-q260",
+      "text": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "An echo",
+      "explanation": "An echo 'speaks' by repeating sounds and 'hears' the sound to repeat it, but it's just sound waves."
+    },
+    {
+      "id": "en-pro-q261",
+      "text": "What has to be broken before it can be used? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "An egg",
+      "explanation": "You must break an egg's shell to use the inside."
+    },
+    {
+      "id": "en-pro-q262",
+      "text": "What has many teeth but cannot bite? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A comb",
+      "explanation": "A comb has teeth used for styling hair, but it doesn't bite."
+    },
+    {
+      "id": "en-pro-q263",
+      "text": "What is black when you buy it, red when you use it, and gray when you throw it away? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Charcoal",
+      "explanation": "Charcoal is black, glows red when hot, and turns to gray ash."
+    },
+    {
+      "id": "en-pro-q264",
+      "text": "What has cities, but no houses; forests, but no trees; and water, but no fish? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A map",
+      "explanation": "A map is a representation of these places, not the places themselves."
+    },
+    {
+      "id": "en-pro-q265",
+      "text": "What can you catch, but not throw? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A cold",
+      "explanation": "This is a play on words. You 'catch a cold' (get sick), but you can't throw it."
+    },
+    {
+      "id": "en-pro-q266",
+      "text": "What has a head and a tail, but no body? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A coin",
+      "explanation": "We refer to the two sides of a coin as 'heads' and 'tails'."
+    },
+    {
+      "id": "en-pro-q267",
+      "text": "What is so fragile that saying its name breaks it? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Silence",
+      "explanation": "The act of speaking (saying 'silence' or anything else) breaks the silence."
+    },
+    {
+      "id": "en-pro-q268",
+      "text": "What building has the most stories? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A library",
+      "explanation": "This is a pun. A library is a building that contains thousands of 'stories' (books)."
+    },
+    {
+      "id": "en-pro-q269",
+      "text": "I am an odd number. Take away a letter, and I become even. What number am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Seven",
+      "explanation": "Take the 'S' away from 'Seven' and it becomes 'Even'."
+    },
+    {
+      "id": "en-pro-q270",
+      "text": "What begins with T, ends with T, and has T in it? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A teapot",
+      "explanation": "A 'teapot' starts with T, ends with T, and is filled with 'tea' (T)."
+    },
+    {
+      "id": "en-pro-q271",
+      "text": "What has one head, one foot, and four legs? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A bed",
+      "explanation": "A bed has a 'head' (headboard), a 'foot' (footboard), and four legs."
+    },
+    {
+      "id": "en-pro-q272",
+      "text": "What can travel all around the world while staying in a corner? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A stamp",
+      "explanation": "A postage stamp stays in the corner of an envelope but travels with it anywhere in the world."
+    },
+    {
+      "id": "en-pro-q273",
+      "text": "What has hands but cannot clap? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A clock",
+      "explanation": "A clock has 'hands' to tell time, but they cannot clap."
+    },
+    {
+      "id": "en-pro-q274",
+      "text": "What can you hold in your left hand but not in your right? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Your right elbow",
+      "explanation": "You can physically hold your left elbow with your right hand, but you cannot hold your right elbow with your right hand."
+    },
+    {
+      "id": "en-pro-q275",
+      "text": "I have a heart that doesn't beat. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "An artichoke",
+      "explanation": "The center of an artichoke is called the 'heart'."
+    },
+    {
+      "id": "en-pro-q276",
+      "text": "What has many words but never speaks? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A book",
+      "explanation": "A book is filled with words, but it cannot speak them aloud."
+    },
+    {
+      "id": "en-pro-q277",
+      "text": "What two things can you never eat for breakfast? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Lunch and Dinner",
+      "explanation": "You can't eat lunch or dinner for breakfast because they are different meals."
+    },
+    {
+      "id": "en-pro-q278",
+      "text": "What is always coming but never arrives? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Tomorrow",
+      "explanation": "When tomorrow comes, it becomes 'today,' so 'tomorrow' itself never truly arrives."
+    },
+    {
+      "id": "en-pro-q279",
+      "text": "What can fill a room but takes up no space? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Light",
+      "explanation": "Light (and also sound or air) fills a room without taking up physical volume."
+    },
+    {
+      "id": "en-pro-q280",
+      "text": "I am light as a feather, yet the strongest person can't hold me for more than 5 minutes. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Breath",
+      "explanation": "You cannot 'hold' your breath for very long."
+    },
+    {
+      "id": "en-pro-q281",
+      "text": "If you drop me, I'm sure to crack. Give me a smile, and I'll always smile back. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A mirror",
+      "explanation": "A mirror will crack if dropped, and it reflects your expression."
+    },
+    {
+      "id": "en-pro-q282",
+      "text": "What goes up and down but doesn't move? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A staircase",
+      "explanation": "A staircase (or stairs) is stationary, but you use it to go up and down."
+    },
+    {
+      "id": "en-pro-q283",
+      "text": "What belongs to you, but other people use it more than you do? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Your name",
+      "explanation": "Other people use your name to call you, refer to you, and talk to you, far more often than you use it yourself."
+    },
+    {
+      "id": "en-pro-q284",
+      "text": "What runs but never walks, has a mouth but never talks? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A river",
+      "explanation": "A river 'runs' its course and has a 'mouth' where it meets the sea, but it cannot walk or talk."
+    },
+    {
+      "id": "en-pro-q285",
+      "text": "What has 13 hearts, but no other organs? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A deck of cards",
+      "explanation": "A standard deck of playing cards has four suits, and one of them is 'Hearts,' with 13 cards (A, 2-10, J, Q, K)."
+    },
+    {
+      "id": "en-pro-q286",
+      "text": "What occurs once in a minute, twice in a moment, but never in a thousand years? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "The letter M",
+      "explanation": "This is a word puzzle. The letter 'M' appears once in 'minute,' twice in 'moment,' and not at all in 'a thousand years.'"
+    },
+    {
+      "id": "en-pro-q287",
+      "text": "What is the end of everything? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "The letter G",
+      "explanation": "This is a pun. The word 'everything' ends with the letter 'G'."
+    },
+    {
+      "id": "en-pro-q288",
+      "text": "I am tall when I am young, and short when I am old. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A candle",
+      "explanation": "A candle is tall when new and gets shorter as it burns down (gets old)."
+    },
+    {
+      "id": "en-pro-q289",
+      "text": "What kind of band never plays music? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A rubber band",
+      "explanation": "A rubber band is a 'band,' but it's for holding things, not playing music."
+    },
+    {
+      "id": "en-pro-q290",
+      "text": "What has many needles, but cannot sew? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A pine tree",
+      "explanation": "A pine tree is covered in 'needles' (its leaves), but it cannot sew."
+    },
+    {
+      "id": "en-pro-q291",
+      "text": "What has a face and two hands but no arms or legs? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A clock",
+      "explanation": "A clock has a 'face' where the numbers are and 'hands' to point to the time."
+    },
+    {
+      "id": "en-pro-q292",
+      "text": "I’m light as a feather, but even the world’s strongest man couldn’t hold me for much longer than a minute. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Breath",
+      "explanation": "You can 'hold your breath,' but only for a very limited time."
+    },
+    {
+      "id": "en-pro-q293",
+      "text": "I have keys but open no locks. I have space but no room. You can enter, but you can't go outside. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A computer keyboard",
+      "explanation": "It has 'keys' (like 'Space' bar) but no 'room' (physical space). You 'enter' data, but you can't 'go outside' (a pun on the Enter key)."
+    },
+    {
+      "id": "en-pro-q294",
+      "text": "What word is spelled incorrectly in every dictionary? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Incorrectly",
+      "explanation": "This is a pun. The word 'incorrectly' is spelled 'incorrectly' in the dictionary."
+    },
+    {
+      "id": "en-pro-q295",
+      "text": "If you have me, you want to share me. If you share me, you haven't kept me. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A secret",
+      "explanation": "The nature of a secret is that once you share it, it is no longer kept."
+    },
+    {
+      "id": "en-pro-q296",
+      "text": "What can be measured but has no length, width, or height? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Temperature",
+      "explanation": "Temperature (and also time) is a measurement that does not have physical dimensions."
+    },
+    {
+      "id": "en-pro-q297",
+      "text": "What has four wheels and flies? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A garbage truck",
+      "explanation": "A garbage truck has four wheels and 'flies' (the insects) are often around it."
+    },
+    {
+      "id": "en-pro-q298",
+      "text": "What has one end but no beginning? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "A rainbow",
+      "explanation": "A rainbow appears as an arc, so you see its ends, but it doesn't have a starting point."
+    },
+    {
+      "id": "en-pro-q299",
+      "text": "I am a word of five letters. People eat me. If you remove the first letter, I become a form of energy. What am I? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Wheat",
+      "explanation": "People eat WHEAT. Remove the 'W', and you are left with HEAT."
+    },
+    {
+      "id": "en-pro-q300",
+      "text": "What follows you all the time and copies your every move, but you can't touch it or catch it? ___",
+      "type": "fill-in-the-blank",
+      "category": "Riddles",
+      "answers": [],
+      "correctAnswer": "Your shadow",
+      "explanation": "Your shadow mimics your movements but is intangible."
+    }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-	"IsFree" : true,
+	"IsFree" : false,
 	"CategoryId" : 1,
     "title": "اختبار معلومات الأطفال",
     "titleEn": "Kids simple exam",

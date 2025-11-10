@@ -1,0 +1,1330 @@
+{
+    "categoryId": 4,
+    "IsFree": true,
+    "title": "مسابقة علوم - جسم الإنسان -انجليزي-",
+    "titleEn": "Human Body Science Competition -English-",
+    "explanation": "Science competition in the human body -Arabic- suitable for high school student level - 100 questions"
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "med-q-1",
+            "text": "How many bones are in the adult human body?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "206",
+                "300",
+                "150",
+                "250"
+            ],
+            "correctAnswer": "206",
+            "explanation": "A baby is born with about 300 bones, but many of them fuse together during growth, reaching the final number of 206 in adulthood."
+        },
+        {
+            "id": "med-q-2",
+            "text": "What is the largest bone in the human body?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Humerus",
+                "Femur",
+                "Skull",
+                "Tibia"
+            ],
+            "correctAnswer": "Femur",
+            "explanation": "The femur (thigh bone) is the longest, strongest, and heaviest bone in the human body, located in the upper leg."
+        },
+        {
+            "id": "med-q-3",
+            "text": "What flexible tissues connect bones to other bones at joints?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Tendons",
+                "Ligaments",
+                "Cartilage",
+                "Muscles"
+            ],
+            "correctAnswer": "Ligaments",
+            "explanation": "Ligaments are strong, fibrous connective tissues that connect bones to each other, providing stability to joints."
+        },
+        {
+            "id": "med-q-4",
+            "text": "What strong tissues connect muscles to bones?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Tendons",
+                "Ligaments",
+                "Arteries",
+                "Nerves"
+            ],
+            "correctAnswer": "Tendons",
+            "explanation": "Tendons are fibrous connective tissues that attach skeletal muscles to bones, allowing muscles to move the bones when they contract."
+        },
+        {
+            "id": "med-q-5",
+            "text": "What type of muscle is found in the walls of internal organs like the stomach and intestines?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Skeletal muscles",
+                "Smooth muscles",
+                "Cardiac muscle",
+                "Voluntary muscles"
+            ],
+            "correctAnswer": "Smooth muscles",
+            "explanation": "Smooth muscles are involuntary muscles (we don't consciously control them) and are found in the walls of hollow organs like the digestive tract and blood vessels."
+        },
+        {
+            "id": "med-q-6",
+            "text": "What part of the skeleton protects the brain?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Rib cage",
+                "Vertebral column",
+                "Skull",
+                "Pelvis"
+            ],
+            "correctAnswer": "Skull",
+            "explanation": "The Skull is the bony structure of the head, composed of fused bones that provide strong protection for the brain."
+        },
+        {
+            "id": "med-q-7",
+            "text": "Where are red and white blood cells produced?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "In the liver",
+                "In the spleen",
+                "In the bone marrow",
+                "In the heart"
+            ],
+            "correctAnswer": "In the bone marrow",
+            "explanation": "Bone marrow, the spongy tissue inside large bones, is the primary factory for all blood cells in the body."
+        },
+        {
+            "id": "med-q-8",
+            "text": "Skeletal muscles are involuntary muscles.",
+            "type": "true-false",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Skeletal muscles (like the bicep) are voluntary, meaning we can consciously control their movement. Involuntary muscles are smooth muscles and the cardiac muscle."
+        },
+        {
+            "id": "med-q-9",
+            "text": "The vertebral column (spine) consists of one single long bone.",
+            "type": "true-false",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The spine is composed of a series of small bones called vertebrae, which provide support and flexibility to the body."
+        },
+        {
+            "id": "med-q-10",
+            "text": "Cartilage is a tissue that is stronger and harder than bone.",
+            "type": "true-false",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Cartilage is a flexible connective tissue but is less rigid than bone. It is found in joints (to facilitate movement), the nose, and ears."
+        },
+        {
+            "id": "med-q-11",
+            "text": "Cardiac muscle (heart muscle) is a unique type of involuntary muscle.",
+            "type": "true-false",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Cardiac muscle is an involuntary muscle found only in the heart, designed to beat continuously without stopping."
+        },
+        {
+            "id": "med-q-12",
+            "text": "What substance gives bones their hardness?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Collagen",
+                "Calcium and Phosphorus",
+                "Keratin",
+                "Protein"
+            ],
+            "correctAnswer": "Calcium and Phosphorus",
+            "explanation": "Bones consist of a protein matrix (collagen) that gives flexibility, but their hardness comes from the deposition of calcium and phosphorus salts."
+        },
+        {
+            "id": "med-q-13",
+            "text": "Which of these joints allows the widest range of motion (like circular arm movement)?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Hinge joint (like the knee)",
+                "Ball-and-socket joint (like the shoulder)",
+                "Pivot joint (like the neck)",
+                "Gliding joint (like the wrist)"
+            ],
+            "correctAnswer": "Ball-and-socket joint (like the shoulder)",
+            "explanation": "The ball-and-socket joint, such as the shoulder or hip, allows movement in all directions."
+        },
+        {
+            "id": "med-q-14",
+            "text": "What is the primary muscle used in breathing (inhalation)?",
+            "type": "multiple-choice",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "Abdominal muscle",
+                "Pectoral muscle",
+                "Diaphragm",
+                "Intercostal muscles"
+            ],
+            "correctAnswer": "Diaphragm",
+            "explanation": "The diaphragm is a large muscle located below the lungs. When it contracts (moves down), it pulls air into the lungs, causing inhalation."
+        },
+        {
+            "id": "med-q-15",
+            "text": "Stress fractures only occur as a result of a strong, sudden injury.",
+            "type": "true-false",
+            "category": "Skeletal and Muscular System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Stress fractures are small cracks in a bone, often caused by repetitive overuse or continuous stress (like long-distance running), not necessarily a single blow."
+        },
+        {
+            "id": "med-q-16",
+            "text": "Which chamber of the heart receives deoxygenated blood returning from the body?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "Right Atrium",
+                "Right Ventricle",
+                "Left Atrium",
+                "Left Ventricle"
+            ],
+            "correctAnswer": "Right Atrium",
+            "explanation": "Deoxygenated (oxygen-poor) blood returns from the body via the superior and inferior vena cava and flows into the right atrium."
+        },
+        {
+            "id": "med-q-17",
+            "text": "What are the blood vessels that carry (mostly oxygenated) blood away from the heart?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "Veins",
+                "Arteries",
+                "Capillaries",
+                "Lymphatic vessels"
+            ],
+            "correctAnswer": "Arteries",
+            "explanation": "Arteries are the vessels that transport blood from the heart to the rest of the body. Their walls are typically thick and elastic to withstand high blood pressure."
+        },
+        {
+            "id": "med-q-18",
+            "text": "What is the main component in blood responsible for transporting oxygen?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "White blood cells",
+                "Red blood cells",
+                "Platelets",
+                "Plasma"
+            ],
+            "correctAnswer": "Red blood cells",
+            "explanation": "Red blood cells contain hemoglobin, a protein that binds to oxygen in the lungs and transports it to all body cells."
+        },
+        {
+            "id": "med-q-19",
+            "text": "Where does the exchange of gases (oxygen and carbon dioxide) take place in the lungs?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "In the Trachea",
+                "In the Bronchi",
+                "In the Alveoli",
+                "In the Diaphragm"
+            ],
+            "correctAnswer": "In the Alveoli",
+            "explanation": "The alveoli are microscopic air sacs with very thin walls, surrounded by capillaries, where oxygen moves into the blood and carbon dioxide moves out."
+        },
+        {
+            "id": "med-q-20",
+            "text": "What is the 'silent killer' of the circulatory system, referring to high blood pressure?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "Atherosclerosis",
+                "Hypertension",
+                "Heart attack",
+                "Anemia"
+            ],
+            "correctAnswer": "Hypertension",
+            "explanation": "Hypertension (high blood pressure) is called the 'silent killer' because it often has no obvious symptoms for years but significantly increases the risk of heart attacks and strokes."
+        },
+        {
+            "id": "med-q-21",
+            "text": "What component in blood is responsible for clotting and stopping bleeding?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "Red blood cells",
+                "Vitamin K",
+                "Plasma",
+                "Platelets"
+            ],
+            "correctAnswer": "Platelets",
+            "explanation": "Platelets are small cell fragments that stick to the site of an injury and clump together to form a plug (clot) to stop bleeding."
+        },
+        {
+            "id": "med-q-22",
+            "text": "Arteries always carry oxygenated blood.",
+            "type": "true-false",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "There is one important exception: the Pulmonary Artery carries deoxygenated blood from the right ventricle to the lungs."
+        },
+        {
+            "id": "med-q-23",
+            "text": "Veins always carry deoxygenated blood.",
+            "type": "true-false",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "There is one exception: the Pulmonary Veins carry oxygenated blood (just purified) from the lungs back to the left atrium of the heart."
+        },
+        {
+            "id": "med-q-24",
+            "text": "The human heart is composed of four chambers.",
+            "type": "true-false",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The heart has two atria (upper chambers) and two ventricles (lower chambers). The right atrium and ventricle handle deoxygenated blood, and the left atrium and ventricle handle oxygenated blood."
+        },
+        {
+            "id": "med-q-25",
+            "text": "Capillaries are the smallest blood vessels in the body.",
+            "type": "true-false",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Capillaries are microscopic vessels that connect arteries and veins. They are the actual site where nutrients, oxygen, and waste are exchanged with the cells."
+        },
+        {
+            "id": "med-q-26",
+            "text": "What part of the body prevents food from entering the trachea (windpipe) during swallowing?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "Tongue",
+                "Uvula",
+                "Epiglottis",
+                "Pharynx"
+            ],
+            "correctAnswer": "Epiglottis",
+            "explanation": "The Epiglottis is a small cartilage flap located behind the tongue. When swallowing, it closes the entrance to the larynx (trachea) to prevent food and drink from entering the lungs."
+        },
+        {
+            "id": "med-q-27",
+            "text": "Which blood type is considered the 'universal donor'?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "A+",
+                "B+",
+                "AB+",
+                "O-"
+            ],
+            "correctAnswer": "O-",
+            "explanation": "Blood type O- is the universal donor because its red blood cells have no A, B, or Rh antigens, making it compatible (in emergencies) with all other blood types."
+        },
+        {
+            "id": "med-q-28",
+            "text": "Which blood type is considered the 'universal recipient'?",
+            "type": "multiple-choice",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "A-",
+                "O-",
+                "AB+",
+                "B-"
+            ],
+            "correctAnswer": "AB+",
+            "explanation": "Blood type AB+ is the universal recipient because its plasma has no antibodies to A, B, or Rh, so it can receive blood from all other types."
+        },
+        {
+            "id": "med-q-29",
+            "text": "Venous blood (returning to the heart) has a higher concentration of carbon dioxide than arterial blood.",
+            "type": "true-false",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Cells take oxygen from the blood and release carbon dioxide (as waste). Venous blood carries this carbon dioxide back to the lungs to be exhaled."
+        },
+        {
+            "id": "med-q-30",
+            "text": "Cellular respiration is the same process as breathing.",
+            "type": "true-false",
+            "category": "Circulatory and Respiratory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Breathing is the mechanical process of inhaling and exhaling. Cellular respiration is the chemical process that occurs inside cells to convert glucose and oxygen into energy (ATP)."
+        },
+        {
+            "id": "med-q-31",
+            "text": "Where does the chemical digestion of proteins begin?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "In the mouth",
+                "In the esophagus",
+                "In the stomach",
+                "In the small intestine"
+            ],
+            "correctAnswer": "In the stomach",
+            "explanation": "Protein digestion begins in the stomach by the action of hydrochloric acid and the enzyme Pepsin, which breaks proteins down into smaller peptides."
+        },
+        {
+            "id": "med-q-32",
+            "text": "What is the primary organ responsible for absorbing most nutrients?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Stomach",
+                "Liver",
+                "Large intestine",
+                "Small intestine"
+            ],
+            "correctAnswer": "Small intestine",
+            "explanation": "The small intestine has finger-like projections called 'Villi' that massively increase its surface area, allowing for the efficient absorption of digested nutrients into the blood."
+        },
+        {
+            "id": "med-q-33",
+            "text": "What is the main function of the large intestine?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Protein digestion",
+                "Absorption of water and salts",
+                "Bile production",
+                "Fat absorption"
+            ],
+            "correctAnswer": "Absorption of water and salts",
+            "explanation": "The primary function of the large intestine is to absorb the remaining water and mineral salts from undigested food, and to form solid feces."
+        },
+        {
+            "id": "med-q-34",
+            "text": "Which organ produces insulin and glucagon to regulate blood sugar?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Liver",
+                "Gallbladder",
+                "Pancreas",
+                "Spleen"
+            ],
+            "correctAnswer": "Pancreas",
+            "explanation": "The pancreas functions as an endocrine gland (producing hormones like insulin and glucagon) and as part of the digestive system (producing digestive enzymes)."
+        },
+        {
+            "id": "med-q-35",
+            "text": "Which organ stores bile?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Liver",
+                "Pancreas",
+                "Stomach",
+                "Gallbladder"
+            ],
+            "correctAnswer": "Gallbladder",
+            "explanation": "Bile (which helps digest fats) is produced in the liver, but it is stored and concentrated in the gallbladder."
+        },
+        {
+            "id": "med-q-36",
+            "text": "What is the basic functional unit in the kidney that filters blood?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Alveolus",
+                "Neuron",
+                "Nephron",
+                "Villus"
+            ],
+            "correctAnswer": "Nephron",
+            "explanation": "The Nephron is the microscopic filter inside the kidney. Each kidney contains about one million nephrons that filter blood, reabsorb useful substances, and excrete waste (urine)."
+        },
+        {
+            "id": "med-q-37",
+            "text": "Mechanical digestion only occurs in the mouth by chewing.",
+            "type": "true-false",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Mechanical digestion begins in the mouth (chewing), but it also continues in the stomach through the 'churning' action of its strong muscles mixing food with acid."
+        },
+        {
+            "id": "med-q-38",
+            "text": "The digestion of starches (carbohydrates) begins in the mouth.",
+            "type": "true-false",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Saliva in the mouth contains an enzyme called 'Amylase,' which begins breaking down complex starch molecules into simpler sugars."
+        },
+        {
+            "id": "med-q-39",
+            "text": "The liver is the largest internal organ in the human body.",
+            "type": "true-false",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The liver is the largest gland and largest internal organ, weighing about 1.5 kg in adults, and performs over 500 vital functions."
+        },
+        {
+            "id": "med-q-40",
+            "text": "The appendix is a vital organ that humans cannot live without.",
+            "type": "true-false",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The appendix is largely considered a vestigial organ and can be surgically removed without significantly affecting body functions, although some research suggests it may play a role in immunity."
+        },
+        {
+            "id": "med-q-41",
+            "text": "What substance, secreted by the liver, aids in the digestion of fats?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Insulin",
+                "Bile",
+                "Hydrochloric acid",
+                "Amylase"
+            ],
+            "correctAnswer": "Bile",
+            "explanation": "Bile acts like a 'soap,' emulsifying (breaking down) large fat globules into smaller droplets, making it easier for enzymes to digest them."
+        },
+        {
+            "id": "med-q-42",
+            "text": "All the blood in the human body is filtered by the kidneys several times a day.",
+            "type": "true-false",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The kidneys filter approximately 180 liters of blood daily (filtering the entire blood volume about 40 times) to remove waste and maintain water and salt balance."
+        },
+        {
+            "id": "med-q-43",
+            "text": "What strong acid is found in the stomach that aids digestion?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Citric acid",
+                "Lactic acid",
+                "Hydrochloric acid (HCl)",
+                "Sulfuric acid"
+            ],
+            "correctAnswer": "Hydrochloric acid (HCl)",
+            "explanation": "The stomach secretes strong hydrochloric acid, which kills bacteria in food and activates the enzyme pepsin to begin protein digestion."
+        },
+        {
+            "id": "med-q-44",
+            "text": "What is the name of the wave-like muscle contractions that push food through the digestive tract?",
+            "type": "multiple-choice",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "Contraction",
+                "Relaxation",
+                "Peristalsis",
+                "Filtration"
+            ],
+            "correctAnswer": "Peristalsis",
+            "explanation": "Peristalsis is a series of involuntary, wave-like muscle contractions in the walls of the esophagus and intestines that push food forward."
+        },
+        {
+            "id": "med-q-45",
+            "text": "Urine is composed mainly of water and ammonia.",
+            "type": "true-false",
+            "category": "Digestive and Excretory System",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Urine is composed mainly of water (about 95%) and Urea, the waste product of protein breakdown. Ammonia is highly toxic and is converted by the liver into less toxic urea to be excreted."
+        },
+        {
+            "id": "med-q-46",
+            "text": "What is the central part of the nervous system, consisting of the brain and spinal cord?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Peripheral Nervous System",
+                "Central Nervous System",
+                "Autonomic Nervous System",
+                "Somatic Nervous System"
+            ],
+            "correctAnswer": "Central Nervous System",
+            "explanation": "The Central Nervous System (CNS) is the main control center of the body, consisting of the brain (inside the skull) and the spinal cord (inside the vertebral column)."
+        },
+        {
+            "id": "med-q-47",
+            "text": "What are the basic cells that transmit signals (nerve impulses) in the nervous system?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Nephrons",
+                "Red blood cells",
+                "Neurons (Nerve cells)",
+                "Glial cells"
+            ],
+            "correctAnswer": "Neurons (Nerve cells)",
+            "explanation": "Neurons are specialized cells designed to transmit electrochemical signals quickly over long distances within the body."
+        },
+        {
+            "id": "med-q-48",
+            "text": "What is the largest part of the brain responsible for conscious thought, memory, and language?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Cerebellum",
+                "Brainstem",
+                "Cerebrum",
+                "Hypothalamus"
+            ],
+            "correctAnswer": "Cerebrum",
+            "explanation": "The Cerebrum is the largest part of the brain, covered by the cerebral cortex, and is responsible for complex functions like thought, perception, speech, and voluntary movements."
+        },
+        {
+            "id": "med-q-49",
+            "text": "What part of the brain is primarily responsible for balance and coordination of movements?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Cerebrum",
+                "Brainstem",
+                "Cerebellum",
+                "Pituitary gland"
+            ],
+            "correctAnswer": "Cerebellum",
+            "explanation": "The Cerebellum, located at the back of the brain, is responsible for coordinating fine voluntary movements, balance, and posture."
+        },
+        {
+            "id": "med-q-50",
+            "text": "What part of the eye receives light and contains photoreceptor cells (cones and rods)?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Cornea",
+                "Iris",
+                "Lens",
+                "Retina"
+            ],
+            "correctAnswer": "Retina",
+            "explanation": "The Retina is the light-sensitive layer at the back of the eye. Rods are responsible for vision in dim light, and Cones are responsible for color and detail vision."
+        },
+        {
+            "id": "med-q-51",
+            "text": "What is the colored part of the eye that controls the amount of light entering the pupil?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Cornea",
+                "Retina",
+                "Iris",
+                "Sclera"
+            ],
+            "correctAnswer": "Iris",
+            "explanation": "The Iris is the colored circular muscle that controls the size of the pupil (the black opening), dilating in the dark (to let more light in) and constricting in bright light."
+        },
+        {
+            "id": "med-q-52",
+            "text": "What are the three small bones in the middle ear that transmit vibrations?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Cochlea, Vestibule, Semicircular canals",
+                "Malleus (Hammer), Incus (Anvil), Stapes (Stirrup)",
+                "Rods and Cones",
+                "Pinna, Auditory canal, Eardrum"
+            ],
+            "correctAnswer": "Malleus (Hammer), Incus (Anvil), Stapes (Stirrup)",
+            "explanation": "The eardrum vibrates from sound waves, and these vibrations are transmitted through three tiny bones (ossicles): the Malleus, Incus, and Stapes, to the inner ear."
+        },
+        {
+            "id": "med-q-53",
+            "text": "A reflex action (like pulling your hand from a hot object) is controlled directly by the brain.",
+            "type": "true-false",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Fast reflex actions are processed directly in the spinal cord without waiting for the signal to reach the brain, ensuring a very rapid response to protect the body."
+        },
+        {
+            "id": "med-q-54",
+            "text": "The Sympathetic Nervous System is responsible for the 'Fight or Flight' response.",
+            "type": "true-false",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The sympathetic system activates the body in emergencies or stress, increasing heart rate, raising blood pressure, and preparing the body to fight or flee."
+        },
+        {
+            "id": "med-q-55",
+            "text": "The Parasympathetic Nervous System is responsible for the 'Rest and Digest' response.",
+            "type": "true-false",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The parasympathetic system works opposite to the sympathetic system. It calms the body, slows the heart rate, and activates digestion and relaxation processes."
+        },
+        {
+            "id": "med-q-56",
+            "text": "Cones in the retina are responsible for vision in dim light.",
+            "type": "true-false",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Rods are responsible for night vision (dim light) and do not distinguish colors. Cones are responsible for color vision and fine detail in bright light."
+        },
+        {
+            "id": "med-q-57",
+            "text": "Taste buds on the tongue can only distinguish four basic tastes: sweet, salty, sour, and bitter.",
+            "type": "true-false",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A fifth basic taste called 'Umami' (savory, found in meats and broth) is now widely recognized, in addition to the traditional four."
+        },
+        {
+            "id": "med-q-58",
+            "text": "What part of the inner ear converts sound vibrations into nerve signals?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Eardrum",
+                "Cochlea",
+                "Stapes",
+                "Auditory canal"
+            ],
+            "correctAnswer": "Cochlea",
+            "explanation": "The Cochlea is a spiral-shaped structure containing fluid and tiny hair cells. As the fluid vibrates, the hair cells move and send nerve signals to the brain to be interpreted as sound."
+        },
+        {
+            "id": "med-q-59",
+            "text": "The skin is the largest sensory organ in the body.",
+            "type": "true-false",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In addition to being the largest organ, the skin is filled with nerve receptors that sense touch, pressure, heat, cold, and pain."
+        },
+        {
+            "id": "med-q-60",
+            "text": "Which lobe of the brain is primarily responsible for processing visual information (sight)?",
+            "type": "multiple-choice",
+            "category": "Nervous System and Senses",
+            "answers": [
+                "Frontal lobe",
+                "Parietal lobe",
+                "Temporal lobe",
+                "Occipital lobe"
+            ],
+            "correctAnswer": "Occipital lobe",
+            "explanation": "The occipital lobe, located at the back of the brain, is the main center for processing and interpreting what the eyes see."
+        },
+        {
+            "id": "med-q-61",
+            "text": "What are the immune cells that 'eat' (engulf) pathogens like bacteria?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "B-cells",
+                "T-cells",
+                "Phagocytes",
+                "Red blood cells"
+            ],
+            "correctAnswer": "Phagocytes",
+            "explanation": "Phagocytes (like neutrophils and macrophages) are part of the first line of immune defense. They 'eat' or engulf foreign bodies and destroy them."
+        },
+        {
+            "id": "med-q-62",
+            "text": "Which gland is called the 'Master Gland' because it controls many other endocrine glands?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Thyroid gland",
+                "Pituitary gland",
+                "Adrenal gland",
+                "Pancreas"
+            ],
+            "correctAnswer": "Pituitary gland",
+            "explanation": "The Pituitary Gland, located at the base of the brain, secretes hormones that regulate other glands like the thyroid, adrenal glands, and gonads."
+        },
+        {
+            "id": "med-q-63",
+            "text": "What hormone does the pancreas secrete to lower blood sugar levels?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Adrenaline",
+                "Glucagon",
+                "Insulin",
+                "Thyroxine"
+            ],
+            "correctAnswer": "Insulin",
+            "explanation": "When blood sugar rises (after a meal), the pancreas releases insulin, which signals cells to absorb glucose from the blood for energy or storage."
+        },
+        {
+            "id": "med-q-64",
+            "text": "What hormone does the pancreas secrete to raise blood sugar levels?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Insulin",
+                "Testosterone",
+                "Glucagon",
+                "Cortisol"
+            ],
+            "correctAnswer": "Glucagon",
+            "explanation": "When blood sugar drops, the pancreas releases glucagon, which signals the liver to break down stored glycogen and release glucose into the bloodstream."
+        },
+        {
+            "id": "med-q-65",
+            "text": "What gland, located in the neck, produces hormones that regulate metabolism?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Pituitary gland",
+                "Thymus gland",
+                "Thyroid gland",
+                "Adrenal gland"
+            ],
+            "correctAnswer": "Thyroid gland",
+            "explanation": "The Thyroid Gland produces hormones (like Thyroxine) that control the speed at which the body burns energy (metabolic rate)."
+        },
+        {
+            "id": "med-q-66",
+            "text": "What hormone is released in situations of stress or danger (the 'fight or flight' response)?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Insulin",
+                "Melatonin",
+                "Adrenaline (Epinephrine)",
+                "Estrogen"
+            ],
+            "correctAnswer": "Adrenaline (Epinephrine)",
+            "explanation": "The Adrenal Gland secretes Adrenaline, which increases heart rate, blood pressure, and blood sugar levels, preparing the body for a rapid response."
+        },
+        {
+            "id": "med-q-67",
+            "text": "Which immune cells produce 'antibodies'?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Killer T-cells",
+                "Phagocytes",
+                "B-cells",
+                "Stem cells"
+            ],
+            "correctAnswer": "B-cells",
+            "explanation": "When B-cells recognize a foreign antigen, they activate and turn into plasma cells, which produce massive amounts of antibodies that attach to the pathogen and help destroy it."
+        },
+        {
+            "id": "med-q-68",
+            "text": "Vaccination is an example of innate immunity.",
+            "type": "true-false",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Vaccination is an example of 'artificial active acquired (adaptive) immunity.' Innate immunity is what we are born with (like skin and stomach acid)."
+        },
+        {
+            "id": "med-q-69",
+            "text": "Passive immunity means the body produces its own antibodies.",
+            "type": "true-false",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Passive immunity means a person 'receives' ready-made antibodies (like a fetus from its mother, or a person injected with serum). This immunity is fast but temporary."
+        },
+        {
+            "id": "med-q-70",
+            "text": "Hormones are chemical messengers that travel through the bloodstream.",
+            "type": "true-false",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Endocrine glands secrete hormones directly into the blood, which transports them to 'target cells' elsewhere in the body to stimulate a specific response."
+        },
+        {
+            "id": "med-q-71",
+            "text": "An allergy is an overreaction of the immune system to a harmless substance.",
+            "type": "true-false",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Allergies (like to pollen or peanuts) occur when the immune system treats a harmless substance (an allergen) as a serious threat and mounts a strong inflammatory response."
+        },
+        {
+            "id": "med-q-72",
+            "text": "The thymus gland is important for producing red blood cells.",
+            "type": "true-false",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The Thymus is an immune organ where T-cells (produced in the bone marrow) migrate to 'mature' and learn to distinguish between body cells and foreign invaders."
+        },
+        {
+            "id": "med-q-73",
+            "text": "What hormone regulates the sleep-wake cycle (biological clock)?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Adrenaline",
+                "Melatonin",
+                "Insulin",
+                "Serotonin"
+            ],
+            "correctAnswer": "Melatonin",
+            "explanation": "The Pineal Gland in the brain secretes melatonin in response to darkness, helping to induce sleepiness and regulate the sleep cycle."
+        },
+        {
+            "id": "med-q-74",
+            "text": "Which immune cells target and destroy virus-infected cells or cancer cells?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "B-cells",
+                "Phagocytes",
+                "Killer T-cells",
+                "Platelets"
+            ],
+            "correctAnswer": "Killer T-cells",
+            "explanation": "Killer T-cells (or cytotoxic T-cells) are part of the adaptive immune system, specializing in recognizing and destroying the body's own 'hijacked' (e.g., virus-infected) cells."
+        },
+        {
+            "id": "med-q-75",
+            "text": "Antibodies are specialized, Y-shaped proteins.",
+            "type": "true-false",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "B-cells produce antibody (Immunoglobulin) proteins, which have a Y-shape that allows them to bind precisely to antigens (pathogens) to neutralize them or mark them for destruction."
+        },
+        {
+            "id": "med-q-76",
+            "text": "What molecule carries the genetic code in living organisms?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Protein",
+                "Ribonucleic acid (RNA)",
+                "Deoxyribonucleic acid (DNA)",
+                "Adenosine Triphosphate (ATP)"
+            ],
+            "correctAnswer": "Deoxyribonucleic acid (DNA)",
+            "explanation": "DNA is the molecule that contains all the genetic instructions for an organism's growth, reproduction, and function. It consists of two strands wrapped in a double helix."
+        },
+        {
+            "id": "med-q-77",
+            "text": "What vitamin is produced by the skin when exposed to ultraviolet (UV) sunlight?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Vitamin C",
+                "Vitamin A",
+                "Vitamin K",
+                "Vitamin D"
+            ],
+            "correctAnswer": "Vitamin D",
+            "explanation": "Known as the 'sunshine vitamin,' the body can synthesize Vitamin D when UVB rays from the sun hit the skin. It is essential for calcium absorption and bone health."
+        },
+        {
+            "id": "med-q-78",
+            "text": "What genetic disorder affects the blood's ability to clot?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Sickle-cell anemia",
+                "Cystic fibrosis",
+                "Hemophilia",
+                "Down syndrome"
+            ],
+            "correctAnswer": "Hemophilia",
+            "explanation": "Hemophilia is a genetic disorder (mostly affecting males) that causes a deficiency in a blood clotting factor, leading to prolonged bleeding even from minor injuries."
+        },
+        {
+            "id": "med-q-79",
+            "text": "What are the essential 'Macronutrients' that the body needs in large amounts?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Vitamins and minerals",
+                "Carbohydrates, Proteins, and Fats",
+                "Water and Fiber",
+                "Sugars and Salts"
+            ],
+            "correctAnswer": "Carbohydrates, Proteins, and Fats",
+            "explanation": "Macronutrients provide the body with energy (calories): Carbohydrates (for quick energy), Proteins (for building and repair), and Fats (for energy storage and protecting organs)."
+        },
+        {
+            "id": "med-q-80",
+            "text": "What disease is caused by a severe deficiency of Vitamin C?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Rickets",
+                "Pellagra",
+                "Scurvy",
+                "Beri-beri"
+            ],
+            "correctAnswer": "Scurvy",
+            "explanation": "Vitamin C is essential for producing collagen. A severe deficiency causes Scurvy, leading to bleeding gums, poor wound healing, and joint pain."
+        },
+        {
+            "id": "med-q-81",
+            "text": "What disease, caused by Vitamin D deficiency in children, leads to soft bones?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Scurvy",
+                "Rickets",
+                "Osteoporosis",
+                "Anemia"
+            ],
+            "correctAnswer": "Rickets",
+            "explanation": "Rickets occurs due to a lack of Vitamin D, which causes the body to fail to absorb calcium and phosphorus properly, making the bones soft and deformed."
+        },
+        {
+            "id": "med-q-82",
+            "text": "Down syndrome is a genetic disorder caused by an extra copy of which chromosome?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "18",
+                "21",
+                "13",
+                "X"
+            ],
+            "correctAnswer": "21",
+            "explanation": "Down syndrome (Trisomy 21) occurs when a person has three copies of chromosome 21 instead of the usual two, causing distinct physical and developmental characteristics."
+        },
+        {
+            "id": "med-q-83",
+            "text": "Bacteria are always harmful to the human body.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The vast majority of bacteria are harmless. The body relies on 'good bacteria' (microbiome) in the gut to aid digestion, produce vitamins, and protect against pathogens."
+        },
+        {
+            "id": "med-q-84",
+            "text": "Antibiotics are effective in treating viral infections like the flu.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Antibiotics only kill bacteria by targeting their cell walls or reproductive mechanisms. Viruses have a completely different structure and are unaffected by antibiotics."
+        },
+        {
+            "id": "med-q-85",
+            "text": "Type 2 Diabetes is characterized by 'insulin resistance'.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In Type 2, the pancreas produces insulin (at least initially), but the body's cells do not respond to it effectively (insulin resistance), leading to high blood sugar."
+        },
+        {
+            "id": "med-q-86",
+            "text": "Proteins are essential for building and repairing tissues in the body.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Proteins are made of amino acids, which are the 'building blocks' for muscles, skin, enzymes, and hormones."
+        },
+        {
+            "id": "med-q-87",
+            "text": "Anemia is a condition characterized by a lack of white blood cells.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Anemia is a condition characterized by a lack of red blood cells (or hemoglobin within them), reducing the blood's oxygen-carrying capacity and causing fatigue."
+        },
+        {
+            "id": "med-q-88",
+            "text": "DNA is composed of four nitrogenous bases: A, T, C, G.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The four bases are Adenine (A), Thymine (T), Cytosine (C), and Guanine (G). The sequence of these bases forms the genetic code."
+        },
+        {
+            "id": "med-q-89",
+            "text": "In DNA, Adenine (A) always pairs with Guanine (G).",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The fixed pairing rules are: Adenine (A) always pairs with Thymine (T), and Cytosine (C) always pairs with Guanine (G)."
+        },
+        {
+            "id": "med-q-90",
+            "text": "What is the process by which DNA makes a copy of itself?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Translation",
+                "Transcription",
+                "Replication",
+                "Meiosis"
+            ],
+            "correctAnswer": "Replication",
+            "explanation": "Replication is the process where an exact copy of the DNA molecule is made, which is essential before a cell divides."
+        },
+        {
+            "id": "med-q-91",
+            "text": "What is the process of converting the DNA code into messenger RNA (mRNA)?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Replication",
+                "Translation",
+                "Transcription",
+                "Mitosis"
+            ],
+            "correctAnswer": "Transcription",
+            "explanation": "Transcription occurs in the nucleus, where a segment of DNA (a gene) is 'copied' to produce a single strand of messenger RNA."
+        },
+        {
+            "id": "med-q-92",
+            "text": "What is the process where mRNA is 'read' in the ribosome to make a protein?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Transcription",
+                "Translation",
+                "Replication",
+                "Digestion"
+            ],
+            "correctAnswer": "Translation",
+            "explanation": "Translation occurs in the cytoplasm (at the ribosomes), where the code on the mRNA is 'translated' into a sequence of amino acids to form a protein."
+        },
+        {
+            "id": "med-q-93",
+            "text": "A gene is a segment of DNA that carries instructions for making a specific protein.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A gene is the basic unit of heredity. Each gene is a specific sequence of nucleotide bases on the DNA strand that codes for a specific protein or functional RNA molecule."
+        },
+        {
+            "id": "med-q-94",
+            "text": "Humans have 46 pairs of chromosomes.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Humans have 23 pairs of chromosomes, for a total of 46 individual chromosomes."
+        },
+        {
+            "id": "med-q-95",
+            "text": "What is the term for a different version of the same gene? (e.g., brown eye gene vs. blue eye gene).",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Chromosome",
+                "Allele",
+                "Nucleotide",
+                "Genome"
+            ],
+            "correctAnswer": "Allele",
+            "explanation": "An allele is an alternative form of a gene. For example, the gene for flower color might have an allele for red and an allele for white."
+        },
+        {
+            "id": "med-q-96",
+            "text": "What is the term for the specific combination of alleles an individual has (e.g., Aa, AA, aa)?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Phenotype",
+                "Genotype",
+                "Dominant allele",
+                "Recessive allele"
+            ],
+            "correctAnswer": "Genotype",
+            "explanation": "The genotype is the specific genetic makeup of an individual. The phenotype is the physical trait we see (like eye color)."
+        },
+        {
+            "id": "med-q-97",
+            "text": "The phenotype is the observable physical trait (like height).",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The phenotype is the physical expression or observable trait of the genotype (e.g., hair color, blood type, height)."
+        },
+        {
+            "id": "med-q-98",
+            "text": "A recessive allele is one that always expresses itself, even if only one copy is present.",
+            "type": "true-false",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This defines a dominant allele. A recessive allele only shows its effect if the individual has two copies of it (e.g., aa)."
+        },
+        {
+            "id": "med-q-99",
+            "text": "What are viruses?",
+            "type": "multiple-choice",
+            "category": "Genetics and Public Health",
+            "answers": [
+                "Small bacterial cells",
+                "Living microorganisms that reproduce on their own",
+                "Infectious agents that need a host cell to replicate",
+                "A type of fungus"
+            ],
+            "correctAnswer": "Infectious agents that need a host cell to replicate",
+            "explanation": "Viruses are not fully living cells; they are genetic material (DNA or RNA) surrounded by a protein coat. They must invade a living (host) cell to use its machinery to replicate."
+        },
+        {
+            "id": "med-q-100",
+            "text": "What organ is considered the 'graveyard' for old red blood cells?",
+            "type": "multiple-choice",
+            "category": "Immune System and Endocrinology",
+            "answers": [
+                "Liver",
+                "Bone marrow",
+                "Kidneys",
+                "Spleen"
+            ],
+            "correctAnswer": "Spleen",
+            "explanation": "The Spleen acts as a filter for the blood, removing old or damaged red blood cells from circulation and recycling the iron from them."
+        }
+    ]
+}

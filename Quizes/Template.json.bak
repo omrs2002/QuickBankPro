@@ -6,7 +6,7 @@
      "isFree": false,
     "questions": [
         {
-            "id": "001",
+            "id": "az900-en-001",
             "text": "Which term describes the provisioning of computing resources (like servers, storage, networking) over the internet?",
             "type": "multiple-choice",
             "category": "Cloud Concepts",
@@ -20,7 +20,7 @@
             "explanation": "Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing."
         },
         {
-            "id": "002",
+            "id": "az900-cs-100",
             "text": "Arure is using for xxxxx? ",
             "type": "true-false",
             "category": "Cloud Concepts",
@@ -32,7 +32,7 @@
             "explanation": "why the answer is true"
         },
         {
-            "id": "003",
+            "id": "en-pro-q39",
             "text": "The European Age of Discovery was largely launched from Portugal and ___.",
             "type": "fill-in-the-blank",
             "category": "History",
