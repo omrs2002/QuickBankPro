@@ -1,0 +1,2073 @@
+
+{
+    "title": "EF Core and LINQ in C# Exam",
+    "titleEn": "EF Core and LINQ in C# Exam",
+    "categoryId": 11,
+    "isFree": false,
+    "lang": "en",
+    "description": "This comprehensive exam covers all major aspects of EF Core and LINQ in C# Created by DS.",
+    "questions":
+    [
+        {
+            "id": "efcore-linq-001",
+            "text": "What is the primary purpose of Entity Framework Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To create web APIs",
+                "To serve as an Object-Relational Mapper (ORM)",
+                "To handle authentication and authorization",
+                "To manage front-end state"
+            ],
+            "correctAnswer": "To serve as an Object-Relational Mapper (ORM)",
+            "explanation": "EF Core is primarily an ORM that enables .NET developers to work with databases using .NET objects, eliminating the need for most data-access code."
+        },
+        {
+            "id": "efcore-linq-002",
+            "text": "Which LINQ method is used to filter a sequence of values?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Select",
+                "Where",
+                "First",
+                "OrderBy"
+            ],
+            "correctAnswer": "Where",
+            "explanation": "The Where method is used to filter a sequence based on a predicate function."
+        },
+        {
+            "id": "efcore-linq-003",
+            "text": "In EF Core, what is a DbContext?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "A database connection string",
+                "A session with the database used to query and save instances of entities",
+                "A migration file",
+                "A SQL query generator"
+            ],
+            "correctAnswer": "A session with the database used to query and save instances of entities",
+            "explanation": "DbContext represents a session with the database and can be used to query and save instances of your entities."
+        },
+        {
+            "id": "efcore-linq-004",
+            "text": "Which LINQ method performs an inner join between two sequences?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Join",
+                "GroupJoin",
+                "SelectMany",
+                "Union"
+            ],
+            "correctAnswer": "Join",
+            "explanation": "The Join method performs an inner join by correlating elements from two sequences based on matching keys."
+        },
+        {
+            "id": "efcore-linq-005",
+            "text": "What is the purpose of the 'AsNoTracking' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To disable SQL logging",
+                "To improve performance by not tracking changes to entities",
+                "To prevent database transactions",
+                "To enable lazy loading"
+            ],
+            "correctAnswer": "To improve performance by not tracking changes to entities",
+            "explanation": "AsNoTracking tells EF Core not to track changes to the returned entities, which improves performance for read-only scenarios."
+        },
+        {
+            "id": "efcore-linq-006",
+            "text": "Which LINQ method is used to project each element of a sequence into a new form?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Where",
+                "Select",
+                "Map",
+                "Transform"
+            ],
+            "correctAnswer": "Select",
+            "explanation": "The Select method projects each element of a sequence into a new form using a selector function."
+        },
+        {
+            "id": "efcore-linq-007",
+            "text": "In EF Core, what is the purpose of migrations?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To migrate data between different databases",
+                "To incrementally update the database schema to keep it in sync with the application's data model",
+                "To backup database content",
+                "To optimize query performance"
+            ],
+            "correctAnswer": "To incrementally update the database schema to keep it in sync with the application's data model",
+            "explanation": "Migrations allow EF Core to create a database and update its schema as your data model changes over time."
+        },
+        {
+            "id": "efcore-linq-008",
+            "text": "Which LINQ method returns the first element of a sequence, throwing an exception if no element is found?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "First",
+                "FirstOrDefault",
+                "Single",
+                "ElementAt"
+            ],
+            "correctAnswer": "First",
+            "explanation": "The First method returns the first element of a sequence and throws an exception if the sequence contains no elements."
+        },
+        {
+            "id": "efcore-linq-009",
+            "text": "What is lazy loading in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Loading all related data automatically when an entity is loaded",
+                "Loading related data only when the navigation property is accessed",
+                "Loading data in background threads",
+                "Loading data only when explicitly requested via LINQ"
+            ],
+            "correctAnswer": "Loading related data only when the navigation property is accessed",
+            "explanation": "Lazy loading defers the loading of related data until the navigation property is accessed for the first time."
+        },
+        {
+            "id": "efcore-linq-010",
+            "text": "Which LINQ method is used to group elements of a sequence according to a specified key?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "GroupBy",
+                "Group",
+                "Partition",
+                "Categorize"
+            ],
+            "correctAnswer": "GroupBy",
+            "explanation": "The GroupBy method groups elements of a sequence according to a specified key selector function."
+        },
+        {
+            "id": "efcore-linq-011",
+            "text": "What is the purpose of the 'Include' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To include specific columns in SELECT statements",
+                "To eagerly load related entities",
+                "To include additional WHERE conditions",
+                "To include transaction scope"
+            ],
+            "correctAnswer": "To eagerly load related entities",
+            "explanation": "The Include method specifies related entities to include in the query results, enabling eager loading."
+        },
+        {
+            "id": "efcore-linq-012",
+            "text": "Which LINQ method returns distinct elements from a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Distinct",
+                "Unique",
+                "Different",
+                "RemoveDuplicates"
+            ],
+            "correctAnswer": "Distinct",
+            "explanation": "The Distinct method returns distinct elements from a sequence by using the default equality comparer."
+        },
+        {
+            "id": "efcore-linq-013",
+            "text": "In EF Core, what is the difference between 'Add' and 'AddAsync' methods?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Add is for single entities, AddAsync is for multiple entities",
+                "Add is synchronous, AddAsync is asynchronous",
+                "Add is for new entities, AddAsync is for existing entities",
+                "There is no functional difference"
+            ],
+            "correctAnswer": "Add is synchronous, AddAsync is asynchronous",
+            "explanation": "Add is a synchronous method while AddAsync is its asynchronous counterpart for better performance in async scenarios."
+        },
+        {
+            "id": "efcore-linq-014",
+            "text": "Which LINQ method is used to sort elements in ascending order?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Sort",
+                "OrderBy",
+                "Arrange",
+                "Sequence"
+            ],
+            "correctAnswer": "OrderBy",
+            "explanation": "The OrderBy method sorts the elements of a sequence in ascending order according to a key."
+        },
+        {
+            "id": "efcore-linq-015",
+            "text": "What is the purpose of the 'OnConfiguring' method in DbContext?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure entity relationships",
+                "To configure the database provider and connection string",
+                "To configure migration settings",
+                "To configure transaction behavior"
+            ],
+            "correctAnswer": "To configure the database provider and connection string",
+            "explanation": "The OnConfiguring method is where you configure the database provider and connection string for the DbContext."
+        },
+        {
+            "id": "efcore-linq-016",
+            "text": "Which LINQ method returns the number of elements in a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Count",
+                "Length",
+                "Size",
+                "CountAll"
+            ],
+            "correctAnswer": "Count",
+            "explanation": "The Count method returns the number of elements in a sequence."
+        },
+        {
+            "id": "efcore-linq-017",
+            "text": "What is the N+1 query problem in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "When a query takes too long to execute",
+                "When one query is executed to load the main entities and then N additional queries for related entities",
+                "When there are too many JOIN operations",
+                "When transactions fail N times before succeeding"
+            ],
+            "correctAnswer": "When one query is executed to load the main entities and then N additional queries for related entities",
+            "explanation": "The N+1 query problem occurs when you load N entities and then make N additional queries to load related data for each entity."
+        },
+        {
+            "id": "efcore-linq-018",
+            "text": "Which LINQ method is used to skip a specified number of elements and then return the remaining elements?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Skip",
+                "SkipWhile",
+                "Offset",
+                "Bypass"
+            ],
+            "correctAnswer": "Skip",
+            "explanation": "The Skip method bypasses a specified number of elements in a sequence and then returns the remaining elements."
+        },
+        {
+            "id": "efcore-linq-019",
+            "text": "What is the purpose of Fluent API in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To write LINQ queries more fluently",
+                "To configure the model in code, separate from entity classes",
+                "To create fluent validation rules",
+                "To generate SQL queries"
+            ],
+            "correctAnswer": "To configure the model in code, separate from entity classes",
+            "explanation": "Fluent API provides a way to configure the model in code, allowing more complex configurations than data annotations."
+        },
+        {
+            "id": "efcore-linq-020",
+            "text": "Which LINQ method returns the maximum value in a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Max",
+                "Maximum",
+                "Top",
+                "Highest"
+            ],
+            "correctAnswer": "Max",
+            "explanation": "The Max method returns the maximum value in a sequence of values."
+        },
+        {
+            "id": "efcore-linq-021",
+            "text": "What is the difference between IQueryable and IEnumerable in LINQ?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "IQueryable is for databases, IEnumerable is for in-memory collections",
+                "IQueryable executes queries on the server, IEnumerable executes in memory",
+                "IQueryable supports composition of queries, IEnumerable does not",
+                "There is no significant difference"
+            ],
+            "correctAnswer": "IQueryable executes queries on the server, IEnumerable executes in memory",
+            "explanation": "IQueryable builds expression trees and executes queries on the data source (like SQL Server), while IEnumerable works with in-memory collections."
+        },
+        {
+            "id": "efcore-linq-022",
+            "text": "Which method is used to save changes to the database in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Save",
+                "SaveChanges",
+                "Commit",
+                "UpdateDatabase"
+            ],
+            "correctAnswer": "SaveChanges",
+            "explanation": "The SaveChanges method persists all changes made in the context to the underlying database."
+        },
+        {
+            "id": "efcore-linq-023",
+            "text": "What is the purpose of the 'ThenInclude' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To include additional WHERE conditions",
+                "To include multiple levels of related entities",
+                "To include transaction scope",
+                "To include specific columns only"
+            ],
+            "correctAnswer": "To include multiple levels of related entities",
+            "explanation": "ThenInclude is used after Include to include multiple levels of related entities in the query results."
+        },
+        {
+            "id": "efcore-linq-024",
+            "text": "Which LINQ method is used to determine whether any element of a sequence satisfies a condition?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Any",
+                "Exists",
+                "Contains",
+                "Has"
+            ],
+            "correctAnswer": "Any",
+            "explanation": "The Any method determines whether any element of a sequence exists or satisfies a condition."
+        },
+        {
+            "id": "efcore-linq-025",
+            "text": "What is a DbSet in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "A database connection",
+                "A collection of all entities of a given type that can be queried from the database",
+                "A migration configuration",
+                "A transaction scope"
+            ],
+            "correctAnswer": "A collection of all entities of a given type that can be queried from the database",
+            "explanation": "DbSet represents a collection of entities of a specific type that can be queried from the database."
+        },
+        {
+            "id": "efcore-linq-026",
+            "text": "Which LINQ method is used to concatenate two sequences?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Concat",
+                "Union",
+                "Combine",
+                "Merge"
+            ],
+            "correctAnswer": "Concat",
+            "explanation": "The Concat method concatenates two sequences to form one sequence."
+        },
+        {
+            "id": "efcore-linq-027",
+            "text": "What is the purpose of the 'AsEnumerable' method in LINQ?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To convert IQueryable to IEnumerable, forcing client-side evaluation",
+                "To improve query performance",
+                "To enable lazy loading",
+                "To convert any collection to enumerable"
+            ],
+            "correctAnswer": "To convert IQueryable to IEnumerable, forcing client-side evaluation",
+            "explanation": "AsEnumerable switches from server-side (IQueryable) to client-side (IEnumerable) evaluation for the remainder of the query."
+        },
+        {
+            "id": "efcore-linq-028",
+            "text": "In EF Core, what is the purpose of the 'HasKey' method in Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To specify foreign keys",
+                "To configure the primary key of an entity",
+                "To create unique constraints",
+                "To define composite keys"
+            ],
+            "correctAnswer": "To configure the primary key of an entity",
+            "explanation": "HasKey is used in Fluent API to configure the primary key property or properties of an entity."
+        },
+        {
+            "id": "efcore-linq-029",
+            "text": "Which LINQ method returns the element at a specified index in a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "ElementAt",
+                "AtIndex",
+                "Get",
+                "Position"
+            ],
+            "correctAnswer": "ElementAt",
+            "explanation": "The ElementAt method returns the element at a specified index in a sequence."
+        },
+        {
+            "id": "efcore-linq-030",
+            "text": "What is the difference between 'FirstOrDefault' and 'SingleOrDefault' in LINQ?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "FirstOrDefault returns the first element, SingleOrDefault throws if multiple elements exist",
+                "There is no difference",
+                "FirstOrDefault is faster",
+                "SingleOrDefault works only with sorted sequences"
+            ],
+            "correctAnswer": "FirstOrDefault returns the first element, SingleOrDefault throws if multiple elements exist",
+            "explanation": "FirstOrDefault returns the first element (or default), while SingleOrDefault expects exactly one element and throws if multiple elements match."
+        },
+        {
+            "id": "efcore-linq-031",
+            "text": "What is the purpose of the 'FromSqlRaw' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To execute raw SQL queries and return entities",
+                "To create SQL migration scripts",
+                "To generate SQL from LINQ queries",
+                "To configure SQL connection strings"
+            ],
+            "correctAnswer": "To execute raw SQL queries and return entities",
+            "explanation": "FromSqlRaw allows executing raw SQL queries against the database and mapping the results to entity types."
+        },
+        {
+            "id": "efcore-linq-032",
+            "text": "Which LINQ method is used to perform a left outer join?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "LeftJoin",
+                "GroupJoin with DefaultIfEmpty",
+                "OuterJoin",
+                "Join with Left option"
+            ],
+            "correctAnswer": "GroupJoin with DefaultIfEmpty",
+            "explanation": "A left outer join can be achieved using GroupJoin followed by SelectMany and DefaultIfEmpty."
+        },
+        {
+            "id": "efcore-linq-033",
+            "text": "What is change tracking in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Monitoring database schema changes",
+                "Tracking changes made to entities so they can be persisted to the database",
+                "Tracking query performance",
+                "Monitoring connection state changes"
+            ],
+            "correctAnswer": "Tracking changes made to entities so they can be persisted to the database",
+            "explanation": "Change tracking keeps track of changes made to entities so that SaveChanges can persist these changes to the database."
+        },
+        {
+            "id": "efcore-linq-034",
+            "text": "Which LINQ method is used to calculate the average of a sequence of numeric values?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Average",
+                "Mean",
+                "Avg",
+                "CalculateAverage"
+            ],
+            "correctAnswer": "Average",
+            "explanation": "The Average method computes the average of a sequence of numeric values."
+        },
+        {
+            "id": "efcore-linq-035",
+            "text": "What is the purpose of the 'ValueGeneratedOnAdd' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To specify that a property value is generated when the entity is added",
+                "To generate random values",
+                "To create computed columns",
+                "To auto-increment property values"
+            ],
+            "correctAnswer": "To specify that a property value is generated when the entity is added",
+            "explanation": "ValueGeneratedOnAdd configures a property to have its value generated by the database when the entity is added."
+        },
+        {
+            "id": "efcore-linq-036",
+            "text": "Which LINQ method is used to determine whether all elements of a sequence satisfy a condition?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "All",
+                "Every",
+                "ForAll",
+                "CheckAll"
+            ],
+            "correctAnswer": "All",
+            "explanation": "The All method determines whether all elements of a sequence satisfy a condition."
+        },
+        {
+            "id": "efcore-linq-037",
+            "text": "What is the purpose of the 'ExecuteUpdate' method in EF Core 7.0+?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To update entities without loading them first",
+                "To execute migration updates",
+                "To update database schema",
+                "To refresh entity state"
+            ],
+            "correctAnswer": "To update entities without loading them first",
+            "explanation": "ExecuteUpdate allows performing bulk updates directly on the database without loading entities into memory."
+        },
+        {
+            "id": "efcore-linq-038",
+            "text": "Which LINQ method is used to convert a sequence to a List?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "ToList",
+                "ToArray",
+                "ToCollection",
+                "AsList"
+            ],
+            "correctAnswer": "ToList",
+            "explanation": "The ToList method creates a List<T> from an IEnumerable<T>."
+        },
+        {
+            "id": "efcore-linq-039",
+            "text": "What is the purpose of the 'HasOne' and 'WithMany' methods in EF Core Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure one-to-one relationships",
+                "To configure one-to-many relationships",
+                "To configure many-to-many relationships",
+                "To configure inheritance relationships"
+            ],
+            "correctAnswer": "To configure one-to-many relationships",
+            "explanation": "HasOne and WithMany are used together to configure a one-to-many relationship between entities."
+        },
+        {
+            "id": "efcore-linq-040",
+            "text": "Which LINQ method is used to return a specified number of contiguous elements from the start of a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Take",
+                "TakeWhile",
+                "Limit",
+                "FirstN"
+            ],
+            "correctAnswer": "Take",
+            "explanation": "The Take method returns a specified number of contiguous elements from the start of a sequence."
+        },
+        {
+            "id": "efcore-linq-041",
+            "text": "What is the purpose of the 'IsRequired' method in EF Core Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To mark a property as not nullable in the database",
+                "To make a property required in forms",
+                "To enforce validation rules",
+                "To require a property in queries"
+            ],
+            "correctAnswer": "To mark a property as not nullable in the database",
+            "explanation": "IsRequired configures whether the property is required (not nullable) in the database."
+        },
+        {
+            "id": "efcore-linq-042",
+            "text": "Which LINQ method is used to create a sequence from a single value?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Enumerable.Range",
+                "Enumerable.Repeat",
+                "Enumerable.Single",
+                "Enumerable.Create"
+            ],
+            "correctAnswer": "Enumerable.Repeat",
+            "explanation": "Enumerable.Repeat generates a sequence that contains one repeated value."
+        },
+        {
+            "id": "efcore-linq-043",
+            "text": "What is the purpose of the 'UseLazyLoadingProxies' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To enable lazy loading using dynamic proxies",
+                "To disable lazy loading",
+                "To configure proxy server settings",
+                "To optimize lazy loading performance"
+            ],
+            "correctAnswer": "To enable lazy loading using dynamic proxies",
+            "explanation": "UseLazyLoadingProxies enables lazy loading of navigation properties using dynamic proxies."
+        },
+        {
+            "id": "efcore-linq-044",
+            "text": "Which LINQ method is used to combine two sequences by correlating their elements based on matching keys?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Zip",
+                "Combine",
+                "Merge",
+                "Correlate"
+            ],
+            "correctAnswer": "Zip",
+            "explanation": "The Zip method applies a specified function to the corresponding elements of two sequences, producing a sequence of the results."
+        },
+        {
+            "id": "efcore-linq-045",
+            "text": "What is the purpose of the 'ExecuteDelete' method in EF Core 7.0+?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To delete entities without loading them first",
+                "To delete migration files",
+                "To delete database schemas",
+                "To remove change tracking"
+            ],
+            "correctAnswer": "To delete entities without loading them first",
+            "explanation": "ExecuteDelete allows performing bulk deletions directly on the database without loading entities into memory."
+        },
+        {
+            "id": "efcore-linq-046",
+            "text": "Which LINQ method is used to return the last element of a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Last",
+                "End",
+                "Final",
+                "Tail"
+            ],
+            "correctAnswer": "Last",
+            "explanation": "The Last method returns the last element of a sequence."
+        },
+        {
+            "id": "efcore-linq-047",
+            "text": "What is the purpose of the 'HasConversion' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To convert between different data types when reading/writing to the database",
+                "To convert entity types",
+                "To convert query results",
+                "To convert migration formats"
+            ],
+            "correctAnswer": "To convert between different data types when reading/writing to the database",
+            "explanation": "HasConversion configures how a property value is converted to and from the database."
+        },
+        {
+            "id": "efcore-linq-048",
+            "text": "Which LINQ method is used to determine whether a sequence contains a specified element?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Contains",
+                "Has",
+                "Includes",
+                "Exists"
+            ],
+            "correctAnswer": "Contains",
+            "explanation": "The Contains method determines whether a sequence contains a specified element."
+        },
+        {
+            "id": "efcore-linq-049",
+            "text": "What is the purpose of the 'OwnsOne' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure owned entity types",
+                "To declare entity ownership",
+                "To create one-to-one relationships",
+                "To mark entities as disposable"
+            ],
+            "correctAnswer": "To configure owned entity types",
+            "explanation": "OwnsOne configures a relationship where the target entity is owned by (or part of) this entity."
+        },
+        {
+            "id": "efcore-linq-050",
+            "text": "Which LINQ method is used to cast the elements of a sequence to a specified type?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Cast",
+                "OfType",
+                "Convert",
+                "AsType"
+            ],
+            "correctAnswer": "Cast",
+            "explanation": "The Cast method casts the elements of a sequence to the specified type."
+        },
+        {
+            "id": "efcore-linq-051",
+            "text": "What is the purpose of the 'HasIndex' method in EF Core Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To create database indexes for improved query performance",
+                "To index entity properties in memory",
+                "To create unique constraints",
+                "To configure primary keys"
+            ],
+            "correctAnswer": "To create database indexes for improved query performance",
+            "explanation": "HasIndex creates an index on the specified property or properties in the database."
+        },
+        {
+            "id": "efcore-linq-052",
+            "text": "Which LINQ method is used to return elements from a sequence as long as a specified condition is true?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "TakeWhile",
+                "SkipWhile",
+                "While",
+                "ConditionalTake"
+            ],
+            "correctAnswer": "TakeWhile",
+            "explanation": "TakeWhile returns elements from a sequence as long as a specified condition is true."
+        },
+        {
+            "id": "efcore-linq-053",
+            "text": "What is the purpose of the 'ToQueryString' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To get the SQL query that would be executed",
+                "To convert LINQ to string",
+                "To create query templates",
+                "To generate migration SQL"
+            ],
+            "correctAnswer": "To get the SQL query that would be executed",
+            "explanation": "ToQueryString returns the SQL query that would be executed for a LINQ query."
+        },
+        {
+            "id": "efcore-linq-054",
+            "text": "Which LINQ method is used to create a sequence of integral numbers within a specified range?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Enumerable.Range",
+                "Enumerable.Sequence",
+                "Enumerable.Integers",
+                "Enumerable.FromTo"
+            ],
+            "correctAnswer": "Enumerable.Range",
+            "explanation": "Enumerable.Range generates a sequence of integral numbers within a specified range."
+        },
+        {
+            "id": "efcore-linq-055",
+            "text": "What is the purpose of the 'IsConcurrencyToken' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure a property as a concurrency token for optimistic concurrency control",
+                "To create security tokens",
+                "To generate unique identifiers",
+                "To manage transaction tokens"
+            ],
+            "correctAnswer": "To configure a property as a concurrency token for optimistic concurrency control",
+            "explanation": "IsConcurrencyToken configures a property to be used as an optimistic concurrency token."
+        },
+        {
+            "id": "efcore-linq-056",
+            "text": "Which LINQ method is used to invert the order of elements in a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Reverse",
+                "Invert",
+                "Flip",
+                "Backwards"
+            ],
+            "correctAnswer": "Reverse",
+            "explanation": "The Reverse method inverts the order of elements in a sequence."
+        },
+        {
+            "id": "efcore-linq-057",
+            "text": "What is the purpose of the 'UseSqlServer' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure EF Core to work with SQL Server",
+                "To execute SQL Server stored procedures",
+                "To generate SQL Server specific queries",
+                "To connect to multiple SQL Server databases"
+            ],
+            "correctAnswer": "To configure EF Core to work with SQL Server",
+            "explanation": "UseSqlServer configures the context to connect to a SQL Server database."
+        },
+        {
+            "id": "efcore-linq-058",
+            "text": "Which LINQ method is used to return the minimum value in a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Min",
+                "Minimum",
+                "Lowest",
+                "Bottom"
+            ],
+            "correctAnswer": "Min",
+            "explanation": "The Min method returns the minimum value in a sequence of values."
+        },
+        {
+            "id": "efcore-linq-059",
+            "text": "What is the purpose of the 'HasDefaultValue' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure a default value for a database column",
+                "To set C# property default values",
+                "To configure fallback values for null properties",
+                "To create default entity instances"
+            ],
+            "correctAnswer": "To configure a default value for a database column",
+            "explanation": "HasDefaultValue configures the default value for the database column."
+        },
+        {
+            "id": "efcore-linq-060",
+            "text": "Which LINQ method is used to sum the values in a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Sum",
+                "Total",
+                "Add",
+                "AggregateSum"
+            ],
+            "correctAnswer": "Sum",
+            "explanation": "The Sum method computes the sum of a sequence of numeric values."
+        },
+        {
+            "id": "efcore-linq-061",
+            "text": "What is the purpose of the 'ToTable' method in EF Core Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To specify the database table name for an entity",
+                "To convert entities to data tables",
+                "To create temporary tables",
+                "To generate table creation scripts"
+            ],
+            "correctAnswer": "To specify the database table name for an entity",
+            "explanation": "ToTable configures the database table that the entity maps to."
+        },
+        {
+            "id": "efcore-linq-062",
+            "text": "Which LINQ method is used to perform a custom aggregation operation on a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Aggregate",
+                "Reduce",
+                "Accumulate",
+                "CombineAll"
+            ],
+            "correctAnswer": "Aggregate",
+            "explanation": "The Aggregate method applies an accumulator function over a sequence."
+        },
+        {
+            "id": "efcore-linq-063",
+            "text": "In EF Core, what is the purpose of the 'HasKey' method in Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To define a foreign key relationship",
+                "To configure the primary key for an entity",
+                "To set encryption keys",
+                "To define unique constraints"
+            ],
+            "correctAnswer": "To configure the primary key for an entity",
+            "explanation": "HasKey is used to configure the property or properties that make up the primary key for an entity type."
+        },
+        {
+            "id": "efcore-linq-064",
+            "text": "Which LINQ method is used to perform a custom aggregation operation?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Aggregate",
+                "Reduce",
+                "CustomAggregate",
+                "Fold"
+            ],
+            "correctAnswer": "Aggregate",
+            "explanation": "Aggregate applies an accumulator function over a sequence, allowing for custom aggregation operations."
+        },
+        {
+            "id": "efcore-linq-065",
+            "text": "What is the purpose of the 'HasIndex' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To create database indexes for improved query performance",
+                "To index arrays in memory",
+                "To create primary keys",
+                "To index migration files"
+            ],
+            "correctAnswer": "To create database indexes for improved query performance",
+            "explanation": "HasIndex configures a database index for the specified properties, which can significantly improve query performance."
+        },
+        {
+            "id": "efcore-linq-066",
+            "text": "Which LINQ method is used to return the element at a specified index?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "ElementAt",
+                "AtIndex",
+                "Get",
+                "Position"
+            ],
+            "correctAnswer": "ElementAt",
+            "explanation": "ElementAt returns the element at a specified index in a sequence."
+        },
+        {
+            "id": "efcore-linq-067",
+            "text": "In EF Core, what is the purpose of the 'HasOne' and 'WithMany' methods?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure a one-to-many relationship",
+                "To configure a one-to-one relationship",
+                "To create multiple database connections",
+                "To configure many-to-many relationships"
+            ],
+            "correctAnswer": "To configure a one-to-many relationship",
+            "explanation": "HasOne().WithMany() configures a one-to-many relationship where one entity has a collection of another entity."
+        },
+        {
+            "id": "efcore-linq-068",
+            "text": "Which LINQ method is used to return the element at a specified index or a default value if the index is out of range?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "ElementAtOrDefault",
+                "ElementAt",
+                "GetOrDefault",
+                "SafeElementAt"
+            ],
+            "correctAnswer": "ElementAtOrDefault",
+            "explanation": "ElementAtOrDefault returns the element at a specified index or a default value if the index is out of range."
+        },
+        {
+            "id": "efcore-linq-069",
+            "text": "What is the purpose of the 'HasForeignKey' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure which property is the foreign key in a relationship",
+                "To create foreign key constraints in memory",
+                "To define primary keys",
+                "To configure database foreign key policies"
+            ],
+            "correctAnswer": "To configure which property is the foreign key in a relationship",
+            "explanation": "HasForeignKey specifies which property serves as the foreign key in a relationship between entities."
+        },
+        {
+            "id": "efcore-linq-070",
+            "text": "Which LINQ method is used to return the first element of a sequence or a default value if no element is found?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "FirstOrDefault",
+                "First",
+                "DefaultOrFirst",
+                "GetFirstOrDefault"
+            ],
+            "correctAnswer": "FirstOrDefault",
+            "explanation": "FirstOrDefault returns the first element of a sequence, or a default value if the sequence contains no elements."
+        },
+        {
+            "id": "efcore-linq-071",
+            "text": "In EF Core, what is the purpose of the 'OnDelete' method?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure the delete behavior for a relationship",
+                "To delete entities from the database",
+                "To create delete triggers",
+                "To configure cascade delete in memory"
+            ],
+            "correctAnswer": "To configure the delete behavior for a relationship",
+            "explanation": "OnDelete configures the delete behavior for a relationship, such as Cascade, Restrict, SetNull, etc."
+        },
+        {
+            "id": "efcore-linq-072",
+            "text": "Which LINQ method is used to return the only element of a sequence, or a default value if the sequence is empty?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "SingleOrDefault",
+                "Single",
+                "FirstOrDefault",
+                "OnlyOrDefault"
+            ],
+            "correctAnswer": "SingleOrDefault",
+            "explanation": "SingleOrDefault returns the only element of a sequence, or a default value if the sequence is empty; throws an exception if there is more than one element."
+        },
+        {
+            "id": "efcore-linq-073",
+            "text": "What is the purpose of the 'IsConcurrencyToken' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To mark a property as a concurrency token for optimistic concurrency control",
+                "To create authentication tokens",
+                "To generate unique identifiers",
+                "To track concurrent database connections"
+            ],
+            "correctAnswer": "To mark a property as a concurrency token for optimistic concurrency control",
+            "explanation": "IsConcurrencyToken configures a property to be used as an optimistic concurrency token."
+        },
+        {
+            "id": "efcore-linq-074",
+            "text": "Which LINQ method is used to return the last element of a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "Last",
+                "End",
+                "Final",
+                "Tail"
+            ],
+            "correctAnswer": "Last",
+            "explanation": "Last returns the last element of a sequence."
+        },
+        {
+            "id": "efcore-linq-075",
+            "text": "In EF Core, what is the purpose of the 'ValueGeneratedOnAdd' method?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure a property to have its value generated by the database when adding",
+                "To add values to existing entities",
+                "To generate values on the client side",
+                "To create computed columns"
+            ],
+            "correctAnswer": "To configure a property to have its value generated by the database when adding",
+            "explanation": "ValueGeneratedOnAdd configures that the property's value is generated by the database when the entity is added (e.g., identity columns)."
+        },
+        {
+            "id": "efcore-linq-076",
+            "text": "Which LINQ method is used to return the last element of a sequence or a default value if no element is found?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "LastOrDefault",
+                "Last",
+                "DefaultOrLast",
+                "GetLastOrDefault"
+            ],
+            "correctAnswer": "LastOrDefault",
+            "explanation": "LastOrDefault returns the last element of a sequence, or a default value if the sequence contains no elements."
+        },
+        {
+            "id": "efcore-linq-077",
+            "text": "What is the purpose of the 'HasComputedColumnSql' method in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure a property to map to a computed column in the database",
+                "To compute values in memory",
+                "To generate SQL queries",
+                "To create calculated properties in entities"
+            ],
+            "correctAnswer": "To configure a property to map to a computed column in the database",
+            "explanation": "HasComputedColumnSql configures a property to map to a computed column in the database, with values computed by the database."
+        },
+        {
+            "id": "efcore-linq-078",
+            "text": "Which LINQ method is used to determine if two sequences are equal by comparing their elements?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "SequenceEqual",
+                "Equals",
+                "Compare",
+                "SameAs"
+            ],
+            "correctAnswer": "SequenceEqual",
+            "explanation": "SequenceEqual determines whether two sequences are equal by comparing their elements using the default equality comparer."
+        },
+        {
+            "id": "efcore-linq-079",
+            "text": "In EF Core, what is the purpose of the 'HasDefaultValueSql' method?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "To configure a SQL expression as the default value for a database column",
+                "To set default values in memory",
+                "To create default SQL queries",
+                "To configure default connection strings"
+            ],
+            "correctAnswer": "To configure a SQL expression as the default value for a database column",
+            "explanation": "HasDefaultValueSql specifies the SQL expression used as the default value for the database column."
+        },
+        {
+            "id": "efcore-linq-080",
+            "text": "Which LINQ method is used to create a dictionary from a sequence?",
+            "type": "multiple-choice",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "ToDictionary",
+                "ToLookup",
+                "AsDictionary",
+                "CreateDictionary"
+            ],
+            "correctAnswer": "ToDictionary",
+            "explanation": "ToDictionary creates a Dictionary<TKey,TValue> from an IEnumerable<T> according to specified key selector and element selector functions."
+        },
+        {
+            "id": "efcore-linq-081",
+            "text": "EF Core automatically tracks changes to entities retrieved from the database.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "By default, EF Core tracks changes to entities that are retrieved from the database, unless AsNoTracking is used."
+        },
+        {
+            "id": "efcore-linq-082",
+            "text": "LINQ queries are always executed immediately when defined.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "LINQ queries use deferred execution - they are not executed until the results are enumerated (e.g., by calling ToList(), foreach, etc.)."
+        },
+        {
+            "id": "efcore-linq-083",
+            "text": "In EF Core, calling SaveChanges automatically wraps all changes in a transaction.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "SaveChanges automatically creates a transaction if one isn't already present and commits it if all changes succeed."
+        },
+        {
+            "id": "efcore-linq-084",
+            "text": "The 'Include' method in EF Core can be used with filtered collections.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "EF Core supports filtered includes using the ThenInclude method with Where to load filtered related data."
+        },
+        {
+            "id": "efcore-linq-085",
+            "text": "LINQ to Entities supports all C# methods and operators.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "LINQ to Entities has limitations and only supports methods and operators that can be translated to SQL by the EF Core provider."
+        },
+        {
+            "id": "efcore-linq-086",
+            "text": "EF Core requires that all entity classes have a parameterless constructor.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While EF Core can use a parameterless constructor, it can also use parameterized constructors and property initializers."
+        },
+        {
+            "id": "efcore-linq-087",
+            "text": "The 'Find' method in EF Core always queries the database, even if the entity is already tracked.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Find first checks the change tracker for the entity with the given primary key values, and only queries the database if it's not found."
+        },
+        {
+            "id": "efcore-linq-088",
+            "text": "LINQ's 'Select' method can be used to transform data and project to different types.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Select can project data into different shapes and types, including anonymous types and DTOs."
+        },
+        {
+            "id": "efcore-linq-089",
+            "text": "EF Core migrations can be applied automatically at runtime.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Using context.Database.Migrate() or ensuring the database is created with the latest migration."
+        },
+        {
+            "id": "efcore-linq-090",
+            "text": "The 'AsNoTracking' method improves query performance but disables change tracking for returned entities.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "AsNoTracking improves performance by not setting up change tracking, which is beneficial for read-only scenarios."
+        },
+        {
+            "id": "efcore-linq-091",
+            "text": "LINQ's 'Where' method can only accept a single condition.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Where can accept complex predicates with multiple conditions using logical operators (&&, ||)."
+        },
+        {
+            "id": "efcore-linq-092",
+            "text": "EF Core supports many-to-many relationships without a join entity.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Starting with EF Core 5.0, many-to-many relationships can be configured without explicitly mapping the join entity."
+        },
+        {
+            "id": "efcore-linq-093",
+            "text": "The 'FirstOrDefault' method in LINQ always returns null for reference types when no element is found.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "For reference types, FirstOrDefault returns null when no element is found; for value types, it returns default(T)."
+        },
+        {
+            "id": "efcore-linq-094",
+            "text": "EF Core can execute raw SQL queries that return entity types.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Using FromSqlRaw or FromSqlInterpolated methods, EF Core can execute raw SQL queries and materialize the results as entities."
+        },
+        {
+            "id": "efcore-linq-095",
+            "text": "LINQ queries using IQueryable are always executed on the database server.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "IQueryable queries are translated to SQL and executed on the database server, unlike IEnumerable which executes in memory."
+        },
+        {
+            "id": "efcore-linq-096",
+            "text": "EF Core requires that navigation properties be marked as virtual for lazy loading to work.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "For lazy loading to work with proxies, navigation properties must be virtual so EF Core can override them."
+        },
+        {
+            "id": "efcore-linq-097",
+            "text": "The 'GroupBy' method in LINQ can be used with multiple key selectors.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "GroupBy can use anonymous types to group by multiple properties, creating composite keys."
+        },
+        {
+            "id": "efcore-linq-098",
+            "text": "EF Core automatically creates foreign key constraints for navigation properties.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "When relationships are configured, EF Core automatically creates foreign key constraints in the database during migrations."
+        },
+        {
+            "id": "efcore-linq-099",
+            "text": "LINQ's 'SelectMany' method is used to flatten a sequence of sequences.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "SelectMany projects each element of a sequence to an IEnumerable<T> and flattens the resulting sequences into one sequence."
+        },
+        {
+            "id": "efcore-linq-100",
+            "text": "EF Core supports database transactions with isolation level configuration.",
+            "type": "true-false",
+            "category": "EF Core & LINQ",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "EF Core supports explicit transactions with configurable isolation levels using Database.BeginTransaction()."
+        },
+        {
+            "id": "efcore-linq-101",
+            "text": "What is the 'Cartesian Explosion' problem in EF Core, and how is it resolved?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "A database crash caused by too many connections; resolved by connection pooling",
+                "Data duplication occurring when joining one-to-many relationships; resolved using AsSplitQuery()",
+                "An exception thrown when a query is too complex; resolved by raw SQL",
+                "A memory leak in the change tracker; resolved by AsNoTracking"
+            ],
+            "correctAnswer": "Data duplication occurring when joining one-to-many relationships; resolved using AsSplitQuery()",
+            "explanation": "When loading multiple related collections (Includes), a single SQL query creates a cross-product of rows, duplicating parent data for every child row. 'AsSplitQuery' separates these into distinct SQL statements to avoid duplication overhead."
+        },
+        {
+            "id": "efcore-linq-102",
+            "text": "What is the specific exception thrown by EF Core when an Optimistic Concurrency violation occurs?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "SqlException",
+                "InvalidOperationException",
+                "DbUpdateConcurrencyException",
+                "TransactionAbortedException"
+            ],
+            "correctAnswer": "DbUpdateConcurrencyException",
+            "explanation": "When EF Core attempts to save changes but detects that the data in the database has been modified since it was loaded (usually via a Concurrency Token or RowVersion mismatch), it throws a DbUpdateConcurrencyException."
+        },
+        {
+            "id": "efcore-linq-103",
+            "text": "Which Inheritance Mapping strategy puts all classes in a hierarchy into a single table with a 'Discriminator' column?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Table Per Type (TPT)",
+                "Table Per Concrete Type (TPC)",
+                "Table Per Hierarchy (TPH)",
+                "Table Per Class (TPCls)"
+            ],
+            "correctAnswer": "Table Per Hierarchy (TPH)",
+            "explanation": "TPH is the default strategy where a single table stores data for all types in the inheritance hierarchy, distinguishing them using a Discriminator column."
+        },
+        {
+            "id": "efcore-linq-104",
+            "text": "What is a 'Shadow Property' in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "A property that is read-only",
+                "A property defined in the EF Core model but not present in the .NET CLR entity class",
+                "A property that creates a shadow copy of data for auditing",
+                "A private property inside the entity class"
+            ],
+            "correctAnswer": "A property defined in the EF Core model but not present in the .NET CLR entity class",
+            "explanation": "Shadow properties are tracked by the Change Tracker and mapped to a database column, but they do not exist as properties on the C# class itself (e.g., 'CreatedDate' or foreign keys managed purely by EF)."
+        },
+        {
+            "id": "efcore-linq-105",
+            "text": "How does 'AddDbContextPool' differ from 'AddDbContext'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It allows multiple database providers simultaneously",
+                "It recycles DbContext instances to reduce garbage collection overhead for high-throughput scenarios",
+                "It automatically handles connection pooling at the SQL level",
+                "It creates a singleton DbContext for the entire application"
+            ],
+            "correctAnswer": "It recycles DbContext instances to reduce garbage collection overhead for high-throughput scenarios",
+            "explanation": "AddDbContextPool registers a pool of reusable DbContext instances. Instead of creating and disposing a new object per request, EF Core resets and reuses an existing instance, reducing object creation costs."
+        },
+        {
+            "id": "efcore-linq-106",
+            "text": "What is the primary use case for 'Global Query Filters'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To log all queries globally",
+                "To automatically apply logic like 'Soft Delete' or 'Multi-Tenancy' to all queries for an entity",
+                "To prevent SQL injection globally",
+                "To sort all queries by Primary Key automatically"
+            ],
+            "correctAnswer": "To automatically apply logic like 'Soft Delete' or 'Multi-Tenancy' to all queries for an entity",
+            "explanation": "Global Query Filters are LINQ predicates applied to the Model (via OnModelCreating). They are automatically appended to all LINQ queries for that entity (e.g., 'Where(e => !e.IsDeleted)')."
+        },
+        {
+            "id": "efcore-linq-107",
+            "text": "How can you bypass a Global Query Filter for a specific LINQ query?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "By using .AsNoTracking()",
+                "By using .IgnoreQueryFilters()",
+                "By using .IncludeAll()",
+                "By using raw SQL only"
+            ],
+            "correctAnswer": "By using .IgnoreQueryFilters()",
+            "explanation": "The IgnoreQueryFilters() operator disables any global filters defined on the entity for that specific query execution (e.g., if an admin needs to see deleted records)."
+        },
+        {
+            "id": "efcore-linq-108",
+            "text": "What is the 'Table Per Concrete Type' (TPC) mapping strategy available in EF Core 7+?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "One table for the base class and separate tables for derived classes joined by Foreign Keys",
+                "One giant table for everything",
+                "Separate tables for each non-abstract class, with no shared table for the base class",
+                "Using JSON columns to store derived types"
+            ],
+            "correctAnswer": "Separate tables for each non-abstract class, with no shared table for the base class",
+            "explanation": "TPC creates a table for each concrete class. Unlike TPT, the tables are not joined; each table contains columns for all properties (base + derived). This offers better performance than TPT for queries not selecting purely polymorphic types."
+        },
+        {
+            "id": "efcore-linq-109",
+            "text": "What is the purpose of 'Compiled Models' in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To validate models during compilation",
+                "To improve startup performance by generating a pre-optimized static model instead of building it at runtime",
+                "To prevent changes to the database schema",
+                "To compile LINQ queries into stored procedures"
+            ],
+            "correctAnswer": "To improve startup performance by generating a pre-optimized static model instead of building it at runtime",
+            "explanation": "Building the EF Core model at runtime (scanning classes, applying conventions) can be slow for large models. Compiled Models utilize the CLI to generate optimized C# code representing the model, drastically reducing startup time."
+        },
+        {
+            "id": "efcore-linq-110",
+            "text": "When using 'AsNoTracking', identity resolution is NOT performed. What is a potential side effect of this?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "The query will fail if duplicates exist",
+                "Multiple instances of the same entity (same Primary Key) may be returned in the result set",
+                "Foreign keys will be null",
+                "The database connection stays open longer"
+            ],
+            "correctAnswer": "Multiple instances of the same entity (same Primary Key) may be returned in the result set",
+            "explanation": "Standard queries use Identity Resolution to ensure that if row ID=1 is encountered twice, the same object instance is used. AsNoTracking skips this for speed, meaning you might get two different objects in memory representing the same database row."
+        },
+        {
+            "id": "efcore-linq-111",
+            "text": "What is the purpose of 'TagWith' in a LINQ query?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To add a C# attribute to the entity",
+                "To add a SQL comment to the generated query for easier debugging/profiling",
+                "To tag entities for caching",
+                "To categorize entities in the Change Tracker"
+            ],
+            "correctAnswer": "To add a SQL comment to the generated query for easier debugging/profiling",
+            "explanation": "TagWith adds a comment to the generated SQL (e.g., '-- This is the user search query'). This helps identify the source of slow queries when looking at database logs."
+        },
+        {
+            "id": "efcore-linq-112",
+            "text": "Which interface should be implemented to create a Value Converter?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "IEntityTypeConfiguration",
+                "IValueConverter",
+                "ValueConverter<TModel, TProvider>",
+                "IPropertyMapper"
+            ],
+            "correctAnswer": "ValueConverter<TModel, TProvider>",
+            "explanation": "Developers inherit from the `ValueConverter<TModel, TProvider>` class to define how a C# property type maps to a database provider type (e.g., converting a `List<string>` in C# to a JSON string in SQL)."
+        },
+        {
+            "id": "efcore-linq-113",
+            "text": "What is the risk of using 'IQueryable' inside a generic repository pattern if exposed directly to the UI layer?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It causes memory leaks",
+                "It allows the UI layer to construct inefficient queries or filter logic that belongs in the business layer (Leaky Abstraction)",
+                "It prevents dependency injection",
+                "It forces synchronous execution"
+            ],
+            "correctAnswer": "It allows the UI layer to construct inefficient queries or filter logic that belongs in the business layer (Leaky Abstraction)",
+            "explanation": "Exposing IQueryable allows upper layers to chain operators like `.Select` or `.Where`. This creates a 'Leaky Abstraction' where database concerns (like query optimization) leak into the Controller/UI layer."
+        },
+        {
+            "id": "efcore-linq-114",
+            "text": "What does the 'AsSplitQuery' behavior generally improve?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It improves insert speed",
+                "It improves performance when loading large collections by avoiding data duplication in the result set",
+                "It reduces the number of connections used",
+                "It allows writing raw SQL"
+            ],
+            "correctAnswer": "It improves performance when loading large collections by avoiding data duplication in the result set",
+            "explanation": "While single queries guarantee consistency, they return duplicated data for the parent entity for every child row. Split queries load the parent once, then children separately, reducing network bandwidth usage for large datasets."
+        },
+        {
+            "id": "efcore-linq-115",
+            "text": "What is the default Transaction Isolation Level when using 'context.Database.BeginTransaction()' in EF Core with SQL Server?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Serializable",
+                "Snapshot",
+                "ReadUncommitted",
+                "ReadCommitted"
+            ],
+            "correctAnswer": "ReadCommitted",
+            "explanation": "For SQL Server, the default isolation level is ReadCommitted, meaning queries cannot read data that is currently being modified by other uncommitted transactions."
+        },
+        {
+            "id": "efcore-linq-116",
+            "text": "In a many-to-many relationship, what is the 'Skip Navigation' property?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "A property that instructs EF to ignore the relationship",
+                "A navigation property that allows accessing the other end of a many-to-many relationship directly, skipping the join entity",
+                "A property used for pagination (Skip/Take)",
+                "A property that is not mapped to the database"
+            ],
+            "correctAnswer": "A navigation property that allows accessing the other end of a many-to-many relationship directly, skipping the join entity",
+            "explanation": "Introduced in EF Core 5, Skip Navigations allow you to access `Student.Courses` directly without manually traversing `Student.StudentCourses.Course`."
+        },
+        {
+            "id": "efcore-linq-117",
+            "text": "What happens if you attach an entity with a generic 'State = EntityState.Modified' but do not modify any properties?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "EF Core does nothing",
+                "EF Core updates all columns in the database row, even if values haven't changed",
+                "EF Core throws an exception",
+                "EF Core deletes the entity"
+            ],
+            "correctAnswer": "EF Core updates all columns in the database row, even if values haven't changed",
+            "explanation": "If you manually set the state to Modified, EF Core assumes the whole entity is dirty and generates an UPDATE statement for all mapped columns. This is different from automatic change tracking which only updates changed properties."
+        },
+        {
+            "id": "efcore-linq-118",
+            "text": "Which feature allows modifying or suppressing EF Core operations (like SaveChanges or Query execution) at a low level?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Interceptors",
+                "Middleware",
+                "Delegates",
+                "Filters"
+            ],
+            "correctAnswer": "Interceptors",
+            "explanation": "EF Core Interceptors (derived from `DbCommandInterceptor`, `SaveChangesInterceptor`, etc.) allow you to hook into, modify, or suppress operations just before they are sent to the database."
+        },
+        {
+            "id": "efcore-linq-119",
+            "text": "What is 'Temporal Table' support in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Support for temporary in-memory tables",
+                "Support for SQL Server System-Versioned Temporal Tables to track data history",
+                "A table that deletes data after a timeout",
+                "A migration history table"
+            ],
+            "correctAnswer": "Support for SQL Server System-Versioned Temporal Tables to track data history",
+            "explanation": "EF Core 6.0+ supports SQL Server Temporal Tables, allowing you to query data 'AS OF' a specific point in time to see historical changes automatically."
+        },
+        {
+            "id": "efcore-linq-120",
+            "text": "When using LINQ, what does 'Client-Side Evaluation' mean?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "The query is executed on the client's browser",
+                "Parts of the query cannot be translated to SQL, so EF fetches data and computes the rest in C# memory",
+                "The query is sent to a secondary database replica",
+                "The query is validated by the client before sending"
+            ],
+            "correctAnswer": "Parts of the query cannot be translated to SQL, so EF fetches data and computes the rest in C# memory",
+            "explanation": "If a LINQ expression contains a C# method that has no SQL equivalent, previous versions of EF might implicitly fetch data and calculate locally. Modern EF Core throws an exception for most of these to prevent performance disasters, unless explicitly switched to client evaluation."
+        },
+        {
+            "id": "efcore-linq-121",
+            "text": "Which LINQ method is optimized for checking if a sequence is empty without enumerating the whole list?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Count() == 0",
+                "Any()",
+                "Where().Count()",
+                "All()"
+            ],
+            "correctAnswer": "Any()",
+            "explanation": "Using `!Any()` or `Any()` is more efficient than `Count() == 0` because `Any()` returns true/false as soon as it finds the first item (or checks `EXISTS` in SQL), whereas `Count()` must iterate the whole list or count all table rows."
+        },
+        {
+            "id": "efcore-linq-122",
+            "text": "What is the purpose of 'context.ChangeTracker.Clear()'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To delete all data in the database",
+                "To stop tracking all currently tracked entities, detaching them",
+                "To clear the SQL logs",
+                "To undo the last transaction"
+            ],
+            "correctAnswer": "To stop tracking all currently tracked entities, detaching them",
+            "explanation": "ChangeTracker.Clear() is a performant way to detach all entities from the DbContext. It is useful in mass-processing scenarios to prevent the context from growing indefinitely and slowing down."
+        },
+        {
+            "id": "efcore-linq-123",
+            "text": "Which operator allows you to combine multiple 'Include' statements for the same navigation property conditionally?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "You cannot use Include conditionally",
+                "Using filtered Include: .Include(x => x.Collection.Where(c => c.IsActive))",
+                "Using IncludeIf()",
+                "Using raw SQL"
+            ],
+            "correctAnswer": "Using filtered Include: .Include(x => x.Collection.Where(c => c.IsActive))",
+            "explanation": "EF Core 5+ supports Filtered Includes, allowing you to apply Where, OrderBy, Skip, and Take operations inside the Include method to restrict which related entities are loaded."
+        },
+        {
+            "id": "efcore-linq-124",
+            "text": "What is the correct way to handle a 'DbUpdateException' caused by a Unique Constraint violation?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Restart the server",
+                "Catch the exception, inspect the InnerException or SQL Error Number, and inform the user",
+                "Use transaction rollback",
+                "Disable the unique constraint"
+            ],
+            "correctAnswer": "Catch the exception, inspect the InnerException or SQL Error Number, and inform the user",
+            "explanation": "EF Core wraps database errors in DbUpdateException. To handle specific errors like duplicate keys (Unique Constraint), you must inspect the inner provider-specific exception (e.g., SqlException with error number 2601 or 2627)."
+        },
+        {
+            "id": "efcore-linq-125",
+            "text": "What is the main disadvantage of using 'Lazy Loading'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It loads too much data at once",
+                "It causes the N+1 query problem if iterating over a collection",
+                "It requires raw SQL",
+                "It does not support async"
+            ],
+            "correctAnswer": "It causes the N+1 query problem if iterating over a collection",
+            "explanation": "If you loop through 100 parents and access a lazy-loaded child property, EF executes 1 initial query + 100 subsequent queries (one per parent). This drasticaly degrades performance compared to Eager Loading."
+        },
+        {
+            "id": "efcore-linq-126",
+            "text": "How do you configure a Composite Primary Key using Fluent API?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "modelBuilder.Entity<T>().HasKey(t => new { t.Id1, t.Id2 })",
+                "modelBuilder.Entity<T>().HasKey(t => t.Id1).HasKey(t => t.Id2)",
+                "Use the [Key] attribute on both properties",
+                "Composite keys are not supported"
+            ],
+            "correctAnswer": "modelBuilder.Entity<T>().HasKey(t => new { t.Id1, t.Id2 })",
+            "explanation": "Composite keys (keys made of multiple columns) must be configured via Fluent API using an anonymous object to select the properties. Data Annotations ([Key]) typically cannot define composite order explicitly in EF Core."
+        },
+        {
+            "id": "efcore-linq-127",
+            "text": "What is 'Query Splitting Behavior' configuration at the DbContext level?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It forces all queries to run in parallel",
+                "It sets the default behavior (Single Query vs Split Query) for all queries in the context",
+                "It splits read and write operations",
+                "It splits the database schema"
+            ],
+            "correctAnswer": "It sets the default behavior (Single Query vs Split Query) for all queries in the context",
+            "explanation": "You can configure `options.UseSqlServer(str, o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery))` to make Split Query the default for the entire application instead of calling AsSplitQuery() everywhere."
+        },
+        {
+            "id": "efcore-linq-128",
+            "text": "What is an 'Owned Entity Type'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "An entity that has a foreign key",
+                "A class that appears as a property of another entity but maps to the same table (or separate table) sharing the owner's PK identity",
+                "An entity owned by a specific database user",
+                "A read-only entity"
+            ],
+            "correctAnswer": "A class that appears as a property of another entity but maps to the same table (or separate table) sharing the owner's PK identity",
+            "explanation": "Owned types (configured via `OwnsOne` or `OwnsMany`) are part of the aggregate root. They do not have their own independent identity; they are identified by the owner's Key. They are often used for Value Objects (like Address inside Customer)."
+        },
+        {
+            "id": "efcore-linq-129",
+            "text": "Which LINQ method is used to perform an inner join with multiple join keys (Composite Key Join)?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Join(..., inner => new { k1, k2 }, outer => new { k1, k2 }, ...)",
+                "Join(..., inner => k1 && k2, ...)",
+                "CompositeJoin()",
+                "Where()"
+            ],
+            "correctAnswer": "Join(..., inner => new { k1, k2 }, outer => new { k1, k2 }, ...)",
+            "explanation": "To join on multiple columns, you must project the keys into an anonymous type in both key selectors. The anonymous types must match in structure and property types."
+        },
+        {
+            "id": "efcore-linq-130",
+            "text": "What does 'HasData' method do in `OnModelCreating`?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It validates if the table has data",
+                "It seeds initial data into the database during migrations",
+                "It checks if a property contains data",
+                "It connects to an existing database"
+            ],
+            "correctAnswer": "It seeds initial data into the database during migrations",
+            "explanation": "HasData is used for Model Seeding. When you create a migration, EF Core detects these data definitions and generates SQL INSERT/UPDATE statements to ensure that specific static data exists in the database."
+        },
+        {
+            "id": "efcore-linq-131",
+            "text": "Why might you use 'AsNoTrackingWithIdentityResolution'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To disable query caching",
+                "To perform read-only queries while ensuring consistent object instances for the same Primary Key in the result graph",
+                "To track changes but ignore identity columns",
+                "To automatically resolve merge conflicts"
+            ],
+            "correctAnswer": "To perform read-only queries while ensuring consistent object instances for the same Primary Key in the result graph",
+            "explanation": "Standard `AsNoTracking` is faster but does not fix duplicates. `AsNoTrackingWithIdentityResolution` is a middle ground: it doesn't track changes (fast), but it ensures that if 'Department A' is referenced 10 times in a list of Employees, you get 1 Department object instance in memory, not 10 duplicates."
+        },
+        {
+            "id": "efcore-linq-132",
+            "text": "What is the 'Ambient Transaction' in .NET that EF Core supports?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "TransactionScope",
+                "DbTransaction",
+                "SqlTransaction",
+                "ImplicitTransaction"
+            ],
+            "correctAnswer": "TransactionScope",
+            "explanation": "EF Core automatically detects if code is running inside a `System.Transactions.TransactionScope`. If so, it enlists the database connection in that ambient transaction, allowing multiple operations (even across different contexts) to commit atomically."
+        },
+        {
+            "id": "efcore-linq-133",
+            "text": "How can you execute a Stored Procedure that returns data not mapped to any Entity?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "FromSqlRaw()",
+                "Context.Database.SqlQuery<T>()",
+                "ExecuteSqlRaw()",
+                "It is not possible"
+            ],
+            "correctAnswer": "Context.Database.SqlQuery<T>()",
+            "explanation": "In EF Core 8+, `Database.SqlQuery<T>` allows executing raw SQL and mapping the result to unmapped types (DTOs/ViewModels) without defining them as Keyless Entities in the DbContext."
+        },
+        {
+            "id": "efcore-linq-134",
+            "text": "What is the difference between 'IEnumerable.Contains' and 'String.Contains' in a LINQ query?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "IEnumerable.Contains translates to SQL 'IN', String.Contains translates to SQL 'LIKE'",
+                "There is no difference",
+                "String.Contains is for arrays",
+                "IEnumerable.Contains translates to SQL 'EXISTS'"
+            ],
+            "correctAnswer": "IEnumerable.Contains translates to SQL 'IN', String.Contains translates to SQL 'LIKE'",
+            "explanation": "`list.Contains(x.Id)` becomes `WHERE Id IN (1, 2, 3)`. `x.Name.Contains('abc')` becomes `WHERE Name LIKE '%abc%'`."
+        },
+        {
+            "id": "efcore-linq-135",
+            "text": "What defines a 'Keyless Entity Type' in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "An entity mapped to a database View or a table without a Primary Key",
+                "An entity with a Nullable Key",
+                "An entity that cannot be saved",
+                "An entity used for caching"
+            ],
+            "correctAnswer": "An entity mapped to a database View or a table without a Primary Key",
+            "explanation": "Keyless entities (configured via `HasNoKey()`) are used to map to Views or raw SQL results. They are never tracked by the Change Tracker and cannot be inserted/updated/deleted."
+        },
+        {
+            "id": "efcore-linq-136",
+            "text": "In LINQ, what is the concept of 'Projection'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Estimating future data growth",
+                "Selecting only the specific columns/properties needed into a new type (DTO)",
+                "Displaying data on a screen",
+                "Projecting coordinates"
+            ],
+            "correctAnswer": "Selecting only the specific columns/properties needed into a new type (DTO)",
+            "explanation": "Projection (using `.Select()`) is a crucial performance technique. It ensures EF Core only retrieves the requested columns from the database (e.g., `SELECT Name FROM Users`) rather than pulling the entire entity (`SELECT *`)."
+        },
+        {
+            "id": "efcore-linq-137",
+            "text": "What is the correct way to handle date comparisons (e.g., getting records from today) to ensure index usage?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Where(x => x.Date.ToString() == DateTime.Now.ToString())",
+                "Where(x => x.Date.Year == DateTime.Now.Year && x.Date.Day == DateTime.Now.Day)",
+                "Where(x => x.Date >= todayStart && x.Date < tomorrowStart)",
+                "Where(x => x.Date.Equals(DateTime.Now))"
+            ],
+            "correctAnswer": "Where(x => x.Date >= todayStart && x.Date < tomorrowStart)",
+            "explanation": "Using range comparisons (`>=` and `<`) is SARGable (Search ARGument ABLE), meaning SQL Server can use an Index on the Date column. Using functions like `.Year` or `.ToString()` often forces a full table scan because the database must compute the value for every row."
+        },
+        {
+            "id": "efcore-linq-138",
+            "text": "What is the 'Repository Pattern' anti-pattern when using EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Using Generic Repositories that wrap DbContext methods 1:1 without adding value",
+                "Using Repositories for Unit Testing",
+                "Using Aggregate Roots",
+                "Using Dependency Injection"
+            ],
+            "correctAnswer": "Using Generic Repositories that wrap DbContext methods 1:1 without adding value",
+            "explanation": "Since `DbContext` implements the Unit of Work pattern and `DbSet` implements the Repository pattern, creating a generic wrapper (e.g., `IRepository<T> { Add, Delete, Get }`) is often considered redundant and restricts the advanced capabilities of EF Core (like projection and eager loading)."
+        },
+        {
+            "id": "efcore-linq-139",
+            "text": "How does 'Single()' differ from 'First()' regarding execution logic?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "Single fetches only 1 row (TOP 1), First fetches all rows",
+                "First generates 'TOP (1)', Single generates 'TOP (2)' (to validate uniqueness)",
+                "Single works in memory only",
+                "There is no difference in SQL generation"
+            ],
+            "correctAnswer": "First generates 'TOP (1)', Single generates 'TOP (2)' (to validate uniqueness)",
+            "explanation": "`First()` only cares about the first item. `Single()` guarantees there is *exactly* one. To enforce this, EF generates `TOP(2)` in SQL. If the database returns 2 rows, `Single()` throws an exception client-side."
+        },
+        {
+            "id": "efcore-linq-140",
+            "text": "What is a 'Navigation Fix-up'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "A bug fix in EF Core navigation",
+                "The process where EF Core automatically connects related entities currently loaded in the Change Tracker",
+                "Manually setting ID properties",
+                "Repairing a corrupt database schema"
+            ],
+            "correctAnswer": "The process where EF Core automatically connects related entities currently loaded in the Change Tracker",
+            "explanation": "When EF loads data, if it finds an entity (e.g., Order) and its related entity (e.g., Customer) is already in memory (tracked), EF automatically populates the `Order.Customer` property, even if you didn't explicitly `Include` it in this specific query."
+        },
+        {
+            "id": "efcore-linq-141",
+            "text": "What does 'CreateDbContext' do in 'IDbContextFactory'?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It creates the database schema",
+                "It creates a new, independent instance of DbContext",
+                "It returns a cached DbContext",
+                "It creates a transaction"
+            ],
+            "correctAnswer": "It creates a new, independent instance of DbContext",
+            "explanation": "In Blazor Server or background services where scope lifetime is problematic, `IDbContextFactory` is used to manually create and dispose short-lived DbContext instances."
+        },
+        {
+            "id": "efcore-linq-142",
+            "text": "What is the performance implication of using 'ToList()' too early in a LINQ chain?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It has no effect",
+                "It materializes the query to memory, fetching all data, meaning subsequent 'Where' clauses run in memory (inefficient)",
+                "It makes the query faster",
+                "It forces SQL Server to use an index"
+            ],
+            "correctAnswer": "It materializes the query to memory, fetching all data, meaning subsequent 'Where' clauses run in memory (inefficient)",
+            "explanation": "`ToList()` triggers query execution. If you do `db.Users.ToList().Where(x => x.Age > 20)`, you pull *all* users from the DB into RAM, and *then* filter. Correct usage is `db.Users.Where(x => x.Age > 20).ToList()`."
+        },
+        {
+            "id": "efcore-linq-143",
+            "text": "What is the 'Discriminator' column used for?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To separate tenants in Multi-Tenancy",
+                "To distinguish between derived types in TPH inheritance mapping",
+                "To sort data",
+                "To filter deleted rows"
+            ],
+            "correctAnswer": "To distinguish between derived types in TPH inheritance mapping",
+            "explanation": "In TPH (Table Per Hierarchy), all types share one table. EF adds a 'Discriminator' column to know if a row represents a 'Car', 'Truck', or 'Motorcycle' when reading from the 'Vehicles' table."
+        },
+        {
+            "id": "efcore-linq-144",
+            "text": "Which data annotation allows specifying the precision of a decimal property?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "[MaxLength]",
+                "[Precision]",
+                "[Decimal]",
+                "[Range]"
+            ],
+            "correctAnswer": "[Precision]",
+            "explanation": "Introduced in recent versions (EF Core 6+), the `[Precision(18, 2)]` attribute allows configuring decimal precision and scale without using Fluent API."
+        },
+        {
+            "id": "efcore-linq-145",
+            "text": "What does 'UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)' do when configured in options?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It prevents any data from being saved",
+                "It changes the default tracking behavior for the entire context to NoTracking",
+                "It disables database connection tracking",
+                "It stops logging queries"
+            ],
+            "correctAnswer": "It changes the default tracking behavior for the entire context to NoTracking",
+            "explanation": "This sets the default policy. All queries will behave as `AsNoTracking()` unless explicitly configured otherwise. This is common in read-heavy APIs."
+        },
+        {
+            "id": "efcore-linq-146",
+            "text": "What is the purpose of 'Reverse Engineering' in EF Core (Scaffolding)?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "To convert C# code to SQL",
+                "To generate Entity Classes and DbContext from an existing database",
+                "To reverse the order of list items",
+                "To optimize existing queries"
+            ],
+            "correctAnswer": "To generate Entity Classes and DbContext from an existing database",
+            "explanation": "Using `Scaffold-DbContext`, developers can generate the EF Core model based on an existing database schema (Database-First approach)."
+        },
+        {
+            "id": "efcore-linq-147",
+            "text": "How does EF Core handle 'Nullable Reference Types' (NRT) in C# 8+?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It ignores them",
+                "It treats non-nullable reference properties (string) as Required (NOT NULL) in the database",
+                "It treats all strings as nullable",
+                "It throws an exception"
+            ],
+            "correctAnswer": "It treats non-nullable reference properties (string) as Required (NOT NULL) in the database",
+            "explanation": "If NRT is enabled, a property `public string Name { get; set; }` is mapped as `NOT NULL`. `public string? Name { get; set; }` is mapped as `NULL`."
+        },
+        {
+            "id": "efcore-linq-148",
+            "text": "What is the 'Context Pooling' limit?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "The number of DbContext instances EF will reuse before creating new ones (default 1024)",
+                "The max number of SQL connections",
+                "The max number of tables",
+                "The max size of a query"
+            ],
+            "correctAnswer": "The number of DbContext instances EF will reuse before creating new ones (default 1024)",
+            "explanation": "DbContext pooling has a cap (default 1024). If the pool is full, new instances are created and disposed of normally instead of being returned to the pool."
+        },
+        {
+            "id": "efcore-linq-149",
+            "text": "Which LINQ method is used to efficiently delete elements matching a condition in EF Core 7+?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "RemoveAll()",
+                "Where(...).ExecuteDelete()",
+                "DeleteWhere()",
+                "BulkDelete()"
+            ],
+            "correctAnswer": "Where(...).ExecuteDelete()",
+            "explanation": "`ExecuteDelete` generates a single SQL `DELETE FROM Table WHERE ...` command, avoiding the need to load entities into memory first."
+        },
+        {
+            "id": "efcore-linq-150",
+            "text": "What is the main benefit of 'Batching' in EF Core?",
+            "type": "multiple-choice",
+            "category": "EF Core Advanced",
+            "answers": [
+                "It groups multiple SQL statements (Insert/Update/Delete) into a single database roundtrip during SaveChanges",
+                "It batches read queries into groups of 10",
+                "It runs migrations in batches",
+                "It allows multiple users to log in at once"
+            ],
+            "correctAnswer": "It groups multiple SQL statements (Insert/Update/Delete) into a single database roundtrip during SaveChanges",
+            "explanation": "When you add 100 items and call `SaveChanges`, EF Core sends them in batches (e.g., one large SQL command inserting multiple rows) rather than making 100 separate network calls to the database."
+        }
+
+    ]
+}

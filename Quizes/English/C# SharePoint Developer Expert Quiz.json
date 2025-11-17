@@ -1,0 +1,1924 @@
+{
+    "title": "اختبار مطور SharePoint C# المتقدم",
+    "titleEn": "C# SharePoint Developer Expert Quiz",
+    "description": "A 150-question comprehensive exam for C# SharePoint developers, covering SSOM, CSOM, SPFx, REST APIs, Architecture, Security, and Modern Development.",
+    "categoryId": 21,
+    "isFree": false,
+    "lang": "en",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is the top-level container in an on-premises SharePoint farm that is associated with one or more IIS websites?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "Site Collection",
+                "Web Application",
+                "Service Application",
+                "Content Database"
+            ],
+            "correctAnswer": "Web Application",
+            "explanation": "A Web Application is the top-level logical unit, created in Central Administration, which maps to an IIS website and is associated with content databases and authentication providers."
+        },
+        {
+            "id": "002",
+            "text": "What is a SharePoint Feature?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "A .wsp file used for deployment.",
+                "A package of SharePoint elements (like lists, content types, or web parts) that can be activated or deactivated at a specific scope.",
+                "A premium license required for advanced capabilities.",
+                "A specific type of SharePoint site template."
+            ],
+            "correctAnswer": "A package of SharePoint elements (like lists, content types, or web parts) that can be activated or deactivated at a specific scope.",
+            "explanation": "Features are the fundamental unit of deployment in classic SharePoint, allowing for modular activation of functionality at the Farm, WebApplication, Site (Collection), or Web (Site) scope."
+        },
+        {
+            "id": "003",
+            "text": "A 'Content Type' is a reusable collection of settings for a specific category of content. What does it primarily define?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "The permissions for a document.",
+                "A set of Site Columns (metadata) and an optional document template.",
+                "The visual design and branding of a page.",
+                "The type of database used to store the content."
+            ],
+            "correctAnswer": "A set of Site Columns (metadata) and an optional document template.",
+            "explanation": "Content Types allow you to define a schema (via Site Columns) and a template (e.g., a .dotx for a 'Contract' content type) that can be reused across multiple lists and libraries."
+        },
+        {
+            "id": "004",
+            "text": "What is the logical hierarchy of core SharePoint containers?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "Web Application -> Site -> Site Collection -> List",
+                "Farm -> Web Application -> Site Collection -> Site (Web)",
+                "Site Collection -> Farm -> Web Application -> Site",
+                "Farm -> Content Database -> Site -> List"
+            ],
+            "correctAnswer": "Farm -> Web Application -> Site Collection -> Site (Web)",
+            "explanation": "The Farm is the entire server installation. It contains Web Applications, which in turn contain one or more Site Collections (SPSite). Each Site Collection has a top-level Site (SPWeb) and can have many subsites (SPWebs)."
+        },
+        {
+            "id": "005",
+            "text": "A 'Site Column' is a reusable column definition that can be used in multiple lists within a site collection.",
+            "type": "true-false",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Defining a column as a 'Site Column' at the root site (SPWeb) of a site collection (SPSite) allows it to be added to any list or content type within that collection, ensuring consistency."
+        },
+        {
+            "id": "006",
+            "text": "In SharePoint Online, what is the primary replacement for classic 'Subsites'?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "Hub Sites and associated Site Collections",
+                "Folders within a document library",
+                "Sandboxed Solutions",
+                "There is no replacement; subsites are still the recommended practice."
+            ],
+            "correctAnswer": "Hub Sites and associated Site Collections",
+            "explanation": "The modern SharePoint architecture favors a 'flat' structure of separate Site Collections, which are then associated using a Hub Site for shared navigation and search."
+        },
+        {
+            "id": "007",
+            "text": "Which SharePoint service application is responsible for indexing content and serving query results?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "User Profile Service Application",
+                "Managed Metadata Service Application",
+                "Business Connectivity Service (BCS)",
+                "Search Service Application"
+            ],
+            "correctAnswer": "Search Service Application",
+            "explanation": "The Search Service Application is the powerful engine responsible for crawling content sources, creating an index, and providing a query API for end-users and custom applications."
+        },
+        {
+            "id": "008",
+            "text": "What is the purpose of the 'Managed Metadata' service?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "To manage user permissions and groups.",
+                "To provide a central 'Term Store' for creating and managing a formal taxonomy (keywords, hierarchies) for tagging content.",
+                "To connect to external databases like SQL Server.",
+                "To manage the deployment of C# code."
+            ],
+            "correctAnswer": "To provide a central 'Term Store' for creating and managing a formal taxonomy (keywords, hierarchies) for tagging content.",
+            "explanation": "The Term Store allows organizations to define a consistent, hierarchical set of terms (a taxonomy) that can be used in 'Managed Metadata' columns across the farm."
+        },
+        {
+            "id": "009",
+            "text": "SharePoint 'Lists' and 'Document Libraries' are both stored in SQL Server tables.",
+            "type": "true-false",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "All content in SharePoint (list items, documents, pages) is stored within a 'Content Database' in SQL Server. SharePoint's object model abstracts this database complexity away from the developer."
+        },
+        {
+            "id": "010",
+            "text": "A ___ is a special type of document library used to store and display web pages.",
+            "type": "fill-in-the-blank",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [],
+            "correctAnswer": "Pages Library",
+            "explanation": "In classic publishing sites, the 'Pages Library' (or 'Site Pages' in modern sites) stores the .aspx files that are rendered as pages in the browser."
+        },
+        {
+            "id": "011",
+            "text": "Business Connectivity Services (BCS) are used to...",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "Connect SharePoint to external data sources (like SQL, web services) and display that data in 'External Lists'.",
+                "Manage business workflows and logic.",
+                "Provide a secure connection for mobile devices.",
+                "Scan documents for business-critical information."
+            ],
+            "correctAnswer": "Connect SharePoint to external data sources (like SQL, web services) and display that data in 'External Lists'.",
+            "explanation": "BCS (formerly BDC) allows SharePoint to surface data from external systems as if it were a native SharePoint list, including create, read, update, and delete (CRUD) operations."
+        },
+        {
+            "id": "012",
+            "text": "What is the primary difference between a 'Team Site' and a 'Communication Site' in modern SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "SharePoint Fundamentals & Architecture",
+            "answers": [
+                "Team Sites are for collaboration (many-to-many), while Communication Sites are for broadcasting (few-to-many).",
+                "Team Sites cannot have document libraries, while Communication Sites can.",
+                "Team Sites are only for on-premises, while Communication Sites are only for Online.",
+                "There is no functional difference, only a visual one."
+            ],
+            "correctAnswer": "Team Sites are for collaboration (many-to-many), while Communication Sites are for broadcasting (few-to-many).",
+            "explanation": "Team Sites are connected to a Microsoft 365 Group and are designed for a team to work together. Communication Sites are for sharing news and information to a broad audience."
+        },
+        {
+            "id": "013",
+            "text": "In the Server-Side Object Model (SSOM), which C# class represents a Site Collection?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "`SPWebApplication`",
+                "`SPWeb`",
+                "`SPSite`",
+                "`SPFarm`"
+            ],
+            "correctAnswer": "`SPSite`",
+            "explanation": "`SPSite` is the class used to instantiate an object representing a single site collection, typically with `new SPSite(url)`."
+        },
+        {
+            "id": "014",
+            "text": "In SSOM, which C# class represents a single Site (which could be a top-level site or a subsite)?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "`SPSite`",
+                "`SPWeb`",
+                "`SPList`",
+                "`SPContext`"
+            ],
+            "correctAnswer": "`SPWeb`",
+            "explanation": "`SPWeb` represents a single site. You typically get it from an `SPSite` object using `site.OpenWeb()` or `site.RootWeb`."
+        },
+        {
+            "id": "015",
+            "text": "What is the primary best practice for C# memory management when using `SPSite` and `SPWeb` objects in SSOM?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "Store them in static variables for reuse.",
+                "Always dispose of them using a `using` block or by calling `.Dispose()` in a `finally` block.",
+                "Let the .NET Garbage Collector handle them automatically.",
+                "Set them to `null` when finished."
+            ],
+            "correctAnswer": "Always dispose of them using a `using` block or by calling `.Dispose()` in a `finally` block.",
+            "explanation": "`SPSite` and `SPWeb` objects hold unmanaged resources (like database connections). Failing to dispose of them will cause severe memory leaks on the server. The `using` pattern is the standard."
+        },
+        {
+            "id": "016",
+            "text": "You can use the Server-Side Object Model (SSOM) to query a SharePoint Online tenant.",
+            "type": "true-false",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "SSOM code *must* run on the SharePoint server itself (in the farm). It cannot be used to remotely query SharePoint Online; you must use CSOM or the REST API for that."
+        },
+        {
+            "id": "017",
+            "text": "In SSOM, what is the purpose of `SPSecurity.RunWithElevatedPrivileges(delegate { ... })`?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "To run code as the current user but with a new `SPSite` object.",
+                "To run a block of C# code under the identity of the Application Pool account (typically the Farm Admin).",
+                "To temporarily disable security trimming in search results.",
+                "To run C# code on the client's browser."
+            ],
+            "correctAnswer": "To run a block of C# code under the identity of the Application Pool account (typically the Farm Admin).",
+            "explanation": "This is used to bypass the current user's permissions for a specific, trusted operation, but it is a security risk if used improperly. Note that `SPSite` and `SPWeb` objects must be re-instantiated *inside* the delegate."
+        },
+        {
+            "id": "018",
+            "text": "Where must the C# assembly (DLL) for a full-trust SSOM solution (e.g., a classic web part or event receiver) be deployed?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "In the `_layouts` folder.",
+                "In the SharePoint Content Database.",
+                "In the Global Assembly Cache (GAC) on each SharePoint server in the farm.",
+                "In the client machine's `C:\\Windows` folder."
+            ],
+            "correctAnswer": "In the Global Assembly Cache (GAC) on each SharePoint server in the farm.",
+            "explanation": "To run with full trust and be accessible by the SharePoint application, the strongly-named assembly must be deployed to the GAC on all Web Front-End (WFE) and Application servers."
+        },
+        {
+            "id": "019",
+            "text": "In SSOM, what is the purpose of an `SPQuery` object?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "To execute a SQL query against the content database.",
+                "To define a query (using CAML) to retrieve items from an `SPList` using the `list.GetItems(query)` method.",
+                "To query the User Profile Service.",
+                "To search the entire farm for content."
+            ],
+            "correctAnswer": "To define a query (using CAML) to retrieve items from an `SPList` using the `list.GetItems(query)` method.",
+            "explanation": "`SPQuery` is the primary object for building and executing CAML queries against a specific SharePoint list or library."
+        },
+        {
+            "id": "020",
+            "text": "The `SPContext.Current` object is available in all C# SSOM applications, including console applications.",
+            "type": "true-false",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "`SPContext.Current` is only available within an active HTTP request (e.g., in a web part, application page, or event receiver). In a console app or timer job, it is `null`, and you must instantiate `SPSite` manually."
+        },
+        {
+            "id": "021",
+            "text": "Which SSOM class would you use to add or delete a list from a site?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "'SPListCollection' (e.g., 'web.Lists.Add(...)')",
+                "`SPListTemplate`",
+                "`SPListItemCollection`",
+                "`SPFieldCollection`"
+            ],
+            "correctAnswer": "'SPListCollection' (e.g., 'web.Lists.Add(...)')",
+            "explanation": "You access the collection of lists via the `web.Lists` property (which is an `SPListCollection`) and then call its `Add` or `Delete` methods."
+        },
+        {
+            "id": "022",
+            "text": "What is an 'Event Receiver' in SSOM?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "A JavaScript function that runs on the client.",
+                "A piece of C# code that runs on the server in response to a SharePoint event (e.g., 'ItemAdding' or 'ItemAdded').",
+                "A dashboard for viewing server event logs.",
+                "A special type of workflow."
+            ],
+            "correctAnswer": "A piece of C# code that runs on the server in response to a SharePoint event (e.g., 'ItemAdding' or 'ItemAdded').",
+            "explanation": "Event Receivers are the classic way to enforce business logic or trigger actions, running either synchronously (before the action) or asynchronously (after the action)."
+        },
+        {
+            "id": "023",
+            "text": "LINQ to SharePoint can be used with the Server-Side Object Model (SSOM).",
+            "type": "true-false",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "SSOM supports LINQ to SharePoint, which allows C# developers to write LINQ queries (e.g., `from item in list.Items where ...`) that are internally converted to CAML queries."
+        },
+        {
+            "id": "024",
+            "text": "To create a new list item in SSOM, you call `list.Items.Add()`, set the field values, and then call `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [],
+            "correctAnswer": "Update()",
+            "explanation": "After adding a new `SPListItem` and setting its properties, you must call the `item.Update()` method to commit the changes to the content database."
+        },
+        {
+            "id": "025",
+            "text": "What is the primary difference between `site.OpenWeb()` and `site.AllWebs[indexOrName]`?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "`OpenWeb` returns a new `SPWeb` object that must be disposed, while `AllWebs` returns a cached object that should not be disposed.",
+                "`OpenWeb` is for subsites only, while `AllWebs` includes the root web.",
+                "`AllWebs` is faster and always preferred.",
+                "There is no difference."
+            ],
+            "correctAnswer": "`OpenWeb` returns a new `SPWeb` object that must be disposed, while `AllWebs` returns a cached object that should not be disposed.",
+            "explanation": "This is a critical memory management concept. `site.OpenWeb()` creates a new object; `site.AllWebs` (or `site.RootWeb`) returns a reference from the context's cache."
+        },
+        {
+            "id": "026",
+            "text": "A ___ is a type of SSOM solution that runs in a separate, low-trust worker process and has a very limited API.",
+            "type": "fill-in-the-blank",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [],
+            "correctAnswer": "Sandboxed Solution",
+            "explanation": "Sandboxed Solutions were a precursor to the Add-in model, designed for multi-tenant environments (like SPO) where farm-level code was not allowed. They are now deprecated."
+        },
+        {
+            "id": "027",
+            "text": "SSOM code is typically debugged by attaching the Visual Studio debugger to the `___` process on the SharePoint server.",
+            "type": "fill-in-the-blank",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [],
+            "correctAnswer": "w3wp.exe",
+            "explanation": "`w3wp.exe` is the IIS worker process that hosts the SharePoint Web Application. Attaching to it allows for server-side debugging of web parts, event receivers, etc."
+        },
+        {
+            "id": "028",
+            "text": "To retrieve a single `SPListItem` by its ID in SSOM, you should use:",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "`list.Items[id]`",
+                "`list.GetItemById(id)`",
+                "`list.Items.Cast<SPListItem>().FirstOrDefault(i => i.ID == id)`",
+                "It's not possible to get a single item."
+            ],
+            "correctAnswer": "`list.GetItemById(id)`",
+            "explanation": "`list.GetItemById(id)` is the most direct and performant way. Using the indexer `list.Items[id]` is incorrect as `list.Items` is not indexed by item ID."
+        },
+        {
+            "id": "029",
+            "text": "SSOM timer jobs (classes inheriting from `SPJobDefinition`) are C# classes scheduled to run on a recurring basis.",
+            "type": "true-false",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Timer jobs are the classic on-premises way to create background tasks (like nightly cleanups) that run on a schedule defined in Central Administration."
+        },
+        {
+            "id": "030",
+            "text": "The `SPContext.Current.Web` object should be disposed after use.",
+            "type": "true-false",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Objects obtained directly from `SPContext` are managed by the context itself and *should not* be disposed. Disposing them can break other components on the page."
+        },
+        {
+            "id": "031",
+            "text": "What is the primary C# class used as the entry point for all .NET Client-Side Object Model (CSOM) operations?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`SPSite`",
+                "`ClientContext`",
+                "`SPContext`",
+                "`HttpClient`"
+            ],
+            "correctAnswer": "`ClientContext`",
+            "explanation": "The `ClientContext` (from the `Microsoft.SharePoint.Client` namespace) is the main object that manages the connection to the SharePoint site and batches operations."
+        },
+        {
+            "id": "032",
+            "text": "In CSOM, which method is used to *stage* an object or property for retrieval from the server?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`context.ExecuteQuery()`",
+                "`context.Load(object)`",
+                "`object.Update()`",
+                "`object.Retrieve()`"
+            ],
+            "correctAnswer": "`context.Load(object)`",
+            "explanation": "`Load()` tells the context that you *want* to retrieve data about this object (e.g., `context.Load(web, w => w.Title)`). The data is not fetched until `ExecuteQuery()` is called."
+        },
+        {
+            "id": "033",
+            "text": "In CSOM, which method actually sends the batched request to the SharePoint server and retrieves the results?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`context.ExecuteQuery()`",
+                "`context.Load(object)`",
+                "`context.Commit()`",
+                "`context.SendRequest()`"
+            ],
+            "correctAnswer": "`context.ExecuteQuery()`",
+            "explanation": "All operations (Loads, updates, creations) are batched locally. `ExecuteQuery()` sends this batch to the server as a single XML request and populates the client objects with the return values."
+        },
+        {
+            "id": "034",
+            "text": ".NET CSOM (C#) can be used to develop console applications, web APIs, and desktop apps that interact with SharePoint.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Because CSOM is a client library, it can be used from *any* .NET application (console, WPF, ASP.NET) that can reference the DLLs and connect to the SharePoint server's `_vti_bin/client.svc` endpoint."
+        },
+        {
+            "id": "035",
+            "text": "What is the JavaScript equivalent of the .NET `ClientContext`?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`_spPageContextInfo`",
+                "`SP.ClientContext`",
+                "`$` (jQuery)",
+                "`SP.Context`"
+            ],
+            "correctAnswer": "`SP.ClientContext`",
+            "explanation": "The JavaScript Object Model (JSOM) mirrors the .NET CSOM. You create a new `SP.ClientContext(siteUrl)` to begin operations."
+        },
+        {
+            "id": "036",
+            "text": "In C# CSOM, how do you specify which properties of an object you want to retrieve to optimize a query?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "It's not possible; all properties are always loaded.",
+                "Using a `select` statement in a CAML query.",
+                "Using a Lambda expression in the `Load()` method (e.g., `Load(web, w => w.Title, w => w.Lists)`).",
+                "By editing the `context.Properties` collection."
+            ],
+            "correctAnswer": "Using a Lambda expression in the `Load()` method (e.g., `Load(web, w => w.Title, w => w.Lists)`).",
+            "explanation": "This is a key performance optimization. By specifying only the properties you need (e.g., `w => w.Title`), you significantly reduce the amount of data sent over the network."
+        },
+        {
+            "id": "037",
+            "text": "The C# CSOM libraries (`Microsoft.SharePoint.Client.dll` and `Microsoft.SharePoint.Client.Runtime.dll`) must be installed in the GAC on the SharePoint server.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "These are *client* libraries. They are included with your client application (e.g., in the `bin` folder of your console app) and run on the client machine, *not* the server."
+        },
+        {
+            "id": "038",
+            "text": "To query a list using CAML in C# CSOM, you create a `___` object.",
+            "type": "fill-in-the-blank",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [],
+            "correctAnswer": "CamlQuery",
+            "explanation": "Similar to `SPQuery` in SSOM, you use the `CamlQuery` class, set its `ViewXml` property, and pass it to the `list.GetItems(query)` method."
+        },
+        {
+            "id": "039",
+            "text": "In JSOM, `executeQueryAsync` requires two callback functions. What are they for?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`onStart` and `onStop`",
+                "'onSuccess' and 'onFailure' (or 'onQuerySucceeded' and 'onQueryFailed')",
+                "`onLoading` and `onLoaded`",
+                "`onSending` and `onReceiving`"
+            ],
+            "correctAnswer": "'onSuccess' and 'onFailure' (or 'onQuerySucceeded' and 'onQueryFailed')",
+            "explanation": "Because JavaScript is asynchronous, you must provide a success callback function to run when the data is returned, and a failure callback to handle any errors."
+        },
+        {
+            "id": "040",
+            "text": "What type of authentication is typically used when connecting to SharePoint Online with C# CSOM?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "Windows Authentication (NTLM/Kerberos)",
+                "Anonymous Authentication",
+                "Modern Authentication (OAuth) via an App Registration, or using `SharePointOnlineCredentials` (legacy).",
+                "Basic Authentication"
+            ],
+            "correctAnswer": "Modern Authentication (OAuth) via an App Registration, or using `SharePointOnlineCredentials` (legacy).",
+            "explanation": "SharePoint Online uses cloud-based identity. Modern apps use OAuth 2.0 (e.g., MSAL), while older console apps used the `SharePointOnlineCredentials` class with a username and password (which is now discouraged)."
+        },
+        {
+            "id": "041",
+            "text": "To create a new list item using C# CSOM, you use the `ListItemCreationInformation` class.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "You create a `ListItemCreationInformation` object, pass it to `list.AddItem()`, set the new item's properties, call `item.Update()`, and then `context.ExecuteQuery()`."
+        },
+        {
+            "id": "042",
+            "text": "The primary C# namespace for CSOM is `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [],
+            "correctAnswer": "Microsoft.SharePoint.Client",
+            "explanation": "The core libraries are `Microsoft.SharePoint.Client.dll` and `Microsoft.SharePoint.Client.Runtime.dll`, found in the corresponding NuGet package."
+        },
+        {
+            "id": "043",
+            "text": "You can use C# CSOM to interact with both Lists/Libraries and the User Profile Service.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "CSOM has been extended to cover many areas, including User Profiles (using `Microsoft.SharePoint.Client.UserProfiles.dll`), Search, and Taxonomy."
+        },
+        {
+            "id": "044",
+            "text": "What is the CSOM `LoadQuery` method used for?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "A replacement for `context.Load()`.",
+                "To load a CAML query from an XML file.",
+                "To execute a LINQ query and return the results as a new collection, rather than populating an existing object.",
+                "To load the search query service."
+            ],
+            "correctAnswer": "To execute a LINQ query and return the results as a new collection, rather than populating an existing object.",
+            "explanation": "`LoadQuery` is used with LINQ-style queries (e.g., `context.LoadQuery(web.Lists.Where(l => ...))`) and is executed by `ExecuteQuery()`. The result is a new `IEnumerable<T>`."
+        },
+        {
+            "id": "045",
+            "text": "When updating a list item with CSOM, you must call `item.Update()` *before* calling `context.ExecuteQuery()`.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "`item.Update()` stages the 'update' operation in the local batch. `context.ExecuteQuery()` is what sends that batched operation to the server."
+        },
+        {
+            "id": "046",
+            "text": "The JavaScript file `sp.js` is required to use the JavaScript Object Model (JSOM).",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "To use JSOM, you must ensure `sp.js` (and its dependencies like `sp.runtime.js`) are loaded on the page, often using `SP.SOD.executeFunc('sp.js', 'SP.ClientContext', ...)`."
+        },
+        {
+            "id": "047",
+            "text": "Exception handling for C# CSOM should be done using a standard `try...catch` block around the `___` call.",
+            "type": "fill-in-the-blank",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [],
+            "correctAnswer": "ExecuteQuery()",
+            "explanation": "Since all batched operations are sent to the server on `ExecuteQuery()`, this is the line of code that will throw an exception (like `ServerException`) if anything fails on the server."
+        },
+        {
+            "id": "048",
+            "text": "What is the `_spPageContextInfo` object in JSOM?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "A JavaScript object available on classic SharePoint pages that contains current context information (like `webAbsoluteUrl`).",
+                "The main JSOM client context object.",
+                "A C# class for managing page context.",
+                "A JSON file containing page metadata."
+            ],
+            "correctAnswer": "A JavaScript object available on classic SharePoint pages that contains current context information (like `webAbsoluteUrl`).",
+            "explanation": "This object is automatically added to the page by SharePoint and is very useful for getting the current site URL, user ID, etc., to initialize a JSOM `SP.ClientContext`."
+        },
+        {
+            "id": "049",
+            "text": "In C# CSOM, `ClientContext.Credentials` is used to provide authentication details.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "You would set this property, for example: `context.Credentials = new SharePointOnlineCredentials(username, securePassword)` for legacy SPO auth or use an OAuth token."
+        },
+        {
+            "id": "050",
+            "text": "The CSOM `ListItemCollection` object loads all items in the list by default when you call `context.Load(list.Items)`.",
+            "type": "true-false",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is a common pitfall. By default, `list.Items` does *not* include the item data. You must use a `CamlQuery` (even an empty one) with `list.GetItems(query)` to retrieve the actual items."
+        },
+        {
+            "id": "051",
+            "text": "What is the standard base URL prefix for all SharePoint REST API calls?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "`/_layouts/15/api/`",
+                "`/_vti_bin/client.svc/`",
+                "`/_api/`",
+                "`/rest/`"
+            ],
+            "correctAnswer": "`/_api/`",
+            "explanation": "All REST API endpoints are relative to the site and begin with `_api/`, for example: `https://[sitecollection]/_api/web/lists`."
+        },
+        {
+            "id": "052",
+            "text": "Which HTTP verb is used with the REST API to retrieve information (e.g., get all lists)?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "POST",
+                "GET",
+                "PUT",
+                "RETRIEVE"
+            ],
+            "correctAnswer": "GET",
+            "explanation": "A standard `GET` request is used for all read operations, e.g., `GET _api/web/lists`."
+        },
+        {
+            "id": "053",
+            "text": "Which HTTP verb is used with the REST API to create a new SharePoint list item?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "POST",
+                "CREATE",
+                "PUT",
+                "GET"
+            ],
+            "correctAnswer": "POST",
+            "explanation": "You `POST` the new item's data (as JSON) to the list's item collection endpoint (e.g., `_api/web/lists/getbytitle('MyList')/items`)."
+        },
+        {
+            "id": "054",
+            "text": "To update an existing list item using the REST API, you must send a `POST` request with which HTTP header?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "`X-HTTP-Method: UPDATE`",
+                "'X-HTTP-Method: MERGE' (or 'PATCH')",
+                "`X-Request-Mode: Update`",
+                "`X-SharePoint-Update: True`"
+            ],
+            "correctAnswer": "'X-HTTP-Method: MERGE' (or 'PATCH')",
+            "explanation": "You `POST` to the item's specific URL (e.g., `.../items(1)`). Because HTML forms only supported GET/POST, the `X-HTTP-Method` header is used to 'tunnel' the `MERGE` or `PATCH` verb."
+        },
+        {
+            "id": "055",
+            "text": "What is the purpose of the 'Form Digest' value (X-RequestDigest header) in REST API calls?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "To encrypt the data being sent.",
+                "To prevent Cross-Site Request Forgery (CSRF) attacks on write operations (POST, PUT, DELETE).",
+                "To specify the OData version being used.",
+                "To authenticate the user."
+            ],
+            "correctAnswer": "To prevent Cross-Site Request Forgery (CSRF) attacks on write operations (POST, PUT, DELETE).",
+            "explanation": "This value is a security token that must be fetched (from `_api/contextinfo`) and included in the headers of all state-changing requests to prove the request originated from the SharePoint site."
+        },
+        {
+            "id": "056",
+            "text": "You can use the SharePoint REST API from any C# application (like a Web API or console app) using `HttpClient`.",
+            "type": "true-false",
+            "category": "SharePoint REST API",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The REST API is platform-agnostic. Any C# application that can construct HTTP requests (using `HttpClient`) and handle JSON responses can use it."
+        },
+        {
+            "id": "057",
+            "text": "What does the OData (Open Data Protocol) query operator `$select` do in a REST query?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "Selects the top N items (e.g., `$select=10`).",
+                "Specifies which *fields* (columns) to return (e.g., `$select=Title,Id`).",
+                "Selects items based on a *condition* (e.g., `$select=Status eq 'Complete'`).",
+                "Selects the correct web to query."
+            ],
+            "correctAnswer": "Specifies which *fields* (columns) to return (e.g., `$select=Title,Id`).",
+            "explanation": "This is a key performance optimization, equivalent to the lambda expression in CSOM's `Load()` method. It reduces the payload size."
+        },
+        {
+            "id": "058",
+            "text": "What does the OData operator `$expand` do in a REST query?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "Expands a compressed file.",
+                "Increases the number of items returned.",
+                "Retrieves data from related lookups or user fields in the same call (e.g., `$expand=Author`).",
+                "Expands all fields (`$select=*`)."
+            ],
+            "correctAnswer": "Retrieves data from related lookups or user fields in the same call (e.g., `$expand=Author`).",
+            "explanation": "By default, lookup/user fields only return an ID. Using `$expand=Author` and `$select=Author/Title` will retrieve the Author's name in a single request."
+        },
+        {
+            "id": "059",
+            "text": "To filter results in a REST API call, you use the `___` OData operator.",
+            "type": "fill-in-the-blank",
+            "category": "SharePoint REST API",
+            "answers": [],
+            "correctAnswer": "$filter",
+            "explanation": "The `$filter` operator is used to specify conditions, e.g., `_api/web/lists/getbytitle('Tasks')/items?$filter=Status eq 'In Progress'`."
+        },
+        {
+            "id": "060",
+            "text": "The SharePoint REST API cannot be used to execute CAML queries.",
+            "type": "true-false",
+            "category": "SharePoint REST API",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "You can execute a CAML query by `POST`ing it to the `_api/web/lists/getbytitle('MyList')/getitems` endpoint."
+        },
+        {
+            "id": "061",
+            "text": "Which HTTP header is required to specify you are sending JSON data in a `POST` request?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "`Content-Type: application/json;odata=verbose`",
+                "`Accept: text/xml`",
+                "`X-Data-Format: JSON`",
+                "`X-RequestDigest: [digest_value]`"
+            ],
+            "correctAnswer": "`Content-Type: application/json;odata=verbose`",
+            "explanation": "You must set the `Content-Type` and `Accept` headers to `application/json;odata=verbose` (or `odata=nometadata` in modern) to tell the server how to interpret your request body and format its response."
+        },
+        {
+            "id": "062",
+            "text": "The REST API endpoint `_api/web/lists/getbytitle('Tasks')/items(1)` is used to:",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "Get the first item in the list.",
+                "Get the list item with ID = 1.",
+                "Get the list item in the first view.",
+                "This is an invalid endpoint."
+            ],
+            "correctAnswer": "Get the list item with ID = 1.",
+            "explanation": "The `items(ID)` syntax is the standard OData way to retrieve a single item from a collection by its unique identifier."
+        },
+        {
+            "id": "063",
+            "text": "Which OData operator is used for sorting in a REST query (e.g., by Title ascending)?",
+            "type": "multiple-choice",
+            "category": "SharePoint REST API",
+            "answers": [
+                "`$sort=Title asc`",
+                "`$orderby=Title asc`",
+                "`$filter=Title asc`",
+                "`$select=Title&sort=asc`"
+            ],
+            "correctAnswer": "`$orderby=Title asc`",
+            "explanation": "The correct OData syntax for sorting is `$orderby=FieldName asc` (ascending) or `$orderby=FieldName desc` (descending)."
+        },
+        {
+            "id": "064",
+            "text": "To delete a list item via the REST API, you send a `DELETE` request, which must be tunneled using `POST` and the `___` header.",
+            "type": "fill-in-the-blank",
+            "category": "SharePoint REST API",
+            "answers": [],
+            "correctAnswer": "X-HTTP-Method: DELETE",
+            "explanation": "Similar to updates, you `POST` to the item's URL (e.g., `.../items(1)`) with the `X-HTTP-Method: DELETE` and `X-RequestDigest` headers."
+        },
+        {
+            "id": "065",
+            "text": "The REST API is generally considered more difficult to use from C# than the .NET CSOM.",
+            "type": "true-false",
+            "category": "SharePoint REST API",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "While REST is more flexible, CSOM is often easier for C# developers as it provides strongly-typed objects and handles batching/authentication (via `ClientContext`) more abstractly than raw `HttpClient` requests."
+        },
+        {
+            "id": "066",
+            "text": "What is the SharePoint Framework (SPFx)?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "A new C# framework for building SSOM solutions.",
+                "A server-side framework for building Provider-Hosted Add-ins.",
+                "A client-side framework (using TypeScript/JavaScript) for building modern web parts and extensions that run in the browser.",
+                "A .NET Core framework for querying the Microsoft Graph."
+            ],
+            "correctAnswer": "A client-side framework (using TypeScript/JavaScript) for building modern web parts and extensions that run in the browser.",
+            "explanation": "SPFx is the standard for modern SharePoint development. The code runs entirely in the user's browser, providing a fast, responsive experience, and it can query SharePoint or other APIs."
+        },
+        {
+            "id": "067",
+            "text": "What is the primary programming language used for SPFx development?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "C#",
+                "VB.NET",
+                "TypeScript",
+                "PowerShell"
+            ],
+            "correctAnswer": "TypeScript",
+            "explanation": "SPFx solutions are built using TypeScript, a superset of JavaScript that adds static typing, which is then transpiled into JavaScript that runs in the browser."
+        },
+        {
+            "id": "068",
+            "text": "What tool is used to scaffold (create the initial files for) a new SPFx solution?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "Visual Studio -> File -> New Project",
+                "SharePoint Designer 2013",
+                "The Yeoman generator for SharePoint (`@microsoft/generator-sharepoint`).",
+                "The SharePoint Online Admin Center."
+            ],
+            "correctAnswer": "The Yeoman generator for SharePoint (`@microsoft/generator-sharepoint`).",
+            "explanation": "You use the command-line tool Yeoman (by running `yo @microsoft/sharepoint`) to create the folder structure and initial files for a new SPFx web part or extension."
+        },
+        {
+            "id": "069",
+            "text": "An SPFx solution can contain C# code that runs on the server.",
+            "type": "true-false",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "SPFx solutions are purely client-side. If server-side C# code is needed, the SPFx web part must call a separate, independently hosted API (e.g., an Azure Function or .NET Web API)."
+        },
+        {
+            "id": "070",
+            "text": "What are the three types of SPFx Extensions?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "Web Part, App Page, and Site Script",
+                "Application Customizer, Field Customizer, and Command Set",
+                "Timer Job, Event Receiver, and Feature",
+                "Header, Footer, and Body"
+            ],
+            "correctAnswer": "Application Customizer, Field Customizer, and Command Set",
+            "explanation": "Application Customizers add scripts or placeholders (e.g., headers/footers). Field Customizers customize the rendering of a field in a list. Command Sets add new buttons to list toolbars."
+        },
+        {
+            "id": "071",
+            "text": "What is the name of the local development server used to test SPFx web parts?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "IIS Express",
+                "The SharePoint Workbench",
+                "Node.js",
+                "Kestrel"
+            ],
+            "correctAnswer": "The SharePoint Workbench",
+            "explanation": "When you run `gulp serve`, it opens the SharePoint Workbench, a local (or hosted) page that can load and display your developing web part for testing."
+        },
+        {
+            "id": "072",
+            "text": "In an SPFx web part, what object is used to make HTTP requests to the SharePoint REST API?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "`this.context.httpClient`",
+                "`this.context.spHttpClient`",
+                "`jQuery.ajax`",
+                "`this.context.graphClient`"
+            ],
+            "correctAnswer": "`this.context.spHttpClient`",
+            "explanation": "`spHttpClient` is the recommended object as it automatically handles authentication (auth cookies) and the Form Digest value for requests to the native SharePoint API."
+        },
+        {
+            "id": "073",
+            "text": "To call the Microsoft Graph API from an SPFx solution, you should use the `___`.",
+            "type": "fill-in-the-blank",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [],
+            "correctAnswer": "GraphHttpClient (or AadHttpClient)",
+            "explanation": "The `GraphHttpClient` (or more modern `AadHttpClientFactory`) is used to make calls to the Graph API, as it handles the OAuth bearer token retrieval automatically, based on permissions granted in the App Catalog."
+        },
+        {
+            "id": "074",
+            "text": "Which `gulp` task is used to bundle and package an SPFx solution into a `.sppkg` file for deployment?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "`gulp serve`",
+                "`gulp build --ship`",
+                "`gulp bundle --ship`",
+                "`gulp package-solution --ship`"
+            ],
+            "correctAnswer": "`gulp package-solution --ship`",
+            "explanation": "First you run `gulp bundle --ship` to create the production JavaScript bundles, then `gulp package-solution --ship` to create the `.sppkg` file that gets uploaded to the App Catalog."
+        },
+        {
+            "id": "075",
+            "text": "A C# developer cannot use their C# skills in modern SPFx development.",
+            "type": "true-false",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While the front-end is TypeScript, a C# developer is crucial for building the backend APIs (e.g., Azure Functions, .NET Web APIs) that the SPFx solution calls for complex business logic or to access external systems."
+        },
+        {
+            "id": "076",
+            "text": "What file in an SPFx solution is used to request API permissions (e.g., for Microsoft Graph)?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "`package.json`",
+                "`gulpfile.js`",
+                "`package-solution.json`",
+                "`*.manifest.json`"
+            ],
+            "correctAnswer": "`package-solution.json`",
+            "explanation": "You add a `webApiPermissionRequests` section to the `package-solution.json` file. When the solution is deployed, an admin must approve these requests in the Admin Center."
+        },
+        {
+            "id": "077",
+            "text": "What is the 'property pane' in an SPFx web part?",
+            "type": "multiple-choice",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "The C# class file for the web part.",
+                "The configuration panel (sidebar) that opens when a user edits the web part's properties.",
+                "A .NET object for storing properties.",
+                "The main `render()` method of the web part."
+            ],
+            "correctAnswer": "The configuration panel (sidebar) that opens when a user edits the web part's properties.",
+            "explanation": "The property pane is defined in the `getPropertyPaneConfiguration` method and allows users to configure the web part (e.g., enter text, select a list)."
+        },
+        {
+            "id": "078",
+            "text": "SPFx web parts are *not* backward compatible with classic SharePoint pages.",
+            "type": "true-false",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "SPFx web parts *are* backward compatible. You can add an SPFx web part to a classic wiki or web part page, providing a good migration path."
+        },
+        {
+            "id": "079",
+            "text": "The SPFx `___` method is the main entry point that renders the web part's HTML.",
+            "type": "fill-in-the-blank",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [],
+            "correctAnswer": "render()",
+            "explanation": "The `public render(): void { ... }` method is called by the framework to draw the web part's UI, typically by setting `this.domElement.innerHTML` or using a framework like React."
+        },
+        {
+            "id": "080",
+            "text": "SPFx web parts run in the security context of the currently logged-in user.",
+            "type": "true-false",
+            "category": "SharePoint Framework (SPFx)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "SPFx is client-side code, so all API calls (like `spHttpClient`) are made using the current user's identity and permissions. There is no `RunWithElevatedPrivileges` equivalent."
+        },
+        {
+            "id": "081",
+            "text": "What are the two main types of SharePoint Add-ins (formerly 'Apps')?",
+            "type": "multiple-choice",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "Farm-Hosted and Cloud-Hosted",
+                "SharePoint-Hosted and Provider-Hosted",
+                "SSOM-Hosted and CSOM-Hosted",
+                "Full-Trust and Partial-Trust"
+            ],
+            "correctAnswer": "SharePoint-Hosted and Provider-Hosted",
+            "explanation": "These were the two models. SharePoint-Hosted Add-ins run in the browser, while Provider-Hosted Add-ins run on a separate, external server."
+        },
+        {
+            "id": "082",
+            "text": "A SharePoint-Hosted Add-in can contain server-side C# code.",
+            "type": "true-false",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A SharePoint-Hosted Add-in can only contain client-side assets (HTML, CSS, JavaScript/JSOM). All code runs in the browser within a special 'app web'."
+        },
+        {
+            "id": "083",
+            "text": "Which type of Add-in is required to run C# code (e.g., an ASP.NET Web API) on a separate server, like Azure?",
+            "type": "multiple-choice",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "SharePoint-Hosted Add-in",
+                "Provider-Hosted Add-in",
+                "Sandboxed Solution",
+                "Farm Solution (WSP)"
+            ],
+            "correctAnswer": "Provider-Hosted Add-in",
+            "explanation": "The 'Provider-Hosted' model means the developer provides the hosting (e.g., an Azure Web App) for their C# backend code, which then uses CSOM or REST to communicate back to SharePoint."
+        },
+        {
+            "id": "084",
+            "text": "What is the manifest file that defines a SharePoint Add-in and its permissions?",
+            "type": "multiple-choice",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "`package.json`",
+                "`Web.config`",
+                "`AppManifest.xml`",
+                "`Feature.xml`"
+            ],
+            "correctAnswer": "`AppManifest.xml`",
+            "explanation": "The `AppManifest.xml` file is the core of the Add-in, defining its name, start page, and the permission scopes it requires (e.g., 'Read' on Lists)."
+        },
+        {
+            "id": "085",
+            "text": "How does a Provider-Hosted Add-in (using C#) authenticate to SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "By passing the user's username and password.",
+                "Using NTLM/Windows Authentication.",
+                "Using an OAuth access token, typically acquired using a client ID and secret (S2S) or certificate.",
+                "It cannot authenticate; it only allows anonymous access."
+            ],
+            "correctAnswer": "Using an OAuth access token, typically acquired using a client ID and secret (S2S) or certificate.",
+            "explanation": "The Add-in is registered in Azure AD (or AppRegNew.aspx) and uses OAuth 2.0 to get an access token, which it passes as a Bearer token in requests to SharePoint."
+        },
+        {
+            "id": "086",
+            "text": "A Provider-Hosted Add-in runs C# code in the `w3wp.exe` process on the SharePoint server.",
+            "type": "true-false",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is the key difference from a Farm Solution. Provider-Hosted code runs *externally* (e.g., in an Azure Web App's process), making it safe for SharePoint Online."
+        },
+        {
+            "id": "087",
+            "text": "What is the 'App Web' in the context of Add-ins?",
+            "type": "multiple-choice",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "A special, isolated subsite created for an Add-in to store its own lists and pages.",
+                "The external ASP.NET website for a Provider-Hosted Add-in.",
+                "The App Catalog where Add-ins are stored.",
+                "A mobile-friendly version of the Add-in."
+            ],
+            "correctAnswer": "A special, isolated subsite created for an Add-in to store its own lists and pages.",
+            "explanation": "When an Add-in is installed, SharePoint can create a special, isolated 'App Web' (a subsite) where the Add-in has full control to deploy its own assets without affecting the host site."
+        },
+        {
+            "id": "088",
+            "text": "What is the 'Host Web' in the context of Add-ins?",
+            "type": "multiple-choice",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "The external server hosting the provider code.",
+                "The main SharePoint site (Site Collection or Subsite) where the user installed and launched the Add-in.",
+                "The App Catalog site.",
+                "The top-level site in the Web Application."
+            ],
+            "correctAnswer": "The main SharePoint site (Site Collection or Subsite) where the user installed and launched the Add-in.",
+            "explanation": "An Add-in often needs to read/write data to the 'Host Web' (the site it was installed on), which requires requesting permissions (e.g., 'Write' on Lists) in the `AppManifest.xml`."
+        },
+        {
+            "id": "089",
+            "text": "The Add-in Model is now considered the most modern and recommended way to build new customizations for SharePoint Online.",
+            "type": "true-false",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The Add-in Model is largely superseded by the SharePoint Framework (SPFx) for front-end development and Azure-hosted APIs (like Azure Functions) for the backend."
+        },
+        {
+            "id": "090",
+            "text": "In a C# Provider-Hosted Add-in, the `___` class (from `TokenHelper.cs`) is often used to get a `ClientContext` for the Host Web.",
+            "type": "fill-in-the-blank",
+            "category": "SharePoint Add-ins (Apps)",
+            "answers": [],
+            "correctAnswer": "TokenHelper",
+            "explanation": "Visual Studio projects for Add-ins included a `TokenHelper.cs` utility class with methods like `GetClientContextWithContextToken` to simplify the complex OAuth authentication flow."
+        },
+        {
+            "id": "091",
+            "text": "What is a `.wsp` file in classic SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "A SharePoint Web Part file.",
+                "A 'Web Solution Package', a cabinet file (.cab) containing all the assets (DLLs, Features, XML) for a classic solution.",
+                "A C# source code file.",
+                "A modern SPFx package file."
+            ],
+            "correctAnswer": "A 'Web Solution Package', a cabinet file (.cab) containing all the assets (DLLs, Features, XML) for a classic solution.",
+            "explanation": "The `.wsp` file is the deployable unit for on-premises Farm Solutions or Sandboxed Solutions, typically built by Visual Studio."
+        },
+        {
+            "id": "092",
+            "text": "What is a 'Farm Solution'?",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "A solution that can only be deployed to SharePoint Online.",
+                "A classic `.wsp` solution that runs with full trust, is deployed to the GAC, and has access to the full Server-Side Object Model (SSOM).",
+                "A solution that is deployed to every farm in the world.",
+                "A client-side SPFx solution."
+            ],
+            "correctAnswer": "A classic `.wsp` solution that runs with full trust, is deployed to the GAC, and has access to the full Server-Side Object Model (SSOM).",
+            "explanation": "Farm Solutions are the most powerful (and most dangerous) type of customization, as they run as part of the main SharePoint process. They are for on-premises only."
+        },
+        {
+            "id": "093",
+            "text": "What is a 'Sandboxed Solution'?",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "A solution that runs with full farm administrator privileges.",
+                "A `.wsp` solution that runs in a restricted, isolated process with a limited subset of the SSOM API.",
+                "A modern SPFx web part.",
+                "A solution that can only be deployed by a sandbox admin."
+            ],
+            "correctAnswer": "A `.wsp` solution that runs in a restricted, isolated process with a limited subset of the SSOM API.",
+            "explanation": "Sandboxed Solutions were designed for multi-tenancy (like SPO) to prevent custom code from crashing the whole farm. They are now fully deprecated in SPO and discouraged on-prem."
+        },
+        {
+            "id": "094",
+            "text": "A 'Feature' is defined in an XML file (Feature.xml) and can be 'scoped' to different levels. What are the four scopes?",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "List, Library, Page, and Web Part",
+                "Reader, Contributor, Editor, and Admin",
+                "Farm, WebApplication, Site (Collection), and Web (Site)",
+                "Small, Medium, Large, and Enterprise"
+            ],
+            "correctAnswer": "Farm, WebApplication, Site (Collection), and Web (Site)",
+            "explanation": "The scope of a Feature determines where it can be activated and what elements it can contain. For example, a Content Type is typically deployed at the 'Site' (Site Collection) scope."
+        },
+        {
+            "id": "095",
+            "text": "What is a 'Feature Receiver'?",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "A C# class (inheriting from `SPFeatureReceiver`) that runs code in response to Feature events (like 'FeatureActivating' or 'FeatureDeactivating').",
+                "A radio device for receiving SharePoint signals.",
+                "A web page for managing Features.",
+                "A log file that lists all activated features."
+            ],
+            "correctAnswer": "A C# class (inheriting from `SPFeatureReceiver`) that runs code in response to Feature events (like 'FeatureActivating' or 'FeatureDeactivating').",
+            "explanation": "This is commonly used in SSOM to programmatically create lists, set permissions, or perform other setup tasks when a Feature is activated."
+        },
+        {
+            "id": "096",
+            "text": "The PowerShell command `Install-SPSolution` is used to deploy a `.wsp` Farm Solution.",
+            "type": "true-false",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Deploying a WSP is a two-step process: first, `Add-SPSolution` (which uploads it to the farm's solution store), then `Install-SPSolution` (which deploys it to the specific web application)."
+        },
+        {
+            "id": "097",
+            "text": "What is the 'App Catalog'?",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "The Global Assembly Cache (GAC).",
+                "A special Site Collection in SharePoint Online (or on-prem) used to upload and manage Add-in (`.app`) and SPFx (`.sppkg`) packages.",
+                "The folder where SharePoint Designer stores files.",
+                "The SQL database for apps."
+            ],
+            "correctAnswer": "A special Site Collection in SharePoint Online (or on-prem) used to upload and manage Add-in (`.app`) and SPFx (`.sppkg`) packages.",
+            "explanation": "Instead of deploying to the GAC, modern solutions (Add-ins and SPFx) are uploaded to the App Catalog, making them available for users to install on their sites."
+        },
+        {
+            "id": "098",
+            "text": "The file format for a deployable SharePoint Framework (SPFx) solution is `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [],
+            "correctAnswer": ".sppkg",
+            "explanation": "The `gulp package-solution` command creates a `.sppkg` file, which is a package (similar to a .wsp) that is uploaded to the App Catalog."
+        },
+        {
+            "id": "099",
+            "text": "In a WSP, the `manifest.xml` file is...",
+            "type": "multiple-choice",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "The same as the `AppManifest.xml` for an Add-in.",
+                "A file that defines all the Features, assemblies, and other files included in the solution package.",
+                "A log file of the deployment.",
+                "A file that requests permissions for the solution."
+            ],
+            "correctAnswer": "A file that defines all the Features, assemblies, and other files included in the solution package.",
+            "explanation": "The `manifest.xml` is the central file in the WSP package that tells SharePoint which files go where and which Features are included in the solution."
+        },
+        {
+            "id": "100",
+            "text": "You can deploy a Farm Solution (`.wsp`) to SharePoint Online.",
+            "type": "true-false",
+            "category": "Deployment (WSP, Features, Apps)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Farm Solutions require server-side GAC deployment and access to the SSOM, which is impossible in the multi-tenant SharePoint Online environment. They are strictly for on-premises."
+        },
+        {
+            "id": "101",
+            "text": "What is 'Role Inheritance' in SharePoint security?",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "The concept that a user's role (e.g., Manager) inherits from their department.",
+                "The default behavior where a securable object (like a site, list, or item) uses the same permissions as its parent container.",
+                "A type of C# class inheritance for security models.",
+                "A feature that is only available in Active Directory."
+            ],
+            "correctAnswer": "The default behavior where a securable object (like a site, list, or item) uses the same permissions as its parent container.",
+            "explanation": "By default, a subsite inherits permissions from its parent site, a list inherits from its site, and an item inherits from its list. You can 'break' this inheritance to set unique permissions."
+        },
+        {
+            "id": "102",
+            "text": "What are the three main building blocks of SharePoint permissions?",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "Users, Groups, and Permission Levels",
+                "Active Directory, Azure AD, and SQL",
+                "SSOM, CSOM, and REST",
+                "Web Parts, Lists, and Libraries"
+            ],
+            "correctAnswer": "Users, Groups, and Permission Levels",
+            "explanation": "Permissions are managed by adding Users to SharePoint Groups, and then assigning those Groups a Permission Level (e.g., 'Read', 'Contribute') on a securable object (like a site)."
+        },
+        {
+            "id": "103",
+            "text": "A 'Permission Level' (e.g., 'Read' or 'Contribute') is a collection of individual permissions (e.g., 'View Items', 'Add Items').",
+            "type": "true-false",
+            "category": "Security & Permissions",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Permission Levels (like 'Contribute') are simply named collections of granular rights (like 'Add Items', 'Edit Items', 'Delete Items') that make permissions easier to manage."
+        },
+        {
+            "id": "104",
+            "text": "What is an 'App-Only' Context in CSOM or Add-in development?",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "A context where the application has no permissions.",
+                "A security context where the application authenticates using its own identity (e.g., Client ID/Secret) and permissions, *not* the user's.",
+                "A mobile application context.",
+                "A context that only allows reading from the App Catalog."
+            ],
+            "correctAnswer": "A security context where the application authenticates using its own identity (e.g., Client ID/Secret) and permissions, *not* the user's.",
+            "explanation": "This is crucial for backend processes (like timer jobs or APIs) that need to run with elevated, consistent permissions regardless of which user triggered them."
+        },
+        {
+            "id": "105",
+            "text": "In SSOM, `SPWeb.AllowUnsafeUpdates = true` is required to:",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "Delete a site collection.",
+                "Run code with elevated privileges.",
+                "Make changes to SharePoint data from a `GET` request or when the Form Digest is invalid.",
+                "Connect to an external database."
+            ],
+            "correctAnswer": "Make changes to SharePoint data from a `GET` request or when the Form Digest is invalid.",
+            "explanation": "This bypasses SharePoint's built-in CSRF protection (the Form Digest). It's required in some contexts (like event receivers) but should be set to `false` as soon as possible."
+        },
+        {
+            "id": "106",
+            "text": "Breaking permission inheritance on a list with 50,000 items is a good practice and has no performance impact.",
+            "type": "true-false",
+            "category": "Security & Permissions",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is a very bad practice. Unique permissions (item-level) are extremely performance-intensive and can make the list unusable. The supported limit for unique permissions in a list is ~50,000, but performance degrades long before that."
+        },
+        {
+            "id": "107",
+            "text": "What is the difference between `site.RootWeb` and `web` in `SPContext.Current`?",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "No difference, they point to the same object.",
+                "`site.RootWeb` is the top-level site of the Site Collection, while `web` is the specific subsite the user is currently on.",
+                "`web` is the top-level site, and `site.RootWeb` is the subsite.",
+                "`web` is read-only, but `site.RootWeb` is read-write."
+            ],
+            "correctAnswer": "`site.RootWeb` is the top-level site of the Site Collection, while `web` is the specific subsite the user is currently on.",
+            "explanation": "In SSOM, `SPContext.Current.Site` is the `SPSite` (Site Collection). `SPContext.Current.Web` is the `SPWeb` (Site) the user is browsing. `site.RootWeb` always refers to the top-level `SPWeb` of that `SPSite`."
+        },
+        {
+            "id": "108",
+            "text": "A ___ is a C# class used to define custom, claim-based authentication for a Web Application (e.g., logging in via a non-Windows system).",
+            "type": "fill-in-the-blank",
+            "category": "Security & Permissions",
+            "answers": [],
+            "correctAnswer": "Custom Claims Provider",
+            "explanation": "In on-premises (SharePoint 2010+), you can create a Custom Claims Provider to integrate with external identity systems (like Forms-Based Authentication) and augment user tokens with custom claims."
+        },
+        {
+            "id": "109",
+            "text": "SharePoint Online (SPO) uses `___` as its primary identity provider.",
+            "type": "fill-in-the-blank",
+            "category": "Security & Permissions",
+            "answers": [],
+            "correctAnswer": "Azure Active Directory (Azure AD)",
+            "explanation": "All users, groups, and app authentications for Microsoft 365, including SharePoint Online, are managed by Azure Active Directory."
+        },
+        {
+            "id": "110",
+            "text": "A 'Remote Event Receiver' (RER) is a C# web service (API) that runs on the SharePoint server.",
+            "type": "true-false",
+            "category": "Security & Permissions",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A Remote Event Receiver is a web service (e.g., a C# Web API) that runs *externally* (like a Provider-Hosted Add-in). SharePoint *calls* this remote endpoint when an event (like 'ItemAdding') occurs."
+        },
+        {
+            "id": "111",
+            "text": "What is `SPUser` vs `SPPrincipal` in SSOM?",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "`SPUser` is a user, `SPPrincipal` is a group.",
+                "`SPPrincipal` is the base class for both `SPUser` and `SPGroup`.",
+                "`SPPrincipal` is for on-prem, `SPUser` is for online.",
+                "They are identical."
+            ],
+            "correctAnswer": "`SPPrincipal` is the base class for both `SPUser` and `SPGroup`.",
+            "explanation": "When managing permissions, you often work with `SPPrincipal` because the object you are adding could be either a single user (`SPUser`) or a security group (`SPGroup`)."
+        },
+        {
+            "id": "112",
+            "text": "What is an `SPRoleDefinition` in SSOM?",
+            "type": "multiple-choice",
+            "category": "Security & Permissions",
+            "answers": [
+                "A user's job title from their profile.",
+                "An object representing a Permission Level (e.g., 'Read', 'Contribute').",
+                "A role in an Active Directory group.",
+                "A type of event receiver."
+            ],
+            "correctAnswer": "An object representing a Permission Level (e.g., 'Read', 'Contribute').",
+            "explanation": "An `SPRoleDefinition` (Permission Level) is bound to an `SPPrincipal` (User/Group) on a securable object using an `SPRoleAssignment`."
+        },
+        {
+            "id": "113",
+            "text": "The permission `SPBasePermissions.EmptyMask` represents having no permissions.",
+            "type": "true-false",
+            "category": "Security & Permissions",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This bitmask is used in security operations to define a baseline of no access, which is often used when creating 'Limited Access' permission levels."
+        },
+        {
+            "id": "114",
+            "text": "To get a user's C# `SPUser` object from an `SPWeb`, you use `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Security & Permissions",
+            "answers": [],
+            "correctAnswer": "web.EnsureUser(loginName)",
+            "explanation": "`web.EnsureUser(loginName)` will check if the user is in the site's User Information List. If they are, it returns the `SPUser` object. If not, it adds them and then returns the object."
+        },
+        {
+            "id": "115",
+            "text": "It is a best practice to add users directly to a list or item to grant permissions.",
+            "type": "true-false",
+            "category": "Security & Permissions",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Best practice is to always add users to SharePoint Groups, and then assign permissions to the Groups. This makes managing permissions (e.g., removing a user) much simpler."
+        },
+        {
+            "id": "116",
+            "text": "What does CAML stand for?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "C# Application Markup Language",
+                "Collaborative Application Markup Language",
+                "Client Access Model Language",
+                "Column and Metadata Language"
+            ],
+            "correctAnswer": "Collaborative Application Markup Language",
+            "explanation": "CAML is the XML-based query language used to query SharePoint lists in SSOM, CSOM, and the REST API."
+        },
+        {
+            "id": "117",
+            "text": "A CAML query is used to query:",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "A SharePoint List or Library",
+                "The entire SharePoint Farm (Search)",
+                "An external SQL database",
+                "The User Profile Service"
+            ],
+            "correctAnswer": "A SharePoint List or Library",
+            "explanation": "CAML is specifically designed for querying `SPList` objects. To query across the farm or multiple site collections, you must use the Search API (with KQL)."
+        },
+        {
+            "id": "118",
+            "text": "What is KQL (Keyword Query Language)?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "A legacy version of CAML.",
+                "A C#-based query language for lists.",
+                "The primary query language used by the SharePoint Search API to find content across the farm/tenant.",
+                "A language for creating keywords in the Term Store."
+            ],
+            "correctAnswer": "The primary query language used by the SharePoint Search API to find content across the farm/tenant.",
+            "explanation": "KQL is a powerful text-based language (e.g., `Title:Contract AND FileType:pdf`) used to query the search index via CSOM, REST, or search-driven web parts."
+        },
+        {
+            "id": "119",
+            "text": "In a CAML query, what tag is used to filter results (e.g., 'Status' equals 'Complete')?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "`<Filter>`",
+                "`<Select>`",
+                "`<Where>`",
+                "`<Query>`"
+            ],
+            "correctAnswer": "`<Where>`",
+            "explanation": "The `<Where>` tag contains the logic for filtering, typically using comparison tags like `<Eq>` (Equals), `<Gt>` (Greater Than), and logical joins like `<And>` or `<Or>`."
+        },
+        {
+            "id": "120",
+            "text": "In Search, what is a 'Crawled Property'?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "A property that is encrypted.",
+                "Raw metadata discovered by the search crawler (e.g., a specific site column named 'ProjectManager').",
+                "A property that is 'crawling' (i.e., slow to query).",
+                "A property that is available in KQL queries."
+            ],
+            "correctAnswer": "Raw metadata discovered by the search crawler (e.g., a specific site column named 'ProjectManager').",
+            "explanation": "Crawled Properties are the raw metadata. They are not usable in queries until they are mapped to a Managed Property."
+        },
+        {
+            "id": "121",
+            "text": "In Search, what is a 'Managed Property'?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "The same as a Crawled Property.",
+                "A property in the search schema (e.g., 'ProjectManagerManaged') that is mapped to one or more Crawled Properties and can be used in KQL queries.",
+                "A property managed by a C# application.",
+                "A column in a 'Managed' list."
+            ],
+            "correctAnswer": "A property in the search schema (e.g., 'ProjectManagerManaged') that is mapped to one or more Crawled Properties and can be used in KQL queries.",
+            "explanation": "To make a custom column searchable (e.g., `ProjectManagerManaged:'John Doe'`), you *must* map its Crawled Property to a Managed Property in the Search Schema."
+        },
+        {
+            "id": "122",
+            "text": "You can use KQL to query a single SharePoint list.",
+            "type": "true-false",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Yes, you can scope a KQL query to a specific list or site using `Path:` or `ListID:`. This is often much faster than CAML for large lists."
+        },
+        {
+            "id": "123",
+            "text": "In CAML, the `<ViewFields>` tag is used to specify which columns to return.",
+            "type": "true-false",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Similar to a SQL `SELECT` statement, `<ViewFields>` allows you to specify only the fields you need, which is a critical performance optimization."
+        },
+        {
+            "id": "124",
+            "text": "What is the `RowLimit` in a CAML query?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "The maximum number of rows a list can have.",
+                "A tag (`<RowLimit>`) that specifies the maximum number of items to return in a single query.",
+                "A limit on how many characters can be in one row.",
+                "The limit on how many fields can be returned."
+            ],
+            "correctAnswer": "A tag (`<RowLimit>`) that specifies the maximum number of items to return in a single query.",
+            "explanation": "This is essential for paging and for avoiding the 'List View Threshold' error by ensuring your query never tries to process more than 5,000 items at once."
+        },
+        {
+            "id": "125",
+            "text": "What is the 'List View Threshold'?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "The maximum number of views a list can have.",
+                "The maximum number of items a list can store (which is 30 million).",
+                "An on-prem server setting (default 5,000) that prevents queries from running if they would affect more than that many items at one time.",
+                "The maximum number of users who can view a list."
+            ],
+            "correctAnswer": "An on-prem server setting (default 5,000) that prevents queries from running if they would affect more than that many items at one time.",
+            "explanation": "This is the most common error C# developers face. To query a large list, you *must* use an indexed column in your CAML `<Where>` clause to ensure the query doesn't scan more than 5,000 items."
+        },
+        {
+            "id": "126",
+            "text": "You can avoid the List View Threshold by using KQL (Search API) instead of CAML.",
+            "type": "true-false",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Search API (KQL) queries the search index, *not* the live SQL database, so it is not subject to the List View Threshold. This is the recommended way to query large lists."
+        },
+        {
+            "id": "127",
+            "text": "To query a lookup column in CAML, you must query against the `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [],
+            "correctAnswer": "Lookup ID",
+            "explanation": "You cannot filter a CAML query by the *text* of a lookup field. You must filter by its ID, e.g., `<Eq><FieldRef Name='MyLookup' LookupId='TRUE'/><Value Type='Integer'>123</Value></Eq>`."
+        },
+        {
+            "id": "128",
+            "text": "What is the purpose of the `SPQuery.ViewFieldsOnly` property in SSOM?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "It makes the query read-only.",
+                "It ensures the query *only* returns fields specified in `<ViewFields>`, improving performance by not joining to other tables.",
+                "It forces the query to only use the fields in the 'Default View'.",
+                "It is a deprecated property."
+            ],
+            "correctAnswer": "It ensures the query *only* returns fields specified in `<ViewFields>`, improving performance by not joining to other tables.",
+            "explanation": "Setting `SPQuery.ViewFieldsOnly = true` is a major performance optimization, as it prevents SharePoint from doing extra work to fetch all available fields for the items."
+        },
+        {
+            "id": "129",
+            "text": "KQL is case-sensitive.",
+            "type": "true-false",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "KQL is case-insensitive for both keywords (e.g., `Title:`) and values (e.g., `'Contract'`)."
+        },
+        {
+            "id": "130",
+            "text": "The `ContentSearch` C# namespace (`Microsoft.Office.Server.Search.Query`) is used for what?",
+            "type": "multiple-choice",
+            "category": "Search & Querying (CAML, KQL)",
+            "answers": [
+                "Executing CAML queries.",
+                "Executing KQL queries using the Search API (e.g., `KeywordQuery`) in SSOM or CSOM.",
+                "Searching for content in a .wsp package.",
+                "Searching the Managed Metadata Term Store."
+            ],
+            "correctAnswer": "Executing KQL queries using the Search API (e.g., `KeywordQuery`) in SSOM or CSOM.",
+            "explanation": "This is the C# API for programmatically building and executing search queries against the SharePoint Search Service Application."
+        },
+        {
+            "id": "131",
+            "text": "What is the modern, cloud-first service for building business workflows and processes in Microsoft 365?",
+            "type": "multiple-choice",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "SharePoint Designer 2013",
+                "Power Automate (formerly Microsoft Flow)",
+                "SSOM Timer Jobs",
+                "Nintex Workflows for On-Premises"
+            ],
+            "correctAnswer": "Power Automate (formerly Microsoft Flow)",
+            "explanation": "Power Automate is the standard for modern business process automation. It is part of the Power Platform and integrates deeply with SharePoint Online."
+        },
+        {
+            "id": "132",
+            "text": "SharePoint Designer 2013 is the recommended tool for building new workflows in SharePoint Online.",
+            "type": "true-false",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "SharePoint Designer 2013 workflows are deprecated in Microsoft 365. All new workflows should be built using Power Automate."
+        },
+        {
+            "id": "133",
+            "text": "What is a 'Remote Event Receiver' (RER)?",
+            "type": "multiple-choice",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "A classic SSOM event receiver that runs on the server.",
+                "A C# web service (API) endpoint that SharePoint calls *remotely* when an event (e.g., 'ItemAdded') occurs.",
+                "A local event receiver on a client's machine.",
+                "A component of Power Automate."
+            ],
+            "correctAnswer": "A C# web service (API) endpoint that SharePoint calls *remotely* when an event (e.g., 'ItemAdded') occurs.",
+            "explanation": "RERs were the cloud-friendly (Add-in model) way to replace SSOM event receivers. They are C# Web APIs hosted externally (e.g., Azure) that SharePoint calls."
+        },
+        {
+            "id": "134",
+            "text": "What is the C# class for building classic (SSOM) event receivers?",
+            "type": "multiple-choice",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "`SPEventReceiver`",
+                "`SPItemEventReceiver` (or `SPListEventReceiver`, etc.)",
+                "`SPWorkflow`",
+                "`SPFeatureReceiver`"
+            ],
+            "correctAnswer": "`SPItemEventReceiver` (or `SPListEventReceiver`, etc.)",
+            "explanation": "You create a C# class that inherits from one of the `SP...EventReceiver` base classes and override its methods (e.g., `ItemAdding`, `ItemAdded`)."
+        },
+        {
+            "id": "135",
+            "text": "What is the primary difference between a synchronous (`-ing`) and asynchronous (`-ed`) event receiver?",
+            "type": "multiple-choice",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "Synchronous runs before the action (e.g., `ItemAdding`) and can cancel it; Asynchronous runs after (e.g., `ItemAdded`).",
+                "Synchronous runs on the server; Asynchronous runs in the browser.",
+                "Synchronous is for CSOM; Asynchronous is for SSOM.",
+                "There is no difference."
+            ],
+            "correctAnswer": "Synchronous runs before the action (e.g., `ItemAdding`) and can cancel it; Asynchronous runs after (e.g., `ItemAdded`).",
+            "explanation": "Synchronous '...ing' events are used for validation (e.g., canceling an item update if data is invalid). Asynchronous '...ed' events are for triggering follow-up actions (e.g., sending an email)."
+        },
+        {
+            "id": "136",
+            "text": "A C# developer can create custom workflow activities for use in SharePoint Designer 2013 (on-prem).",
+            "type": "true-false",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Using SSOM (inheriting from the `Activity` class in `System.Workflow.ComponentModel`) and deploying in a WSP, a C# developer can create custom, reusable actions that appear in SharePoint Designer."
+        },
+        {
+            "id": "137",
+            "text": "In Power Automate, a flow that starts when a SharePoint item is created is triggered by a `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Workflows & Business Process",
+            "answers": [],
+            "correctAnswer": "Trigger",
+            "explanation": "All automated flows start with a 'Trigger' (e.g., 'When an item is created or modified'). The subsequent steps are called 'Actions'."
+        },
+        {
+            "id": "138",
+            "text": "What Power Platform tool is used to customize SharePoint list forms (e.g., `NewForm.aspx`)?",
+            "type": "multiple-choice",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "Power BI",
+                "Power Automate",
+                "Power Apps",
+                "Power Virtual Agents"
+            ],
+            "correctAnswer": "Power Apps",
+            "explanation": "Power Apps is integrated with modern SharePoint lists to allow developers to create rich, custom forms with complex logic, replacing old tools like InfoPath."
+        },
+        {
+            "id": "139",
+            "text": "A 'declarative' workflow (made in SharePoint Designer) is compiled into C# code.",
+            "type": "true-false",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "SharePoint Designer workflows (2010) were declarative (XAML-based) but were compiled into C# code on the server. 2013 workflows run in a separate service (Workflow Manager)."
+        },
+        {
+            "id": "140",
+            "text": "Remote Event Receivers (RERs) can only be asynchronous (`-ed`) events.",
+            "type": "true-false",
+            "category": "Workflows & Business Process",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "RERs can be both asynchronous (`-ed`) and synchronous (`-ing`). A synchronous RER (e.g., `ItemAdding`) must return a specific success/failure status quickly, or the user's action will time out."
+        },
+        {
+            "id": "141",
+            "text": "In classic SharePoint branding (on-prem), what file controls the overall 'chrome' (header, footer, navigation) of a site?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "A Page Layout (`.aspx`)",
+                "A Master Page (`.master`)",
+                "A CSS file (`.css`)",
+                "The `Web.config` file"
+            ],
+            "correctAnswer": "A Master Page (`.master`)",
+            "explanation": "Classic SharePoint used Master Pages (like ASP.NET Web Forms) to define the shared layout and chrome for all pages in a site."
+        },
+        {
+            "id": "142",
+            "text": "In classic publishing sites, what file defines the editable 'field controls' for a specific type of page (like a News Article)?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "A Master Page (`.master`)",
+                "A Page Layout (`.aspx`)",
+                "A Content Type",
+                "A Display Template"
+            ],
+            "correctAnswer": "A Page Layout (`.aspx`)",
+            "explanation": "A Page Layout is tied to a Content Type and defines the specific layout and editable regions for a page created in the 'Pages' library."
+        },
+        {
+            "id": "143",
+            "text": "Modern SharePoint Online sites (Communication, Team) use Master Pages and Page Layouts for branding.",
+            "type": "true-false",
+            "category": "Branding & Graph API",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Modern sites do not support custom Master Pages or Page Layouts. Customization is done via SPFx Extensions (Application Customizers), Site Designs, and tenant-level Theming."
+        },
+        {
+            "id": "144",
+            "text": "What is the Microsoft Graph API?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "A SharePoint-only REST API for creating graphs and charts.",
+                "A single, unified REST endpoint (`graph.microsoft.com`) for accessing data from multiple Microsoft 365 services (SharePoint, Teams, Outlook, Users).",
+                "A C# library for drawing graphics.",
+                "A replacement for the SSOM."
+            ],
+            "correctAnswer": "A single, unified REST endpoint (`graph.microsoft.com`) for accessing data from multiple Microsoft 365 services (SharePoint, Teams, Outlook, Users).",
+            "explanation": "Microsoft Graph is the future of M365 development, providing one API and one auth model to access data from all services, including SharePoint files, sites, and lists."
+        },
+        {
+            "id": "145",
+            "text": "A C# developer can call the Microsoft Graph API from a .NET Web API or Azure Function.",
+            "type": "true-false",
+            "category": "Branding & Graph API",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This is a very common pattern. A C# backend service (using the Microsoft Graph SDK for .NET) authenticates to Azure AD and calls the Graph API to perform operations on behalf of a user or as an application."
+        },
+        {
+            "id": "146",
+            "text": "What is the Microsoft Graph endpoint to get the files in the default Document Library of a site?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "`/sites/{site-id}/lists/{list-id}/items`",
+                "`/sites/{site-id}/drive/root/children`",
+                "`/_api/web/lists/getbytitle('Documents')/items`",
+                "`/me/files`"
+            ],
+            "correctAnswer": "`/sites/{site-id}/drive/root/children`",
+            "explanation": "The Graph API treats the default document library as a 'Drive'. The endpoint `/sites/{site-id}/drive` (or `/groups/{group-id}/drive` for Team Sites) is the entry point for file operations."
+        },
+        {
+            "id": "147",
+            "text": "A 'Site Design' and 'Site Script' in modern SharePoint are used to:",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "Write custom C# code for a site.",
+                "Define a repeatable template (e.g., create lists, apply a theme) that is applied when a new modern site is created.",
+                "A replacement for Master Pages.",
+                "A classic SharePoint feature."
+            ],
+            "correctAnswer": "Define a repeatable template (e.g., create lists, apply a theme) that is applied when a new modern site is created.",
+            "explanation": "Site Scripts are JSON files defining actions (like `createList`). Site Designs are the user-facing templates (e.g., 'Project Site') that apply one or more Site Scripts."
+        },
+        {
+            "id": "148",
+            "text": "In classic branding, the `___` folder (mapped to `_layouts/15`) was often used to deploy custom CSS and JavaScript files in a WSP.",
+            "type": "fill-in-the-blank",
+            "category": "Branding & Graph API",
+            "answers": [],
+            "correctAnswer": "Layouts",
+            "explanation": "The `Layouts` mapped folder in a Visual Studio solution would deploy files to the `_layouts/15` directory on the server's file system, making them globally available to all sites in the farm."
+        },
+        {
+            "id": "149",
+            "text": "The Microsoft Graph API is replacing the need for the SharePoint-specific REST API (`_api/`).",
+            "type": "true-false",
+            "category": "Branding & Graph API",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "While the `_api` still works and has some features Graph doesn't, Microsoft's official guidance is to use the Microsoft Graph API whenever possible for all new development."
+        },
+        {
+            "id": "150",
+            "text": "To use the C# Microsoft Graph SDK, you must first authenticate and get an `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Branding & Graph API",
+            "answers": [],
+            "correctAnswer": "Access Token",
+            "explanation": "All Graph API calls must be authenticated using an OAuth 2.0 Access Token, which is typically acquired using the Microsoft Authentication Library (MSAL) for .NET."
+        }
+    ]
+}

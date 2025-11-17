@@ -1,0 +1,1998 @@
+{
+    "title": "اختبار المهارات الناعمة الشامل",
+    "titleEn": "Comprehensive Soft Skills Assessment",
+    "description": "A 150-question assessment covering 11 key soft skills, including communication, teamwork, emotional intelligence, and problem-solving.",
+    "categoryId": 21,
+    "isFree": false,
+    "lang": "en",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is 'active listening'?",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "Hearing what the person is saying while planning your response.",
+                "Fully concentrating on the speaker, understanding their message, and responding thoughtfully.",
+                "Waiting quietly for your turn to speak.",
+                "Writing down every word the speaker says."
+            ],
+            "correctAnswer": "Fully concentrating on the speaker, understanding their message, and responding thoughtfully.",
+            "explanation": "Active listening involves full concentration and understanding, not just passively hearing or planning your reply."
+        },
+        {
+            "id": "002",
+            "text": "When a team member is struggling, what is the best 'teamwork' approach?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "Report their poor performance to the manager immediately.",
+                "Take over their tasks to get them done correctly.",
+                "Offer support and ask if there's anything you can do to help.",
+                "Ignore the situation so they can learn from their own mistakes."
+            ],
+            "correctAnswer": "Offer support and ask if there's anything you can do to help.",
+            "explanation": "Teamwork is built on mutual support. Offering help is constructive and fosters trust."
+        },
+        {
+            "id": "003",
+            "text": "What is the first step in the problem-solving process?",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "Brainstorm solutions",
+                "Implement a fix",
+                "Define the problem clearly",
+                "Assign blame"
+            ],
+            "correctAnswer": "Define the problem clearly",
+            "explanation": "You cannot solve a problem you don't fully understand. A clear, accurate problem definition is the essential first step."
+        },
+        {
+            "id": "004",
+            "text": "A project's requirements suddenly change. What is the most 'adaptable' response?",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "Complain about the lack of planning.",
+                "Refuse to do the new work, as it wasn't in the original scope.",
+                "Acknowledge the change, assess the new requirements, and adjust the plan.",
+                "Quit the project."
+            ],
+            "correctAnswer": "Acknowledge the change, assess the new requirements, and adjust the plan.",
+            "explanation": "Adaptability involves accepting change and constructively finding a new path forward, rather than resisting it."
+        },
+        {
+            "id": "005",
+            "text": "What is a key difference between 'leadership' and 'management'?",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "Management is about processes and tasks; leadership is about vision and inspiring people.",
+                "Leadership is an official title; management is not.",
+                "Managers have all the answers; leaders ask questions.",
+                "There is no difference; they are the same."
+            ],
+            "correctAnswer": "Management is about processes and tasks; leadership is about vision and inspiring people.",
+            "explanation": "Management focuses on complexity (planning, budgeting, organizing), while leadership focuses on change (setting direction, aligning people)."
+        },
+        {
+            "id": "006",
+            "text": "'Critical thinking' primarily involves:",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "Accepting the first explanation you hear.",
+                "Criticizing other people's ideas.",
+                "Finding the fastest solution to a problem.",
+                "Objectively analyzing and evaluating an issue to form a judgment."
+            ],
+            "correctAnswer": "Objectively analyzing and evaluating an issue to form a judgment.",
+            "explanation": "Critical thinking is the disciplined process of analysis, assessment, and reasoning, free from personal bias."
+        },
+        {
+            "id": "007",
+            "text": "What is the 'Eisenhower Matrix' used for in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "Tracking how many hours you work each day.",
+                "Prioritizing tasks based on their urgency and importance.",
+                "Scheduling meetings for the entire team.",
+                "Delegating all your work to others."
+            ],
+            "correctAnswer": "Prioritizing tasks based on their urgency and importance.",
+            "explanation": "It divides tasks into four quadrants: Do (Urgent/Important), Decide (Not Urgent/Important), Delegate (Urgent/Not Important), and Delete (Not Urgent/Not Important)."
+        },
+        {
+            "id": "008",
+            "text": "How is 'creativity' best described in a workplace context?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "Being an artist or musician.",
+                "Only having 'big ideas' that change the company.",
+                "Finding new and effective ways to solve problems or approach tasks.",
+                "Doing tasks the same way every time for consistency."
+            ],
+            "correctAnswer": "Finding new and effective ways to solve problems or approach tasks.",
+            "explanation": "Workplace creativity is about innovation and 'out-of-the-box' thinking to improve processes, products, or services."
+        },
+        {
+            "id": "009",
+            "text": "Which of these is a key component of 'emotional intelligence'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Your IQ score",
+                "Your technical skill level",
+                "Self-awareness (understanding your own emotions)",
+                "Ignoring your emotions to stay logical"
+            ],
+            "correctAnswer": "Self-awareness (understanding your own emotions)",
+            "explanation": "Emotional intelligence is built on four pillars: self-awareness, self-management, social awareness (empathy), and relationship management."
+        },
+        {
+            "id": "010",
+            "text": "A strong 'work ethic' is best demonstrated by:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Working the longest hours, even if unproductive.",
+                "Only doing the tasks you enjoy.",
+                "Demonstrating reliability, discipline, and a commitment to quality.",
+                "Constantly talking about how busy you are."
+            ],
+            "correctAnswer": "Demonstrating reliability, discipline, and a commitment to quality.",
+            "explanation": "Work ethic is about the *quality* and *reliability* of your work, not just the *quantity* of hours you put in."
+        },
+        {
+            "id": "011",
+            "text": "What is the best way to deliver constructive criticism?",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "In a public team meeting so everyone can learn.",
+                "In a private, respectful manner, focusing on specific behaviors, not personality.",
+                "In an anonymous email.",
+                "By hinting at the problem indirectly."
+            ],
+            "correctAnswer": "In a private, respectful manner, focusing on specific behaviors, not personality.",
+            "explanation": "Effective feedback is specific, actionable, and delivered privately to prevent defensiveness and embarrassment."
+        },
+        {
+            "id": "012",
+            "text": "When paraphrasing a speaker to show 'active listening', you should:",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "Repeat their words exactly to show you heard them.",
+                "Restate their message in your own words to confirm your understanding.",
+                "Immediately state your own opinion on the topic.",
+                "Change the subject to something more positive."
+            ],
+            "correctAnswer": "Restate their message in your own words to confirm your understanding.",
+            "explanation": "Paraphrasing confirms you understood the *meaning* behind the words, not just the words themselves."
+        },
+        {
+            "id": "013",
+            "text": "What is 'groupthink' in a 'teamwork' setting?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "When a team works together perfectly in sync.",
+                "A collaborative brainstorming session.",
+                "A psychological phenomenon where the desire for harmony leads to dysfunctional decision-making.",
+                "The final, agreed-upon decision of the group."
+            ],
+            "correctAnswer": "A psychological phenomenon where the desire for harmony leads to dysfunctional decision-making.",
+            "explanation": "Groupthink occurs when team members avoid conflict and dissent, leading to a lack of critical evaluation of ideas."
+        },
+        {
+            "id": "014",
+            "text": "After implementing a solution, the 'problem-solving' process is over.",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "True, you can move on to the next problem.",
+                "False, you must monitor the results and get feedback.",
+                "True, as long as the solution was approved by a manager.",
+                "False, you must immediately look for a better solution."
+            ],
+            "correctAnswer": "False, you must monitor the results and get feedback.",
+            "explanation": "The final step of problem-solving is to review the outcome. Did the solution work? Did it have unintended consequences?"
+        },
+        {
+            "id": "015",
+            "text": "What is 'resilience' in the context of 'adaptability'?",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "The ability to bounce back from setbacks and adversity.",
+                "The ability to predict the future accurately.",
+                "Never failing in the first place.",
+                "Refusing to change your methods."
+            ],
+            "correctAnswer": "The ability to bounce back from setbacks and adversity.",
+            "explanation": "Resilience is a key part of adaptability, as it governs how you recover from unexpected challenges and failures."
+        },
+        {
+            "id": "016",
+            "text": "A key 'leadership' responsibility is to:",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "Micromanage every task to ensure perfection.",
+                "Do all the most important work yourself.",
+                "Empower team members and hold them accountable for their results.",
+                "Maintain a strict, top-down chain of command at all times."
+            ],
+            "correctAnswer": "Empower team members and hold them accountable for their results.",
+            "explanation": "Good leaders delegate, trust their team, provide support, and focus on outcomes, which empowers and motivates people."
+        },
+        {
+            "id": "017",
+            "text": "What is 'confirmation bias' in 'critical thinking'?",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "Confirming your instructions with a manager.",
+                "The tendency to search for, interpret, and favor information that confirms your pre-existing beliefs.",
+                "A bias towards positive, confirming feedback.",
+                "Checking facts with multiple sources."
+            ],
+            "correctAnswer": "The tendency to search for, interpret, and favor information that confirms your pre-existing beliefs.",
+            "explanation": "This is a major barrier to critical thinking, as it prevents you from objectively considering opposing viewpoints."
+        },
+        {
+            "id": "018",
+            "text": "What is the 'Pomodoro Technique' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "A method of working in focused 25-minute intervals separated by short breaks.",
+                "A way to schedule tasks based on tomato-growing seasons.",
+                "Finishing all your easiest tasks first.",
+                "Working non-stop until a project is complete."
+            ],
+            "correctAnswer": "A method of working in focused 25-minute intervals separated by short breaks.",
+            "explanation": "This technique is designed to improve focus and prevent mental fatigue by breaking down work into manageable chunks."
+        },
+        {
+            "id": "019",
+            "text": "'Divergent thinking' is a key part of 'creativity'. What does it mean?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "Thinking about how two ideas are different.",
+                "The process of generating many unique ideas or solutions for a single problem.",
+                "Arguing against the group's main idea.",
+                "Focusing on finding the single best answer."
+            ],
+            "correctAnswer": "The process of generating many unique ideas or solutions for a single problem.",
+            "explanation": "It's about brainstorming and exploring many possibilities (diverging), often followed by convergent thinking (narrowing down to the best solution)."
+        },
+        {
+            "id": "020",
+            "text": "What is 'empathy'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Feeling sorry for someone (sympathy).",
+                "Agreeing with everything someone says.",
+                "The ability to understand and share the feelings of another.",
+                "Hiding your own feelings."
+            ],
+            "correctAnswer": "The ability to understand and share the feelings of another.",
+            "explanation": "Empathy is about understanding another's perspective ('walking in their shoes'), which is a core part of social awareness."
+        },
+        {
+            "id": "021",
+            "text": "An employee with a strong 'work ethic' encounters a problem. They are most likely to:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Go home and wait for instructions the next day.",
+                "Blame the nearest co-worker.",
+                "Ignore it, as it's not in their job description.",
+                "Take initiative to find a solution or report it to the right person."
+            ],
+            "correctAnswer": "Take initiative to find a solution or report it to the right person.",
+            "explanation": "A strong work ethic includes taking ownership and being proactive, not just doing the bare minimum."
+        },
+        {
+            "id": "022",
+            "text": "Which communication channel is best for a complex, sensitive conversation?",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "Instant Message (Chat)",
+                "Email",
+                "A public memo",
+                "Face-to-face or video call"
+            ],
+            "correctAnswer": "Face-to-face or video call",
+            "explanation": "Sensitive topics require the nuance of tone and body language to prevent misinterpretation, which text-based channels lack."
+        },
+        {
+            "id": "023",
+            "text": "When someone is speaking, what is a key non-verbal cue for 'active listening'?",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "Looking at your watch or phone.",
+                "Maintaining appropriate eye contact and nodding.",
+                "Crossing your arms and leaning back.",
+                "Tapping your fingers on the table."
+            ],
+            "correctAnswer": "Maintaining appropriate eye contact and nodding.",
+            "explanation": "This shows the speaker you are engaged and following along with their message."
+        },
+        {
+            "id": "024",
+            "text": "What is a 'cross-functional' team?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "A team where everyone has the exact same job title.",
+                "A team composed of members from different departments or areas of expertise.",
+                "A team that is angry or 'cross' with each other.",
+                "A team that works in multiple different countries."
+            ],
+            "correctAnswer": "A team composed of members from different departments or areas of expertise.",
+            "explanation": "This diversity of skills (e.g., marketing, engineering, finance) is brought together to achieve a common goal."
+        },
+        {
+            "id": "025",
+            "text": "The '5 Whys' technique is used in 'problem-solving' to:",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "Ask five different people for their opinion.",
+                "Generate five potential solutions.",
+                "Identify the root cause of a problem by repeatedly asking 'Why?'.",
+                "Confirm that you understand the problem."
+            ],
+            "correctAnswer": "Identify the root cause of a problem by repeatedly asking 'Why?'.",
+            "explanation": "By digging deeper past the symptoms, you can find the underlying process or system failure that needs to be fixed."
+        },
+        {
+            "id": "026",
+            "text": "You are given a new software tool you've never used before. An 'adaptable' person would:",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "Refuse to use it and stick with the old method.",
+                "Complain that they were not trained.",
+                "Take the initiative to explore the tool, read documentation, or ask for a quick demo.",
+                "Delegate any tasks involving the tool to someone else."
+            ],
+            "correctAnswer": "Take the initiative to explore the tool, read documentation, or ask for a quick demo.",
+            "explanation": "Adaptability includes a willingness to learn new skills and tools to meet changing job demands."
+        },
+        {
+            "id": "027",
+            "text": "What is 'delegation' in 'leadership'?",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "Assigning tasks to others while trusting them with the responsibility and authority to complete them.",
+                "Assigning only the boring tasks you don't want to do.",
+                "Giving someone a task but micromanaging every step.",
+                "Blaming others when a task fails."
+            ],
+            "correctAnswer": "Assigning tasks to others while trusting them with the responsibility and authority to complete them.",
+            "explanation": "Effective delegation is about developing your team and freeing up your time for higher-level strategic work."
+        },
+        {
+            "id": "028",
+            "text": "What is the 'straw man' logical fallacy?",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "Building up an argument with strong evidence.",
+                "Misrepresenting or exaggerating someone's argument to make it easier to attack.",
+                "A solution that looks good but has no substance.",
+                "The first idea presented in a brainstorm."
+            ],
+            "correctAnswer": "Misrepresenting or exaggerating someone's argument to make it easier to attack.",
+            "explanation": "It's a failure of critical thinking because you aren't addressing the real argument, just a weaker, 'straw' version of it."
+        },
+        {
+            "id": "029",
+            "text": "'Multitasking' is a highly effective 'time management' strategy.",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "True, it allows you to get more done in less time.",
+                "False, it often leads to lower quality work and takes more total time due to 'context switching'.",
+                "True, but only for creative tasks.",
+                "False, it is a sign of poor planning."
+            ],
+            "correctAnswer": "False, it often leads to lower quality work and takes more total time due to 'context switching'.",
+            "explanation": "Most research shows that the brain is 'task-switching', not 'multitasking', which costs time and mental energy."
+        },
+        {
+            "id": "030",
+            "text": "A team member suggests an idea you think is bad. A 'creative' and 'collaborative' response would be:",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "\"That's a terrible idea.\"",
+                "Say nothing and let the idea fail.",
+                "\"Yes, and...\" (building on their idea) or \"What if we...\" (pivoting from their idea).",
+                "\"We've tried that before and it didn't work.\""
+            ],
+            "correctAnswer": "\"Yes, and...\" (building on their idea) or \"What if we...\" (pivoting from their idea).",
+            "explanation": "This encourages further brainstorming and respects the person's contribution, fostering a psychologically safe environment for creativity."
+        },
+        {
+            "id": "031",
+            "text": "What is 'self-regulation' in 'emotional intelligence'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "The ability to control or redirect disruptive impulses and moods.",
+                "Regulating what other people are allowed to say to you.",
+                "Never showing any emotion.",
+                "Following all company rules and regulations."
+            ],
+            "correctAnswer": "The ability to control or redirect disruptive impulses and moods.",
+            "explanation": "It's about thinking before you act, especially when experiencing a strong emotion, and choosing a constructive response."
+        },
+        {
+            "id": "032",
+            "text": "'Accountability' is a key part of 'work ethic'. It means:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Only counting your successes.",
+                "Taking responsibility for your actions, decisions, and their outcomes, good or bad.",
+                "Being able to provide a detailed financial report.",
+                "Blaming external factors for any failures."
+            ],
+            "correctAnswer": "Taking responsibility for your actions, decisions, and their outcomes, good or bad.",
+            "explanation": "Accountability is the opposite of making excuses; it's about owning your work and its consequences."
+        },
+        {
+            "id": "033",
+            "text": "Your 'body language' (e.g., crossed arms, slumping) has little impact on your 'communication'.",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "True, people only care about the words you say.",
+                "False, non-verbal cues often communicate more than your words and can contradict them.",
+                "True, as long as your tone of voice is professional.",
+                "False, but only in formal presentations."
+            ],
+            "correctAnswer": "False, non-verbal cues often communicate more than your words and can contradict them.",
+            "explanation": "Non-verbal signals are a huge part of communication and are often interpreted as more 'truthful' than verbal ones."
+        },
+        {
+            "id": "034",
+            "text": "What is the 'feedback loop' in 'active listening'?",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "A negative cycle of arguing.",
+                "The process of paraphrasing and asking clarifying questions to ensure understanding.",
+                "A speaker who repeats themselves over and over.",
+                "An audio problem on a conference call."
+            ],
+            "correctAnswer": "The process of paraphrasing and asking clarifying questions to ensure understanding.",
+            "explanation": "This 'loop' (speaker -> listener -> listener confirms -> speaker confirms) ensures both parties are aligned."
+        },
+        {
+            "id": "035",
+            "text": "What is 'psychological safety' in a 'teamwork' context?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "Wearing safety gear in the office.",
+                "A shared belief that the team is safe for interpersonal risk-taking (e.g., asking questions, admitting mistakes).",
+                "A team that never debates or disagrees.",
+                "Having a therapist available for the team."
+            ],
+            "correctAnswer": "A shared belief that the team is safe for interpersonal risk-taking (e.g., asking questions, admitting mistakes).",
+            "explanation": "It's the foundation of high-performing teams, as it allows for vulnerability, creativity, and learning from failure."
+        },
+        {
+            "id": "036",
+            "text": "When 'problem-solving', you should focus on finding a 'perfect' solution, even if it takes months.",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "True, quality is all that matters.",
+                "False, it's often better to implement a 'good enough' timely solution and iterate on it.",
+                "True, a bad solution is worse than no solution.",
+                "False, you should just pick the first solution you think of."
+            ],
+            "correctAnswer": "False, it's often better to implement a 'good enough' timely solution and iterate on it.",
+            "explanation": "This is the 'perfect is the enemy of good' principle. Business often requires timely, practical solutions over slow, perfect ones."
+        },
+        {
+            "id": "037",
+            "text": "A 'fixed mindset' (as opposed to a 'growth mindset') hinders 'adaptability' because:",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "It involves being very rigid and organized.",
+                "It's the belief that your skills are innate and unchangeable, which makes you fear failure.",
+                "It means you are 'fixed' on a goal and won't stop.",
+                "It's a focus on fixing problems."
+            ],
+            "correctAnswer": "It's the belief that your skills are innate and unchangeable, which makes you fear failure.",
+            "explanation": "A growth mindset (believing skills can be developed) is essential for adaptability, as it allows you to embrace challenges and learn new things."
+        },
+        {
+            "id": "038",
+            "text": "What is a 'servant leadership' style?",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "A leader who acts like a servant and has no authority.",
+                "A leader who primarily focuses on the growth and well-being of their team, sharing power.",
+                "A leader who demands to be 'served' by their team.",
+                "A top-down, authoritarian style."
+            ],
+            "correctAnswer": "A leader who primarily focuses on the growth and well-being of their team, sharing power.",
+            "explanation": "This style inverts the pyramid, putting the team's needs first, with the goal of helping them perform and develop."
+        },
+        {
+            "id": "039",
+            "text": "What is the 'sunk cost fallacy' in 'critical thinking'?",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "The belief that you must continue a project or effort because you've already invested time or money in it.",
+                "Investing money in a project that is 'sinking'.",
+                "The idea that all costs must be accounted for.",
+                "A failure to invest enough resources in a project."
+            ],
+            "correctAnswer": "The belief that you must continue a project or effort because you've already invested time or money in it.",
+            "explanation": "Critically, you should make decisions based on *future* potential, not *past* (sunk) costs."
+        },
+        {
+            "id": "040",
+            "text": "What does it mean to 'eat the frog' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "To take a long lunch break.",
+                "To do your most difficult, important task first thing in the morning.",
+                "To procrastinate on an unpleasant task.",
+                "To delegate a task you dislike to someone else."
+            ],
+            "correctAnswer": "To do your most difficult, important task first thing in the morning.",
+            "explanation": "Based on a Mark Twain quote, it means tackling your worst task first to get it over with and build momentum."
+        },
+        {
+            "id": "041",
+            "text": "What is 'psychological safety' in the context of 'creativity'?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "The feeling that you can propose 'wild' or 'silly' ideas without fear of judgment or ridicule.",
+                "A room that is painted in calming colors.",
+                "Only allowing positive feedback.",
+                "A guarantee that all your ideas will be implemented."
+            ],
+            "correctAnswer": "The feeling that you can propose 'wild' or 'silly' ideas without fear of judgment or ridicule.",
+            "explanation": "Creativity cannot flourish in an environment where people are afraid to be wrong or look foolish."
+        },
+        {
+            "id": "042",
+            "text": "What is 'social awareness' in 'emotional intelligence'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Knowing a lot of people on social media.",
+                "Being the most talkative person in a group.",
+                "The ability to pick up on the emotions and dynamics of others and the wider group.",
+                "Being aware of social events."
+            ],
+            "correctAnswer": "The ability to pick up on the emotions and dynamics of others and the wider group.",
+            "explanation": "This includes empathy, organizational awareness, and understanding the 'mood' of a room."
+        },
+        {
+            "id": "043",
+            "text": "What is the difference between 'work ethic' and 'being a workaholic'?",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "There is no difference.",
+                "Work ethic is about reliability and quality; workaholism is a compulsion that often leads to burnout and diminishing returns.",
+                "Work ethic is for junior staff; workaholism is for managers.",
+                "Work ethic is working 40 hours; workaholism is working 60 hours."
+            ],
+            "correctAnswer": "Work ethic is about reliability and quality; workaholism is a compulsion that often leads to diminishing returns.",
+            "explanation": "A strong work ethic is healthy and sustainable; workaholism is an unhealthy obsession."
+        },
+        {
+            "id": "044",
+            "text": "'Jargon' (technical or internal language) is a good tool for 'communication' because it shows expertise.",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "True, it makes you sound smarter.",
+                "False, it should be avoided when speaking to a mixed audience as it excludes people.",
+                "True, it forces others to learn new things.",
+                "False, it is impolite and should never be used."
+            ],
+            "correctAnswer": "False, it should be avoided when speaking to a mixed audience as it excludes people.",
+            "explanation": "Clear communication means tailoring your message to your audience. Jargon is only appropriate when everyone in the group understands it."
+        },
+        {
+            "id": "045",
+            "text": "You are in a meeting and find your mind wandering. The 'active listening' thing to do is:",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "Check your email, but keep nodding.",
+                "Politely excuse yourself from the meeting since you're not listening anyway.",
+                "Mentally (or gently) refocus your attention on the speaker and their message.",
+                "Interrupt the speaker and ask them to start over."
+            ],
+            "correctAnswer": "Mentally (or gently) refocus your attention on the speaker and their message.",
+            "explanation": "Active listening is a skill that requires discipline. Recognizing your mind has wandered and bringing it back is part of the process."
+        },
+        {
+            "id": "046",
+            "text": "What is 'constructive conflict' in 'teamwork'?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "Personal attacks and insults.",
+                "A healthy debate focused on ideas and processes, not people, to find the best solution.",
+                "Any disagreement that is loud.",
+                "A conflict where something is built, like a new product."
+            ],
+            "correctAnswer": "A healthy debate focused on ideas and processes, not people, to find the best solution.",
+            "explanation": "Teams that avoid all conflict often fall into groupthink. Constructive conflict is about 'disagreeing and committing'."
+        },
+        {
+            "id": "047",
+            "text": "What is a 'workaround' in 'problem-solving'?",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "The root cause of the problem.",
+                "A long-term, permanent fix.",
+                "A temporary solution to bypass a problem's symptom, without fixing the root cause.",
+                "The team responsible for solving the problem."
+            ],
+            "correctAnswer": "A temporary solution to bypass a problem's symptom, without fixing the root cause.",
+            "explanation": "Workarounds are often necessary for short-term operations but should be logged so the root cause can be fixed later."
+        },
+        {
+            "id": "048",
+            "text": "A 'change-averse' culture is one that demonstrates high 'adaptability'.",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "True, 'averse' means you are very aware of change.",
+                "False, 'change-averse' means you actively resist or fear change, which is the opposite of adaptability.",
+                "True, it means the culture is stable and predictable.",
+                "False, 'averse' is a type of poetry about change."
+            ],
+            "correctAnswer": "False, 'change-averse' means you actively resist or fear change, which is the opposite of adaptability.",
+            "explanation": "An adaptable culture is 'change-ready' or 'change-agile', embracing new challenges."
+        },
+        {
+            "id": "049",
+            "text": "An 'autocratic' 'leadership' style is characterized by:",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "High levels of team participation and voting.",
+                "Individual decision-making by the leader with little input from the team.",
+                "A hands-off approach where the team does whatever it wants.",
+                "A focus on team-building and morale."
+            ],
+            "correctAnswer": "Individual decision-making by the leader with little input from the team.",
+            "explanation": "This style (also called 'authoritarian') can be useful in a crisis but is demotivating in the long term."
+        },
+        {
+            "id": "050",
+            "text": "To improve 'critical thinking', you should:",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "Only read news and opinions that you already agree with.",
+                "Trust your 'gut feeling' above all else.",
+                "Actively seek out diverse perspectives and information that challenges your assumptions.",
+                "Make decisions as quickly as possible."
+            ],
+            "correctAnswer": "Actively seek out diverse perspectives and information that challenges your assumptions.",
+            "explanation": "Challenging your own biases and assumptions is a core practice of a critical thinker."
+        },
+        {
+            "id": "051",
+            "text": "What is 'time-blocking' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "Blocking other people from taking your time.",
+                "A form of procrastination where you block out time but don't use it.",
+                "Scheduling specific 'blocks' of time for specific tasks in your calendar.",
+                "The feeling of time stopping when you are 'in the zone'."
+            ],
+            "correctAnswer": "Scheduling specific 'blocks' of time for specific tasks in your calendar.",
+            "explanation": "This is a proactive approach to managing your day, ensuring that time is reserved for important, focused work."
+        },
+        {
+            "id": "052",
+            "text": "Constraints (like a tight budget or deadline) are always bad for 'creativity'.",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "True, creativity needs total freedom.",
+                "False, constraints can often force you to be more creative and find novel solutions.",
+                "True, you can't be creative without unlimited money.",
+                "False, but only if the constraint is time."
+            ],
+            "correctAnswer": "False, constraints can often force you to be more creative and find novel solutions.",
+            "explanation": "The 'creative constraint' principle suggests that a well-defined 'box' forces you to think more resourcefully inside it."
+        },
+        {
+            "id": "053",
+            "text": "You are very upset about a manager's decision. An 'emotionally intelligent' response would be:",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Send an angry email to the entire department.",
+                "Wait until you have calmed down, then request a private meeting to calmly express your concerns.",
+                "Complain about the manager to all your co-workers.",
+                "Quit your job on the spot."
+            ],
+            "correctAnswer": "Wait until you have calmed down, then request a private meeting to calmly express your concerns.",
+            "explanation": "This demonstrates self-regulation (not acting on impulse) and relationship management (handling conflict constructively)."
+        },
+        {
+            "id": "054",
+            "text": "A co-worker, who is leaving, asks you to 'just approve' their last expense report, which looks unusually high. A strong 'work ethic' implies you should:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Approve it to be nice, since they are leaving anyway.",
+                "Politely explain that you must follow procedure and review it properly, just like any other report.",
+                "Ignore the request and let their manager handle it.",
+                "Approve it, but make a note of your suspicion."
+            ],
+            "correctAnswer": "Politely explain that you must follow procedure and review it properly, just like any other report.",
+            "explanation": "A key part of work ethic is integrity and consistency in upholding rules and quality, regardless of the person."
+        },
+        {
+            "id": "055",
+            "text": "What is the 'curse of knowledge' in 'communication'?",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "Knowing too much to be happy.",
+                "A cognitive bias where you assume others have the same background knowledge as you.",
+                "When you are an expert and must teach others.",
+                "A curse placed on ancient scholars."
+            ],
+            "correctAnswer": "A cognitive bias where you assume others have the same background knowledge as you.",
+            "explanation": "This leads to poor communication, as you skip important context or use jargon, assuming your audience understands."
+        },
+        {
+            "id": "056",
+            "text": "What is a 'reflective question' in 'active listening'?",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "A question about your own reflection in a mirror.",
+                "A question that tests the speaker's knowledge.",
+                "A question that reflects the speaker's feeling or meaning (e.g., 'It sounds like you're feeling...').",
+                "A question you think about for a long time."
+            ],
+            "correctAnswer": "A question that reflects the speaker's feeling or meaning (e.g., 'It sounds like you're feeling...').",
+            "explanation": "This is a key tool for showing empathy and ensuring you understand the emotional content of the message."
+        },
+        {
+            "id": "057",
+            "text": "What is a 'silo' in a 'teamwork' context?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "A specific role on the team.",
+                "A department or team that works in isolation, hoarding information and not collaborating with other groups.",
+                "A tall building for storing grain.",
+                "A team that works very efficiently together."
+            ],
+            "correctAnswer": "A department or team that works in isolation, hoarding information and not collaborating with other groups.",
+            "explanation": "'Breaking down silos' is a common goal for improving organizational teamwork and communication."
+        },
+        {
+            "id": "058",
+            "text": "What is 'brainstorming' in 'problem-solving'?",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "A meeting where everyone argues.",
+                "A technique for generating a large quantity of ideas, where judgment is deferred.",
+                "A way to select the one best idea.",
+                "A type of severe headache."
+            ],
+            "correctAnswer": "A technique for generating a large quantity of ideas, where judgment is deferred.",
+            "explanation": "The primary rule of brainstorming is 'quantity over quality' and 'no bad ideas' in the initial phase."
+        },
+        {
+            "id": "059",
+            "text": "A 'learning orientation' is a key component of 'adaptability'. It means:",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "You have already learned everything you need for the job.",
+                "You only learn in a formal classroom setting.",
+                "A desire to continuously learn, unlearn, and relearn in response to new information.",
+                "You prefer to orient yourself by learning the office layout."
+            ],
+            "correctAnswer": "A desire to continuously learn, unlearn, and relearn in response to new information.",
+            "explanation": "This mindset is crucial for adapting to new technologies, processes, and market changes."
+        },
+        {
+            "id": "060",
+            "text": "What is 'transformational leadership'?",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "A leader who fires and 'transforms' the team constantly.",
+                "A leader who inspires and motivates followers to achieve extraordinary outcomes and develop their own leadership capacity.",
+                "A leader who focuses only on 'transactional' exchanges (e.g., pay for work).",
+                "A leader who changes their mind all the time."
+            ],
+            "correctAnswer": "A leader who inspires and motivates followers to achieve extraordinary outcomes and develop their own leadership capacity.",
+            "explanation": "This style is based on vision, inspiration, and intellectual stimulation, leading to high engagement."
+        },
+        {
+            "id": "061",
+            "text": "What is 'Occam's Razor' as a 'critical thinking' principle?",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "A very sharp tool for making decisions.",
+                "A principle that states the most complex explanation is usually correct.",
+                "A principle that states the simplest explanation (with the fewest assumptions) is often the correct one.",
+                "A logical fallacy of oversimplifying an argument."
+            ],
+            "correctAnswer": "A principle that states the simplest explanation (with the fewest assumptions) is often the correct one.",
+            "explanation": "It's a heuristic, or mental shortcut, to guide thinking when faced with multiple competing hypotheses."
+        },
+        {
+            "id": "062",
+            "text": "What is 'Parkinson's Law' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "A law that states 'work expands so as to fill the time available for its completion.'",
+                "A rule about where you can park at the office.",
+                "The idea that you must work in a park to be productive.",
+                "A law that states you must finish tasks early."
+            ],
+            "correctAnswer": "A law that states 'work expands so as to fill the time available for its completion.'",
+            "explanation": "It's an observation that if you give a task a week, it will take a week, even if it could be done in a day."
+        },
+        {
+            "id": "063",
+            "text": "What is 'convergent thinking' in 'creativity'?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "When everyone in the group thinks the same thing.",
+                "The process of finding a single, well-defined solution to a problem.",
+                "Generating many different ideas.",
+                "Thinking about two topics that are 'converging'."
+            ],
+            "correctAnswer": "The process of finding a single, well-defined solution to a problem.",
+            "explanation": "This is the 'logical, analytical' part of creativity, often used after a 'divergent thinking' (brainstorming) session."
+        },
+        {
+            "id": "064",
+            "text": "An 'emotional hijack' (or 'amygdala hijack') is:",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "A positive, sudden burst of creative energy.",
+                "An immediate, overwhelming emotional response that is out of proportion to the stimulus.",
+                "A technique for 'hijacking' someone else's emotions.",
+                "A calm, rational decision."
+            ],
+            "correctAnswer": "An immediate, overwhelming emotional response that is out of proportion to the stimulus.",
+            "explanation": "This is when the brain's emotional center (amygdala) bypasses the rational brain, leading to 'fight or flight' reactions."
+        },
+        {
+            "id": "065",
+            "text": "Being 'proactive' (part of a strong 'work ethic') means:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Waiting for your manager to tell you exactly what to do.",
+                "Reacting to problems only after they happen.",
+                "Anticipating future problems or needs and taking action to address them in advance.",
+                "Being a professional actor."
+            ],
+            "correctAnswer": "Anticipating future problems or needs and taking action to address them in advance.",
+            "explanation": "Proactivity is about taking initiative and focusing on your 'circle of influence' rather than being a passive 'victim' of circumstances."
+        },
+        {
+            "id": "066",
+            "text": "The phrase 'it's not what you said, it's how you said it' refers to the importance of:",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "Tone of voice and non-verbal cues.",
+                "Using complex vocabulary.",
+                "The time of day you said it.",
+                "The channel you used (e.g., email vs. phone)."
+            ],
+            "correctAnswer": "Tone of voice and non-verbal cues.",
+            "explanation": "Tone, body language, and inflection carry a huge amount of the message's emotional content and intent."
+        },
+        {
+            "id": "067",
+            "text": "What is 'empathetic listening'?",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "Listening to feel sorry for someone.",
+                "Listening to find flaws in the speaker's argument.",
+                "Listening with the primary goal of understanding the speaker's feelings and perspective.",
+                "Listening to a speaker who is very emotional."
+            ],
+            "correctAnswer": "Listening with the primary goal of understanding the speaker's feelings and perspective.",
+            "explanation": "It's a deeper level of active listening that focuses on the emotional content, not just the factual data."
+        },
+        {
+            "id": "068",
+            "text": "What is 'social loafing' in 'teamwork'?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "A team-building event held at a park.",
+                "The tendency for individuals to exert less effort when working in a group than when working alone.",
+                "A team member who is very social and talks a lot.",
+                "The designated 'rest' period for a team."
+            ],
+            "correctAnswer": "The tendency for individuals to exert less effort when working in a group than when working alone.",
+            "explanation": "This is a common teamwork dysfunction, often overcome by ensuring individual accountability and clear roles."
+        },
+        {
+            "id": "069",
+            "text": "A 'SWOT Analysis' (Strengths, Weaknesses, Opportunities, Threats) is a tool used in:",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "Problem identification and strategic planning.",
+                "Time management.",
+                "Delivering employee feedback.",
+                "Team-building exercises."
+            ],
+            "correctAnswer": "Problem identification and strategic planning.",
+            "explanation": "It's a framework for analyzing a situation (internal Strengths/Weaknesses, external Opportunities/Threats) to make better decisions."
+        },
+        {
+            "id": "070",
+            "text": "What is the 'comfort zone' in the context of 'adaptability'?",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "A psychological state where you feel safe and at ease, but are not growing or learning.",
+                "A well-designed, ergonomic chair.",
+                "The optimal state for high performance.",
+                "A state of high anxiety and stress."
+            ],
+            "correctAnswer": "A psychological state where you feel safe and at ease, but are not growing or learning.",
+            "explanation": "Adaptability requires you to periodically step *out* of your comfort zone to face new challenges and grow."
+        },
+        {
+            "id": "071",
+            "text": "What is 'micromanagement'?",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "A good leadership style for managing details.",
+                "A leadership style where the leader controls and monitors every single detail of a subordinate's work.",
+                "Managing very small ('micro') teams.",
+                "A hands-off, 'laissez-faire' leadership style."
+            ],
+            "correctAnswer": "A leadership style where the leader controls and monitors every single detail of a subordinate's work.",
+            "explanation": "This style is highly demotivating, shows a lack of trust, and prevents team members from developing."
+        },
+        {
+            "id": "072",
+            "text": "An 'ad hominem' attack is a logical fallacy where you:",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "Attack the person making the argument, rather than the argument itself.",
+                "Use an anonymous source to support your claim.",
+                "Argue that because something is popular, it must be true.",
+                "Add a 'home' element to your argument."
+            ],
+            "correctAnswer": "Attack the person making the argument, rather than the argument itself.",
+            "explanation": "Example: 'You can't trust his financial plan; he's terrible at dressing.' This is a failure of critical thinking."
+        },
+        {
+            "id": "073",
+            "text": "What is 'deep work' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "Working underground.",
+                "Working on a very difficult, philosophical problem.",
+                "Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities.",
+                "Working late into the night."
+            ],
+            "correctAnswer": "Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities.",
+            "explanation": "Coined by Cal Newport, it's the opposite of 'shallow work' (like answering emails) and produces the most value."
+        },
+        {
+            "id": "074",
+            "text": "What is 'ideation' in 'creativity'?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "The process of forming and generating new ideas.",
+                "The process of testing an idea.",
+                "The final, implemented idea.",
+                "A legal term for owning an idea."
+            ],
+            "correctAnswer": "The process of forming and generating new ideas.",
+            "explanation": "This is the 'brainstorming' or 'idea generation' phase of the creative process."
+        },
+        {
+            "id": "075",
+            "text": "What is the 'halo effect' in 'emotional intelligence'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "When a leader is seen as angelic.",
+                "A cognitive bias where your overall positive impression of a person influences your judgment of their specific traits.",
+                "The feeling of a 'glow' after a positive social interaction.",
+                "A bias towards people who are more socially aware."
+            ],
+            "correctAnswer": "A cognitive bias where your overall positive impression of a person influences your judgment of their specific traits.",
+            "explanation": "Example: 'He's so charismatic, his financial report must be accurate.' Being aware of this bias is key to social awareness."
+        },
+        {
+            "id": "076",
+            "text": "An employee with a strong 'work ethic' should:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Never take a vacation or sick day.",
+                "Refuse to help co-workers to focus on their own tasks.",
+                "Manage their time effectively and respect company resources.",
+                "Only work on tasks that will get them promoted."
+            ],
+            "correctAnswer": "Manage their time effectively and respect company resources.",
+            "explanation": "Professionalism, reliability, and respect for time and resources are hallmarks of a strong work ethic."
+        },
+        {
+            "id": "077",
+            "text": "What is 'asynchronous communication'?",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "Communicating in a disorganized way.",
+                "Communication that doesn't happen in real-time (e.g., email, discussion boards).",
+                "A very fast, real-time conversation.",
+                "Communicating out of 'sync' with the team's goals."
+            ],
+            "correctAnswer": "Communication that doesn't happen in real-time (e.g., email, discussion boards).",
+            "explanation": "It's the opposite of 'synchronous' (e.g., phone call, in-person meeting) and is key for remote work."
+        },
+        {
+            "id": "078",
+            "text": "Why is it bad 'active listening' to interrupt a speaker with your own story?",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "It's not bad, it shows you can relate.",
+                "It shifts the focus from the speaker to you, making them feel unheard.",
+                "It's only bad if your story isn't as good as theirs.",
+                "It's fine, as long as you let them talk again afterwards."
+            ],
+            "correctAnswer": "It shifts the focus from the speaker to you, making them feel unheard.",
+            "explanation": "While often well-intentioned, it hijacks the conversation and centers your experience instead of theirs."
+        },
+        {
+            "id": "079",
+            "text": "The 'Forming, Storming, Norming, Performing' model describes:",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "A weather prediction model.",
+                "The stages of team development.",
+                "A problem-solving framework.",
+                "A communication style."
+            ],
+            "correctAnswer": "The stages of team development.",
+            "explanation": "Developed by Bruce Tuckman, it describes the phases a new team goes through to become high-performing."
+        },
+        {
+            "id": "080",
+            "text": "What is 'lateral thinking' in 'problem-solving'?",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "Solving a problem by working with people at your same 'lateral' level.",
+                "A way of solving problems by avoiding the most obvious, direct (vertical) logical steps.",
+                "Thinking about a problem from left to right.",
+                "A very linear, step-by-step process."
+            ],
+            "correctAnswer": "A way of solving problems by avoiding the most obvious, direct (vertical) logical steps.",
+            "explanation": "It's a creative approach that involves reframing the question and looking at it from new, unexpected angles."
+        },
+        {
+            "id": "081",
+            "text": "A key behavior of an 'adaptable' employee is:",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "Having a perfectly clean and unchanging desk.",
+                "Specializing in only one skill and refusing to do others.",
+                "Showing positivity and a 'can-do' attitude when faced with unexpected changes.",
+                "Frequently changing jobs."
+            ],
+            "correctAnswer": "Showing positivity and a 'can-do' attitude when faced with unexpected changes.",
+            "explanation": "Attitude is a major component of adaptability. A positive outlook helps you see change as an opportunity, not a threat."
+        },
+        {
+            "id": "082",
+            "text": "What is 'vision' in 'leadership'?",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "The ability to see (eyesight).",
+                "A long-term, aspirational description of what an organization or team wants to achieve.",
+                "A specific, short-term project plan.",
+                "A 'vision board' with pictures of things you want."
+            ],
+            "correctAnswer": "A long-term, aspirational description of what an organization or team wants to achieve.",
+            "explanation": "A leader's job is to define that vision, communicate it clearly, and inspire others to work towards it."
+        },
+        {
+            "id": "083",
+            "text": "What is 'bias' in 'critical thinking'?",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "A preference or prejudice for or against something, often in a way that is unfair.",
+                "A type of sharp cut.",
+                "A necessary part of making fast decisions.",
+                "A rule in statistics."
+            ],
+            "correctAnswer": "A preference or prejudice for or against something, often in a way that is unfair.",
+            "explanation": "A critical thinker must learn to recognize their own cognitive biases (like confirmation bias) to make objective judgments."
+        },
+        {
+            "id": "084",
+            "text": "What is the '2-Minute Rule' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "All meetings must be only 2 minutes long.",
+                "If a task takes less than 2 minutes to complete, do it immediately.",
+                "You should take a 2-minute break every hour.",
+                "You must respond to all emails within 2 minutes."
+            ],
+            "correctAnswer": "If a task takes less than 2 minutes to complete, do it immediately.",
+            "explanation": "From David Allen's 'Getting Things Done', it prevents small, easy tasks from piling up and creating mental clutter."
+        },
+        {
+            "id": "085",
+            "text": "What is a 'creative block'?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "A toy block used for building.",
+                "A period of time where you are unable to generate new ideas.",
+                "A management technique to stop bad ideas.",
+                "A final, approved creative idea."
+            ],
+            "correctAnswer": "A period of time where you are unable to generate new ideas.",
+            "explanation": "It's a common phenomenon that can be overcome by changing your environment, seeking new inspiration, or taking a break."
+        },
+        {
+            "id": "086",
+            "text": "What is 'motivation' (self-motivation) in 'emotional intelligence'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Relying on your boss to give you a bonus for every task.",
+                "The internal drive to achieve, improve, and pursue goals with energy and persistence.",
+                "The fear of being punished.",
+                "The desire to be more popular than co-workers."
+            ],
+            "correctAnswer": "The internal drive to achieve, improve, and pursue goals with energy and persistence.",
+            "explanation": "This 'intrinsic motivation' is a key part of EI, as it's more sustainable than 'extrinsic' (external) rewards."
+        },
+        {
+            "id": "087",
+            "text": "Demonstrating 'integrity' (a key 'work ethic' trait) means:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "Being honest and having strong moral principles; doing the right thing even when no one is watching.",
+                "Integrating multiple systems together.",
+                "Doing whatever it takes to get ahead, even if it means bending the rules.",
+                "Following instructions from your boss without question."
+            ],
+            "correctAnswer": "Being honest and having strong moral principles; doing the right thing even when no one is watching.",
+            "explanation": "Integrity is the foundation of trust in the workplace."
+        },
+        {
+            "id": "088",
+            "text": "What is the ' sandwich method ' of feedback (a 'communication' technique)?",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "Giving feedback only during lunch.",
+                "A often-criticized method where you 'sandwich' a piece of criticism between two pieces of praise.",
+                "A method where you only give praise.",
+                "A method where you only give criticism."
+            ],
+            "correctAnswer": "A often-criticized method where you 'sandwich' a piece of criticism between two pieces of praise.",
+            "explanation": "Many experts now advise against this, as it can dilute the message and make the praise feel insincere."
+        },
+        {
+            "id": "089",
+            "text": "A speaker is telling a long, rambling story. An 'active listener' should:",
+            "type": "multiple-choice",
+            "category": "Active Listening",
+            "answers": [
+                "Interrupt them and tell them to get to the point.",
+                "Listen patiently for the main idea or feeling they are trying to express.",
+                "Start a side conversation with someone else.",
+                "Walk away."
+            ],
+            "correctAnswer": "Listen patiently for the main idea or feeling they are trying to express.",
+            "explanation": "Sometimes, people need to 'talk out' a problem. Patience and looking for the underlying message are key."
+        },
+        {
+            "id": "090",
+            "text": "What is a 'team charter' in 'teamwork'?",
+            "type": "multiple-choice",
+            "category": "Teamwork",
+            "answers": [
+                "A document that outlines the team's purpose, goals, roles, and rules of operation.",
+                "A boat that the team rents for an outing.",
+                "The team's official logo.",
+                "A daily report of what the team has done."
+            ],
+            "correctAnswer": "A document that outlines the team's purpose, goals, roles, and rules of operation.",
+            "explanation": "It's a foundational document created by the team to ensure everyone is aligned on expectations."
+        },
+        {
+            "id": "091",
+            "text": "What is 'analysis paralysis' in 'problem-solving'?",
+            "type": "multiple-choice",
+            "category": "Problem-Solving",
+            "answers": [
+                "The state of over-analyzing a problem so much that a decision is never made.",
+                "A physical inability to analyze data.",
+                "When an analysis is proven wrong.",
+                "The first step of analysis."
+            ],
+            "correctAnswer": "The state of over-analyzing a problem so much that a decision is never made.",
+            "explanation": "This is a common pitfall where the fear of making the wrong choice prevents any choice from being made."
+        },
+        {
+            "id": "092",
+            "text": "A 'pro-change' attitude, key to 'adaptability', means:",
+            "type": "multiple-choice",
+            "category": "Adaptability",
+            "answers": [
+                "You actively seek to change things that are working perfectly fine.",
+                "You view change as an opportunity for growth and improvement, rather than a threat.",
+                "You are a professional actor in a play.",
+                "You protest against the current way of doing things."
+            ],
+            "correctAnswer": "You view change as an opportunity for growth and improvement, rather than a threat.",
+            "explanation": "This positive framing helps you embrace new challenges with less stress and more success."
+        },
+        {
+            "id": "093",
+            "text": "A 'laissez-faire' 'leadership' style is:",
+            "type": "multiple-choice",
+            "category": "Leadership",
+            "answers": [
+                "A very strict, controlling style.",
+                "A style that is only used in France.",
+                "A hands-off style where the leader provides little to no direction and gives the team full freedom.",
+                "A style focused on inspiring vision."
+            ],
+            "correctAnswer": "A hands-off style where the leader provides little to no direction and gives the team full freedom.",
+            "explanation": "This can work with highly motivated and skilled experts, but often leads to chaos and a lack of accountability."
+        },
+        {
+            "id": "094",
+            "text": "What is 'intellectual humility', a key to 'critical thinking'?",
+            "type": "multiple-choice",
+            "category": "Critical Thinking",
+            "answers": [
+                "Thinking you are not very smart.",
+                "Recognizing the limits of your own knowledge and being willing to be proven wrong.",
+                "Being humble about your high IQ.",
+                "A focus on only studying the humanities."
+            ],
+            "correctAnswer": "Recognizing the limits of your own knowledge and being willing to be proven wrong.",
+            "explanation": "It's the opposite of intellectual arrogance and is essential for genuine learning and objective analysis."
+        },
+        {
+            "id": "095",
+            "text": "What is a 'time audit' in 'time management'?",
+            "type": "multiple-choice",
+            "category": "Time Management",
+            "answers": [
+                "A government audit of your timesheets.",
+                "The process of tracking and analyzing how you spend your time for a period (e.g., a week).",
+                "A meeting that runs over its scheduled time.",
+                "A clock that is very accurate."
+            ],
+            "correctAnswer": "The process of tracking and analyzing how you spend your time for a period (e.g., a week).",
+            "explanation": "You cannot manage your time effectively if you don't know where it's actually going. An audit is the diagnostic step."
+        },
+        {
+            "id": "096",
+            "text": "What is 'serendipity' in 'creativity'?",
+            "type": "multiple-choice",
+            "category": "Creativity",
+            "answers": [
+                "A formal process for generating ideas.",
+                "The act of finding valuable or pleasant things by accident; 'happy accidents'.",
+                "A state of deep, creative focus.",
+                "A complex idea."
+            ],
+            "correctAnswer": "The act of finding valuable or pleasant things by accident; 'happy accidents'.",
+            "explanation": "Many creative breakthroughs (like Post-it notes) happen by accident *plus* the wisdom to see their potential."
+        },
+        {
+            "id": "097",
+            "text": "A co-worker is visibly sad. 'Emotional intelligence' would lead you to:",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Tell them to 'cheer up' and focus on work.",
+                "Ignore them completely to respect their privacy.",
+                "Privately and gently ask, 'I notice you seem down. Is everything okay?'",
+                "Tell other co-workers that they seem sad."
+            ],
+            "correctAnswer": "Privately and gently ask, 'I notice you seem down. Is everything okay?'",
+            "explanation": "This shows social awareness (you noticed) and empathy (you're offering support) in a respectful way."
+        },
+        {
+            "id": "098",
+            "text": "An employee with a strong 'work ethic' views feedback as:",
+            "type": "multiple-choice",
+            "category": "Work Ethic",
+            "answers": [
+                "A personal attack.",
+                "An opportunity to improve and grow.",
+                "Something to be ignored.",
+                "A sign of failure."
+            ],
+            "correctAnswer": "An opportunity to improve and grow.",
+            "explanation": "A commitment to quality (part of work ethic) requires a commitment to learning from mistakes, which feedback enables."
+        },
+        {
+            "id": "099",
+            "text": "Which of these is a 'barrier' to effective 'communication'?",
+            "type": "multiple-choice",
+            "category": "Communication",
+            "answers": [
+                "Physical noise",
+                "Emotional distraction",
+                "Using unclear jargon",
+                "All of the above"
+            ],
+            "correctAnswer": "All of the above",
+            "explanation": "Barriers to communication can be physical (noise), psychological (emotions), or semantic (language/jargon)."
+        },
+        {
+            "id": "100",
+            "text": "What is the 'relationship management' component of 'emotional intelligence'?",
+            "type": "multiple-choice",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "Managing your relationships with your boss.",
+                "The ability to use your awareness of your own and others' emotions to build bonds and manage interactions.",
+                "A database of all your professional contacts.",
+                "Being friendly and popular with everyone."
+            ],
+            "correctAnswer": "The ability to use your awareness of your own and others' emotions to build bonds and manage interactions.",
+            "explanation": "This includes skills like influence, conflict management, and inspirational leadership."
+        },
+        {
+            "id": "101",
+            "text": "In active listening, it's important to interrupt the speaker as soon as you have a relevant thought.",
+            "type": "true-false",
+            "category": "Active Listening",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Active listening requires letting the speaker finish their thought. Interrupting shows you are focused on your own agenda."
+        },
+        {
+            "id": "102",
+            "text": "A good team member avoids all conflict to keep the peace.",
+            "type": "true-false",
+            "category": "Teamwork",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Avoiding all conflict can lead to groupthink. Good team members engage in 'constructive conflict' focused on ideas, not people."
+        },
+        {
+            "id": "103",
+            "text": "The first solution you think of is always the best one.",
+            "type": "true-false",
+            "category": "Problem-Solving",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is often a 'first-level' or obvious solution. Effective problem-solving involves brainstorming multiple options before evaluating them."
+        },
+        {
+            "id": "104",
+            "text": "Being adaptable means you have no firm principles or values.",
+            "type": "true-false",
+            "category": "Adaptability",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Adaptability is about changing your *approach* or *method* to fit new circumstances, not abandoning your core *values* or *integrity*."
+        },
+        {
+            "id": "105",
+            "text": "A person must have a formal title (like 'Manager' or 'CEO') to be a leader.",
+            "type": "true-false",
+            "category": "Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Leadership is a skill and a choice. Anyone can demonstrate leadership by taking initiative, inspiring others, and owning their work."
+        },
+        {
+            "id": "106",
+            "text": "Critical thinking is the same as being negative or critical of everything.",
+            "type": "true-false",
+            "category": "Critical Thinking",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Critical thinking is about *objective analysis* and *evaluation*, not just finding fault. It's a constructive process, not a destructive one."
+        },
+        {
+            "id": "107",
+            "text": "A 'to-do list' is the only tool you need for good time management.",
+            "type": "true-false",
+            "category": "Time Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A to-do list is useful, but it lacks prioritization and scheduling. A calendar, priority matrix, or time-blocking is also needed."
+        },
+        {
+            "id": "108",
+            "text": "Creativity is a skill that can be learned and developed.",
+            "type": "true-false",
+            "category": "Creativity",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "While some people have a natural inclination, creativity is a process and a mindset that can be improved with practice."
+        },
+        {
+            "id": "110",
+            "text": "Emotional intelligence is fixed from birth and cannot be improved.",
+            "type": "true-false",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Unlike IQ, emotional intelligence (EI) is a set of skills (like self-awareness and empathy) that can be learned and developed over time."
+        },
+        {
+            "id": "111",
+            "text": "Having a strong work ethic means you must sacrifice your work-life balance.",
+            "type": "true-false",
+            "category": "Work Ethic",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A strong work ethic includes professionalism and time management, which means working *efficiently* and *sustainably*, not just *excessively*."
+        },
+        {
+            "id": "112",
+            "text": "The medium (or channel) of communication does not matter as long as the message is correct.",
+            "type": "true-false",
+            "category": "Communication",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The channel choice is critical. Firing someone over text is inappropriate, just as calling a meeting for a simple 'yes' is inefficient."
+        },
+        {
+            "id": "113",
+            "text": "You can be an active listener while multitasking (e.g., checking email).",
+            "type": "true-false",
+            "category": "Active Listening",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Active listening requires your *full* concentration. Multitasking splits your attention and guarantees you will miss important parts of the message."
+        },
+        {
+            "id": "114",
+            "text": "Diverse teams (in terms of background, skill, and thought) often outperform homogeneous teams.",
+            "type": "true-false",
+            "category": "Teamwork",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Diversity leads to more creative problem-solving and avoids the 'groupthink' that can happen when everyone is the same."
+        },
+        {
+            "id": "115",
+            "text": "When solving a problem, you should ignore the potential 'side effects' of your solution.",
+            "type": "true-false",
+            "category": "Problem-Solving",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A good problem-solver considers the 'second-order effects'—the unintended consequences—of a solution before implementing it."
+        },
+        {
+            "id": "116",
+            "text": "If you are very adaptable, you will never feel stressed by change.",
+            "type": "true-false",
+            "category": "Adaptability",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Adaptability doesn't mean you don't *feel* stress; it means you *manage* that stress effectively and move forward constructively."
+        },
+        {
+            "id": "117",
+            "text": "Effective leaders take all the credit for successes and assign all the blame for failures.",
+            "type": "true-false",
+            "category": "Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Good leaders do the opposite: they give the team credit for success ('look in the window') and take personal responsibility for failure ('look in the mirror')."
+        },
+        {
+            "id": "118",
+            "text": "If a statement is made by a respected expert, it must be true.",
+            "type": "true-false",
+            "category": "Critical Thinking",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is the 'appeal to authority' fallacy. While an expert's opinion is valuable, it should still be questioned and verified."
+        },
+        {
+            "id": "119",
+            "text": "Being 'busy' is the same as being 'productive'.",
+            "type": "true-false",
+            "category": "Time Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Busyness is about motion; productivity is about *results*. You can be busy all day with 'shallow work' and achieve nothing important."
+        },
+        {
+            "id": "120",
+            "text": "You must be 'artistic' to be 'creative'.",
+            "type": "true-false",
+            "category": "Creativity",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Creativity is about novel problem-solving. A programmer, an accountant, or a marketer can be just as 'creative' as a painter."
+        },
+        {
+            "id": "121",
+            "text": "Your mood and emotions have no effect on your decision-making.",
+            "type": "true-false",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Our emotions are a powerful driver of our decisions. Emotional intelligence is the skill of recognizing this and not letting a bad-mood hijack a rational choice."
+        },
+        {
+            "id": "122",
+            "text": "Punctuality (being on time) is a key component of a good work ethic.",
+            "type": "true-false",
+            "category": "Work Ethic",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Being on time for work and meetings shows respect for other people's time, which is a sign of professionalism and reliability."
+        },
+        {
+            "id": "123",
+            "text": "Using 'I' statements (e.g., 'I feel...') is a good way to express disagreement in a non-confrontational way.",
+            "type": "true-false",
+            "category": "Communication",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "'I feel...' is about your perspective, whereas 'You...' (e.g., 'You are wrong') feels like an attack and makes others defensive."
+        },
+        {
+            "id": "124",
+            "text": "Active listening means you must agree with the speaker.",
+            "type": "true-false",
+            "category": "Active Listening",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Active listening is about *understanding* the speaker's perspective, not necessarily *agreeing* with it. You can 'seek to understand, then to be understood'."
+        },
+        {
+            "id": "125",
+            "text": "A team can be successful even if its members don't trust each other.",
+            "type": "true-false",
+            "category": "Teamwork",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Trust is the foundation of all high-performing teams. Without it, you cannot have constructive conflict or accountability."
+        },
+        {
+            "id": "126",
+            "text": "It is a good idea to involve stakeholders *after* you have already implemented a solution to their problem.",
+            "type": "true-false",
+            "category": "Problem-Solving",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Stakeholders (the people affected by the problem) should be involved early and often, starting with the 'define the problem' phase."
+        },
+        {
+            "id": "127",
+            "text": "A 'growth mindset' is the belief that your skills are innate and cannot be changed.",
+            "type": "true-false",
+            "category": "Adaptability",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "That is a 'fixed mindset'. A 'growth mindset' is the belief that skills can be developed through effort, which is key to adaptability."
+        },
+        {
+            "id": "128",
+            "text": "A leader should be vulnerable and admit when they don't know something.",
+            "type": "true-false",
+            "category": "Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Vulnerability builds trust and fosters psychological safety, encouraging the team to also be honest about mistakes and gaps in knowledge."
+        },
+        {
+            "id": "129",
+            "text": "Correlation (two things happening at the same time) proves causation (one thing caused the other).",
+            "type": "true-false",
+            "category": "Critical Thinking",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is a classic logical fallacy. For example, ice cream sales and shark attacks both rise in the summer, but one does not cause the other (the 'cause' is the summer weather)."
+        },
+        {
+            "id": "130",
+            "text": "Procrastination is a form of poor time management.",
+            "type": "true-false",
+            "category": "Time Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Procrastination is the act of unnecessarily delaying tasks, often due to emotion (e.g., fear, boredom), and it's a major barrier to productivity."
+        },
+        {
+            "id": "131",
+            "text": "Criticizing ideas during a brainstorming session helps improve creativity.",
+            "type": "true-false",
+            "category": "Creativity",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The primary rule of brainstorming (divergent thinking) is to *defer judgment*. Criticism stops the flow of new ideas."
+        },
+        {
+            "id": "132",
+            "text": "People with high Emotional Intelligence are generally better at managing conflict.",
+            "type": "true-false",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "They can understand the other person's emotions (empathy), manage their own (self-regulation), and communicate effectively (relationship management)."
+        },
+        {
+            "id": "133",
+            "text": "Gossiping about co-workers is an acceptable part of the workday.",
+            "type": "true-false",
+            "category": "Work Ethic",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Gossiping is unprofessional, undermines trust, and harms team morale. It is a sign of a poor work ethic."
+        },
+        {
+            "id": "134",
+            "text": "Email is the best communication tool for an urgent, immediate crisis.",
+            "type": "true-false",
+            "category": "Communication",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Email is asynchronous. A crisis requires synchronous communication (like a phone call, instant message, or in-person alert) to ensure an immediate response."
+        },
+        {
+            "id": "135",
+            "text": "If you are 'hearing' someone, you are 'actively listening'.",
+            "type": "true-false",
+            "category": "Active Listening",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Hearing is a passive physical process. Listening is an active mental process of comprehension and engagement."
+        },
+        {
+            "id": "136",
+            "text": "The 'Storming' stage of team development is often characterized by conflict and disagreement.",
+            "type": "true-false",
+            "category": "Teamwork",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This is the 'Forming, Storming, Norming, Performing' model. The 'storming' phase is when personalities clash and roles are negotiated."
+        },
+        {
+            "id": "137",
+            "text": "Once a problem-solving process is established, it should never be changed.",
+            "type": "true-false",
+            "category": "Problem-Solving",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The process itself should be reviewed and improved. This is part of a 'continuous improvement' mindset."
+        },
+        {
+            "id": "1138",
+            "text": "Adaptability means saying 'yes' to every single request or change.",
+            "type": "true-false",
+            "category": "Adaptability",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Adaptability also involves critical thinking. You must assess the change, manage priorities, and sometimes push back or negotiate."
+        },
+        {
+            "id": "139",
+            "text": "A leader's primary role is to have all the answers.",
+            "type": "true-false",
+            "category": "Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A leader's primary role is often to ask the right *questions*, empower the team to find answers, and make a decision when needed."
+        },
+        {
+            "id": "140",
+            "text": "Your first impression or 'gut feeling' about a complex issue is always correct.",
+            "type": "true-false",
+            "category": "Critical Thinking",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This 'gut feeling' is often based on bias or incomplete information. Critical thinking requires you to challenge that first impression with data and logic."
+        },
+        {
+            "id": "141",
+            "text": "A 'time-box' is a fixed period of time (e.g., two weeks) to accomplish a set of tasks, often used in Agile.",
+            "type": "true-false",
+            "category": "Time Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This is a key concept in 'time-boxing', where the *time* is the fixed constraint, forcing prioritization of the *scope*."
+        },
+        {
+            "id": "142",
+            "text": "Changing your physical environment can help overcome a creative block.",
+            "type": "true-false",
+            "category": "Creativity",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Going for a walk, working in a different room, or even just tidying your desk can provide new sensory input and break a mental rut."
+        },
+        {
+            "id": "143",
+            "text": "Hiding your true feelings to 'be professional' is the best example of emotional intelligence.",
+            "type": "true-false",
+            "category": "Emotional Intelligence",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is 'suppression'. Emotional intelligence is about *recognizing* your feeling, *understanding* its cause, and *managing* it constructively."
+        },
+        {
+            "id": "144",
+            "text": "Taking initiative is a key part of a strong work ethic.",
+            "type": "true-false",
+            "category": "Work Ethic",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This means being proactive, seeking out solutions, and doing things without waiting to be told."
+        },
+        {
+            "id": "145",
+            "text": "Open-ended questions (which can't be answered 'yes' or 'no') are bad for communication.",
+            "type": "true-false",
+            "category": "Communication",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Open-ended questions (e.g., 'What are your thoughts on...') are essential for encouraging dialogue and gathering detailed information."
+        },
+        {
+            "id": "146",
+            "text": "If you are looking at the speaker, you are always actively listening.",
+            "type": "true-false",
+            "category": "Active Listening",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "You can be making eye contact while your mind is a million miles away. Listening is a cognitive activity, not just a physical one."
+        },
+        {
+            "id": "147",
+            "text": "A 'devil's advocate' is a team role that can help prevent groupthink.",
+            "type": "true-false",
+            "category": "Teamwork",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "By intentionally arguing against the group's consensus, this person forces the team to challenge its assumptions and strengthen its argument."
+        },
+        {
+            "id": "148",
+            "text": "Focusing on the 'symptoms' of a problem is a more effective strategy than finding the 'root cause'.",
+            "type": "true-false",
+            "category": "Problem-Solving",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Fixing symptoms is a temporary patch. The problem will keep recurring until the root cause is identified and fixed."
+        },
+        {
+            "id": "149",
+            "text": "The 'Laissez-faire' leadership style is the most effective style in almost all situations.",
+            "type": "true-false",
+            "category": "Leadership",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "No single style is 'best'. This hands-off style can be disastrous for a junior team that needs direction and training."
+        },
+        {
+            "id": "150",
+            "text": "A person's  'tone'  in an email is easy to interpret correctly.",
+            "type": "true-false",
+            "category": "Communication",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Tone is extremely difficult to convey in text and is the source of many miscommunications. A short, direct email can be read as 'angry' when it was just 'efficient'."
+        }
+    ]
+}

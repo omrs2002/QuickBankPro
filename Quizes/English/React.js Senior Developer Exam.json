@@ -1,0 +1,1200 @@
+{
+    "title": "اختبار React.js للمطورين المتقدمين",
+    "titleEn": "React.js Senior Developer Exam",
+    "description": "A comprehensive 100-question test for senior React.js developers, covering core concepts, hooks, state management, performance, and architecture.",
+    "categoryId": 21,
+    "isFree": true,
+    "lang": "en",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is the main purpose of the Virtual DOM?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "To directly manipulate the browser's DOM for faster updates.",
+                "To provide a lightweight in-memory representation of the DOM for efficient diffing and batching of UI updates.",
+                "To replace the need for HTML and CSS in web applications.",
+                "To manage global state across the application."
+            ],
+            "correctAnswer": "To provide a lightweight in-memory representation of the DOM for efficient diffing and batching of UI updates.",
+            "explanation": "The Virtual DOM is a programming concept where an ideal, or 'virtual', representation of a UI is kept in memory and synced with the 'real' DOM by a library such as ReactDOM. This process is called reconciliation."
+        },
+        {
+            "id": "002",
+            "text": "JSX is a mandatory syntax extension for writing React applications.",
+            "type": "true-false",
+            "category": "React Core & Concepts",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "JSX is syntactic sugar for the `React.createElement()` function. While it's the standard and recommended way, you can write React entirely with `React.createElement()` calls."
+        },
+        {
+            "id": "003",
+            "text": "In React, `___` are used to pass data from a parent component to a child component.",
+            "type": "fill-in-the-blank",
+            "category": "React Core & Concepts",
+            "answers": [],
+            "correctAnswer": "props",
+            "explanation": "Props (short for properties) are read-only objects used to pass data down the component tree, from parent to child."
+        },
+        {
+            "id": "004",
+            "text": "What is the primary purpose of using 'keys' when rendering lists of elements?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "To give each element a unique visual style.",
+                "To help React identify which items have changed, are added, or are removed, enabling efficient UI updates.",
+                "To make the elements focusable for accessibility.",
+                "To use as a unique 'id' attribute for CSS."
+            ],
+            "correctAnswer": "To help React identify which items have changed, are added, or are removed, enabling efficient UI updates.",
+            "explanation": "Keys help React's reconciliation algorithm to efficiently update the UI by providing a stable identity for each element in a list."
+        },
+        {
+            "id": "005",
+            "text": "In class components, `shouldComponentUpdate` can be used to prevent unnecessary re-renders.",
+            "type": "true-false",
+            "category": "React Core & Concepts",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "`shouldComponentUpdate(nextProps, nextState)` allows you to return `false` to tell React to skip re-rendering. This is a manual performance optimization."
+        },
+        {
+            "id": "006",
+            "text": "What is the React `children` prop?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "A special prop that defines the component's child state.",
+                "A prop that contains any content nested between the opening and closing tags of a component.",
+                "A required prop for all components that render other components.",
+                "A method for passing data from child to parent."
+            ],
+            "correctAnswer": "A prop that contains any content nested between the opening and closing tags of a component.",
+            "explanation": "Example: In `<MyComponent>Hello</MyComponent>`, the string 'Hello' is passed as `props.children` to `MyComponent`."
+        },
+        {
+            "id": "007",
+            "text": "The process React uses to update the UI by comparing the new virtual DOM with the old one is called ___.",
+            "type": "fill-in-the-blank",
+            "category": "React Core & Concepts",
+            "answers": [],
+            "correctAnswer": "reconciliation",
+            "explanation": "Reconciliation is the algorithm React uses to 'diff' two virtual DOM trees and determine the minimal changes needed to update the actual DOM."
+        },
+        {
+            "id": "008",
+            "text": "React Fragments (`<></>`) add an extra, unnecessary node to the DOM.",
+            "type": "true-false",
+            "category": "React Core & Concepts",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Fragments allow you to group a list of children without adding extra nodes to the DOM, which is useful for layout (e.g., in CSS Flexbox/Grid) or returning multiple elements."
+        },
+        {
+            "id": "009",
+            "text": "What is the correct way to update state in a class component to ensure you have the latest state value?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "`this.state.count = this.state.count + 1;`",
+                "`this.setState({ count: this.state.count + 1 });`",
+                "`this.setState((prevState) => ({ count: prevState.count + 1 }));`",
+                "`this.props.count = this.props.count + 1;`"
+            ],
+            "correctAnswer": "`this.setState((prevState) => ({ count: prevState.count + 1 }));`",
+            "explanation": "Because `setState` is asynchronous, you should use the updater function `(prevState, props) => ...` when the new state depends on the previous state."
+        },
+        {
+            "id": "010",
+            "text": "A `___` component is a component that is primarily focused on UI and does not manage its own state.",
+            "type": "fill-in-the-blank",
+            "category": "React Core & Concepts",
+            "answers": [],
+            "correctAnswer": "Presentational",
+            "explanation": "Also known as 'Dumb' or 'Stateless' components. They receive data via props and render UI. 'Container' components, in contrast, manage state and logic."
+        },
+        {
+            "id": "011",
+            "text": "What is the primary difference between `React.createElement` and JSX?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "`createElement` is faster than JSX.",
+                "JSX is syntactic sugar for `React.createElement`.",
+                "JSX can only be used in class components.",
+                "`createElement` can only be used in functional components."
+            ],
+            "correctAnswer": "JSX is syntactic sugar for `React.createElement`.",
+            "explanation": "Babel transpiles JSX code like `<h1>Hello</h1>` into `React.createElement('h1', null, 'Hello')`."
+        },
+        {
+            "id": "012",
+            "text": "React's reconciliation algorithm is O(n^3).",
+            "type": "true-false",
+            "category": "React Core & Concepts",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "A full diffing algorithm would be O(n^3). React uses heuristics (like comparing element types and using keys) to achieve an O(n) algorithm."
+        },
+        {
+            "id": "013",
+            "text": "What is a 'Synthetic Event' in React?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "An event that is manually created by the developer.",
+                "A cross-browser wrapper around the browser's native event system.",
+                "An event that only exists in the Virtual DOM.",
+                "A security vulnerability."
+            ],
+            "correctAnswer": "A cross-browser wrapper around the browser's native event system.",
+            "explanation": "React normalizes events so they have consistent properties and behavior across all browsers, using a system called SyntheticEvent."
+        },
+        {
+            "id": "014",
+            "text": "To handle events in React, you pass a function as the event handler rather than a ___.",
+            "type": "fill-in-the-blank",
+            "category": "React Core & Concepts",
+            "answers": [],
+            "correctAnswer": "string",
+            "explanation": "In HTML, you use a string: `<button onclick='myFunction()'>`. In React, you pass the function reference: `<button onClick={myFunction}>`."
+        },
+        {
+            "id": "015",
+            "text": "`setState()` calls are asynchronous and may be batched by React for performance.",
+            "type": "true-false",
+            "category": "React Core & Concepts",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "React may batch multiple `setState` calls into a single re-render to improve performance. This is why you can't rely on `this.state` immediately after calling `setState`."
+        },
+        {
+            "id": "016",
+            "text": "What is the purpose of `ReactDOM.createPortal`?",
+            "type": "multiple-choice",
+            "category": "React Core & Concepts",
+            "answers": [
+                "To create a new React root for a micro-frontend.",
+                "To render a component's children into a different DOM node outside of the parent component's DOM hierarchy.",
+                "To connect a component to the Redux store.",
+                "To create a two-way data binding."
+            ],
+            "correctAnswer": "To render a component's children into a different DOM node outside of the parent component's DOM hierarchy.",
+            "explanation": "Portals are commonly used for modals, dialogs, and tooltips that need to 'break out' of their container's styling (e.g., `overflow: hidden`)."
+        },
+        {
+            "id": "017",
+            "text": "In class components, `componentDidCatch` is used to implement ___.",
+            "type": "fill-in-the-blank",
+            "category": "React Core & Concepts",
+            "answers": [],
+            "correctAnswer": "Error Boundaries",
+            "explanation": "Error Boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI."
+        },
+        {
+            "id": "018",
+            "text": "Hooks must only be called at the top level of a React function, not inside loops, conditions, or nested functions.",
+            "type": "true-false",
+            "category": "Hooks",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This is one of the Rules of Hooks. React relies on a stable call order of hooks on every render to correctly manage their state."
+        },
+        {
+            "id": "019",
+            "text": "Which hook is used to perform side effects (like data fetching) in a functional component?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "`useState`",
+                "`useReducer`",
+                "`useEffect`",
+                "`useContext`"
+            ],
+            "correctAnswer": "`useEffect`",
+            "explanation": "`useEffect` runs after the component renders and is the correct place for side effects like API calls, subscriptions, or manually changing the DOM."
+        },
+        {
+            "id": "020",
+            "text": "The second argument to `useEffect` is the ___ array.",
+            "type": "fill-in-the-blank",
+            "category": "Hooks",
+            "answers": [],
+            "correctAnswer": "dependency",
+            "explanation": "The dependency array tells React when to re-run the effect. If the values in the array change between renders, the effect will run again."
+        },
+        {
+            "id": "021",
+            "text": "What happens if you provide an empty dependency array (`[]`) to `useEffect`?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "The effect runs on every render.",
+                "The effect runs only once when the component mounts, and the cleanup function runs when it unmounts.",
+                "The effect never runs.",
+                "It causes an infinite loop."
+            ],
+            "correctAnswer": "The effect runs only once when the component mounts, and the cleanup function runs when it unmounts.",
+            "explanation": "This mimics the behavior of `componentDidMount` and `componentWillUnmount` in class components."
+        },
+        {
+            "id": "022",
+            "text": "The state setter function from `useState` (e.g., `setState`) is guaranteed to have a stable identity and never changes.",
+            "type": "true-false",
+            "category": "Hooks",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "React guarantees that the setter function (like `setCount`) is stable, so it's safe to omit from dependency arrays in `useEffect` or `useCallback`."
+        },
+        {
+            "id": "023",
+            "text": "Which hook is a preferred alternative to `useState` for managing state logic that is complex or involves multiple sub-values?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "`useMemo`",
+                "`useReducer`",
+                "`useRef`",
+                "`useLayoutEffect`"
+            ],
+            "correctAnswer": "`useReducer`",
+            "explanation": "`useReducer` is often preferred for complex state logic as it allows you to consolidate state update logic in a pure 'reducer' function, similar to Redux."
+        },
+        {
+            "id": "024",
+            "text": "To access a mutable value that does not cause a re-render when changed, you should use the `___` hook.",
+            "type": "fill-in-the-blank",
+            "category": "Hooks",
+            "answers": [],
+            "correctAnswer": "useRef",
+            "explanation": "`useRef` returns a mutable ref object whose `.current` property can be changed without triggering a re-render. It's also used to access DOM nodes."
+        },
+        {
+            "id": "025",
+            "text": "What is the primary purpose of `useContext`?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "To manage complex local state.",
+                "To access a value from a React Context provider without using a consumer component.",
+                "To perform side effects.",
+                "To memoize expensive calculations."
+            ],
+            "correctAnswer": "To access a value from a React Context provider without using a consumer component.",
+            "explanation": "`useContext` makes it easy to subscribe to a context and consume its value, avoiding the need for `<MyContext.Consumer>` and render props."
+        },
+        {
+            "id": "026",
+            "text": "A component using `useContext` will re-render whenever the *value* provided by that Context's Provider changes.",
+            "type": "true-false",
+            "category": "Hooks",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This is a key behavior of `useContext`. Any component consuming the context is subscribed to it and will re-render when the value changes."
+        },
+        {
+            "id": "027",
+            "text": "`useCallback` returns a memoized ___.",
+            "type": "fill-in-the-blank",
+            "category": "Hooks",
+            "answers": [],
+            "correctAnswer": "function",
+            "explanation": "`useCallback` returns a memoized version of the callback function that only changes if one of its dependencies has changed."
+        },
+        {
+            "id": "028",
+            "text": "`useMemo` returns a memoized ___.",
+            "type": "fill-in-the-blank",
+            "category": "Hooks",
+            "answers": [],
+            "correctAnswer": "value",
+            "explanation": "`useMemo` returns the result of an expensive calculation (a memoized value) and only re-computes it if one of its dependencies has changed."
+        },
+        {
+            "id": "029",
+            "text": "When is `useMemo` an anti-pattern (i.e., should not be used)?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "When wrapping a very expensive calculation that runs on every render.",
+                "When ensuring referential equality for an object passed to a memoized child.",
+                "When wrapping a simple calculation that is very fast, as the hook itself has overhead.",
+                "When fetching data from an API."
+            ],
+            "correctAnswer": "When wrapping a simple calculation that is very fast, as the hook itself has overhead.",
+            "explanation": "Memoization isn't free. The overhead of `useMemo` can be greater than the cost of a simple calculation, making performance worse."
+        },
+        {
+            "id": "030",
+            "text": "Changing the `.current` property of a `useRef` object will trigger a component re-render.",
+            "type": "true-false",
+            "category": "Hooks",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Mutating the `.current` property does *not* cause a re-render. This is its main difference from state."
+        },
+        {
+            "id": "031",
+            "text": "What is a 'custom hook' in React?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "A feature only available in React Pro.",
+                "A JavaScript function whose name starts with 'use' and that calls other hooks.",
+                "A component that is written in vanilla JavaScript instead of JSX.",
+                "A built-in hook that you can customize, like `useState`."
+            ],
+            "correctAnswer": "A JavaScript function whose name starts with 'use' and that calls other hooks.",
+            "explanation": "Custom hooks are a convention for reusing stateful logic (like `useFetch` or `useWindowSize`) between components."
+        },
+        {
+            "id": "032",
+            "text": "You can use `useState` and `useEffect` inside a custom hook.",
+            "type": "true-false",
+            "category": "Hooks",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The entire purpose of custom hooks is to encapsulate stateful logic by calling built-in hooks like `useState` and `useEffect`."
+        },
+        {
+            "id": "033",
+            "text": "What is the main difference between `useEffect` and `useLayoutEffect`?",
+            "type": "multiple-choice",
+            "category": "Hooks",
+            "answers": [
+                "`useLayoutEffect` is for class components and `useEffect` is for functional components.",
+                "`useEffect` runs asynchronously after the render is painted, while `useLayoutEffect` runs synchronously *before* the render is painted.",
+                "`useLayoutEffect` does not require a dependency array.",
+                "`useEffect` can only be used for data fetching."
+            ],
+            "correctAnswer": "`useEffect` runs asynchronously after the render is painted, while `useLayoutEffect` runs synchronously *before* the render is painted.",
+            "explanation": "`useLayoutEffect` fires before the browser paints the screen. This is useful for DOM measurements or mutations that need to be seen immediately, but it can block rendering."
+        },
+        {
+            "id": "034",
+            "text": "The `___` hook is used to customize the instance value that is exposed to parent components when using `ref`.",
+            "type": "fill-in-the-blank",
+            "category": "Hooks",
+            "answers": [],
+            "correctAnswer": "useImperativeHandle",
+            "explanation": "`useImperativeHandle` is used with `forwardRef` to expose a specific, limited API to the parent instead of the full component instance or DOM node."
+        },
+        {
+            "id": "035",
+            "text": "What is 'prop drilling'?",
+            "type": "multiple-choice",
+            "category": "State Management",
+            "answers": [
+                "A performance optimization technique.",
+                "The process of passing props down through multiple layers of nested components that do not need the props themselves.",
+                "A security vulnerability where props are injected into a component.",
+                "The process of using `useRef` to 'drill' into a DOM node."
+            ],
+            "correctAnswer": "The process of passing props down through multiple layers of nested components that do not need the props themselves.",
+            "explanation": "Prop drilling can make code hard to maintain. It is often solved using state management (like Context or Redux) or component composition."
+        },
+        {
+            "id": "036",
+            "text": "The Context API is a perfect replacement for Redux in all large-scale applications.",
+            "type": "true-false",
+            "category": "State Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Context is great for passing data deep down the tree, but it's not optimized for high-frequency updates. Redux provides more powerful tools for state management (middleware, devtools, selectors) at the cost of more boilerplate."
+        },
+        {
+            "id": "037",
+            "text": "In Redux, the only way to change the state is by dispatching an ___.",
+            "type": "fill-in-the-blank",
+            "category": "State Management",
+            "answers": [],
+            "correctAnswer": "action",
+            "explanation": "Redux follows a strict unidirectional data flow. UI events dispatch actions, reducers catch actions and return new state, and the UI re-renders."
+        },
+        {
+            "id": "038",
+            "text": "What is a 'reducer' in the context of Redux?",
+            "type": "multiple-choice",
+            "category": "State Management",
+            "answers": [
+                "A component that reduces the bundle size.",
+                "A hook for managing state.",
+                "A pure function that takes the previous state and an action, and returns the next state.",
+                "A middleware for handling API calls."
+            ],
+            "correctAnswer": "A pure function that takes the previous state and an action, and returns the next state.",
+            "explanation": "Reducers must be pure: they cannot modify the original state (must be immutable), have side effects, or call non-pure functions."
+        },
+        {
+            "id": "039",
+            "text": "Redux reducers are allowed to have side effects, like API calls.",
+            "type": "true-false",
+            "category": "State Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Reducers must be pure functions. Side effects like API calls must be handled in middleware (like Redux Thunk or Saga) or in the component `useEffect`."
+        },
+        {
+            "id": "040",
+            "text": "In Redux, asynchronous logic (like API calls) is typically handled using ___.",
+            "type": "fill-in-the-blank",
+            "category": "State Management",
+            "answers": [],
+            "correctAnswer": "middleware",
+            "explanation": "Middleware, such as Redux Thunk or Redux Saga, sits between the action dispatch and the reducer to allow for asynchronous logic and other side effects."
+        },
+        {
+            "id": "041",
+            "text": "What is the primary purpose of `Redux Toolkit`?",
+            "type": "multiple-choice",
+            "category": "State Management",
+            "answers": [
+                "To replace Redux with a new state management library.",
+                "To add a new UI component library for Redux.",
+                "To simplify Redux development by abstracting setup, reducing boilerplate, and including common tools.",
+                "To connect React components to the Redux store."
+            ],
+            "correctAnswer": "To simplify Redux development by abstracting setup, reducing boilerplate, and including common tools.",
+            "explanation": "Redux Toolkit is the official, opinionated way to write Redux logic. It includes `createSlice`, `createAsyncThunk`, and Immer for immutable updates."
+        },
+        {
+            "id": "042",
+            "text": "What problem does `useReducer` solve compared to `useState`?",
+            "type": "multiple-choice",
+            "category": "State Management",
+            "answers": [
+                "It allows you to manage state in class components.",
+                "It makes state updates run faster.",
+                "It consolidates complex state update logic and makes it easier to manage state with multiple sub-values.",
+                "It automatically fetches data from an API."
+            ],
+            "correctAnswer": "It consolidates complex state update logic and makes it easier to manage state with multiple sub-values.",
+            "explanation": "When state logic becomes complex (e.g., a form with many fields), `useReducer` is often cleaner than multiple `useState` calls."
+        },
+        {
+            "id": "043",
+            "text": "Using Context API for high-frequency updates (like mouse position) is a recommended practice.",
+            "type": "true-false",
+            "category": "State Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Context is not optimized for this. Every component consuming the context will re-render on every single update, which can cause severe performance issues."
+        },
+        {
+            "id": "044",
+            "text": "A Redux `___` is a function that extracts a piece of data from the Redux store state.",
+            "type": "fill-in-the-blank",
+            "category": "State Management",
+            "answers": [],
+            "correctAnswer": "selector",
+            "explanation": "Selectors (like those created with `reselect`) are used to read from the store state and can memoize calculations to prevent unnecessary re-renders."
+        },
+        {
+            "id": "045",
+            "text": "What is a major advantage of state management libraries like Zustand or Jotai over Redux?",
+            "type": "multiple-choice",
+            "category": "State Management",
+            "answers": [
+                "They are the only way to handle asynchronous state.",
+                "They require significantly less boilerplate and setup.",
+                "They are maintained directly by the React team.",
+                "They are older and more stable than Redux."
+            ],
+            "correctAnswer": "They require significantly less boilerplate and setup.",
+            "explanation": "Zustand, Jotai, and similar libraries are known for their simplicity and minimal API surface, making them easier to adopt than Redux."
+        },
+        {
+            "id": "046",
+            "text": "In Redux, the state tree must be immutable.",
+            "type": "true-false",
+            "category": "State Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Reducers must never mutate the original state. They must return a new state object. This is crucial for time-travel debugging and ensuring React re-renders correctly."
+        },
+        {
+            "id": "047",
+            "text": "The `___` hook from `react-redux` is used to read data from the Redux store.",
+            "type": "fill-in-the-blank",
+            "category": "State Management",
+            "answers": [],
+            "correctAnswer": "useSelector",
+            "explanation": "`useSelector` subscribes the component to the Redux store and re-renders it when the selected state changes."
+        },
+        {
+            "id": "048",
+            "text": "The `___` hook from `react-redux` is used to get the store's dispatch function.",
+            "type": "fill-in-the-blank",
+            "category": "State Management",
+            "answers": [],
+            "correctAnswer": "useDispatch",
+            "explanation": "You call `const dispatch = useDispatch()` to get the dispatch function, which you can then use to dispatch actions (e.g., `dispatch(myAction())`)."
+        },
+        {
+            "id": "049",
+            "text": "What is 'atomic state management,' as seen in libraries like Jotai or Recoil?",
+            "type": "multiple-choice",
+            "category": "State Management",
+            "answers": [
+                "A single, massive object that holds all state.",
+                "Breaking state down into very small, independent pieces ('atoms') that components can subscribe to individually.",
+                "A state management pattern that only works in React Native.",
+                "Using `useReducer` for every piece of state."
+            ],
+            "correctAnswer": "Breaking state down into very small, independent pieces ('atoms') that components can subscribe to individually.",
+            "explanation": "This approach avoids the problem of massive re-renders seen with Context, as components only subscribe to the specific 'atoms' of state they need."
+        },
+        {
+            "id": "050",
+            "text": "`useState` is a global state management solution.",
+            "type": "true-false",
+            "category": "State Management",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "`useState` (and `useReducer`) are hooks for managing *local* component state. The state is not shared with other components unless passed down as props."
+        },
+        {
+            "id": "051",
+            "text": "What is the purpose of `React.memo`?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "To memoize the value of an expensive calculation.",
+                "To cache data fetched from an API.",
+                "To prevent a functional component from re-rendering if its props have not changed.",
+                "To store a value that persists across renders without causing a re-render."
+            ],
+            "correctAnswer": "To prevent a functional component from re-rendering if its props have not changed.",
+            "explanation": "`React.memo` is a higher-order component that performs a shallow comparison of props. It is the functional component equivalent of `PureComponent`."
+        },
+        {
+            "id": "052",
+            "text": "`React.memo` performs a deep comparison of props by default.",
+            "type": "true-false",
+            "category": "Performance Optimization",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "By default, `React.memo` only performs a shallow comparison of props. You can provide a custom comparison function as the second argument for deep comparison."
+        },
+        {
+            "id": "053",
+            "text": "You can provide a custom comparison function as the second argument to `___` to control when the component re-renders.",
+            "type": "fill-in-the-blank",
+            "category": "Performance Optimization",
+            "answers": [],
+            "correctAnswer": "React.memo",
+            "explanation": "`React.memo(MyComponent, arePropsEqual)` allows you to define your own logic for prop comparison."
+        },
+        {
+            "id": "054",
+            "text": "When is `useCallback` most useful?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "When defining any function in React.",
+                "When passing a callback function as a prop to a child component that is wrapped in `React.memo`.",
+                "To replace `useEffect` for data fetching.",
+                "To store a DOM reference."
+            ],
+            "correctAnswer": "When passing a callback function as a prop to a child component that is wrapped in `React.memo`.",
+            "explanation": "It provides a stable function reference, preventing the memoized child from re-rendering unnecessarily just because the parent created a new function instance."
+        },
+        {
+            "id": "055",
+            "text": "Using `useMemo` on every single function and value is a good performance strategy.",
+            "type": "true-false",
+            "category": "Performance Optimization",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is an anti-pattern. Memoization has its own overhead (memory and computation). It should only be used for genuinely expensive calculations or to preserve referential integrity."
+        },
+        {
+            "id": "056",
+            "text": "What does 'code splitting' mean in a React context?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "Splitting your code into multiple Git branches.",
+                "Breaking your JavaScript bundle into smaller chunks that can be loaded on demand (e.g., per route).",
+                "Using multiple CSS files instead of one.",
+                "Writing code in multiple files."
+            ],
+            "correctAnswer": "Breaking your JavaScript bundle into smaller chunks that can be loaded on demand (e.g., per route).",
+            "explanation": "Code splitting improves initial load time by only sending the code the user needs for the current page, rather than the entire application."
+        },
+        {
+            "id": "057",
+            "text": "React's built-in way to handle component-based code splitting is using `React.lazy` and ___.",
+            "type": "fill-in-the-blank",
+            "category": "Performance Optimization",
+            "answers": [],
+            "correctAnswer": "Suspense",
+            "explanation": "`React.lazy` lets you render a dynamic import as a regular component, and `Suspense` lets you show a loading fallback while the lazy component is being loaded."
+        },
+        {
+            "id": "058",
+            "text": "`React.lazy` and `Suspense` are not yet supported for server-side rendering.",
+            "type": "true-false",
+            "category": "Performance Optimization",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "As of the current traditional React version (v18), `React.lazy` is designed for client-side rendering. SSR frameworks like Next.js have their own solutions (`next/dynamic`)."
+        },
+        {
+            "id": "059",
+            "text": "What tool can you use to analyze why a React component re-rendered?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "The React DevTools Profiler",
+                "The browser's Network tab",
+                "ESLint",
+                "The Redux DevTools"
+            ],
+            "correctAnswer": "The React DevTools Profiler",
+            "explanation": "The Profiler allows you to record interactions, view a flame chart of renders, and see exactly which props or hooks caused a component to re-render."
+        },
+        {
+            "id": "060",
+            "text": "'Tree shaking' is a process used by modern ___ (like Webpack or Vite) to remove unused (dead) code from the final bundle.",
+            "type": "fill-in-the-blank",
+            "category": "Performance Optimization",
+            "answers": [],
+            "correctAnswer": "bundlers",
+            "explanation": "This is crucial for performance, as it reduces the size of the JavaScript files the user has to download."
+        },
+        {
+            "id": "061",
+            "text": "What is 'hydration' in the context of Server-Side Rendering (SSR)?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "The process of cleaning up memory leaks.",
+                "The process of fetching data on the server.",
+                "The process of attaching React event listeners to the static HTML sent from the server, making it interactive.",
+                "A CSS framework for React."
+            ],
+            "correctAnswer": "The process of attaching React event listeners to the static HTML sent from the server, making it interactive.",
+            "explanation": "SSR sends non-interactive HTML. Hydration is the client-side JavaScript process that 'wakes up' the static page and makes it a fully interactive React app."
+        },
+        {
+            "id": "062",
+            "text": "'List virtualization' is a technique where you render all items in a long list, but use CSS to hide the ones not in view.",
+            "type": "true-false",
+            "category": "Performance Optimization",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is incorrect. List virtualization (or 'windowing') is the technique of rendering *only* the small subset of items that are currently visible in the viewport, dramatically improving performance for long lists."
+        },
+        {
+            "id": "063",
+            "text": "Libraries like `react-window` or `react-virtualized` are used to implement ___ for long lists.",
+            "type": "fill-in-the-blank",
+            "category": "Performance Optimization",
+            "answers": [],
+            "correctAnswer": "list virtualization",
+            "explanation": "These libraries provide components that render only the visible items in a list, preventing performance bottlenecks from thousands of DOM nodes."
+        },
+        {
+            "id": "064",
+            "text": "How can you prevent a functional component from re-rendering if its props haven't changed?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "Wrap it in `React.memo`",
+                "Wrap it in `useEffect`",
+                "Use `useState` instead of props",
+                "Use `React.PureComponent`"
+            ],
+            "correctAnswer": "Wrap it in `React.memo`",
+            "explanation": "`React.memo` is the standard way to memoize a functional component. `React.PureComponent` is the equivalent for class components."
+        },
+        {
+            "id": "065",
+            "text": "Passing an inline function (e.g., `onClick={() => {}}`) to a memoized child component will break the memoization.",
+            "type": "true-false",
+            "category": "Performance Optimization",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "A new function instance is created on every render, so the prop `onClick` is 'different' every time. This is why we use `useCallback` to provide a stable function reference."
+        },
+        {
+            "id": "066",
+            "text": "The `___` tab in React DevTools helps visualize the component tree and measure its render times.",
+            "type": "fill-in-the-blank",
+            "category": "Performance Optimization",
+            "answers": [],
+            "correctAnswer": "Profiler",
+            "explanation": "The Profiler is the go-to tool for diagnosing performance issues and understanding why components re-render."
+        },
+        {
+            "id": "067",
+            "text": "What is a common strategy for optimizing the rendering of very large data tables?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "Using `useReducer` for state.",
+                "Pagination, infinite scrolling, or virtualization.",
+                "Fetching all data in a single `useEffect`.",
+                "Storing the entire table in a single `useRef`."
+            ],
+            "correctAnswer": "Pagination, infinite scrolling, or virtualization.",
+            "explanation": "All three techniques (pagination, infinite scroll, virtualization) avoid rendering thousands of rows at once, which would kill browser performance."
+        },
+        {
+            "id": "068",
+            "text": "What is the primary difference between SSR (Server-Side Rendering) and SSG (Static Site Generation)?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "SSR is for blogs, SSG is for e-commerce.",
+                "SSR generates the HTML on the server *at build time*, while SSG generates it *on each request*.",
+                "SSR generates the HTML on the server *on each request*, while SSG generates it *at build time*.",
+                "There is no difference; they are the same."
+            ],
+            "correctAnswer": "SSR generates the HTML on the server *on each request*, while SSG generates it *at build time*.",
+            "explanation": "SSG is faster as the HTML is pre-built and served from a CDN. SSR is more flexible as the content can be dynamic and personalized for each request."
+        },
+        {
+            "id": "069",
+            "text": "In Next.js, `getStaticProps` runs on the server at build time.",
+            "type": "true-false",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "This function is the core of SSG (Static Site Generation). It fetches data and pre-renders the page into static HTML when you run `next build`."
+        },
+        {
+            "id": "070",
+            "text": "In the Next.js Pages Router, `___` runs on the server for every incoming request.",
+            "type": "fill-in-the-blank",
+            "category": "Ecosystem & Tooling",
+            "answers": [],
+            "correctAnswer": "getServerSideProps",
+            "explanation": "This function is the core of SSR (Server-Side Rendering). It ensures the page always has fresh data for each user."
+        },
+        {
+            "id": "071",
+            "text": "What is Incremental Static Regeneration (ISR) in Next.js?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "A way to generate static pages on the client-side.",
+                "A feature that allows you to re-build static pages *after* build time, on a timed interval, without rebuilding the entire site.",
+                "A new name for Server-Side Rendering.",
+                "A database migration tool."
+            ],
+            "correctAnswer": "A feature that allows you to re-build static pages *after* build time, on a timed interval, without rebuilding the entire site.",
+            "explanation": "ISR provides the speed of SSG with the flexibility of SSR by allowing pages to be regenerated in the background (e.g., `revalidate: 60`)."
+        },
+        {
+            "id": "072",
+            "text": "The Next.js App Router (since v13) uses React Server Components (RSCs) by default.",
+            "type": "true-false",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "In the App Router, components are Server Components by default, meaning they render on the server and send no JavaScript to the client. You must opt-in to client interactivity with `'use client'`."
+        },
+        {
+            "id": "073",
+            "text": "In TypeScript, you define the shape of props for a React component using an `___` or `type` alias.",
+            "type": "fill-in-the-blank",
+            "category": "Ecosystem & Tooling",
+            "answers": [],
+            "correctAnswer": "interface",
+            "explanation": "Example: `interface MyComponentProps { id: number; }` is a common way to type-check the props object."
+        },
+        {
+            "id": "074",
+            "text": "What is the main benefit of using TypeScript with React?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "It makes your application run faster in the browser.",
+                "It provides static type checking, catching bugs at build time before they reach production.",
+                "It automatically writes unit tests for your components.",
+                "It replaces the need for CSS."
+            ],
+            "correctAnswer": "It provides static type checking, catching bugs at build time before they reach production.",
+            "explanation": "TypeScript helps prevent common errors like passing the wrong prop types, typos in object keys, and `undefined` errors."
+        },
+        {
+            "id": "075",
+            "text": "The `prop-types` library is a modern, more powerful replacement for TypeScript.",
+            "type": "true-false",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "It's the other way around. `prop-types` was the original way to get runtime type checking in React. TypeScript provides *static* (build-time) type checking, which is far more powerful."
+        },
+        {
+            "id": "076",
+            "text": "The recommended library for testing React components is `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Ecosystem & Tooling",
+            "answers": [],
+            "correctAnswer": "React Testing Library",
+            "explanation": "React Testing Library (RTL) has become the de-facto standard, replacing tools like Enzyme, because it encourages testing from a user's perspective."
+        },
+        {
+            "id": "077",
+            "text": "What is the core philosophy of React Testing Library (RTL)?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "Test components by checking their internal state and prop values.",
+                "Test components by their implementation details, like method names.",
+                "Test components based on how a user interacts with them, querying by accessibility roles, text, and labels.",
+                "Only write end-to-end tests using tools like Cypress."
+            ],
+            "correctAnswer": "Test components based on how a user interacts with them, querying by accessibility roles, text, and labels.",
+            "explanation": "RTL's motto is: 'The more your tests resemble the way your software is used, the more confidence they can give you.'"
+        },
+        {
+            "id": "078",
+            "text": "`Jest` is a JavaScript testing framework that provides a test runner, assertion library, and mocking capabilities.",
+            "type": "true-false",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Jest is almost always used alongside React Testing Library to provide the underlying testing infrastructure."
+        },
+        {
+            "id": "079",
+            "text": "What is the primary advantage of using `Vite` as a build tool over traditional Webpack-based `Create React App`?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "Vite has better support for class components.",
+                "Vite uses native ES modules (ESM) for an extremely fast development server and Hot Module Replacement (HMR).",
+                "Vite does not require a `package.json` file.",
+                "Vite only works with TypeScript."
+            ],
+            "correctAnswer": "Vite uses native ES modules (ESM) for an extremely fast development server and Hot Module Replacement (HMR).",
+            "explanation": "Vite's dev server startup is near-instant, as it doesn't need to bundle the entire application before starting, unlike Webpack."
+        },
+        {
+            "id": "080",
+            "text": "A popular CSS-in-JS library that uses tagged template literals is `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Ecosystem & Tooling",
+            "answers": [],
+            "correctAnswer": "styled-components",
+            "explanation": "`styled-components` (and Emotion) allows you to write actual CSS in your JavaScript files using template literals: `const Title = styled.h1`color: red;` "
+        },
+        {
+            "id": "081",
+            "text": "What is the main benefit of using a utility-first CSS framework like Tailwind CSS?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "It provides pre-built components like buttons and modals.",
+                "It allows you to build custom designs directly in your HTML/JSX without writing custom CSS files.",
+                "It is the only way to make React applications responsive.",
+                "It automatically manages your React state."
+            ],
+            "correctAnswer": "It allows you to build custom designs directly in your HTML/JSX without writing custom CSS files.",
+            "explanation": "Tailwind provides low-level utility classes (e.g., `text-red-500`, `flex`, `md:hidden`) so you don't have to 'name' things in CSS or switch contexts."
+        },
+        {
+            "id": "082",
+            "text": "`React Query` (now TanStack Query) and `SWR` are libraries for managing global UI state (like theme).",
+            "type": "true-false",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "They are libraries for managing *server state* (API data). They handle caching, re-fetching, and synchronization of data, not client-side UI state."
+        },
+        {
+            "id": "083",
+            "text": "`___` is a popular linter that helps enforce code quality and style in React projects.",
+            "type": "fill-in-the-blank",
+            "category": "Ecosystem & Tooling",
+            "answers": [],
+            "correctAnswer": "ESLint",
+            "explanation": "ESLint, often with plugins like `eslint-plugin-react` and `eslint-plugin-react-hooks`, is essential for catching bugs and enforcing the Rules of Hooks."
+        },
+        {
+            "id": "084",
+            "text": "What is the purpose of `<React.StrictMode>`?",
+            "type": "multiple-choice",
+            "category": "Ecosystem & Tooling",
+            "answers": [
+                "It prevents all components from re-rendering.",
+                "It enables security features in production.",
+                "It's a development tool that highlights potential problems by intentionally double-invoking functions (like render and `useEffect`).",
+                "It ensures the app only runs in modern browsers."
+            ],
+            "correctAnswer": "It's a development tool that highlights potential problems by intentionally double-invoking functions (like render and `useEffect`).",
+            "explanation": "`StrictMode` helps you find side effects in the render phase, identify deprecated APIs, and ensure effects are resilient to being mounted/unmounted."
+        },
+        {
+            "id": "085",
+            "text": "What is a 'Higher-Order Component' (HOC)?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "A component that is visually higher on the page.",
+                "A hook that returns a component.",
+                "A function that takes a component as an argument and returns a new component, usually wrapping the original with new props or logic.",
+                "A component that can only be used once."
+            ],
+            "correctAnswer": "A function that takes a component as an argument and returns a new component, usually wrapping the original with new props or logic.",
+            "explanation": "HOCs are a pattern for reusing component logic (e.g., `withRouter(MyComponent)` or `connect(mapStateToProps)(MyComponent)` in old Redux)."
+        },
+        {
+            "id": "086",
+            "text": "Custom Hooks are the modern replacement for the HOC pattern in *all* possible use cases.",
+            "type": "true-false",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "While custom hooks replace many HOC use cases (like sharing logic), HOCs are still useful for tasks that involve *rendering* or modifying the component tree (e.g., adding a surrounding provider or layout)."
+        },
+        {
+            "id": "087",
+            "text": "The `___` pattern involves passing a function as a prop to a component, which the component then calls to render content.",
+            "type": "fill-in-the-blank",
+            "category": "Architecture & Best Practices",
+            "answers": [],
+            "correctAnswer": "Render Props",
+            "explanation": "Example: `<MouseTracker render={(mousePosition) => <p>The mouse is at {mousePosition.x}</p>} />`. This pattern is less common now, as custom hooks can often achieve the same."
+        },
+        {
+            "id": "088",
+            "text": "What is the purpose of 'Error Boundaries'?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To catch JavaScript errors in any part of the app, including event handlers and async code.",
+                "To catch rendering errors in the component tree, log them, and display a fallback UI.",
+                "To validate user input in forms.",
+                "A TypeScript feature for defining error types."
+            ],
+            "correctAnswer": "To catch rendering errors in the component tree, log them, and display a fallback UI.",
+            "explanation": "Error boundaries are crucial for preventing a single component crash from bringing down the entire application."
+        },
+        {
+            "id": "089",
+            "text": "Error boundaries can catch errors inside event handlers (like `onClick`).",
+            "type": "true-false",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Error boundaries only catch errors during rendering, in lifecycle methods, and in constructors. You must use `try...catch` inside event handlers."
+        },
+        {
+            "id": "090",
+            "text": "To implement an error boundary, you must use a class component with the `___` lifecycle method.",
+            "type": "fill-in-the-blank",
+            "category": "Architecture & Best Practices",
+            "answers": [],
+            "correctAnswer": "componentDidCatch",
+            "explanation": "As of React 18, there is no hook equivalent for Error Boundaries. You must use a class component with `componentDidCatch` or `getDerivedStateFromError`."
+        },
+        {
+            "id": "091",
+            "text": "What is 'Component Composition'?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "A design pattern where components are built from smaller, reusable components (like building blocks).",
+                "A tool for combining multiple components into a single file.",
+                "A hook for managing component state.",
+                "A class component lifecycle method."
+            ],
+            "correctAnswer": "A design pattern where components are built from smaller, reusable components (like building blocks).",
+            "explanation": "React's design (using props and `children`) strongly favors composition over inheritance for code reuse and flexibility."
+        },
+        {
+            "id": "092",
+            "text": "It is a best practice to keep components as large and all-encompassing as possible to reduce the number of files.",
+            "type": "true-false",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is the opposite of best practice. Components should be small and follow the Single Responsibility Principle (SRP), making them easier to test, reuse, and maintain."
+        },
+        {
+            "id": "093",
+            "text": "What is a 'controlled component' in React forms?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "A form element whose value is controlled by the DOM.",
+                "A form element (like `<input>`) whose value is controlled by React state.",
+                "A component that cannot be changed.",
+                "A component that uses `useRef` to manage its value."
+            ],
+            "correctAnswer": "A form element (like `<input>`) whose value is controlled by React state.",
+            "explanation": "The value is set by the `value` prop, and changes are handled by the `onChange` handler, which updates the state. This makes React the 'single source of truth'."
+        },
+        {
+            "id": "094",
+            "text": "An `___` component is a form element (like `<input>`) whose value is managed by the DOM itself.",
+            "type": "fill-in-the-blank",
+            "category": "Architecture & Best Practices",
+            "answers": [],
+            "correctAnswer": "uncontrolled",
+            "explanation": "In an uncontrolled component, you typically use a `ref` to get the form value from the DOM when needed, rather than managing it in state on every keystroke."
+        },
+        {
+            "id": "095",
+            "text": "Using the array `index` as a `key` for a list (`<li key={index}>`) is always safe and recommended.",
+            "type": "true-false",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "This is an anti-pattern if the list can be re-ordered, filtered, or have items added/removed from the beginning. It can lead to incorrect state and UI bugs. You should always use a stable, unique ID."
+        },
+        {
+            "id": "096",
+            "text": "What does 'lifting state up' mean in React?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "Moving state from a component to a global Redux store.",
+                "Moving state from a child component to its nearest common ancestor component so it can be shared.",
+                "Using `useState` instead of `useReducer`.",
+                "Storing state in `localStorage`."
+            ],
+            "correctAnswer": "Moving state from a child component to its nearest common ancestor component so it can be shared.",
+            "explanation": "When multiple components need to share or react to the same state, you 'lift' that state to their closest common parent and pass it down via props."
+        },
+        {
+            "id": "097",
+            "text": "`a11y` is a numonym (a word formed from numbers) for `___`.",
+            "type": "fill-in-the-blank",
+            "category": "Architecture & Best Practices",
+            "answers": [],
+            "correctAnswer": "accessibility",
+            "explanation": "It stands for 'a' + 11 letters + 'y'. Accessibility is the practice of making web applications usable by people with disabilities."
+        },
+        {
+            "id": "098",
+            "text": "How can you make a non-interactive element like a `<div>` focusable and readable by a screen reader as a button?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "Add `onClick={...}`.",
+                "Add `tabIndex='0'` and `role='button'`. ",
+                "Add `className='button'`.",
+                "It is impossible; you must use a `<button>` tag."
+            ],
+            "correctAnswer": "Add `tabIndex='0'` and `role='button'`. ",
+            "explanation": "`role='button'` tells the screen reader it's a button. `tabIndex='0'` makes it focusable via the keyboard. (Though using a real `<button>` is almost always better)."
+        },
+        {
+            "id": "099",
+            "text": "Using the `dangerouslySetInnerHTML` prop is a safe and recommended way to render HTML from an API.",
+            "type": "true-false",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "It is named 'dangerously' for a reason. It exposes your application to Cross-Site Scripting (XSS) attacks if the HTML is not properly sanitized on the server first."
+        },
+        {
+            "id": "100",
+            "text": "To prevent Cross-Site Scripting (XSS), React `___` string variables by default before rendering them.",
+            "type": "fill-in-the-blank",
+            "category": "Architecture & Best Practices",
+            "answers": [],
+            "correctAnswer": "escapes",
+            "explanation": "When you render `{myVar}`, React treats it as text, not HTML. Any `<` or `>` characters are converted to `&lt;` and `&gt;`, neutralizing potential XSS attacks."
+        }
+    ]
+}

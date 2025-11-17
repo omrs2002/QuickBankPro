@@ -1,0 +1,35 @@
+{
+    "title": "AZ-900 exam",
+    "categoryId": 1,
+    "isFree": false,
+    "titleEn": "Microservices AZ-900 exam",
+    "description": "A comprehensive 100-question AZ-900 exam",
+    "questions": [
+        {
+            "id": "001",
+            "text": "What is the primary characteristic of Microservices Architecture?",
+            "type": "multiple-choice",
+            "category": "Microservices Architecture",
+            "answers": [
+                "Building applications as a suite of small, independent services",
+                "Using micro-sized databases for each service",
+                "Developing only small-scale applications",
+                "Writing minimal code for each function"
+            ],
+            "correctAnswer": "Building applications as a suite of small, independent services",
+            "explanation": "Microservices architecture structures an application as a collection of loosely coupled, independently deployable services that communicate through APIs."
+        },
+        {
+            "id": "002",
+            "text": "The Singleton pattern ensures a class has only one instance and provides a global point of access to it.",
+            "type": "true-false",
+            "category": "Software Design Patterns",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The Singleton pattern restricts instantiation of a class to one single instance and provides global access to that instance."
+        }
+    ]
+}

@@ -1,16 +1,16 @@
 {
-    "title": "AZ-900 Exam - Microsoft Azure Fundamentals",
-    "categoryId": 1,
+    "title": "KIMI AZ-900 Exam - Microsoft Azure Fundamentals",
+    "titleEn": "KIMI Microsoft Azure Fundamentals AZ-900 Certification Exam",
+    "categoryId": 11,
     "isFree": false,
-	"lang": "ar",
-    "titleEn": "Microsoft Azure Fundamentals AZ-900 Certification Exam",
-    "description": "A comprehensive 100-question practice exam simulating the AZ-900 Microsoft Azure Fundamentals certification, covering Cloud Concepts, Azure Architecture & Services, and Azure Management & Governance.",
+    "lang": "en",
+    "description": "A comprehensive 100-question practice exam simulating the AZ-900 Microsoft Azure Fundamentals certification, covering key domains with consolidated categories. Created by KIMI",
     "questions": [
         {
             "id": "001",
             "text": "What is the primary characteristic of cloud computing?",
             "type": "multiple-choice",
-            "category": "Cloud Computing Fundamentals",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "Ownership of physical hardware",
                 "Delivery of computing services over the internet",
@@ -24,7 +24,7 @@
             "id": "002",
             "text": "In the shared responsibility model, which responsibility always remains with the customer regardless of service type?",
             "type": "multiple-choice",
-            "category": "Shared Responsibility Model",
+            "category": "Security & Identity",
             "answers": [
                 "Physical datacenter security",
                 "Network connectivity",
@@ -38,7 +38,7 @@
             "id": "003",
             "text": "Which cloud model provides the most flexibility by combining public and private clouds?",
             "type": "multiple-choice",
-            "category": "Cloud Deployment Models",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "Public cloud",
                 "Private cloud",
@@ -52,7 +52,7 @@
             "id": "004",
             "text": "Which cloud service type places the most responsibility on the cloud provider?",
             "type": "multiple-choice",
-            "category": "Cloud Service Models",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "Infrastructure as a Service (IaaS)",
                 "Platform as a Service (PaaS)",
@@ -66,7 +66,7 @@
             "id": "005",
             "text": "What is the primary financial benefit of the cloud consumption-based model?",
             "type": "multiple-choice",
-            "category": "Cloud Economics",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "Higher upfront capital expenditures",
                 "Pay only for resources you actually use",
@@ -80,7 +80,7 @@
             "id": "006",
             "text": "A public cloud is exclusively used by a single organization and is not accessible to the general public.",
             "type": "true-false",
-            "category": "Cloud Deployment Models",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "True",
                 "False"
@@ -92,7 +92,7 @@
             "id": "007",
             "text": "Which Azure feature allows you to automatically increase VM instances based on demand?",
             "type": "multiple-choice",
-            "category": "High Availability and Scalability",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "Availability Zones",
                 "Virtual Machine Scale Sets",
@@ -106,7 +106,7 @@
             "id": "008",
             "text": "What is the minimum number of Availability Zones in a region that supports them?",
             "type": "multiple-choice",
-            "category": "High Availability and Scalability",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "1",
                 "2",
@@ -120,7 +120,7 @@
             "id": "009",
             "text": "Vertical scaling refers to adding more virtual machines to handle increased load.",
             "type": "true-false",
-            "category": "Scalability Concepts",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -132,7 +132,7 @@
             "id": "010",
             "text": "Which Azure service helps you extend your on-premises network to Azure over a dedicated private connection?",
             "type": "multiple-choice",
-            "category": "Azure Networking",
+            "category": "Azure Core Services",
             "answers": [
                 "VPN Gateway",
                 "Azure ExpressRoute",
@@ -146,7 +146,7 @@
             "id": "011",
             "text": "In the shared responsibility model for IaaS, who is responsible for patching the operating system?",
             "type": "multiple-choice",
-            "category": "Shared Responsibility Model",
+            "category": "Security & Identity",
             "answers": [
                 "Microsoft Azure",
                 "The customer",
@@ -160,7 +160,7 @@
             "id": "012",
             "text": "A storage account name must be unique across all of Azure.",
             "type": "true-false",
-            "category": "Azure Storage Accounts",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -172,7 +172,7 @@
             "id": "013",
             "text": "Which storage redundancy option provides the highest durability by replicating data across three availability zones in the primary region and to a secondary region?",
             "type": "multiple-choice",
-            "category": "Storage Redundancy",
+            "category": "Azure Core Services",
             "answers": [
                 "LRS",
                 "ZRS",
@@ -186,7 +186,7 @@
             "id": "014",
             "text": "Azure Files supports both SMB and NFS protocols for file sharing.",
             "type": "true-false",
-            "category": "Azure Files",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -198,7 +198,7 @@
             "id": "015",
             "text": "Which of the following is a Platform as a Service (PaaS) offering?",
             "type": "multiple-choice",
-            "category": "Cloud Service Models",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Virtual Machines",
                 "Azure Container Instances",
@@ -206,13 +206,13 @@
                 "Azure SQL Database"
             ],
             "correctAnswer": "Azure SQL Database",
-            "explanation": "Azure SQL Database is a fully managed PaaS database service where Azure handles OS, patching, and infrastructure. While Azure Functions is serverless and ACI is container PaaS, SQL Database is the classic PaaS example."
+            "explanation": "Azure SQL Database is a fully managed PaaS database service where Azure handles OS, patching, and infrastructure. While Azure Functions and Container Instances are also PaaS offerings, SQL Database is the classic PaaS example the exam typically expects."
         },
         {
             "id": "016",
             "text": "Resource locks in Azure can prevent accidental deletion of critical resources.",
             "type": "true-false",
-            "category": "Resource Locks",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -224,7 +224,7 @@
             "id": "017",
             "text": "What is the primary purpose of Azure Policy?",
             "type": "multiple-choice",
-            "category": "Azure Policy",
+            "category": "Management & Governance",
             "answers": [
                 "To lock resources from deletion",
                 "To define and enforce organizational standards for resource compliance",
@@ -238,7 +238,7 @@
             "id": "018",
             "text": "Azure Blueprints are used to create individual resource templates for one-time deployments.",
             "type": "true-false",
-            "category": "Azure Blueprints",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -250,7 +250,7 @@
             "id": "019",
             "text": "Which tool is best for estimating the total cost of ownership when migrating from on-premises to Azure?",
             "type": "multiple-choice",
-            "category": "Cost Management Tools",
+            "category": "Management & Governance",
             "answers": [
                 "Azure Pricing Calculator",
                 "Total Cost of Ownership (TCO) Calculator",
@@ -264,7 +264,7 @@
             "id": "020",
             "text": "Azure Cost Management budgets can trigger automated actions when spending limits are reached.",
             "type": "true-false",
-            "category": "Cost Management",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -276,7 +276,7 @@
             "id": "021",
             "text": "Which Azure service provides a centralized view of security posture and threat protection across hybrid and multi-cloud environments?",
             "type": "multiple-choice",
-            "category": "Security Management",
+            "category": "Security & Identity",
             "answers": [
                 "Azure Sentinel",
                 "Microsoft Defender for Cloud",
@@ -290,7 +290,7 @@
             "id": "022",
             "text": "The Zero Trust security model assumes that all network traffic inside the corporate network is trusted.",
             "type": "true-false",
-            "category": "Zero Trust",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -302,7 +302,7 @@
             "id": "023",
             "text": "Which authentication method provides the highest security and convenience according to Microsoft's authentication matrix?",
             "type": "multiple-choice",
-            "category": "Authentication Methods",
+            "category": "Security & Identity",
             "answers": [
                 "Passwords only",
                 "Passwords + MFA",
@@ -316,7 +316,7 @@
             "id": "024",
             "text": "Azure RBAC roles can be assigned at the Management Group level and are inherited by all subscriptions and resources beneath it.",
             "type": "true-false",
-            "category": "Azure RBAC",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -328,7 +328,7 @@
             "id": "025",
             "text": "Which Azure service allows you to run Linux and Windows VMs on the same virtual network?",
             "type": "multiple-choice",
-            "category": "Azure Virtual Machines",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Virtual Desktop",
                 "Azure Virtual Network",
@@ -342,7 +342,7 @@
             "id": "026",
             "text": "Cool access tier in Azure Blob Storage is optimized for data stored for at least 30 days that is infrequently accessed.",
             "type": "true-false",
-            "category": "Storage Tiers",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -354,7 +354,7 @@
             "id": "027",
             "text": "What is the purpose of Azure Arc?",
             "type": "multiple-choice",
-            "category": "Hybrid Cloud Management",
+            "category": "Azure Core Services",
             "answers": [
                 "To create ARM templates",
                 "To manage on-premises and multi-cloud resources from Azure",
@@ -368,7 +368,7 @@
             "id": "028",
             "text": "ARM templates use a declarative syntax to define infrastructure.",
             "type": "true-false",
-            "category": "Infrastructure as Code",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -380,7 +380,7 @@
             "id": "029",
             "text": "Which of the following is NOT a benefit of cloud computing?",
             "type": "multiple-choice",
-            "category": "Cloud Benefits",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "High availability",
                 "Automatic security patching for all applications",
@@ -394,7 +394,7 @@
             "id": "030",
             "text": "Azure Service Health combines Azure Status, Service Health, and Resource Health to provide a complete view of your environment.",
             "type": "true-false",
-            "category": "Monitoring",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -406,7 +406,7 @@
             "id": "031",
             "text": "What is the maximum depth of management groups in a single directory?",
             "type": "multiple-choice",
-            "category": "Management Groups",
+            "category": "Management & Governance",
             "answers": [
                 "3 levels",
                 "6 levels",
@@ -420,7 +420,7 @@
             "id": "032",
             "text": "Azure Blob Storage can store both structured and unstructured data.",
             "type": "true-false",
-            "category": "Blob Storage",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -432,7 +432,7 @@
             "id": "033",
             "text": "Which Azure service provides recommendations for cost optimization, security, and performance?",
             "type": "multiple-choice",
-            "category": "Azure Advisor",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "Azure Monitor",
                 "Azure Service Health",
@@ -446,7 +446,7 @@
             "id": "034",
             "text": "Azure Multi-Factor Authentication requires at least two of the following: something you know, something you have, something you are.",
             "type": "true-false",
-            "category": "Multi-Factor Authentication",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -458,7 +458,7 @@
             "id": "035",
             "text": "Which statement correctly describes geo-redundant storage (GRS)?",
             "type": "multiple-choice",
-            "category": "Storage Redundancy",
+            "category": "Azure Core Services",
             "answers": [
                 "Replicates data across three availability zones in one region",
                 "Replicates data to a secondary region asynchronously",
@@ -472,7 +472,7 @@
             "id": "036",
             "text": "Resource groups in Azure can be nested within other resource groups.",
             "type": "true-false",
-            "category": "Resource Groups",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -484,7 +484,7 @@
             "id": "037",
             "text": "What is the primary difference between VPN Gateway and ExpressRoute?",
             "type": "multiple-choice",
-            "category": "Network Connectivity",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "VPN Gateway is faster than ExpressRoute",
                 "ExpressRoute uses the public internet while VPN is private",
@@ -498,7 +498,7 @@
             "id": "038",
             "text": "Azure Active Directory (Azure AD) is the same as Active Directory on Windows Server.",
             "type": "true-false",
-            "category": "Azure Active Directory",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -508,9 +508,9 @@
         },
         {
             "id": "039",
-            "text": "Which Azure service allows you to enforce tagging rules on all newly created resources?",
+            "text": "Which Azure service would you use to enforce that all storage accounts are created with encryption enabled?",
             "type": "multiple-choice",
-            "category": "Azure Policy",
+            "category": "Management & Governance",
             "answers": [
                 "Azure Blueprints",
                 "Azure Policy",
@@ -518,13 +518,13 @@
                 "Azure Advisor"
             ],
             "correctAnswer": "Azure Policy",
-            "explanation": "Azure Policy can enforce tagging conventions by preventing resource creation unless required tags are present, ensuring consistent metadata across your environment."
+            "explanation": "Azure Policy can enforce organizational standards by denying the creation of storage accounts that don't have encryption enabled, ensuring compliance at deployment time."
         },
         {
             "id": "040",
             "text": "The Archive access tier in Azure Blob Storage has the lowest storage cost but highest access costs.",
             "type": "true-false",
-            "category": "Storage Tiers",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -536,7 +536,7 @@
             "id": "041",
             "text": "Which Azure service is best suited for running event-driven code without managing servers?",
             "type": "multiple-choice",
-            "category": "Serverless Computing",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Virtual Machines",
                 "Azure Functions",
@@ -550,7 +550,7 @@
             "id": "042",
             "text": "ExpressRoute connections go over the public internet.",
             "type": "true-false",
-            "category": "ExpressRoute",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -562,7 +562,7 @@
             "id": "043",
             "text": "What is the purpose of Azure Service Trust Portal?",
             "type": "multiple-choice",
-            "category": "Compliance",
+            "category": "Management & Governance",
             "answers": [
                 "To calculate cloud costs",
                 "To monitor resource health",
@@ -576,7 +576,7 @@
             "id": "044",
             "text": "Azure Cost Management can create budgets that trigger automated responses when exceeded.",
             "type": "true-false",
-            "category": "Cost Management",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -588,7 +588,7 @@
             "id": "045",
             "text": "Which redundancy option is recommended for applications requiring high availability and resilience to zone failures?",
             "type": "multiple-choice",
-            "category": "Storage Redundancy",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "LRS",
                 "GRS",
@@ -602,7 +602,7 @@
             "id": "046",
             "text": "Azure Monitor can only monitor resources running in Azure.",
             "type": "true-false",
-            "category": "Azure Monitor",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -614,7 +614,7 @@
             "id": "047",
             "text": "What is the relationship between Azure subscriptions and Azure Active Directory?",
             "type": "multiple-choice",
-            "category": "Azure Subscriptions",
+            "category": "Management & Governance",
             "answers": [
                 "Each subscription requires a separate Azure AD tenant",
                 "A subscription is always linked to an Azure AD tenant for identity management",
@@ -628,7 +628,7 @@
             "id": "048",
             "text": "Network Security Groups (NSGs) can be applied to virtual networks and subnets to filter traffic.",
             "type": "true-false",
-            "category": "Network Security",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -640,7 +640,7 @@
             "id": "049",
             "text": "Which Azure service helps you discover and assess on-premises servers for migration to Azure?",
             "type": "multiple-choice",
-            "category": "Migration Tools",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Data Box",
                 "Azure Migrate: Discovery and Assessment",
@@ -654,7 +654,7 @@
             "id": "050",
             "text": "Read-only resource locks prevent both deletion and modification of resources.",
             "type": "true-false",
-            "category": "Resource Locks",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -666,7 +666,7 @@
             "id": "051",
             "text": "Which of the following best describes the purpose of Azure tags?",
             "type": "multiple-choice",
-            "category": "Resource Tagging",
+            "category": "Management & Governance",
             "answers": [
                 "To lock resources from deletion",
                 "To enforce security policies",
@@ -680,7 +680,7 @@
             "id": "052",
             "text": "The Azure Free Account includes $200 credit for the first 30 days and access to free services for 12 months.",
             "type": "true-false",
-            "category": "Azure Subscriptions",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -692,7 +692,7 @@
             "id": "053",
             "text": "Which Azure service provides point-in-time restore capabilities for Blob Storage?",
             "type": "multiple-choice",
-            "category": "Data Protection",
+            "category": "Azure Core Services",
             "answers": [
                 "Blob versioning",
                 "Soft delete",
@@ -706,7 +706,7 @@
             "id": "054",
             "text": "Azure Application Insights requires code changes to monitor web applications.",
             "type": "true-false",
-            "category": "Application Monitoring",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -718,7 +718,7 @@
             "id": "055",
             "text": "Which Azure service allows you to manage Windows and Linux machines across on-premises and multiple clouds?",
             "type": "multiple-choice",
-            "category": "Azure Arc",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Monitor",
                 "Azure Arc",
@@ -732,7 +732,7 @@
             "id": "056",
             "text": "Azure Site Recovery is a disaster recovery solution that replicates VMs to a secondary region.",
             "type": "true-false",
-            "category": "Disaster Recovery",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -744,7 +744,7 @@
             "id": "057",
             "text": "What is the main purpose of Azure DNS?",
             "type": "multiple-choice",
-            "category": "Azure DNS",
+            "category": "Azure Core Services",
             "answers": [
                 "To provide domain registration services",
                 "To host DNS domains and provide name resolution using Azure infrastructure",
@@ -758,7 +758,7 @@
             "id": "058",
             "text": "AzCopy is a graphical user interface tool for copying data to Azure Storage.",
             "type": "true-false",
-            "category": "Data Transfer Tools",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -770,7 +770,7 @@
             "id": "059",
             "text": "Which Azure service enables you to create, deploy, and manage resources using declarative JSON templates?",
             "type": "multiple-choice",
-            "category": "ARM Templates",
+            "category": "Management & Governance",
             "answers": [
                 "Azure CLI",
                 "Azure PowerShell",
@@ -784,7 +784,7 @@
             "id": "060",
             "text": "Azure Availability Sets use update domains and fault domains to protect against planned and unplanned maintenance.",
             "type": "true-false",
-            "category": "High Availability",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -796,7 +796,7 @@
             "id": "061",
             "text": "Which of the following is a characteristic of the pay-as-you-go pricing model?",
             "type": "multiple-choice",
-            "category": "Cloud Economics",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "Upfront capital investment is required",
                 "You pay a flat monthly fee regardless of usage",
@@ -810,7 +810,7 @@
             "id": "062",
             "text": "Azure Policy can automatically remediate non-compliant resources without any user intervention.",
             "type": "true-false",
-            "category": "Azure Policy",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -822,7 +822,7 @@
             "id": "063",
             "text": "Which Azure service provides a managed Kubernetes container orchestration platform?",
             "type": "multiple-choice",
-            "category": "Container Services",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Container Instances",
                 "Azure Kubernetes Service (AKS)",
@@ -836,7 +836,7 @@
             "id": "064",
             "text": "Reserved capacity in Azure provides discounts of up to 72% compared to pay-as-you-go pricing.",
             "type": "true-false",
-            "category": "Cost Optimization",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -848,7 +848,7 @@
             "id": "065",
             "text": "Which authentication method uses biometric data like fingerprints or facial recognition?",
             "type": "multiple-choice",
-            "category": "Authentication",
+            "category": "Security & Identity",
             "answers": [
                 "Something you know",
                 "Something you have",
@@ -862,7 +862,7 @@
             "id": "066",
             "text": "Network traffic between peered virtual networks travels over the public internet.",
             "type": "true-false",
-            "category": "Virtual Network Peering",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -874,7 +874,7 @@
             "id": "067",
             "text": "What is the primary purpose of Azure Security Benchmark?",
             "type": "multiple-choice",
-            "category": "Security Frameworks",
+            "category": "Security & Identity",
             "answers": [
                 "To provide a checklist for physical security",
                 "To define Azure-specific security and compliance best practices",
@@ -888,7 +888,7 @@
             "id": "068",
             "text": "Azure Data Box is used for offline data transfer when network bandwidth is limited.",
             "type": "true-false",
-            "category": "Data Migration",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -900,7 +900,7 @@
             "id": "069",
             "text": "Which Azure service provides desktop virtualization running in the cloud?",
             "type": "multiple-choice",
-            "category": "Desktop Virtualization",
+            "category": "Azure Core Services",
             "answers": [
                 "Windows Virtual Desktop",
                 "Azure Virtual Desktop",
@@ -914,7 +914,7 @@
             "id": "070",
             "text": "Azure Load Balancer operates at Layer 4 (transport layer) of the OSI model.",
             "type": "true-false",
-            "category": "Load Balancing",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -926,7 +926,7 @@
             "id": "071",
             "text": "What is Recovery Point Objective (RPO) in disaster recovery?",
             "type": "multiple-choice",
-            "category": "Disaster Recovery Concepts",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "The maximum acceptable time to restore service",
                 "The amount of data that can be lost during recovery",
@@ -940,7 +940,7 @@
             "id": "072",
             "text": "Azure Private Link provides private connectivity to Azure PaaS services over the Microsoft backbone network.",
             "type": "true-false",
-            "category": "Private Connectivity",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -952,7 +952,7 @@
             "id": "073",
             "text": "Which tool would you use to enforce that all storage accounts are created with encryption enabled?",
             "type": "multiple-choice",
-            "category": "Governance",
+            "category": "Management & Governance",
             "answers": [
                 "Azure Blueprints",
                 "Azure Policy",
@@ -966,7 +966,7 @@
             "id": "074",
             "text": "Azure Container Instances require you to manage the underlying virtual machines.",
             "type": "true-false",
-            "category": "Container Services",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -978,7 +978,7 @@
             "id": "075",
             "text": "What is the purpose of Azure Bastion?",
             "type": "multiple-choice",
-            "category": "Secure Access",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "To provide RDP/SSH access to VMs without public IPs",
                 "To balance traffic across VMs",
@@ -992,7 +992,7 @@
             "id": "076",
             "text": "Azure Lighthouse allows service providers to manage multiple customer Azure tenants from a single control plane.",
             "type": "true-false",
-            "category": "Multi-tenant Management",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -1004,7 +1004,7 @@
             "id": "077",
             "text": "Which Azure service provides a managed database for MySQL, PostgreSQL, and MariaDB?",
             "type": "multiple-choice",
-            "category": "Database Services",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure SQL Database",
                 "Azure Database for MySQL/PostgreSQL/MariaDB",
@@ -1018,7 +1018,7 @@
             "id": "078",
             "text": "Azure Traffic Manager uses DNS-based traffic routing to direct clients to the closest Azure region.",
             "type": "true-false",
-            "category": "Traffic Management",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -1030,7 +1030,7 @@
             "id": "079",
             "text": "What is the difference between Azure CLI and Azure PowerShell?",
             "type": "multiple-choice",
-            "category": "Management Tools",
+            "category": "Management & Governance",
             "answers": [
                 "Azure CLI is Windows only; PowerShell is cross-platform",
                 "Azure CLI uses Bash commands; PowerShell uses PowerShell cmdlets",
@@ -1044,7 +1044,7 @@
             "id": "080",
             "text": "Azure DDoS Protection Standard provides mitigation for Layer 3, 4, and 7 attacks.",
             "type": "true-false",
-            "category": "Security Services",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -1056,7 +1056,7 @@
             "id": "081",
             "text": "Which Azure service enables you to create workflows that integrate apps, data, and services?",
             "type": "multiple-choice",
-            "category": "Integration Services",
+            "category": "Management & Governance",
             "answers": [
                 "Azure Functions",
                 "Logic Apps",
@@ -1070,7 +1070,7 @@
             "id": "082",
             "text": "Azure Front Door is a global, scalable entry-point for web applications that uses edge locations.",
             "type": "true-false",
-            "category": "CDN and Edge",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -1082,7 +1082,7 @@
             "id": "083",
             "text": "What is the purpose of Azure Key Vault?",
             "type": "multiple-choice",
-            "category": "Secrets Management",
+            "category": "Azure Core Services",
             "answers": [
                 "To store and manage cryptographic keys, certificates, and secrets",
                 "To encrypt all Azure services automatically",
@@ -1096,7 +1096,7 @@
             "id": "084",
             "text": "Azure Spot VMs allow you to purchase unused capacity at significant discounts with no eviction risk.",
             "type": "true-false",
-            "category": "Cost Optimization",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -1108,7 +1108,7 @@
             "id": "085",
             "text": "Which Azure service provides a fully managed event routing service?",
             "type": "multiple-choice",
-            "category": "Event Handling",
+            "category": "Azure Core Services",
             "answers": [
                 "Event Hubs",
                 "Event Grid",
@@ -1122,7 +1122,7 @@
             "id": "086",
             "text": "Azure Disk Encryption uses BitLocker for Windows VMs and dm-crypt for Linux VMs.",
             "type": "true-false",
-            "category": "Data Encryption",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -1134,7 +1134,7 @@
             "id": "087",
             "text": "What is the purpose of Azure Virtual WAN?",
             "type": "multiple-choice",
-            "category": "Network Architecture",
+            "category": "Azure Core Services",
             "answers": [
                 "To connect branch offices to Azure via VPN/ExpressRoute",
                 "To balance traffic across VMs",
@@ -1148,7 +1148,7 @@
             "id": "088",
             "text": "Azure Private Endpoint provides a private IP address from your VNet to access Azure PaaS services.",
             "type": "true-false",
-            "category": "Private Connectivity",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -1160,7 +1160,7 @@
             "id": "089",
             "text": "Which Azure service would you use to create a machine learning model without writing code?",
             "type": "multiple-choice",
-            "category": "AI/ML Services",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Machine Learning",
                 "Azure Databricks",
@@ -1174,7 +1174,7 @@
             "id": "090",
             "text": "Azure Monitor Alerts can send notifications via email, SMS, push notifications, and webhooks.",
             "type": "true-false",
-            "category": "Alerting",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -1186,7 +1186,7 @@
             "id": "091",
             "text": "Which Azure service helps you implement infrastructure as code for repeatable deployments?",
             "type": "multiple-choice",
-            "category": "Infrastructure as Code",
+            "category": "Management & Governance",
             "answers": [
                 "Azure CLI",
                 "Azure PowerShell",
@@ -1200,7 +1200,7 @@
             "id": "092",
             "text": "Azure Cosmos DB is a globally distributed, multi-model database service.",
             "type": "true-false",
-            "category": "Database Services",
+            "category": "Azure Core Services",
             "answers": [
                 "True",
                 "False"
@@ -1212,7 +1212,7 @@
             "id": "093",
             "text": "Which Azure service provides a managed Hadoop, Spark, and Kafka platform?",
             "type": "multiple-choice",
-            "category": "Analytics Services",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Synapse Analytics",
                 "Azure Databricks",
@@ -1226,7 +1226,7 @@
             "id": "094",
             "text": "Azure Policy initiatives group related policies together for easier management.",
             "type": "true-false",
-            "category": "Azure Policy",
+            "category": "Management & Governance",
             "answers": [
                 "True",
                 "False"
@@ -1238,7 +1238,7 @@
             "id": "095",
             "text": "Which Azure service provides real-time analytics on streaming data?",
             "type": "multiple-choice",
-            "category": "Stream Processing",
+            "category": "Azure Core Services",
             "answers": [
                 "Azure Stream Analytics",
                 "Event Hubs",
@@ -1252,7 +1252,7 @@
             "id": "096",
             "text": "Azure Backup provides backup for on-premises servers, Azure VMs, and SQL databases.",
             "type": "true-false",
-            "category": "Backup Services",
+            "category": "High Availability, Scalability & DR",
             "answers": [
                 "True",
                 "False"
@@ -1264,7 +1264,7 @@
             "id": "097",
             "text": "Which Azure service would you use to migrate a large on-premises database to Azure SQL Database with minimal downtime?",
             "type": "multiple-choice",
-            "category": "Database Migration",
+            "category": "Azure Core Services",
             "answers": [
                 "AzCopy",
                 "Azure Database Migration Service",
@@ -1278,7 +1278,7 @@
             "id": "098",
             "text": "Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources.",
             "type": "true-false",
-            "category": "Network Security",
+            "category": "Security & Identity",
             "answers": [
                 "True",
                 "False"
@@ -1290,7 +1290,7 @@
             "id": "099",
             "text": "Which Azure service provides identity protection and risk-based conditional access policies?",
             "type": "multiple-choice",
-            "category": "Identity Security",
+            "category": "Security & Identity",
             "answers": [
                 "Azure AD Identity Protection",
                 "Azure AD Domain Services",
@@ -1304,7 +1304,7 @@
             "id": "100",
             "text": "The Azure Well-Architected Framework includes five pillars: Cost Optimization, Operational Excellence, Performance Efficiency, Reliability, and Security.",
             "type": "true-false",
-            "category": "Cloud Architecture Framework",
+            "category": "Cloud Concepts & Economics",
             "answers": [
                 "True",
                 "False"
