@@ -1,0 +1,1363 @@
+{
+    "title": "AI Coding Agent & Prompt Engineering Interview",
+    "titleEn": "AI Coding Agent & Prompt Engineering Interview",
+    "description": "A comprehensive assessment for software developers on interacting with AI coding agents, prompt engineering strategies, and code generation best practices.",
+    "categoryId": 3,
+    "isFree": true,
+    "lang": "en",
+    "questions": [
+        {
+            "id": "001",
+            "text": "In the context of AI coding agents, what is 'Prompt Engineering'?",
+            "type": "multiple-choice",
+            "category": "Fundamentals",
+            "answers": [
+                "The process of training a new Large Language Model from scratch.",
+                "The practice of designing and refining inputs to guide an AI model to generate desired outputs.",
+                "Writing code that compiles faster on the server.",
+                "The hardware configuration required to run an AI agent."
+            ],
+            "correctAnswer": "The practice of designing and refining inputs to guide an AI model to generate desired outputs.",
+            "explanation": "Prompt engineering focuses on crafting the input text (prompt) to get the most accurate, relevant, and useful response from an existing AI model."
+        },
+        {
+            "id": "002",
+            "text": "What are the four essential components of a robust prompt for code generation?",
+            "type": "multiple-choice",
+            "category": "Prompt Structure",
+            "answers": [
+                "Instruction, Context, Input Data, Output Indicator",
+                "CPU, RAM, HDD, Network",
+                "Python, Java, C++, JavaScript",
+                "Subject, Verb, Object, Adjective"
+            ],
+            "correctAnswer": "Instruction, Context, Input Data, Output Indicator",
+            "explanation": "A complete prompt usually needs a specific instruction, the context of the task, the data to process, and the format of the desired output."
+        },
+        {
+            "id": "003",
+            "text": "Is it considered safe practice to paste production database credentials or private API keys into a public AI coding agent to debug a connection issue?",
+            "type": "true-false",
+            "category": "Security & Ethics",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "Never share sensitive secrets (PII, keys, passwords) with public LLMs as data may be used for training or exposed."
+        },
+        {
+            "id": "004",
+            "text": "What is 'Zero-Shot Prompting' in the context of generating a SQL query?",
+            "type": "multiple-choice",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Giving the AI the query and asking it to execute it.",
+                "Asking the AI to generate the query without providing any prior examples.",
+                "Providing three examples of similar queries before asking for the new one.",
+                "Training the model with zero data."
+            ],
+            "correctAnswer": "Asking the AI to generate the query without providing any prior examples.",
+            "explanation": "Zero-shot relies on the model's pre-trained knowledge without giving it specific examples in the current prompt."
+        },
+        {
+            "id": "005",
+            "text": "When an AI agent struggles to generate the correct syntax for a specific internal library, what is the most effective strategy?",
+            "type": "multiple-choice",
+            "category": "Context Management",
+            "answers": [
+                "Repeat the same prompt in capital letters.",
+                "Use Few-Shot prompting by providing examples of valid code using that library.",
+                "Lower the temperature to 0.",
+                "Ask the AI to switch to a different programming language."
+            ],
+            "correctAnswer": "Use Few-Shot prompting by providing examples of valid code using that library.",
+            "explanation": "Providing examples (Few-Shot) helps the model understand the patterns and syntax of libraries it may not have been fully trained on."
+        },
+        {
+            "id": "006",
+            "text": "Does increasing the 'Temperature' parameter of an LLM generally make the code generation more deterministic and consistent?",
+            "type": "true-false",
+            "category": "Parameters",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "Increasing temperature makes the output more random and creative. For code, a lower temperature (closer to 0) is preferred for consistency."
+        },
+        {
+            "id": "007",
+            "text": "What is the 'Chain-of-Thought' (CoT) prompting technique useful for?",
+            "type": "multiple-choice",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Speeding up the response time.",
+                "Reducing the token cost.",
+                "Encouraging the model to explain its reasoning steps before generating the final code.",
+                "Chaining multiple API calls together."
+            ],
+            "correctAnswer": "Encouraging the model to explain its reasoning steps before generating the final code.",
+            "explanation": "CoT prompts the model to think step-by-step, which significantly reduces logic errors in complex coding tasks."
+        },
+        {
+            "id": "008",
+            "text": "When asking an AI agent to refactor legacy code, which additional information is most critical to include?",
+            "type": "multiple-choice",
+            "category": "Refactoring",
+            "answers": [
+                "The author of the original code.",
+                "The specific goal of the refactoring (e.g., improve performance, readability, or update syntax).",
+                "The compiler version used 10 years ago.",
+                "The color scheme of your IDE."
+            ],
+            "correctAnswer": "The specific goal of the refactoring (e.g., improve performance, readability, or update syntax).",
+            "explanation": "Without a specific goal, the AI might change the code in ways you don't want. Defining the objective is key."
+        },
+        {
+            "id": "009",
+            "text": "What is an 'AI Hallucination' in coding?",
+            "type": "multiple-choice",
+            "category": "Troubleshooting",
+            "answers": [
+                "When the AI generates code that looks correct but references non-existent libraries or functions.",
+                "When the AI refuses to answer.",
+                "When the AI generates code in the wrong language.",
+                "When the AI crashes the IDE."
+            ],
+            "correctAnswer": "When the AI generates code that looks correct but references non-existent libraries or functions.",
+            "explanation": "Hallucinations occur when the LLM confidently invents facts, libraries, or syntax that do not actually exist."
+        },
+        {
+            "id": "010",
+            "text": "Is it helpful to assign a 'Persona' (e.g., 'Act as a Senior Security Engineer') to the AI agent before asking for a code review?",
+            "type": "true-false",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Persona prompting helps prime the model to focus on specific aspects (like security vulnerabilities) and adopt a specific tone."
+        },
+        {
+            "id": "011",
+            "text": "What is the 'Context Window' in an LLM?",
+            "type": "multiple-choice",
+            "category": "Fundamentals",
+            "answers": [
+                "The GUI window where you type prompts.",
+                "The maximum amount of text (tokens) the model can consider at one time (input + output).",
+                "The time of day the model is available.",
+                "The memory on your local graphics card."
+            ],
+            "correctAnswer": "The maximum amount of text (tokens) the model can consider at one time (input + output).",
+            "explanation": "The context window limits how much code-history the AI 'remembers'. Exceeding it causes the AI to lose track of previous instructions."
+        },
+        {
+            "id": "012",
+            "text": "If an AI agent provides code that throws an error, what is the best immediate next step?",
+            "type": "multiple-choice",
+            "category": "Debugging",
+            "answers": [
+                "Give up and write it yourself.",
+                "Paste the error message and the snippet back into the prompt and ask it to fix it.",
+                "Restart the chat session.",
+                "Insult the AI."
+            ],
+            "correctAnswer": "Paste the error message and the snippet back into the prompt and ask it to fix it.",
+            "explanation": "This is iterative debugging. The error message provides new context for the AI to correct its mistake."
+        },
+        {
+            "id": "013",
+            "text": "Which of the following creates a clearer boundary between instructions and code in a prompt?",
+            "type": "multiple-choice",
+            "category": "Prompt Structure",
+            "answers": [
+                "Writing everything in one long paragraph.",
+                "Using delimiters like ``` (triple backticks) or XML tags to enclose the code.",
+                "Using emojis between every word.",
+                "Writing the instruction in bold."
+            ],
+            "correctAnswer": "Using delimiters like ``` (triple backticks) or XML tags to enclose the code.",
+            "explanation": "Delimiters help the model distinguish where the natural language instruction ends and the code data begins."
+        },
+        {
+            "id": "014",
+            "text": "Can Large Language Models (LLMs) execute code natively within their neural network?",
+            "type": "true-false",
+            "category": "Fundamentals",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "LLMs predict the next token (text). They cannot 'run' code unless connected to an external code interpreter tool."
+        },
+        {
+            "id": "015",
+            "text": "What is 'Role Prompting'?",
+            "type": "multiple-choice",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Asking the AI to write code for a Role-Playing Game.",
+                "Assigning a specific role or expertise to the AI (e.g., 'You are a Python Expert') to influence the output.",
+                "Using the AI to manage user roles in a database.",
+                "Prompting the AI to roll dice."
+            ],
+            "correctAnswer": "Assigning a specific role or expertise to the AI (e.g., 'You are a Python Expert') to influence the output.",
+            "explanation": "Role prompting sets the context for the quality and style of the response."
+        },
+        {
+            "id": "016",
+            "text": "When generating Unit Tests using an AI agent, what should you provide for the best results?",
+            "type": "multiple-choice",
+            "category": "Testing",
+            "answers": [
+                "Just the function name.",
+                "The function code, requirements, and edge cases you are concerned about.",
+                "The entire project directory.",
+                "The name of the testing framework only."
+            ],
+            "correctAnswer": "The function code, requirements, and edge cases you are concerned about.",
+            "explanation": "The more context about the logic and edge cases you provide, the more comprehensive the generated tests will be."
+        },
+        {
+            "id": "017",
+            "text": "Is 'Prompt Injection' a security risk where malicious inputs manipulate the AI's instructions?",
+            "type": "true-false",
+            "category": "Security",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Prompt injection involves crafting inputs that trick the model into ignoring its original instructions and performing unintended actions."
+        },
+        {
+            "id": "018",
+            "text": "Which metric is best to reduce when you want the AI to be concise?",
+            "type": "multiple-choice",
+            "category": "Output Control",
+            "answers": [
+                "Temperature",
+                "Max Tokens - Output Length",
+                "Frequency Penalty",
+                "Presence Penalty"
+            ],
+            "correctAnswer": "Max Tokens - Output Length",
+            "explanation": "Limiting Max Tokens forces the model to wrap up its answer, though explicit instruction ('Be concise') is often more effective."
+        },
+        {
+            "id": "019",
+            "text": "What is the benefit of 'Iterative Prompting'?",
+            "type": "multiple-choice",
+            "category": "Workflow",
+            "answers": [
+                "It uses less tokens.",
+                "It allows you to refine the code step-by-step based on previous outputs, rather than expecting perfection in one shot.",
+                "It trains the model permanently.",
+                "It is faster than Zero-shot."
+            ],
+            "correctAnswer": "It allows you to refine the code step-by-step based on previous outputs, rather than expecting perfection in one shot.",
+            "explanation": "Complex coding tasks often require a conversation (iteration) to refine requirements and fix bugs."
+        },
+        {
+            "id": "020",
+            "text": "If you want the AI to document your code, what is the best input strategy?",
+            "type": "multiple-choice",
+            "category": "Documentation",
+            "answers": [
+                "Paste the code and say 'Explain'.",
+                "Paste the code and specify the documentation standard (e.g., Javadoc, Docstring) and target audience.",
+                "Paste the code and ask for a summary.",
+                "Ask the AI to guess what the code does."
+            ],
+            "correctAnswer": "Paste the code and specify the documentation standard (e.g., Javadoc, Docstring) and target audience.",
+            "explanation": "Specifying the standard ensures the output fits your project's style guide."
+        },
+        {
+            "id": "021",
+            "text": "Does providing 'Negative Constraints' (e.g., 'Do not use external libraries') help guide the AI agent?",
+            "type": "true-false",
+            "category": "Prompt Structure",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Negative constraints explicitly tell the model what to avoid, which is crucial for environment-specific code."
+        },
+        {
+            "id": "022",
+            "text": "What is 'Self-Consistency' in prompting?",
+            "type": "multiple-choice",
+            "category": "Advanced Prompting",
+            "answers": [
+                "Asking the AI the same question multiple times and selecting the most frequent answer.",
+                "Ensuring the prompt has no grammar errors.",
+                "Using the same prompt for every task.",
+                "Checking if the AI is online."
+            ],
+            "correctAnswer": "Asking the AI the same question multiple times and selecting the most frequent answer.",
+            "explanation": "Self-consistency generates multiple reasoning paths and selects the most consistent answer, often used for complex logic-math."
+        },
+        {
+            "id": "023",
+            "text": "To convert Python code to Java, what is the most effective prompt structure?",
+            "type": "multiple-choice",
+            "category": "Translation",
+            "answers": [
+                "Translate this.",
+                "Convert this Python code to Java, ensuring thread safety and using Java 17 features. [Insert Code]",
+                "Here is Python. I want Java.",
+                "Make this code faster."
+            ],
+            "correctAnswer": "Convert this Python code to Java, ensuring thread safety and using Java 17 features. [Insert Code]",
+            "explanation": "Specific instructions about version and specific constraints (thread safety) yield better translation results."
+        },
+        {
+            "id": "024",
+            "text": "Which of the following is a sign of a bad prompt?",
+            "type": "multiple-choice",
+            "category": "Best Practices",
+            "answers": [
+                "Clear instructions.",
+                "Ambiguity and lack of context.",
+                "Use of delimiters.",
+                "Specifying output format."
+            ],
+            "correctAnswer": "Ambiguity and lack of context.",
+            "explanation": "Ambiguity leads to generic or incorrect responses."
+        },
+        {
+            "id": "025",
+            "text": "Can LLMs effectively explain the logic behind a regular expression (Regex)?",
+            "type": "true-false",
+            "category": "Coding Skills",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "LLMs are excellent at breaking down complex Regex patterns into plain English explanations."
+        },
+        {
+            "id": "026",
+            "text": "What is the 'System Prompt' (or System Message)?",
+            "type": "multiple-choice",
+            "category": "Fundamentals",
+            "answers": [
+                "The error message from the OS.",
+                "An initial instruction that sets the behavior, tone, and boundaries for the AI assistant.",
+                "The prompt you type in the chat box.",
+                "The output generated by the system."
+            ],
+            "correctAnswer": "An initial instruction that sets the behavior, tone, and boundaries for the AI assistant.",
+            "explanation": "The system prompt is hidden or configured beforehand to define the 'rules of engagement' for the model."
+        },
+        {
+            "id": "027",
+            "text": "When the context window is full, what usually happens to the earliest part of the conversation?",
+            "type": "multiple-choice",
+            "category": "Context Management",
+            "answers": [
+                "It is compressed into a zip file.",
+                "It is dropped-forgotten by the model.",
+                "It is prioritized over new text.",
+                "It is saved to the hard drive."
+            ],
+            "correctAnswer": "It is dropped-forgotten by the model.",
+            "explanation": "LLMs usually use a sliding window; when the limit is reached, the oldest tokens are truncated."
+        },
+        {
+            "id": "028",
+            "text": "If you want the output in JSON format only, without markdown or explanations, what should you add to the prompt?",
+            "type": "multiple-choice",
+            "category": "Output Control",
+            "answers": [
+                "Please help me.",
+                "Output valid JSON only. Do not include markdown formatting or conversational text.",
+                "I like JSON.",
+                "Can you code?"
+            ],
+            "correctAnswer": "Output valid JSON only. Do not include markdown formatting or conversational text.",
+            "explanation": "Direct negative constraints ('Do not include...') and explicit format requests ensure clean parsing."
+        },
+        {
+            "id": "029",
+            "text": "Is 'Tree of Thoughts' (ToT) a method where the AI explores multiple possible solution branches before deciding on one?",
+            "type": "true-false",
+            "category": "Advanced Prompting",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "ToT generalizes Chain of Thought, allowing the model to look ahead and backtrack to find the best solution path."
+        },
+        {
+            "id": "030",
+            "text": "Which is safer when using AI to generate SQL queries?",
+            "type": "multiple-choice",
+            "category": "Security",
+            "answers": [
+                "Provide the actual database schema and table names.",
+                "Provide a sanitized schema with dummy table-column names that mirror the structure.",
+                "Upload the database file.",
+                "Give the AI the root password."
+            ],
+            "correctAnswer": "Provide a sanitized schema with dummy table-column names that mirror the structure.",
+            "explanation": "Sanitization protects the internal structure of your database while allowing the AI to generate syntactically correct queries."
+        },
+        {
+            "id": "031",
+            "text": "What is 'RAG' (Retrieval-Augmented Generation) in the context of coding agents?",
+            "type": "multiple-choice",
+            "category": "Advanced Concepts",
+            "answers": [
+                "A cloth used to clean the server.",
+                "Enhancing the prompt by retrieving relevant documentation or code snippets from an external codebase before generating an answer.",
+                "A random number generator.",
+                "A type of neural network layer."
+            ],
+            "correctAnswer": "Enhancing the prompt by retrieving relevant documentation or code snippets from an external codebase before generating an answer.",
+            "explanation": "RAG allows the LLM to access up-to-date or private data (like your codebase) that wasn't in its training set."
+        },
+        {
+            "id": "032",
+            "text": "Why might you ask an AI agent to 'explain this code like I am 5'?",
+            "type": "multiple-choice",
+            "category": "Learning",
+            "answers": [
+                "To insult the AI.",
+                "To get a high-level conceptual overview without technical jargon.",
+                "To get optimized assembly code.",
+                "To generate unit tests."
+            ],
+            "correctAnswer": "To get a high-level conceptual overview without technical jargon.",
+            "explanation": "This technique helps developers quickly grasp the purpose of complex or unfamiliar code blocks."
+        },
+        {
+            "id": "033",
+            "text": "Does breaking a complex coding task into smaller sub-tasks (Chain of Density-decomposition) improve code quality?",
+            "type": "true-false",
+            "category": "Strategy",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "LLMs perform significantly better when focusing on small, isolated logic components rather than generating an entire application at once."
+        },
+        {
+            "id": "034",
+            "text": "When the AI generates code using a deprecated method, what is the likely cause?",
+            "type": "multiple-choice",
+            "category": "Troubleshooting",
+            "answers": [
+                "The model hates you.",
+                "The model's training data cut-off date is older than the deprecation notice.",
+                "The temperature is too low.",
+                "The prompt was too short."
+            ],
+            "correctAnswer": "The model's training data cut-off date is older than the deprecation notice.",
+            "explanation": "LLMs are frozen in time based on their training data. They don't know about updates released after that date unless provided in the context."
+        },
+        {
+            "id": "035",
+            "text": "What is the best way to handle 'Token Limits' when you need to analyze a large file?",
+            "type": "multiple-choice",
+            "category": "Context Management",
+            "answers": [
+                "Paste the whole file and hope for the best.",
+                "Split the file into logical chunks (functions-classes) and process them sequentially or summarized.",
+                "Buy a bigger monitor.",
+                "Ask the AI to increase its limit."
+            ],
+            "correctAnswer": "Split the file into logical chunks (functions-classes) and process them sequentially or summarized.",
+            "explanation": "Chunking is the standard strategy for dealing with data that exceeds context windows."
+        },
+        {
+            "id": "036",
+            "text": "What is 'Code Infilling'?",
+            "type": "multiple-choice",
+            "category": "Capabilities",
+            "answers": [
+                "Writing code comments.",
+                "Predicting the missing code between a prefix and a suffix (filling in the middle).",
+                "Deleting code.",
+                "Filling the hard drive."
+            ],
+            "correctAnswer": "Predicting the missing code between a prefix and a suffix (filling in the middle).",
+            "explanation": "This is a common capability of coding agents (like Copilot) to complete a function based on surrounding context."
+        },
+        {
+            "id": "037",
+            "text": "Should you trust an AI-generated Regular Expression without testing it?",
+            "type": "true-false",
+            "category": "Testing",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "Regex is prone to subtle edge-case failures. Always verify AI-generated regex with test strings."
+        },
+        {
+            "id": "038",
+            "text": "Which prompt is likely to yield better results for fixing a bug?",
+            "type": "multiple-choice",
+            "category": "Debugging",
+            "answers": [
+                "Fix this code: [Code]",
+                "This code throws a NullReferenceException when the list is empty. Fix it to handle empty lists. [Code]",
+                "Why is this broken?",
+                "Write code."
+            ],
+            "correctAnswer": "This code throws a NullReferenceException when the list is empty. Fix it to handle empty lists. [Code]",
+            "explanation": "Providing the symptom (Exception) and the condition (empty list) guides the AI to the exact solution."
+        },
+        {
+            "id": "039",
+            "text": "What does 'Sycophancy' mean in LLMs?",
+            "type": "multiple-choice",
+            "category": "Bias",
+            "answers": [
+                "The model producing compilation errors.",
+                "The model tending to agree with the user's incorrect assumptions to be helpful.",
+                "The model running too slowly.",
+                "The model refusing to answer."
+            ],
+            "correctAnswer": "The model tending to agree with the user's incorrect assumptions to be helpful.",
+            "explanation": "If you ask 'Why is this correct?' regarding buggy code, the AI might hallucinate a reason why it's correct rather than pointing out the error."
+        },
+        {
+            "id": "040",
+            "text": "How can you reduce the risk of AI generating insecure code (e.g., SQL Injection vulnerabilities)?",
+            "type": "multiple-choice",
+            "category": "Security",
+            "answers": [
+                "Ask it nicely.",
+                "Explicitly instruct the model to use parameterized queries and follow secure coding practices in the prompt.",
+                "Use a smaller model.",
+                "There is no way to reduce risk."
+            ],
+            "correctAnswer": "Explicitly instruct the model to use parameterized queries and follow secure coding practices in the prompt.",
+            "explanation": "Explicit security constraints prime the model to prioritize secure patterns over common (but insecure) examples found in training data."
+        },
+        {
+            "id": "041",
+            "text": "Can you use AI agents to generate 'boilerplate' code efficiently?",
+            "type": "true-false",
+            "category": "Workflow",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "This is one of the strongest use cases for AI agents (generating classes, setups, configs)."
+        },
+        {
+            "id": "042",
+            "text": "What is the 'Step-Back' prompting technique?",
+            "type": "multiple-choice",
+            "category": "Advanced Prompting",
+            "answers": [
+                "Deleting the last sentence.",
+                "Asking the AI to first identify the high-level concepts-principles involved before solving the specific details.",
+                "Asking the AI to look at the previous prompt.",
+                "Restarting the computer."
+            ],
+            "correctAnswer": "Asking the AI to first identify the high-level concepts-principles involved before solving the specific details.",
+            "explanation": "Abstraction helps the model avoid getting stuck in incorrect details by grounding the solution in correct principles."
+        },
+        {
+            "id": "043",
+            "text": "When specifying a library version in a prompt (e.g., 'Use React 18'), what are you trying to avoid?",
+            "type": "multiple-choice",
+            "category": "Accuracy",
+            "answers": [
+                "The AI using syntax from older-newer versions that isn't compatible with your project.",
+                "The AI running too fast.",
+                "The AI using too much memory.",
+                "The AI generating text instead of code."
+            ],
+            "correctAnswer": "The AI using syntax from older-newer versions that isn't compatible with your project.",
+            "explanation": "Libraries change syntax frequently. Version constraints ensure compatibility."
+        },
+        {
+            "id": "044",
+            "text": "What is the main advantage of providing 'Reference Code' or 'One-Shot' examples in the prompt?",
+            "type": "multiple-choice",
+            "category": "Prompting Techniques",
+            "answers": [
+                "It increases the token count.",
+                "It aligns the AI's output with your existing coding style and naming conventions.",
+                "It confuses the model.",
+                "It makes the generation slower."
+            ],
+            "correctAnswer": "It aligns the AI's output with your existing coding style and naming conventions.",
+            "explanation": "LLMs mimic the style of the context provided. One good example helps maintain consistency."
+        },
+        {
+            "id": "045",
+            "text": "Is LLM output deterministic by default (i.e., same input always equals exactly same output)?",
+            "type": "true-false",
+            "category": "Fundamentals",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "LLMs are probabilistic. Unless temperature is 0 (and even then, hardware variance exists), outputs vary."
+        },
+        {
+            "id": "046",
+            "text": "What does 'Pruning' the context mean manually?",
+            "type": "multiple-choice",
+            "category": "Context Management",
+            "answers": [
+                "Deleting unrelated code or conversation history to free up context space and reduce noise.",
+                "Cutting the internet connection.",
+                "Deleting the AI model.",
+                "Removing comments from code."
+            ],
+            "correctAnswer": "Deleting unrelated code or conversation history to free up context space and reduce noise.",
+            "explanation": "Removing irrelevant data prevents the model from being distracted and saves token space."
+        },
+        {
+            "id": "047",
+            "text": "Which is the best prompt for creating a Unit Test for a calculator function?",
+            "type": "multiple-choice",
+            "category": "Testing",
+            "answers": [
+                "Test this.",
+                "Write a test.",
+                "Create a PyTest unit test for the 'add' function, covering positive numbers, negative numbers, and floating point inputs.",
+                "Check if the code works."
+            ],
+            "correctAnswer": "Create a PyTest unit test for the 'add' function, covering positive numbers, negative numbers, and floating point inputs.",
+            "explanation": "Specific requirements (framework, edge cases, input types) generate usable tests."
+        },
+        {
+            "id": "048",
+            "text": "If an AI agent is stuck in a loop of providing the same wrong answer, what should you do?",
+            "type": "multiple-choice",
+            "category": "Strategy",
+            "answers": [
+                "Keep asking the same question.",
+                "Start a new chat session to clear the 'bad' context.",
+                "Wait 10 minutes.",
+                "Press Alt+F4."
+            ],
+            "correctAnswer": "Start a new chat session to clear the 'bad' context.",
+            "explanation": "Once bad logic is in the context window, the model often biases towards it. A fresh start resets the logic."
+        },
+        {
+            "id": "049",
+            "text": "Does asking the AI to 'Review this code for security flaws' guarantee the code is safe?",
+            "type": "true-false",
+            "category": "Security",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "AI can find common flaws, but it is not a replacement for dedicated security tools or human audits."
+        },
+        {
+            "id": "050",
+            "text": "What is 'Generated Knowledge Prompting'?",
+            "type": "multiple-choice",
+            "category": "Advanced Prompting",
+            "answers": [
+                "Asking the AI to generate facts about a topic first, then using those facts to answer the main question.",
+                "Downloading knowledge from Wikipedia.",
+                "Training the model yourself.",
+                "Asking the AI to guess."
+            ],
+            "correctAnswer": "Asking the AI to generate facts about a topic first, then using those facts to answer the main question.",
+            "explanation": "This technique helps the model access its own latent knowledge to improve the accuracy of the final answer."
+        },
+        {
+            "id": "051",
+            "text": "What is 'Least-to-Most Prompting'?",
+            "type": "multiple-choice",
+            "category": "Advanced Prompting",
+            "answers": [
+                "Starting with the smallest model and moving to the largest.",
+                "Breaking a complex problem into a sub-problem decomposition, solving the simple ones first, and passing those answers to the next step.",
+                "Asking for the least amount of code possible.",
+                "Prompting from the bottom of the file to the top."
+            ],
+            "correctAnswer": "Breaking a complex problem into a sub-problem decomposition, solving the simple ones first, and passing those answers to the next step.",
+            "explanation": "This technique helps models solve problems that are harder than the examples they saw during training by building upon intermediate answers."
+        },
+        {
+            "id": "052",
+            "text": "When an AI agent writes a script that interacts with a file system, what is the safest first step before running it?",
+            "type": "multiple-choice",
+            "category": "Security",
+            "answers": [
+                "Run it immediately in production.",
+                "Review the code to ensure it targets the correct directories and doesn't delete critical files.",
+                "Change the file permissions to 777.",
+                "Ask the AI 'Is this safe?'."
+            ],
+            "correctAnswer": "Review the code to ensure it targets the correct directories and doesn't delete critical files.",
+            "explanation": "AI agents can make pathing errors (e.g., `rm -rf -` instead of `.-`). Human review of file operations is mandatory."
+        },
+        {
+            "id": "053",
+            "text": "Can an AI agent effectively 'mock' an entire API response for frontend testing if provided with the JSON schema?",
+            "type": "true-false",
+            "category": "Testing",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "This is a strong use case; LLMs are excellent at generating synthetic data that adheres to a specific schema."
+        },
+        {
+            "id": "054",
+            "text": "What is the 'Self-Refinement' or 'Reflexion' loop in agentic workflows?",
+            "type": "multiple-choice",
+            "category": "Agentic Workflow",
+            "answers": [
+                "The AI looking in a mirror.",
+                "The process where an agent generates output, critiques its own output, and then improves it in a subsequent step.",
+                "The agent refusing to answer until it is polite.",
+                "Restarting the server automatically."
+            ],
+            "correctAnswer": "The process where an agent generates output, critiques its own output, and then improves it in a subsequent step.",
+            "explanation": "Reflexion allows the model to catch its own mistakes (like syntax errors or logic gaps) before the user sees them."
+        },
+        {
+            "id": "055",
+            "text": "If you need an AI to write a specific SQL query optimized for PostgreSQL, what specific detail should be in the prompt?",
+            "type": "multiple-choice",
+            "category": "Database",
+            "answers": [
+                "Just say 'SQL query'.",
+                "Specify the SQL dialect (PostgreSQL) and potentially the version.",
+                "Ask for a 'database script'.",
+                "Say 'Select star'."
+            ],
+            "correctAnswer": "Specify the SQL dialect (PostgreSQL) and potentially the version.",
+            "explanation": "SQL syntax (e.g., JSON handling, date functions) varies significantly between Postgres, MySQL, and T-SQL."
+        },
+        {
+            "id": "056",
+            "text": "What is the primary difference between 'Fine-Tuning' and 'Prompt Engineering'?",
+            "type": "multiple-choice",
+            "category": "Architecture",
+            "answers": [
+                "Prompt engineering modifies the model's weights; Fine-tuning does not.",
+                "Fine-tuning involves retraining the model's weights on a specific dataset; Prompt Engineering optimizes the input text without changing the model.",
+                "They are the same thing.",
+                "Fine-tuning is free; Prompt Engineering is expensive."
+            ],
+            "correctAnswer": "Fine-tuning involves retraining the model's weights on a specific dataset; Prompt Engineering optimizes the input text without changing the model.",
+            "explanation": "Prompt engineering works with the existing frozen model. Fine-tuning creates a specialized version of the model."
+        },
+        {
+            "id": "057",
+            "text": "When asking an AI to refactor code for 'Readability', is the term 'Readability' objective enough?",
+            "type": "true-false",
+            "category": "Strategy",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "'Readability' is subjective. It's better to specify 'extract methods', 'rename variables to be descriptive', or 'add comments'."
+        },
+        {
+            "id": "058",
+            "text": "What is a 'Stop Sequence' parameter?",
+            "type": "multiple-choice",
+            "category": "Parameters",
+            "answers": [
+                "A string of text that, if generated, causes the model to stop generating further output.",
+                "A command to shut down the computer.",
+                "The end of the prompt.",
+                "A syntax error."
+            ],
+            "correctAnswer": "A string of text that, if generated, causes the model to stop generating further output.",
+            "explanation": "Stop sequences are useful to prevent the AI from rambling or hallucinating a 'User:' response in a chat format."
+        },
+        {
+            "id": "059",
+            "text": "How does 'Code Summarization' help in interacting with AI agents?",
+            "type": "multiple-choice",
+            "category": "Workflow",
+            "answers": [
+                "It makes the code compile faster.",
+                "It helps fit large codebases into the context window by representing complex functions with brief descriptions.",
+                "It deletes the code permanently.",
+                "It translates code to binary."
+            ],
+            "correctAnswer": "It helps fit large codebases into the context window by representing complex functions with brief descriptions.",
+            "explanation": "When the full code is too large, a summary of signatures and docstrings allows the AI to understand the structure without reading every line."
+        },
+        {
+            "id": "060",
+            "text": "Is it possible for an AI agent to introduce a library dependency that contains malware (Typosquatting)?",
+            "type": "true-false",
+            "category": "Security",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "AI models might hallucinate package names or suggest similar-sounding packages that are actually malicious (e.g., 'request' vs 'requests')."
+        },
+        {
+            "id": "061",
+            "text": "Which approach is best for generating CSS for a website?",
+            "type": "multiple-choice",
+            "category": "Frontend",
+            "answers": [
+                "Describe the visual outcome desired (e.g., 'a centered flexbox layout with blue shadows').",
+                "Paste the raw HTML structure first.",
+                "Both A and B.",
+                "Ask for 'good style'."
+            ],
+            "correctAnswer": "Both A and B.",
+            "explanation": "The AI needs the HTML structure (selectors) and the visual description (intent) to generate accurate CSS."
+        },
+        {
+            "id": "062",
+            "text": "What is 'Prompt Chaining'?",
+            "type": "multiple-choice",
+            "category": "Workflow",
+            "answers": [
+                "Using a metal chain to lock the computer.",
+                "Using the output of one prompt as the input for the next prompt to accomplish a multi-step task.",
+                "Repeating the same prompt forever.",
+                "Connecting two computers."
+            ],
+            "correctAnswer": "Using the output of one prompt as the input for the next prompt to accomplish a multi-step task.",
+            "explanation": "Chaining breaks huge tasks into manageable steps (e.g., Step 1: Write Tests, Step 2: Write Code to pass Tests)."
+        },
+        {
+            "id": "063",
+            "text": "If an AI coding assistant suggests code that looks like it came from a specific open-source project (GPL license), what should you do?",
+            "type": "multiple-choice",
+            "category": "Legal-Ethics",
+            "answers": [
+                "Use it immediately.",
+                "Check for potential license attribution requirements or copyright infringement risks.",
+                "Claim it as your own.",
+                "Ignore it."
+            ],
+            "correctAnswer": "Check for potential license attribution requirements or copyright infringement risks.",
+            "explanation": "AI models are trained on public code. They can sometimes regurgitate licensed code verbatim, which poses legal risks."
+        },
+        {
+            "id": "064",
+            "text": "Can specifying 'Target Audience: Senior Developer' change the code explanation style?",
+            "type": "true-false",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "It will likely skip basic syntax explanations and focus on architectural decisions and performance."
+        },
+        {
+            "id": "065",
+            "text": "What is the 'Shot' in 'Few-Shot Prompting'?",
+            "type": "multiple-choice",
+            "category": "Fundamentals",
+            "answers": [
+                "An attempt to guess the answer.",
+                "An example input-output pair provided in the context to teach the model.",
+                "A screenshot of the code.",
+                "A reboot of the system."
+            ],
+            "correctAnswer": "An example input-output pair provided in the context to teach the model.",
+            "explanation": "One example = One Shot. Providing 3 examples = 3-Shot prompting."
+        },
+        {
+            "id": "066",
+            "text": "When asking an AI to optimize a function, what critical constraint must you include?",
+            "type": "multiple-choice",
+            "category": "Optimization",
+            "answers": [
+                "That the optimized code must produce the exact same output-behavior as the original.",
+                "That it must use fewer lines.",
+                "That it must use recursion.",
+                "That it must look pretty."
+            ],
+            "correctAnswer": "That the optimized code must produce the exact same output-behavior as the original.",
+            "explanation": "Optimization is useless if it breaks the correctness of the logic. Explicitly stating this prevents regression."
+        },
+        {
+            "id": "067",
+            "text": "What does 'Grounding' mean in the context of AI coding agents?",
+            "type": "multiple-choice",
+            "category": "Advanced Concepts",
+            "answers": [
+                "Connecting the server to the electrical ground.",
+                "Ensuring the AI's responses are based on factual information or provided context, rather than hallucination.",
+                "Punishing the AI for bad answers.",
+                "Lowering the voltage."
+            ],
+            "correctAnswer": "Ensuring the AI's responses are based on factual information or provided context, rather than hallucination.",
+            "explanation": "Grounding techniques (like RAG) anchor the model's output to reality-documentation."
+        },
+        {
+            "id": "068",
+            "text": "Is it reasonable to ask an AI agent to 'Fix all bugs in this file' in one go?",
+            "type": "true-false",
+            "category": "Strategy",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "It is too vague. The AI might miss subtle bugs or introduce new ones. It's better to iterate or point out specific issues."
+        },
+        {
+            "id": "069",
+            "text": "When generating documentation, what 'Format' is typically easiest for LLMs to handle consistently?",
+            "type": "multiple-choice",
+            "category": "Documentation",
+            "answers": [
+                "Markdown",
+                "Microsoft Word .doc",
+                "PDF binary",
+                "Scanned images"
+            ],
+            "correctAnswer": "Markdown",
+            "explanation": "Markdown is text-based, structured, and highly represented in training data (READMEs, StackOverflow)."
+        },
+        {
+            "id": "070",
+            "text": "What is the risk of 'Data Poisoning' in AI coding tools?",
+            "type": "multiple-choice",
+            "category": "Security",
+            "answers": [
+                "The AI gets a virus.",
+                "Attackers intentionally polluting public code repositories to train AI models to suggest vulnerable code.",
+                "Spilling water on the server.",
+                "Using too much data."
+            ],
+            "correctAnswer": "Attackers intentionally polluting public code repositories to train AI models to suggest vulnerable code.",
+            "explanation": "If models train on bad-malicious code, they learn to suggest it to users."
+        },
+        {
+            "id": "071",
+            "text": "To effectively use an AI agent for 'Code Translation' (e.g., C# to TypeScript), what should you manually review first?",
+            "type": "multiple-choice",
+            "category": "Translation",
+            "answers": [
+                "The color of the text.",
+                "Language-specific paradigms (e.g., pointers in C# vs references in TS, async handling).",
+                "The file size.",
+                "The font used."
+            ],
+            "correctAnswer": "Language-specific paradigms (e.g., pointers in C# vs references in TS, async handling).",
+            "explanation": "Direct translation often fails on idiomatic differences. The developer must verify that the logic holds in the new language's paradigm."
+        },
+        {
+            "id": "072",
+            "text": "What is 'In-Context Learning'?",
+            "type": "multiple-choice",
+            "category": "Fundamentals",
+            "answers": [
+                "The model learning from the prompt you just provided without updating its permanent weights.",
+                "The model searching Google.",
+                "The developer learning from the AI.",
+                "Reading a book."
+            ],
+            "correctAnswer": "The model learning from the prompt you just provided without updating its permanent weights.",
+            "explanation": "This is the core mechanism behind Few-Shot prompting; the model adapts to the task based solely on the current conversation buffer."
+        },
+        {
+            "id": "073",
+            "text": "Does asking the AI to 'Take a deep breath and work step by step' actually improve performance?",
+            "type": "true-false",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Surprisingly, research has shown that emotional-calming prompts combined with Chain of Thought can marginally improve reasoning scores."
+        },
+        {
+            "id": "074",
+            "text": "What is a 'Vector Database' primarily used for in AI coding assistants?",
+            "type": "multiple-choice",
+            "category": "Architecture",
+            "answers": [
+                "Storing the user's password.",
+                "Storing code embeddings to allow for semantic search (RAG) of the codebase.",
+                "Drawing vector graphics.",
+                "Mining cryptocurrency."
+            ],
+            "correctAnswer": "Storing code embeddings to allow for semantic search (RAG) of the codebase.",
+            "explanation": "It allows the system to find code snippets that are *conceptually* similar to the query, not just keyword matches."
+        },
+        {
+            "id": "075",
+            "text": "When an AI agent interacts with a CLI (Command Line Interface), what is a 'human-in-the-loop' safeguard?",
+            "type": "multiple-choice",
+            "category": "Agentic Workflow",
+            "answers": [
+                "The human typing the commands.",
+                "The system requiring user approval before executing any command generated by the AI.",
+                "The human sitting in the loop.",
+                "The AI asking for a password."
+            ],
+            "correctAnswer": "The system requiring user approval before executing any command generated by the AI.",
+            "explanation": "This prevents the agent from accidentally running destructive commands (like `rm -rf` or `git push --force`)."
+        },
+        {
+            "id": "076",
+            "text": "Why is 'Context Stuffing' (filling the window with barely relevant files) often counterproductive?",
+            "type": "multiple-choice",
+            "category": "Context Management",
+            "answers": [
+                "It costs too much money.",
+                "It creates a 'Lost in the Middle' phenomenon where the model overlooks key instructions buried in the noise.",
+                "The model gets angry.",
+                "It crashes the internet."
+            ],
+            "correctAnswer": "It creates a 'Lost in the Middle' phenomenon where the model overlooks key instructions buried in the noise.",
+            "explanation": "LLMs tend to pay most attention to the beginning and end of the prompt. Too much noise in the middle reduces accuracy."
+        },
+        {
+            "id": "077",
+            "text": "Is it best practice to provide the 'Happy Path' examples only when prompting for tests?",
+            "type": "true-false",
+            "category": "Testing",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "You must explicitly ask for failure modes, edge cases, and boundary conditions, otherwise the AI biases towards success-only scenarios."
+        },
+        {
+            "id": "078",
+            "text": "What is the 'System 2' thinking concept applied to LLMs?",
+            "type": "multiple-choice",
+            "category": "Theory",
+            "answers": [
+                "A dual-core processor.",
+                "Fast, instinctive responses.",
+                "Slow, deliberate, reasoning-heavy processing (like Chain of Thought) versus fast, intuitive generation.",
+                "The second version of the system."
+            ],
+            "correctAnswer": "Slow, deliberate, reasoning-heavy processing (like Chain of Thought) versus fast, intuitive generation.",
+            "explanation": "Prompt engineering often tries to force the LLM (which is naturally System 1-fast) to simulate System 2 (deliberate reasoning)."
+        },
+        {
+            "id": "079",
+            "text": "If you need strict JSON output, is Regex parsing of the AI's response a reliable fallback?",
+            "type": "multiple-choice",
+            "category": "Integration",
+            "answers": [
+                "Yes, it always works.",
+                "No, LLMs might output broken JSON, trailing commas, or comments that break standard parsers.",
+                "Regex is the only way.",
+                "JSON never breaks."
+            ],
+            "correctAnswer": "No, LLMs might output broken JSON, trailing commas, or comments that break standard parsers.",
+            "explanation": "While Regex helps extract the block, using a 'repair' library (like json-repair) or enforcing 'JSON Mode' in the API is safer."
+        },
+        {
+            "id": "080",
+            "text": "What is 'Prompt Drift'?",
+            "type": "multiple-choice",
+            "category": "Maintenance",
+            "answers": [
+                "Typing slowly.",
+                "When a prompt that worked on an older model version stops working or behaves differently on a newer version.",
+                "Moving the chat window.",
+                "The AI changing the subject."
+            ],
+            "correctAnswer": "When a prompt that worked on an older model version stops working or behaves differently on a newer version.",
+            "explanation": " prompts are not 'code' in the traditional sense; they are sensitive to the underlying model updates."
+        },
+        {
+            "id": "081",
+            "text": "Can an AI agent successfully interact with a proprietary internal API it has never seen before?",
+            "type": "multiple-choice",
+            "category": "Capabilities",
+            "answers": [
+                "No, never.",
+                "Yes, if you provide the API documentation or Interface Definition (IDL-Swagger) in the context.",
+                "Yes, by guessing.",
+                "Only if the API is popular."
+            ],
+            "correctAnswer": "Yes, if you provide the API documentation or Interface Definition (IDL-Swagger) in the context.",
+            "explanation": "This is In-Context Learning. You teach the agent the API surface area in the prompt, and it can then use it."
+        },
+        {
+            "id": "082",
+            "text": "What is 'Markdown Artifacts' in the context of conversational coding agents (like Claude Artifacts)?",
+            "type": "multiple-choice",
+            "category": "UI-UX",
+            "answers": [
+                "Old fossilized code.",
+                "A dedicated window-UI element to render code, diagrams, or web pages separately from the chat stream.",
+                "A mistake in the markdown.",
+                "A virus."
+            ],
+            "correctAnswer": "A dedicated window-UI element to render code, diagrams, or web pages separately from the chat stream.",
+            "explanation": "Artifacts allow developers to see the rendered result (e.g., a React component) side-by-side with the conversation."
+        },
+        {
+            "id": "083",
+            "text": "Is asking an AI to 'Deobfuscate' malicious code a reliable security analysis method?",
+            "type": "true-false",
+            "category": "Security",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "While it can help, AI often hallucinates variable names or logic in obfuscated code. It is an aid, not a solution."
+        },
+        {
+            "id": "084",
+            "text": "Which phrase often signals a 'Lazy' response from an LLM?",
+            "type": "multiple-choice",
+            "category": "Troubleshooting",
+            "answers": [
+                "Here is the full code.",
+                "... rest of code remains the same ...",
+                "I have updated the function.",
+                "The logic is fixed."
+            ],
+            "correctAnswer": "... rest of code remains the same ...",
+            "explanation": "This indicates the model is truncating the output to save tokens, which can be annoying if you need the full file for copy-pasting."
+        },
+        {
+            "id": "085",
+            "text": "How do you mitigate 'Laziness' (truncating code) in prompts?",
+            "type": "multiple-choice",
+            "category": "Output Control",
+            "answers": [
+                "Ask nicely.",
+                "Explicitly state: 'Output the full, complete code file without placeholders or truncation.'",
+                "Use a smaller model.",
+                "There is no way."
+            ],
+            "correctAnswer": "Explicitly state: 'Output the full, complete code file without placeholders or truncation.'",
+            "explanation": "Direct instruction against laziness is the most effective fix."
+        },
+        {
+            "id": "086",
+            "text": "What is 'Meta-Prompting'?",
+            "type": "multiple-choice",
+            "category": "Advanced Prompting",
+            "answers": [
+                "Prompting about Facebook.",
+                "Asking the AI to help you write or improve a prompt for another task.",
+                "Writing prompts in the metaverse.",
+                "Prompting multiple times."
+            ],
+            "correctAnswer": "Asking the AI to help you write or improve a prompt for another task.",
+            "explanation": "LLMs are actually very good at optimizing prompts for other LLMs."
+        },
+        {
+            "id": "087",
+            "text": "When using an AI agent to write a Regex, what should be your follow-up prompt?",
+            "type": "multiple-choice",
+            "category": "Coding Skills",
+            "answers": [
+                "Thank you.",
+                "Now write a set of positive and negative test cases to verify this Regex.",
+                "Can you make it shorter?",
+                "Is it fast?"
+            ],
+            "correctAnswer": "Now write a set of positive and negative test cases to verify this Regex.",
+            "explanation": "Verification is crucial for Regex. Asking the AI to generate the tests helps you prove the solution works."
+        },
+        {
+            "id": "088",
+            "text": "Does the 'Persona' (e.g., Senior Engineer) affect the complexity of the solution?",
+            "type": "true-false",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "A 'Junior' persona might give a verbose, simple solution. A 'Senior' persona favors idiomatic, concise, and performant code."
+        },
+        {
+            "id": "089",
+            "text": "What is 'Tool Use' (or Function Calling) capability?",
+            "type": "multiple-choice",
+            "category": "Agentic Workflow",
+            "answers": [
+                "Using a hammer.",
+                "The model's ability to output a structured JSON object that triggers an external API or function instead of generating text.",
+                "The developer using the keyboard.",
+                "Calling a friend."
+            ],
+            "correctAnswer": "The model's ability to output a structured JSON object that triggers an external API or function instead of generating text.",
+            "explanation": "This is how agents actually 'do' things (search web, query DB, run code) rather than just talking about them."
+        },
+        {
+            "id": "090",
+            "text": "If an AI generates a solution using a library you don't have, what is the best prompt fix?",
+            "type": "multiple-choice",
+            "category": "Constraints",
+            "answers": [
+                "Download the library.",
+                "Add a constraint: 'Use only standard library features' or 'Use only [Library X]'.",
+                "Ask 'Why?'",
+                "Stop using AI."
+            ],
+            "correctAnswer": "Add a constraint: 'Use only standard library features' or 'Use only [Library X]'.",
+            "explanation": "Constraints are necessary to keep the solution compatible with your existing environment."
+        },
+        {
+            "id": "091",
+            "text": "What implies a 'Hallucination' in a library import?",
+            "type": "multiple-choice",
+            "category": "Troubleshooting",
+            "answers": [
+                "The import statement is red in the IDE.",
+                "The library name sounds plausible but doesn't exist on npm-PyPI.",
+                "The code crashes at runtime.",
+                "All of the above."
+            ],
+            "correctAnswer": "All of the above.",
+            "explanation": "AI often invents library names (e.g., `import pdf_maker_easy`) that sound real but are not."
+        },
+        {
+            "id": "092",
+            "text": "What is the 'System' role vs 'User' role in chat messages?",
+            "type": "multiple-choice",
+            "category": "API Structure",
+            "answers": [
+                "System is the computer; User is the AI.",
+                "System sets the global behavior; User provides the specific instruction.",
+                "They are the same.",
+                "User is for admin only."
+            ],
+            "correctAnswer": "System sets the global behavior; User provides the specific instruction.",
+            "explanation": "This separation helps maintain the 'character' of the AI across the conversation session."
+        },
+        {
+            "id": "093",
+            "text": "When an AI agent is used for 'Code Review', is it better to provide the whole file or just the diff?",
+            "type": "multiple-choice",
+            "category": "Workflow",
+            "answers": [
+                "Just the diff.",
+                "The whole file (or relevant context) plus the diff.",
+                "Just the file name.",
+                "The commit message only."
+            ],
+            "correctAnswer": "The whole file (or relevant context) plus the diff.",
+            "explanation": "A diff lacks context (what variables are defined elsewhere?). Providing the full context leads to much deeper reviews."
+        },
+        {
+            "id": "094",
+            "text": "Can you rely on AI to check for 'Logic Errors' that don't throw exceptions?",
+            "type": "true-false",
+            "category": "Capabilities",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "AI can help, but logic errors (business logic) often look syntactically correct. AI doesn't know your business intent unless explicitly told."
+        },
+        {
+            "id": "095",
+            "text": "What is the 'Token' to 'Word' ratio roughly for English text?",
+            "type": "multiple-choice",
+            "category": "Fundamentals",
+            "answers": [
+                "1 token = 1 word",
+                "1 token ≈ 0.75 words (or 1000 tokens ≈ 750 words)",
+                "1 token = 1 character",
+                "1 token = 1 sentence"
+            ],
+            "correctAnswer": "1 token ≈ 0.75 words (or 1000 tokens ≈ 750 words)",
+            "explanation": "This rule of thumb is essential for estimating costs and context window usage."
+        },
+        {
+            "id": "096",
+            "text": "Why is 'Multimodal' prompting useful for frontend developers?",
+            "type": "multiple-choice",
+            "category": "Frontend",
+            "answers": [
+                "It sounds cool.",
+                "It allows you to upload a screenshot of a UI mock-up and ask the AI to generate the HTML-CSS code for it.",
+                "It uses multiple monitors.",
+                "It speeds up the internet."
+            ],
+            "correctAnswer": "It allows you to upload a screenshot of a UI mock-up and ask the AI to generate the HTML-CSS code for it.",
+            "explanation": "Multimodal models (like GPT-4o, Claude 3.5 Sonnet) can 'see' images and translate pixels to code."
+        },
+        {
+            "id": "097",
+            "text": "What is the best way to handle an ambiguous error message from an AI agent?",
+            "type": "multiple-choice",
+            "category": "Troubleshooting",
+            "answers": [
+                "Ignore it.",
+                "Ask clarifying questions: 'Did you mean X or Y?' or 'Explain why you chose this solution.'",
+                "Assume it's correct.",
+                "Close the chat."
+            ],
+            "correctAnswer": "Ask clarifying questions: 'Did you mean X or Y?' or 'Explain why you chose this solution.'",
+            "explanation": "Treating the AI like a junior developer who needs to explain their work helps uncover the ambiguity."
+        },
+        {
+            "id": "098",
+            "text": "Does using a 'Polite' tone (Please-Thank you) affect the model?",
+            "type": "true-false",
+            "category": "Prompting Techniques",
+            "answers": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "While it doesn't change the facts, models are trained on human conversations where polite requests often yield helpful, longer responses."
+        },
+        {
+            "id": "099",
+            "text": "What is the ultimate goal of 'Prompt Engineering' for developers?",
+            "type": "multiple-choice",
+            "category": "Philosophy",
+            "answers": [
+                "To never write code again.",
+                "To maximize the reliability, accuracy, and utility of AI tools to augment human productivity.",
+                "To replace all humans.",
+                "To write longer emails."
+            ],
+            "correctAnswer": "To maximize the reliability, accuracy, and utility of AI tools to augment human productivity.",
+            "explanation": "It's about augmentation and leverage, enabling developers to build better software faster."
+        },
+        {
+            "id": "100",
+            "text": "When an AI agent fails a coding task, is it usually the Model's fault or the Prompt's fault?",
+            "type": "multiple-choice",
+            "category": "Philosophy",
+            "answers": [
+                "Always the Model.",
+                "Always the Prompt.",
+                "Usually a mix, but improving the Prompt is the only variable the user can control immediately.",
+                "The computer's fault."
+            ],
+            "correctAnswer": "Usually a mix, but improving the Prompt is the only variable the user can control immediately.",
+            "explanation": "Taking ownership of the prompt (iterating, clarifying context) is the developer's primary lever for success."
+        }
+
+    ]
+}

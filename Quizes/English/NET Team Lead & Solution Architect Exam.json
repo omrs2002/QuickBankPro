@@ -1,0 +1,1895 @@
+{
+	"title": "اختبار .NET Team Lead & Solution Architect",
+	"titleEn": ".NET Team Lead & Solution Architect Exam",
+	"description": "A practice test with multiple-choice and true/false questions covering .NET leadership, architecture, cloud, design patterns, DevOps, and enterprise engineering.",
+	"categoryId": 1,
+	"isFree": true,
+	"lang": "en",
+	"questions": [
+		{
+			"id": "001",
+			"text": "Which .NET runtime is cross-platform and optimized for high-performance server applications?",
+			"type": "multiple-choice",
+			"category": ".NET Runtime",
+			"answers": [
+				".NET Framework",
+				".NET Standard",
+				".NET Core",
+				"Mono"
+			],
+			"correctAnswer": ".NET Core",
+			"explanation": ".NET Core is the modern, cross-platform runtime used for high-performance and cloud applications."
+		},
+		{
+			"id": "002",
+			"text": "What design pattern is commonly used to decouple an interface from its implementation?",
+			"type": "multiple-choice",
+			"category": "Design Patterns",
+			"answers": [
+				"Repository Pattern",
+				"Factory Pattern",
+				"Adapter Pattern",
+				"Dependency Injection"
+			],
+			"correctAnswer": "Dependency Injection",
+			"explanation": "DI provides a way to supply dependencies externally, improving testability and modularity."
+		},
+		{
+			"id": "003",
+			"text": "Which architectural style encourages splitting systems into independently deployable services?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Layered Architecture",
+				"Monolithic Architecture",
+				"Microservices Architecture",
+				"Client–Server Architecture"
+			],
+			"correctAnswer": "Microservices Architecture",
+			"explanation": "Microservices promote independent deployment and scaling of services."
+		},
+		{
+			"id": "004",
+			"text": "Which Azure service is most commonly used for hosting containerized .NET microservices?",
+			"type": "multiple-choice",
+			"category": "Azure",
+			"answers": [
+				"Azure VM Scale Sets",
+				"Azure App Service",
+				"Azure Kubernetes Service (AKS)",
+				"Azure Functions"
+			],
+			"correctAnswer": "Azure Kubernetes Service (AKS)",
+			"explanation": "AKS is fully managed Kubernetes for container orchestration at scale."
+		},
+		{
+			"id": "005",
+			"text": "Which HTTP method should be used when updating a resource partially?",
+			"type": "multiple-choice",
+			"category": "Web APIs",
+			"answers": [
+				"GET",
+				"POST",
+				"PUT",
+				"PATCH"
+			],
+			"correctAnswer": "PATCH",
+			"explanation": "PATCH is used for partial updates while PUT replaces the full resource."
+		},
+		{
+			"id": "006",
+			"text": "Clean Architecture enforces separation of concerns through concentric layers.",
+			"type": "true-false",
+			"category": "Architecture",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Clean Architecture organizes code into concentric layers to isolate dependencies."
+		},
+		{
+			"id": "007",
+			"text": "Async/await improves throughput by increasing CPU utilization.",
+			"type": "true-false",
+			"category": "C#",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Async/await improves scalability by freeing threads, not by increasing CPU usage."
+		},
+		{
+			"id": "008",
+			"text": "A .NET solution architect should prioritize coupling over cohesion.",
+			"type": "true-false",
+			"category": "Architecture",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Good architecture favors low coupling and high cohesion."
+		},
+		{
+			"id": "009",
+			"text": "Entity Framework Core supports both LINQ and raw SQL queries.",
+			"type": "true-false",
+			"category": "EF Core",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "EF Core supports raw SQL via FromSql and LINQ for ORM-based querying."
+		},
+		{
+			"id": "010",
+			"text": "Azure Service Bus is used for real-time streaming analytics.",
+			"type": "true-false",
+			"category": "Azure",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Azure Event Hub is used for streaming analytics, not Service Bus."
+		},
+		{
+			"id": "011",
+			"text": "Which of the following is the main benefit of CQRS architecture?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Combines reads and writes in a single model",
+				"Separates read and write models for scaling",
+				"Requires synchronous communication",
+				"Eliminates the need for databases"
+			],
+			"correctAnswer": "Separates read and write models for scaling",
+			"explanation": "CQRS separates read/write models allowing scaling and independent optimization."
+		},
+		{
+			"id": "012",
+			"text": "Which logging provider is built into ASP.NET Core?",
+			"type": "multiple-choice",
+			"category": "ASP.NET Core",
+			"answers": [
+				"Serilog",
+				"NLog",
+				"ILogger",
+				"Log4Net"
+			],
+			"correctAnswer": "ILogger",
+			"explanation": "ILogger is the built-in abstraction for logging in ASP.NET Core."
+		},
+		{
+			"id": "013",
+			"text": "In .NET, what keyword is used to ensure resources are disposed automatically?",
+			"type": "multiple-choice",
+			"category": "C#",
+			"answers": [
+				"try/catch",
+				"using",
+				"lock",
+				"yield"
+			],
+			"correctAnswer": "using",
+			"explanation": "The using statement ensures IDisposable objects are cleaned up."
+		},
+		{
+			"id": "014",
+			"text": "Which REST principle requires that each request must contain all necessary information to process it?",
+			"type": "multiple-choice",
+			"category": "Web API",
+			"answers": [
+				"Cacheability",
+				"Statelessness",
+				"Uniform Interface",
+				"Layered System"
+			],
+			"correctAnswer": "Statelessness",
+			"explanation": "REST APIs must be stateless, meaning no client context stored on the server."
+		},
+		{
+			"id": "015",
+			"text": "Which Azure service is best suited for hosting serverless .NET functions?",
+			"type": "multiple-choice",
+			"category": "Azure",
+			"answers": [
+				"Azure Functions",
+				"Azure Kubernetes Service",
+				"Azure Logic Apps",
+				"Azure Batch"
+			],
+			"correctAnswer": "Azure Functions",
+			"explanation": "Azure Functions is a serverless compute platform."
+		},
+		{
+			"id": "016",
+			"text": "What is the command to create a new ASP.NET Core Web API project?",
+			"type": "multiple-choice",
+			"category": ".NET CLI",
+			"answers": [
+				"dotnet new mvc",
+				"dotnet new webapi",
+				"dotnet build",
+				"dotnet run"
+			],
+			"correctAnswer": "dotnet new webapi",
+			"explanation": "This command scaffolds a new Web API template."
+		},
+		{
+			"id": "017",
+			"text": "Which pattern helps aggregate multiple repositories under a single abstraction?",
+			"type": "multiple-choice",
+			"category": "Design Patterns",
+			"answers": [
+				"Unit of Work",
+				"Factory",
+				"Builder",
+				"State"
+			],
+			"correctAnswer": "Unit of Work",
+			"explanation": "Unit of Work coordinates multiple repositories into a single transactional unit."
+		},
+		{
+			"id": "018",
+			"text": "Which Azure database is recommended for distributed, planet-scale applications?",
+			"type": "multiple-choice",
+			"category": "Azure",
+			"answers": [
+				"Azure SQL Database",
+				"Azure Database for MySQL",
+				"Cosmos DB",
+				"Azure PostgreSQL"
+			],
+			"correctAnswer": "Cosmos DB",
+			"explanation": "Cosmos DB is globally distributed with low-latency multi-region replication."
+		},
+		{
+			"id": "019",
+			"text": "Which NuGet package is required for Entity Framework Core migrations?",
+			"type": "multiple-choice",
+			"category": "EF Core",
+			"answers": [
+				"Microsoft.EntityFrameworkCore.SqlServer",
+				"Microsoft.EntityFrameworkCore",
+				"Microsoft.EntityFrameworkCore.Tools",
+				"EntityFrameworkCore.DesignPatterns"
+			],
+			"correctAnswer": "Microsoft.EntityFrameworkCore.Tools",
+			"explanation": "Tools package provides CLI commands for migrations."
+		},
+		{
+			"id": "020",
+			"text": "Which DevOps practice ensures code is always in a deployable state?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Continuous Deployment",
+				"Continuous Integration",
+				"Infrastructure as Code",
+				"Monitoring"
+			],
+			"correctAnswer": "Continuous Integration",
+			"explanation": "CI ensures the codebase is kept healthy and buildable."
+		},
+		{
+			"id": "021",
+			"text": "SOLID principles were introduced to improve maintainability and scalability.",
+			"type": "true-false",
+			"category": "Software Engineering",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "SOLID principles aim to create cleaner, more modular systems."
+		},
+		{
+			"id": "022",
+			"text": "In .NET, a struct is a reference type.",
+			"type": "true-false",
+			"category": "C#",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Structs are value types."
+		},
+		{
+			"id": "023",
+			"text": "ASP.NET Core middleware executes in a pipeline sequentially.",
+			"type": "true-false",
+			"category": "ASP.NET Core",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Middleware runs in the order registered."
+		},
+		{
+			"id": "024",
+			"text": "The Builder pattern is used to create objects step by step.",
+			"type": "true-false",
+			"category": "Design Patterns",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Builder helps construct complex objects incrementally."
+		},
+		{
+			"id": "025",
+			"text": "gRPC is faster than REST for internal service communication.",
+			"type": "true-false",
+			"category": "gRPC",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "gRPC uses binary protocol over HTTP/2 providing high performance."
+		},
+		{
+			"id": "026",
+			"text": "What is the default serialization format in ASP.NET Core Web API?",
+			"type": "multiple-choice",
+			"category": "Web API",
+			"answers": [
+				"Binary",
+				"XML",
+				"JSON",
+				"YAML"
+			],
+			"correctAnswer": "JSON",
+			"explanation": "ASP.NET Core uses System.Text.Json for default JSON serialization."
+		},
+		{
+			"id": "027",
+			"text": "Which technique helps protect APIs against excessive request loads?",
+			"type": "multiple-choice",
+			"category": "Security",
+			"answers": [
+				"OAuth",
+				"Rate Limiting",
+				"Claims-based Authentication",
+				"HTTPS"
+			],
+			"correctAnswer": "Rate Limiting",
+			"explanation": "Rate limiting prevents abuse by throttling requests."
+		},
+		{
+			"id": "028",
+			"text": "Which messaging pattern ensures that each message is processed exactly once?",
+			"type": "multiple-choice",
+			"category": "Messaging",
+			"answers": [
+				"At-Least-Once Delivery",
+				"At-Most-Once Delivery",
+				"Exactly-Once Delivery",
+				"Fire-and-Forget"
+			],
+			"correctAnswer": "Exactly-Once Delivery",
+			"explanation": "Exactly-once semantics guarantee a single processing of messages."
+		},
+		{
+			"id": "029",
+			"text": "Which cloud concept refers to scaling based on demand?",
+			"type": "multiple-choice",
+			"category": "Cloud Computing",
+			"answers": [
+				"Elasticity",
+				"Redundancy",
+				"Fault Tolerance",
+				"Latency"
+			],
+			"correctAnswer": "Elasticity",
+			"explanation": "Elasticity allows automatic scaling of resources based on load."
+		},
+		{
+			"id": "030",
+			"text": "Which .NET feature helps minimize memory allocation by reusing objects?",
+			"type": "multiple-choice",
+			"category": "Performance",
+			"answers": [
+				"LINQ",
+				"Memory Pooling",
+				" boxing/unboxing",
+				"Reflection"
+			],
+			"correctAnswer": "Memory Pooling",
+			"explanation": "Object and array pools reduce GC pressure."
+		},
+		{
+			"id": "031",
+			"text": "Which protocol does SignalR use for real-time communication?",
+			"type": "multiple-choice",
+			"category": "SignalR",
+			"answers": [
+				"HTTP only",
+				"WebSockets",
+				"FTP",
+				"SMTP"
+			],
+			"correctAnswer": "WebSockets",
+			"explanation": "SignalR uses WebSockets when available for low-latency communication."
+		},
+		{
+			"id": "032",
+			"text": "Which Azure service is used for distributed caching?",
+			"type": "multiple-choice",
+			"category": "Azure",
+			"answers": [
+				"Azure Cache for Redis",
+				"Azure Storage",
+				"Azure Front Door",
+				"Azure Key Vault"
+			],
+			"correctAnswer": "Azure Cache for Redis",
+			"explanation": "Redis provides fast in-memory caching."
+		},
+		{
+			"id": "033",
+			"text": "Which .NET feature is essential for unit testing code with external dependencies?",
+			"type": "multiple-choice",
+			"category": "Testing",
+			"answers": [
+				"Generics",
+				"Reflection",
+				"Dependency Injection",
+				"LINQ"
+			],
+			"correctAnswer": "Dependency Injection",
+			"explanation": "DI allows replacing real services with mocks for testing."
+		},
+		{
+			"id": "034",
+			"text": "What is the primary benefit of containerization?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Better graphics processing",
+				"Lightweight, portable application environments",
+				"More RAM usage",
+				"Safer networking"
+			],
+			"correctAnswer": "Lightweight, portable application environments",
+			"explanation": "Containers enable portable and reproducible application environments."
+		},
+		{
+			"id": "035",
+			"text": "Which of the following is a recommended branching strategy?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"No branching",
+				"Random branching",
+				"Gitflow",
+				"Weekly merge strategy"
+			],
+			"correctAnswer": "Gitflow",
+			"explanation": "Gitflow is a structured workflow suitable for enterprise development."
+		},
+		{
+			"id": "036",
+			"text": "Which database pattern stores events instead of current state?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Event Sourcing",
+				"CQRS",
+				"Materialized Views",
+				"Data Sharding"
+			],
+			"correctAnswer": "Event Sourcing",
+			"explanation": "Event Sourcing stores events; the state is rebuilt from these events."
+		},
+		{
+			"id": "037",
+			"text": "Which concurrency model is recommended for high-scale .NET services?",
+			"type": "multiple-choice",
+			"category": ".NET Performance",
+			"answers": [
+				"Blocking I/O",
+				"Thread.Sleep usage",
+				"Async/Await",
+				"Busy waiting"
+			],
+			"correctAnswer": "Async/Await",
+			"explanation": "Async I/O frees threads and improves scalability."
+		},
+		{
+			"id": "038",
+			"text": "Which approach helps avoid circular dependencies in architecture?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Direct imports",
+				"Bidirectional references",
+				"Abstractions and interfaces",
+				"Using static classes"
+			],
+			"correctAnswer": "Abstractions and interfaces",
+			"explanation": "Interfaces help decouple modules and prevent circular dependencies."
+		},
+		{
+			"id": "039",
+			"text": "Which type of testing validates service boundaries in microservices?",
+			"type": "multiple-choice",
+			"category": "Testing",
+			"answers": [
+				"Unit Testing",
+				"Integration Testing",
+				"End-to-End Testing",
+				"Mutation Testing"
+			],
+			"correctAnswer": "Integration Testing",
+			"explanation": "Integration tests verify communication across service boundaries."
+		},
+		{
+			"id": "040",
+			"text": "Which version control concept allows multiple developers to work on the same codebase simultaneously?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Branching",
+				"Hard resets",
+				"Force push",
+				"Single commit history"
+			],
+			"correctAnswer": "Branching",
+			"explanation": "Branching allows developers to work independently."
+		},
+		{
+			"id": "041",
+			"text": "Which HTTP status code indicates successful resource creation?",
+			"type": "multiple-choice",
+			"category": "Web API",
+			"answers": [
+				"200",
+				"201",
+				"400",
+				"500"
+			],
+			"correctAnswer": "201",
+			"explanation": "201 Created is returned when a new resource is successfully created."
+		},
+		{
+			"id": "042",
+			"text": "Which database strategy improves read performance in microservices?",
+			"type": "multiple-choice",
+			"category": "Database",
+			"answers": [
+				"Normalization",
+				"Event Sourcing",
+				"Read Replicas",
+				"Foreign Keys"
+			],
+			"correctAnswer": "Read Replicas",
+			"explanation": "Read replicas distribute read load across multiple servers."
+		},
+		{
+			"id": "043",
+			"text": "Which tool is commonly used for code analysis in .NET?",
+			"type": "multiple-choice",
+			"category": "Tools",
+			"answers": [
+				"Postman",
+				"Swagger",
+				"SonarQube",
+				"Docker"
+			],
+			"correctAnswer": "SonarQube",
+			"explanation": "SonarQube performs static code analysis and quality checks."
+		},
+		{
+			"id": "044",
+			"text": "Which Azure service handles secret, key, and certificate storage?",
+			"type": "multiple-choice",
+			"category": "Azure Security",
+			"answers": [
+				"Azure Vault Manager",
+				"Azure Key Vault",
+				"Azure Secrets Manager",
+				"Azure Shield"
+			],
+			"correctAnswer": "Azure Key Vault",
+			"explanation": "Key Vault is used to store secrets securely."
+		},
+		{
+			"id": "045",
+			"text": "What does DDD stand for?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Domain-Driven Design",
+				"Database Design Development",
+				"Distributed Domain Deployment",
+				"Dynamic Design Discovery"
+			],
+			"correctAnswer": "Domain-Driven Design",
+			"explanation": "DDD is an architectural and strategic domain modeling methodology."
+		},
+		{
+			"id": "046",
+			"text": "Which architectural concept groups domain logic around a specific business capability?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Monoliths",
+				"Bounded Context",
+				"Entities",
+				"Services"
+			],
+			"correctAnswer": "Bounded Context",
+			"explanation": "A bounded context isolates domain models around business capabilities."
+		},
+		{
+			"id": "047",
+			"text": "Which communication approach reduces coupling between microservices?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Synchronous communication",
+				"Shared database",
+				"Event-driven communication",
+				"File-based communication only"
+			],
+			"correctAnswer": "Event-driven communication",
+			"explanation": "Events decouple services and improve scalability."
+		},
+		{
+			"id": "048",
+			"text": "Which containerization tool is the standard for building and running containers?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Podman",
+				"Docker",
+				"Vagrant",
+				"VirtualBox"
+			],
+			"correctAnswer": "Docker",
+			"explanation": "Docker is the most widely used container engine."
+		},
+		{
+			"id": "049",
+			"text": "Which approach helps reduce downtime during deployments?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Blue-Green Deployment",
+				"Hard restarts",
+				"Manual file transfer",
+				"Full shutdown"
+			],
+			"correctAnswer": "Blue-Green Deployment",
+			"explanation": "Blue-green deployment reduces downtime by switching traffic between two environments."
+		},
+		{
+			"id": "050",
+			"text": "Which monitoring approach tracks logs, metrics, and traces across distributed systems?",
+			"type": "multiple-choice",
+			"category": "Observability",
+			"answers": [
+				"Local logging",
+				"Health checks",
+				"Distributed tracing",
+				"Unit testing"
+			],
+			"correctAnswer": "Distributed tracing",
+			"explanation": "Distributed tracing captures end-to-end request flow across microservices."
+		},
+		{
+			"id": "051",
+			"text": "Which feature in ASP.NET Core allows for handling cross-cutting concerns like logging and authentication?",
+			"type": "multiple-choice",
+			"category": "ASP.NET Core",
+			"answers": [
+				"Filters",
+				"Controllers",
+				"Routing",
+				"Views"
+			],
+			"correctAnswer": "Filters",
+			"explanation": "Filters run before or after actions and are ideal for cross-cutting concerns."
+		},
+		{
+			"id": "052",
+			"text": "Which .NET GC mode is optimized for high-throughput server applications?",
+			"type": "multiple-choice",
+			"category": ".NET Performance",
+			"answers": [
+				"Workstation GC",
+				"Server GC",
+				"Concurrent GC",
+				"Legacy GC"
+			],
+			"correctAnswer": "Server GC",
+			"explanation": "Server GC is optimized for multi-core scalability and server workloads."
+		},
+		{
+			"id": "053",
+			"text": "Which container orchestrator integrates natively with Azure?",
+			"type": "multiple-choice",
+			"category": "Azure",
+			"answers": [
+				"Docker Swarm",
+				"Kubernetes via AKS",
+				"OpenShift",
+				"Mesos"
+			],
+			"correctAnswer": "Kubernetes via AKS",
+			"explanation": "AKS is Azure's managed Kubernetes service."
+		},
+		{
+			"id": "054",
+			"text": "What is the primary purpose of API Gateways in microservices?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Database management",
+				"Central control of microservices logic",
+				"Request routing and aggregation",
+				"Replacing load balancers"
+			],
+			"correctAnswer": "Request routing and aggregation",
+			"explanation": "API Gateways route requests, provide composition, and centralize cross-cutting concerns."
+		},
+		{
+			"id": "055",
+			"text": "Which pattern helps in managing failures in distributed systems?",
+			"type": "multiple-choice",
+			"category": "Resilience",
+			"answers": [
+				"Decorator Pattern",
+				"Circuit Breaker",
+				"Repository Pattern",
+				"Visitor Pattern"
+			],
+			"correctAnswer": "Circuit Breaker",
+			"explanation": "Circuit Breaker prevents repeated calls to failing systems."
+		},
+		{
+			"id": "056",
+			"text": "Which Azure service provides distributed messaging with pub/sub?",
+			"type": "multiple-choice",
+			"category": "Azure Messaging",
+			"answers": [
+				"Azure Queue Storage",
+				"Azure Service Bus Topics",
+				"Azure Blob Storage",
+				"Azure Key Vault"
+			],
+			"correctAnswer": "Azure Service Bus Topics",
+			"explanation": "Service Bus Topics implement pub/sub messaging."
+		},
+		{
+			"id": "057",
+			"text": "Which ORM feature helps reduce round trips to the database?",
+			"type": "multiple-choice",
+			"category": "EF Core",
+			"answers": [
+				"Lazy Loading",
+				"Eager Loading",
+				"Change Tracking",
+				"Shadow Properties"
+			],
+			"correctAnswer": "Eager Loading",
+			"explanation": "Eager loading retrieves related data in a single query."
+		},
+		{
+			"id": "058",
+			"text": "Which deployment model isolates microservices at the infrastructure level?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Monolithic Deployment",
+				"Containerized Deployment",
+				"Shared-host Deployment",
+				"Single-server Deployment"
+			],
+			"correctAnswer": "Containerized Deployment",
+			"explanation": "Containers isolate services and provide independent deployments."
+		},
+		{
+			"id": "059",
+			"text": "Which .NET collection provides O(1) average lookup time?",
+			"type": "multiple-choice",
+			"category": "C# Collections",
+			"answers": [
+				"List<T>",
+				"Queue<T>",
+				"Dictionary<T, U>",
+				"LinkedList<T>"
+			],
+			"correctAnswer": "Dictionary<T, U>",
+			"explanation": "Dictionary is a hash-based key/value collection with fast lookups."
+		},
+		{
+			"id": "060",
+			"text": "Which log format is best for distributed systems?",
+			"type": "multiple-choice",
+			"category": "Logging",
+			"answers": [
+				"Plain text",
+				"Custom formatted logs",
+				"Structured logs (JSON)",
+				"XML logs"
+			],
+			"correctAnswer": "Structured logs (JSON)",
+			"explanation": "Structured logs improve indexing and searching in distributed systems."
+		},
+		{
+			"id": "061",
+			"text": "Which pipeline tool is built into Azure DevOps?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"GitHub Actions",
+				"Azure Pipelines",
+				"TeamCity",
+				"Jenkins"
+			],
+			"correctAnswer": "Azure Pipelines",
+			"explanation": "Azure Pipelines provide CI/CD automation."
+		},
+		{
+			"id": "062",
+			"text": "Which protocol is used for contract-first RPC-based communication?",
+			"type": "multiple-choice",
+			"category": "Communication",
+			"answers": [
+				"REST",
+				"SOAP",
+				"gRPC",
+				"HTTP"
+			],
+			"correctAnswer": "gRPC",
+			"explanation": "gRPC uses Protocol Buffers for contract-first communication."
+		},
+		{
+			"id": "063",
+			"text": "Which Azure component is essential for zero-downtime deployments?",
+			"type": "multiple-choice",
+			"category": "Azure",
+			"answers": [
+				"Scaling rules",
+				"Deployment slots",
+				"Static Web Apps",
+				"App Settings"
+			],
+			"correctAnswer": "Deployment slots",
+			"explanation": "Slots support blue/green deployments with zero downtime."
+		},
+		{
+			"id": "064",
+			"text": "Which software model places domain rules at the core of the application?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Clean Architecture",
+				"Layered Architecture",
+				"Big Ball of Mud",
+				"Client-server"
+			],
+			"correctAnswer": "Clean Architecture",
+			"explanation": "Clean Architecture puts the domain/core layer at the center."
+		},
+		{
+			"id": "065",
+			"text": "Which pattern helps avoid duplicating business logic across multiple services?",
+			"type": "multiple-choice",
+			"category": "Architecture",
+			"answers": [
+				"Monolith",
+				"Shared Kernel",
+				"Repository Pattern",
+				"Chain of Responsibility"
+			],
+			"correctAnswer": "Shared Kernel",
+			"explanation": "Shared Kernel contains shared domain logic in bounded contexts."
+		},
+		{
+			"id": "066",
+			"text": "What is the recommended method to expose an internal microservice securely?",
+			"type": "multiple-choice",
+			"category": "Security",
+			"answers": [
+				"VPN + Private Endpoints",
+				"Public internet",
+				"FTP publishing",
+				"Direct SQL access"
+			],
+			"correctAnswer": "VPN + Private Endpoints",
+			"explanation": "Private networking ensures secure internal-only access."
+		},
+		{
+			"id": "067",
+			"text": "Which Azure storage type is optimized for massive unstructured data?",
+			"type": "multiple-choice",
+			"category": "Azure Storage",
+			"answers": [
+				"Azure Table Storage",
+				"Azure Blob Storage",
+				"Azure File Share",
+				"Azure Queue Storage"
+			],
+			"correctAnswer": "Azure Blob Storage",
+			"explanation": "Blob storage is ideal for unstructured data."
+		},
+		{
+			"id": "068",
+			"text": "Which DDD building block defines rules and operations belonging to the domain?",
+			"type": "multiple-choice",
+			"category": "DDD",
+			"answers": [
+				"Repository",
+				"Entity",
+				"Service",
+				"Aggregate"
+			],
+			"correctAnswer": "Entity",
+			"explanation": "Entities contain domain logic and identifiers."
+		},
+		{
+			"id": "069",
+			"text": "Which type of caching stores data close to business logic?",
+			"type": "multiple-choice",
+			"category": "Performance",
+			"answers": [
+				"Distributed cache",
+				"In-memory cache",
+				"CDN cache",
+				"Write-through cache"
+			],
+			"correctAnswer": "In-memory cache",
+			"explanation": "In-memory cache provides ultra-fast access within the application."
+		},
+		{
+			"id": "070",
+			"text": "Which deployment pattern uses two parallel production environments?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Canary deployment",
+				"Rolling update",
+				"Blue-Green deployment",
+				"Hot reload"
+			],
+			"correctAnswer": "Blue-Green deployment",
+			"explanation": "Two environments allow quick switching for zero downtime."
+		},
+		{
+			"id": "071",
+			"text": "Which ASP.NET Core component is responsible for resolving service dependencies?",
+			"type": "multiple-choice",
+			"category": "Dependency Injection",
+			"answers": [
+				"IConfiguration",
+				"IServiceProvider",
+				"HttpContext",
+				"ILogger"
+			],
+			"correctAnswer": "IServiceProvider",
+			"explanation": "IServiceProvider creates and supplies registered services."
+		},
+		{
+			"id": "072",
+			"text": "Which serialization format is used by gRPC?",
+			"type": "multiple-choice",
+			"category": "gRPC",
+			"answers": [
+				"JSON",
+				"XML",
+				"Protobuf",
+				"YAML"
+			],
+			"correctAnswer": "Protobuf",
+			"explanation": "Protocol Buffers provide compact and fast serialization."
+		},
+		{
+			"id": "073",
+			"text": "Which authentication approach is recommended for SPAs?",
+			"type": "multiple-choice",
+			"category": "Security",
+			"answers": [
+				"Basic Auth",
+				"API Keys",
+				"OAuth 2.0 + OpenID Connect",
+				"Cookie-only authentication"
+			],
+			"correctAnswer": "OAuth 2.0 + OpenID Connect",
+			"explanation": "OIDC is standard for SPA authentication with token-based auth."
+		},
+		{
+			"id": "074",
+			"text": "Which Azure service improves global availability using edge locations?",
+			"type": "multiple-choice",
+			"category": "Networking",
+			"answers": [
+				"Azure Monitor",
+				"Azure Front Door",
+				"Azure API Management",
+				"Azure Backup"
+			],
+			"correctAnswer": "Azure Front Door",
+			"explanation": "Front Door uses edge POPs for global load balancing and acceleration."
+		},
+		{
+			"id": "075",
+			"text": "Which pattern ensures operations complete even when external systems fail temporarily?",
+			"type": "multiple-choice",
+			"category": "Resilience",
+			"answers": [
+				"Retry Pattern",
+				"Template Pattern",
+				"Adapter Pattern",
+				"State Pattern"
+			],
+			"correctAnswer": "Retry Pattern",
+			"explanation": "Retry automatically repeats failed operations based on rules."
+		},
+		{
+			"id": "076",
+			"text": "Which data structure is best for maintaining ordering while providing fast traversal?",
+			"type": "multiple-choice",
+			"category": "C# Collections",
+			"answers": [
+				"Stack<T>",
+				"Queue<T>",
+				"LinkedList<T>",
+				"HashSet<T>"
+			],
+			"correctAnswer": "LinkedList<T>",
+			"explanation": "LinkedList maintains order with fast insertions and deletions."
+		},
+		{
+			"id": "077",
+			"text": "Which tool is recommended for managing secrets in CI/CD pipelines?",
+			"type": "multiple-choice",
+			"category": "Security",
+			"answers": [
+				"appsettings.json",
+				"Flat files",
+				"Azure Key Vault",
+				"Local environment variables only"
+			],
+			"correctAnswer": "Azure Key Vault",
+			"explanation": "Key Vault secures secrets and integrates with DevOps pipelines."
+		},
+		{
+			"id": "078",
+			"text": "Which metric indicates how long a request spends waiting in a queue?",
+			"type": "multiple-choice",
+			"category": "Observability",
+			"answers": [
+				"Latency",
+				"Throughput",
+				"Queue Time",
+				"Error Rate"
+			],
+			"correctAnswer": "Queue Time",
+			"explanation": "Queue time measures delay before processing begins."
+		},
+		{
+			"id": "079",
+			"text": "Which pattern delegates a request through a chain of handlers?",
+			"type": "multiple-choice",
+			"category": "Design Patterns",
+			"answers": [
+				"Chain of Responsibility",
+				"Mediator",
+				"Observer",
+				"Decorator"
+			],
+			"correctAnswer": "Chain of Responsibility",
+			"explanation": "This pattern passes requests through multiple handlers."
+		},
+		{
+			"id": "080",
+			"text": "Which Azure database service supports multi-master writes?",
+			"type": "multiple-choice",
+			"category": "Azure Databases",
+			"answers": [
+				"Azure SQL",
+				"Azure PostgreSQL",
+				"Cosmos DB",
+				"MySQL"
+			],
+			"correctAnswer": "Cosmos DB",
+			"explanation": "Cosmos DB supports multi-master and multi-region writes."
+		},
+		{
+			"id": "081",
+			"text": "Which file format is used to write infrastructure as code for Azure?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"XML",
+				"YAML",
+				"ARM/Bicep",
+				"Binary"
+			],
+			"correctAnswer": "ARM/Bicep",
+			"explanation": "Azure ARM and Bicep are IaC languages for Azure resources."
+		},
+		{
+			"id": "082",
+			"text": "Which parallel programming feature divides CPU-bound workloads?",
+			"type": "multiple-choice",
+			"category": "C# Concurrency",
+			"answers": [
+				"async/await",
+				"ThreadPool",
+				"Parallel.For",
+				"Task.Delay"
+			],
+			"correctAnswer": "Parallel.For",
+			"explanation": "Parallel loops divide work across threads for CPU-bound operations."
+		},
+		{
+			"id": "083",
+			"text": "Which DDD building block ensures data consistency within an aggregate?",
+			"type": "multiple-choice",
+			"category": "DDD",
+			"answers": [
+				"Value Object",
+				"Entity",
+				"Aggregate Root",
+				"Repository"
+			],
+			"correctAnswer": "Aggregate Root",
+			"explanation": "Aggregate roots enforce business invariants."
+		},
+		{
+			"id": "084",
+			"text": "Which type of scaling adds more instances of an application?",
+			"type": "multiple-choice",
+			"category": "Cloud Computing",
+			"answers": [
+				"Vertical scaling",
+				"Horizontal scaling",
+				"Clock scaling",
+				"CPU frequency scaling"
+			],
+			"correctAnswer": "Horizontal scaling",
+			"explanation": "Horizontal scaling adds more nodes/instances."
+		},
+		{
+			"id": "085",
+			"text": "Which .NET API is used for cryptographic hashing?",
+			"type": "multiple-choice",
+			"category": "Security",
+			"answers": [
+				"HttpClient",
+				"StreamReader",
+				"SHA256",
+				"GC.Collect"
+			],
+			"correctAnswer": "SHA256",
+			"explanation": "SHA256 creates secure hash values."
+		},
+		{
+			"id": "086",
+			"text": "Which Azure service caches static content globally?",
+			"type": "multiple-choice",
+			"category": "Networking",
+			"answers": [
+				"Azure VM",
+				"Azure CDN",
+				"Azure Functions",
+				"Azure SQL"
+			],
+			"correctAnswer": "Azure CDN",
+			"explanation": "Azure CDN distributes static assets via global POPs."
+		},
+		{
+			"id": "087",
+			"text": "Which testing level ensures the entire system behaves as expected?",
+			"type": "multiple-choice",
+			"category": "Testing",
+			"answers": [
+				"Unit Testing",
+				"Integration Testing",
+				"End-to-End Testing",
+				"Mutation Testing"
+			],
+			"correctAnswer": "End-to-End Testing",
+			"explanation": "E2E tests validate the system as a whole."
+		},
+		{
+			"id": "088",
+			"text": "Which .NET feature allows runtime type inspection?",
+			"type": "multiple-choice",
+			"category": "C#",
+			"answers": [
+				"LINQ",
+				"Reflection",
+				"Generics",
+				"Attributes"
+			],
+			"correctAnswer": "Reflection",
+			"explanation": "Reflection inspects types and members at runtime."
+		},
+		{
+			"id": "089",
+			"text": "Which CI/CD step installs dependencies and compiles the code?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"Deploy",
+				"Build",
+				"Test",
+				"Monitor"
+			],
+			"correctAnswer": "Build",
+			"explanation": "Build step compiles and restores dependencies."
+		},
+		{
+			"id": "090",
+			"text": "Which .NET API is used to perform HTTP calls?",
+			"type": "multiple-choice",
+			"category": "Networking",
+			"answers": [
+				"WebRequest",
+				"TcpClient",
+				"HttpClient",
+				"JsonSerializer"
+			],
+			"correctAnswer": "HttpClient",
+			"explanation": "HttpClient is the standard API for HTTP requests."
+		},
+		{
+			"id": "091",
+			"text": "In .NET, async methods always run on background threads.",
+			"type": "true-false",
+			"category": "C#",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Async does not guarantee running on background threads; it's about non-blocking I/O."
+		},
+		{
+			"id": "092",
+			"text": "With microservices, each service should have its own database.",
+			"type": "true-false",
+			"category": "Architecture",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Database-per-service ensures isolation and loose coupling."
+		},
+		{
+			"id": "093",
+			"text": "Value objects in DDD are immutable.",
+			"type": "true-false",
+			"category": "DDD",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Immutability is a key feature of value objects."
+		},
+		{
+			"id": "094",
+			"text": "Feature flags allow enabling and disabling features without redeployment.",
+			"type": "true-false",
+			"category": "DevOps",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Feature flags decouple deployment from release."
+		},
+		{
+			"id": "095",
+			"text": "JWT tokens must always be stored in local storage.",
+			"type": "true-false",
+			"category": "Security",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Local storage is vulnerable; HTTP-only cookies are safer."
+		},
+		{
+			"id": "096",
+			"text": "Scaling up involves increasing resources of the same server.",
+			"type": "true-false",
+			"category": "Cloud",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Vertical scaling adds more power to the same instance."
+		},
+		{
+			"id": "097",
+			"text": "Unit tests should not access real databases.",
+			"type": "true-false",
+			"category": "Testing",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Real DB access belongs to integration tests."
+		},
+		{
+			"id": "098",
+			"text": "CQRS can be used without Event Sourcing.",
+			"type": "true-false",
+			"category": "Architecture",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "CQRS and Event Sourcing are independent patterns."
+		},
+		{
+			"id": "099",
+			"text": "In .NET, middleware is executed after MVC filters.",
+			"type": "true-false",
+			"category": "ASP.NET Core",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Middleware runs before reaching MVC filters."
+		},
+		{
+			"id": "100",
+			"text": "Container images should be built using minimal base images for security.",
+			"type": "true-false",
+			"category": "Security",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Minimal images reduce attack surface."
+		},
+		{
+			"id": "101",
+			"text": "Which SharePoint Online component is primarily responsible for managing global navigation and multi-geo tenant configurations?",
+			"type": "multiple-choice",
+			"category": "SharePoint Architecture",
+			"answers": [
+				"SharePoint Hub Sites",
+				"SharePoint Admin Center",
+				"Content Delivery Network (CDN)",
+				"Unified Navigation Service"
+			],
+			"correctAnswer": "SharePoint Hub Sites",
+			"explanation": "Hub sites centralize navigation and organizational structure, supporting multi-geo deployments."
+		},
+		{
+			"id": "102",
+			"text": "Which storage model does SharePoint Online primarily use for document metadata?",
+			"type": "multiple-choice",
+			"category": "SharePoint Architecture",
+			"answers": [
+				"Azure SQL Database",
+				"Azure Cosmos DB",
+				"Azure Blob Storage",
+				"OneDrive Local Cache"
+			],
+			"correctAnswer": "Azure SQL Database",
+			"explanation": "SharePoint Online metadata is stored in Azure SQL for transactional storage and structured data."
+		},
+		{
+			"id": "103",
+			"text": "In a SharePoint Framework (SPFx) solution, which component controls the web part lifecycle?",
+			"type": "multiple-choice",
+			"category": "SPFx Architecture",
+			"answers": [
+				"React Component",
+				"SPHttpClient",
+				"BaseClientSideWebPart",
+				"Manifest JSON"
+			],
+			"correctAnswer": "BaseClientSideWebPart",
+			"explanation": "The BaseClientSideWebPart class manages initialization, rendering, and disposal."
+		},
+		{
+			"id": "104",
+			"text": "Which authentication method is recommended for server-to-server automation against SharePoint Online?",
+			"type": "multiple-choice",
+			"category": "Security",
+			"answers": [
+				"ADFS Token Authentication",
+				"Client ID + Client Secret",
+				"Certificate-based App Authentication",
+				"Legacy ACS Model"
+			],
+			"correctAnswer": "Certificate-based App Authentication",
+			"explanation": "Certificate-based auth is secure and recommended for enterprise automation using Azure AD apps."
+		},
+		{
+			"id": "105",
+			"text": "Which service controls Search Indexing in SharePoint Online?",
+			"type": "multiple-choice",
+			"category": "Search",
+			"answers": [
+				"Managed Metadata Service",
+				"Cognitive Search Engine",
+				"Microsoft Search Service",
+				"Content Enrichment Web Service"
+			],
+			"correctAnswer": "Microsoft Search Service",
+			"explanation": "Microsoft Search powers indexing and unified search across M365 workloads."
+		},
+		{
+			"id": "106",
+			"text": "Which SharePoint Online feature allows offloading large files to external storage while keeping metadata in SharePoint?",
+			"type": "multiple-choice",
+			"category": "SharePoint Storage",
+			"answers": [
+				"Azure Blob Offloading",
+				"Remote BLOB Storage (RBS)",
+				"FileStream API",
+				"Syntex Content Services"
+			],
+			"correctAnswer": "Remote BLOB Storage (RBS)",
+			"explanation": "RBS offloads file streams to external storage, reducing DB size."
+		},
+		{
+			"id": "107",
+			"text": "What is the default maximum file size supported in SharePoint Online?",
+			"type": "multiple-choice",
+			"category": "Governance",
+			"answers": [
+				"250 GB",
+				"100 GB",
+				"1 TB",
+				"15 GB"
+			],
+			"correctAnswer": "250 GB",
+			"explanation": "Microsoft increased the limit to 250 GB for SPO and OneDrive."
+		},
+		{
+			"id": "108",
+			"text": "Which tool is best for modern SharePoint Online ALM automation?",
+			"type": "multiple-choice",
+			"category": "DevOps",
+			"answers": [
+				"STSADM",
+				"PnP PowerShell",
+				"Central Administration",
+				"Visual Studio Farm Solutions"
+			],
+			"correctAnswer": "PnP PowerShell",
+			"explanation": "PnP PowerShell is the modern automation toolkit for SharePoint Online."
+		},
+		{
+			"id": "109",
+			"text": "Which service enables site-level retention labels for governance and compliance?",
+			"type": "multiple-choice",
+			"category": "Compliance",
+			"answers": [
+				"DLP Service",
+				"SharePoint Search",
+				"Microsoft Purview",
+				"Unified Audit Log"
+			],
+			"correctAnswer": "Microsoft Purview",
+			"explanation": "Purview applies retention labels and compliance features across Microsoft 365."
+		},
+		{
+			"id": "110",
+			"text": "Which SharePoint component stores taxonomy and term groups?",
+			"type": "multiple-choice",
+			"category": "Metadata",
+			"answers": [
+				"Managed Metadata Service",
+				"SharePoint Admin Center",
+				"Term Policy Center",
+				"Metadata Hub"
+			],
+			"correctAnswer": "Managed Metadata Service",
+			"explanation": "MMS stores enterprise taxonomy and term sets for metadata-driven navigation."
+		},
+		{
+			"id": "140",
+			"text": "Which deployment model supports global performance optimization for large-scale SharePoint portals?",
+			"type": "multiple-choice",
+			"category": "Performance",
+			"answers": [
+				"CDN with SPFx hosting",
+				"Local IIS Deployment",
+				"Sandboxed Solutions",
+				"Farm Solutions"
+			],
+			"correctAnswer": "CDN with SPFx hosting",
+			"explanation": "CDNs reduce latency and increase performance for global users."
+		},
+		{
+			"id": "141",
+			"text": "SharePoint Online supports full trust farm solutions.",
+			"type": "true-false",
+			"category": "Architecture Limitations",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Farm solutions are deprecated and not supported in SharePoint Online."
+		},
+		{
+			"id": "142",
+			"text": "Modern Search in SharePoint Online can index content from external data sources using Graph Connectors.",
+			"type": "true-false",
+			"category": "Search",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Microsoft Graph Connectors enable indexing external systems."
+		},
+		{
+			"id": "143",
+			"text": "SharePoint Online allows disabling modern UI for the entire tenant.",
+			"type": "true-false",
+			"category": "Tenant Settings",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Modern UI is default and cannot be globally disabled."
+		},
+		{
+			"id": "144",
+			"text": "Syntex can automatically classify and extract metadata from files using AI models.",
+			"type": "true-false",
+			"category": "AI & Automation",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Syntex uses machine learning for classification and metadata extraction."
+		},
+		{
+			"id": "145",
+			"text": "SharePoint Online supports unlimited subsites in a site collection.",
+			"type": "true-false",
+			"category": "Governance",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Modern SharePoint promotes flat architecture over deep subsite structures."
+		},
+		{
+			"id": "146",
+			"text": "Microsoft recommends hub site-to-hub site associations for cross-organization navigation.",
+			"type": "true-false",
+			"category": "Navigation",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Hub-to-hub associations are not supported; only nested global navigation via home sites."
+		},
+		{
+			"id": "147",
+			"text": "SharePoint Search respects security trimming at the item level.",
+			"type": "true-false",
+			"category": "Security",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Search only returns items a user is permitted to view."
+		},
+		{
+			"id": "148",
+			"text": "Hybrid search requires a Cloud SSA (Search Service Application) to be configured.",
+			"type": "true-false",
+			"category": "Hybrid",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "Cloud SSA enables hybrid search between SharePoint Server and Online."
+		},
+		{
+			"id": "149",
+			"text": "SharePoint Online supports custom master pages in modern sites.",
+			"type": "true-false",
+			"category": "Customization",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "False",
+			"explanation": "Modern SharePoint restricts master page customization to preserve responsiveness and updates."
+		},
+		{
+			"id": "150",
+			"text": "SPFx web parts can run on classic SharePoint pages.",
+			"type": "true-false",
+			"category": "SPFx Architecture",
+			"answers": [
+				"True",
+				"False"
+			],
+			"correctAnswer": "True",
+			"explanation": "SPFx is compatible with both classic and modern sites."
+		},
+		    {
+        "id": "151",
+        "text": "Which Power Platform component is primarily responsible for building low-code automation workflows?",
+        "type": "multiple-choice",
+        "category": "Power Platform",
+        "answers": [
+            "Power Apps",
+            "Power Automate",
+            "Power BI",
+            "Power Pages"
+        ],
+        "correctAnswer": "Power Automate",
+        "explanation": "Power Automate builds low-code automation for workflows across Microsoft 365 and external systems."
+    },
+    {
+        "id": "152",
+        "text": "Which Azure service is ideal for hosting globally distributed JSON-based applications?",
+        "type": "multiple-choice",
+        "category": "Azure Architecture",
+        "answers": [
+            "Azure SQL Managed Instance",
+            "Azure Cosmos DB",
+            "Azure PostgreSQL",
+            "Azure Redis Cache"
+        ],
+        "correctAnswer": "Azure Cosmos DB",
+        "explanation": "Cosmos DB provides global distribution, low latency, and schema-flexible JSON storage."
+    },
+    {
+        "id": "153",
+        "text": "Which DevOps practice ensures infrastructure is created and maintained programmatically?",
+        "type": "multiple-choice",
+        "category": "DevOps",
+        "answers": [
+            "Shift Left Testing",
+            "Infrastructure as Code (IaC)",
+            "Continuous Feedback",
+            "Versioning Control"
+        ],
+        "correctAnswer": "Infrastructure as Code (IaC)",
+        "explanation": "IaC ensures environment consistency by managing infrastructure via code."
+    },
+    {
+        "id": "154",
+        "text": "In Azure AD, which OAuth flow is recommended for daemon/background applications?",
+        "type": "multiple-choice",
+        "category": "Azure Identity",
+        "answers": [
+            "Authorization Code Flow",
+            "Client Credentials Flow",
+            "Hybrid Flow",
+            "Implicit Flow"
+        ],
+        "correctAnswer": "Client Credentials Flow",
+        "explanation": "Client credentials enable server-to-server authentication without user interaction."
+    },
+    {
+        "id": "155",
+        "text": "Which Power BI feature enables row-level security across large datasets?",
+        "type": "multiple-choice",
+        "category": "Power BI",
+        "answers": [
+            "Calculated Columns",
+            "RLS Filters",
+            "Dataflows",
+            "Power Query"
+        ],
+        "correctAnswer": "RLS Filters",
+        "explanation": "Row-level security restricts data visibility per user."
+    },
+
+    /* -------------------- Continue Multiple-Choice (IDs 156–190) -------------------- */
+
+    {
+        "id": "156",
+        "text": "Which Azure service provides automatic scaling for hosting .NET web applications?",
+        "type": "multiple-choice",
+        "category": "Azure App Services",
+        "answers": [
+            "Azure Functions",
+            "Azure VM Scale Sets",
+            "Azure App Service",
+            "Azure Batch"
+        ],
+        "correctAnswer": "Azure App Service",
+        "explanation": "App Services support auto-scaling for web application workloads."
+    },
+    {
+        "id": "157",
+        "text": "Which tool is best suited for building CI/CD pipelines for SharePoint Framework (SPFx)?",
+        "type": "multiple-choice",
+        "category": "DevOps",
+        "answers": [
+            "GitHub Actions",
+            "Team Foundation Server",
+            "Azure Batch",
+            "Microsoft Flow"
+        ],
+        "correctAnswer": "GitHub Actions",
+        "explanation": "GitHub Actions supports Node.js pipelines and NPM tasks required for SPFx."
+    },
+    {
+        "id": "158",
+        "text": "Which Azure service is commonly used as a middleware integration layer for SharePoint Online automations?",
+        "type": "multiple-choice",
+        "category": "Azure Integration",
+        "answers": [
+            "Azure Functions",
+            "Azure Monitor",
+            "Azure Cognitive Services",
+            "Azure Backup"
+        ],
+        "correctAnswer": "Azure Functions",
+        "explanation": "Functions can create serverless endpoints triggered by SharePoint webhooks or Power Automate."
+    },
+    {
+        "id": "159",
+        "text": "Which Microsoft tool is recommended to automate provisioning modern SharePoint sites with templates?",
+        "type": "multiple-choice",
+        "category": "SharePoint Automation",
+        "answers": [
+            "Graph Explorer",
+            "PnP Provisioning Engine",
+            "Azure CLI",
+            "PowerShell ISE"
+        ],
+        "correctAnswer": "PnP Provisioning Engine",
+        "explanation": "PnP templates enable automated creation of SPO sites with structure and content."
+    },
+    {
+        "id": "160",
+        "text": "Which Azure network feature secures App Service outbound traffic to specific destinations?",
+        "type": "multiple-choice",
+        "category": "Azure Networking",
+        "answers": [
+            "Network Security Groups",
+            "Service Endpoints",
+            "VNet Integration with Private Endpoints",
+            "User Defined Routes"
+        ],
+        "correctAnswer": "VNet Integration with Private Endpoints",
+        "explanation": "Private Endpoints secure communication through private IPs."
+    },
+
+    {
+        "id": "190",
+        "text": "Which Azure service monitors SharePoint Online and M365 user activity with real-time alerts?",
+        "type": "multiple-choice",
+        "category": "Security & Compliance",
+        "answers": [
+            "Azure Monitor",
+            "Microsoft Purview",
+            "Azure Sentinel",
+            "Log Analytics"
+        ],
+        "correctAnswer": "Azure Sentinel",
+        "explanation": "Sentinel integrates M365 logs for threat detection and analytics."
+    },
+
+    /* ---------------------------- TRUE / FALSE (IDs 191–200) ---------------------------- */
+
+    {
+        "id": "191",
+        "text": "Azure Logic Apps can connect directly to SharePoint Online using built-in connectors.",
+        "type": "true-false",
+        "category": "Azure Integration",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "Logic Apps include SharePoint connectors for file and list operations."
+    },
+    {
+        "id": "192",
+        "text": "Power Apps Canvas apps can only connect to Microsoft 365 services.",
+        "type": "true-false",
+        "category": "Power Platform",
+        "answers": ["True", "False"],
+        "correctAnswer": "False",
+        "explanation": "Canvas apps connect to hundreds of connectors including SQL, Dataverse, Salesforce, etc."
+    },
+    {
+        "id": "193",
+        "text": "Azure DevOps can deploy SPFx solutions to SharePoint App Catalog automatically.",
+        "type": "true-false",
+        "category": "DevOps",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "DevOps pipelines can publish SPFx packages via PnP PowerShell."
+    },
+    {
+        "id": "194",
+        "text": "Azure Functions can be triggered by a SharePoint Webhook.",
+        "type": "true-false",
+        "category": "Azure Functions",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "SharePoint sends webhook notifications to HTTP-triggered Functions."
+    },
+    {
+        "id": "195",
+        "text": "Power BI Premium is required for paginated reports.",
+        "type": "true-false",
+        "category": "Power BI",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "Paginated reports require premium capacity for rendering."
+    },
+    {
+        "id": "196",
+        "text": "SharePoint Online supports executing custom server-side code.",
+        "type": "true-false",
+        "category": "SharePoint Architecture",
+        "answers": ["True", "False"],
+        "correctAnswer": "False",
+        "explanation": "Server-side code is blocked; SPFx and client-side solutions are required."
+    },
+    {
+        "id": "197",
+        "text": "Azure API Management can act as a gateway for SharePoint Online API calls.",
+        "type": "true-false",
+        "category": "Azure Integration",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "APIM can proxy and secure outbound calls from SPFx or Power Apps."
+    },
+    {
+        "id": "198",
+        "text": "Azure Blob Storage can serve SPFx web part assets as a CDN.",
+        "type": "true-false",
+        "category": "SPFx",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "SPFx build allows CDN deployment and Azure Blob Storage is commonly used."
+    },
+    {
+        "id": "199",
+        "text": "Power Automate cannot update SharePoint document metadata.",
+        "type": "true-false",
+        "category": "Power Platform",
+        "answers": ["True", "False"],
+        "correctAnswer": "False",
+        "explanation": "Power Automate can update list item metadata and file properties."
+    },
+    {
+        "id": "200",
+        "text": "Azure Monitor can collect telemetry for SharePoint Framework (SPFx) web parts.",
+        "type": "true-false",
+        "category": "Monitoring",
+        "answers": ["True", "False"],
+        "correctAnswer": "True",
+        "explanation": "SPFx can send custom telemetry to Application Insights, part of Azure Monitor."
+    }
+	]
+}

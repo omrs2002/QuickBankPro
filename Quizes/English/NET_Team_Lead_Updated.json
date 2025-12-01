@@ -1,0 +1,807 @@
+{
+  "title": "NET Team Lead & Solution Architect Quiz",
+  "titleEn": ".NET Team Lead & Solution Architect Quiz",
+  "description": "A practice test with multiple-choice and true/false questions covering .NET leadership, architecture, cloud, design patterns, DevOps, SharePoint, Power Platform and enterprise engineering",
+  "categoryId": 1,
+  "isFree": false,
+  "lang": "en",
+  "questions": [
+    {
+      "id": "001",
+      "text": "Which SPFx base class controls lifecycle of a client-side web part?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "BaseClientSideWebPart",
+        "BaseController",
+        "SPComponent",
+        "BaseService"
+      ],
+      "correctAnswer": "BaseClientSideWebPart",
+      "explanation": "The `BaseClientSideWebPart` class is the entry point for all client-side web parts in SPFx. It provides essential methods like `onInit()` for setup, `render()` to display the UI, and `onDispose()` for cleanup, managing the complete lifecycle of the web part on a SharePoint page."
+    },
+    {
+      "id": "002",
+      "text": "Which protocol is used by gRPC for high-performance RPC communication?",
+      "type": "multiple-choice",
+      "category": "Messaging",
+      "answers": [
+        "REST/JSON",
+        "SOAP/XML",
+        "HTTP/2 with Protobuf",
+        "WebSockets"
+      ],
+      "correctAnswer": "HTTP/2 with Protobuf",
+      "explanation": "gRPC leverages HTTP/2 for its performance benefits like multiplexing and server push. It uses Protocol Buffers (Protobuf) as its interface definition language and for serializing structured data, which is more efficient and compact than text-based formats like JSON."
+    },
+    {
+      "id": "003",
+      "text": "What is the command to create a new ASP.NET Core Web API project?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "dotnet new mvc",
+        "dotnet new webapi",
+        "dotnet build",
+        "dotnet run"
+      ],
+      "correctAnswer": "dotnet new webapi",
+      "explanation": "The `dotnet new webapi` command uses the .NET CLI to create a new project based on the ASP.NET Core Web API template. This provides a basic structure with controllers, a `Program.cs` file, and `launchSettings.json` to get started quickly."
+    },
+    {
+      "id": "004",
+      "text": "Which logging abstraction is built into ASP.NET Core?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "Serilog",
+        "NLog",
+        "ILogger",
+        "Log4Net"
+      ],
+      "correctAnswer": "ILogger",
+      "explanation": "ASP.NET Core includes a built-in logging framework with the `ILogger<T>` interface as its primary abstraction. This allows developers to write log messages without being tied to a specific logging provider (like Serilog, NLog, or the console logger), which can be configured in `Program.cs`."
+    },
+    {
+      "id": "005",
+      "text": "Which Azure service is most commonly used for hosting containerized .NET microservices?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "Azure VM Scale Sets",
+        "Azure App Service",
+        "Azure Kubernetes Service (AKS)",
+        "Azure Functions"
+      ],
+      "correctAnswer": "Azure Kubernetes Service (AKS)",
+      "explanation": "Azure Kubernetes Service (AKS) is a managed container orchestration service. It simplifies deploying, managing, and scaling containerized applications using Kubernetes, making it the standard choice for complex microservices architectures on Azure."
+    },
+    {
+      "id": "006",
+      "text": "Which HTTP method should be used when updating a resource partially?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH"
+      ],
+      "correctAnswer": "PATCH",
+      "explanation": "According to HTTP semantics, `PUT` is used to completely replace a resource with a new representation. `PATCH` is used to apply a partial modification to a resource, meaning you only send the fields that need to be changed."
+    },
+    {
+      "id": "007",
+      "text": "Which approach reduces downtime by switching traffic between two identical environments?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "Canary",
+        "Blue-Green",
+        "Rolling",
+        "Recreate"
+      ],
+      "correctAnswer": "Blue-Green",
+      "explanation": "Blue-Green deployment involves running two identical production environments ('Blue' and 'Green'). At any time, only one of them is live. To deploy a new version, you deploy to the inactive environment, test it, and then switch the router to send all traffic to the new version, allowing for zero-downtime deployments."
+    },
+    {
+      "id": "008",
+      "text": "Which authentication flow is recommended for server-to-server (daemon) apps in Azure AD?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Authorization Code",
+        "Implicit Flow",
+        "Client Credentials",
+        "Resource Owner Password"
+      ],
+      "correctAnswer": "Client Credentials",
+      "explanation": "The Client Credentials grant flow is used when an application needs to access resources using its own identity, without a user being present. This is ideal for daemon services, background jobs, or server-to-server APIs where the application authenticates with its client ID and secret."
+    },
+    {
+      "id": "009",
+      "text": "Which monitoring technique captures end-to-end request flow across services?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "Local logs",
+        "Distributed tracing",
+        "Unit tests",
+        "Health checks"
+      ],
+      "correctAnswer": "Distributed tracing",
+      "explanation": "Distributed tracing is a method used to profile and monitor applications, especially those built using a microservices architecture. It helps pinpoint where failures occur and what causes poor performance by assigning a unique ID to a request and tracking its journey across multiple services."
+    },
+    {
+      "id": "010",
+      "text": "Which DevOps practice aims to keep codebase always in a releasable state by integrating changes frequently?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "Continuous Integration",
+        "Continuous Deployment",
+        "Manual Testing",
+        "Feature Branching"
+      ],
+      "correctAnswer": "Continuous Integration",
+      "explanation": "Continuous Integration (CI) is a DevOps practice where developers frequently merge their code changes into a central repository, after which automated builds and tests are run. This helps to find and address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates."
+    },
+    {
+      "id": "011",
+      "text": "Which Azure service provides serverless event-driven compute for short-running tasks?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Functions",
+        "Azure VMs",
+        "Azure Batch",
+        "Azure Kubernetes Service"
+      ],
+      "correctAnswer": "Azure Functions",
+      "explanation": "Azure Functions is a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure. It's ideal for short-running, stateless tasks like processing queue messages, responding to HTTP triggers, or running on a schedule."
+    },
+    {
+      "id": "012",
+      "text": "Which EF Core feature helps reduce round trips by retrieving related entities in a single query?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "Lazy Loading",
+        "Eager Loading",
+        "Change Tracking",
+        "Shadow Properties"
+      ],
+      "correctAnswer": "Eager Loading",
+      "explanation": "Eager loading is the process whereby a query for one type of entity also loads related entities as part of the query. In EF Core, this is achieved using the `Include()` method. It results in a single, more complex query to the database but avoids subsequent round trips (the N+1 problem)."
+    },
+    {
+      "id": "013",
+      "text": "Which tool is used to perform static code analysis and track code quality?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "Postman",
+        "SonarQube",
+        "Swagger",
+        "Docker"
+      ],
+      "correctAnswer": "SonarQube",
+      "explanation": "SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect bugs, code smells, and security vulnerabilities in over 20 programming languages, providing reports and quality gates for CI/CD pipelines."
+    },
+    {
+      "id": "014",
+      "text": "Which message delivery semantic attempts to guarantee a message is processed only once?",
+      "type": "multiple-choice",
+      "category": "Messaging",
+      "answers": [
+        "At-most-once",
+        "At-least-once",
+        "Exactly-once",
+        "Fire-and-forget"
+      ],
+      "correctAnswer": "Exactly-once",
+      "explanation": "Exactly-once is the strongest delivery guarantee, ensuring that a message is delivered and processed only once, even in the event of failures. This is complex to achieve and often involves idempotent consumers and transactional processing. At-least-once is more common."
+    },
+    {
+      "id": "015",
+      "text": "Which pattern separates read and write models to improve scalability?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Repository",
+        "CQRS",
+        "Unit of Work",
+        "Adapter"
+      ],
+      "correctAnswer": "CQRS",
+      "explanation": "Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates the models for reading data (Queries) from the models for updating data (Commands). This allows the read and write workloads to be scaled and optimized independently."
+    },
+    {
+      "id": "016",
+      "text": "Which pattern helps manage failures by opening a circuit after repeated errors?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "Retry",
+        "Circuit Breaker",
+        "Bulkhead",
+        "Observer"
+      ],
+      "correctAnswer": "Circuit Breaker",
+      "explanation": "The Circuit Breaker pattern is a resilience pattern that wraps a protected function call. It monitors for failures and, after a certain threshold, 'trips' the circuit to stop making calls to the failing service, allowing it to recover and preventing a cascading failure in the system."
+    },
+    {
+      "id": "017",
+      "text": "Which .NET runtime is cross-platform and optimized for high-performance server applications?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        ".NET Framework",
+        ".NET Standard",
+        ".NET Core",
+        "Mono"
+      ],
+      "correctAnswer": ".NET Core",
+      "explanation": ".NET Core (now simply called .NET 5 and later) is the modern, open-source, and cross-platform successor to the .NET Framework. It is optimized for building high-performance, cloud-native server applications."
+    },
+    {
+      "id": "018",
+      "text": "Which Azure service provides distributed messaging with pub/sub semantics?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Queue Storage",
+        "Azure Service Bus Topics",
+        "Azure Blob Storage",
+        "Azure Key Vault"
+      ],
+      "correctAnswer": "Azure Service Bus Topics",
+      "explanation": "Azure Service Bus Topics and Subscriptions provide a one-to-many form of communication in a publish/subscribe (pub/sub) pattern. A publisher sends a message to a topic, and one or more subscribers can receive a copy of the message, enabling decoupled, fan-out scenarios."
+    },
+    {
+      "id": "019",
+      "text": "Which SharePoint feature centralizes navigation across related sites?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "Subsites",
+        "Hub Sites",
+        "Managed Paths",
+        "Site Collections"
+      ],
+      "correctAnswer": "Hub Sites",
+      "explanation": "In modern SharePoint architecture, Hub Sites act as a connection point for multiple sites (both Team and Communication sites). They provide shared navigation, branding, and allow content to be rolled up and searched across all associated sites."
+    },
+    {
+      "id": "020",
+      "text": "Which Azure component provides identity and access management for apps?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure AD",
+        "Azure Monitor",
+        "Azure DevOps",
+        "Azure Key Vault"
+      ],
+      "correctAnswer": "Azure AD",
+      "explanation": "Azure Active Directory (Azure AD) is Microsoft's cloud-based identity and access management service. It is used to manage users, groups, and application identities, and provides authentication services like single sign-on (SSO) for thousands of SaaS applications, including Microsoft 365."
+    },
+    {
+      "id": "021",
+      "text": "Which Azure service is used for secrets, keys and certificate management?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Key Vault",
+        "Azure Storage",
+        "Azure Monitor",
+        "Azure AD B2C"
+      ],
+      "correctAnswer": "Azure Key Vault",
+      "explanation": "Azure Key Vault is a cloud service for securely storing and accessing secrets, such as API keys, passwords, or certificates. It provides centralized storage, hardware security modules (HSMs), and access policies to safeguard sensitive information."
+    },
+    {
+      "id": "022",
+      "text": "Which Azure service accelerates global content delivery via edge POPs?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Monitor",
+        "Azure CDN",
+        "Azure Front Door",
+        "Azure Traffic Manager"
+      ],
+      "correctAnswer": "Azure CDN",
+      "explanation": "Azure Content Delivery Network (CDN) offers a global solution for rapidly delivering high-bandwidth content. It caches content at strategically placed physical nodes (Points of Presence or POPs) across the world to provide low-latency access to users."
+    },
+    {
+      "id": "023",
+      "text": "Which component in ASP.NET Core processes requests via a configured pipeline?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "Controllers",
+        "Middleware",
+        "Filters",
+        "Views"
+      ],
+      "correctAnswer": "Middleware",
+      "explanation": "In ASP.NET Core, middleware are software components that are assembled into an application pipeline to handle requests and responses. Each component can perform operations before and after the next component, forming a chain of responsibility."
+    },
+    {
+      "id": "024",
+      "text": "Which caching approach is best for storing session data in a distributed system?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "In-process cache",
+        "Distributed cache (Redis)",
+        "File system cache",
+        "Local memory only"
+      ],
+      "correctAnswer": "Distributed cache (Redis)",
+      "explanation": "In a distributed system with multiple server instances, an in-process cache is not shared. A distributed cache, like Redis, provides a centralized, external store that all instances can access, ensuring data consistency and enabling scalable caching strategies."
+    },
+    {
+      "id": "025",
+      "text": "What design pattern is commonly used to decouple an interface from its implementation?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Repository Pattern",
+        "Factory Pattern",
+        "Adapter Pattern",
+        "Dependency Injection"
+      ],
+      "correctAnswer": "Dependency Injection",
+      "explanation": "Dependency Injection (DI) is a form of Inversion of Control (IoC) where an object receives its dependencies from an external source rather than creating them itself. This decouples components and makes the system more modular, flexible, and easier to test with mocks."
+    },
+    {
+      "id": "026",
+      "text": "Which provisioning engine is commonly used to automate modern SharePoint site provisioning?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "STSADM",
+        "PnP Provisioning Engine",
+        "Central Admin",
+        "PowerShell ISE"
+      ],
+      "correctAnswer": "PnP Provisioning Engine",
+      "explanation": "The SharePoint Patterns and Practices (PnP) Provisioning Engine is a framework that allows you to model a site's structure (lists, content types, pages, themes) in a template and apply it programmatically. It is the modern standard for automating site provisioning."
+    },
+    {
+      "id": "027",
+      "text": "Which storage is optimized for large binary files in Azure?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Table Storage",
+        "Azure Blob Storage",
+        "Azure Queue Storage",
+        "Azure Files"
+      ],
+      "correctAnswer": "Azure Blob Storage",
+      "explanation": "Azure Blob Storage is Microsoft's object storage solution, optimized for storing massive amounts of unstructured data, such as text or binary data (documents, images, videos). It is highly scalable and cost-effective for this purpose."
+    },
+    {
+      "id": "028",
+      "text": "Which design principle stands for Open/Closed, Liskov, etc.?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "DRY",
+        "KISS",
+        "SOLID",
+        "YAGNI"
+      ],
+      "correctAnswer": "SOLID",
+      "explanation": "SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. The principles are: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion."
+    },
+    {
+      "id": "029",
+      "text": "Which architectural style encourages splitting systems into independently deployable services?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "Layered Architecture",
+        "Monolithic Architecture",
+        "Microservices Architecture",
+        "Client\u2013Server Architecture"
+      ],
+      "correctAnswer": "Microservices Architecture",
+      "explanation": "Microservices is an architectural style that structures an application as a collection of small, autonomous services, modeled around a business domain. Each service is self-contained and can be deployed and scaled independently."
+    },
+    {
+      "id": "030",
+      "text": "Which .NET collection provides O(1) average lookup by key?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "List<T>",
+        "Queue<T>",
+        "Dictionary<TKey, TValue>",
+        "LinkedList<T>"
+      ],
+      "correctAnswer": "Dictionary<TKey, TValue>",
+      "explanation": "The `Dictionary<TKey, TValue>` class is implemented as a hash table. On average, this allows for retrieval, insertion, and deletion operations to be completed in constant time, O(1), making it highly efficient for key-based lookups."
+    },
+    {
+      "id": "031",
+      "text": "Which .NET feature allows a method to return a sequence of values over time, rather than all at once?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Async/Await",
+        "Delegates",
+        "Iterators (yield return)",
+        "Extension Methods"
+      ],
+      "correctAnswer": "Iterators (yield return)",
+      "explanation": "Iterators using `yield return` enable deferred execution. The method generates values one at a time as they are requested by the consumer (e.g., in a `foreach` loop), which is highly memory-efficient for large sequences."
+    },
+    {
+      "id": "032",
+      "text": "What is the primary purpose of the 'Strangler Fig' pattern in software architecture?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "To incrementally migrate a legacy system by gradually replacing pieces of functionality with new applications and services.",
+        "To create a single, monolithic application from multiple smaller services.",
+        "To optimize database performance by 'strangling' slow queries.",
+        "To secure an application by wrapping it in a protective layer."
+      ],
+      "correctAnswer": "To incrementally migrate a legacy system by gradually replacing pieces of functionality with new applications and services.",
+      "explanation": "The Strangler Fig pattern is a low-risk method for modernizing legacy systems. New functionality is built around the old system, which is gradually 'strangled' until it can be decommissioned."
+    },
+    {
+      "id": "033",
+      "text": "In Power Automate, what is the role of a 'Connector'?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "To provide a bridge for Power Automate to communicate with another service's API (e.g., SharePoint, Twitter, SQL Server).",
+        "To connect two different flows together.",
+        "To define the trigger for a flow.",
+        "To store variables used within a flow."
+      ],
+      "correctAnswer": "To provide a bridge for Power Automate to communicate with another service's API (e.g., SharePoint, Twitter, SQL Server).",
+      "explanation": "Connectors are wrappers around APIs that allow different services to talk to each other. Power Automate has hundreds of pre-built connectors to enable integration with a wide range of Microsoft and third-party services."
+    },
+    {
+      "id": "034",
+      "text": "What is the primary difference between `Task.Run` and `Task.Factory.StartNew`?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "`Task.Run` is a modern, simplified API with safer defaults, while `StartNew` is a more complex, lower-level API.",
+        "`StartNew` is faster than `Task.Run`.",
+        "`Task.Run` can only be used in `async` methods.",
+        "There is no difference; they are interchangeable."
+      ],
+      "correctAnswer": "`Task.Run` is a modern, simplified API with safer defaults, while `StartNew` is a more complex, lower-level API.",
+      "explanation": "`Task.Run` is the recommended way to queue work on the thread pool. It's essentially a shortcut for `Task.Factory.StartNew` with common, safe parameters. `StartNew` has complex options that can lead to unexpected behavior if not configured correctly."
+    },
+    {
+      "id": "035",
+      "text": "What is the purpose of the `[ProducesResponseType]` attribute in an ASP.NET Core controller action?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To define the possible HTTP status codes and response types an action can return, for OpenAPI/Swagger documentation.",
+        "To restrict the action to only produce a specific response type.",
+        "To automatically serialize the response to JSON.",
+        "To measure the performance of the response."
+      ],
+      "correctAnswer": "To define the possible HTTP status codes and response types an action can return, for OpenAPI/Swagger documentation.",
+      "explanation": "This attribute enriches the metadata for an API endpoint, allowing tools like Swagger/Swashbuckle to generate more accurate and descriptive API documentation for consumers."
+    },
+    {
+      "id": "036",
+      "text": "In Azure DevOps, what is the difference between a 'Build Pipeline' and a 'Release Pipeline'?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "A Build Pipeline produces a deployable artifact; a Release Pipeline deploys that artifact to one or more environments.",
+        "A Build Pipeline is for .NET code; a Release Pipeline is for JavaScript.",
+        "They are the same thing, just with different names.",
+        "A Build Pipeline runs tests; a Release Pipeline does not."
+      ],
+      "correctAnswer": "A Build Pipeline produces a deployable artifact; a Release Pipeline deploys that artifact to one or more environments.",
+      "explanation": "The Build Pipeline (CI) compiles code and runs tests to create a versioned artifact. The Release Pipeline (CD) takes that artifact and manages its deployment through various stages (e.g., Dev, Staging, Prod), often including approvals and configuration changes."
+    },
+    {
+      "id": "037",
+      "text": "What is the 'N+1' query problem in the context of an ORM like Entity Framework?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "A performance issue where one initial query is executed, followed by N additional queries to fetch related data.",
+        "A security vulnerability where N+1 users can access the same data.",
+        "A database design where a table has N+1 foreign keys.",
+        "A feature that allows a query to be executed N+1 times for reliability."
+      ],
+      "correctAnswer": "A performance issue where one initial query is executed, followed by N additional queries to fetch related data.",
+      "explanation": "This often occurs with lazy loading. To fix it, you should use eager loading (with `Include()`) or explicit loading to fetch all the required data in a more efficient manner, typically with a single, more complex query."
+    },
+    {
+      "id": "038",
+      "text": "What is the primary goal of the 'Interface Segregation Principle' (ISP) in SOLID?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "To ensure that clients are not forced to depend on interfaces they do not use.",
+        "To create one large interface for all possible methods.",
+        "To segregate interfaces into separate files.",
+        "To make all interface methods virtual."
+      ],
+      "correctAnswer": "To ensure that clients are not forced to depend on interfaces they do not use.",
+      "explanation": "ISP advocates for creating smaller, more specific interfaces ('role interfaces') rather than large, general-purpose ones. This prevents classes from having to implement methods they don't need, leading to a more decoupled and maintainable design."
+    },
+    {
+      "id": "039",
+      "text": "In SharePoint, what is the difference between a 'Site Column' and a 'List Column'?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "A Site Column is reusable across multiple lists in a site collection; a List Column is specific to a single list.",
+        "Site Columns can only be of type 'Text', while List Columns can be any type.",
+        "List Columns are more performant than Site Columns.",
+        "There is no difference; the terms are interchangeable."
+      ],
+      "correctAnswer": "A Site Column is reusable across multiple lists in a site collection; a List Column is specific to a single list.",
+      "explanation": "Defining a column as a Site Column allows you to enforce consistency and reuse the same metadata definition across your site collection. A List Column is created directly on a list and can only be used there."
+    },
+    {
+      "id": "040",
+      "text": "What is the purpose of a 'correlation ID' in a microservices architecture?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "To track a single user request as it flows through multiple services, for logging and debugging.",
+        "To correlate database tables with service endpoints.",
+        "A unique ID for a specific service instance.",
+        "A security token used for authentication."
+      ],
+      "correctAnswer": "To track a single user request as it flows through multiple services, for logging and debugging.",
+      "explanation": "A correlation ID is passed in the headers of each service-to-service call. This allows you to aggregate all logs related to a single initial request, which is essential for distributed tracing and debugging in a complex system."
+    },
+    {
+      "id": "041",
+      "text": "Unit tests should not access real databases.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Unit tests are meant to be fast and test a small piece of logic in isolation. Accessing a real database, network, or file system makes the test an 'integration test,' which is slower and more brittle. Dependencies should be mocked or stubbed in unit tests."
+    },
+    {
+      "id": "042",
+      "text": "SPFx web parts can run on classic SharePoint pages.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "SPFx web parts are designed to be backward compatible. You can add an SPFx web part to a classic web part page, providing a good migration path for gradually modernizing older SharePoint sites."
+    },
+    {
+      "id": "043",
+      "text": "Async/await improves throughput by increasing CPU utilization.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Async/await improves application scalability and responsiveness, especially for I/O-bound operations (like web requests or database calls). It frees up the calling thread to do other work instead of blocking, which improves throughput, but it does not inherently increase raw CPU processing speed."
+    },
+    {
+      "id": "044",
+      "text": "Power Automate cannot update SharePoint document metadata.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Power Automate has a rich SharePoint connector that includes actions to 'Update file properties' and 'Update item'. This allows you to easily build workflows that modify list item metadata or document library properties based on triggers or other logic."
+    },
+    {
+      "id": "045",
+      "text": "Entity Framework Core supports both LINQ and raw SQL queries.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "While LINQ to Entities is the primary way to query data, EF Core provides methods like `FromSqlRaw()` and `FromSqlInterpolated()` to execute raw SQL queries when you need to run a query that can't be expressed in LINQ or when you need to optimize a specific query."
+    },
+    {
+      "id": "046",
+      "text": "gRPC is generally faster than REST for internal service communication.",
+      "type": "true-false",
+      "category": "Messaging",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "For internal service-to-service communication, gRPC is often more performant than REST over JSON. This is because it uses the efficient Protocol Buffers (Protobuf) binary serialization format and leverages the capabilities of HTTP/2, such as multiplexing and streaming."
+    },
+    {
+      "id": "047",
+      "text": "Azure Functions can be triggered by a SharePoint Webhook.",
+      "type": "true-false",
+      "category": "Azure",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "SharePoint webhooks can be configured to send a notification to a publicly accessible REST endpoint whenever a change occurs in a list. An Azure Function with an HTTP trigger is a perfect serverless candidate for receiving and processing these notifications."
+    },
+    {
+      "id": "048",
+      "text": "Structs in C# are reference types.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Structs are value types, meaning their variables directly contain their data and are typically stored on the stack. Classes are reference types, where variables hold a reference to an object stored on the heap."
+    },
+    {
+      "id": "049",
+      "text": "Modern SharePoint promotes flat site architecture over deep subsite structures.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "The modern SharePoint architecture favors a 'flat' structure of many independent site collections. These sites are then associated with Hub Sites to provide shared navigation, branding, and search capabilities, offering more flexibility than the rigid hierarchy of classic subsites."
+    },
+    {
+      "id": "050",
+      "text": "JWT tokens must always be stored in local storage for security.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "id": "141",
+      "text": "A .NET solution architect should prioritize coupling over cohesion.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "This is incorrect. A well-designed architecture should always favor low coupling (components are independent) and high cohesion (components have a well-defined, focused purpose). This makes the system more maintainable, testable, and scalable."
+    },
+    {
+      "id": "142",
+      "text": "Container images should be built using minimal base images for security.",
+      "type": "true-false",
+      "category": "DevOps",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Using minimal base images (like Alpine Linux or .NET's runtime-deps images) is a security best practice. It reduces the container's attack surface by excluding unnecessary tools and libraries, and it also results in smaller, faster image downloads."
+    },
+    {
+      "id": "143",
+      "text": "Unit tests should not access real databases.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Unit tests should be fast and test a single unit of code in isolation. Accessing external dependencies like a database makes it an integration test, which is slower and more brittle. These dependencies should be mocked or stubbed out."
+    },
+    {
+      "id": "144",
+      "text": "Power Apps Canvas apps can only connect to Microsoft 365 services.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Power Apps Canvas apps support a vast library of standard and premium connectors, allowing them to connect to hundreds of services, including SQL Server, Dataverse, Salesforce, Twitter, and many others, not just Microsoft 365."
+    },
+    {
+      "id": "145",
+      "text": "SharePoint Online supports full trust farm solutions.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Full-trust farm solutions, which run server-side code in the SharePoint process, are strictly for on-premises deployments. SharePoint Online is a multi-tenant environment and does not allow this level of access. Modern development uses the SharePoint Framework (SPFx) and external APIs."
+    },
+    {
+      "id": "146",
+      "text": "Azure Service Bus is used for real-time streaming analytics.",
+      "type": "true-false",
+      "category": "Azure",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Azure Event Hubs is the service designed for high-throughput, real-time data ingestion and streaming analytics. Azure Service Bus is a brokered messaging service designed for reliable, enterprise-grade messaging with features like queues, topics, and dead-lettering."
+    },
+    {
+      "id": "147",
+      "text": "ASP.NET Core middleware executes in a pipeline sequentially.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "The ASP.NET Core request pipeline is composed of a sequence of middleware components. Each piece of middleware is executed in the order it was added to the pipeline and can choose to pass the request to the next component or short-circuit the pipeline by generating a response itself."
+    },
+    {
+      "id": "148",
+      "text": "Clean Architecture enforces separation of concerns through concentric layers.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Clean Architecture, promoted by Robert C. Martin, organizes code into concentric layers (Entities, Use Cases, Interface Adapters, Frameworks & Drivers) with a strict dependency rule: source code dependencies can only point inwards. This creates a system that is independent of frameworks, UI, and databases."
+    },
+    {
+      "id": "149",
+      "text": "Entity Framework Core supports both LINQ and raw SQL queries.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "While LINQ is the primary method for querying, EF Core provides `FromSqlRaw` and `FromSqlInterpolated` methods to execute raw SQL queries for scenarios where LINQ is insufficient or less performant. This offers flexibility while still providing object materialization."
+    },
+    {
+      "id": "150",
+      "text": "SharePoint Search respects security trimming at the item level.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Storing JWTs in local storage makes them accessible to any JavaScript running on the page, creating a significant Cross-Site Scripting (XSS) vulnerability. Storing them in secure, HttpOnly cookies is a much safer alternative for web applications."
+    }
+  ]
+}

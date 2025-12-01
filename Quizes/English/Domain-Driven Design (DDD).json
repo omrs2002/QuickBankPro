@@ -1,0 +1,1371 @@
+{
+   "title": "التصميم الموجه بالمجال (DDD)",
+    "titleEn": "Domain-Driven Design (DDD) Exam",
+    "categoryId": 11,
+    "isFree": false,
+    "lang": "en",
+    "description": "This comprehensive exam covers all major aspects of Domain-Driven Design (DDD) Created by DS.The questions progress from fundamental concepts to advanced implementation patterns, with detailed explanations and practical examples for each concept.",
+    "questions": [
+        {
+            "id": "ddd-001",
+            "text": "What is the primary goal of Domain-Driven Design (DDD)?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "To create the most efficient database schema",
+                "To align software implementation with business domain concepts",
+                "To maximize code reusability across different projects",
+                "To implement the latest architectural patterns"
+            ],
+            "correctAnswer": "To align software implementation with business domain concepts",
+            "explanation": "DDD focuses on creating software that reflects the business domain, using a shared language between technical teams and domain experts. Example: In an e-commerce system, terms like 'Order', 'Inventory', and 'Shipping' would be central to both business discussions and code implementation."
+        },
+        {
+            "id": "ddd-002",
+            "text": "What is the 'Ubiquitous Language' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A programming language used across all projects",
+                "A shared language between developers and domain experts",
+                "A universal design pattern documentation format",
+                "A standardized API specification language"
+            ],
+            "correctAnswer": "A shared language between developers and domain experts",
+            "explanation": "Ubiquitous Language is a common vocabulary used by all team members (both technical and business) to ensure clear communication. Example: In a banking domain, terms like 'Account', 'Transaction', 'Balance', and 'Overdraft' would have precise, agreed-upon meanings used consistently in code and conversations."
+        },
+        {
+            "id": "ddd-003",
+            "text": "What is a 'Bounded Context' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A boundary around a database table",
+                "A specific boundary within which a particular domain model is defined and applicable",
+                "The memory limits of an application",
+                "A security boundary for user access"
+            ],
+            "correctAnswer": "A specific boundary within which a particular domain model is defined and applicable",
+            "explanation": "Bounded Context defines the boundaries of a specific domain model where particular definitions and rules apply. Example: In an e-commerce system, 'Product' might mean different things in Catalog context (name, description, price) vs Inventory context (stock level, warehouse location)."
+        },
+        {
+            "id": "ddd-004",
+            "text": "What is an 'Entity' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A database table representation",
+                "An object defined primarily by its identity rather than its attributes",
+                "Any class that contains business logic",
+                "A REST API endpoint"
+            ],
+            "correctAnswer": "An object defined primarily by its identity rather than its attributes",
+            "explanation": "Entities have a unique identity that persists through changes to their attributes. Example: A 'Customer' entity has a CustomerId that remains the same even if the customer's name, address, or phone number changes."
+        },
+        {
+            "id": "ddd-005",
+            "text": "What is a 'Value Object' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "An object that represents monetary value",
+                "An object defined by its attributes rather than identity",
+                "A configuration settings object",
+                "An object that holds validation rules"
+            ],
+            "correctAnswer": "An object defined by its attributes rather than identity",
+            "explanation": "Value Objects are immutable and defined entirely by their attribute values. Example: A 'Money' value object with Amount and Currency properties - two Money objects with same Amount and Currency are considered equal regardless of being different instances."
+        },
+        {
+            "id": "ddd-006",
+            "text": "What is an 'Aggregate' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A database aggregation query",
+                "A cluster of associated objects treated as a single unit for data changes",
+                "A collection of microservices",
+                "A summary report of business metrics"
+            ],
+            "correctAnswer": "A cluster of associated objects treated as a single unit for data changes",
+            "explanation": "Aggregates group multiple entities and value objects together with one entity as the Aggregate Root. Example: An 'Order' aggregate with Order (root), OrderLine items, and ShippingAddress - all changes go through the Order root."
+        },
+        {
+            "id": "ddd-007",
+            "text": "What is the 'Aggregate Root'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "The main database table",
+                "The entity that acts as the entry point to the aggregate",
+                "The primary key of an entity",
+                "The base class for all domain objects"
+            ],
+            "correctAnswer": "The entity that acts as the entry point to the aggregate",
+            "explanation": "The Aggregate Root is the only object that outside objects can hold references to, and it enforces invariants within the aggregate. Example: In an Order aggregate, only the Order entity can be referenced directly; OrderLine items are accessed through the Order."
+        },
+        {
+            "id": "ddd-008",
+            "text": "What is a 'Domain Service'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A web service that exposes domain logic",
+                "A stateless service that performs domain operations not naturally belonging to entities or value objects",
+                "A database service layer",
+                "A microservice containing domain logic"
+            ],
+            "correctAnswer": "A stateless service that performs domain operations not naturally belonging to entities or value objects",
+            "explanation": "Domain Services contain domain logic that doesn't fit naturally into entities or value objects. Example: A 'FundTransferService' that handles money transfer between two bank accounts - the logic involves multiple aggregates and complex business rules."
+        },
+        {
+            "id": "ddd-009",
+            "text": "What is a 'Repository' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A Git repository for source code",
+                "An object that mediates between domain and data mapping layers",
+                "A documentation storage system",
+                "A package management system"
+            ],
+            "correctAnswer": "An object that mediates between domain and data mapping layers",
+            "explanation": "Repositories provide collection-like interfaces for retrieving and storing aggregates while hiding data access details. Example: An 'OrderRepository' with methods like FindById, Save, and Delete, abstracting whether data comes from SQL database, NoSQL, or in-memory storage."
+        },
+        {
+            "id": "ddd-010",
+            "text": "What is a 'Domain Event'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A system exception in the domain layer",
+                "Something that happened in the domain that domain experts care about",
+                "A user interface event",
+                "A database transaction event"
+            ],
+            "correctAnswer": "Something that happened in the domain that domain experts care about",
+            "explanation": "Domain Events represent meaningful business occurrences that happened in the system. Example: 'OrderShipped', 'PaymentReceived', or 'InventoryLow' events that other parts of the system might react to."
+        },
+        {
+            "id": "ddd-011",
+            "text": "What is 'Strategic Design' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Designing for high performance",
+                "The high-level organization of the system into bounded contexts and their relationships",
+                "Creating UML diagrams for the system",
+                "Designing security strategies"
+            ],
+            "correctAnswer": "The high-level organization of the system into bounded contexts and their relationships",
+            "explanation": "Strategic Design focuses on the large-scale structure of the system, identifying bounded contexts and how they integrate. Example: Deciding that 'Customer Management' and 'Order Processing' should be separate bounded contexts with well-defined integration points."
+        },
+        {
+            "id": "ddd-012",
+            "text": "What is 'Tactical Design' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Designing for battle-tested code",
+                "The detailed design of entities, value objects, aggregates, and services within a bounded context",
+                "Creating unit test strategies",
+                "Designing performance optimization tactics"
+            ],
+            "correctAnswer": "The detailed design of entities, value objects, aggregates, and services within a bounded context",
+            "explanation": "Tactical Design involves implementing the building blocks of DDD within a single bounded context. Example: Designing the Order aggregate with Order entity, OrderLine value objects, and OrderRepository within the Order Processing bounded context."
+        },
+        {
+            "id": "ddd-013",
+            "text": "What is 'Context Mapping'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Mapping database contexts to domain models",
+                "Defining the relationships between different bounded contexts",
+                "Creating object-relational mappings",
+                "Mapping user interface contexts"
+            ],
+            "correctAnswer": "Defining the relationships between different bounded contexts",
+            "explanation": "Context Mapping describes how different bounded contexts interact and integrate with each other. Example: Mapping that the 'Shipping' context has a 'Customer-Supplier' relationship with the 'Order' context, where Shipping depends on Order's model."
+        },
+        {
+            "id": "ddd-014",
+            "text": "What is an 'Anti-Corruption Layer'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A security layer to prevent hacking",
+                "A layer that translates between different bounded contexts to prevent corruption of one model by another",
+                "A data validation layer",
+                "A virus protection layer"
+            ],
+            "correctAnswer": "A layer that translates between different bounded contexts to prevent corruption of one model by another",
+            "explanation": "An Anti-Corruption Layer acts as an adapter between two bounded contexts, translating concepts and preventing foreign domain concepts from polluting the current model. Example: When integrating with a legacy CRM system, an ACL translates CRM customer data into your domain's Customer model."
+        },
+        {
+            "id": "ddd-015",
+            "text": "What is a 'Factory' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A manufacturing pattern for hardware",
+                "An object responsible for creating complex aggregates or entities",
+                "A software development factory",
+                "A database connection factory"
+            ],
+            "correctAnswer": "An object responsible for creating complex aggregates or entities",
+            "explanation": "Factories encapsulate complex creation logic for domain objects, especially when creation involves significant business rules. Example: An 'InsurancePolicyFactory' that creates policies with proper validation of coverage amounts, deductibles, and beneficiary rules."
+        },
+        {
+            "id": "ddd-016",
+            "text": "What is the 'Single Responsibility Principle' in the context of aggregates?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Each aggregate should have only one entity",
+                "Each aggregate should have a single, well-defined responsibility",
+                "Each aggregate should handle only one use case",
+                "Each aggregate should be stored in one database table"
+            ],
+            "correctAnswer": "Each aggregate should have a single, well-defined responsibility",
+            "explanation": "Aggregates should be cohesive and focused on a specific business responsibility. Example: A 'ShoppingCart' aggregate handles cart operations, while a separate 'Order' aggregate handles order processing - each has distinct responsibilities."
+        },
+        {
+            "id": "ddd-017",
+            "text": "What is 'Event Sourcing'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Sourcing events from external systems",
+                "Persisting the state of an entity as a sequence of state-changing events",
+                "Logging all system events to a file",
+                "Creating event-driven architectures"
+            ],
+            "correctAnswer": "Persisting the state of an entity as a sequence of state-changing events",
+            "explanation": "Instead of storing current state, Event Sourcing stores all changes as events and reconstructs state by replaying them. Example: A BankAccount's state is determined by replaying events like AccountOpened, MoneyDeposited, MoneyWithdrawn rather than storing current balance directly."
+        },
+        {
+            "id": "ddd-018",
+            "text": "What is 'CQRS' (Command Query Responsibility Segregation)?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A database query optimization technique",
+                "Separating read and write operations into different models",
+                "A quality assurance process",
+                "A code review system"
+            ],
+            "correctAnswer": "Separating read and write operations into different models",
+            "explanation": "CQRS uses separate models for commands (writes) and queries (reads), allowing optimization of each. Example: Commands like 'PlaceOrder' use a rich domain model with business rules, while queries like 'GetOrderHistory' use a denormalized read model optimized for display."
+        },
+        {
+            "id": "ddd-019",
+            "text": "What is a 'Specification' pattern in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A technical specification document",
+                "An object that encapsulates business rules that can be combined using boolean logic",
+                "A software requirements specification",
+                "A pattern for API specifications"
+            ],
+            "correctAnswer": "An object that encapsulates business rules that can be combined using boolean logic",
+            "explanation": "Specifications represent business rules that can be reused and composed. Example: An 'OverdueInvoiceSpecification' that checks if an invoice is overdue, which can be combined with 'HighValueInvoiceSpecification' to find high-value overdue invoices."
+        },
+        {
+            "id": "ddd-020",
+            "text": "What is the purpose of 'Domain Model'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "To model the database schema",
+                "To create UML diagrams",
+                "To represent concepts, data, and logic of the business domain",
+                "To model user interface flows"
+            ],
+            "correctAnswer": "To represent concepts, data, and logic of the business domain",
+            "explanation": "The Domain Model is a system of abstractions that describes selected aspects of a domain and can be used to solve problems related to that domain. Example: In a banking domain, the model includes Account, Transaction, TransferService with business rules like 'overdraft limits' and 'transfer validation'."
+        },
+        {
+            "id": "ddd-021",
+            "text": "What is a 'Module' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A NuGet package",
+                "A cohesive group of related domain objects within a bounded context",
+                "A JavaScript module",
+                "A hardware component"
+            ],
+            "correctAnswer": "A cohesive group of related domain objects within a bounded context",
+            "explanation": "Modules organize related domain concepts together, providing namespaces for better understanding and reducing cognitive load. Example: In an e-commerce system, modules like 'OrderManagement', 'Inventory', and 'Shipping' group related domain objects."
+        },
+        {
+            "id": "ddd-022",
+            "text": "What is 'Shared Kernel' pattern?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A shared operating system kernel",
+                "A shared subset of the domain model between two or more bounded contexts",
+                "A shared database kernel",
+                "A shared memory kernel"
+            ],
+            "correctAnswer": "A shared subset of the domain model between two or more bounded contexts",
+            "explanation": "Shared Kernel is a small, carefully managed common model shared between contexts that have strong dependencies. Example: 'Customer' and 'Product' basic information might be shared between 'Order' and 'Shipping' contexts, with changes requiring coordination between teams."
+        },
+        {
+            "id": "ddd-023",
+            "text": "What is 'Customer-Supplier' relationship in context mapping?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A relationship between business customers and suppliers",
+                "A relationship where one bounded context (customer) depends on another (supplier)",
+                "A vendor relationship management pattern",
+                "A customer support pattern"
+            ],
+            "correctAnswer": "A relationship where one bounded context (customer) depends on another (supplier)",
+            "explanation": "In this relationship, the downstream team (customer) depends on the upstream team (supplier) who controls the model. Example: The 'Shipping' context (customer) depends on the 'Order' context (supplier) for order information, and the Order team must consider Shipping's needs."
+        },
+        {
+            "id": "ddd-024",
+            "text": "What is 'Conformist' pattern in context mapping?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A pattern for conforming to coding standards",
+                "A downstream team conforming to the upstream team's model without translation",
+                "A pattern for regulatory compliance",
+                "A pattern for data conformity"
+            ],
+            "correctAnswer": "A downstream team conforming to the upstream team's model without translation",
+            "explanation": "The Conformist pattern is used when a downstream team simply adopts the upstream model without translation, usually when the upstream team is uncooperative. Example: A 'Reporting' context might conform to the 'Sales' context model exactly because the Sales team won't adapt to Reporting's needs."
+        },
+        {
+            "id": "ddd-025",
+            "text": "What is 'Published Language' pattern?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A published programming language specification",
+                "A well-documented shared language for communication between bounded contexts",
+                "A pattern for internationalization",
+                "A pattern for API documentation"
+            ],
+            "correctAnswer": "A well-documented shared language for communication between bounded contexts",
+            "explanation": "Published Language provides a standardized, documented format for communication between contexts, often using shared contracts or schemas. Example: Using a well-defined JSON schema for order data exchanged between 'Order Processing' and 'Shipping' contexts."
+        },
+        {
+            "id": "ddd-026",
+            "text": "What is the main difference between Entities and Value Objects?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Entities have identity, Value Objects do not",
+                "Entities are stored in database, Value Objects are not",
+                "Entities have methods, Value Objects only have properties",
+                "Entities are mutable, Value Objects are immutable"
+            ],
+            "correctAnswer": "Entities have identity, Value Objects do not",
+            "explanation": "The key distinction is that Entities are defined by their identity (they have an ID that persists through changes), while Value Objects are defined by their attributes and are interchangeable if attributes match. Example: Two Customer entities with same name but different IDs are different; two Money value objects with same amount and currency are the same."
+        },
+        {
+            "id": "ddd-027",
+            "text": "What is 'Domain Primitive'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A primitive data type in programming",
+                "A simple value object that encapsulates a single value with validation",
+                "A basic domain entity",
+                "A primitive business concept"
+            ],
+            "correctAnswer": "A simple value object that encapsulates a single value with validation",
+            "explanation": "Domain Primitives are simple value objects that wrap primitive types and enforce domain rules. Example: An 'Email' domain primitive that validates email format, or 'Age' that ensures values are positive and within reasonable range."
+        },
+        {
+            "id": "ddd-028",
+            "text": "What is the purpose of 'Invariants' in aggregates?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "To make objects immutable",
+                "To ensure business rules are always maintained within the aggregate",
+                "To prevent database changes",
+                "To make code invariant to changes"
+            ],
+            "correctAnswer": "To ensure business rules are always maintained within the aggregate",
+            "explanation": "Invariants are business rules that must always be true when the aggregate is modified. Example: In an Order aggregate, the invariant might be 'Order total must equal sum of all line item totals' - the aggregate root ensures this rule is maintained."
+        },
+        {
+            "id": "ddd-029",
+            "text": "What is 'Event Storming'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A brainstorming technique using domain events to explore the domain",
+                "A performance testing technique",
+                "A storm of system events",
+                "An error handling pattern"
+            ],
+            "correctAnswer": "A brainstorming technique using domain events to explore the domain",
+            "explanation": "Event Storming is a workshop technique where participants use sticky notes to map out domain events, commands, aggregates, and bounded contexts. Example: In a session for an airline system, participants might identify events like 'FlightScheduled', 'BookingMade', 'BoardingStarted' to understand the domain."
+        },
+        {
+            "id": "ddd-030",
+            "text": "What is 'Hexagonal Architecture' in relation to DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "An architecture with six layers",
+                "An architecture where the domain is at the center and adapters handle external concerns",
+                "An architecture for hexagonal grid systems",
+                "A six-sided microservice architecture"
+            ],
+            "correctAnswer": "An architecture where the domain is at the center and adapters handle external concerns",
+            "explanation": "Also called Ports and Adapters, this architecture isolates the domain core from external concerns like databases and UIs. Example: The domain model doesn't know about SQL - it uses repository interfaces (ports), and database implementations are adapters."
+        },
+        {
+            "id": "ddd-031",
+            "text": "What is the role of 'Application Services' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "To contain core business logic",
+                "To coordinate domain objects to fulfill use cases",
+                "To handle database operations",
+                "To provide user interface logic"
+            ],
+            "correctAnswer": "To coordinate domain objects to fulfill use cases",
+            "explanation": "Application Services orchestrate domain objects to implement application use cases, but don't contain business logic themselves. Example: An 'OrderApplicationService' might coordinate Order aggregate, PaymentService, and NotificationService to process an order, without containing the actual business rules."
+        },
+        {
+            "id": "ddd-032",
+            "text": "What is 'Eventual Consistency' in the context of DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A consistent event handling approach",
+                "A consistency model where updates propagate asynchronously between different bounded contexts",
+                "A pattern for consistent error handling",
+                "A database consistency level"
+            ],
+            "correctAnswer": "A consistency model where updates propagate asynchronously between different bounded contexts",
+            "explanation": "In distributed systems with separate bounded contexts, data might not be immediately consistent everywhere but will become consistent over time. Example: When an order is placed, the 'Order' context updates immediately, but the 'Inventory' and 'Shipping' contexts might be updated asynchronously via events."
+        },
+        {
+            "id": "ddd-033",
+            "text": "What is a 'Domain Expert'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "An expert programmer in domain modeling",
+                "A person with deep knowledge of the business domain",
+                "An expert in domain name systems",
+                "A security domain expert"
+            ],
+            "correctAnswer": "A person with deep knowledge of the business domain",
+            "explanation": "Domain Experts are business stakeholders who understand the domain deeply and collaborate with developers to create an accurate domain model. Example: In a healthcare system, doctors, nurses, and medical administrators would be domain experts."
+        },
+        {
+            "id": "ddd-034",
+            "text": "What is 'Core Domain'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "The central database",
+                "The part of the domain that provides competitive advantage and is most critical to the business",
+                "The main domain entity",
+                "The domain core library"
+            ],
+            "correctAnswer": "The part of the domain that provides competitive advantage and is most critical to the business",
+            "explanation": "The Core Domain is where the business distinguishes itself and should receive the most design attention. Example: For Amazon, the recommendation engine is core domain; for Uber, real-time ride matching is core domain."
+        },
+        {
+            "id": "ddd-035",
+            "text": "What are 'Supporting Subdomains'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Subdomains that support the core domain but don't provide competitive advantage",
+                "Subdomains that provide technical support",
+                "Subdomains that support user interfaces",
+                "Subdomains that handle customer support"
+            ],
+            "correctAnswer": "Subdomains that support the core domain but don't provide competitive advantage",
+            "explanation": "Supporting Subdomains are necessary for the business but not strategically differentiating. Example: In an e-commerce system, inventory management might be a supporting subdomain - important but not what makes the business unique."
+        },
+        {
+            "id": "ddd-036",
+            "text": "What are 'Generic Subdomains'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Subdomains that are common across many businesses and can often use off-the-shelf solutions",
+                "Subdomains with generic business logic",
+                "Subdomains that generate generic code",
+                "Subdomains with no specific business rules"
+            ],
+            "correctAnswer": "Subdomains that are common across many businesses and can often use off-the-shelf solutions",
+            "explanation": "Generic Subdomains solve common problems that many businesses face and are good candidates for third-party solutions. Example: User authentication, email sending, or payment processing are often generic subdomains."
+        },
+        {
+            "id": "ddd-037",
+            "text": "What is 'Strategic Distillation'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "The process of purifying domain logic",
+                "The process of identifying and focusing on the core domain while separating supporting and generic parts",
+                "The process of distilling business requirements",
+                "The process of cleaning domain data"
+            ],
+            "correctAnswer": "The process of identifying and focusing on the core domain while separating supporting and generic parts",
+            "explanation": "Strategic Distillation helps teams identify what's truly important (core domain) vs what can be handled with simpler solutions or third-party tools. Example: A team might realize their core domain is AI-powered product recommendations, while user management is generic and can use Auth0."
+        },
+        {
+            "id": "ddd-038",
+            "text": "What is the purpose of 'Domain Vision Statement'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "To describe the technical vision of the domain layer",
+                "To articulate the value and focus of the core domain",
+                "To vision the future database schema",
+                "To create UI mockups for the domain"
+            ],
+            "correctAnswer": "To articulate the value and focus of the core domain",
+            "explanation": "A Domain Vision Statement clearly communicates what makes the core domain valuable and why it deserves special attention. Example: 'Our core domain is real-time collaborative document editing that enables seamless team collaboration, differentiating us from competitors.'"
+        },
+        {
+            "id": "ddd-039",
+            "text": "What is 'Layered Architecture' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "An architecture with exactly four layers",
+                "An architecture separating concerns into presentation, application, domain, and infrastructure layers",
+                "An architecture with multiple UI layers",
+                "An architecture with layered databases"
+            ],
+            "correctAnswer": "An architecture separating concerns into presentation, application, domain, and infrastructure layers",
+            "explanation": "Layered Architecture organizes code into layers with clear dependencies: Presentation → Application → Domain ← Infrastructure. Example: Controllers call Application Services, which use Domain Objects, while Repositories (Infrastructure) implement interfaces defined in Domain."
+        },
+        {
+            "id": "ddd-040",
+            "text": "What is 'Dependency Inversion' in DDD architecture?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Inverting database dependencies",
+                "Having domain layer define interfaces that infrastructure layer implements",
+                "Inverting user interface dependencies",
+                "Inverting business logic flow"
+            ],
+            "correctAnswer": "Having domain layer define interfaces that infrastructure layer implements",
+            "explanation": "Dependency Inversion means domain defines abstractions (interfaces) and infrastructure provides concrete implementations, so domain doesn't depend on infrastructure. Example: Domain defines IOrderRepository interface, and Infrastructure provides SqlOrderRepository implementation."
+        },
+        {
+            "id": "ddd-041",
+            "text": "What is a 'Unit of Work' pattern in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A pattern for unit testing",
+                "A pattern that maintains a list of objects affected by a business transaction and coordinates writing changes",
+                "A pattern for work allocation in teams",
+                "A pattern for measuring work units"
+            ],
+            "correctAnswer": "A pattern that maintains a list of objects affected by a business transaction and coordinates writing changes",
+            "explanation": "Unit of Work tracks all changes made during a business transaction and ensures they're committed atomically. Example: In EF Core, DbContext acts as a Unit of Work, tracking changes to multiple aggregates and saving them in a single transaction."
+        },
+        {
+            "id": "ddd-042",
+            "text": "What is 'Domain-Driven Security'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Using domain concepts to model and enforce security policies",
+                "Securing domain names",
+                "Security for domain controllers",
+                "Domain-level encryption"
+            ],
+            "correctAnswer": "Using domain concepts to model and enforce security policies",
+            "explanation": "Domain-Driven Security incorporates security concerns directly into the domain model using domain concepts. Example: Modeling 'Role', 'Permission', and 'AccessPolicy' as domain entities with business rules about who can perform certain operations."
+        },
+        {
+            "id": "ddd-043",
+            "text": "What is the 'Open Host Service' pattern?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A service that hosts open source software",
+                "Defining a protocol that gives access to your subsystem as a set of services",
+                "A service with open security",
+                "A hosting service for domains"
+            ],
+            "correctAnswer": "Defining a protocol that gives access to your subsystem as a set of services",
+            "explanation": "Open Host Service exposes a well-defined API for other bounded contexts to integrate with, often using a published language. Example: A 'Payment' context might expose REST APIs for 'ProcessPayment', 'RefundPayment' that other contexts can use."
+        },
+        {
+            "id": "ddd-044",
+            "text": "What is 'Separate Ways' pattern in context mapping?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A pattern for separating development teams",
+                "Deciding that two bounded contexts should not be integrated and should develop independently",
+                "A pattern for code separation",
+                "A pattern for database separation"
+            ],
+            "correctAnswer": "Deciding that two bounded contexts should not be integrated and should develop independently",
+            "explanation": "Separate Ways acknowledges that the cost of integration between two contexts may outweigh the benefits, so they should remain separate. Example: A 'HR Management' system and 'Product Catalog' might have Separate Ways since integration provides little business value."
+        },
+        {
+            "id": "ddd-045",
+            "text": "What is 'Big Ball of Mud' anti-pattern?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A system with messy database",
+                "A system without clear structure where everything is connected to everything else",
+                "A system with dirty code",
+                "A system with mud-like performance"
+            ],
+            "correctAnswer": "A system without clear structure where everything is connected to everything else",
+            "explanation": "Big Ball of Mud lacks clear boundaries and separation of concerns, making it hard to understand and maintain. DDD helps avoid this through bounded contexts and clear domain modeling. Example: A monolithic application where UI code directly accesses database and business logic is scattered throughout."
+        },
+        {
+            "id": "ddd-046",
+            "text": "What is 'Anemic Domain Model' anti-pattern?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A domain model with too few entities",
+                "A domain model where entities are just data containers without behavior",
+                "A domain model with贫血 entities",
+                "A domain model without database support"
+            ],
+            "correctAnswer": "A domain model where entities are just data containers without behavior",
+            "explanation": "Anemic Domain Model puts behavior in separate services rather than in entities, violating object-oriented principles. Example: Customer class with only getters/setters, while all business logic is in CustomerService - this misses the point of rich domain models."
+        },
+        {
+            "id": "ddd-047",
+            "text": "What is 'Leaky Abstractions' problem in repositories?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Repositories that leak memory",
+                "Repository abstractions that expose data access details to the domain",
+                "Repositories with security leaks",
+                "Repositories that leak database connections"
+            ],
+            "correctAnswer": "Repository abstractions that expose data access details to the domain",
+            "explanation": "Leaky Abstractions happen when repository interfaces include data access concerns that should be hidden. Example: A repository method like 'GetCustomersBySqlQuery(string sql)' leaks SQL details to the domain layer."
+        },
+        {
+            "id": "ddd-048",
+            "text": "What is 'Domain Model purity' vs 'Pragmatism' trade-off?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Choosing between pure DDD and practical considerations",
+                "A trade-off between theoretical correctness and practical implementation constraints",
+                "A trade-off between clean code and performance",
+                "A trade-off between security and usability"
+            ],
+            "correctAnswer": "A trade-off between theoretical correctness and practical implementation constraints",
+            "explanation": "Sometimes strict DDD principles must be balanced with practical concerns like performance, team skills, or time constraints. Example: Using a slightly anemic model for simple CRUD operations while maintaining rich models for complex business logic."
+        },
+
+        {
+            "id": "ddd-049",
+            "text": "What is 'Domain-Driven Microservices'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Microservices that are very small",
+                "Aligning microservice boundaries with bounded contexts from DDD",
+                "Microservices with domain names",
+                "Microservices that drive business domains"
+            ],
+            "correctAnswer": "Aligning microservice boundaries with bounded contexts from DDD",
+            "explanation": "Domain-Driven Microservices uses DDD's bounded contexts to define microservice boundaries, ensuring each service has a clear, cohesive responsibility. Example: Instead of technical boundaries like 'UserService', use domain boundaries like 'IdentityContext', 'OrderContext', and 'ShippingContext' microservices."
+        },
+        {
+            "id": "ddd-050",
+            "text": "What is 'Event-Driven Architecture' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "An architecture driven by user interface events",
+                "Using domain events to communicate between bounded contexts asynchronously",
+                "An architecture for event processing systems",
+                "An architecture driven by system events"
+            ],
+            "correctAnswer": "Using domain events to communicate between bounded contexts asynchronously",
+            "explanation": "Event-Driven Architecture in DDD uses domain events to maintain loose coupling between bounded contexts. Example: When an Order is confirmed, it publishes 'OrderConfirmed' event, which triggers actions in Shipping, Inventory, and Notification contexts without direct dependencies."
+        },
+        {
+            "id": "ddd-051",
+            "text": "What is the 'Saga Pattern' in DDD?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "A long story pattern for documentation",
+                "A pattern for managing long-running business processes that span multiple aggregates/contexts",
+                "A pattern for historical data",
+                "A pattern for epic user stories"
+            ],
+            "correctAnswer": "A pattern for managing long-running business processes that span multiple aggregates/contexts",
+            "explanation": "Sagas coordinate multiple steps in a business process, handling failures and compensating actions. Example: An 'OrderFulfillmentSaga' coordinates Order placement, Payment processing, and Inventory reservation, with compensation if any step fails."
+        },
+        {
+            "id": "ddd-052",
+            "text": "What is 'Domain-Driven Testing'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Testing domain name resolution",
+                "Writing tests that reflect domain concepts and use ubiquitous language",
+                "Testing all domain classes",
+                "Testing business domains"
+            ],
+            "correctAnswer": "Writing tests that reflect domain concepts and use ubiquitous language",
+            "explanation": "Domain-Driven Testing uses the same ubiquitous language in test names and assertions, making tests readable by domain experts. Example: Test named 'Should_Allow_Overdraft_When_Customer_Has_Overdraft_Protection' uses business terminology rather than technical terms."
+        },
+        {
+            "id": "ddd-053",
+            "text": "What is 'Strategic DDD' vs 'Tactical DDD'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Strategic is for large companies, Tactical for small ones",
+                "Strategic deals with context mapping, Tactical with implementation patterns",
+                "Strategic is about business strategy, Tactical about technical tactics",
+                "Strategic is long-term, Tactical is short-term"
+            ],
+            "correctAnswer": "Strategic deals with context mapping, Tactical with implementation patterns",
+            "explanation": "Strategic DDD focuses on bounded contexts and their relationships, while Tactical DDD focuses on implementing patterns within a context. Example: Strategic decides 'Order' and 'Shipping' are separate contexts; Tactical implements Order aggregate with entities and value objects."
+        },
+        {
+            "id": "ddd-054",
+            "text": "What is 'Domain-Driven Refactoring'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Refactoring domain names",
+                "Refactoring code to better align with the domain model as understanding evolves",
+                "Refactoring all domain classes",
+                "Refactoring for better domain performance"
+            ],
+            "correctAnswer": "Refactoring code to better align with the domain model as understanding evolves",
+            "explanation": "As domain understanding deepens, the code model is refactored to match. Example: Initially treating 'Address' as a string, but refactoring to an Address value object with validation as address complexity is understood."
+        },
+        {
+            "id": "ddd-055",
+            "text": "What is 'Domain-Driven Documentation'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Documentation for domain names",
+                "Documentation that uses ubiquitous language and reflects the domain model",
+                "Documenting all domain classes",
+                "Documentation for business domains"
+            ],
+            "correctAnswer": "Documentation that uses ubiquitous language and reflects the domain model",
+            "explanation": "Documentation should use the same language as the code and domain discussions. Example: API documentation uses terms like 'PlaceOrder' instead of 'CreateOrderRequest', matching the domain language."
+        },
+        {
+            "id": "ddd-056",
+            "text": "What is the 'Specification Pattern' used for?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "To create technical specifications",
+                "To encapsulate business rules that can be combined and reused",
+                "To specify API contracts",
+                "To specify database schemas"
+            ],
+            "correctAnswer": "To encapsulate business rules that can be combined and reused",
+            "explanation": "Specifications encapsulate business rules that can be composed using boolean logic. Example: OverdueInvoiceSpecification.And(HighValueInvoiceSpecification) finds invoices that are both overdue and high value."
+        },
+        {
+            "id": "ddd-057",
+            "text": "What is 'Domain-Driven Migration'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Migrating domain names",
+                "Gradually evolving the domain model while maintaining system functionality",
+                "Migrating databases for domains",
+                "Migrating to new domains"
+            ],
+            "correctAnswer": "Gradually evolving the domain model while maintaining system functionality",
+            "explanation": "Carefully evolving the domain model through refactoring and strategic design changes. Example: Gradually splitting a monolithic 'Customer' concept into separate 'UserIdentity', 'CustomerProfile', and 'BillingAccount' bounded contexts."
+        },
+        {
+            "id": "ddd-058",
+            "text": "What is 'Domain-Driven Legacy Modernization'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Modernizing old domain names",
+                "Using DDD principles to incrementally modernize legacy systems",
+                "Modernizing legacy domains",
+                "Upgrading domain controllers"
+            ],
+            "correctAnswer": "Using DDD principles to incrementally modernize legacy systems",
+            "explanation": "Applying DDD to understand and gradually replace legacy systems with well-designed bounded contexts. Example: Using anti-corruption layers to isolate a new 'Order' context from a legacy COBOL order system during migration."
+        },
+        {
+            "id": "ddd-059",
+            "text": "What is 'Domain-Driven DevOps'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "DevOps for domain operations",
+                "Aligning DevOps practices and team boundaries with bounded contexts",
+                "DevOps for domain names",
+                "Domain-specific DevOps tools"
+            ],
+            "correctAnswer": "Aligning DevOps practices and team boundaries with bounded contexts",
+            "explanation": "Organizing DevOps teams and pipelines around bounded contexts rather than technical layers. Example: A 'ShippingTeam' owns the entire Shipping bounded context - code, database, deployment, and monitoring."
+        },
+        {
+            "id": "ddd-060",
+            "text": "What is 'Domain-Driven Monitoring'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Monitoring domain names",
+                "Using domain concepts and ubiquitous language in monitoring and alerting",
+                "Monitoring all domain classes",
+                "Monitoring business domains"
+            ],
+            "correctAnswer": "Using domain concepts and ubiquitous language in monitoring and alerting",
+            "explanation": "Monitoring systems should use business terms that domain experts understand. Example: Alert on 'HighValueOrderProcessingDelayed' instead of 'QueueBacklogThresholdExceeded'."
+        },
+        {
+            "id": "ddd-061",
+            "text": "What is 'Domain-Driven Error Handling'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Handling domain name errors",
+                "Using domain concepts in error messages and handling",
+                "Handling all domain errors",
+                "Error handling for business domains"
+            ],
+            "correctAnswer": "Using domain concepts in error messages and handling",
+            "explanation": "Error messages should use ubiquitous language and represent domain concepts. Example: Throwing 'InsufficientInventoryException' instead of generic 'BusinessRuleViolationException'."
+        },
+        {
+            "id": "ddd-062",
+            "text": "What is 'Domain-Driven API Design'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "API design for domain names",
+                "Designing APIs that reflect the domain model and use ubiquitous language",
+                "API design for all domains",
+                "Domain-specific API protocols"
+            ],
+            "correctAnswer": "Designing APIs that reflect the domain model and use ubiquitous language",
+            "explanation": "APIs should expose domain concepts rather than database structures. Example: REST endpoint POST /orders instead of POST /tbl_orders, using domain objects in request/response."
+        },
+        {
+            "id": "ddd-063",
+            "text": "What is 'Domain-Driven Database Design'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Designing databases for domain names",
+                "Designing database schemas that support the domain model, not drive it",
+                "Database design for all domains",
+                "Domain-specific databases"
+            ],
+            "correctAnswer": "Designing database schemas that support the domain model, not drive it",
+            "explanation": "The database schema should serve the domain model, not constrain it. Example: Using ORM mappings to persist an Order aggregate across multiple tables, rather than designing the domain around database normalization."
+        },
+        {
+            "id": "ddd-064",
+            "text": "What is 'Domain-Driven Caching'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Caching domain names",
+                "Designing cache strategies around domain concepts and aggregate boundaries",
+                "Caching all domain data",
+                "Domain-specific caching"
+            ],
+            "correctAnswer": "Designing cache strategies around domain concepts and aggregate boundaries",
+            "explanation": "Cache boundaries should align with aggregate boundaries to maintain consistency. Example: Caching entire Order aggregates rather than individual order items to maintain aggregate invariants."
+        },
+        {
+            "id": "ddd-065",
+            "text": "What is 'Domain-Driven Security' implementation?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Implementing security for domains",
+                "Implementing security using domain concepts like roles, permissions, and policies",
+                "Security for all domain classes",
+                "Domain-specific security protocols"
+            ],
+            "correctAnswer": "Implementing security using domain concepts like roles, permissions, and policies",
+            "explanation": "Security should be modeled using domain concepts. Example: 'CanApproveLoan' permission tied to 'LoanOfficer' role, with business rules enforced in the domain layer."
+        },
+        {
+            "id": "ddd-066",
+            "text": "What is 'Domain-Driven Internationalization'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Internationalizing domain names",
+                "Handling internationalization at the domain level when it's a business concern",
+                "Internationalizing all domain text",
+                "Domain-specific i18n"
+            ],
+            "correctAnswer": "Handling internationalization at the domain level when it's a business concern",
+            "explanation": "When localization affects business rules, handle it in the domain. Example: Product pricing that varies by region, with currency conversion rules in the domain."
+        },
+        {
+            "id": "ddd-067",
+            "text": "What is 'Domain-Driven Analytics'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Analytics for domain names",
+                "Designing analytics around domain events and concepts",
+                "Analytics on all domain data",
+                "Domain-specific analytics tools"
+            ],
+            "correctAnswer": "Designing analytics around domain events and concepts",
+            "explanation": "Analytics should be based on domain events that represent business meaningful occurrences. Example: Tracking 'OrderShipped' events for delivery analytics rather than low-level database updates."
+        },
+        {
+            "id": "ddd-068",
+            "text": "What is 'Domain-Driven Workflow'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Workflow for domain operations",
+                "Modeling business workflows using domain concepts and state machines",
+                "Workflow for all domain processes",
+                "Domain-specific workflow engines"
+            ],
+            "correctAnswer": "Modeling business workflows using domain concepts and state machines",
+            "explanation": "Complex business processes should be modeled as domain workflows. Example: LoanApplication workflow with states: Submitted, UnderReview, Approved, Rejected, each with domain rules for transitions."
+        },
+        {
+            "id": "ddd-069",
+            "text": "What is 'Domain-Driven Reporting'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Reporting on domain metrics",
+                "Designing reports around domain concepts, often using read models",
+                "Reporting all domain data",
+                "Domain-specific reporting tools"
+            ],
+            "correctAnswer": "Designing reports around domain concepts, often using read models",
+            "explanation": "Reports should use domain terminology and may use separate read-optimized models. Example: Sales report with 'MonthlyRevenue', 'TopProducts' using denormalized read models updated by domain events."
+        },
+        {
+            "id": "ddd-070",
+            "text": "What is 'Domain-Driven Mobile Development'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Mobile apps for domains",
+                "Applying DDD principles to mobile app architecture and team organization",
+                "Mobile development for all domains",
+                "Domain-specific mobile frameworks"
+            ],
+            "correctAnswer": "Applying DDD principles to mobile app architecture and team organization",
+            "explanation": "Mobile apps can have their own bounded contexts that integrate with backend contexts. Example: A mobile 'FieldService' app as a separate bounded context from the main 'CRM' system."
+        },
+        {
+            "id": "ddd-071",
+            "text": "What is 'Domain-Driven Frontend'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Frontend for domains",
+                "Applying DDD principles to frontend development with domain-driven UI components",
+                "Frontend for all domains",
+                "Domain-specific frontend frameworks"
+            ],
+            "correctAnswer": "Applying DDD principles to frontend development with domain-driven UI components",
+            "explanation": "Frontend can reflect domain concepts through component structure and state management. Example: React components like <OrderSummary>, <PaymentForm> that mirror domain aggregates."
+        },
+        {
+            "id": "ddd-072",
+            "text": "What is 'Domain-Driven Machine Learning'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "ML for domain prediction",
+                "Incorporating ML models as domain services with clear domain boundaries",
+                "ML on all domain data",
+                "Domain-specific ML algorithms"
+            ],
+            "correctAnswer": "Incorporating ML models as domain services with clear domain boundaries",
+            "explanation": "ML features should be treated as domain services with well-defined interfaces. Example: 'RecommendationService' domain service that uses ML but exposes simple domain methods like 'GetRecommendedProducts(customer)'."
+        },
+        {
+            "id": "ddd-073",
+            "text": "What is 'Domain-Driven IoT'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "IoT for domain monitoring",
+                "Applying DDD to IoT systems with device data as domain events",
+                "IoT for all domains",
+                "Domain-specific IoT protocols"
+            ],
+            "correctAnswer": "Applying DDD to IoT systems with device data as domain events",
+            "explanation": "IoT device data can be treated as domain events in relevant bounded contexts. Example: Smart home system where 'TemperatureReading' from sensors are domain events processed by 'ClimateControl' context."
+        },
+        {
+            "id": "ddd-074",
+            "text": "What is 'Domain-Driven Blockchain'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Blockchain for domain records",
+                "Applying DDD to blockchain applications with smart contracts as domain services",
+                "Blockchain for all domains",
+                "Domain-specific blockchains"
+            ],
+            "correctAnswer": "Applying DDD to blockchain applications with smart contracts as domain services",
+            "explanation": "Blockchain smart contracts can implement domain logic with clear boundaries. Example: 'EscrowService' domain service that interacts with blockchain smart contracts for payment escrow."
+        },
+        {
+            "id": "ddd-075",
+            "text": "What is 'Domain-Driven Game Development'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Game development for domains",
+                "Applying DDD to game architecture with game mechanics as domain logic",
+                "Game development for all domains",
+                "Domain-specific game engines"
+            ],
+            "correctAnswer": "Applying DDD to game architecture with game mechanics as domain logic",
+            "explanation": "Game mechanics can be modeled as rich domain logic. Example: Game with 'Character', 'Inventory', 'Quest' aggregates implementing game rules as domain invariants."
+        },
+        {
+            "id": "ddd-076",
+            "text": "What is 'Domain-Driven Finance'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Finance for domains",
+                "Applying DDD to financial systems with precise financial domain modeling",
+                "Finance for all domains",
+                "Domain-specific financial systems"
+            ],
+            "correctAnswer": "Applying DDD to financial systems with precise financial domain modeling",
+            "explanation": "Financial systems benefit from precise domain modeling of concepts like money, accounts, and transactions. Example: Banking system with 'Account', 'Transaction', 'Balance' as domain objects with financial business rules."
+        },
+        {
+            "id": "ddd-077",
+            "text": "What is 'Domain-Driven Healthcare'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Healthcare for domains",
+                "Applying DDD to healthcare systems with medical domain expertise",
+                "Healthcare for all domains",
+                "Domain-specific healthcare systems"
+            ],
+            "correctAnswer": "Applying DDD to healthcare systems with medical domain expertise",
+            "explanation": "Healthcare requires deep collaboration with medical experts to model complex domains. Example: EHR system with 'Patient', 'Appointment', 'Prescription' aggregates modeling medical workflows."
+        },
+        {
+            "id": "ddd-078",
+            "text": "What is 'Domain-Driven E-commerce'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "E-commerce for domains",
+                "Applying DDD to e-commerce with clear bounded contexts for catalog, orders, shipping",
+                "E-commerce for all domains",
+                "Domain-specific e-commerce platforms"
+            ],
+            "correctAnswer": "Applying DDD to e-commerce with clear bounded contexts for catalog, orders, shipping",
+            "explanation": "E-commerce naturally fits DDD with clear subdomains. Example: Separate bounded contexts for 'ProductCatalog', 'ShoppingCart', 'OrderProcessing', 'InventoryManagement'."
+        },
+        {
+            "id": "ddd-079",
+            "text": "What is 'Domain-Driven Education'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Education about domains",
+                "Applying DDD to educational systems with learning domain modeling",
+                "Education for all domains",
+                "Domain-specific educational systems"
+            ],
+            "correctAnswer": "Applying DDD to educational systems with learning domain modeling",
+            "explanation": "Educational systems model complex learning processes and institutional structures. Example: LMS with 'Course', 'Enrollment', 'Assignment', 'Grade' aggregates modeling educational workflows."
+        },
+        {
+            "id": "ddd-080",
+            "text": "What is 'Domain-Driven Government'?",
+            "type": "multiple-choice",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "Government for domains",
+                "Applying DDD to government systems with regulatory domain modeling",
+                "Government for all domains",
+                "Domain-specific government systems"
+            ],
+            "correctAnswer": "Applying DDD to government systems with regulatory domain modeling",
+            "explanation": "Government systems involve complex regulations and processes that benefit from clear domain modeling. Example: Tax system with 'Taxpayer', 'Filing', 'Assessment', 'Payment' aggregates modeling tax regulations."
+        },
+        {
+            "id": "ddd-081",
+            "text": "Ubiquitous Language should be used consistently in both code and conversations with domain experts.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Consistency between code and conversations ensures that the domain model accurately reflects business concepts and facilitates communication. Example: If business calls it 'Client' not 'Customer', the code should use Client everywhere."
+        },
+        {
+            "id": "ddd-082",
+            "text": "Entities should always have public setters for all properties to maintain flexibility.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Entities should protect their invariants by controlling state changes through meaningful methods rather than public setters. Example: Order should have AddItem() method rather than public Items collection setter to maintain order total consistency."
+        },
+        {
+            "id": "ddd-083",
+            "text": "Value Objects should be immutable to maintain consistency and avoid side effects.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Immutability ensures that Value Objects can be safely shared and compared without unexpected changes. Example: Money value object with Amount and Currency should be immutable - create new instances for changes."
+        },
+        {
+            "id": "ddd-084",
+            "text": "Aggregate Roots should reference other Aggregate Roots directly by identity, not by object reference.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Referencing other aggregates by identity maintains clear boundaries and avoids loading entire aggregates when only identity is needed. Example: Order aggregate holds CustomerId, not full Customer object reference."
+        },
+        {
+            "id": "ddd-085",
+            "text": "Domain Services should contain business logic that doesn't naturally fit in Entities or Value Objects.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Domain Services handle operations that involve multiple entities or complex business rules that don't belong to a single entity. Example: FundTransferService that coordinates transfer between two Account aggregates."
+        },
+        {
+            "id": "ddd-086",
+            "text": "Repositories should return IQueryable to allow flexible query composition from application layer.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Repositories should return concrete results or specifications to maintain domain encapsulation and prevent query logic from leaking into application layer."
+        },
+        {
+            "id": "ddd-087",
+            "text": "Bounded Contexts should always be implemented as separate microservices.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Bounded Contexts can be implemented as modules within a monolith, separate services, or other boundaries - the important thing is the conceptual boundary, not the deployment."
+        },
+        {
+            "id": "ddd-088",
+            "text": "Domain Events should be used to communicate between aggregates within the same bounded context.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Domain Events maintain loose coupling between aggregates within a context, allowing them to react to changes without direct dependencies. Example: OrderConfirmed event triggers Inventory reservation."
+        },
+        {
+            "id": "ddd-089",
+            "text": "Application Services should contain core business logic and domain rules.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Application Services coordinate domain objects but should not contain business logic - that belongs in the domain layer (Entities, Value Objects, Domain Services)."
+        },
+        {
+            "id": "ddd-090",
+            "text": "Anti-Corruption Layers should translate between different bounded contexts to prevent model pollution.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "ACLs protect a bounded context from being contaminated by concepts and models from other contexts, especially legacy systems."
+        },
+        {
+            "id": "ddd-091",
+            "text": "Factories are only needed for creating complex aggregates with significant initialization logic.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Simple objects can be created with constructors; Factories encapsulate complex creation logic that involves multiple steps or significant business rules."
+        },
+        {
+            "id": "ddd-092",
+            "text": "Event Sourcing is required for all DDD implementations.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Event Sourcing is an optional pattern that can be beneficial for certain domains but is not required for DDD."
+        },
+        {
+            "id": "ddd-093",
+            "text": "CQRS should always be used with Event Sourcing.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "CQRS can be used independently of Event Sourcing - it's about separating read and write models, which can be implemented with traditional persistence."
+        },
+        {
+            "id": "ddd-094",
+            "text": "Domain Models should be designed around the database schema for optimal performance.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The domain model should reflect business concepts; database concerns should be handled by the infrastructure layer through mappings and repositories."
+        },
+        {
+            "id": "ddd-095",
+            "text": "Strategic Design should be done before Tactical Design in DDD projects.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Understanding the large-scale structure (bounded contexts) helps guide the detailed implementation within each context."
+        },
+        {
+            "id": "ddd-096",
+            "text": "All business logic should be in the domain layer, with no logic in application or infrastructure layers.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The domain layer should contain all business rules and logic; other layers handle coordination, presentation, and technical concerns."
+        },
+        {
+            "id": "ddd-097",
+            "text": "Domain Events should be persisted to ensure they are not lost if the system crashes during processing.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Persisting domain events ensures reliability and allows event replaying for debugging or building read models."
+        },
+        {
+            "id": "ddd-098",
+            "text": "Value Objects can contain business logic and validation rules.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Value Objects can and should encapsulate behavior related to their values, like validation and calculations. Example: Money value object can have Add() method with currency conversion logic."
+        },
+        {
+            "id": "ddd-099",
+            "text": "The same entity can be an Aggregate Root in multiple bounded contexts.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Different bounded contexts can have different models of the same conceptual entity, each with its own aggregate boundaries and responsibilities."
+        },
+        {
+            "id": "ddd-100",
+            "text": "DDD is only applicable to large, complex domains and overkill for simple CRUD applications.",
+            "type": "true-false",
+            "category": "Domain-Driven Design",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True",
+            "explanation": "DDD provides the most value in complex domains with significant business logic; for simple CRUD applications, it may add unnecessary complexity."
+        }
+    ]
+}

@@ -1,7 +1,10 @@
-
 {
     "title": "مقابلة دوت نت deepseek",
     "titleEn": "deepseek .NET Core Interview",
+    "IsFree" : false,
+    "Lang" : "en",
+    "categoryId": 11,
+    
     "description": "An interview tailored for a Senior .NET Core Developer and Team Lead role, based on your CV.",
     "questions": [
         {
