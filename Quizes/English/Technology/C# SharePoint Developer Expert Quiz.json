@@ -1,7 +1,8 @@
 {
+    "Id": 70,
     "title": "اختبار مطور SharePoint C# المتقدم",
     "titleEn": "C# SharePoint Developer Expert Quiz",
-    "description": "A 150-question comprehensive exam for C# SharePoint developers, covering SSOM, CSOM, SPFx, REST APIs, Architecture, Security, and Modern Development.",
+    "description": "A 250-question comprehensive exam for C# SharePoint developers, covering SSOM, CSOM, SPFx, REST APIs, Security, Governance, Performance Optimization, Architecture, Modern Development Best Practices, Cloud Integration, Power Automate, Microsoft Graph, Multi-tenant Scenarios, and DevOps strategies.",
     "categoryId": 21,
     "isFree": false,
     "lang": "en",
@@ -18,7 +19,7 @@
                 "Content Database"
             ],
             "correctAnswer": "Web Application",
-            "explanation": "A Web Application is the top-level logical unit, created in Central Administration, which maps to an IIS website and is associated with content databases and authentication providers."
+            "explanation": "A Web Application is the top-level logical unit, created in Central Administration, which maps to an IIS website and is associated with content databases and authentication providers. For example, a farm might have two Web Applications: one for internal intranet (HTTP) and another for internet-facing extranet (HTTPS), each with different databases and authentication methods."
         },
         {
             "id": "002",
@@ -32,7 +33,7 @@
                 "A specific type of SharePoint site template."
             ],
             "correctAnswer": "A package of SharePoint elements (like lists, content types, or web parts) that can be activated or deactivated at a specific scope.",
-            "explanation": "Features are the fundamental unit of deployment in classic SharePoint, allowing for modular activation of functionality at the Farm, WebApplication, Site (Collection), or Web (Site) scope."
+            "explanation": "Features are the fundamental unit of deployment in classic SharePoint, allowing for modular activation of functionality at the Farm, WebApplication, Site (Collection), or Web (Site) scope. Example: A 'Reporting' feature might create custom lists, content types, and web parts that can be activated only on reporting sites without affecting other sites in the farm."
         },
         {
             "id": "003",
@@ -46,7 +47,7 @@
                 "The type of database used to store the content."
             ],
             "correctAnswer": "A set of Site Columns (metadata) and an optional document template.",
-            "explanation": "Content Types allow you to define a schema (via Site Columns) and a template (e.g., a .dotx for a 'Contract' content type) that can be reused across multiple lists and libraries."
+            "explanation": "Content Types allow you to define a schema (via Site Columns) and a template (e.g., a .dotx for a 'Contract' content type) that can be reused across multiple lists and libraries. Practical example: A 'Purchase Order' content type includes fields like Vendor, Amount, ApprovalDate, and a .docx template; when users upload a PO, SharePoint enforces these fields and provides the template format."
         },
         {
             "id": "004",
@@ -60,7 +61,7 @@
                 "Farm -> Content Database -> Site -> List"
             ],
             "correctAnswer": "Farm -> Web Application -> Site Collection -> Site (Web)",
-            "explanation": "The Farm is the entire server installation. It contains Web Applications, which in turn contain one or more Site Collections (SPSite). Each Site Collection has a top-level Site (SPWeb) and can have many subsites (SPWebs)."
+            "explanation": "The Farm is the entire server installation. It contains Web Applications, which in turn contain one or more Site Collections (SPSite). Each Site Collection has a top-level Site (SPWeb) and can have many subsites (SPWebs). Real scenario: Farm > Intranet Web App > HR Site Collection > HR Root Site > Payroll Subsite. This hierarchy allows fine-grained permission management and isolation."
         },
         {
             "id": "005",
@@ -204,8 +205,8 @@
                 "Let the .NET Garbage Collector handle them automatically.",
                 "Set them to `null` when finished."
             ],
-            "correctAnswer": "Always dispose of them using a `using` block or by calling `.Dispose()` in a `finally` block.",
-            "explanation": "`SPSite` and `SPWeb` objects hold unmanaged resources (like database connections). Failing to dispose of them will cause severe memory leaks on the server. The `using` pattern is the standard."
+            "correctAnswer": "`SPSite` and `SPWeb` objects hold unmanaged resources (like database connections). Failing to dispose of them will cause severe memory leaks on the server. The `using` pattern is the standard.",
+            "explanation": "`SPSite` and `SPWeb` objects hold unmanaged resources (like database connections). Failing to dispose of them will cause severe memory leaks on the server. The `using` pattern is the standard. Critical example: A timer job that loops through 1000 sites without disposing SPSite objects could exhaust server memory within minutes. Proper code: `using (SPSite site = new SPSite(url)) { // do work }` ensures cleanup."
         },
         {
             "id": "016",
@@ -605,156 +606,162 @@
         },
         {
             "id": "048",
-            "text": "What is the `_spPageContextInfo` object in JSOM?",
+            "text": "What is the SharePoint Framework (SPFx)?",
             "type": "multiple-choice",
-            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "category": "Modern Development (SPFx)",
             "answers": [
-                "A JavaScript object available on classic SharePoint pages that contains current context information (like `webAbsoluteUrl`).",
-                "The main JSOM client context object.",
-                "A C# class for managing page context.",
-                "A JSON file containing page metadata."
+                "A server-side development model for SharePoint.",
+                "A client-side development framework for building modern web parts and extensions.",
+                "A tool for managing SharePoint site collections.",
+                "A replacement for the SharePoint Designer tool."
             ],
-            "correctAnswer": "A JavaScript object available on classic SharePoint pages that contains current context information (like `webAbsoluteUrl`).",
-            "explanation": "This object is automatically added to the page by SharePoint and is very useful for getting the current site URL, user ID, etc., to initialize a JSOM `SP.ClientContext`."
+            "correctAnswer": "A client-side development framework for building modern web parts and extensions.",
+            "explanation": "The SharePoint Framework (SPFx) is a modern client-side development model that allows developers to build web parts, extensions, and other customizations using modern web technologies like TypeScript, React, and Node.js. It is designed to work seamlessly with SharePoint Online and on-premises."
         },
         {
             "id": "049",
-            "text": "In C# CSOM, `ClientContext.Credentials` is used to provide authentication details.",
-            "type": "true-false",
-            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "text": "How do you authenticate REST API calls in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "REST API & Security",
             "answers": [
-                "True",
-                "False"
+                "Using NTLM authentication.",
+                "Using OAuth tokens or App Registrations.",
+                "Using Basic Authentication.",
+                "Using the SharePoint Designer credentials."
             ],
-            "correctAnswer": "True",
-            "explanation": "You would set this property, for example: `context.Credentials = new SharePointOnlineCredentials(username, securePassword)` for legacy SPO auth or use an OAuth token."
+            "correctAnswer": "Using OAuth tokens or App Registrations.",
+            "explanation": "REST API calls in SharePoint Online typically use OAuth tokens for authentication. Developers can register their applications in Azure AD to obtain these tokens, ensuring secure and modern authentication practices. Practical scenario: A PowerBI dashboard calling the SharePoint REST API would authenticate via Azure AD OAuth, ensuring the call is secure and auditable without embedding credentials in code."
         },
         {
             "id": "050",
-            "text": "The CSOM `ListItemCollection` object loads all items in the list by default when you call `context.Load(list.Items)`.",
-            "type": "true-false",
-            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "text": "What is the purpose of the 'PnP PowerShell' module in SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Tools & Utilities",
             "answers": [
-                "True",
-                "False"
+                "To manage IIS settings for SharePoint.",
+                "To automate common SharePoint tasks and configurations.",
+                "To debug SharePoint Framework solutions.",
+                "To create new SharePoint site templates."
             ],
-            "correctAnswer": "False",
-            "explanation": "This is a common pitfall. By default, `list.Items` does *not* include the item data. You must use a `CamlQuery` (even an empty one) with `list.GetItems(query)` to retrieve the actual items."
+            "correctAnswer": "To automate common SharePoint tasks and configurations.",
+            "explanation": "The PnP PowerShell module is a powerful tool for automating SharePoint tasks, such as creating sites, managing lists, and configuring permissions. It is widely used by administrators and developers to streamline SharePoint management."
         },
         {
             "id": "051",
-            "text": "What is the standard base URL prefix for all SharePoint REST API calls?",
+            "text": "What are some best practices for optimizing SharePoint performance?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "Performance Optimization",
             "answers": [
-                "`/_layouts/15/api/`",
-                "`/_vti_bin/client.svc/`",
-                "`/_api/`",
-                "`/rest/`"
+                "Avoid using indexed columns in large lists.",
+                "Enable versioning on all document libraries.",
+                "Use Content Delivery Networks (CDNs) for static assets.",
+                "Disable caching for frequently accessed pages."
             ],
-            "correctAnswer": "`/_api/`",
-            "explanation": "All REST API endpoints are relative to the site and begin with `_api/`, for example: `https://[sitecollection]/_api/web/lists`."
+            "correctAnswer": "Use Content Delivery Networks (CDNs) for static assets.",
+            "explanation": "Optimizing SharePoint performance involves strategies like using CDNs for static assets, minimizing custom code, enabling indexed columns for large lists, and leveraging caching mechanisms for frequently accessed content."
         },
         {
             "id": "052",
-            "text": "Which HTTP verb is used with the REST API to retrieve information (e.g., get all lists)?",
+            "text": "What is the primary purpose of the SharePoint App Catalog?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "Modern Development (SPFx)",
             "answers": [
-                "POST",
-                "GET",
-                "PUT",
-                "RETRIEVE"
+                "To store SharePoint Framework (SPFx) solutions and make them available for deployment.",
+                "To manage SharePoint site collections.",
+                "To configure IIS settings for SharePoint.",
+                "To debug SharePoint solutions."
             ],
-            "correctAnswer": "GET",
-            "explanation": "A standard `GET` request is used for all read operations, e.g., `GET _api/web/lists`."
+            "correctAnswer": "To store SharePoint Framework (SPFx) solutions and make them available for deployment.",
+            "explanation": "The SharePoint App Catalog is used to store and manage SPFx solutions, making them available for deployment across site collections. It is essential for managing custom solutions in SharePoint Online and on-premises."
         },
         {
             "id": "053",
-            "text": "Which HTTP verb is used with the REST API to create a new SharePoint list item?",
+            "text": "What is the purpose of the 'Tenant Wide Extensions' in SPFx?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "Modern Development (SPFx)",
             "answers": [
-                "POST",
-                "CREATE",
-                "PUT",
-                "GET"
+                "To deploy extensions globally across all site collections in a tenant.",
+                "To manage permissions for SharePoint Online.",
+                "To debug SPFx solutions.",
+                "To create new SharePoint site templates."
             ],
-            "correctAnswer": "POST",
-            "explanation": "You `POST` the new item's data (as JSON) to the list's item collection endpoint (e.g., `_api/web/lists/getbytitle('MyList')/items`)."
+            "correctAnswer": "To deploy extensions globally across all site collections in a tenant.",
+            "explanation": "Tenant Wide Extensions in SPFx allow developers to deploy extensions, such as Application Customizers, globally across all site collections in a tenant. This simplifies the deployment process for global customizations."
         },
         {
             "id": "054",
-            "text": "To update an existing list item using the REST API, you must send a `POST` request with which HTTP header?",
+            "text": "Which tool is commonly used to build and package SPFx solutions?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "Modern Development (SPFx)",
             "answers": [
-                "`X-HTTP-Method: UPDATE`",
-                "'X-HTTP-Method: MERGE' (or 'PATCH')",
-                "`X-Request-Mode: Update`",
-                "`X-SharePoint-Update: True`"
+                "Visual Studio.",
+                "Gulp.",
+                "MSBuild.",
+                "Webpack."
             ],
-            "correctAnswer": "'X-HTTP-Method: MERGE' (or 'PATCH')",
-            "explanation": "You `POST` to the item's specific URL (e.g., `.../items(1)`). Because HTML forms only supported GET/POST, the `X-HTTP-Method` header is used to 'tunnel' the `MERGE` or `PATCH` verb."
+            "correctAnswer": "Gulp.",
+            "explanation": "Gulp is a task runner commonly used in SPFx development to build, bundle, and package solutions. It automates tasks like compiling TypeScript, bundling assets, and generating deployment packages."
         },
         {
             "id": "055",
-            "text": "What is the purpose of the 'Form Digest' value (X-RequestDigest header) in REST API calls?",
+            "text": "What is the purpose of the 'PnP JS' library in SharePoint development?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "Tools & Utilities",
             "answers": [
-                "To encrypt the data being sent.",
-                "To prevent Cross-Site Request Forgery (CSRF) attacks on write operations (POST, PUT, DELETE).",
-                "To specify the OData version being used.",
-                "To authenticate the user."
+                "To manage IIS settings for SharePoint.",
+                "To simplify REST API calls and data operations in SharePoint.",
+                "To debug SharePoint Framework solutions.",
+                "To create new SharePoint site templates."
             ],
-            "correctAnswer": "To prevent Cross-Site Request Forgery (CSRF) attacks on write operations (POST, PUT, DELETE).",
-            "explanation": "This value is a security token that must be fetched (from `_api/contextinfo`) and included in the headers of all state-changing requests to prove the request originated from the SharePoint site."
+            "correctAnswer": "To simplify REST API calls and data operations in SharePoint.",
+            "explanation": "The PnP JS library is a lightweight, fluent API for interacting with SharePoint REST APIs. It simplifies operations like retrieving lists, managing items, and handling permissions."
         },
         {
             "id": "056",
-            "text": "You can use the SharePoint REST API from any C# application (like a Web API or console app) using `HttpClient`.",
-            "type": "true-false",
-            "category": "SharePoint REST API",
+            "text": "What is the primary benefit of using the SharePoint REST API?",
+            "type": "multiple-choice",
+            "category": "REST API & Security",
             "answers": [
-                "True",
-                "False"
+                "It allows server-side code execution.",
+                "It provides a platform-agnostic way to interact with SharePoint data.",
+                "It replaces the need for CSOM and JSOM.",
+                "It is only used for debugging purposes."
             ],
-            "correctAnswer": "True",
-            "explanation": "The REST API is platform-agnostic. Any C# application that can construct HTTP requests (using `HttpClient`) and handle JSON responses can use it."
+            "correctAnswer": "It provides a platform-agnostic way to interact with SharePoint data.",
+            "explanation": "The SharePoint REST API enables developers to interact with SharePoint data and services from any platform or language that supports HTTP requests. It is widely used for modern integrations."
         },
         {
             "id": "057",
-            "text": "What does the OData (Open Data Protocol) query operator `$select` do in a REST query?",
+            "text": "What is the purpose of the 'Hub Sites' feature in SharePoint Online?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "SharePoint Online Features",
             "answers": [
-                "Selects the top N items (e.g., `$select=10`).",
-                "Specifies which *fields* (columns) to return (e.g., `$select=Title,Id`).",
-                "Selects items based on a *condition* (e.g., `$select=Status eq 'Complete'`).",
-                "Selects the correct web to query."
+                "To manage permissions across multiple site collections.",
+                "To associate related site collections for shared navigation and branding.",
+                "To replace the need for subsites.",
+                "To create new site templates."
             ],
-            "correctAnswer": "Specifies which *fields* (columns) to return (e.g., `$select=Title,Id`).",
-            "explanation": "This is a key performance optimization, equivalent to the lambda expression in CSOM's `Load()` method. It reduces the payload size."
+            "correctAnswer": "To associate related site collections for shared navigation and branding.",
+            "explanation": "Hub Sites in SharePoint Online allow organizations to associate related site collections, providing shared navigation, branding, and search capabilities. They promote a flat architecture by replacing traditional subsites."
         },
         {
             "id": "058",
-            "text": "What does the OData operator `$expand` do in a REST query?",
+            "text": "What is the primary purpose of the 'Compliance Center' in SharePoint Online?",
             "type": "multiple-choice",
-            "category": "SharePoint REST API",
+            "category": "Governance & Security",
             "answers": [
-                "Expands a compressed file.",
-                "Increases the number of items returned.",
-                "Retrieves data from related lookups or user fields in the same call (e.g., `$expand=Author`).",
-                "Expands all fields (`$select=*`)."
+                "To manage IIS settings for SharePoint.",
+                "To enforce data retention, eDiscovery, and compliance policies.",
+                "To debug SharePoint Framework solutions.",
+                "To create new SharePoint site templates."
             ],
-            "correctAnswer": "Retrieves data from related lookups or user fields in the same call (e.g., `$expand=Author`).",
-            "explanation": "By default, lookup/user fields only return an ID. Using `$expand=Author` and `$select=Author/Title` will retrieve the Author's name in a single request."
+            "correctAnswer": "To enforce data retention, eDiscovery, and compliance policies.",
+            "explanation": "The Compliance Center in SharePoint Online helps organizations enforce data retention, eDiscovery, and compliance policies, ensuring regulatory requirements are met."
         },
         {
             "id": "059",
-            "text": "To filter results in a REST API call, you use the `___` OData operator.",
-            "type": "fill-in-the-blank",
+            "text": "What is the purpose of the 'SharePoint Migration Tool'?",
+              "type": "fill-in-the-blank",
             "category": "SharePoint REST API",
             "answers": [],
             "correctAnswer": "$filter",
@@ -1918,7 +1925,1402 @@
             "category": "Branding & Graph API",
             "answers": [],
             "correctAnswer": "Access Token",
-            "explanation": "All Graph API calls must be authenticated using an OAuth 2.0 Access Token, which is typically acquired using the Microsoft Authentication Library (MSAL) for .NET."
+            "explanation": "The SharePoint Migration Tool is used to migrate content from on-premises SharePoint environments to SharePoint Online, simplifying the transition to the cloud."
+        },
+        {
+            "id": "151",
+            "text": "What is the primary purpose of versioning in a SharePoint Document Library?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "To track file modifications and maintain a history of changes.",
+                "To prevent users from editing files.",
+                "To limit file size on the server.",
+                "To encrypt files automatically."
+            ],
+            "correctAnswer": "To track file modifications and maintain a history of changes.",
+            "explanation": "Versioning allows users to see who changed a document and when, recover previous versions if needed, and manage major/minor versions. Major versions are stable releases; minor versions are drafts."
+        },
+        {
+            "id": "152",
+            "text": "In SSOM, which class represents a single document or list item in a library or list?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "`SPListCollection`",
+                "`SPListItem`",
+                "`SPFieldCollection`",
+                "`SPContentType`"
+            ],
+            "correctAnswer": "`SPListItem`",
+            "explanation": "`SPListItem` is the fundamental class representing an item or document in a SharePoint list or library. It contains field values, metadata, and properties like ID, Title, and Created date."
+        },
+        {
+            "id": "153",
+            "text": "What is the purpose of a 'View' in a SharePoint list?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "To permanently delete items from a list.",
+                "To define a specific way of displaying list items (columns, filters, sorting).",
+                "To create a backup of the list.",
+                "To encrypt list data."
+            ],
+            "correctAnswer": "To define a specific way of displaying list items (columns, filters, sorting).",
+            "explanation": "Views allow users to see the same list data in different formats. For example, a 'Today's Tasks' view might filter to items with a due date of today, while a 'Completed' view might sort by completion date descending."
+        },
+        {
+            "id": "154",
+            "text": "What is the purpose of a 'Lookup' column in SharePoint?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "To store large files.",
+                "To reference data from another list in the same site collection.",
+                "To create a backup of a list.",
+                "To encrypt column data."
+            ],
+            "correctAnswer": "To reference data from another list in the same site collection.",
+            "explanation": "A Lookup column allows you to reference items from another list. For example, in a 'Tasks' list, you might have a Lookup column that points to an 'Employees' list, allowing you to assign tasks to employees."
+        },
+        {
+            "id": "155",
+            "text": "What is the purpose of the 'Content Organizer' feature in SharePoint?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "To delete files automatically.",
+                "To automatically route documents to appropriate libraries based on rules.",
+                "To create backups of documents.",
+                "To encrypt documents."
+            ],
+            "correctAnswer": "To automatically route documents to appropriate libraries based on rules.",
+            "explanation": "Content Organizer uses content routing rules to automatically move documents from a 'Drop Off Library' to the correct destination library based on content type, metadata, or other criteria."
+        },
+        {
+            "id": "156",
+            "text": "In CSOM, to update an item in a list, you typically use `item[FieldName] = value`, call `item.___()`, then `context.ExecuteQuery()`.",
+            "type": "fill-in-the-blank",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [],
+            "correctAnswer": "Update",
+            "explanation": "The `Update()` method on an `SPListItem` stages the update operation. It doesn't actually send the change to the server until `ExecuteQuery()` is called on the client context."
+        },
+        {
+            "id": "157",
+            "text": "What is the primary benefit of using 'Indexed Columns' in a large SharePoint list?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "To increase file storage capacity.",
+                "To dramatically improve query performance by creating a database index.",
+                "To encrypt column data.",
+                "To prevent users from editing the column."
+            ],
+            "correctAnswer": "To dramatically improve query performance by creating a database index.",
+            "explanation": "Indexed columns allow CAML queries to run much faster on large lists, as SQL Server can use an index instead of scanning every row. Without indexed columns, large queries fail with the List View Threshold error."
+        },
+        {
+            "id": "158",
+            "text": "What is the 'Recycle Bin' in SharePoint?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "A feature to compact file storage.",
+                "A two-stage trash system where deleted items are held before permanent deletion.",
+                "A backup system for the entire site collection.",
+                "A tool to compress documents."
+            ],
+            "correctAnswer": "A two-stage trash system where deleted items are held before permanent deletion.",
+            "explanation": "When a user deletes an item, it goes to the user-level Recycle Bin. If purged from there, it goes to the Site Collection Recycle Bin (admin only). Both are temporary; after retention expires, items are permanently deleted."
+        },
+        {
+            "id": "159",
+            "text": "What is the purpose of 'Managed Properties' in SharePoint Search?",
+            "type": "multiple-choice",
+            "category": "Search & Querying",
+            "answers": [
+                "To store user profile information.",
+                "To make crawled properties queryable and sortable in KQL queries.",
+                "To manage permissions in a list.",
+                "To backup search index data."
+            ],
+            "correctAnswer": "To make crawled properties queryable and sortable in KQL queries.",
+            "explanation": "A Managed Property is a mapping from a Crawled Property to a queryable field. For example, mapping the crawled 'ows_Department' property to the managed property 'Department' allows queries like `Department:IT`."
+        },
+        {
+            "id": "160",
+            "text": "What is the purpose of 'Query Rules' in SharePoint Search?",
+            "type": "multiple-choice",
+            "category": "Search & Querying",
+            "answers": [
+                "To delete search results.",
+                "To modify search queries dynamically (e.g., promote/demote results, add query conditions).",
+                "To encrypt search indexes.",
+                "To backup search data."
+            ],
+            "correctAnswer": "To modify search queries dynamically (e.g., promote/demote results, add query conditions).",
+            "explanation": "Query Rules allow admins to improve search results. For example, you can create a rule: if the user searches for 'SharePoint', promote results tagged with 'Official Docs' to the top, or add a refinement for 'Department'."
+        },
+        {
+            "id": "161",
+            "text": "What is a 'Result Block' in SharePoint Search?",
+            "type": "multiple-choice",
+            "category": "Search & Querying",
+            "answers": [
+                "A tool to delete search results.",
+                "A special section in search results that shows results from a different query (e.g., 'Promoted Links' or 'Related News').",
+                "A way to backup search indexes.",
+                "A method to encrypt search data."
+            ],
+            "correctAnswer": "A special section in search results that shows results from a different query (e.g., 'Promoted Links' or 'Related News').",
+            "explanation": "Result Blocks are often created using Query Rules to display curated content alongside regular search results, improving user experience and surfacing important or related information."
+        },
+        {
+            "id": "162",
+            "text": "In the context of Managed Metadata, what is a 'Term Set'?",
+            "type": "multiple-choice",
+            "category": "Governance & Metadata",
+            "answers": [
+                "A collection of related terms organized hierarchically in the Term Store.",
+                "A backup of metadata.",
+                "A user group with metadata permissions.",
+                "A database table for storing terms."
+            ],
+            "correctAnswer": "A collection of related terms organized hierarchically in the Term Store.",
+            "explanation": "A Term Set is a container in the Term Store (e.g., 'Departments', 'Project Types', 'Countries') that groups related managed metadata terms. For example, the 'Departments' term set might contain 'IT', 'HR', 'Finance', etc."
+        },
+        {
+            "id": "163",
+            "text": "What is the purpose of a 'Managed Navigation' in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "To automatically delete navigation items.",
+                "To create site navigation menus based on the Managed Metadata Term Store.",
+                "To encrypt navigation data.",
+                "To backup navigation settings."
+            ],
+            "correctAnswer": "To create site navigation menus based on the Managed Metadata Term Store.",
+            "explanation": "Managed Navigation allows admins to define site navigation menus using terms from the Term Store, ensuring consistency across multiple sites and making it easy to maintain navigation centrally."
+        },
+        {
+            "id": "164",
+            "text": "What is the purpose of 'Content Types' in a list or library?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "To store large files.",
+                "To define the fields (metadata), form templates, and workflows for different types of items.",
+                "To backup items.",
+                "To encrypt item data."
+            ],
+            "correctAnswer": "To define the fields (metadata), form templates, and workflows for different types of items.",
+            "explanation": "Content Types enforce consistency by defining which fields are available, which are required, and what workflows apply. For example, a 'Contract' content type might require fields like 'Vendor', 'Amount', 'ExpiryDate'."
+        },
+        {
+            "id": "165",
+            "text": "What is a 'Retention Policy' in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "A backup policy.",
+                "A rule that automatically deletes or archives content after a specified time period.",
+                "A permission policy.",
+                "A password policy."
+            ],
+            "correctAnswer": "A rule that automatically deletes or archives content after a specified time period.",
+            "explanation": "Retention Policies ensure compliance by automatically deleting (or archiving to immutable storage) content after its retention period. For example, email might be retained for 7 years, while temporary documents for 30 days."
+        },
+        {
+            "id": "166",
+            "text": "What is 'Sensitive Data Loss Prevention' (DLP) in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "A tool to delete files.",
+                "A compliance feature that identifies and prevents sharing of sensitive content (e.g., credit card numbers, social security numbers).",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A compliance feature that identifies and prevents sharing of sensitive content (e.g., credit card numbers, social security numbers).",
+            "explanation": "DLP policies use pattern matching to identify sensitive information and can prevent sharing externally, require encryption, or restrict access. This helps organizations comply with regulations like HIPAA, PCI-DSS, and GDPR."
+        },
+        {
+            "id": "167",
+            "text": "What is the purpose of 'Audit Logs' in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To delete user actions.",
+                "To record all user actions (view, edit, delete, share) for compliance and investigation.",
+                "To encrypt user data.",
+                "To backup user information."
+            ],
+            "correctAnswer": "To record all user actions (view, edit, delete, share) for compliance and investigation.",
+            "explanation": "Audit Logs record what users did, when, and from where. They are essential for compliance, eDiscovery investigations, and understanding what happened to sensitive data."
+        },
+        {
+            "id": "168",
+            "text": "What is 'External Sharing' in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "Sharing content with other on-premises SharePoint farms.",
+                "Sharing content with users outside your organization via a guest link.",
+                "Sharing content within the same organization.",
+                "Backing up content externally."
+            ],
+            "correctAnswer": "Sharing content with users outside your organization via a guest link.",
+            "explanation": "External Sharing allows organizations to securely share files and sites with people outside their Microsoft 365 tenant using guest links or sharing invitations, while maintaining security controls."
+        },
+        {
+            "id": "169",
+            "text": "What is the purpose of the 'Sensitivity Labels' feature in Microsoft 365 / SharePoint?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To delete files.",
+                "To classify and apply protection settings (encryption, DLP) to documents based on sensitivity (e.g., Public, Internal, Confidential).",
+                "To backup files.",
+                "To compress files."
+            ],
+            "correctAnswer": "To classify and apply protection settings (encryption, DLP) to documents based on sensitivity (e.g., Public, Internal, Confidential).",
+            "explanation": "Sensitivity Labels provide a consistent way to classify content and automatically apply protections like encryption, watermarks, and access restrictions. Users can manually apply labels, or admins can apply them automatically based on content."
+        },
+        {
+            "id": "170",
+            "text": "In SSOM, which method is used to delete an `SPListItem`?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "`item.Delete()`",
+                "`list.RemoveItem(item)`",
+                "`item.Dispose()`",
+                "`item.Remove()`"
+            ],
+            "correctAnswer": "`item.Delete()`",
+            "explanation": "The `Delete()` method on an `SPListItem` immediately removes the item from the list. For SSOM, changes are typically immediate; for CSOM, you would call `item.DeleteObject()` then `context.ExecuteQuery()`."
+        },
+        {
+            "id": "171",
+            "text": "What is the purpose of an 'Information Rights Management' (IRM) policy in SharePoint?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To delete files.",
+                "To encrypt documents and enforce permissions (no copy, no print, expiration) at the document level.",
+                "To backup files.",
+                "To compress files."
+            ],
+            "correctAnswer": "To encrypt documents and enforce permissions (no copy, no print, expiration) at the document level.",
+            "explanation": "IRM ensures that even if a document is downloaded, it remains encrypted and restricted. Users cannot print, copy, or view the document after its expiration date, providing persistent protection."
+        },
+        {
+            "id": "172",
+            "text": "What is a 'Site Collection Administrator'?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "A user who can manage files in a single library.",
+                "A user who has full administrative control over an entire Site Collection.",
+                "A user who can create sites.",
+                "A user who can manage users in a site."
+            ],
+            "correctAnswer": "A user who has full administrative control over an entire Site Collection.",
+            "explanation": "Site Collection Administrators have full control over a site collection and all its subsites, including managing lists, permissions, and features. Unlike farm admins, they don't have access to other site collections or Central Administration."
+        },
+        {
+            "id": "173",
+            "text": "What is the purpose of 'Recycle Bin restoration' functionality?",
+            "type": "multiple-choice",
+            "category": "Lists & Libraries Management",
+            "answers": [
+                "To permanently delete items.",
+                "To restore accidentally deleted items from the Recycle Bin.",
+                "To backup items.",
+                "To archive items."
+            ],
+            "correctAnswer": "To restore accidentally deleted items from the Recycle Bin.",
+            "explanation": "If a user or admin accidentally deletes content, it can be restored from the Recycle Bin within a certain retention period. After expiration, items are permanently deleted and cannot be recovered without a database backup."
+        },
+        {
+            "id": "174",
+            "text": "What is the primary purpose of using a 'Public CDN' in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "To increase permissions.",
+                "To cache static assets (CSS, JavaScript, images) globally for faster delivery to users.",
+                "To encrypt content.",
+                "To backup content."
+            ],
+            "correctAnswer": "To cache static assets (CSS, JavaScript, images) globally for faster delivery to users.",
+            "explanation": "A Public CDN (Content Delivery Network) caches static assets like SPFx JavaScript bundles, images, and CSS. This significantly improves page load times, especially for users geographically distant from the SharePoint server."
+        },
+        {
+            "id": "175",
+            "text": "What is the purpose of 'Minimal Download Strategy' (MDS) in classic SharePoint?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "To delete files.",
+                "To optimize page navigation by downloading only the delta (changed content) instead of the entire page.",
+                "To backup files.",
+                "To compress files."
+            ],
+            "correctAnswer": "To optimize page navigation by downloading only the delta (changed content) instead of the entire page.",
+            "explanation": "MDS was a performance feature in classic SharePoint that minimized bandwidth by only updating the changed portions of a page during navigation, rather than reloading the entire page."
+        },
+        {
+            "id": "176",
+            "text": "In CSOM, which property returns the Title of a web?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`web.Name`",
+                "`web.Title`",
+                "`web.DisplayName`",
+                "`web.Url`"
+            ],
+            "correctAnswer": "`web.Title`",
+            "explanation": "`web.Title` returns the display title of a web. You must use `Load()` to fetch this property: `context.Load(web, w => w.Title); context.ExecuteQuery();`"
+        },
+        {
+            "id": "177",
+            "text": "What is the purpose of 'Query String filters' in a CAML query?",
+            "type": "multiple-choice",
+            "category": "Search & Querying",
+            "answers": [
+                "To backup query results.",
+                "To allow views to be filtered based on URL parameters without rewriting CAML.",
+                "To encrypt query results.",
+                "To delete query results."
+            ],
+            "correctAnswer": "To allow views to be filtered based on URL parameters without rewriting CAML.",
+            "explanation": "Query String filters enable dynamic filtering. For example, a URL like `/tasks?ProjectID=123` can filter the view to show only tasks for project 123, without hardcoding the filter in CAML."
+        },
+        {
+            "id": "178",
+            "text": "What is the purpose of 'Column Formatting' (JSON formatting) in modern SharePoint lists?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "To delete columns.",
+                "To apply custom rendering (colors, icons, links) to column values without custom code.",
+                "To backup columns.",
+                "To encrypt columns."
+            ],
+            "correctAnswer": "To apply custom rendering (colors, icons, links) to column values without custom code.",
+            "explanation": "Column Formatting uses JSON templates to customize how values are displayed. For example, you can format a 'Status' column to show red for 'Overdue', yellow for 'At Risk', and green for 'On Track'."
+        },
+        {
+            "id": "179",
+            "text": "What is the purpose of 'Group Formatting' (JSON formatting) in modern SharePoint lists?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "To delete groups.",
+                "To apply custom styling and rendering to grouped data headers in list views.",
+                "To backup groups.",
+                "To encrypt groups."
+            ],
+            "correctAnswer": "To apply custom styling and rendering to grouped data headers in list views.",
+            "explanation": "Group Formatting allows you to customize how group headers are displayed in list views. For example, you can add icons, colors, or summary information to group headers using JSON templates."
+        },
+        {
+            "id": "180",
+            "text": "What is the primary purpose of the 'Business Apps' feature in SharePoint/Microsoft 365?",
+            "type": "multiple-choice",
+            "category": "Modern Development (SPFx)",
+            "answers": [
+                "To delete business data.",
+                "To enable PowerBI, Power Automate, and Power Apps integration for building no-code business solutions.",
+                "To backup business data.",
+                "To encrypt business data."
+            ],
+            "correctAnswer": "To enable PowerBI, Power Automate, and Power Apps integration for building no-code business solutions.",
+            "explanation": "Business Apps (part of the Power Platform) integrate deeply with SharePoint, allowing users to create dashboards (PowerBI), automate processes (Power Automate), and build custom forms (Power Apps) without writing code."
+        },
+        {
+            "id": "181",
+            "text": "What is a 'Power Automate Cloud Flow'?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "A backup mechanism.",
+                "An automated workflow triggered by an event (e.g., 'When an item is created') that performs actions (e.g., send email, update records).",
+                "A file transfer mechanism.",
+                "A data encryption method."
+            ],
+            "correctAnswer": "An automated workflow triggered by an event (e.g., 'When an item is created') that performs actions (e.g., send email, update records).",
+            "explanation": "Cloud Flows are the modern replacement for SharePoint Designer workflows. They can be triggered by SharePoint events, scheduled tasks, or manual buttons, and can span multiple systems (SharePoint, SQL Server, Teams, etc.)."
+        },
+        {
+            "id": "182",
+            "text": "What is the primary difference between a 'Cloud Flow' trigger and an 'action' in Power Automate?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "Triggers can only run once; actions can run multiple times.",
+                "A trigger initiates the flow (e.g., 'When an item is created'); an action performs work (e.g., 'Send an email').",
+                "Triggers are for backups; actions are for data updates.",
+                "There is no difference."
+            ],
+            "correctAnswer": "A trigger initiates the flow (e.g., 'When an item is created'); an action performs work (e.g., 'Send an email').",
+            "explanation": "Every Cloud Flow has exactly one trigger that starts it. Once triggered, the flow executes one or more actions in sequence. Triggers are the 'if this', actions are the 'then that'."
+        },
+        {
+            "id": "183",
+            "text": "What is the purpose of 'Approvals' in Power Automate?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "To delete items.",
+                "To route a request to one or more people for approval and automatically update records based on their response.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To route a request to one or more people for approval and automatically update records based on their response.",
+            "explanation": "Approvals are a common Cloud Flow pattern. For example, an approval flow for purchase requests can route to a manager, and if approved, automatically create a purchase order or update the request status."
+        },
+        {
+            "id": "184",
+            "text": "What is a 'Power Automate Desktop Flow' (formerly RPA - Robotic Process Automation)?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "A backup mechanism.",
+                "An automation that can interact with legacy systems and legacy web applications that don't have APIs.",
+                "A data transfer mechanism.",
+                "A file encryption method."
+            ],
+            "correctAnswer": "An automation that can interact with legacy systems and legacy web applications that don't have APIs.",
+            "explanation": "Desktop Flows (RPA) automate user interactions with legacy systems by simulating mouse clicks and keyboard inputs. They are useful for automating tasks in old applications without API access."
+        },
+        {
+            "id": "185",
+            "text": "In SSOM, what is the `SPFieldCollection` used for?",
+            "type": "multiple-choice",
+            "category": "Server-Side Object Model (SSOM)",
+            "answers": [
+                "To store backups.",
+                "To manage the set of fields (columns) in a list, library, or content type.",
+                "To manage permissions.",
+                "To manage workflows."
+            ],
+            "correctAnswer": "To manage the set of fields (columns) in a list, library, or content type.",
+            "explanation": "`SPFieldCollection` (accessed via `list.Fields` or `contentType.Fields`) allows you to add, remove, or iterate over fields. For example: `list.Fields.Add('MyField', SPFieldType.Text);`"
+        },
+        {
+            "id": "186",
+            "text": "What is the purpose of the 'Ribbon' in classic SharePoint?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "To display user profile information.",
+                "To provide a tabbed interface with commands and buttons for common actions (Edit, Delete, Share).",
+                "To display search results.",
+                "To manage permissions."
+            ],
+            "correctAnswer": "To provide a tabbed interface with commands and buttons for common actions (Edit, Delete, Share).",
+            "explanation": "The Ribbon was the primary UI for actions in classic SharePoint. Developers could extend it by adding custom tabs, groups, and buttons via Features and XML. Modern SharePoint uses the Command Bar instead."
+        },
+        {
+            "id": "187",
+            "text": "What is the purpose of the 'Command Bar' in modern SharePoint?",
+            "type": "multiple-choice",
+            "category": "Branding & Graph API",
+            "answers": [
+                "To store data.",
+                "To display contextual commands and actions (Edit, Delete, Share) in a modern, mobile-friendly interface.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To display contextual commands and actions (Edit, Delete, Share) in a modern, mobile-friendly interface.",
+            "explanation": "The Command Bar is the modern replacement for the Ribbon, providing a cleaner, more mobile-friendly interface. It shows relevant commands based on the selected item or context."
+        },
+        {
+            "id": "188",
+            "text": "What is the purpose of 'Site Designs' and 'Site Scripts' in SharePoint Online?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To delete sites.",
+                "To create reusable site templates that apply consistent structure, content types, lists, and branding to new sites.",
+                "To backup sites.",
+                "To encrypt sites."
+            ],
+            "correctAnswer": "To create reusable site templates that apply consistent structure, content types, lists, and branding to new sites.",
+            "explanation": "Site Designs allow organizations to standardize how new sites are set up. Site Scripts define actions (like 'createList' or 'applyTheme'). When a user creates a new site, they can choose a Site Design to apply."
+        },
+        {
+            "id": "189",
+            "text": "What is the purpose of 'Tenant-Wide Extensions' in SPFx?",
+            "type": "multiple-choice",
+            "category": "Modern Development (SPFx)",
+            "answers": [
+                "To delete sites.",
+                "To deploy extensions globally across all sites in a tenant without requiring individual installation.",
+                "To backup sites.",
+                "To encrypt sites."
+            ],
+            "correctAnswer": "To deploy extensions globally across all sites in a tenant without requiring individual installation.",
+            "explanation": "Tenant-Wide Extensions (Application Customizers, Field Customizers) can be deployed via the App Catalog with properties set by an admin, affecting all modern sites automatically without user installation."
+        },
+        {
+            "id": "190",
+            "text": "In the CSOM, how do you delete a list?",
+            "type": "multiple-choice",
+            "category": "Client-Side Object Model (CSOM & JSOM)",
+            "answers": [
+                "`list.Delete()`",
+                "`list.DeleteObject(); context.ExecuteQuery();`",
+                "`web.Lists.Remove(list); context.ExecuteQuery();`",
+                "`context.DeleteList(list)`"
+            ],
+            "correctAnswer": "`list.DeleteObject(); context.ExecuteQuery();`",
+            "explanation": "In CSOM, you call `DeleteObject()` on the list, then `ExecuteQuery()` to send the delete command to the server. This is the same pattern as other CSOM delete operations."
+        },
+        {
+            "id": "191",
+            "text": "What is the purpose of 'Async/Await' patterns in modern C# SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Modern Development (SPFx)",
+            "answers": [
+                "To delete files.",
+                "To write non-blocking code that handles I/O operations efficiently (REST calls, database queries) without consuming thread resources.",
+                "To backup files.",
+                "To encrypt files."
+            ],
+            "correctAnswer": "To write non-blocking code that handles I/O operations efficiently (REST calls, database queries) without consuming thread resources.",
+            "explanation": "Async/Await is essential in modern C# development for scalability. For example, calling the SharePoint REST API asynchronously allows a web server to handle more concurrent users efficiently."
+        },
+        {
+            "id": "192",
+            "text": "What is the purpose of 'Dependency Injection' in a .NET Core backend for SharePoint?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete dependencies.",
+                "To loosely couple components and make code testable by providing objects with their dependencies (e.g., ILogger, IDataService).",
+                "To backup dependencies.",
+                "To encrypt dependencies."
+            ],
+            "correctAnswer": "To loosely couple components and make code testable by providing objects with their dependencies (e.g., ILogger, IDataService).",
+            "explanation": "Dependency Injection (DI) is a core principle in .NET Core. Instead of creating dependencies internally, a class receives them as constructor parameters, making unit testing and mocking much easier."
+        },
+        {
+            "id": "193",
+            "text": "What is the purpose of 'Unit Testing' in SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete code.",
+                "To verify individual components work correctly in isolation and catch bugs early before production.",
+                "To backup code.",
+                "To encrypt code."
+            ],
+            "correctAnswer": "To verify individual components work correctly in isolation and catch bugs early before production.",
+            "explanation": "Unit Tests verify that individual methods or classes work as expected. In SharePoint development, unit tests often mock SharePoint objects (SPList, ClientContext) to test business logic without requiring a SharePoint environment."
+        },
+        {
+            "id": "194",
+            "text": "What is the primary purpose of the 'PnP Core SDK' in modern SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Tools & Utilities",
+            "answers": [
+                "To delete sites.",
+                "To provide a modern, strongly-typed .NET library for interacting with SharePoint and Microsoft Graph APIs.",
+                "To backup sites.",
+                "To encrypt sites."
+            ],
+            "correctAnswer": "To provide a modern, strongly-typed .NET library for interacting with SharePoint and Microsoft Graph APIs.",
+            "explanation": "The PnP Core SDK (formerly PNPJS) offers a fluent API for .NET developers to work with SharePoint. It simplifies common operations and abstracts away the complexity of REST calls and authentication."
+        },
+        {
+            "id": "195",
+            "text": "What is the purpose of 'Source Control' (Git) in SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete code.",
+                "To track code changes, enable collaboration, and provide a history for rollback if needed.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To track code changes, enable collaboration, and provide a history for rollback if needed.",
+            "explanation": "Version control systems like Git are essential for team collaboration in SharePoint development. They track who changed what, when, and why, enabling code reviews, branching, and easy rollbacks."
+        },
+        {
+            "id": "196",
+            "text": "What is the purpose of 'Continuous Integration/Continuous Deployment' (CI/CD) in SharePoint?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete deployments.",
+                "To automate testing, building, and deploying code to test/prod environments, reducing manual work and improving quality.",
+                "To backup deployments.",
+                "To encrypt deployments."
+            ],
+            "correctAnswer": "To automate testing, building, and deploying code to test/prod environments, reducing manual work and improving quality.",
+            "explanation": "CI/CD pipelines (using Azure DevOps, GitHub Actions, etc.) automatically run tests, build solutions, and deploy to environments. This catches bugs early, speeds up releases, and ensures consistent, reliable deployments."
+        },
+        {
+            "id": "197",
+            "text": "What is the purpose of 'API rate limiting' in SharePoint REST or Microsoft Graph?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete requests.",
+                "To protect the service by restricting the number of requests per user/app, preventing abuse and ensuring fair access.",
+                "To backup requests.",
+                "To encrypt requests."
+            ],
+            "correctAnswer": "To protect the service by restricting the number of requests per user/app, preventing abuse and ensuring fair access.",
+            "explanation": "Rate limits (e.g., 2,000 requests per 60 seconds in Graph) prevent any single app or user from overwhelming the service. Developers must handle 429 (Throttled) responses by implementing backoff and retry logic."
+        },
+        {
+            "id": "198",
+            "text": "What is the purpose of 'Error Handling' and 'Logging' in a SharePoint backend?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete errors.",
+                "To catch exceptions, log details for debugging, and provide meaningful error messages to users.",
+                "To backup errors.",
+                "To encrypt errors."
+            ],
+            "correctAnswer": "To catch exceptions, log details for debugging, and provide meaningful error messages to users.",
+            "explanation": "Robust error handling and logging are crucial for troubleshooting production issues. Using frameworks like Serilog, developers can log to Application Insights or other services, enabling real-time monitoring and alerting."
+        },
+        {
+            "id": "199",
+            "text": "What is the primary purpose of 'API Documentation' in SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "To delete documentation.",
+                "To explain API endpoints, parameters, responses, and usage examples so developers can consume the API correctly.",
+                "To backup documentation.",
+                "To encrypt documentation."
+            ],
+            "correctAnswer": "To explain API endpoints, parameters, responses, and usage examples so developers can consume the API correctly.",
+            "explanation": "Well-documented APIs (often using tools like Swagger/OpenAPI) reduce integration errors and improve adoption. Documentation should include endpoint descriptions, required parameters, response schemas, and code examples."
+        },
+        {
+            "id": "200",
+            "text": "What is the most important best practice when developing for SharePoint?",
+            "type": "multiple-choice",
+            "category": "Architecture & Best Practices",
+            "answers": [
+                "Write code as fast as possible without testing.",
+                "Always follow Microsoft's guidance, test thoroughly, use version control, and implement proper security and error handling.",
+                "Use only legacy APIs to ensure compatibility.",
+                "Avoid documentation and logging."
+            ],
+            "correctAnswer": "Always follow Microsoft's guidance, test thoroughly, use version control, and implement proper security and error handling.",
+            "explanation": "SharePoint development success depends on following best practices: adhering to Microsoft's recommendations, writing testable code with unit tests, managing code in version control, implementing strong authentication/authorization, and comprehensive error handling and logging. This ensures maintainability, security, and reliability."
+        },
+        {
+            "id": "201",
+            "text": "What are the key benefits of using SPFx web parts over classic web parts?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "SPFx web parts are slower and deprecated.",
+                "SPFx provides modern UX, works on both SharePoint Online and on-premises, uses modern frameworks like React, and supports responsive design.",
+                "SPFx requires master pages and custom CSS.",
+                "SPFx is only for mobile devices."
+            ],
+            "correctAnswer": "SPFx provides modern UX, works on both SharePoint Online and on-premises, uses modern frameworks like React, and supports responsive design.",
+            "explanation": "SPFx web parts deliver a modern, responsive user experience using TypeScript, React, or other frameworks. They work cross-platform (modern SharePoint Online and on-premises), don't require master pages, and integrate seamlessly with Microsoft 365. Example: A dashboard web part built with SPFx and React loads quickly, responds to user input instantly, and works perfectly on tablets."
+        },
+        {
+            "id": "202",
+            "text": "In SPFx, what is the purpose of the `spHttpClient` vs `HttpClient`?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "`spHttpClient` is for making HTTP requests; `HttpClient` is obsolete.",
+                "`spHttpClient` automatically handles Form Digest and authentication for SharePoint; `HttpClient` is generic for any API.",
+                "Both are identical and interchangeable.",
+                "`HttpClient` is faster than `spHttpClient`."
+            ],
+            "correctAnswer": "`spHttpClient` automatically handles Form Digest and authentication for SharePoint; `HttpClient` is generic for any API.",
+            "explanation": "Use `spHttpClient` for SharePoint REST API calls because it automatically appends the Form Digest token and handles authentication cookies. Use `HttpClient` for calling external APIs (Azure services, third-party APIs) where no Form Digest is needed. Practical scenario: A web part that needs to call both SharePoint lists AND an external weather API would use `spHttpClient` for SharePoint and `HttpClient` for the weather service."
+        },
+        {
+            "id": "203",
+            "text": "What is the purpose of the SPFx `property pane` in web part development?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "To display errors in the browser console.",
+                "To allow users to configure web part properties (e.g., list name, color scheme, refresh interval) without editing code.",
+                "To manage permissions for a web part.",
+                "To backup web part data."
+            ],
+            "correctAnswer": "To allow users to configure web part properties (e.g., list name, color scheme, refresh interval) without editing code.",
+            "explanation": "The Property Pane enables end-users to configure web part behavior. Define properties in `getPropertyPaneConfiguration()` method. Example: A 'Task List' web part might have properties like 'List Name', 'Show Completed Tasks', 'Items Per Page'. Users can change these via the property pane without developer intervention, making web parts flexible and reusable."
+        },
+        {
+            "id": "204",
+            "text": "How do you call an Azure Function from an SPFx web part?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "Azure Functions cannot be called from SPFx.",
+                "Use `spHttpClient` to make an HTTP GET/POST request to the Azure Function's public endpoint URL.",
+                "Use the SharePoint server to proxy the request.",
+                "You must use SSOM."
+            ],
+            "correctAnswer": "Use `spHttpClient` to make an HTTP GET/POST request to the Azure Function's public endpoint URL.",
+            "explanation": "Azure Functions provide serverless C# logic. Call them from SPFx using `spHttpClient.get(azureFunctionUrl)`. Example: A web part needs to process a large dataset; instead of doing it client-side, it calls an Azure Function, which processes the data and returns results. This separates concerns and improves performance."
+        },
+        {
+            "id": "205",
+            "text": "What is the purpose of `gulp serve` in SPFx development?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "To deploy the solution to production.",
+                "To start a local development server that allows you to test web parts in the workbench without packaging.",
+                "To backup source code.",
+                "To encrypt files."
+            ],
+            "correctAnswer": "To start a local development server that allows you to test web parts in the workbench without packaging.",
+            "explanation": "Running `gulp serve` launches a local dev server and opens the SharePoint Workbench. You can test your web part in real-time, make code changes, and see results immediately (hot reload). This dramatically speeds up development vs constantly packaging and deploying."
+        },
+        {
+            "id": "206",
+            "text": "In REST API, what does the `$select` parameter do?",
+            "type": "multiple-choice",
+            "category": "REST API & Performance",
+            "answers": [
+                "It deletes fields from the result.",
+                "It specifies which fields (columns) to include in the response, reducing payload size and improving performance.",
+                "It sorts the results.",
+                "It filters results by a condition."
+            ],
+            "correctAnswer": "It specifies which fields (columns) to include in the response, reducing payload size and improving performance.",
+            "explanation": "Use `$select` to request only needed columns: `_api/web/lists/getbytitle('Tasks')/items?$select=Id,Title,Status`. This reduces network bandwidth significantly. Example: Instead of retrieving all 50 columns from a 10,000-item list, selecting just 3 columns reduces the response from 50MB to 3MB, making the query 16x faster."
+        },
+        {
+            "id": "207",
+            "text": "What is the purpose of the `$expand` parameter in SharePoint REST queries?",
+            "type": "multiple-choice",
+            "category": "REST API & Performance",
+            "answers": [
+                "To delete related items.",
+                "To include related data (e.g., lookup fields) in the response without making separate calls.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To include related data (e.g., lookup fields) in the response without making separate calls.",
+            "explanation": "Use `$expand` to eagerly load related data. Example: `_api/web/lists/getbytitle('Tasks')/items?$expand=AssignedTo&$select=Title,AssignedTo/Title` retrieves task titles and the assigned person's name in one call instead of two. This reduces round trips and improves performance significantly."
+        },
+        {
+            "id": "208",
+            "text": "How do you handle pagination in REST API queries?",
+            "type": "multiple-choice",
+            "category": "REST API & Performance",
+            "answers": [
+                "Pagination is not supported in SharePoint REST.",
+                "Use `$top` and `$skip` parameters. `$top` limits results per request; `$skip` skips a number of items.",
+                "Use `$page` parameter.",
+                "Pagination must be done client-side."
+            ],
+            "correctAnswer": "Use `$top` and `$skip` parameters. `$top` limits results per request; `$skip` skips a number of items.",
+            "explanation": "Implement pagination with `$top` and `$skip`: `_api/web/lists/getbytitle('Tasks')/items?$top=20&$skip=40` gets items 41-60. This is crucial for handling large lists. Example: A list with 50,000 items; show 20 per page. Instead of fetching all 50,000, fetch 20 at a time, dramatically improving performance and UX."
+        },
+        {
+            "id": "209",
+            "text": "What is the difference between `$filter` and `$search` in REST queries?",
+            "type": "multiple-choice",
+            "category": "REST API & Performance",
+            "answers": [
+                "They are identical.",
+                "`$filter` uses exact matching on specific fields; `$search` performs full-text search across all fields.",
+                "`$search` is faster than `$filter`.",
+                "`$filter` cannot be combined with `$search`."
+            ],
+            "correctAnswer": "`$filter` uses exact matching on specific fields; `$search` performs full-text search across all fields.",
+            "explanation": "Use `$filter` for specific conditions: `_api/web/lists/getbytitle('Tasks')/items?$filter=Status eq 'In Progress'`. Use `$search` for keyword searches: `_api/search/query?querytext='important contract'`. Scenario: A user searches for 'contract'; use `$search` to find 'contract' anywhere in documents. A system needs 'Status=Completed'; use `$filter`."
+        },
+        {
+            "id": "210",
+            "text": "How do you create a new item via REST API with proper security?",
+            "type": "multiple-choice",
+            "category": "REST API & Security",
+            "answers": [
+                "Send a GET request with the item data.",
+                "Send a POST request with `X-RequestDigest` header and item data as JSON.",
+                "Use SSOM instead.",
+                "Create items are not supported via REST."
+            ],
+            "correctAnswer": "Send a POST request with `X-RequestDigest` header and item data as JSON.",
+            "explanation": "To create an item: (1) Get the Form Digest token: `_api/contextinfo` (2) POST to `_api/web/lists/getbytitle('Tasks')/items` with `X-RequestDigest` and item JSON. The Form Digest prevents CSRF attacks. Example: Creating a task programmatically requires both the digest (proves authorization) and the item data, ensuring security."
+        },
+        {
+            "id": "211",
+            "text": "What is the purpose of the `X-HTTP-Method: DELETE` header in REST API?",
+            "type": "multiple-choice",
+            "category": "REST API & Security",
+            "answers": [
+                "To delete the entire list.",
+                "To tunnel a DELETE request as POST (HTML forms don't support DELETE), maintaining backward compatibility.",
+                "To backup data before deletion.",
+                "To encrypt the request."
+            ],
+            "correctAnswer": "To tunnel a DELETE request as POST (HTML forms don't support DELETE), maintaining backward compatibility.",
+            "explanation": "REST supports DELETE, but some clients (like legacy JavaScript) can't send DELETE. So you POST with `X-HTTP-Method: DELETE` header to simulate DELETE. Scenario: Old JavaScript code in a web form needs to delete items; use POST with `X-HTTP-Method: DELETE` instead of native DELETE."
+        },
+        {
+            "id": "212",
+            "text": "How do you authenticate REST API calls to SharePoint Online using OAuth?",
+            "type": "multiple-choice",
+            "category": "REST API & Security",
+            "answers": [
+                "Use username/password in the URL.",
+                "Register an app in Azure AD, get an access token, and pass it as `Authorization: Bearer {token}` header.",
+                "OAuth is not supported for SharePoint.",
+                "Use Windows authentication."
+            ],
+            "correctAnswer": "Register an app in Azure AD, get an access token, and pass it as `Authorization: Bearer {token}` header.",
+            "explanation": "Modern SharePoint Online requires OAuth: (1) Register app in Azure AD (2) Request access token from Azure AD (3) Include token in REST calls: `Authorization: Bearer eyJ0eXA...`. Example: A PowerBI report needs to read SharePoint list data; it authenticates via OAuth token, ensuring secure, auditable access without storing passwords."
+        },
+        {
+            "id": "213",
+            "text": "What is the purpose of versioning and version history in SharePoint governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To delete old files.",
+                "To track document changes, recover previous versions, and meet compliance requirements (audit trail).",
+                "To backup files automatically.",
+                "To encrypt files."
+            ],
+            "correctAnswer": "To track document changes, recover previous versions, and meet compliance requirements (audit trail).",
+            "explanation": "Versioning maintains an audit trail. Major versions are releases; minor versions are drafts. Governance best practice: Require major versioning for contracts/policies. Scenario: A contract changed from $100K to $200K; version history shows who made the change and when, essential for compliance and dispute resolution."
+        },
+        {
+            "id": "214",
+            "text": "What is 'Information Barriers' (IB) in SharePoint governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "A method to backup information.",
+                "A security feature that restricts communication and data sharing between specific groups to comply with regulations (e.g., wall between investment banking and advisory).",
+                "A feature to compress files.",
+                "A method to encrypt communication."
+            ],
+            "correctAnswer": "A security feature that restricts communication and data sharing between specific groups to comply with regulations (e.g., wall between investment banking and advisory).",
+            "explanation": "Information Barriers enforce legal/regulatory requirements. Example: In a bank, the investment banking team and advisory team cannot see each other's SharePoint sites or Teams channels due to conflict-of-interest regulations. IB automatically restricts access based on organizational policies."
+        },
+        {
+            "id": "215",
+            "text": "What is the purpose of 'Conditional Access' policies in SharePoint governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To automatically delete files.",
+                "To enforce conditional restrictions (e.g., block access if not on corporate network, enforce MFA, restrict legacy auth).",
+                "To backup files.",
+                "To compress files."
+            ],
+            "correctAnswer": "To enforce conditional restrictions (e.g., block access if not on corporate network, enforce MFA, restrict legacy auth).",
+            "explanation": "Conditional Access policies enforce security rules: 'Allow access only if MFA is enabled AND device is compliant'. Scenario: A contractor tries to access SharePoint from a non-corporate network; Conditional Access blocks it, then requires MFA before granting access. This balances security and usability."
+        },
+        {
+            "id": "216",
+            "text": "What is 'Data Loss Prevention' (DLP) in the context of SharePoint?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "A backup mechanism.",
+                "Policies that detect and prevent sharing of sensitive data (e.g., credit card numbers, SSN) outside the organization.",
+                "A feature to delete files.",
+                "A method to compress files."
+            ],
+            "correctAnswer": "Policies that detect and prevent sharing of sensitive data (e.g., credit card numbers, SSN) outside the organization.",
+            "explanation": "DLP scans content for patterns. Scenario: A user tries to share a document containing 5 credit card numbers externally; DLP blocks it and alerts compliance. This prevents accidental data breaches and meets regulatory requirements (GDPR, HIPAA, PCI-DSS)."
+        },
+        {
+            "id": "217",
+            "text": "What is the 'List View Threshold' and how do you overcome it?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "There is no such limit; it's a myth.",
+                "SharePoint won't execute queries processing more than 5,000 items. Use indexed columns in CAML `<Where>` clauses or switch to Search API (KQL) for large lists.",
+                "The limit is 1,000 items.",
+                "The limit applies only to on-premises SharePoint."
+            ],
+            "correctAnswer": "SharePoint won't execute queries processing more than 5,000 items. Use indexed columns in CAML `<Where>` clauses or switch to Search API (KQL) for large lists.",
+            "explanation": "List View Threshold prevents expensive queries that impact server performance. A 100,000-item list querying by a non-indexed 'Status' column would scan all items (timeout error). Solution: (1) Index 'Status' column (2) Or use KQL search which queries the index, not the live database. Most important performance rule in SharePoint."
+        },
+        {
+            "id": "218",
+            "text": "What is the purpose of 'Indexed Columns' for query performance?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "To delete columns.",
+                "To create database indexes, allowing queries to scan indexed columns efficiently instead of scanning every row.",
+                "To encrypt columns.",
+                "To backup columns."
+            ],
+            "correctAnswer": "To create database indexes, allowing queries to scan indexed columns efficiently instead of scanning every row.",
+            "explanation": "Without indexing: querying a 100,000-item list by an unindexed column scans 100,000 rows (slow). With indexing: SQL Server uses the index to locate matching rows directly (fast). Best practice: Index columns frequently used in filters. Scenario: A list has 50,000 service tickets. Users filter by 'Status'. Index 'Status' column; queries drop from 10 seconds to 100ms."
+        },
+        {
+            "id": "219",
+            "text": "What are 'Managed Hops' in the context of KQL search performance?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "A backup mechanism.",
+                "The refiners in a search query that help narrow results. Limiting hops reduces query complexity and improves response time.",
+                "A file compression method.",
+                "An encryption technique."
+            ],
+            "correctAnswer": "The refiners in a search query that help narrow results. Limiting hops reduces query complexity and improves response time.",
+            "explanation": "KQL queries can span multiple hops (refinements). Scenario: Search for 'contract' AND FileType:pdf AND Author:John. Three hops. Each hop requires accessing the index, increasing latency. Best practice: Limit hops to 2-3 for fast performance. Administrators can optimize queries and set query limits to prevent runaway searches."
+        },
+        {
+            "id": "220",
+            "text": "What is 'Query Throttling' and why is it important?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "A feature to delete queries.",
+                "A mechanism that limits expensive queries (by CPU/time) to prevent one bad query from crashing the server.",
+                "A feature to encrypt queries.",
+                "A backup mechanism."
+            ],
+            "correctAnswer": "A mechanism that limits expensive queries (by CPU/time) to prevent one bad query from crashing the server.",
+            "explanation": "Query Throttling protects farm stability. If a query uses too much CPU, SharePoint stops it. Scenario: A developer writes a query that scans 100,000 items (unindexed). Without throttling, it would consume server resources and slow everyone down. With throttling, it's killed after a threshold, protecting other users."
+        },
+        {
+            "id": "221",
+            "text": "What is the purpose of 'Content Database blocking' in governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Performance",
+            "answers": [
+                "To delete databases.",
+                "To prevent content databases from exceeding a size limit (e.g., 200GB), ensuring farm health and performance.",
+                "To backup databases.",
+                "To compress databases."
+            ],
+            "correctAnswer": "To prevent content databases from exceeding a size limit (e.g., 200GB), ensuring farm health and performance.",
+            "explanation": "Large databases degrade performance and backup speed. Governance sets limits (e.g., 200GB). When a database reaches the limit, SharePoint blocks new content uploads, forcing admins to create new site collections or databases. This prevents runaway growth and maintains farm health."
+        },
+        {
+            "id": "222",
+            "text": "What is 'Site Collection Quota' and how does it improve governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Performance",
+            "answers": [
+                "A feature to delete sites.",
+                "A storage limit assigned to each site collection. When exceeded, admins are alerted and users cannot add more content until quota is increased.",
+                "A backup mechanism.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A storage limit assigned to each site collection. When exceeded, admins are alerted and users cannot add more content until quota is increased.",
+            "explanation": "Quotas prevent uncontrolled growth. Example: Each team's SharePoint site has a 100GB quota. When a team reaches 95GB, they're warned. At 100GB, no more uploads allowed. This encourages good governance (archiving old content) and prevents surprise storage costs."
+        },
+        {
+            "id": "223",
+            "text": "What is 'Throttling' for concurrent connections in SharePoint REST API?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "A feature to delete connections.",
+                "A limit on concurrent requests per user/app to prevent overload. Exceeding it returns HTTP 429 (Throttled).",
+                "A backup mechanism.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A limit on concurrent requests per user/app to prevent overload. Exceeding it returns HTTP 429 (Throttled).",
+            "explanation": "REST API throttles at ~2,000 requests/60 seconds per user. When exceeded, requests return HTTP 429. Solution: Implement backoff/retry logic. Scenario: A report tool fires 100 simultaneous REST calls; it gets throttled. Adding delays between calls resolves the issue."
+        },
+        {
+            "id": "224",
+            "text": "What is the purpose of 'Caching' in SharePoint development?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "To delete data.",
+                "To store frequently accessed data locally (e.g., in memory or distributed cache) to avoid repeated REST/CAML calls.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To store frequently accessed data locally (e.g., in memory or distributed cache) to avoid repeated REST/CAML calls.",
+            "explanation": "Caching dramatically improves performance. Scenario: A web part retrieves a list of 'Departments' 100 times per day. Without caching: 100 REST calls. With caching (5-minute TTL): 1 call + 99 cache hits, reducing server load 100x. Use Distributed Cache, Azure Cache, or in-memory cache strategically."
+        },
+        {
+            "id": "225",
+            "text": "What is 'Batch Requests' in SharePoint and why is it important?",
+            "type": "multiple-choice",
+            "category": "Performance Optimization",
+            "answers": [
+                "A feature to delete items.",
+                "A mechanism to combine multiple REST calls into a single request, reducing round trips and improving performance.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A mechanism to combine multiple REST calls into a single request, reducing round trips and improving performance.",
+            "explanation": "Batch requests reduce network overhead. Instead of 10 separate calls (10 round trips), send 1 batch request with 10 operations. Example: Creating 100 items; 100 individual calls = slow. 1 batch with 100 items = fast. CSOM naturally batches; REST requires `$batch` endpoint."
+        },
+        {
+            "id": "226",
+            "text": "What is 'Multi-Tenant' SharePoint and its governance implications?",
+            "type": "multiple-choice",
+            "category": "Governance & Architecture",
+            "answers": [
+                "A single farm shared by multiple organizations.",
+                "SharePoint Online where each organization (tenant) has isolated data, separate admin control, and no data leakage between tenants.",
+                "A feature to delete data.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "SharePoint Online where each organization (tenant) has isolated data, separate admin control, and no data leakage between tenants.",
+            "explanation": "Multi-tenancy is key to SaaS. Each tenant's data is isolated at the database level. Scenario: Bank A and Bank B both use Microsoft 365; their SharePoint sites are completely isolated. Bank A admins cannot see Bank B's data. This is enforced by Microsoft at the infrastructure level."
+        },
+        {
+            "id": "227",
+            "text": "What is the purpose of 'Guest Access' policies in SharePoint governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To automatically delete guest accounts.",
+                "To control if external users can be invited to sites and what permissions they receive.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To control if external users can be invited to sites and what permissions they receive.",
+            "explanation": "Guest policies balance collaboration and security. Governance might allow: 'Guests can view documents but not edit' or 'Guests can only access specific sites'. Scenario: A vendor needs to review a contract; invite them as guest with read-only access for 30 days. Policies ensure they can't access unrelated data."
+        },
+        {
+            "id": "228",
+            "text": "What is 'Compliance Archiving' and its governance importance?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "Deleting old files.",
+                "Moving content to immutable storage when retention period expires, ensuring it cannot be deleted and meets legal requirements.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "Moving content to immutable storage when retention period expires, ensuring it cannot be deleted and meets legal requirements.",
+            "explanation": "Compliance archiving ensures regulatory compliance. Example: Financial records must be retained for 7 years. After 7 years, they auto-archive to immutable storage (cannot be modified/deleted). This protects against accidental deletion and proves compliance during audits."
+        },
+        {
+            "id": "229",
+            "text": "What is 'eDiscovery' in SharePoint governance?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "A feature to delete data.",
+                "A process to search, preserve, and produce SharePoint content for legal proceedings or investigations.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A process to search, preserve, and produce SharePoint content for legal proceedings or investigations.",
+            "explanation": "eDiscovery is critical for legal compliance. Scenario: A lawsuit requires all emails/documents related to 'Project X' from 2022. eDiscovery searches SharePoint, places a legal hold (preserves content), and produces results for the court. Without eDiscovery, finding and preserving evidence would be chaos."
+        },
+        {
+            "id": "230",
+            "text": "What does REST API parameter `$orderby` do and how does it affect performance?",
+            "type": "multiple-choice",
+            "category": "REST API & Performance",
+            "answers": [
+                "It deletes items.",
+                "It sorts results by specified column. Sorting by indexed columns is fast; non-indexed columns require in-memory sorting (slow for large result sets).",
+                "It backs up results.",
+                "It encrypts results."
+            ],
+            "correctAnswer": "It sorts results by specified column. Sorting by indexed columns is fast; non-indexed columns require in-memory sorting (slow for large result sets).",
+            "explanation": "Sorting by indexed columns is database-level (fast). Sorting by non-indexed columns is application-level (slow). Best practice: Index frequently sorted columns. Scenario: A list of 100,000 contracts. Sorting by 'Date' (indexed) returns sorted results instantly. Sorting by 'Reviewer Notes' (non-indexed) requires loading all 100,000 items into memory and sorting (slow)."
+        },
+        {
+            "id": "231",
+            "text": "What is the SPFx 'Workbench' and what are its limitations?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "A tool to delete web parts.",
+                "A testing environment where you can preview web parts during development. Limitations: cannot test some SharePoint APIs fully; use real SharePoint for full testing.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A testing environment where you can preview web parts during development. Limitations: cannot test some SharePoint APIs fully; use real SharePoint for full testing.",
+            "explanation": "Workbench speeds development but is not a full SharePoint environment. Use it for UI testing and basic functionality. For testing permissions, specific list properties, or Graph API calls, deploy to real SharePoint. Scenario: Test a web part's layout in workbench (fast), but test permission checks in real SharePoint (accurate)."
+        },
+        {
+            "id": "232",
+            "text": "What is the purpose of SPFx 'Property Pane Groups'?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "To delete properties.",
+                "To organize property pane fields into logical groups for better UX. Groups appear as collapsible sections.",
+                "To backup properties.",
+                "To encrypt properties."
+            ],
+            "correctAnswer": "To organize property pane fields into logical groups for better UX. Groups appear as collapsible sections.",
+            "explanation": "Groups improve property pane usability. Example: A web part with 15 properties organized into 'Display Options', 'Data Source', 'Security'. Users can collapse irrelevant groups. This is better UX than a flat list of 15 properties."
+        },
+        {
+            "id": "233",
+            "text": "What is 'Adaptive Cards' in the context of modern SharePoint/Teams?",
+            "type": "multiple-choice",
+            "category": "Modern Development",
+            "answers": [
+                "Cards that delete data.",
+                "A JSON-based framework for building interactive cards (notifications, forms) that render consistently across SharePoint, Teams, and other platforms.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A JSON-based framework for building interactive cards (notifications, forms) that render consistently across SharePoint, Teams, and other platforms.",
+            "explanation": "Adaptive Cards enable rich UX without platform-specific code. Scenario: A Power Automate flow approves a purchase request and sends an Adaptive Card with 'Approve'/'Reject' buttons. The card looks the same in Teams, SharePoint, and email. User clicks 'Approve'; the flow updates the request. One card, multiple platforms."
+        },
+        {
+            "id": "234",
+            "text": "What is the purpose of 'Microsoft Graph Webhooks' for SharePoint?",
+            "type": "multiple-choice",
+            "category": "Modern Development",
+            "answers": [
+                "To delete data.",
+                "To receive real-time notifications when SharePoint data changes (e.g., list item added), triggering custom logic immediately.",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "To receive real-time notifications when SharePoint data changes (e.g., list item added), triggering custom logic immediately.",
+            "explanation": "Webhooks replace polling. Instead of checking SharePoint every 5 minutes for changes, subscribe to webhooks and get instant notifications. Scenario: A web app tracks SharePoint list changes. With webhooks, when an item is added, the app is notified immediately and updates its dashboard (real-time). Without webhooks, the dashboard updates every 5 minutes (stale)."
+        },
+        {
+            "id": "235",
+            "text": "What is 'Application Insights' and how does it help SharePoint monitoring?",
+            "type": "multiple-choice",
+            "category": "Performance & Monitoring",
+            "answers": [
+                "A feature to delete data.",
+                "A Azure service that tracks application performance, errors, and user behavior. Integrate with C# backend APIs to monitor responses and diagnose issues.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "A Azure service that tracks application performance, errors, and user behavior. Integrate with C# backend APIs to monitor responses and diagnose issues.",
+            "explanation": "Application Insights provides visibility into your code. Example: A web part calls an Azure Function via REST. Instrument both with Application Insights. When a call is slow, you see exactly where (web part render time vs Azure Function execution vs network latency). This speeds debugging significantly."
+        },
+        {
+            "id": "236",
+            "text": "What is the purpose of 'Managed Metadata' in governance?",
+            "type": "multiple-choice",
+            "category": "Governance",
+            "answers": [
+                "To delete metadata.",
+                "To centrally define and enforce consistent terminology (taxonomy) across all SharePoint sites, ensuring data consistency and better search.",
+                "To backup metadata.",
+                "To encrypt metadata."
+            ],
+            "correctAnswer": "To centrally define and enforce consistent terminology (taxonomy) across all SharePoint sites, ensuring data consistency and better search.",
+            "explanation": "Managed Metadata enforces consistency. Example: Without it, users tag documents as 'Q4-2024', 'Quarter 4 2024', 'Q4', and 'Q4/2024' (inconsistent). With Managed Metadata, you define a 'Period' term set with only 'Q4-2024'. All sites use this term, making searches reliable and reporting accurate."
+        },
+        {
+            "id": "237",
+            "text": "What is 'Hub Sites' and its role in organizational governance?",
+            "type": "multiple-choice",
+            "category": "Governance",
+            "answers": [
+                "Sites that delete data.",
+                "Central sites that associate multiple site collections, providing shared navigation, consistent branding, and cross-site search.",
+                "A backup feature.",
+                "An encryption feature."
+            ],
+            "correctAnswer": "Central sites that associate multiple site collections, providing shared navigation, consistent branding, and cross-site search.",
+            "explanation": "Hub Sites implement organizational structure. Scenario: A company has 50 SharePoint sites (Finance, HR, Marketing, etc.). Create a corporate Hub Site. Associate all 50 sites to it. Users see the Hub navigation on all sites, making it easy to jump between departments. This is modern governance vs the old 'subsites under a root' structure."
+        },
+        {
+            "id": "238",
+            "text": "What is the purpose of 'Sensitivity Labels' combined with 'DLP' policies?",
+            "type": "multiple-choice",
+            "category": "Governance & Security",
+            "answers": [
+                "To delete data.",
+                "Labels classify content by sensitivity (Public/Internal/Confidential). DLP policies then enforce rules (e.g., 'Confidential' docs cannot be shared externally).",
+                "To backup data.",
+                "To encrypt data."
+            ],
+            "correctAnswer": "Labels classify content by sensitivity (Public/Internal/Confidential). DLP policies then enforce rules (e.g., 'Confidential' docs cannot be shared externally).",
+            "explanation": "Labels + DLP create powerful governance. Example: A document is labeled 'Confidential'. DLP rule prevents external sharing of 'Confidential' docs. User tries to share externally; DLP blocks it and alerts compliance. This is automated governance that prevents data breaches."
+        },
+        {
+            "id": "239",
+            "text": "What is 'Records Management' in SharePoint governance?",
+            "type": "multiple-choice",
+            "category": "Governance",
+            "answers": [
+                "To delete records.",
+                "A process to declare content as official records (immutable, retention-based), ensuring compliance with legal requirements.",
+                "To backup records.",
+                "To encrypt records."
+            ],
+            "correctAnswer": "A process to declare content as official records (immutable, retention-based), ensuring compliance with legal requirements.",
+            "explanation": "Records Management treats certain content as legal records. Example: A contract is declared a record. SharePoint locks it (cannot be edited/deleted), enforces retention (7 years), and auto-archives after retention. This proves to auditors that the organization manages records properly."
+        },
+        {
+            "id": "240",
+            "text": "What is the purpose of 'Content Type Hub' in multi-site governance?",
+            "type": "multiple-choice",
+            "category": "Governance",
+            "answers": [
+                "To delete content types.",
+                "A central site collection that publishes content types to all associated site collections, ensuring consistent schemas across the organization.",
+                "To backup content types.",
+                "To encrypt content types."
+            ],
+            "correctAnswer": "A central site collection that publishes content types to all associated site collections, ensuring consistent schemas across the organization.",
+            "explanation": "Content Type Hub enforces consistency. Define a 'Contract' content type in the Hub with fields: Vendor, Amount, ExpiryDate. Publish it. All site collections automatically get this content type. Any updates to the Hub are pushed to all sites. This eliminates schema inconsistencies across the org."
+        },
+        {
+            "id": "241",
+            "text": "What is 'Inline Editing' in REST API and why is it useful?",
+            "type": "multiple-choice",
+            "category": "REST API & Performance",
+            "answers": [
+                "Editing is not supported in REST.",
+                "Updating item fields directly via REST without retrieving the full item first, reducing payload and improving performance.",
+                "A feature to delete items.",
+                "A feature to encrypt items."
+            ],
+            "correctAnswer": "Updating item fields directly via REST without retrieving the full item first, reducing payload and improving performance.",
+            "explanation": "Inline editing avoids full item retrieval. Normal flow: GET item (retrieve all 20 fields), modify 1 field, PATCH item. Inline editing: Directly PATCH only that 1 field. For a large item with attachments, inline editing is significantly faster."
+        },
+        {
+            "id": "242",
+            "text": "What is 'Recurrence' in Power Automate and its use case?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "A feature to delete flows.",
+                "A trigger that runs a flow on a schedule (daily, weekly, monthly), automating recurring tasks.",
+                "A feature to backup flows.",
+                "A feature to encrypt flows."
+            ],
+            "correctAnswer": "A trigger that runs a flow on a schedule (daily, weekly, monthly), automating recurring tasks.",
+            "explanation": "Recurrence enables scheduled automation. Scenario: Every Friday 5 PM, send a status email to managers. Recurrence trigger fires every Friday 5 PM. Flow collects data from SharePoint lists and emails managers. This is manual work automated."
+        },
+        {
+            "id": "243",
+            "text": "What is 'Compose' action in Power Automate and when should you use it?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "An action that deletes data.",
+                "An action that outputs a value or combines inputs. Use it to build complex strings, transform data, or pass structured data between actions.",
+                "An action that backs up data.",
+                "An action that encrypts data."
+            ],
+            "correctAnswer": "An action that outputs a value or combines inputs. Use it to build complex strings, transform data, or pass structured data between actions.",
+            "explanation": "Compose improves flow readability and reusability. Example: Build a complex email body using Compose: 'Task: {Title}, Due: {DueDate}, Owner: {Owner}'. Then use the Compose output in Send Email. If the format changes, modify Compose once instead of everywhere it's used."
+        },
+        {
+            "id": "244",
+            "text": "What is 'Parallel Branches' in Power Automate and why are they important?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "A feature to delete branches.",
+                "A flow structure that executes multiple actions simultaneously instead of sequentially, improving performance.",
+                "A feature to backup branches.",
+                "A feature to encrypt branches."
+            ],
+            "correctAnswer": "A flow structure that executes multiple actions simultaneously instead of sequentially, improving performance.",
+            "explanation": "Parallel branches speed up flows. Scenario: An approval flow needs to: (1) fetch manager info, (2) fetch team info, (3) fetch budget info. Sequential: 30 seconds total. Parallel: 10 seconds (all 3 run at once). Parallel branches are essential for responsive automation."
+        },
+        {
+            "id": "245",
+            "text": "What is 'Connection References' in Power Automate and its benefit?",
+            "type": "multiple-choice",
+            "category": "Workflow & Automation",
+            "answers": [
+                "A feature to delete connections.",
+                "A way to reference connections (like SharePoint, SQL, Outlook) once and reuse them across multiple flows, simplifying governance.",
+                "A feature to backup connections.",
+                "A feature to encrypt connections."
+            ],
+            "correctAnswer": "A way to reference connections (like SharePoint, SQL, Outlook) once and reuse them across multiple flows, simplifying governance.",
+            "explanation": "Connection References improve governance. Instead of each flow having its own SQL connection, create a shared connection reference. If credentials change, update once. All flows automatically use the new credentials. This prevents scattered, hard-to-maintain connections."
+        },
+        {
+            "id": "246",
+            "text": "What is 'Lazy Loading' in SPFx and how does it improve performance?",
+            "type": "multiple-choice",
+            "category": "SPFx Development & Performance",
+            "answers": [
+                "A feature to delete components.",
+                "Loading web part components only when needed instead of at startup, reducing initial load time.",
+                "A feature to backup components.",
+                "A feature to encrypt components."
+            ],
+            "correctAnswer": "Loading web part components only when needed instead of at startup, reducing initial load time.",
+            "explanation": "Lazy loading speeds up page load. Scenario: A web part has 3 tabs. Load only the active tab's data initially. When users click 'Tab 2', load that data. Initial page load is fast; data loads as needed. This improves perceived performance significantly."
+        },
+        {
+            "id": "247",
+            "text": "What is 'Tree Shaking' in SPFx bundling?",
+            "type": "multiple-choice",
+            "category": "SPFx Development & Performance",
+            "answers": [
+                "A feature to delete code.",
+                "A bundler optimization that removes unused code, reducing bundle size and improving load time.",
+                "A feature to backup code.",
+                "A feature to encrypt code."
+            ],
+            "correctAnswer": "A bundler optimization that removes unused code, reducing bundle size and improving load time.",
+            "explanation": "Tree shaking reduces bundle size. Example: You import a library with 100 functions but use only 5. Tree shaking removes the 95 unused functions from the final bundle. If the bundle was 500KB, it might become 50KB. Users download 10x less, faster page load."
+        },
+        {
+            "id": "248",
+            "text": "What is 'React Hooks' and how do they simplify SPFx development?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "A feature to delete components.",
+                "React functions (useState, useEffect, etc.) that simplify state management and lifecycle methods, replacing complex class-based components.",
+                "A feature to backup components.",
+                "A feature to encrypt components."
+            ],
+            "correctAnswer": "React functions (useState, useEffect, etc.) that simplify state management and lifecycle methods, replacing complex class-based components.",
+            "explanation": "Hooks make React code simpler. Old approach: Class-based components with complex lifecycle methods. New approach: Functional components with Hooks. Example: `useState` manages state in one line; `useEffect` handles side effects. Hooks are cleaner and easier to test."
+        },
+        {
+            "id": "249",
+            "text": "What is 'Fluent UI' and its role in SPFx web parts?",
+            "type": "multiple-choice",
+            "category": "SPFx Development",
+            "answers": [
+                "A feature to delete UI.",
+                "Microsoft's design system providing React components (buttons, forms, dialogs) that ensure consistent, professional UX in SPFx web parts.",
+                "A feature to backup UI.",
+                "A feature to encrypt UI."
+            ],
+            "correctAnswer": "Microsoft's design system providing React components (buttons, forms, dialogs) that ensure consistent, professional UX in SPFx web parts.",
+            "explanation": "Fluent UI ensures consistency. Instead of building UI from scratch, use Fluent UI components. Example: A button in your web part looks like every other SharePoint button. Users don't have to learn custom UI. This improves adoption and professional appearance."
+        },
+        {
+            "id": "250",
+            "text": "What is the complete CI/CD pipeline for deploying a production SPFx solution?",
+            "type": "multiple-choice",
+            "category": "SPFx Development & DevOps",
+            "answers": [
+                "No pipeline is needed; just manually upload to the App Catalog.",
+                "(1) Developer commits code to Git (2) CI runs tests & builds bundle (3) CD deploys to test SharePoint (4) Tests run (5) Manual approval (6) CD deploys to production App Catalog (7) Users install web part.",
+                "Only developers can deploy solutions.",
+                "Pipelines are not supported for SPFx."
+            ],
+            "correctAnswer": "(1) Developer commits code to Git (2) CI runs tests & builds bundle (3) CD deploys to test SharePoint (4) Tests run (5) Manual approval (6) CD deploys to production App Catalog (7) Users install web part.",
+            "explanation": "A proper CI/CD pipeline ensures quality and safety. Commit code > tests run automatically > if tests pass, deploy to test environment > run integration tests > if all pass, manual approval > deploy to production. This prevents breaking changes from reaching users. Tools: Azure DevOps, GitHub Actions, etc."
         }
     ]
 }
