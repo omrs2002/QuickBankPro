@@ -1,6 +1,7 @@
 {
-  "title": "NET Team Lead & Solution Architect Quiz",
-  "titleEn": ".NET Team Lead & Solution Architect Quiz",
+  "qCode": "8401ef33-e6fa-4920-a069-4aac1111cdf4",
+  "title": ".NET Team Lead & Solution Architect Interview Quiz",
+  "titleEn": ".NET Team Lead & Solution Architect Interview Quiz",
   "description": "A practice test with multiple-choice and true/false questions covering .NET leadership, architecture, cloud, design patterns, DevOps, SharePoint, Power Platform and enterprise engineering",
   "categoryId": 1,
   "isFree": false,
@@ -684,6 +685,1229 @@
         "False"
       ],
       "correctAnswer": "False",
+      "explanation": "Storing JWTs in local storage makes them accessible to any JavaScript running on the page, creating a significant Cross-Site Scripting (XSS) vulnerability. Storing them in secure, HttpOnly cookies is a much safer alternative for web applications."
+    },
+    {
+      "id": "051",
+      "text": "What is the purpose of the Repository Pattern in .NET?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "To abstract data access logic and provide a central location for data operations",
+        "To store configuration files",
+        "To manage user sessions",
+        "To handle HTTP requests"
+      ],
+      "correctAnswer": "To abstract data access logic and provide a central location for data operations",
+      "explanation": "The Repository Pattern mediates between the domain and data mapping layers, acting like an in-memory collection of domain objects. It provides a cleaner architecture and makes the code more testable by abstracting the data access logic."
+    },
+    {
+      "id": "052",
+      "text": "Which Power Platform component allows creating custom business logic using visual designers?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "Power BI",
+        "Power Automate",
+        "Power Apps",
+        "Power Virtual Agents"
+      ],
+      "correctAnswer": "Power Automate",
+      "explanation": "Power Automate (formerly Microsoft Flow) allows users to create automated workflows between applications and services. It provides visual designers for building business logic without extensive coding."
+    },
+    {
+      "id": "053",
+      "text": "In .NET, what is the difference between `IEnumerable<T>` and `IQueryable<T>`?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "`IQueryable<T>` supports query composition and deferred execution with expression trees, while `IEnumerable<T>` executes queries in-memory",
+        "They are identical interfaces",
+        "`IEnumerable<T>` is faster than `IQueryable<T>`",
+        "`IQueryable<T>` can only be used with arrays"
+      ],
+      "correctAnswer": "`IQueryable<T>` supports query composition and deferred execution with expression trees, while `IEnumerable<T>` executes queries in-memory",
+      "explanation": "`IQueryable<T>` is used for building database queries that execute on the server, while `IEnumerable<T>` brings data into memory first. Using `IQueryable` allows for more efficient queries with filtering/sorting done at the database level."
+    },
+    {
+      "id": "054",
+      "text": "What is the main benefit of using Azure Functions for .NET microservices?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Serverless execution with automatic scaling and pay-per-execution pricing",
+        "Free unlimited compute resources",
+        "Direct database access only",
+        "It replaces the need for containers"
+      ],
+      "correctAnswer": "Serverless execution with automatic scaling and pay-per-execution pricing",
+      "explanation": "Azure Functions provide a serverless compute service that automatically scales based on demand and charges only for the compute time used. This is ideal for event-driven microservices and can significantly reduce infrastructure management overhead."
+    },
+    {
+      "id": "055",
+      "text": "What is the purpose of the `IOptions<T>` pattern in ASP.NET Core?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To provide strongly-typed access to configuration settings",
+        "To manage database connections",
+        "To handle HTTP request options",
+        "To configure logging levels"
+      ],
+      "correctAnswer": "To provide strongly-typed access to configuration settings",
+      "explanation": "The Options pattern uses classes to provide strongly-typed access to groups of related settings from configuration sources like appsettings.json. It supports dependency injection and makes configuration management more maintainable."
+    },
+    {
+      "id": "056",
+      "text": "In DevOps, what is 'Infrastructure as Code' (IaC)?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "Managing and provisioning infrastructure through machine-readable definition files",
+        "Writing application code that runs on servers",
+        "Creating infrastructure manually through portals",
+        "Documenting infrastructure in Word documents"
+      ],
+      "correctAnswer": "Managing and provisioning infrastructure through machine-readable definition files",
+      "explanation": "IaC treats infrastructure setup as code that can be versioned, tested, and deployed automatically. Tools like Terraform, ARM templates, and Bicep allow teams to define infrastructure declaratively, ensuring consistency and reproducibility."
+    },
+    {
+      "id": "057",
+      "text": "What is the Circuit Breaker pattern used for in microservices?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "To prevent cascading failures by stopping requests to a failing service",
+        "To break circular dependencies in code",
+        "To disconnect from databases",
+        "To terminate long-running processes"
+      ],
+      "correctAnswer": "To prevent cascading failures by stopping requests to a failing service",
+      "explanation": "The Circuit Breaker pattern monitors for failures and temporarily blocks requests to a failing service, giving it time to recover. This prevents the failure from spreading to other services in a distributed system."
+    },
+    {
+      "id": "058",
+      "text": "Which Azure service provides a managed message broker for reliable message delivery?",
+      "type": "multiple-choice",
+      "category": "Messaging",
+      "answers": [
+        "Azure Service Bus",
+        "Azure SQL Database",
+        "Azure Storage Account",
+        "Azure App Service"
+      ],
+      "correctAnswer": "Azure Service Bus",
+      "explanation": "Azure Service Bus is an enterprise message broker with message queues and publish-subscribe topics. It provides reliable message delivery, transaction support, and advanced features like message sessions and dead-lettering."
+    },
+    {
+      "id": "059",
+      "text": "What is the main purpose of using `async` and `await` in C#?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To write asynchronous code that doesn't block threads while waiting for I/O operations",
+        "To make code run faster",
+        "To create multiple threads automatically",
+        "To handle exceptions better"
+      ],
+      "correctAnswer": "To write asynchronous code that doesn't block threads while waiting for I/O operations",
+      "explanation": "Async/await enables writing asynchronous code that looks synchronous. It prevents blocking threads during I/O operations, improving application scalability and responsiveness, especially in web applications."
+    },
+    {
+      "id": "060",
+      "text": "In SharePoint Online, what is the recommended approach for custom development?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "SharePoint Framework (SPFx) with client-side web parts",
+        "Full-trust farm solutions",
+        "Sandbox solutions",
+        "Custom ASPX pages"
+      ],
+      "correctAnswer": "SharePoint Framework (SPFx) with client-side web parts",
+      "explanation": "SPFx is the modern development model for SharePoint Online. It uses client-side technologies (TypeScript, React, etc.) and is fully supported in modern SharePoint sites, providing a secure and performant way to extend SharePoint."
+    },
+    {
+      "id": "061",
+      "text": "What is the CQRS pattern in software architecture?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Command Query Responsibility Segregation - separating read and write operations",
+        "Centralized Query Response System",
+        "Continuous Quality Review Standard",
+        "Common Query Result Set"
+      ],
+      "correctAnswer": "Command Query Responsibility Segregation - separating read and write operations",
+      "explanation": "CQRS separates the model that reads data from the model that writes data. This allows for independent optimization, scaling, and security management of read and write operations, which is particularly useful in complex domains."
+    },
+    {
+      "id": "062",
+      "text": "Which .NET tool is used for analyzing code quality and finding potential issues?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "Code Analyzers and Roslyn Analyzers",
+        "Entity Framework",
+        "SignalR",
+        "Blazor"
+      ],
+      "correctAnswer": "Code Analyzers and Roslyn Analyzers",
+      "explanation": "Roslyn-based code analyzers provide real-time code analysis in Visual Studio and during builds. They can detect potential bugs, style violations, and suggest improvements, helping maintain code quality across the team."
+    },
+    {
+      "id": "063",
+      "text": "What is the purpose of Azure API Management?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "To create a unified API gateway with security, throttling, and monitoring",
+        "To manage Azure subscriptions",
+        "To create virtual machines",
+        "To store API keys only"
+      ],
+      "correctAnswer": "To create a unified API gateway with security, throttling, and monitoring",
+      "explanation": "Azure API Management acts as a facade for backend services, providing features like authentication, rate limiting, caching, transformation, and analytics. It helps organizations publish, secure, and analyze their APIs."
+    },
+    {
+      "id": "064",
+      "text": "In .NET Core, what is middleware?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "Components that form the request processing pipeline",
+        "A database layer",
+        "A testing framework",
+        "A deployment tool"
+      ],
+      "correctAnswer": "Components that form the request processing pipeline",
+      "explanation": "Middleware components are assembled into an application pipeline to handle requests and responses. Each component can perform operations before and after the next component in the pipeline, enabling cross-cutting concerns like authentication, logging, and error handling."
+    },
+    {
+      "id": "065",
+      "text": "What is the Saga pattern in microservices?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "A pattern for managing distributed transactions across multiple services",
+        "A database design pattern",
+        "A UI design pattern",
+        "A caching strategy"
+      ],
+      "correctAnswer": "A pattern for managing distributed transactions across multiple services",
+      "explanation": "The Saga pattern manages data consistency across microservices by breaking a transaction into a series of local transactions. Each service performs its transaction and publishes events, with compensating transactions to roll back on failure."
+    },
+    {
+      "id": "066",
+      "text": "Which Azure service is best for hosting static web applications?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Static Web Apps",
+        "Azure Virtual Machines",
+        "Azure SQL Database",
+        "Azure Service Bus"
+      ],
+      "correctAnswer": "Azure Static Web Apps",
+      "explanation": "Azure Static Web Apps is optimized for hosting static content (HTML, CSS, JavaScript) with global distribution via CDN. It includes built-in CI/CD from GitHub/Azure DevOps and can integrate with Azure Functions for serverless APIs."
+    },
+    {
+      "id": "067",
+      "text": "What is the purpose of the Unit of Work pattern?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "To maintain a list of objects affected by a transaction and coordinate writing changes",
+        "To split work into smaller units",
+        "To measure code coverage",
+        "To manage user sessions"
+      ],
+      "correctAnswer": "To maintain a list of objects affected by a transaction and coordinate writing changes",
+      "explanation": "The Unit of Work pattern keeps track of all changes during a business transaction and coordinates the writing of changes to the database. Entity Framework's DbContext implements this pattern, ensuring consistency in database operations."
+    },
+    {
+      "id": "068",
+      "text": "In SharePoint, what is a Content Type?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "A reusable collection of metadata, workflows, and behaviors for a category of items",
+        "A type of image file",
+        "A security group",
+        "A site template"
+      ],
+      "correctAnswer": "A reusable collection of metadata, workflows, and behaviors for a category of items",
+      "explanation": "Content Types define the attributes, workflows, and behaviors for a category of items or documents. They enable consistent handling of similar content across lists and libraries, promoting reuse and standardization."
+    },
+    {
+      "id": "069",
+      "text": "What is Azure DevOps Service Connection used for?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "To securely connect Azure DevOps pipelines to external services and Azure resources",
+        "To connect developers to meetings",
+        "To establish VPN connections",
+        "To link source code repositories only"
+      ],
+      "correctAnswer": "To securely connect Azure DevOps pipelines to external services and Azure resources",
+      "explanation": "Service Connections store credentials and configuration needed to access external services from pipelines. They support various authentication methods and can connect to Azure subscriptions, Docker registries, Kubernetes clusters, and more."
+    },
+    {
+      "id": "070",
+      "text": "What is the Outbox pattern in microservices?",
+      "type": "multiple-choice",
+      "category": "Messaging",
+      "answers": [
+        "A pattern for reliably publishing events by storing them in the same transaction as business data",
+        "A pattern for email services",
+        "A caching mechanism",
+        "A security pattern"
+      ],
+      "correctAnswer": "A pattern for reliably publishing events by storing them in the same transaction as business data",
+      "explanation": "The Outbox pattern ensures reliable event publishing by storing events in an 'outbox' table within the same database transaction as business data changes. A separate process then publishes these events, ensuring atomicity."
+    },
+    {
+      "id": "071",
+      "text": "What is Dependency Injection in .NET?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "A design pattern where objects receive their dependencies from external sources rather than creating them",
+        "A way to inject SQL queries",
+        "A security vulnerability",
+        "A deployment technique"
+      ],
+      "correctAnswer": "A design pattern where objects receive their dependencies from external sources rather than creating them",
+      "explanation": "Dependency Injection (DI) is a technique where a class receives its dependencies from external sources rather than creating them itself. .NET Core has built-in DI support that promotes loose coupling and testability."
+    },
+    {
+      "id": "072",
+      "text": "Which HTTP status code indicates a successful resource creation?",
+      "type": "multiple-choice",
+      "category": "General",
+      "answers": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "301 Moved Permanently"
+      ],
+      "correctAnswer": "201 Created",
+      "explanation": "HTTP 201 Created indicates that the request has been fulfilled and resulted in a new resource being created. The response should include a Location header with the URI of the newly created resource."
+    },
+    {
+      "id": "073",
+      "text": "What is the purpose of Azure Key Vault?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "To securely store and manage secrets, keys, and certificates",
+        "To store large files",
+        "To manage user passwords",
+        "To create encryption algorithms"
+      ],
+      "correctAnswer": "To securely store and manage secrets, keys, and certificates",
+      "explanation": "Azure Key Vault provides secure storage for cryptographic keys, secrets, and certificates. It includes access control, auditing, and integration with Azure services, helping organizations meet security and compliance requirements."
+    },
+    {
+      "id": "074",
+      "text": "What is the Bulkhead pattern in microservices?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Isolating resources to prevent failures in one part from affecting others",
+        "Combining multiple services into one",
+        "A data compression technique",
+        "A load balancing strategy"
+      ],
+      "correctAnswer": "Isolating resources to prevent failures in one part from affecting others",
+      "explanation": "The Bulkhead pattern partitions service instances and resources to isolate failures. Like compartments in a ship, if one section fails, it doesn't sink the entire system. This improves resilience in distributed systems."
+    },
+    {
+      "id": "075",
+      "text": "In .NET, what is the difference between `String` and `StringBuilder`?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "`String` is immutable; `StringBuilder` is mutable and more efficient for multiple concatenations",
+        "They are identical",
+        "`StringBuilder` is slower",
+        "`String` can only store numbers"
+      ],
+      "correctAnswer": "`String` is immutable; `StringBuilder` is mutable and more efficient for multiple concatenations",
+      "explanation": "Strings in .NET are immutable - each modification creates a new string object. StringBuilder is mutable and uses a buffer that can be modified without creating new objects, making it more efficient for repeated string manipulations."
+    },
+    {
+      "id": "076",
+      "text": "What is Azure Application Insights used for?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Application performance monitoring and diagnostics",
+        "Creating mobile apps",
+        "Managing databases",
+        "Hosting websites"
+      ],
+      "correctAnswer": "Application performance monitoring and diagnostics",
+      "explanation": "Application Insights is an extensible Application Performance Management (APM) service. It monitors live applications, automatically detects performance anomalies, and includes analytics tools to diagnose issues and understand user behavior."
+    },
+    {
+      "id": "077",
+      "text": "What is the Retry pattern in distributed systems?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Automatically retrying failed operations with exponential backoff",
+        "Retrying user login attempts",
+        "Recompiling code on errors",
+        "Restarting servers"
+      ],
+      "correctAnswer": "Automatically retrying failed operations with exponential backoff",
+      "explanation": "The Retry pattern handles transient failures by automatically retrying operations. It typically uses exponential backoff and jitter to avoid overwhelming the failing service, improving reliability in distributed systems."
+    },
+    {
+      "id": "078",
+      "text": "Which PowerShell command is used in SharePoint PnP to connect to a SharePoint site?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "Connect-PnPOnline",
+        "Connect-SharePoint",
+        "New-SPConnection",
+        "Login-SharePoint"
+      ],
+      "correctAnswer": "Connect-PnPOnline",
+      "explanation": "Connect-PnPOnline is the PnP PowerShell command that establishes a connection to SharePoint Online or on-premises. It supports various authentication methods including credentials, app-only authentication, and MFA."
+    },
+    {
+      "id": "079",
+      "text": "What is the purpose of Health Checks in ASP.NET Core?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To expose endpoints that report application and dependency health status",
+        "To check developer health",
+        "To validate code syntax",
+        "To measure performance only"
+      ],
+      "correctAnswer": "To expose endpoints that report application and dependency health status",
+      "explanation": "Health Checks provide endpoints that report the health of an app and its dependencies (databases, external services). They're used by load balancers and orchestrators to determine if an instance is ready to receive traffic."
+    },
+    {
+      "id": "080",
+      "text": "What is Event Sourcing in software architecture?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Storing state changes as a sequence of events rather than just the current state",
+        "Finding the source of errors",
+        "Managing UI events",
+        "Tracking user clicks"
+      ],
+      "correctAnswer": "Storing state changes as a sequence of events rather than just the current state",
+      "explanation": "Event Sourcing persists the state of an entity as a sequence of state-changing events. This provides a complete audit trail, enables temporal queries, and allows rebuilding state at any point in time."
+    },
+    {
+      "id": "081",
+      "text": "Which Azure service provides managed Redis cache?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Azure Cache for Redis",
+        "Azure SQL Database",
+        "Azure Blob Storage",
+        "Azure Table Storage"
+      ],
+      "correctAnswer": "Azure Cache for Redis",
+      "explanation": "Azure Cache for Redis provides a managed in-memory data store based on Redis. It offers high throughput and low latency for frequently accessed data, supporting caching, session storage, and pub/sub messaging patterns."
+    },
+    {
+      "id": "082",
+      "text": "What is the Anti-Corruption Layer pattern?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "A translation layer between different subsystems that don't share the same semantics",
+        "A security feature to prevent SQL injection",
+        "A data validation technique",
+        "An encryption method"
+      ],
+      "correctAnswer": "A translation layer between different subsystems that don't share the same semantics",
+      "explanation": "The Anti-Corruption Layer (ACL) pattern creates a facade or adapter between a modern subsystem and a legacy system. It prevents the legacy system's model from 'corrupting' the new system's domain model."
+    },
+    {
+      "id": "083",
+      "text": "In .NET, what is the Global Assembly Cache (GAC)?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "A machine-wide cache for shared .NET assemblies",
+        "A web browser cache",
+        "A database cache",
+        "A memory management system"
+      ],
+      "correctAnswer": "A machine-wide cache for shared .NET assemblies",
+      "explanation": "The GAC is a machine-wide code cache for assemblies that need to be shared across multiple applications. It allows side-by-side versioning and is typically used for shared libraries and system components."
+    },
+    {
+      "id": "084",
+      "text": "What is Azure Cosmos DB best suited for?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Globally distributed, multi-model database with low latency",
+        "Relational data only",
+        "File storage",
+        "Email services"
+      ],
+      "correctAnswer": "Globally distributed, multi-model database with low latency",
+      "explanation": "Azure Cosmos DB is a globally distributed NoSQL database service that supports multiple data models (document, key-value, graph, column-family). It provides guaranteed single-digit millisecond latency and multiple consistency levels."
+    },
+    {
+      "id": "085",
+      "text": "What is the purpose of the Mediator pattern in .NET?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "To reduce coupling between objects by introducing a mediator object for communication",
+        "To mediate network traffic",
+        "To manage media files",
+        "To balance database connections"
+      ],
+      "correctAnswer": "To reduce coupling between objects by introducing a mediator object for communication",
+      "explanation": "The Mediator pattern (implemented by libraries like MediatR) reduces direct dependencies between objects by having them communicate through a mediator. This promotes loose coupling and aligns well with CQRS implementations."
+    },
+    {
+      "id": "086",
+      "text": "Which SharePoint feature allows external users to access content?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "External Sharing",
+        "Content Syndication",
+        "Public Folders",
+        "Open Access"
+      ],
+      "correctAnswer": "External Sharing",
+      "explanation": "SharePoint's External Sharing feature allows organizations to share sites, documents, and folders with people outside the organization. It supports anonymous links, authenticated external users, and can be controlled at tenant, site, and item levels."
+    },
+    {
+      "id": "087",
+      "text": "What is the purpose of Docker containers in .NET development?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "To package applications with their dependencies for consistent deployment across environments",
+        "To store documents",
+        "To manage databases only",
+        "To create backups"
+      ],
+      "correctAnswer": "To package applications with their dependencies for consistent deployment across environments",
+      "explanation": "Docker containers package applications and their dependencies into isolated units that run consistently across different environments. This eliminates 'works on my machine' problems and simplifies deployment and scaling."
+    },
+    {
+      "id": "088",
+      "text": "What is Azure Service Fabric?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "A distributed systems platform for building microservices and containers",
+        "A networking fabric",
+        "A textile management system",
+        "A database service"
+      ],
+      "correctAnswer": "A distributed systems platform for building microservices and containers",
+      "explanation": "Azure Service Fabric is a platform for building and managing scalable and reliable microservices and containers. It handles deployment, scaling, load balancing, and failure recovery, allowing developers to focus on business logic."
+    },
+    {
+      "id": "089",
+      "text": "What is the purpose of `IHostedService` in .NET Core?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To run background tasks in a hosted environment",
+        "To host web pages",
+        "To manage user sessions",
+        "To create virtual machines"
+      ],
+      "correctAnswer": "To run background tasks in a hosted environment",
+      "explanation": "`IHostedService` allows running background tasks in ASP.NET Core applications. It provides `StartAsync` and `StopAsync` methods for managing long-running operations like message queue processing or scheduled tasks."
+    },
+    {
+      "id": "090",
+      "text": "What is the Backends for Frontends (BFF) pattern?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Creating separate backend services optimized for specific frontend applications",
+        "A database design pattern",
+        "A UI component library",
+        "A testing framework"
+      ],
+      "correctAnswer": "Creating separate backend services optimized for specific frontend applications",
+      "explanation": "The BFF pattern involves creating separate backend services tailored to the needs of specific frontend applications (web, mobile, etc.). This allows each frontend to have an optimized API without compromising the needs of others."
+    },
+    {
+      "id": "091",
+      "text": "In ASP.NET Core, what is the purpose of Action Filters?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To execute code before and after action methods execute",
+        "To filter database records",
+        "To compress images",
+        "To validate URLs"
+      ],
+      "correctAnswer": "To execute code before and after action methods execute",
+      "explanation": "Action Filters allow running code before and after controller action methods. They're useful for cross-cutting concerns like logging, caching, authorization, and exception handling without repeating code in every action."
+    },
+    {
+      "id": "092",
+      "text": "What is Azure Front Door?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "A global load balancer and application delivery network with WAF capabilities",
+        "A physical entrance to Azure datacenters",
+        "A frontend framework",
+        "A user authentication service"
+      ],
+      "correctAnswer": "A global load balancer and application delivery network with WAF capabilities",
+      "explanation": "Azure Front Door is a global, scalable entry point that uses Microsoft's global edge network. It provides load balancing, SSL offload, URL-based routing, and Web Application Firewall protection for web applications."
+    },
+    {
+      "id": "093",
+      "text": "What is the Specification pattern in domain-driven design?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Encapsulating business rules in reusable, composable objects",
+        "Writing technical specifications",
+        "Database indexing strategy",
+        "API documentation standard"
+      ],
+      "correctAnswer": "Encapsulating business rules in reusable, composable objects",
+      "explanation": "The Specification pattern encapsulates business rules into composable objects that can be combined and reused. It's particularly useful for complex domain logic and query building while keeping the domain model clean."
+    },
+    {
+      "id": "094",
+      "text": "Which tool is commonly used for continuous integration in .NET projects?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "Azure DevOps Pipelines or GitHub Actions",
+        "Microsoft Word",
+        "Azure Storage Explorer",
+        "SQL Server Management Studio"
+      ],
+      "correctAnswer": "Azure DevOps Pipelines or GitHub Actions",
+      "explanation": "Azure DevOps Pipelines and GitHub Actions are popular CI/CD platforms for .NET projects. They provide automated build, test, and deployment workflows with extensive integration with .NET tools and Azure services."
+    },
+    {
+      "id": "095",
+      "text": "What is the purpose of SignalR in .NET?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To add real-time web functionality enabling server-to-client push",
+        "To create digital signatures",
+        "To manage SSL certificates",
+        "To schedule tasks"
+      ],
+      "correctAnswer": "To add real-time web functionality enabling server-to-client push",
+      "explanation": "SignalR is a library that simplifies adding real-time web functionality. It enables the server to push content to connected clients instantly using WebSockets (with fallbacks), making it ideal for chat, dashboards, and notifications."
+    },
+    {
+      "id": "096",
+      "text": "What is Azure Logic Apps?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "A cloud service for creating automated workflows and integrations",
+        "A machine learning service",
+        "A database management tool",
+        "A code editor"
+      ],
+      "correctAnswer": "A cloud service for creating automated workflows and integrations",
+      "explanation": "Azure Logic Apps enables building automated workflows that integrate apps, data, and services. It provides a visual designer and hundreds of connectors, making it easy to create enterprise integration and automation solutions."
+    },
+    {
+      "id": "097",
+      "text": "What is the Command pattern in software design?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Encapsulating a request as an object, allowing parameterization and queuing",
+        "Executing command-line operations",
+        "Managing terminal commands",
+        "Creating administrative privileges"
+      ],
+      "correctAnswer": "Encapsulating a request as an object, allowing parameterization and queuing",
+      "explanation": "The Command pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue requests, and support undoable operations. It's the foundation of the CQRS pattern."
+    },
+    {
+      "id": "098",
+      "text": "In SharePoint development, what is a Feature?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "A packaged set of functionality that can be activated or deactivated",
+        "A user interface element",
+        "A type of permission",
+        "A search query"
+      ],
+      "correctAnswer": "A packaged set of functionality that can be activated or deactivated",
+      "explanation": "A SharePoint Feature is a container for elements like web parts, lists, content types, and event receivers. Features can be scoped to different levels (farm, web application, site collection, site) and activated/deactivated as needed."
+    },
+    {
+      "id": "099",
+      "text": "What is the purpose of Azure Traffic Manager?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "DNS-based traffic routing to distribute traffic across global Azure regions",
+        "Managing network traffic within a single datacenter",
+        "Monitoring user traffic on websites",
+        "Creating traffic reports"
+      ],
+      "correctAnswer": "DNS-based traffic routing to distribute traffic across global Azure regions",
+      "explanation": "Azure Traffic Manager uses DNS to direct client requests to the most appropriate service endpoint based on routing methods like priority, weighted, performance, or geographic. It provides high availability and responsiveness."
+    },
+    {
+      "id": "100",
+      "text": "What is Polly in .NET?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "A resilience and transient-fault-handling library",
+        "A polling service",
+        "A survey framework",
+        "A parrot simulation"
+      ],
+      "correctAnswer": "A resilience and transient-fault-handling library",
+      "explanation": "Polly is a .NET library that provides patterns for handling transient faults. It offers retry, circuit breaker, timeout, bulkhead isolation, and fallback policies in a fluent API, making applications more resilient."
+    },
+    {
+      "id": "101",
+      "text": "What is the Decorator pattern in object-oriented design?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Dynamically adding behavior to objects without modifying their code",
+        "Decorating UI elements",
+        "Beautifying code comments",
+        "Adding metadata attributes"
+      ],
+      "correctAnswer": "Dynamically adding behavior to objects without modifying their code",
+      "explanation": "The Decorator pattern attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality, following the Open/Closed Principle."
+    },
+    {
+      "id": "102",
+      "text": "What is Azure Blob Storage primarily used for?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Storing unstructured data like documents, images, and videos",
+        "Hosting databases",
+        "Running virtual machines",
+        "Managing user authentication"
+      ],
+      "correctAnswer": "Storing unstructured data like documents, images, and videos",
+      "explanation": "Azure Blob Storage is optimized for storing massive amounts of unstructured data. It supports different access tiers (hot, cool, archive) and is commonly used for backup, media storage, and data lakes."
+    },
+    {
+      "id": "103",
+      "text": "What is the Observer pattern used for?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Defining a one-to-many dependency where observers are notified of state changes",
+        "Monitoring server performance",
+        "Watching user behavior",
+        "Creating surveillance systems"
+      ],
+      "correctAnswer": "Defining a one-to-many dependency where observers are notified of state changes",
+      "explanation": "The Observer pattern defines a subscription mechanism where multiple observers can be notified automatically when a subject's state changes. It's fundamental to event-driven programming and is implemented through events and delegates in .NET."
+    },
+    {
+      "id": "104",
+      "text": "In DevOps, what is a 'deployment slot' in Azure App Service?",
+      "type": "multiple-choice",
+      "category": "DevOps",
+      "answers": [
+        "A separate instance for staging that can be swapped with production",
+        "A time slot for deployments",
+        "A physical server slot",
+        "A deployment queue position"
+      ],
+      "correctAnswer": "A separate instance for staging that can be swapped with production",
+      "explanation": "Deployment slots are live apps with their own hostnames. You can deploy new versions to a staging slot, validate them, and then swap with production with zero downtime. This enables blue-green deployments."
+    },
+    {
+      "id": "105",
+      "text": "What is the Strategy pattern in software design?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Defining a family of algorithms and making them interchangeable",
+        "Planning software development strategies",
+        "Creating business strategies",
+        "Optimizing database queries"
+      ],
+      "correctAnswer": "Defining a family of algorithms and making them interchangeable",
+      "explanation": "The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently from clients that use it, promoting flexibility and testability."
+    },
+    {
+      "id": "106",
+      "text": "What is Azure Durable Functions?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "An extension for writing stateful workflows in a serverless environment",
+        "Functions that never time out",
+        "Long-running virtual machines",
+        "Permanent storage functions"
+      ],
+      "correctAnswer": "An extension for writing stateful workflows in a serverless environment",
+      "explanation": "Durable Functions extends Azure Functions with stateful workflows. It enables function chaining, fan-out/fan-in, and long-running orchestrations while maintaining serverless benefits through automatic checkpointing and replay."
+    },
+    {
+      "id": "107",
+      "text": "What is the Factory pattern used for?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Creating objects without specifying their exact classes",
+        "Manufacturing physical products",
+        "Managing factory databases",
+        "Optimizing production lines"
+      ],
+      "correctAnswer": "Creating objects without specifying their exact classes",
+      "explanation": "The Factory pattern provides an interface for creating objects, but lets subclasses decide which class to instantiate. It promotes loose coupling by eliminating the need to bind application-specific classes into the code."
+    },
+    {
+      "id": "108",
+      "text": "What is Power Apps?",
+      "type": "multiple-choice",
+      "category": "SharePoint",
+      "answers": [
+        "A low-code platform for building custom business applications",
+        "A power management tool",
+        "A mobile app store",
+        "An exercise application"
+      ],
+      "correctAnswer": "A low-code platform for building custom business applications",
+      "explanation": "Power Apps enables users to build custom apps with little or no code. It connects to various data sources, provides a drag-and-drop interface, and can create canvas apps, model-driven apps, or portals."
+    },
+    {
+      "id": "109",
+      "text": "What is the purpose of `ModelState` in ASP.NET Core MVC?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To track validation errors and model binding results",
+        "To store the application state",
+        "To manage database models",
+        "To control UI state"
+      ],
+      "correctAnswer": "To track validation errors and model binding results",
+      "explanation": "`ModelState` represents the state of model binding and validation. It contains errors from model binding and validation, allowing controllers to check `ModelState.IsValid` before processing requests."
+    },
+    {
+      "id": "110",
+      "text": "What is Azure Monitor?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "A comprehensive monitoring solution for collecting, analyzing, and acting on telemetry",
+        "A display screen",
+        "A monitoring device",
+        "A security camera system"
+      ],
+      "correctAnswer": "A comprehensive monitoring solution for collecting, analyzing, and acting on telemetry",
+      "explanation": "Azure Monitor maximizes availability and performance by collecting, analyzing, and acting on telemetry from cloud and on-premises environments. It includes metrics, logs, alerts, and integration with Application Insights."
+    },
+    {
+      "id": "111",
+      "text": "What is the Adapter pattern in software design?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Converting an interface into another interface that clients expect",
+        "Adapting to user preferences",
+        "Creating hardware adapters",
+        "Adjusting screen resolution"
+      ],
+      "correctAnswer": "Converting an interface into another interface that clients expect",
+      "explanation": "The Adapter pattern allows incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces by wrapping an existing class with a new interface, enabling reuse of existing functionality."
+    },
+    {
+      "id": "112",
+      "text": "What is Azure SQL Database?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "A fully managed relational database service based on SQL Server",
+        "A NoSQL database",
+        "A file storage system",
+        "A message queue"
+      ],
+      "correctAnswer": "A fully managed relational database service based on SQL Server",
+      "explanation": "Azure SQL Database is a managed relational database service built on SQL Server engine. It provides automatic updates, scaling, backups, and high availability without the need to manage infrastructure."
+    },
+    {
+      "id": "113",
+      "text": "What is the Singleton pattern?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Ensuring a class has only one instance with global access",
+        "Creating single-page applications",
+        "Managing single users",
+        "Running single-threaded applications"
+      ],
+      "correctAnswer": "Ensuring a class has only one instance with global access",
+      "explanation": "The Singleton pattern restricts instantiation of a class to one object and provides a global point of access. While useful, it should be used sparingly as it can create hidden dependencies and testing challenges."
+    },
+    {
+      "id": "114",
+      "text": "What is Blazor in .NET?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "A framework for building interactive web UIs using C# instead of JavaScript",
+        "A fire effect library",
+        "A game engine",
+        "A video editing tool"
+      ],
+      "correctAnswer": "A framework for building interactive web UIs using C# instead of JavaScript",
+      "explanation": "Blazor allows building interactive web applications using C# and .NET instead of JavaScript. It supports WebAssembly (client-side) and Server-side hosting models, enabling full-stack .NET development."
+    },
+    {
+      "id": "115",
+      "text": "What is the purpose of Azure Resource Manager (ARM) templates?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "Declarative infrastructure deployment and management",
+        "Managing employee resources",
+        "Creating project templates",
+        "Designing user interfaces"
+      ],
+      "correctAnswer": "Declarative infrastructure deployment and management",
+      "explanation": "ARM templates are JSON files that define infrastructure and configuration for Azure resources. They enable Infrastructure as Code, allowing consistent, repeatable deployments with version control and testing."
+    },
+    {
+      "id": "116",
+      "text": "What is the Template Method pattern?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Defining a skeleton of an algorithm with steps that subclasses can override",
+        "Creating document templates",
+        "Using email templates",
+        "Generating code templates"
+      ],
+      "correctAnswer": "Defining a skeleton of an algorithm with steps that subclasses can override",
+      "explanation": "The Template Method pattern defines the skeleton of an algorithm in a base class, letting subclasses override specific steps without changing the algorithm's structure. It promotes code reuse and enforces a workflow."
+    },
+    {
+      "id": "117",
+      "text": "What is Entity Framework Core?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "A modern object-relational mapper (ORM) for .NET",
+        "A web framework",
+        "A testing framework",
+        "A security library"
+      ],
+      "correctAnswer": "A modern object-relational mapper (ORM) for .NET",
+      "explanation": "Entity Framework Core is a lightweight, cross-platform ORM that enables .NET developers to work with databases using .NET objects. It supports LINQ queries, change tracking, and code-first or database-first approaches."
+    },
+    {
+      "id": "118",
+      "text": "What is Azure Container Registry?",
+      "type": "multiple-choice",
+      "category": "Azure",
+      "answers": [
+        "A managed Docker registry service for storing container images",
+        "A registry of Azure datacenters",
+        "A shipping container tracker",
+        "A user registration service"
+      ],
+      "correctAnswer": "A managed Docker registry service for storing container images",
+      "explanation": "Azure Container Registry stores and manages private Docker container images and artifacts. It integrates with AKS, Azure DevOps, and other services, supporting geo-replication and security scanning."
+    },
+    {
+      "id": "119",
+      "text": "What is the Proxy pattern used for?",
+      "type": "multiple-choice",
+      "category": "Architecture",
+      "answers": [
+        "Providing a surrogate to control access to another object",
+        "Managing network proxies",
+        "Creating proxy servers",
+        "Voting by proxy"
+      ],
+      "correctAnswer": "Providing a surrogate to control access to another object",
+      "explanation": "The Proxy pattern provides a placeholder for another object to control access to it. It can add lazy initialization, access control, logging, or caching without changing the original object's code."
+    },
+    {
+      "id": "120",
+      "text": "What is the purpose of Background Services in .NET Core?",
+      "type": "multiple-choice",
+      "category": "DotNet",
+      "answers": [
+        "To run long-running background tasks within an application",
+        "To change background colors",
+        "To manage wallpapers",
+        "To play background music"
+      ],
+      "correctAnswer": "To run long-running background tasks within an application",
+      "explanation": "Background Services (implementing `BackgroundService` base class) enable running long-running operations in ASP.NET Core. They're useful for scheduled tasks, message processing, and continuous monitoring operations."
+    },
+    {
+      "id": "121",
+      "text": ".NET Core is cross-platform and can run on Windows, Linux, and macOS.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": ".NET Core (now .NET 5+) is a cross-platform, open-source framework that runs on Windows, Linux, and macOS, enabling developers to build and deploy applications across different operating systems."
+    },
+    {
+      "id": "122",
+      "text": "Microservices should share a single database to ensure data consistency.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Microservices should follow database-per-service pattern where each service owns its data. This ensures loose coupling and allows services to evolve independently. Consistency is managed through eventual consistency patterns."
+    },
+    {
+      "id": "123",
+      "text": "Azure Functions can only be triggered by HTTP requests.",
+      "type": "true-false",
+      "category": "Azure",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "Azure Functions supports numerous triggers including HTTP, timers, Azure Storage queues and blobs, Service Bus, Event Grid, Cosmos DB changes, and more, making them versatile for various scenarios."
+    },
+    {
+      "id": "124",
+      "text": "In SOLID principles, the 'D' stands for Dependency Inversion.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "The 'D' in SOLID stands for Dependency Inversion Principle, which states that high-level modules should not depend on low-level modules; both should depend on abstractions."
+    },
+    {
+      "id": "125",
+      "text": "SharePoint Framework (SPFx) solutions must be deployed to the SharePoint app catalog.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "SPFx solutions are packaged as .sppkg files that must be uploaded to the tenant or site collection app catalog before they can be added to SharePoint sites."
+    },
+    {
+      "id": "126",
+      "text": "Async methods in C# must always return Task or Task<T>.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "While most async methods return Task or Task<T>, they can also return void (for event handlers), ValueTask<T> (for performance), or custom awaitable types. However, async void should generally be avoided except for event handlers."
+    },
+    {
+      "id": "127",
+      "text": "Azure DevOps supports both Git and TFVC for source control.",
+      "type": "true-false",
+      "category": "DevOps",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Azure DevOps Repos supports both Git (distributed version control) and Team Foundation Version Control (TFVC, centralized version control), allowing teams to choose based on their preferences."
+    },
+    {
+      "id": "128",
+      "text": "The Repository pattern eliminates the need for Entity Framework.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "The Repository pattern is an abstraction layer over data access, often implemented using Entity Framework. It doesn't replace EF but provides an additional layer of abstraction for better testability and maintainability."
+    },
+    {
+      "id": "129",
+      "text": "LINQ queries are always executed immediately when they are defined.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "LINQ queries use deferred execution by default - they're not executed until the results are enumerated (e.g., in a foreach loop or calling ToList()). This allows for query composition and optimization."
+    },
+    {
+      "id": "130",
+      "text": "Azure App Service can automatically scale based on metrics like CPU usage.",
+      "type": "true-false",
+      "category": "Azure",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Azure App Service supports autoscaling based on various metrics including CPU percentage, memory percentage, HTTP queue length, and custom metrics. It can scale out/in based on rules and schedules."
+    },
+    {
+      "id": "131",
+      "text": "In Domain-Driven Design, the domain layer should have dependencies on infrastructure concerns.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "In DDD, the domain layer should be free of infrastructure dependencies. Dependencies should point inward toward the domain, with infrastructure depending on domain abstractions (interfaces) - this is Dependency Inversion."
+    },
+    {
+      "id": "132",
+      "text": "RESTful APIs must use XML for data transfer.",
+      "type": "true-false",
+      "category": "General",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "REST is format-agnostic. While JSON is the most common format today, REST APIs can use XML, JSON, plain text, or any other format. The key is proper use of HTTP methods and status codes."
+    },
+    {
+      "id": "133",
+      "text": "Power Automate can integrate with third-party services like Twitter and Salesforce.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Power Automate has hundreds of connectors for both Microsoft and third-party services, including Twitter, Salesforce, Dropbox, Google services, and many more, enabling broad integration capabilities."
+    },
+    {
+      "id": "134",
+      "text": "Azure Kubernetes Service (AKS) automatically manages Kubernetes master nodes.",
+      "type": "true-false",
+      "category": "Azure",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "AKS is a managed Kubernetes service where Azure handles the control plane (master nodes) including updates, patches, and high availability. Users only manage and pay for the agent (worker) nodes."
+    },
+    {
+      "id": "135",
+      "text": "The Open/Closed Principle states that classes should be open for modification and closed for extension.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "The Open/Closed Principle states the opposite: software entities should be open for extension but closed for modification. You should be able to add new functionality without changing existing code."
+    },
+    {
+      "id": "136",
+      "text": "In ASP.NET Core, middleware components are executed in the order they are added.",
+      "type": "true-false",
+      "category": "DotNet",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Middleware components in ASP.NET Core form a pipeline and are executed in the order they're registered in the Configure method. The order matters significantly for proper request processing."
+    },
+    {
+      "id": "137",
+      "text": "Azure Service Bus supports both queues and topics/subscriptions.",
+      "type": "true-false",
+      "category": "Messaging",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Azure Service Bus provides both queues (point-to-point communication) and topics with subscriptions (publish-subscribe pattern), offering flexible messaging patterns for different scenarios."
+    },
+    {
+      "id": "138",
+      "text": "SharePoint Search results are the same for all users regardless of permissions.",
+      "type": "true-false",
+      "category": "SharePoint",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "SharePoint Search implements security trimming at the item level. Users only see search results for content they have permission to access, ensuring security is maintained in search results."
+    },
+    {
+      "id": "139",
+      "text": "Event-driven architecture always requires a message broker.",
+      "type": "true-false",
+      "category": "Architecture",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanation": "While message brokers (like Service Bus or Event Grid) are common in event-driven architectures, events can also be handled directly through callbacks, delegates, or in-memory event buses for simpler scenarios."
+    },
+    {
+      "id": "140",
+      "text": "Azure Application Gateway can perform SSL/TLS termination.",
+      "type": "true-false",
+      "category": "Azure",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Azure Application Gateway supports SSL/TLS termination, offloading the decryption workload from backend servers. It also supports end-to-end SSL and can re-encrypt traffic to backend pools."
+    },
+    {
       "id": "141",
       "text": "A .NET solution architect should prioritize coupling over cohesion.",
       "type": "true-false",
